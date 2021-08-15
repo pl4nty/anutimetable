@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const fns = require('date-fns-tz');
+const setTZ = require('set-tz');
 const ics = require('ics');
 
 // Convert JavaScript Date to array of integers
@@ -13,7 +13,9 @@ const tz = 'Australia/Canberra';
 module.exports = async function (context, req) {
     let data = await fetch('https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json').then(res => res.json())
     const events = [];
-    process.env.tz = 'Australia/Canberra';
+    // hardcode timezone (timezones are hard and it's 11:30pm mkay)
+    // Azure SWA blocks WEBSITE_TIME_ZONE in its Function runtime :(
+    setTZ('Australia/Canberra');
     for (let module of Object.keys(req.query)) {
         const course = data[module];
         
@@ -26,6 +28,7 @@ module.exports = async function (context, req) {
 
             for (let session of course.classes) {
                 if (!selected[session.activity] || selected[session.activity] === session.occurrence) {    
+                    console.log(process.env.TZ)
                     const currentYear = (new Date()).getFullYear();
                 
                     // Days from start of year until first Monday - aka Week 0
@@ -39,8 +42,6 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
-                        // hardcode hour offset to -10 to suit Functions runtime (timezones are hard and it's 11:30pm mkay)
-                        // Azure SWA blocks WEBSITE_TIME_ZONE :(
                         let start = new Date(currentYear, 0, day, ...session.start.split(':'));
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
