@@ -13,6 +13,7 @@ const tz = 'Australia/Canberra';
 module.exports = async function (context, req) {
     let data = await fetch('https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json').then(res => res.json())
     const events = [];
+    process.env.tz = 'Australia/Canberra';
     for (let module of Object.keys(req.query)) {
         const course = data[module];
         
@@ -41,12 +42,10 @@ module.exports = async function (context, req) {
                         // hardcode hour offset to -10 to suit Functions runtime (timezones are hard and it's 11:30pm mkay)
                         // Azure SWA blocks WEBSITE_TIME_ZONE :(
                         let start = new Date(currentYear, 0, day, ...session.start.split(':'));
-                        end = fns.utcToZonedTime(start, tz)
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
                         let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
-                        end = fns.utcToZonedTime(end, tz)
                         end = dateToArray(end)
 
                         events.push({
