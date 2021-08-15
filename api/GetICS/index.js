@@ -41,12 +41,12 @@ module.exports = async function (context, req) {
                         // hardcode hour offset to -10 to suit Functions runtime (timezones are hard and it's 11:30pm mkay)
                         // Azure SWA blocks WEBSITE_TIME_ZONE :(
                         let start = new Date(currentYear, 0, day, ...session.start.split(':'));
-                        start.setHours(start.getHours()-10)
+                        end = fns.utcToZonedTime(start, tz)
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
                         let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
-                        end.setHours(end.getHours()-10)
+                        end = fns.utcToZonedTime(end, tz)
                         end = dateToArray(end)
 
                         events.push({
