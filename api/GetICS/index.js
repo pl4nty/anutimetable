@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const fns = require('date-fns-tz');
 const ics = require('ics');
 
 // Convert JavaScript Date to array of integers
@@ -7,6 +8,7 @@ function dateToArray(date) {
 }
 
 const days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
+const tz = 'Australia/Canberra';
 
 module.exports = async function (context, req) {
     let data = await fetch('https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json').then(res => res.json())
@@ -36,11 +38,11 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
-                        let start = new Date(currentYear, 0, day, ...session.start.split(':'))
+                        let start = new Date(currentYear, 0, day, ...session.start.split(':').map(x => fns.zonedTimeToUtc(x,tz)))
                         const weekday = days[start.getUTCDay()]
                         
                         start = dateToArray(start);
-                        const end = dateToArray(new Date(currentYear, 0, day, ...session.finish.split(':')))
+                        const end = dateToArray(new Date(currentYear, 0, day, ...session.finish.split(':').map(x => fns.zonedTimeToUtc(x,tz))))
 
                         events.push({
                             start,
