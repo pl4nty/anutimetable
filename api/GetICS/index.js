@@ -38,12 +38,16 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
+                        // hardcode hour offset to -10 to suit Functions runtime (timezones are hard and it's 11:30pm mkay)
+                        // Azure SWA blocks WEBSITE_TIME_ZONE :(
                         let start = new Date(currentYear, 0, day, ...session.start.split(':'));
-                        start = fns.zonedTimeToUtc(start,tz)
+                        start.setHours(start.getHours()-10)
                         const weekday = days[start.getUTCDay()]
-
                         start = dateToArray(start);
-                        const end = dateToArray(fns.zonedTimeToUtc(new Date(currentYear, 0, day, ...session.finish.split(':'))),tz)
+
+                        let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
+                        end.setHours(end.getHours()-10)
+                        end = dateToArray(end)
 
                         events.push({
                             start,
