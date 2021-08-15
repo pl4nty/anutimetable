@@ -38,11 +38,12 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
-                        let start = new Date(currentYear, 0, day, ...session.start.split(':').map(x => fns.zonedTimeToUtc(x,tz)))
+                        let start = new Date(currentYear, 0, day, ...session.start.split(':'));
+                        start = fns.zonedTimeToUtc(start,tz)
                         const weekday = days[start.getUTCDay()]
-                        
+
                         start = dateToArray(start);
-                        const end = dateToArray(new Date(currentYear, 0, day, ...session.finish.split(':').map(x => fns.zonedTimeToUtc(x,tz))))
+                        const end = dateToArray(fns.zonedTimeToUtc(new Date(currentYear, 0, day, ...session.finish.split(':'))),tz)
 
                         events.push({
                             start,
