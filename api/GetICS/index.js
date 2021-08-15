@@ -16,7 +16,7 @@ module.exports = async function (context, req) {
     const events = [];
     // hardcode timezone (timezones are hard and it's 11:30pm mkay)
     // Azure SWA blocks WEBSITE_TIME_ZONE in its Function runtime :(
-    setTZ('Australia/Canberra');
+    setTZ('Australia/Sydney');
     for (let module of Object.keys(req.query)) {
         const course = data[module];
         
@@ -30,7 +30,7 @@ module.exports = async function (context, req) {
             for (let session of course.classes) {
                 if (!selected[session.activity] || selected[session.activity] === session.occurrence) {    
                     console.log(process.env.TZ)
-                    const currentYear = (fns.toDate(new Date(), { timeZone: tz }).getFullYear();
+                    const currentYear = (fns.toDate(new Date(), { timeZone: tz }).getFullYear())
                     
                     // Days from start of year until first Monday - aka Week 0
                     // modulo 7 in case start of year is a Monday
@@ -45,12 +45,12 @@ module.exports = async function (context, req) {
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
                         let start = new Date(currentYear, 0, day, ...session.start.split(':'));
-                        start = fns.toDate(start, { timeZone: tz });
+                        // start = fns.toDate(start, { timeZone: tz });
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
                         let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
-                        end = fns.toDate(end, { timeZone: tz });
+                        // end = fns.toDate(end, { timeZone: tz });
                         end = dateToArray(end)
 
                         events.push({
