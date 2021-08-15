@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const setTZ = require('set-tz');
+const fns = require('date-fns-tz');
 const ics = require('ics');
 
 // Convert JavaScript Date to array of integers
@@ -29,11 +30,12 @@ module.exports = async function (context, req) {
             for (let session of course.classes) {
                 if (!selected[session.activity] || selected[session.activity] === session.occurrence) {    
                     console.log(process.env.TZ)
-                    const currentYear = (new Date()).getFullYear();
-                
+                    const currentYear = (fns.toDate(new Date(), { timeZone: tz }).getFullYear();
+                    
                     // Days from start of year until first Monday - aka Week 0
                     // modulo 7 in case start of year is a Monday
-                    const d = new Date(currentYear, 0, 0);
+                    let d = new Date(currentYear, 0, 0);
+                    d = fns.toDate(d, { timeZone: tz });
                     d.setDate(d.getDate() + ((7-d.getDay())%7+1) % 7 + 2);
                     const dayDiff = d.getDay() % 7;
 
@@ -43,10 +45,12 @@ module.exports = async function (context, req) {
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
                         let start = new Date(currentYear, 0, day, ...session.start.split(':'));
+                        start = fns.toDate(start, { timeZone: tz });
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
                         let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
+                        end = fns.toDate(end, { timeZone: tz });
                         end = dateToArray(end)
 
                         events.push({
