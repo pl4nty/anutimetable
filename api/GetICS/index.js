@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const setTZ = require('set-tz');
+// const setTZ = require('set-tz');
 const fns = require('date-fns-tz');
 const ics = require('ics');
 
@@ -9,15 +9,23 @@ function dateToArray(date) {
 }
 
 const days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
-const tz = 'Australia/Canberra';
+const tz = 'Australia/Sydney';
 
 module.exports = async function (context, req) {
+    const codes = Object.keys(req.query);
+    if (codes.length === 0 || typeof Intl !== 'object') {
+        context.res = {
+            status: 404,
+            body: "Please provide a course code in the query parameter (eg COMP2310)"
+        };
+        context.done();
+    }
+
     let data = await fetch('https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json').then(res => res.json())
     const events = [];
     // hardcode timezone (timezones are hard and it's 11:30pm mkay)
     // Azure SWA blocks WEBSITE_TIME_ZONE in its Function runtime :(
-    setTZ('Australia/Sydney');
-    for (let module of Object.keys(req.query)) {
+    for (let module of codes) {
         const course = data[module];
         
         if (course) {
@@ -28,14 +36,13 @@ module.exports = async function (context, req) {
             });
 
             for (let session of course.classes) {
-                if (!selected[session.activity] || selected[session.activity] === session.occurrence) {    
-                    console.log(process.env.TZ)
-                    const currentYear = (fns.toDate(new Date(), { timeZone: tz }).getFullYear())
+                if (!selected[session.activity] || selected[session.activity] === session.occurrence) {
+                    const currentYear = (fns.zonedTimeToUtc(new Date(), {timeZone: tz})).getFullYear();
                     
                     // Days from start of year until first Monday - aka Week 0
                     // modulo 7 in case start of year is a Monday
                     let d = new Date(currentYear, 0, 0);
-                    d = fns.toDate(d, { timeZone: tz });
+                    d = fns.zonedTimeToUtc(d, { timeZone: tz });
                     d.setDate(d.getDate() + ((7-d.getDay())%7+1) % 7 + 2);
                     const dayDiff = d.getDay() % 7;
 
@@ -44,12 +51,13 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
-                        let start = new Date(currentYear, 0, day, ...session.start.split(':'));
+                        let start = new Date(currentYear, 0, day, ...session.start.split(':'))
                         // start = fns.toDate(start, { timeZone: tz });
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
                         let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
+                        console.log(end)
                         // end = fns.toDate(end, { timeZone: tz });
                         end = dateToArray(end)
 
