@@ -71,7 +71,7 @@ module.exports = async function (context, req) {
                         
                         const day = dayOffset + 7*(interval[0]-2) + parseInt(session.day) + 1
                         
-                        let startDay = new Date(yearStart.getTime())
+                        let startDay = fns.utcToZonedTime(new Date(yearStart.getTime()), tz)
                         startDay.setDate(day)
                         const weekday = days[startDay.getDay()]-1 // assumes no multi-day events
 
