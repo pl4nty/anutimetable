@@ -51,12 +51,12 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
-                        let start = new Date(currentYear, 0, day, ...session.start.split(':'))
+                        let start = fns.zonedTimeToUtc(new Date(currentYear, 0, day, ...session.start.split(':')), {timeZone: tz});
                         // start = fns.toDate(start, { timeZone: tz });
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
-                        let end = new Date(currentYear, 0, day, ...session.finish.split(':'))
+                        let end = fns.zonedTimeToUtc(new Date(currentYear, 0, day, ...session.finish.split(':')), {timeZone: tz});
                         console.log(end)
                         // end = fns.toDate(end, { timeZone: tz });
                         end = dateToArray(end)
