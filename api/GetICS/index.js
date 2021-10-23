@@ -84,9 +84,9 @@ module.exports = async function (context, req) {
 
     const { value, error } = ics.createEvents(events)
     context.res = {
-        // status: 200,
-        // headers: {'Content-Type': 'text/calendar'},
-        // body: value
+        status: 200,
+        headers: {'Content-Type': 'text/calendar'},
+        body: value
     };
     context.done();
 };
