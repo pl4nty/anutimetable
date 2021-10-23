@@ -51,13 +51,16 @@ module.exports = async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const day = dayDiff + 7*(interval[0]-1) + parseInt(session.day) - 6
 
-                        let start = fns.zonedTimeToUtc(new Date(currentYear, 0, day, ...session.start.split(':')), {timeZone: tz});
+                        let start = new Date(currentYear, 0, day, ...session.start.split(':'));
+                        start = fns.zonedTimeToUtc(start, {timeZone: tz});
+                        start = fns.utcToZonedTime(start, {timeZone: tz});
                         // start = fns.toDate(start, { timeZone: tz });
                         const weekday = days[start.getUTCDay()]
                         start = dateToArray(start);
 
-                        let end = fns.zonedTimeToUtc(new Date(currentYear, 0, day, ...session.finish.split(':')), {timeZone: tz});
-                        console.log(end)
+                        let end = new Date(currentYear, 0, day, ...session.finish.split(':'));
+                        end = fns.zonedTimeToUtc(end, {timeZone: tz});
+                        end = fns.utcToZonedTime(end, {timeZone: tz});
                         // end = fns.toDate(end, { timeZone: tz });
                         end = dateToArray(end)
 
@@ -81,9 +84,9 @@ module.exports = async function (context, req) {
 
     const { value, error } = ics.createEvents(events)
     context.res = {
-        status: 200,
-        headers: {'Content-Type': 'text/calendar'},
-        body: value
+        // status: 200,
+        // headers: {'Content-Type': 'text/calendar'},
+        // body: value
     };
     context.done();
 };
