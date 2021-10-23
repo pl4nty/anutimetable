@@ -12,7 +12,7 @@ function timesToArray(date, timeString) {
     date.setHours(times[0])
     date.setMinutes(times[1])
     date.setSeconds(0)
-    return fns.format(date, 'y,M,d,H,m,s').split(',').map(x => parseInt(x))
+    return fns.format(date, 'y,M,d,H,m,s', { timeZone: tz}).split(',').map(x => parseInt(x))
 }
 
 // eg ?COMP2310_S2=COMP2310_S2-LecA/01,COMP2310_S2-LecB/01
