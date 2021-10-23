@@ -59,7 +59,10 @@ module.exports = async function (context, req) {
                     // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
                     // Days from start of year until first Monday - aka Week 0
                     let yearStart = fns.utcToZonedTime(new Date(), tz)
+                    context.log(yearStart)
+                    context.log(new Date())
                     yearStart.setMonth(0,1)
+                    context.log(yearStart)
 
                     const year = yearStart.getFullYear()
                     const dayOffset = (8 - yearStart.getDay()) % 7
@@ -71,8 +74,11 @@ module.exports = async function (context, req) {
                         
                         const day = dayOffset + 7*(interval[0]-2) + parseInt(session.day) + 1
                         
+                        context.log(yearStart)
                         let startDay = fns.utcToZonedTime(new Date(yearStart.getTime()), tz)
+                        context.log(startDay)
                         startDay.setDate(day)
+                        context.log(startDay)
                         const weekday = days[startDay.getDay()]-1 // assumes no multi-day events
 
                         events.push({
