@@ -1,6 +1,8 @@
 import fetch from 'node-fetch'
-import { format, utcToZonedTime } from 'date-fns-tz'
-import { createEvents } from 'ics'
+import fns from 'date-fns-tz'
+const { format, utcToZonedTime } = fns
+import ics from 'ics'
+const { createEvents } = ics
 
 const TIMETABLE_JSON = 'https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json'
 const tz = 'Australia/Canberra'
