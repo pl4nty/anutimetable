@@ -34,6 +34,16 @@ jobs:
         env:
           REACT_APP_INSIGHTS_STRING: ${{ secrets.REACT_APP_INSIGHTS_STRING }}
 
+      - name: Publish API artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          path: api
+
+      - name: Publish build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          path: build
+
   cleanup_pr:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
