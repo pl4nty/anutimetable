@@ -1,8 +1,7 @@
-import fetch from 'node-fetch'
-import fns from 'date-fns-tz'
-const { format, utcToZonedTime } = fns
-import ics from 'ics'
-const { createEvents } = ics
+const fetch = require('node-fetch')
+// const setTZ = require('set-tz')
+const fns = require('date-fns-tz')
+const ics = require('ics')
 
 const TIMETABLE_JSON = 'https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json'
 const tz = 'Australia/Canberra'
@@ -14,11 +13,11 @@ function timesToArray(date, timeString) {
     date.setHours(times[0])
     date.setMinutes(times[1])
     date.setSeconds(0)
-    return format(date, 'y,M,d,H,m,s', { timeZone: tz }).split(',').map(x => parseInt(x))
+    return fns.format(date, 'y,M,d,H,m,s', { timeZone: tz }).split(',').map(x => parseInt(x))
 }
 
 // eg ?COMP2310_S2=LecA 01,LecB 01
-export default async function (context, req) {
+module.exports = async function (context, req) {
     context.log.info(`Running in node ${process.version}`)
 
     const courseCodes = Object.keys(req.query)
@@ -60,7 +59,7 @@ export default async function (context, req) {
                     
                     // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
                     // Days from start of year until first Monday - aka Week 0
-                    let yearStart = utcToZonedTime(new Date(), tz)
+                    let yearStart = fns.utcToZonedTime(new Date(), tz)
                     yearStart.setMonth(0,1)
 
                     const year = yearStart.getFullYear()
@@ -73,7 +72,7 @@ export default async function (context, req) {
                         
                         const day = dayOffset + 7*(interval[0]-2) + parseInt(session.day) + 1
                         
-                        let startDay = utcToZonedTime(new Date(yearStart.getTime()), tz)
+                        let startDay = fns.utcToZonedTime(new Date(yearStart.getTime()), tz)
                         startDay.setDate(day)
                         const weekday = days[startDay.getDay()] // assumes no multi-day events
 
@@ -97,7 +96,7 @@ export default async function (context, req) {
     }
 
     if (events.length !== 0) {
-        let { value } = createEvents(events)
+        let { value } = ics.createEvents(events)
 
         // Cursed timezone magic
         // Breaks if Canberra TZ changes
