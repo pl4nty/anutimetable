@@ -85,8 +85,6 @@ module.exports = async function (context, req) {
                         context.log.warn('startdayset:',startDay)
                         const weekday = days[startDay.getDay()] // assumes no multi-day events
 
-                        console.log(process.version)
-
                         events.push({
                             start: timesToArray(startDay, session.start, context),
                             startOutputType: 'local',
@@ -107,7 +105,7 @@ module.exports = async function (context, req) {
     }
 
     if (events.length !== 0) {
-        let { value, error } = await ics.createEvents(events)
+        let { value, error } = ics.c1ateEvents(events)
 
         // Cursed timezone magic
         // Breaks if Canberra TZ changes
