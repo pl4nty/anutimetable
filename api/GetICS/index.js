@@ -1,5 +1,4 @@
 const fetch = require('node-fetch')
-// const setTZ = require('set-tz')
 const fns = require('date-fns-tz')
 const ics = require('ics')
 
@@ -24,6 +23,7 @@ module.exports = async function (context, req) {
     
     // require Intl module for timezone handling
     if (courseCodes.length === 0 || typeof Intl !== 'object') {
+        context.log.warn(`Invalid query: ${req.query}`)
         context.res = {
             status: 404,
             body: 'Please provide a course code eg /GetICS?COMP2310)'
@@ -31,12 +31,17 @@ module.exports = async function (context, req) {
         context.done()
     }
 
-
     let timetable
     try {
         timetable = await fetch(TIMETABLE_JSON).then(res => res.json())
     } catch (e) {
-        throw `Couldn't load timetable data: ${e}`
+        const err = "Couldn't load timetable data"
+        context.log.error(err+`: ${e}`)
+        context.res = {
+            status: 503,
+            body: err
+        }
+        context.done()
     }
 
     const events = []
@@ -53,7 +58,6 @@ module.exports = async function (context, req) {
             }, {})
 
             for (let session of course.classes) {
-                
                 // If occurrence of activity is selected (eg TutA 01), skip other occurrences (eg TutA 02)
                 if (!selected[session.activity] || selected[session.activity].includes(session.occurrence)) {
                     
@@ -96,13 +100,20 @@ module.exports = async function (context, req) {
     }
 
     if (events.length !== 0) {
-        let { value } = ics.createEvents(events)
+        let { value, err } = ics.createEvents(events)
 
-        // Cursed timezone magic
-        // Breaks if Canberra TZ changes
-        value = value.replace(/DTSTART/g, 'DTSTART;TZID="Australia/Canberra"')
-        value = value.replace(/DTEND/g, 'DTEND;TZID="Australia/Canberra"')
-        value = value.replace(/BEGIN:VEVENT/,`BEGIN:VTIMEZONE
+        if (err) {
+            const err = "ICS creation failed"
+            context.log.error(err+`${err}`)
+            context.res = {
+                status: 500,
+                body: err
+            }
+        } else {
+            // Cursed timezone magic, breaks if Canberra TZ changes
+            value = value.replace(/DTSTART/g, 'DTSTART;TZID="Australia/Canberra"')
+            value = value.replace(/DTEND/g, 'DTEND;TZID="Australia/Canberra"')
+            value = value.replace(/BEGIN:VEVENT/,`BEGIN:VTIMEZONE
 TZID:Australia/Canberra
 X-LIC-LOCATION:Australia/Canberra
 BEGIN:DAYLIGHT
@@ -122,10 +133,11 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT`)
 
-        context.res = {
-            status: 200,
-            headers: {'Content-Type': 'text/calendar'},
-            body: value
+            context.res = {
+                status: 200,
+                headers: {'Content-Type': 'text/calendar'},
+                body: value
+            }
         }
     } else {
         context.res = {
