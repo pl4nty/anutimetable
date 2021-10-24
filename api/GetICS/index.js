@@ -105,7 +105,7 @@ module.exports = async function (context, req) {
     }
 
     if (events.length !== 0) {
-        let { value, error } = ics.c1ateEvents(events)
+        let { value, error } = ics.createEvents(events)
 
         // Cursed timezone magic
         // Breaks if Canberra TZ changes
