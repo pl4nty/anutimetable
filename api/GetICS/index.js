@@ -1,25 +1,22 @@
-const fetch = require('node-fetch')
-// const setTZ = require('set-tz')
-const fns = require('date-fns-tz')
-const ics = require('ics')
+import fetch from 'node-fetch'
+import { format, utcToZonedTime } from 'date-fns-tz'
+import { createEvents } from 'ics'
 
 const TIMETABLE_JSON = 'https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/timetable.json'
 const tz = 'Australia/Canberra'
 const days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA']
 
-function timesToArray(date, timeString, context) {
+// eg 2021-02-16,10:00 => [2021,2,16,10,0]
+function timesToArray(date, timeString) {
     const times = timeString.split(':')
     date.setHours(times[0])
     date.setMinutes(times[1])
     date.setSeconds(0)
-    context.log.error('date:',date)
-    let date2 = fns.format(date, 'y,M,d,H,m,s', { timeZone: tz}).split(',').map(x => parseInt(x))
-    context.log.error('date2:',date2)
-    return date2
+    return format(date, 'y,M,d,H,m,s', { timeZone: tz }).split(',').map(x => parseInt(x))
 }
 
-// eg ?COMP2310_S2=COMP2310_S2-LecA/01,COMP2310_S2-LecB/01
-module.exports = async function (context, req) {
+// eg ?COMP2310_S2=LecA 01,LecB 01
+export default async function (context, req) {
     context.log.info(`Running in node ${process.version}`)
 
     const courseCodes = Object.keys(req.query)
@@ -28,7 +25,7 @@ module.exports = async function (context, req) {
     if (courseCodes.length === 0 || typeof Intl !== 'object') {
         context.res = {
             status: 404,
-            body: 'Please provide a course code in the query parameter (eg COMP2310)'
+            body: 'Please provide a course code eg /GetICS?COMP2310)'
         }
         context.done()
     }
@@ -40,9 +37,7 @@ module.exports = async function (context, req) {
     } catch (e) {
         throw `Couldn't load timetable data: ${e}`
     }
-    
-    // hardcode timezone (timezones are hard and it's 11:30pm mkay)
-    // Azure SWA blocks WEBSITE_TIME_ZONE in its Function runtime :(
+
     const events = []
     for (let courseCode of courseCodes) {
         const course = timetable[courseCode]
@@ -59,15 +54,12 @@ module.exports = async function (context, req) {
             for (let session of course.classes) {
                 
                 // If occurrence of activity is selected (eg TutA 01), skip other occurrences (eg TutA 02)
-                if (!selected[session.activity] || selected[session.activity] === session.occurrence) {
+                if (!selected[session.activity] || selected[session.activity].includes(session.occurrence)) {
                     
                     // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
                     // Days from start of year until first Monday - aka Week 0
-                    let yearStart = fns.utcToZonedTime(new Date(), tz)
-                    context.log.warn('yr:',yearStart)
-                    context.log.warn('date:',new Date())
+                    let yearStart = utcToZonedTime(new Date(), tz)
                     yearStart.setMonth(0,1)
-                    context.log.warn('start:',yearStart)
 
                     const year = yearStart.getFullYear()
                     const dayOffset = (8 - yearStart.getDay()) % 7
@@ -79,10 +71,8 @@ module.exports = async function (context, req) {
                         
                         const day = dayOffset + 7*(interval[0]-2) + parseInt(session.day) + 1
                         
-                        let startDay = fns.utcToZonedTime(new Date(yearStart.getTime()), tz)
-                        context.log.warn('startday:',startDay)
+                        let startDay = utcToZonedTime(new Date(yearStart.getTime()), tz)
                         startDay.setDate(day)
-                        context.log.warn('startdayset:',startDay)
                         const weekday = days[startDay.getDay()] // assumes no multi-day events
 
                         events.push({
@@ -105,7 +95,7 @@ module.exports = async function (context, req) {
     }
 
     if (events.length !== 0) {
-        let { value } = ics.createEvents(events)
+        let { value } = createEvents(events)
 
         // Cursed timezone magic
         // Breaks if Canberra TZ changes
