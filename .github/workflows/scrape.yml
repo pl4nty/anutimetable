@@ -46,4 +46,4 @@ jobs:
           git remote set-url origin https://pl4nty:$GH_PAT@github.com/$GITHUB_REPOSITORY.git
           git add --all
           git commit -m "Add new timetable data"
-          git push
+          git push origin
