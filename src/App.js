@@ -126,9 +126,8 @@ class App extends Component {
           modules: Object.values(res).map(module => ({
             key: module.id,
             value: module.id.split('_')[0] + ' ' + module.title.split('\u00a0')[1]
-          })),
-          events: []
-        }, () => this.updateEvents(res, this.state.enrolled))
+          }))
+        })
       })
   }
 
