@@ -21,8 +21,8 @@
     "react-search-box": "2.1.1"
   },
   "scripts": {
-    "start": "BROWSER=none react-scripts start",
-    "build": "CI= react-scripts build",
+    "start": "cross-env BROWSER=none react-scripts start",
+    "build": "cross-env CI= react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -43,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^0.8.0",
+    "azure-functions-core-tools": "^3.0.3904",
+    "cross-env": "^7.0.3"
   }
 }
