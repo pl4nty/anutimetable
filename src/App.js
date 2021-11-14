@@ -218,7 +218,7 @@ class App extends Component {
       target.description === event.event.description ||
       target.description.split(' ')[0] !== id
     )
-    this.setState({ events });
+    this.setState({ events }, () => this.updateLocalStorage());
   }
 
   deleteEvent(event) {
@@ -227,6 +227,7 @@ class App extends Component {
     if (index !== -1) {
       this.state.events.splice(index, 1)
     }
+    this.updateLocalStorage()
   }
 
   getModuleName(module) {
