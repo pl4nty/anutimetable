@@ -126,13 +126,14 @@ class App extends Component {
           modules: Object.values(res).map(module => ({
             key: module.id,
             value: module.id.split('_')[0] + ' ' + module.title.split('\u00a0')[1]
-          }))
-        });
+          })),
+          events: []
+        }, () => this.updateEvents(res, this.state.enrolled))
       })
   }
 
   updateEvents(sourceData, moduleIds) {
-    const events = [];
+    const events = this.state.events;
 
     for (let moduleId of moduleIds) {
       const module = sourceData[moduleId];
@@ -199,7 +200,8 @@ class App extends Component {
 
   // Add a course
   addModule(module) {
-    this.setState({ enrolled: [...this.state.enrolled, module] }, this.updateEvents(this.state.sourceData, [module]))
+    const enrolled = [...this.state.enrolled, module];
+    this.setState({ enrolled }, this.updateEvents(this.state.sourceData, [module]))
   }
 
   updateLocalStorage() {
@@ -212,7 +214,11 @@ class App extends Component {
     // Choose a time slot for a class
     // This filters out all other interchangeable events
     const id = event.event.description.split(' ')[0];
-    let events = this.state.events.filter(target => target.title !== event.title || target.description === event.event.description || target.description.split(' ')[0] !== id)
+    let events = this.state.events.filter(target => 
+      target.title !== event.title ||
+      target.description === event.event.description ||
+      target.description.split(' ')[0] !== id
+    )
     this.setState({ events });
   }
 
@@ -286,12 +292,12 @@ class App extends Component {
 
             {/* Calendar export */}
             <Col>
-                {showICS && (
-                    <Button onClick={() => {this.downloadEvents()}}
-                    className='ics-export'>
-                    Export .ics
-                    </Button>
-                )}
+              {showICS && (
+                <Button onClick={() => {this.downloadEvents()}}
+                className='ics-export'>
+                Export .ics
+                </Button>
+              )}
             </Col>
           </InputGroup></Row>
 
