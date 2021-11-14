@@ -118,7 +118,7 @@ class App extends Component {
       }
     }
     */
-    fetch('./timetable.json')
+    fetch('timetable.json')
       .then(res => res.json())
       .then(res => {
         this.setState({ 
@@ -274,13 +274,13 @@ class App extends Component {
             {/* Course search */}
             <Col xs md="8" lg="7" xl="5" className={'search-container ' + (!this.state.searchFocused ? 'empty' : '')}>
               <ClickAwayListener onClickAway={() => this.setState({ searchFocused: false })}>
-                <ReactSearchBox
+                <div><ReactSearchBox
                   autoFocus
                   placeholder="Enter a course code here (for example LAWS1201)"
                   data={this.state.modules}
-                  onSelect={record => this.addModule(record.key)}
+                  onSelect={record => this.addModule(record.item.key)}
                   onFocus={() => this.setState({ searchFocused: true })}
-                />
+                /></div>
               </ClickAwayListener>
             </Col>
 
