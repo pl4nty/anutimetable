@@ -29,6 +29,7 @@ jobs:
 
       - name: Compare existing and new data
         id: compare
+        continue-on-error: true
         working-directory: scraper
         run: cmp timetable.json ../public/timetable.json
 
