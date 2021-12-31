@@ -151,7 +151,7 @@ class App extends Component {
               // Days from start of year until first Monday - aka Week 0
               // modulo 7 in case start of year is a Monday
               const daysUntilFirstMonday = nextMonday(new Date(currentYear, 0)).getDay() % 7;
-              const day = daysUntilFirstMonday + 7*week + parseInt(session.day) - 4
+              const day = daysUntilFirstMonday + 7*week + parseInt(session.day) + 2;
 
               events.push({
                 ...session,
@@ -315,6 +315,7 @@ class App extends Component {
             style={{ height: "81vh" }}
             defaultView={window.navigator.userAgent.includes('Mobi') ? 'agenda' : 'work_week'}
             views={['day', 'work_week', 'month', 'agenda']}
+            length={7}
             min={add(startOfDay(anuInitialTime), {hours: 8})} max={add(startOfDay(anuInitialTime), {hours: 21})}
             formats={{
               dayFormat: (date, culture) => localizer.format(date, 'EEEE', culture), // days in week/month
