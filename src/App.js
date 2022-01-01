@@ -312,11 +312,12 @@ class App extends Component {
           <Row><Col><Calendar popup
             localizer={localizer}
             events={this.state.events}
-            style={{ height: "81vh" }}
+            style={{ height: "80vh" }}
             defaultView={window.navigator.userAgent.includes('Mobi') ? 'agenda' : 'work_week'}
             views={['day', 'work_week', 'month', 'agenda']}
             length={7}
-            min={add(startOfDay(anuInitialTime), {hours: 8})} max={add(startOfDay(anuInitialTime), {hours: 21})}
+            min={add(startOfDay(anuInitialTime), {hours: 8})}
+            max={add(startOfDay(anuInitialTime), {hours: 21})}
             formats={{
               dayFormat: (date, culture) => localizer.format(date, 'EEEE', culture), // days in week/month
               dayHeaderFormat: (date, culture) => localizer.format(date, 'EEEE MMMM dd', culture), // Day view
