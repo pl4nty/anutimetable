@@ -246,6 +246,14 @@ class App extends Component {
     }
   }
 
+  rangeFormat({start, end}, culture) {
+    return `${localizer.format(start, 'MMMM d', culture)} - ${localizer.format(
+      end,
+      start.getMonth() === end.getMonth() ? 'd' : 'MMMM d',
+      culture
+    )}`
+  }
+
   Event({ _event }) {
     const event = _event.event;
     return (
@@ -315,14 +323,16 @@ class App extends Component {
             style={{ height: "80vh" }}
             defaultView={window.navigator.userAgent.includes('Mobi') ? 'agenda' : 'work_week'}
             views={['day', 'work_week', 'month', 'agenda']}
-            length={7}
+            length={1}
             min={add(startOfDay(anuInitialTime), {hours: 8})}
             max={add(startOfDay(anuInitialTime), {hours: 21})}
             formats={{
               dayFormat: (date, culture) => localizer.format(date, 'EEEE', culture), // days in week/month
-              dayHeaderFormat: (date, culture) => localizer.format(date, 'EEEE MMMM dd', culture), // Day view
+              dayHeaderFormat: (date, culture) => localizer.format(date, 'EEEE MMMM d', culture), // Day view
+              dayRangeHeaderFormat: this.rangeFormat, // Week view
+              agendaHeaderFormat: this.rangeFormat, // Agenda view
               agendaDateFormat: (date, culture) => localizer.format(date, 'EEE', culture), // Agenda view
-              eventTimeRangeFormat: () => ""
+              eventTimeRangeFormat: () => "",
             }}
             // Display descriptive name as tooltip
             tooltipAccessor={event => event.description}
