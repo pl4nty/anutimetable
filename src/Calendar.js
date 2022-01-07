@@ -4,13 +4,13 @@ import bootstrapPlugin from '@fullcalendar/bootstrap'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
-import iCalendarPlugin from '@fullcalendar/icalendar'
+import rrulePlugin from '@fullcalendar/rrule'
 import luxonPlugin from '@fullcalendar/luxon'
 import { forwardRef } from 'react'
 
 export default forwardRef((props, ref) => <FullCalendar
   ref={ref}
-  plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, iCalendarPlugin, luxonPlugin]}
+  plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
   themeSystem='bootstrap'
   bootstrapFontAwesome={false}
   //   expandRows={true}
@@ -67,6 +67,7 @@ export default forwardRef((props, ref) => <FullCalendar
   // }}
   displayEventTime={false}
 
+  // disable in Day and Agenda view - some events aren't in memory and won't be deleted
   eventClick={info => {
     info.jsEvent.preventDefault();
     

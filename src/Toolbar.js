@@ -76,32 +76,32 @@ export default forwardRef(({ API }, calendar) => {
           // session
         // },
         color: stringToColor(id),
-        // TODO convert to complex rrule to combine periods - fixes deleting one period at a time
         events: JSON[`${id}_${session}`].classes.reduce((arr, c) => {
-          for (let period of c.weeks.split(',')) {
-            let [ start, end ] = period.split('\u2011')
-              .concat([
-                c.start,
-                c.finish
-              ].map(x => x.split(':').map(x => parseInt(x))))
-              .map((w,i,arr) => i < 2 ? DateTime.fromObject({
-                year,
-                ordinal: w*7-4,
-                hour: arr[i+2]?.[0],
-                minute: arr[i+2]?.[1]
-              }, { zone: 'Australia/Canberra' }).toLocal() : undefined)
-
-            arr.push({
-              id: `${c.name}`,
-              title: `${c.module} ${c.activity} ${c.occurrence}`,
-              daysOfWeek: [c.day+1], // convert ANU 0-offset to FC 1-offset
-              startTime: start.toISOTime(),
-              endTime: end.toISOTime(),
-              startRecur: start.toISODate(),
-              endRecur: end.toISODate()
-            })
-            continue;
-          }
+          const zone = 'Australia/Canberra'
+          
+          const intervals = c.weeks.split(',').map(w => w.split('\u2011').map(x => parseInt(x)))
+          const range = ([start, end]) => Array.from({ length: end-start+1 }, (_, i) => start+i) // inclusive
+          
+          const start = DateTime.fromFormat(c.start, 'HH:mm', { zone })
+            .set({ year, ordinal: intervals[0][0]*7-4+c.day })
+          const end = DateTime.fromFormat(c.finish, 'HH:mm', { zone })
+            .set({ year, ordinal: intervals[intervals.length-1][1]*7-4+c.day })
+          
+          arr.push({
+            id: `${c.name}`,
+            title: `${c.module} ${c.activity} ${c.occurrence}`,
+            duration: c.duration,
+            rrule: {// intervals[0][0]*7-4 intervals[intervals.length-1][1]*7-4
+              freq: 'weekly',
+              // assume all sessions are shorter than a year
+              dtstart: start.toISO(),
+              until: end.toISO(),
+              byweekday: start.toUTC().weekday-1, // ignored by tzid, so manually convert
+              // '3\u20116,8\u201110' => [ 3, 4, 5, 8, 9 ]
+              // lib violates RFC per its README - compliant byweekno is only valid for YEARLY 
+              byweekno: intervals.flatMap(range)
+            }
+          })
           return arr
         }, [])
       })
