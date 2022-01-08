@@ -3,8 +3,7 @@ import { useState, useEffect, forwardRef } from 'react'
 import { Button, Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
 import { Token, Typeahead } from 'react-bootstrap-typeahead'
 
-import { DateTime } from 'luxon'
-
+import { DateTime, Interval } from 'luxon'
 import stringToColor from 'string-to-color'
 
 // hardcode to semester 1 or 2 as majority only want them
@@ -17,6 +16,9 @@ const getInitialSession = () => {
   return [month < 10 ? year : year+1, month < 5 ? 'S1' : 'S2']
 }
 
+// TODO create event server-side, but push to client to expand and enrich (allDay, id, etc)
+// api/events?year&session&id rather than api/events/:id for multiple ids eg after loading modules from cache
+// also DRYer - could port api/GetICS to use it, then expand
 const parseEvents = (source, year, session, id) => source[`${id}_${session}`].classes.reduce((arr, c) => {
   const title = [
     c.module,
@@ -34,22 +36,26 @@ const parseEvents = (source, year, session, id) => source[`${id}_${session}`].cl
     [weeks[0], c.start],
     [weeks[weeks.length-1], c.finish]
   ].map(([week, time]) => DateTime
-    .fromFormat(time, 'HH:mm', { zone: 'Australia/Canberra' })
-    .set({ weekYear: year, weekNumber: week, weekday: c.day+1 })
+    .fromFormat(time, 'HH:mm', { zone: 'UTC' })
+    .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
   )
+
+  const duration = Interval.fromDateTimes(start, end)
+  const len = duration.length('weeks')
   
-  // rrule has Luxon tz conversion via tzid prop, but ignores byweekday and possibly byweekno
-  // so convert manually above and provide offset
+  // handles timezone across days/weeks, not verified across years
   const rrule = {
     freq: 'weekly',
-    dtstart: start.toISO(),
-    until: end.toISO(),
-    byweekday: start.toUTC().weekday-1,
-    // rrule allows RFC violation (byweekno exclusive to freq=YEARLY) 
-    byweekno: weeks
+    dtstart: start.toJSDate(),
+    until: end.toJSDate(),
+    byweekday: start.weekday-1, // Luxon 1-offset => rrule 0-offset
+    byweekno: weeks, // rrule allows RFC violation (compliant byweekno requires freq=YEARLY) 
+    tzid: 'Australia/Canberra'
   }
   
   arr.push({
+    // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
+    allDay: false,
     id: c.name,
     title,
     location,
@@ -122,6 +128,8 @@ export default forwardRef(({ API }, calendar) => {
       })
     } else if (next < cached) {
       const { id } = selectedModules.find(m => !list.includes(m))
+
+      const test = calendar.current.getApi().getEvents()
 
       calendar.current.getApi().getEventSourceById(id)?.remove()
     }
