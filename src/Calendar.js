@@ -8,6 +8,8 @@ import rrulePlugin from '@fullcalendar/rrule'
 import luxonPlugin from '@fullcalendar/luxon'
 import { forwardRef } from 'react'
 
+const eventContent = ({ event }) => ({ html: [event.title, event.extendedProps?.location].join('<br>') })
+
 export default forwardRef((props, ref) => <FullCalendar
   ref={ref}
   plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
@@ -35,8 +37,9 @@ export default forwardRef((props, ref) => <FullCalendar
       titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
     },
     timeGridWeek:{
-      weekends: false,
-      dayHeaderFormat: { weekday: 'short' }
+      weekends: true, // support timezones, and ANU moving prerecorded events to Sunday
+      dayHeaderFormat: { weekday: 'short' },
+      eventContent
     },
     listTwoDay: {
       type: 'list',
@@ -56,8 +59,8 @@ export default forwardRef((props, ref) => <FullCalendar
     minute: '2-digit',
     second: '2-digit'
   })}
-  slotDuration={'01:00:00'}
   scrollTimeReset={false}
+  slotDuration={'01:00:00'}
   nowIndicator
   navLinks
   // businessHours={{

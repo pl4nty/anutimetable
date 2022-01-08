@@ -17,6 +17,48 @@ const getInitialSession = () => {
   return [month < 10 ? year : year+1, month < 5 ? 'S1' : 'S2']
 }
 
+const parseEvents = (source, year, session, id) => source[`${id}_${session}`].classes.reduce((arr, c) => {
+  const title = [
+    c.module,
+    c.activity,
+    ...(c.activity.startsWith('Lec') ? [] : [parseInt(c.occurrence)])
+  ].join(' ')
+
+  const location = c.location
+
+  const inclusiveRange = ([start, end]) => Array.from({ length: end-start+1 }, (_, i) => start+i)
+  // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
+  const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
+
+  const [start, end] = [
+    [weeks[0], c.start],
+    [weeks[weeks.length-1], c.finish]
+  ].map(([week, time]) => DateTime
+    .fromFormat(time, 'HH:mm', { zone: 'Australia/Canberra' })
+    .set({ weekYear: year, weekNumber: week, weekday: c.day+1 })
+  )
+  
+  // rrule has Luxon tz conversion via tzid prop, but ignores byweekday and possibly byweekno
+  // so convert manually above and provide offset
+  const rrule = {
+    freq: 'weekly',
+    dtstart: start.toISO(),
+    until: end.toISO(),
+    byweekday: start.toUTC().weekday-1,
+    // rrule allows RFC violation (byweekno exclusive to freq=YEARLY) 
+    byweekno: weeks
+  }
+  
+  arr.push({
+    id: c.name,
+    title,
+    location,
+    duration: c.duration,
+    rrule
+  })
+  return arr
+}, [])
+
 export default forwardRef(({ API }, calendar) => {
   let [y, s] = getInitialSession()
   const [year, setYear] = useState(y)
@@ -56,7 +98,7 @@ export default forwardRef(({ API }, calendar) => {
     } catch (err) {
       console.error(err)
     }
-  })(), [API, year, session])
+  })(), [year, session])
     
   const [selectedModules, setSelectedModules] = useState([])
   const selectModules = list => {
@@ -76,39 +118,12 @@ export default forwardRef(({ API }, calendar) => {
           // session
         // },
         color: stringToColor(id),
-        events: JSON[`${id}_${session}`].classes.reduce((arr, c) => {
-          const zone = 'Australia/Canberra'
-          
-          const intervals = c.weeks.split(',').map(w => w.split('\u2011').map(x => parseInt(x)))
-          const range = ([start, end]) => Array.from({ length: end-start+1 }, (_, i) => start+i) // inclusive
-          
-          const start = DateTime.fromFormat(c.start, 'HH:mm', { zone })
-            .set({ year, ordinal: intervals[0][0]*7-4+c.day })
-          const end = DateTime.fromFormat(c.finish, 'HH:mm', { zone })
-            .set({ year, ordinal: intervals[intervals.length-1][1]*7-4+c.day })
-          
-          arr.push({
-            id: `${c.name}`,
-            title: `${c.module} ${c.activity} ${c.occurrence}`,
-            duration: c.duration,
-            rrule: {// intervals[0][0]*7-4 intervals[intervals.length-1][1]*7-4
-              freq: 'weekly',
-              // assume all sessions are shorter than a year
-              dtstart: start.toISO(),
-              until: end.toISO(),
-              byweekday: start.toUTC().weekday-1, // ignored by tzid, so manually convert
-              // '3\u20116,8\u201110' => [ 3, 4, 5, 8, 9 ]
-              // lib violates RFC per its README - compliant byweekno is only valid for YEARLY 
-              byweekno: intervals.flatMap(range)
-            }
-          })
-          return arr
-        }, [])
+        events: parseEvents(JSON, year, session, id)
       })
     } else if (next < cached) {
       const { id } = selectedModules.find(m => !list.includes(m))
 
-      calendar.current.getApi().getEventSourceById(id).remove()
+      calendar.current.getApi().getEventSourceById(id)?.remove()
     }
     
     setSelectedModules(list)
@@ -155,16 +170,21 @@ export default forwardRef(({ API }, calendar) => {
       options={Object.entries(modules).map(([id, val]) => ({...val, id}))}
       onChange={selectModules}
       selected={selectedModules}
-      renderToken={(option, { onRemove }, idx) => <Token
-        key={option.id}
-        onRemove={onRemove}
+      // modified from default: https://github.com/ericgio/react-bootstrap-typeahead/blob/8dcac67b57e9ee121f5a44f30c59346a32b66d48/src/components/Typeahead.tsx#L143-L156
+      renderToken={(option, props, idx) => <Token
+        disabled={props.disabled}
+        key={idx}
+        onRemove={props.onRemove}
         option={option}
+        tabIndex={props.tabIndex}
         href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
-      ><a
-        href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
-        target={"_blank"}
-        rel={"noreferrer"}
-      >{option.id}</a></Token>}
+      >
+        <a
+          href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
+          target={"_blank"}
+          rel={"noreferrer"}  
+        >{option.id}</a> {/** use id (eg COMP1130) instead of label to save space */}
+      </Token>}
     />
     
     {selectedModules.length !== 0 && <InputGroup.Append>
