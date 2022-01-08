@@ -4,16 +4,21 @@ import { Button, Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
 import { Token, Typeahead } from 'react-bootstrap-typeahead'
 
 import { DateTime } from 'luxon'
-import stringToColor from 'string-to-color'
+import color from 'randomcolor'
 
 // hardcode to semester 1 or 2 as users usually want them
 // allows app to function even if /sessions endpoint is down
 const getInitialSession = () => {
-  // If semester 2 complete, default to next year
   let now = new Date()
   let year = now.getFullYear()
   let month = now.getMonth()
-  return [month < 10 ? year : year+1, month < 5 ? 'S1' : 'S2']
+
+  // If semester 2 complete (after Sept), default to next year
+  if (month > 9) {
+    return [year+1, 'S1']
+  } else {
+    return [year, month < 5 ? 'S1' : 'S2']
+  }
 }
 
 // TODO create event server-side, but push to client to expand and enrich (allDay, id, etc)
@@ -51,10 +56,9 @@ const parseEvents = (source, year, session, id) => source[`${id}_${session}`].cl
   }
   
   arr.push({
-    // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
-    allDay: false,
     id: c.name,
     title,
+    groupId: c.activity,
     location,
     duration: c.duration,
     rrule
@@ -113,14 +117,10 @@ export default forwardRef(({ API }, calendar) => {
       
       calendar.current.getApi().addEventSource({
         id,
-        // url: `${API}/events/${id}`,
-        // format: 'ics',
-        // url: `${API}/GetICS?${id}_${session}`,
-        // extraParams: {
-        //   year,
-        //   session
-        // },
-        color: stringToColor(id),
+        color: color({ 
+          seed: id,
+          luminosity: 'dark'
+        }),
         events: parseEvents(JSON, year, session, id)
       })
     } else if (next < cached) {

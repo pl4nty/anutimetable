@@ -37,7 +37,7 @@ export default forwardRef((props, ref) => <FullCalendar
       titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
     },
     timeGridWeek:{
-      weekends: true, // support timezones, and ANU moving prerecorded events to Sunday
+      weekends: false, // support timezones, and ANU moving prerecorded events to Sunday
       dayHeaderFormat: { weekday: 'short' },
       eventContent
     },
@@ -46,7 +46,11 @@ export default forwardRef((props, ref) => <FullCalendar
       duration: { days: 2 },
       buttonText: 'Agenda',
       listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
-      displayEventTime: true
+      displayEventTime: true,
+      weekends: false
+    },
+    dayGridMonth: {
+      weekNumberFormat: { week: 'short' }
     }
   }}
   initialView={window.navigator.userAgent.includes('Mobi') ? 'listTwoDay' : 'timeGridWeek'}
@@ -69,17 +73,23 @@ export default forwardRef((props, ref) => <FullCalendar
   //   endTime: '19:00'
   // }}
   displayEventTime={false}
-  defaultAllDay={false}
+  defaultAllDay={false} // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
+  weekNumbers
+  weekNumberCalculation={'ISO'}
+  weekText='Week'
+
+  fixedWeekCount={false}
 
   // disable in Day and Agenda view - some events aren't in memory and won't be deleted
   eventClick={info => {
     info.jsEvent.preventDefault();
     
-    let slot = info.event.id.replace(/\/[0-9]+$/, '')
     ref.current.getApi().getEvents().forEach(event => {
-      if (event.id.startsWith(slot) && event.id !== info.event.id) event.remove()
+      if (event.groupId === info.event.groupId && event.id !== info.event.id) event.remove()
     })
   }}
+
+  eventRemove={console.log}
 
   eventSourceFailure={err => console.error(err.message)}
 />)

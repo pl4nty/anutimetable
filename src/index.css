@@ -141,3 +141,8 @@
     border-bottom: 0 !important;
     vertical-align: top;
 }
+
+/* override static width for week number */
+.fc .fc-timegrid-axis-cushion {
+  max-width: max-content !important;
+}
