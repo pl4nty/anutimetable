@@ -1,7 +1,9 @@
 import { useState, useEffect, forwardRef } from 'react'
 
-import { Button, Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
+import { InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
 import { Token, Typeahead } from 'react-bootstrap-typeahead'
+
+import Export from './Export'
 
 import { DateTime } from 'luxon'
 import color from 'randomcolor'
@@ -9,29 +11,39 @@ import color from 'randomcolor'
 // hardcode to semester 1 or 2 as users usually want them
 // allows app to function even if /sessions endpoint is down
 const getInitialSession = () => {
-  let now = new Date()
-  let year = now.getFullYear()
-  let month = now.getMonth()
+  const qs = new URLSearchParams(window.location.search)
+  let year = qs.get('y')
+  let session = qs.get('s')
 
-  // If semester 2 complete (after Sept), default to next year
-  if (month > 9) {
-    return [year+1, 'S1']
-  } else {
-    return [year, month < 5 ? 'S1' : 'S2']
+  let now = new Date()
+  if (!session) {
+    let month = now.getMonth()
+
+    // If semester 2 complete (after Sept), default to next year
+    if (!year && month > 9) {
+      year = now.getFullYear()+1
+      session = 'S1'
+    } else {
+      session = month < 5 ? 'S1' : 'S2'
+    }
   }
+  year ?? (year = now.getFullYear())
+
+  qs.set('y', year)
+  qs.set('s', session)
+  window.history.replaceState(null, '', '?'+qs.toString())
+  return [year, session]
 }
 
-// TODO create event server-side, but push to client to expand and enrich (allDay, id, etc)
-// api/events?year&session&id rather than api/events/:id for multiple ids eg after loading modules from cache
-// also DRYer - could port api/GetICS to use it, then expand
 const parseEvents = (source, year, session, id) => source[`${id}_${session}`].classes.reduce((arr, c) => {
+  const location = c.location
+  const occurrence = parseInt(c.occurrence)
+
   const title = [
     c.module,
     c.activity,
-    ...(c.activity.startsWith('Lec') ? [] : [parseInt(c.occurrence)])
+    ...(c.activity.startsWith('Lec') ? [] : [occurrence])
   ].join(' ')
-
-  const location = c.location
 
   const inclusiveRange = ([start, end]) => Array.from({ length: end-start+1 }, (_, i) => start+i)
   // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
@@ -58,10 +70,13 @@ const parseEvents = (source, year, session, id) => source[`${id}_${session}`].cl
   arr.push({
     id: c.name,
     title,
-    groupId: c.activity,
+    groupId: c.activity, // identifies selection groups eg COMP1130TutA
     location,
     duration: c.duration,
-    rrule
+    rrule,
+
+    // extendedProps
+    occurrence
   })
   return arr
 }, [])
@@ -70,6 +85,9 @@ export default forwardRef(({ API }, calendar) => {
   let [y, s] = getInitialSession()
   const [year, setYear] = useState(y)
   const [session, setSession] = useState(s)
+  const [isLoading, setIsLoading] = useState(true)
+
+  // TODO call setSelectedModules and selectOccurrence
   
   const [sessions, setSessions] = useState({})
   useEffect(() => (async () => {
@@ -90,6 +108,7 @@ export default forwardRef(({ API }, calendar) => {
       if (!res.ok) return
       let json = await res.json()
       setModules(json)
+      setIsLoading(false)
     } catch (err) {
       console.error(err)
     }
@@ -137,12 +156,10 @@ export default forwardRef(({ API }, calendar) => {
     setSession(sessions[e]?.[sessions[e].length-1] || '')
   }
 
-  // TODO dropdown with ICS export via NPM module
-  // TODO display current timezone
   return <InputGroup className="mb-2">
     <DropdownButton
       as={InputGroup.Prepend}
-      variant="outline-secondary"
+      variant="outline-primary"
       title={year}
     >
       {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
@@ -151,7 +168,7 @@ export default forwardRef(({ API }, calendar) => {
 
     <DropdownButton
       as={InputGroup.Prepend}
-      variant="outline-secondary"
+      variant="outline-primary"
       title={session}
     >
       {sessions[year]?.map(e => <Dropdown.Item key={e} onClick={() => setSession(e)}>{e}</Dropdown.Item>)}
@@ -162,11 +179,11 @@ export default forwardRef(({ API }, calendar) => {
 
       clearButton
       emptyLabel="No matching courses found"
-      isLoading={false}
+      isLoading={isLoading}
       multiple
+      highlightOnlyResult
 
-      // onInputChange={}
-      labelKey={'title'}
+      labelKey='title'
       placeholder="Enter a course code here (for example LAWS1201)"
       // Overwrite bad id property (eg LAWS1201_S1 -> LAWS1201)
       options={Object.entries(modules).map(([id, val]) => ({...val, id}))}
@@ -189,10 +206,7 @@ export default forwardRef(({ API }, calendar) => {
       </Token>}
     />
     
-    {selectedModules.length !== 0 && <InputGroup.Append>
-      <Button href={`${API}/GetICS?${selectedModules.map(m => m.id).join('&')}`}>
-        Export .ics
-      </Button>
-    </InputGroup.Append>}
+    {/* somehow there's no NPM module for this. maybe I should write one? */}
+    {selectedModules.length !== 0 && <Export API={API} />}
   </InputGroup>
 })

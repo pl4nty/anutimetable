@@ -8,7 +8,30 @@ import rrulePlugin from '@fullcalendar/rrule'
 import luxonPlugin from '@fullcalendar/luxon'
 import { forwardRef } from 'react'
 
-const eventContent = ({ event }) => ({ html: [event.title, event.extendedProps?.location].join('<br>') })
+const getEventContent = ({ event }) => ({ html: [event.title, event.extendedProps?.location].join('<br>') })
+
+const selectOccurrence = (ref, info) => {
+  info.jsEvent?.preventDefault()
+
+  const module = info.event.source.id
+  const { groupId, id } = info.event
+  const events = ref.current.getApi().getEvents().filter(e =>
+    e.groupId === groupId &&
+    e.source.id === module &&
+    e.id !== id)
+  
+  // if it's selectable, add to the query string
+  if (events.length !== 0) {
+    let qs = new URLSearchParams(window.location.search)
+    qs.set(module, [
+      ...(qs.get(module) || []),
+      groupId+info.event.extendedProps.occurrence
+    ].join(','))
+    window.history.replaceState(null, '', '?'+qs.toString())
+  }
+
+  events.forEach(e => e.remove())
+}
 
 export default forwardRef((props, ref) => <FullCalendar
   ref={ref}
@@ -34,12 +57,13 @@ export default forwardRef((props, ref) => <FullCalendar
 
   views={{
     timeGridDay: {
-      titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
+      titleFormat: { year: 'numeric', month: 'short', day: 'numeric' }
     },
     timeGridWeek:{
       weekends: false, // support timezones, and ANU moving prerecorded events to Sunday
       dayHeaderFormat: { weekday: 'short' },
-      eventContent
+      eventContent: getEventContent,
+      eventClick: info => selectOccurrence(ref, info)
     },
     listTwoDay: {
       type: 'list',
@@ -79,17 +103,6 @@ export default forwardRef((props, ref) => <FullCalendar
   weekText='Week'
 
   fixedWeekCount={false}
-
-  // disable in Day and Agenda view - some events aren't in memory and won't be deleted
-  eventClick={info => {
-    info.jsEvent.preventDefault();
-    
-    ref.current.getApi().getEvents().forEach(event => {
-      if (event.groupId === info.event.groupId && event.id !== info.event.id) event.remove()
-    })
-  }}
-
-  eventRemove={console.log}
 
   eventSourceFailure={err => console.error(err.message)}
 />)
