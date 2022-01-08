@@ -69,6 +69,7 @@ export default forwardRef((props, ref) => <FullCalendar
   //   endTime: '19:00'
   // }}
   displayEventTime={false}
+  defaultAllDay={false}
 
   // disable in Day and Agenda view - some events aren't in memory and won't be deleted
   eventClick={info => {

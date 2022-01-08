@@ -3,10 +3,10 @@ import { useState, useEffect, forwardRef } from 'react'
 import { Button, Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
 import { Token, Typeahead } from 'react-bootstrap-typeahead'
 
-import { DateTime, Interval } from 'luxon'
+import { DateTime } from 'luxon'
 import stringToColor from 'string-to-color'
 
-// hardcode to semester 1 or 2 as majority only want them
+// hardcode to semester 1 or 2 as users usually want them
 // allows app to function even if /sessions endpoint is down
 const getInitialSession = () => {
   // If semester 2 complete, default to next year
@@ -39,9 +39,6 @@ const parseEvents = (source, year, session, id) => source[`${id}_${session}`].cl
     .fromFormat(time, 'HH:mm', { zone: 'UTC' })
     .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
   )
-
-  const duration = Interval.fromDateTimes(start, end)
-  const len = duration.length('weeks')
   
   // handles timezone across days/weeks, not verified across years
   const rrule = {
@@ -115,22 +112,19 @@ export default forwardRef(({ API }, calendar) => {
       const { id } = list[list.length - 1]
       
       calendar.current.getApi().addEventSource({
-        // url: `${API}/events/${id}`,
         id,
+        // url: `${API}/events/${id}`,
         // format: 'ics',
         // url: `${API}/GetICS?${id}_${session}`,
         // extraParams: {
-          // year,
-          // session
+        //   year,
+        //   session
         // },
         color: stringToColor(id),
         events: parseEvents(JSON, year, session, id)
       })
     } else if (next < cached) {
       const { id } = selectedModules.find(m => !list.includes(m))
-
-      const test = calendar.current.getApi().getEvents()
-
       calendar.current.getApi().getEventSourceById(id)?.remove()
     }
     
