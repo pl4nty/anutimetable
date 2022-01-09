@@ -104,7 +104,6 @@ export default forwardRef(({ API }, calendar) => {
         })
       }
     })
-    const test = api.getEventSources()
   }, [JSON, year, session, selectedModules, calendar])
 
   useEffect(() => {
