@@ -134,6 +134,12 @@
     .fc .fc-header-toolbar .fc-toolbar-title {
         margin: 1vh;
     }
+
+    /* override static width for week number */
+    .fc .fc-timegrid-axis-cushion {
+      min-width: 0px !important;
+      max-width:
+    }
 }
 
 .fc .fc-timegrid-slots .fc-timegrid-slot {
@@ -144,5 +150,5 @@
 
 /* override static width for week number */
 .fc .fc-timegrid-axis-cushion {
-  max-width: max-content !important;
+  min-width: 73px;
 }

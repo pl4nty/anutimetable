@@ -4,13 +4,13 @@ import { InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
 import { Token, Typeahead } from 'react-bootstrap-typeahead'
 
 import Export from './Export'
+import { parseEvents, selectOccurrence } from './Calendar'
 
-import { DateTime } from 'luxon'
 import color from 'randomcolor'
 
 // hardcode to semester 1 or 2 as users usually want them
 // allows app to function even if /sessions endpoint is down
-const getInitialSession = () => {
+const getInitialState = () => {
   const qs = new URLSearchParams(window.location.search)
   let year = qs.get('y')
   let session = qs.get('s')
@@ -27,128 +27,93 @@ const getInitialSession = () => {
       session = month < 5 ? 'S1' : 'S2'
     }
   }
-  year ?? (year = now.getFullYear())
 
-  qs.set('y', year)
-  qs.set('s', session)
-  window.history.replaceState(null, '', '?'+qs.toString())
-  return [year, session]
+  qs.delete('y')
+  qs.delete('s')
+
+  return [year || now.getFullYear(), session, Array.from(qs.entries()) || []]
 }
 
-const parseEvents = (source, year, session, id) => source[`${id}_${session}`].classes.reduce((arr, c) => {
-  const location = c.location
-  const occurrence = parseInt(c.occurrence)
+const setQueryParam = (param, value) => {
+  const qs = new URLSearchParams(window.location.search)
+  qs.set(param, value || qs.get(param) || '') // if no value, just ensure param exists
+  window.history.replaceState(null, '', '?'+qs.toString())
+}
 
-  const title = [
-    c.module,
-    c.activity,
-    ...(c.activity.startsWith('Lec') ? [] : [occurrence])
-  ].join(' ')
-
-  const inclusiveRange = ([start, end]) => Array.from({ length: end-start+1 }, (_, i) => start+i)
-  // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
-  const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
-
-  const [start, end] = [
-    [weeks[0], c.start],
-    [weeks[weeks.length-1], c.finish]
-  ].map(([week, time]) => DateTime
-    .fromFormat(time, 'HH:mm', { zone: 'UTC' })
-    .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
-  )
-  
-  // handles timezone across days/weeks, not verified across years
-  const rrule = {
-    freq: 'weekly',
-    dtstart: start.toJSDate(),
-    until: end.toJSDate(),
-    byweekday: start.weekday-1, // Luxon 1-offset => rrule 0-offset
-    byweekno: weeks, // rrule allows RFC violation (compliant byweekno requires freq=YEARLY) 
-    tzid: 'Australia/Canberra'
+const getApi = (path, callback) => {
+  try {
+    fetch(path).then(res => {
+      if (!res.ok) return
+      else res.json().then(json => callback(json))
+    })
+  } catch (err) {
+    console.error(err)
   }
-  
-  arr.push({
-    id: c.name,
-    title,
-    groupId: c.activity, // identifies selection groups eg COMP1130TutA
-    location,
-    duration: c.duration,
-    rrule,
-
-    // extendedProps
-    occurrence
-  })
-  return arr
-}, [])
+}
 
 export default forwardRef(({ API }, calendar) => {
-  let [y, s] = getInitialSession()
+  let [y, s, m] = getInitialState()
+
   const [year, setYear] = useState(y)
+  useEffect(() => setQueryParam('y', year), [year])
+
   const [session, setSession] = useState(s)
-  const [isLoading, setIsLoading] = useState(true)
+  useEffect(() => setQueryParam('s', session), [session])
 
   // TODO call setSelectedModules and selectOccurrence
   
-  const [sessions, setSessions] = useState({})
-  useEffect(() => (async () => {
-    try {
-      let res = await fetch(`${API}/sessions`)
-      if (!res.ok) return
-      let json = await res.json()
-      setSessions(json)
-    } catch (err) {
-      console.error(err)
-    }
-  })(), [API])
+  const [sessions, setSessions] = useState([])
+  useEffect(() => getApi(`${API}/sessions`, setSessions), [API])
   
   const [modules, setModules] = useState({})
-  useEffect(() => (async () => {
-    try {
-      let res = await fetch(`${API}/modules?year=${year}&session=${session}`)
-      if (!res.ok) return
-      let json = await res.json()
-      setModules(json)
-      setIsLoading(false)
-    } catch (err) {
-      console.error(err)
-    }
-  })(), [API, year, session])
+  useEffect(() => getApi(`${API}/modules?year=${year}&session=${session}`, setModules),  [API, year, session])
 
   const [JSON, setJSON] = useState({})
-  useEffect(() => (async () => {
-    try {
-      let res = await fetch(`/timetable_${year}_${session}.json`)
-      if (!res.ok) return
-      let json = await res.json()
-      setJSON(json)
-    } catch (err) {
-      console.error(err)
-    }
-  })(), [year, session])
+  useEffect(() => getApi(`/timetable_${year}_${session}.json`, setJSON), [year, session])
     
-  const [selectedModules, setSelectedModules] = useState([])
-  const selectModules = list => {
-    const cached = selectedModules.length
-    const next = list.length
+  // inefficient - O(nm)? but simpler
+  // checks every module rather than caching old list to calculate diff
+  const [selectedModules, setSelectedModules] = useState(m.map(([id]) => ({ id })))
+  useEffect(() => {
+    const api = calendar.current.getApi()
+    const sources = api.getEventSources()
+
+    const selected = selectedModules.map(({ id }) => id)
+    sources.forEach(s => {
+      if (!selected.includes(s.id)) {
+        s.remove()
+        const qs = new URLSearchParams(window.location.search)
+        qs.delete(s.id) // if no value, just ensure param exists
+        window.history.replaceState(null, '', '?'+qs.toString())
+      }
+    })
+
     
-    if (next > cached) {
-      const { id } = list[list.length - 1]
-      
-      calendar.current.getApi().addEventSource({
-        id,
-        color: color({ 
-          seed: id,
-          luminosity: 'dark'
-        }),
-        events: parseEvents(JSON, year, session, id)
-      })
-    } else if (next < cached) {
-      const { id } = selectedModules.find(m => !list.includes(m))
-      calendar.current.getApi().getEventSourceById(id)?.remove()
-    }
-    
-    setSelectedModules(list)
-  }
+    const sourceIds = sources.map(s => s.id)
+    selectedModules.forEach(({ id }) => {
+      setQueryParam(id)
+
+      if (Object.keys(JSON).length !== 0 && !sourceIds.includes(id)) {
+        api.addEventSource({
+          id,
+          color: color({ 
+            seed: id,
+            luminosity: 'dark'
+          }),
+          events: parseEvents(JSON, year, session, id)
+        })
+      }
+    })
+    const test = api.getEventSources()
+  }, [JSON, year, session, selectedModules, calendar])
+
+  useEffect(() => {
+    m.forEach(([module, occurrences]) => occurrences.split(',').forEach(o => {
+      if (!o || !selectedModules.map(({ id }) => id).includes(module)) return
+      const r = o.match(/([^0-9]*)([0-9]+)$/)
+      selectOccurrence(calendar, module, r[1], parseInt(r[2]))
+    }))
+  }, [m, selectedModules, calendar])
 
   const selectYear = e => {
     setYear(e)
@@ -179,7 +144,7 @@ export default forwardRef(({ API }, calendar) => {
 
       clearButton
       emptyLabel="No matching courses found"
-      isLoading={isLoading}
+      isLoading={Object.keys(modules).length === 0}
       multiple
       highlightOnlyResult
 
@@ -187,7 +152,7 @@ export default forwardRef(({ API }, calendar) => {
       placeholder="Enter a course code here (for example LAWS1201)"
       // Overwrite bad id property (eg LAWS1201_S1 -> LAWS1201)
       options={Object.entries(modules).map(([id, val]) => ({...val, id}))}
-      onChange={selectModules}
+      onChange={setSelectedModules}
       selected={selectedModules}
       // modified from default: https://github.com/ericgio/react-bootstrap-typeahead/blob/8dcac67b57e9ee121f5a44f30c59346a32b66d48/src/components/Typeahead.tsx#L143-L156
       renderToken={(option, props, idx) => <Token
