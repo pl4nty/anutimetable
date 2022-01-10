@@ -7,7 +7,7 @@ import Calendar from './Calendar'
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js'
 
-const API = `${process.env.REACT_APP_FUNCTION_API || ''}/api`
+const API = `${process.env.REACT_APP_FUNCTION_API || window.location.origin}/api`
 
 let App = () => {
   const calendar = useRef()

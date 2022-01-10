@@ -91,7 +91,7 @@ const formatEventContent = ({ event }) => {
   const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
   return <>
     {event.title}<><br />{
-      url && <a href={url} target="_blank" rel="noreferrer">{location}</a>
+      (url && <a href={url} target="_blank" rel="noreferrer">{location}</a>)
           || location}</>
   </>
 }
