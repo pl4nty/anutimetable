@@ -31,7 +31,7 @@ let App = () => {
   </Container>
 }
 
-if (isDevelopment) {
+if (!isDevelopment) {
   const reactPlugin = new ReactPlugin();
   const appInsights = new ApplicationInsights({
     config: {
