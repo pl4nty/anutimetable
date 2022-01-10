@@ -1,12 +1,13 @@
+import { forwardRef } from 'react'
+
 import FullCalendar, { formatDate } from '@fullcalendar/react'
-// Bootstrap 5: support is WIP at fullcalendar/fullcalendar#6625
+// Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
 import bootstrapPlugin from '@fullcalendar/bootstrap'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
 import rrulePlugin from '@fullcalendar/rrule'
 import luxonPlugin from '@fullcalendar/luxon'
-import { forwardRef } from 'react'
 
 import { DateTime } from 'luxon'
 
@@ -89,6 +90,8 @@ export const selectOccurrence = (ref, module, groupId, occurrence) => {
 const formatEventContent = ({ event }) => {
   const { location, locationID, lat, lon } = event.extendedProps
   const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
+  // causes a nested <a> in the event
+  // fix PR is unmerged since Apr 2021: fullcalendar/fullcalendar#5710
   return <>
     {event.title}<><br />{
       (url && <a href={url} target="_blank" rel="noreferrer">{location}</a>)
