@@ -25,7 +25,7 @@ let App = () => {
       <Navbar.Text>
           Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
           <a href="https://cssa.club/">ANU CSSA</a>, report issues&nbsp;
-          <a href="https://github.com/pl4nty/anutimetable/issues">here</a>
+          <a href="https://github.com/anucssa/anutimetable/issues">here</a>
       </Navbar.Text>
     </Navbar>
   </Container>
