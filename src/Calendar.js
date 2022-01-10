@@ -10,16 +10,6 @@ import { forwardRef } from 'react'
 
 import { DateTime } from 'luxon'
 
-const formatEventContent = ({ event }) => {
-  const { location, locationID, lat, lon } = event.extendedProps
-  return <>
-    {event.title}{location && <><br />
-      <a href={lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID}
-      target="_blank" rel="noreferrer">{location}</a>
-    </>}
-  </>
-}
-
 export const parseEvents = (source, year, session, id) => source[`${id}_${session}`].classes.reduce((arr, c) => {
   const location = c.location
   const occurrence = parseInt(c.occurrence)
@@ -96,82 +86,100 @@ export const selectOccurrence = (ref, module, groupId, occurrence) => {
   }
 }
 
-export default forwardRef((props, ref) => <FullCalendar
-  ref={ref}
-  plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
-  themeSystem='bootstrap'
-  bootstrapFontAwesome={false}
-  //   expandRows={true}
-  height={'80vh'}
+const formatEventContent = ({ event }) => {
+  const { location, locationID, lat, lon } = event.extendedProps
+  const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
+  return <>
+    {event.title}<><br />{
+      url && <a href={url} target="_blank" rel="noreferrer">{location}</a>
+          || location}</>
+  </>
+}
 
-  headerToolbar={{
-    start: 'prev,next',
-    center: 'title',
-    end: 'timeGridDay,timeGridWeek,dayGridMonth,listTwoDay'
-  }}
-  buttonText={{
-    today: 'Today',
-    prev: 'Back',
-    next: 'Next',
-    day: 'Day',
-    week: 'Week',
-    month: 'Month'
-  }}
+const handleEventClick = (ref, info) => {
+  // allow links inside event content
+  if (info.jsEvent.target.childElementCount !== 0) {
+    info.jsEvent?.preventDefault()
+    selectOccurrence(ref, info.event.source.id, info.event.groupId, info.event.extendedProps.occurrence)
+  }
+}
 
-  views={{
-    timeGridDay: {
-      titleFormat: { year: 'numeric', month: 'short', day: 'numeric' }
-    },
-    timeGridWeek:{
-      weekends: false, // support timezones, and ANU moving prerecorded events to Sunday
-      dayHeaderFormat: { weekday: 'short' },
-      eventContent: formatEventContent,
-      eventClick: info => {
-        // allow links inside event content
-        if (info.jsEvent.target.tagName !== 'A') {
-          info.jsEvent?.preventDefault()
-          selectOccurrence(ref, info.event.source.id, info.event.groupId, info.event.extendedProps.occurrence)
-        }
+export default forwardRef((props, ref) => {
+  const customEvents = {
+    eventContent: formatEventContent,
+    eventClick: info => handleEventClick(ref, info)
+  }
+
+  return <FullCalendar
+    ref={ref}
+    plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
+    themeSystem='bootstrap'
+    bootstrapFontAwesome={false}
+    //   expandRows={true}
+    height={'80vh'}
+
+    headerToolbar={{
+      start: 'prev,next',
+      center: 'title',
+      end: 'timeGridDay,timeGridWeek,dayGridMonth,listTwoDay'
+    }}
+    buttonText={{
+      today: 'Today',
+      prev: 'Back',
+      next: 'Next',
+      day: 'Day',
+      week: 'Week',
+      month: 'Month'
+    }}
+
+    views={{
+      timeGridDay: {
+        titleFormat: { year: 'numeric', month: 'short', day: 'numeric' }
+      },
+      timeGridWeek:{
+        weekends: false, // support timezones, and ANU moving prerecorded events to Sunday
+        dayHeaderFormat: { weekday: 'short' },
+        ...customEvents
+      },
+      listTwoDay: {
+        type: 'list',
+        duration: { days: 2 },
+        buttonText: 'Agenda',
+        listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
+        displayEventTime: true,
+        weekends: false
+      },
+      dayGridMonth: {
+        weekNumberFormat: { week: 'short' }
       }
-    },
-    listTwoDay: {
-      type: 'list',
-      duration: { days: 2 },
-      buttonText: 'Agenda',
-      listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
-      displayEventTime: true,
-      weekends: false
-    },
-    dayGridMonth: {
-      weekNumberFormat: { week: 'short' }
-    }
-  }}
-  initialView={window.navigator.userAgent.includes('Mobi') ? 'listTwoDay' : 'timeGridWeek'}
+    }}
+    initialView={window.navigator.userAgent.includes('Mobi') ? 'listTwoDay' : 'timeGridWeek'}
 
-  // timeGrid options
-  allDaySlot={false}
-  // Earliest business hour is 8am AEDT
-  scrollTime={formatDate('2020-01-01T08:00+11:00',{
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit'
-  })}
-  scrollTimeReset={false}
-  slotDuration={'01:00:00'}
-  nowIndicator
-  navLinks
-  // businessHours={{
-  //   daysOfWeek: [1, 2, 3, 4, 5],
-  //   startTime: '07:00',
-  //   endTime: '19:00'
-  // }}
-  displayEventTime={false}
-  defaultAllDay={false} // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
-  weekNumbers
-  weekNumberCalculation={'ISO'}
-  weekText='Week'
+    // timeGrid options
+    allDaySlot={false}
+    // Earliest business hour is 8am AEDT
+    scrollTime={formatDate('2020-01-01T08:00+11:00',{
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit'
+    })}
+    scrollTimeReset={false}
+    slotDuration={'01:00:00'}
+    nowIndicator
+    navLinks
+    // businessHours={{
+    //   daysOfWeek: [1, 2, 3, 4, 5],
+    //   startTime: '07:00',
+    //   endTime: '19:00'
+    // }}
+    displayEventTime={false}
+    defaultAllDay={false} // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
+    weekNumbers
+    weekNumberCalculation={'ISO'}
+    weekText='Week'
 
-  fixedWeekCount={false}
+    fixedWeekCount={false}
 
-  eventSourceFailure={err => console.error(err.message)}
-/>)
+    eventSourceFailure={err => console.error(err.message)}
+  />
+})
