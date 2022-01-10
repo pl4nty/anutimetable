@@ -153,7 +153,12 @@
   min-width: 73px;
 }
 
-/* apply default event colour to links*/
+/* apply default event colour to links */
 .fc .fc-event-main a {
   color: var(--fc-event-text-color, #fff) !important;
+}
+
+/* apply underline on hover to Agenda event links */
+.fc .fc-list-event-title a:hover {
+  text-decoration: underline;
 }

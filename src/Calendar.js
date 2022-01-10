@@ -134,7 +134,8 @@ export default forwardRef((props, ref) => {
 
     views={{
       timeGridDay: {
-        titleFormat: { year: 'numeric', month: 'short', day: 'numeric' }
+        titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
+        ...customEvents
       },
       timeGridWeek:{
         weekends: false, // support timezones, and ANU moving prerecorded events to Sunday
@@ -147,7 +148,8 @@ export default forwardRef((props, ref) => {
         buttonText: 'Agenda',
         listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
         displayEventTime: true,
-        weekends: false
+        weekends: false,
+        eventContent: formatEventContent
       },
       dayGridMonth: {
         weekNumberFormat: { week: 'short' }
