@@ -7,7 +7,8 @@ import Calendar from './Calendar'
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js'
 
-const API = `${process.env.REACT_APP_FUNCTION_API || window.location.origin}/api`
+const isDevelopment = process.env.NODE_ENV === 'development'
+const API = `${isDevelopment ? 'http://localhost:7071' : window.location.origin}/api`
 
 let App = () => {
   const calendar = useRef()
@@ -30,7 +31,7 @@ let App = () => {
   </Container>
 }
 
-if (process.env.NODE_ENV !== 'development') {
+if (isDevelopment) {
   const reactPlugin = new ReactPlugin();
   const appInsights = new ApplicationInsights({
     config: {
