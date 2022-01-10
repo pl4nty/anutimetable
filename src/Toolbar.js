@@ -6,7 +6,16 @@ import { Token, Typeahead } from 'react-bootstrap-typeahead'
 import Export from './Export'
 import { parseEvents, selectOccurrence } from './Calendar'
 
-import color from 'randomcolor'
+// https://stackoverflow.com/a/3426956/
+const stringToColor = str => {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+
+  const c = (hash & 0x00FFFFFF).toString(16).toUpperCase();
+  return "#00000".substring(0, 7 - c.length) + c;
+}
 
 // hardcode to semester 1 or 2 as users usually want them
 // allows app to function even if /sessions endpoint is down
@@ -96,10 +105,7 @@ export default forwardRef(({ API }, calendar) => {
       if (Object.keys(JSON).length !== 0 && !sourceIds.includes(id)) {
         api.addEventSource({
           id,
-          color: color({ 
-            seed: id,
-            luminosity: 'dark'
-          }),
+          color: stringToColor(id),
           events: parseEvents(JSON, year, session, id)
         })
       }
