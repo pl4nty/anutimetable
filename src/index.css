@@ -152,3 +152,8 @@
 .fc .fc-timegrid-axis-cushion {
   min-width: 73px;
 }
+
+/* apply default event colour to links*/
+.fc .fc-event-main a {
+  color: var(--fc-event-text-color, #fff) !important;
+}

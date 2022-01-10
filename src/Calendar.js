@@ -10,7 +10,15 @@ import { forwardRef } from 'react'
 
 import { DateTime } from 'luxon'
 
-const formatEventContent = ({ event }) => ({ html: [event.title, event.extendedProps?.location].join('<br>') })
+const formatEventContent = ({ event }) => {
+  const { location, locationID, lat, lon } = event.extendedProps
+  return <>
+    {event.title}{location && <><br />
+      <a href={lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID}
+      target="_blank" rel="noreferrer">{location}</a>
+    </>}
+  </>
+}
 
 export const parseEvents = (source, year, session, id) => source[`${id}_${session}`].classes.reduce((arr, c) => {
   const location = c.location
@@ -45,16 +53,17 @@ export const parseEvents = (source, year, session, id) => source[`${id}_${sessio
   }
   
   arr.push({
+    // extendedProps
+    ...c,
+    occurrence,
+
     // custom ID allows removal of events that aren't in memory (ie only available by getEventById())
     id: [c.module, c.activity, occurrence].join('_'),
     title,
     groupId: c.activity, // identifies selection groups eg TutA
     location,
     duration: c.duration,
-    rrule,
-
-    // extendedProps
-    occurrence
+    rrule
   })
   return arr
 }, [])
@@ -118,8 +127,11 @@ export default forwardRef((props, ref) => <FullCalendar
       dayHeaderFormat: { weekday: 'short' },
       eventContent: formatEventContent,
       eventClick: info => {
-        info.jsEvent?.preventDefault()
-        selectOccurrence(ref, info.event.source.id, info.event.groupId, info.event.extendedProps.occurrence)
+        // allow links inside event content
+        if (info.jsEvent.target.tagName !== 'A') {
+          info.jsEvent?.preventDefault()
+          selectOccurrence(ref, info.event.source.id, info.event.groupId, info.event.extendedProps.occurrence)
+        }
       }
     },
     listTwoDay: {
