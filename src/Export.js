@@ -29,7 +29,7 @@ const Export = ({ API }) => {
       <SiMicrosoftexchange /> Office 365
     </Dropdown.Item>
     <Dropdown.Divider />
-    <Dropdown.Item eventKey="ics" target={"_blank"} rel={"noreferrer"} href={webcal}>
+    <Dropdown.Item eventKey="ics" download href={webcal}>
       <RiCalendar2Fill /> Download ICS file
     </Dropdown.Item>
   </DropdownButton>
