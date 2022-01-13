@@ -65,19 +65,19 @@ export const selectOccurrence = (ref, module, groupId, occurrence) => {
   const api = ref.current.getApi()
 
   let event
-  let flag = false
+  let hasOtherOccurrences = false
   for (let i=occurrence-1; (event=api.getEventById([module,groupId,i].join('_'))); i--) {
     event.remove()
-    flag = true
+    hasOtherOccurrences = true
   }
 
   for (let i=occurrence+1; (event=api.getEventById([module,groupId,i].join('_'))); i++) {
     event.remove()
-    flag = true
+    hasOtherOccurrences = true
   }
 
   // if it's selectable, add to the query string
-  if (flag) {
+  if (hasOtherOccurrences) {
     let qs = new URLSearchParams(window.location.search)
     const current = qs.get(module)
 
@@ -92,6 +92,7 @@ export const selectOccurrence = (ref, module, groupId, occurrence) => {
 const formatEventContent = ({ event }) => {
   // causes a nested <a> in the event
   // fix PR is unmerged since Apr 2021: fullcalendar/fullcalendar#5710
+  console.log(event)
   const { location, locationID, lat, lon } = event.extendedProps
   const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
   const locationLine = url
