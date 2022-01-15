@@ -337,11 +337,3 @@ body[data-theme="dark"] nav.navbar .navbar-text a {
 body[data-theme="dark"] nav.navbar .navbar-text {
     color: #bbbbbb;
 }
-
-/*body[data-theme="dark"] .timezone-select > div {*/
-/*    background-color: #101214 !important;*/
-/*}*/
-
-/*body[data-theme="dark"] .timezone-select > div > div {*/
-/*    color: white !important;*/
-/*}*/
