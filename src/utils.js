@@ -57,7 +57,7 @@ export const setQueryParam = (param, value) => {
 export const getStartOfSession = () => {
   const [year, session] = getInitialState()
   return {
-    '2022S1': new Date('2022-02-19Z21:00:00'), // 8AM 21 Feb in GMT
+    '2022S1': new Date('2022-02-19T21:00:00Z'), // 8AM 21 Feb in GMT
   }?.[year + session]
 }
 
