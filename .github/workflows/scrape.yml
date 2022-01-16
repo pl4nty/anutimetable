@@ -9,6 +9,14 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     name: Scrape data into JSON file with Python script
+    env:
+      TIMETABLE_PREFIX: http://timetabling.anu.edu.au/sws
+    strategy:
+      fail-fast: false
+      matrix:
+        year: [2022]
+        session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']
+    
     steps:
       - uses: actions/checkout@v2
 
@@ -25,25 +33,41 @@ jobs:
 
       - name: Run scraper script
         working-directory: scraper
-        run: python3 ./scraper.py
+        env:
+          TIMETABLE_PREFIX: ${{ env.TIMETABLE_PREFIX }}
+          YEAR: ${{ matrix.year }}
+          SESSION: ${{ matrix.session }}
+        # eg http://timetabling.anu.edu.au/sws2022/ 1 S1
+        run: python3 ./scraper.py $TIMETABLE_PREFIX$YEAR/ $SESSION
 
       - name: Compare existing and new data
         id: compare
         continue-on-error: true
         working-directory: scraper
-        run: cmp timetable.json ../public/timetable.json
+        env:
+          YEAR: ${{ matrix.year }}
+          SESSION: ${{ matrix.session }}
+        # inline bash string manipulation to get string after first space
+        # gets the session string (S1),  eg timetable_2022_S1.json
+        run: cmp timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
 
       - name: Commit to repo if data has changed
         if: ${{ steps.compare.outcome == 'failure' }}
         env:
+          YEAR: ${{ matrix.year }}
+          SESSION: ${{ matrix.session }}
           GH_USER: pl4nty
           GH_PAT: ${{ secrets.GH_PAT }}
+        # inline bash string manipulation to get string after first space
+        # gets the session string (S1),  eg timetable_2022_S1.json
         run: |
           cd scraper
-          mv -f ./timetable.json ../public/
+          mv -f ./timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config pull.rebase true
           git remote set-url origin https://pl4nty:$GH_PAT@github.com/$GITHUB_REPOSITORY.git
           git add --all
           git commit -m "Add new timetable data"
+          git pull origin
           git push origin

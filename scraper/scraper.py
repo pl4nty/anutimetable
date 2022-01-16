@@ -4,6 +4,7 @@ import requests
 import pprint
 import time
 from bs4 import BeautifulSoup
+import sys
 
 from classes.course import (Course, splitHeaderTable)
 from classes.coursesPage import (Chunk, CoursesPage)
@@ -11,9 +12,11 @@ from classes.sessionData import SessionData
 from classes.loadingBar import printProgressBar
 from classes.toJSON import formatCourses
 
-URL = "http://timetabling.anu.edu.au/sws2022/"
-SEMESTER = 1 # 1-indexed: S1, S2, X1, X2, X3, X4
-SEMESTERCODE = 'S1'
+URL = sys.argv[1] # eg 'http://timetabling.anu.edu.au/sws2022/'
+# 1-indexed position of session
+# as at 16.1.22, order is: S1, S2, X1, X2, X3, X4
+SESSION_INDEX = int(sys.argv[2])
+SESSION_ID = sys.argv[3] # eg 'S1'
 
 # 1-50: 50 is the maximum allowed request
 CHUNK = 50
@@ -32,13 +35,13 @@ cookies = res.cookies
 session =  SessionData(BeautifulSoup(res.content, 'html.parser'))
 coursesPage = CoursesPage(res)
 
-coursesPage.courseList = list(filter(lambda x: x[0].endswith(f"{SEMESTERCODE}"), coursesPage.courseList))
+coursesPage.courseList = list(filter(lambda x: x[0].endswith(f"{SESSION_ID}"), coursesPage.courseList))
 
 courseCount = len(coursesPage.courseList)
 print(f"Found {courseCount} courses.")
 
 
-body = coursesPage.getBody(SEMESTER)
+body = coursesPage.getBody(SESSION_INDEX)
 body = [(k, v) for k, v in body.items()]
 
 courses = []
