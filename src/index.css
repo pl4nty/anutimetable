@@ -225,8 +225,8 @@ div[id^=react-select] div {
   position: absolute;
   bottom: 2px;
   right: 2px;
-  width: 16px;
-  height: 16px;
+  width: 19px;
+  height: 19px;
   display: none;
   cursor: pointer;
 }

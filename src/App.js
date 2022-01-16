@@ -57,7 +57,6 @@ let App = () => {
 
   // Events that are manually hidden with the eye icon
   const [hiddenOccurrences, setHiddenOccurrences] = useState(h)
-  useEffect(() => console.log(hiddenOccurrences))
   useEffect(() => {
     const hide = hiddenOccurrences.map(x => x.join('_')).join(',')
     if (hide.length > 0)

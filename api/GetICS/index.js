@@ -23,6 +23,11 @@ module.exports = async function (context, req) {
     context.log.info(`Running in node ${process.version}`)
 
     const courseCodes = Object.keys(req.query)
+
+    let hiddenClasses = [];
+    if (req.query.hasOwnProperty('hide')) {
+        hiddenClasses = req.query.hide.split(',')
+    }
     
     // require Intl module for timezone handling
     if (courseCodes.length === 0 || typeof Intl !== 'object') {
@@ -65,8 +70,10 @@ module.exports = async function (context, req) {
             }, {})
 
             for (let session of course.classes) {
+                const eventString = [courseCode, session.activity, parseInt(session.occurrence).toString()].join('_')
+                const hidden = hiddenClasses.includes(eventString)
                 // If occurrence of activity is selected (eg TutA 01), skip other occurrences (eg TutA 02)
-                if (!selected[session.activity] || selected[session.activity].includes(session.occurrence)) {
+                if (!hidden && (!selected[session.activity] || selected[session.activity].includes(session.occurrence))) {
                     
                     // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
                     // Days from start of year until first Monday - aka Week 0
