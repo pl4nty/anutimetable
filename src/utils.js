@@ -92,8 +92,9 @@ return classes.map(c => {
     ...(c.activity.startsWith('Lec') ? [] : [occurrence])
   ].join(' ')
 
-  const inclusiveRange = ([start, end]) => Array.from({ length: end-start+1 }, (_, i) => start+i)
+  const inclusiveRange = ([start, end]) => (end && Array.from({ length: end-start+1 }, (_, i) => start+i)) || [start]
   // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
+  // '8' => [8]
   const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
 
   const [start, end] = [
