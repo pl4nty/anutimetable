@@ -15,7 +15,11 @@ let App = () => {
   const calendar = useRef()
 
   // Timezone string, like "Australia/Sydney"
-  const [timeZone, setTimeZone] = useState(localStorage.timeZone || Intl.DateTimeFormat().resolvedOptions().timeZone)
+  const [timeZone, setTimeZone] = useState(localStorage.timeZone
+    // If localStorage is empty, use browser's timezone and handle UTC special case
+    || Intl.DateTimeFormat()?.resolvedOptions()?.timeZone.replace(/^UTC$/, 'Etc/GMT')
+    || 'Australia/Canberra' // Default to Canberra if API is missing (pre-2018 browsers)
+  )
   useEffect(() => localStorage.timeZone = timeZone, [timeZone])
 
   const [y, s, m, h] = getInitialState()

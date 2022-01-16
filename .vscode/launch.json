@@ -2,19 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Edge",
-            "type": "pwa-msedge",
-            "request": "launch",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}",
-            "preLaunchTask": "swa start",
-            "presentation": {
-                "hidden": true,
-                "group": "",
-                "order": 1
-            }
-        },
-        {
             "name": "Azure Functions (Node)",
             "type": "node",
             "request": "attach",
@@ -23,13 +10,38 @@
             "presentation": {
                 "order": 2
             }
+        },
+        {
+            "name": "Frontend in Edge",
+            "type": "pwa-msedge",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "swa start",
+            "presentation": {
+                "group": "browsers",
+                "order": 1
+            }
+        },
+        {
+            "name": "Frontend in Firefox",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "swa start",
+            "presentation": {
+                "group": "browsers",
+                "order": 2
+            }
         }
     ],
     "compounds": [
         {
             "name": "Full Stack",
             "configurations": [
-                "Launch Edge",
+                "Frontend in Edge",
                 "Azure Functions (Node)"
             ],
             "presentation": {
