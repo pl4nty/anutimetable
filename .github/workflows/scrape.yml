@@ -9,13 +9,12 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     name: Scrape data into JSON file with Python script
-    env:
-      TIMETABLE_PREFIX: http://timetabling.anu.edu.au/sws
     strategy:
       fail-fast: false
       matrix:
         year: [2022]
         session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']
+    
     steps:
       - uses: actions/checkout@v2
 
@@ -42,7 +41,10 @@ jobs:
         id: compare
         continue-on-error: true
         working-directory: scraper
-        run: cmp timetable.json ../public/timetable.json
+        env:
+          YEAR: ${{ matrix.year }}
+          SESSION: ${{ matrix.session }}
+        run: cmp timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
 
       - name: Commit to repo if data has changed
         if: ${{ steps.compare.outcome == 'failure' }}
