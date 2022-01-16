@@ -140,10 +140,14 @@
       min-width: 0px !important;
       /*max-width:*/
     }
+
+    .fc .fc-timegrid-slots .fc-timegrid-slot {
+      height: 80px;
+    }
 }
 
 .fc .fc-timegrid-slots .fc-timegrid-slot {
-    height: 5vh;
+    height: 100px;
     border-bottom: 0 !important;
     vertical-align: top;
 }
