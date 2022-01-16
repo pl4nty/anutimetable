@@ -37,6 +37,7 @@ jobs:
           TIMETABLE_PREFIX: ${{ env.TIMETABLE_PREFIX }}
           YEAR: ${{ matrix.year }}
           SESSION: ${{ matrix.session }}
+        # eg http://timetabling.anu.edu.au/sws2022/ 1 S1
         run: python3 ./scraper.py $TIMETABLE_PREFIX$YEAR/ $SESSION
 
       - name: Compare existing and new data
@@ -46,6 +47,8 @@ jobs:
         env:
           YEAR: ${{ matrix.year }}
           SESSION: ${{ matrix.session }}
+        # inline bash string manipulation to get string after first space
+        # gets the session string (S1),  eg timetable_2022_S1.json
         run: cmp timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
 
       - name: Commit to repo if data has changed
@@ -55,6 +58,8 @@ jobs:
           SESSION: ${{ matrix.session }}
           GH_USER: pl4nty
           GH_PAT: ${{ secrets.GH_PAT }}
+        # inline bash string manipulation to get string after first space
+        # gets the session string (S1),  eg timetable_2022_S1.json
         run: |
           cd scraper
           mv -f ./timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
