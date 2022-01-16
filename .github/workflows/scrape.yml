@@ -42,14 +42,13 @@ jobs:
         id: compare
         continue-on-error: true
         working-directory: scraper
-        env:
-          YEAR: ${{ matrix.year }}
-          SESSION: ${{ matrix.session }}
         run: cmp timetable.json ../public/timetable.json
 
       - name: Commit to repo if data has changed
         if: ${{ steps.compare.outcome == 'failure' }}
         env:
+          YEAR: ${{ matrix.year }}
+          SESSION: ${{ matrix.session }}
           GH_USER: pl4nty
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
