@@ -9,6 +9,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     name: Scrape data into JSON file with Python script
+    env:
+      TIMETABLE_PREFIX: http://timetabling.anu.edu.au/sws
     strategy:
       fail-fast: false
       matrix:
