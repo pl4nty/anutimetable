@@ -65,7 +65,7 @@ jobs:
           mv -f ./timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git config pull.rebase false
+          git config pull.rebase true
           git remote set-url origin https://pl4nty:$GH_PAT@github.com/$GITHUB_REPOSITORY.git
           git add --all
           git commit -m "Add new timetable data"
