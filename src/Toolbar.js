@@ -81,6 +81,7 @@ export default forwardRef(({ API, state: {
     className='timezone-select mb-2'
     value={timeZone}
     onChange={tz => setTimeZone(tz.value)}
+    placeholder="Select timezone..."
   />
   </>
 })
