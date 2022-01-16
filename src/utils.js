@@ -2,24 +2,16 @@
 import { DateTime } from 'luxon'
 
 // Generates an HSL colour with enough contrast to display white text
-// https://stackoverflow.com/a/21682946
 // The colour text contrast has been tested here: https://codepen.io/OliverBalfour/pen/YzrRoXJ
+const stringColorMap = {}
+const hues = [0, 120, 240, 60, 180, 300, 30, 90, 150, 210, 270, 330, 15, 45, 75, 105, 135, 165, 195, 225, 255, 285, 315, 345]
 export const stringToColor = str => {
-  // Like Java's String#hashCode. Generates a signed hash number
-  function getHashCode(str) {
-    var hash = 0;
-    if (str.length === 0) return hash;
-    for (var i = 0; i < str.length; i++) {
-        hash = str.charCodeAt(i) + ((hash << 5) - hash);
-        hash = hash & hash; // Convert to 32bit integer
-    }
-    return hash;
+  if (!(str in stringColorMap)) {
+    const hue = hues[Object.keys(stringColorMap).length % hues.length]
+    const offset = 60; // configurable
+    stringColorMap[str] = `hsl(${(hue + offset) % 360}, 100%, 30%)`;
   }
-  function intToHSL(int) {
-    var shortened = int % 360;
-    return "hsl(" + shortened + ",100%,30%)";
-  }
-  return intToHSL(getHashCode(str))
+  return stringColorMap[str]
 }
 
 // hardcode to semester 1 or 2 as users usually want them
