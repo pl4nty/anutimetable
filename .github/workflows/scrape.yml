@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        year: [2022]
+        year: [2021, 2022]
         session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']
     
     steps:
