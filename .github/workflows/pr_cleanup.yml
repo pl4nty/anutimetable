@@ -1,8 +1,7 @@
 on:
   pull_request_target:
+    paths: ['!scraper/']
     types: [closed]
-    branches:
-      - master
 
 jobs:
   pr_cleanup:
