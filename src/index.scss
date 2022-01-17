@@ -1,0 +1,287 @@
+@media (max-width: 600px) {
+  .fc {
+    .fc-toolbar.fc-header-toolbar {
+      display: block;
+      text-align: center;
+    }
+
+    .fc-header-toolbar .fc-toolbar-title {
+      margin: 1vh;
+    }
+
+    /* override static width for week number */
+    .fc-timegrid-axis-cushion {
+      min-width: 0px !important;
+      /*max-width:*/
+    }
+
+    .fc-timegrid-slots .fc-timegrid-slot {
+      height: 80px;
+    }
+  }
+
+  .fc-header-toolbar .fc-toolbar-chunk {
+    display: block;
+    margin: 0.2vh;
+  }
+}
+
+.fc {
+  .fc-timegrid-slots .fc-timegrid-slot {
+    height: 100px;
+    border-bottom: 0 !important;
+    vertical-align: top;
+  }
+
+  /* override static width for week number */
+  .fc-timegrid-axis-cushion {
+    min-width: 73px;
+  }
+
+  /* apply default colour to things which shouldn't be links */
+  .fc-event-main a {
+    color: var(--fc-event-text-color, inherit) !important;
+  }
+
+  /* apply override to actual links in events */
+  .fc-event a {
+    text-decoration: underline;
+    font-style: italic;
+    color: var(--fc-event-text-color, inherit) !important;
+  }
+
+  /* apply underline on hover to Agenda event links */
+  .fc-list-event-title a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* vertically center icons with text */
+.dropdown svg {
+  margin-bottom: 3%;
+}
+
+/* hide react error overlay */
+iframe {
+  display: none;
+}
+
+/* make it consistent with bootstrap styling */
+.timezone-select {
+  width: 100%;
+  margin-bottom: 1em;
+  cursor: text;
+}
+
+div[id^=react-select] {
+  z-index: 100000;
+  cursor: text;
+
+  div {
+    cursor: pointer;
+  }
+}
+
+/* choose/reset */
+.choose-button {
+  border: 0;
+  outline: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.fc-event-main {
+  word-break: break-word;
+  line-height: normal;
+  overflow-y: hidden;
+}
+
+.fc-event-main p {
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+
+.fc-timegrid-event-harness:hover {
+  z-index: 100 !important;
+}
+
+.hide-button {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 19px;
+  height: 19px;
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-light .navbar-text, .navbar-light .navbar-collapse {
+  color: rgba(0, 0, 0, .5);
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-flow: row wrap;
+  }
+  .justify-content-end {
+    justify-content: flex-start !important;
+  }
+}
+
+.fc-timegrid-event-harness:hover .hide-button {
+  display: block;
+}
+
+.hide-button svg {
+  fill: white;
+}
+
+.fab {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 100;
+}
+
+.fab-button {
+  /* Imagine if I followed the bootstrap design pattern */
+  /* I know right? That's ridiculous. */
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  padding: 12px;
+  box-shadow: 0 2px 5px 0 #000000;
+  z-index: 200;
+
+
+  /* I know we already set this in the fab class, but z-index requires explicit positioning */
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+.fab-actions {
+  position: fixed;
+  bottom: 5em;
+  /*right: -5em;*/
+  right: 1em;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.fab-actions .fab-action {
+  width: 3em;
+  height: 3em;
+  margin: 0.5em 0.5em -3.5em;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px 0 #000000;
+  padding-left: 0;
+  padding-right: 0;
+  transition: margin 0.3s;
+
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.dialog-container {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0;
+  transition: margin-top 0.5s, filter 0.5s;
+}
+
+.fab--open {
+  .fab-button {
+    background-color: #2d2d2d !important;
+  }
+
+  .fab-actions .fab-action {
+    margin: 0 0.5em 0.5em;
+  }
+}
+
+.hidden {
+  display: none !important;
+
+  &.dialog-container {
+    display: block !important;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .dialog {
+    margin-top: 2em;
+  }
+}
+
+.daySelect {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  font-weight: bold;
+}
+
+body[data-theme="dark"] {
+  nav.navbar .navbar-text a {
+    color: white;
+  }
+
+  nav.navbar .navbar-text {
+    color: #bbbbbb;
+  }
+
+  .rbt-input-main {
+    color: whitesmoke;
+  }
+
+
+  .rbt-input-hint {
+    color: rgba(255, 255, 255, 0.54) !important;
+  }
+
+  .rbt-token {
+    color: #8db0b2;
+    background-color: #143b6c;
+  }
+
+  .rbt-token > a {
+    color: #ffffff;
+  }
+
+  .fc .fc-list-sticky .fc-list-day > * {
+    background-color: #101214;
+  }
+
+  .fc .fc-list-event:hover td {
+    background-color: #090a0a;
+  }
+}
