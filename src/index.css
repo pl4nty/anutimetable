@@ -355,3 +355,11 @@ body[data-theme="dark"] .rbt-token {
 body[data-theme="dark"] .rbt-token > a {
     color: #ffffff;
 }
+
+body[data-theme="dark"] .fc .fc-list-sticky .fc-list-day > * {
+    background-color: #101214;
+}
+
+body[data-theme="dark"] .fc .fc-list-event:hover td {
+    background-color: #090a0a;
+}
