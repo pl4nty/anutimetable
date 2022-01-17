@@ -337,3 +337,21 @@ body[data-theme="dark"] nav.navbar .navbar-text a {
 body[data-theme="dark"] nav.navbar .navbar-text {
     color: #bbbbbb;
 }
+
+body[data-theme="dark"] .rbt-input-main {
+    color: whitesmoke;
+}
+
+
+body[data-theme="dark"] .rbt-input-hint {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+body[data-theme="dark"] .rbt-token {
+    color: #8db0b2;
+    background-color: #143b6c;
+}
+
+body[data-theme="dark"] .rbt-token > a {
+    color: #ffffff;
+}

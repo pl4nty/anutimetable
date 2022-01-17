@@ -43,7 +43,6 @@ export default forwardRef(({ API, state: {
       isLoading={Object.keys(modules).length === 0}
       multiple
       highlightOnlyResult
-
       labelKey='title'
       placeholder="Enter a course code here (for example LAWS1201)"
       // Overwrite bad id property (eg LAWS1201_S1 -> LAWS1201)
