@@ -55,7 +55,7 @@ let App = () => {
     if (!o || !selectedModules.map(({ id }) => id).includes(module)) return []
     const r = o.match(/([^0-9]*)([0-9]+)$/)
     if (!r || !r[2]) {
-      console.error(o)
+      console.error("Failed to find regex or second pattern in regex for input", o)
       return []
     }
     return [[module, r[1], parseInt(r[2])]]
