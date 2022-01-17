@@ -213,7 +213,10 @@ let App = () => {
 
   // Start day of week dialog
   const [startDayDialogOpen, setStartDayDialogOpen] = useState(false)
-  const toggleStartDayDialog = () => setStartDayDialogOpen(!startDayDialogOpen);
+  const openStartDayDialog = () => {
+    setStartDayDialogOpen(true);
+    setSettingsOpen(false);
+  }
   const closeStartDayDialog = () => {
     setStartDayDialogOpen(false);
     setSettingsOpen(false);
@@ -247,7 +250,11 @@ let App = () => {
       ) : <></> /* need a fragment, not null, because react-bootstrap is funky */}
     </Navbar>
 
-    <div className={`fab ${settingsOpen ? 'fab--open' : ''}`} >
+    <div
+      className={`fab ${settingsOpen ? 'fab--open' : ''}`}
+      onMouseLeave={() => setSettingsOpen(false)}
+      onMouseEnter={() => setSettingsOpen(true)}
+    >
       <Button
         className={'fab-button'}
         variant="secondary"
@@ -269,7 +276,7 @@ let App = () => {
           <Button
             className={'fab-action'}
             variant={"primary"}
-            onClick={toggleStartDayDialog}
+            onClick={openStartDayDialog}
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
               <path fill="none" d="M0 0h24v24H0z"/>
@@ -300,7 +307,10 @@ let App = () => {
       </div>
     </div>
 
-    <div className={`${startDayDialogOpen ? '' : 'hidden'} dialog-container`}>
+    <div
+      className={`${startDayDialogOpen ? '' : 'hidden'} dialog-container`}
+      onClick={closeStartDayDialog}
+    >
       <div className="dialog">
         <Card>
           <Card.Header>Calendar Start of Week</Card.Header>
