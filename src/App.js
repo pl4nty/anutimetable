@@ -232,7 +232,7 @@ let App = () => {
 
 
   // fluid="xxl" is only supported in Bootstrap 5
-  return <Container>
+  return <Container xl>
     <h2 className="mt-2">ANU Timetable</h2>
 
     <Toolbar API={API} ref={calendar} state={state} />
