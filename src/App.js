@@ -54,6 +54,10 @@ let App = () => {
     // We're flatMapping so that we can return [] to do nothing and [result] to return a result
     if (!o || !selectedModules.map(({ id }) => id).includes(module)) return []
     const r = o.match(/([^0-9]*)([0-9]+)$/)
+    if (!r || !r[2]) {
+      console.error(o)
+      return []
+    }
     return [[module, r[1], parseInt(r[2])]]
   }))
   const [specifiedOccurrences, setSpecifiedOccurrences] = useState(getSpecOccurrences())
