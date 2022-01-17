@@ -43,7 +43,14 @@ export const getInitialState = () => {
   qs.delete('s')
   qs.delete('hide')
 
-  return [year || now.getFullYear(), session, Array.from(qs.entries()) || [], hidden]
+  // loosely filter to avoid potential data issues, should exclude these: https://maxchadwick.xyz/tracking-query-params-registry/
+  const moduleFormat = ([param]) => {
+    const valid = param.match(/[0-9]/)
+    if (!valid) unsetQueryParam(param)
+    return valid
+  }
+
+  return [year || now.getFullYear(), session, Array.from(qs.entries()).filter(moduleFormat) || [], hidden]
 }
 
 export const setQueryParam = (param, value) => {

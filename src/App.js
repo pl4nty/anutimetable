@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import {useRef, useState, useEffect, useMemo} from 'react'
 import {Button, Card, Container, Navbar, OverlayTrigger, Tooltip} from 'react-bootstrap'
 
 import Toolbar from './Toolbar'
@@ -8,11 +8,46 @@ import { getInitialState, setQueryParam, unsetQueryParam, fetchJsObject, stringT
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js'
 
+import {ThemeConfig} from 'bootstrap-darkmode';
+
 const isDevelopment = process.env.NODE_ENV === 'development'
 const API = `${isDevelopment ? 'localhost:7071' : window.location.host}/api`
 
 let App = () => {
   const calendar = useRef()
+
+  // Dark mode
+  const [darkMode, setDarkMode] = useState(false)
+
+
+  const themeConfig = useMemo(()=>{
+    const tc = new ThemeConfig();
+
+    tc.loadTheme = ()=>{
+      const theme = localStorage.getItem('darkMode')
+      if(theme === 'true'){
+        setDarkMode(true);
+        return 'dark';
+      }
+      return 'light';
+    }
+
+    tc.saveTheme = (theme)=>{
+      setDarkMode(theme === 'dark');
+      localStorage.setItem('darkMode', theme === 'dark' ? 'true' : 'false');
+    }
+
+    return tc;
+  }, [])
+
+  useEffect(()=>{
+    themeConfig.initTheme();
+  }, [themeConfig])
+
+  function toggleDarkMode() {
+    const theme = themeConfig.getTheme();
+    themeConfig.setTheme(theme === 'dark' ? 'light' : 'dark');
+  }
 
   // Timezone string, like "Australia/Sydney"
   const [timeZone, setTimeZone] = useState(localStorage.timeZone
@@ -54,6 +89,10 @@ let App = () => {
     // We're flatMapping so that we can return [] to do nothing and [result] to return a result
     if (!o || !selectedModules.map(({ id }) => id).includes(module)) return []
     const r = o.match(/([^0-9]*)([0-9]+)$/)
+    if (!r || !r[2]) {
+      console.error("Failed to find regex or second pattern in regex for input", o)
+      return []
+    }
     return [[module, r[1], parseInt(r[2])]]
   }))
   const [specifiedOccurrences, setSpecifiedOccurrences] = useState(getSpecOccurrences())
@@ -167,7 +206,7 @@ let App = () => {
   },[]);
 
   const state = {
-    timeZone, year, session, sessions, timetableData, modules, selectedModules, startingDay,
+    timeZone, year, session, sessions, timetableData, modules, selectedModules, startingDay, darkMode,
     setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
     selectOccurrence, resetOccurrence, hideOccurrence,
   }
@@ -178,7 +217,10 @@ let App = () => {
 
   // Start day of week dialog
   const [startDayDialogOpen, setStartDayDialogOpen] = useState(false)
-  const toggleStartDayDialog = () => setStartDayDialogOpen(!startDayDialogOpen);
+  const openStartDayDialog = () => {
+    setStartDayDialogOpen(true);
+    setSettingsOpen(false);
+  }
   const closeStartDayDialog = () => {
     setStartDayDialogOpen(false);
     setSettingsOpen(false);
@@ -212,7 +254,11 @@ let App = () => {
       ) : <></> /* need a fragment, not null, because react-bootstrap is funky */}
     </Navbar>
 
-    <div className={`fab ${settingsOpen ? 'fab--open' : ''}`} >
+    <div
+      className={`fab ${settingsOpen ? 'fab--open' : ''}`}
+      onMouseLeave={() => setSettingsOpen(false)}
+      onMouseEnter={() => setSettingsOpen(true)}
+    >
       <Button
         className={'fab-button'}
         variant="secondary"
@@ -234,7 +280,7 @@ let App = () => {
           <Button
             className={'fab-action'}
             variant={"primary"}
-            onClick={toggleStartDayDialog}
+            onClick={openStartDayDialog}
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
               <path fill="none" d="M0 0h24v24H0z"/>
@@ -244,10 +290,31 @@ let App = () => {
             </svg>
           </Button>
         </OverlayTrigger>
+        <OverlayTrigger
+          key={'dark-mode'}
+          placement="left"
+          overlay={
+            <Tooltip id="tooltip-dark-mode">
+              Toggle Dark Mode
+            </Tooltip>
+          }
+        >
+          <Button
+            className={'fab-action'}
+            variant={"primary"}
+            onClick={toggleDarkMode}
+          >
+            <svg className={darkMode?'hidden':''} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z" fill="rgba(255,255,255,1)"/></svg>
+            <svg className={darkMode?'':'hidden'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z" fill="rgba(255,255,255,1)"/></svg>
+          </Button>
+        </OverlayTrigger>
       </div>
     </div>
 
-    <div className={`${startDayDialogOpen ? '' : 'hidden'} dialog-container`}>
+    <div
+      className={`${startDayDialogOpen ? '' : 'hidden'} dialog-container`}
+      onClick={closeStartDayDialog}
+    >
       <div className="dialog">
         <Card>
           <Card.Header>Calendar Start of Week</Card.Header>
