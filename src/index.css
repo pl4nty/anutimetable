@@ -364,3 +364,37 @@ div[id^=react-select] div {
     background-color: #fafafa;
     font-weight: bold;
 }
+
+body[data-theme="dark"] nav.navbar .navbar-text a {
+    color: white;
+}
+
+body[data-theme="dark"] nav.navbar .navbar-text {
+    color: #bbbbbb;
+}
+
+body[data-theme="dark"] .rbt-input-main {
+    color: whitesmoke;
+}
+
+
+body[data-theme="dark"] .rbt-input-hint {
+    color: rgba(255, 255, 255, 0.54) !important;
+}
+
+body[data-theme="dark"] .rbt-token {
+    color: #8db0b2;
+    background-color: #143b6c;
+}
+
+body[data-theme="dark"] .rbt-token > a {
+    color: #ffffff;
+}
+
+body[data-theme="dark"] .fc .fc-list-sticky .fc-list-day > * {
+    background-color: #101214;
+}
+
+body[data-theme="dark"] .fc .fc-list-event:hover td {
+    background-color: #090a0a;
+}
