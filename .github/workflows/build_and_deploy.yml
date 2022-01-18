@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   pull_request_target:
-    paths: ['!scraper/']
+    paths-ignore: [scraper/**]
     types: [opened, reopened, synchronize, labeled]
   # trigger after successful scrape, as push from scrape action doesn't trigger a push event
   workflow_run:
