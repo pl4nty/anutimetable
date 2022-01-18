@@ -42,4 +42,4 @@ jobs:
           app_artifact_location: build # Build artifacts
           api_location: api # Functions
         env:
-          REACT_APP_INSIGHTS_STRING: ${{ secrets.REACT_APP_INSIGHTS_STRING }} # not a secret
+          REACT_APP_INSIGHTS_STRING: ${{ secrets.REACT_APP_INSIGHTS_STRING }} # this is public, not actually secret
