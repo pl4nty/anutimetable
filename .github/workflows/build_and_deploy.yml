@@ -2,13 +2,13 @@ name: Build and deploy
 
 on:
   push:
-    branches: [master]
+    branches: [$default-branch]
   pull_request_target:
     paths-ignore: [scraper/**]
     types: [opened, reopened, synchronize, labeled]
   # trigger after successful scrape, as push from scrape action doesn't trigger a push event
   workflow_run:
-    workflows: [Scrape official timetable]
+    workflows: [Scrape]
     types: [completed]
 
 # Checkout branch and comment on PR
@@ -17,10 +17,10 @@ permissions:
   pull-requests: write
 
 jobs:
-  build_and_deploy:
+  swa:
     if: github.event_name != 'pull_request_target' || contains(github.event.pull_request.labels.*.name, 'safe to test')
     runs-on: ubuntu-latest
-    name: Build and deploy
+    name: Static Web App
     steps:
       # NOTE - THIS CHECKOUT MAY CONTAIN UNTRUSTED CODE
       # TO AVOID SECRET DISCLOSURE, IT MUST ONLY RUN IN THE SANDBOXED AZURE BUILD ENVIRONMENT
