@@ -1,4 +1,4 @@
-name: Scrape official timetable
+name: Scrape
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    name: Scrape data into JSON file with Python script
+    name: Official timetable
     env:
       TIMETABLE_PREFIX: http://timetabling.anu.edu.au/sws
     strategy:

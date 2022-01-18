@@ -1,0 +1,15 @@
+on:
+  pull_request_target:
+    paths-ignore: [scraper/**]
+    types: [closed]
+
+jobs:
+  pr_cleanup:
+    runs-on: ubuntu-latest
+    name: Clean up after closed pull request
+    steps:
+      - name: Delete Azure SWA staging environment
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_SWA_DEPLOY_TOKEN }}
+          action: close

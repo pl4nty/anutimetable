@@ -1,7 +1,7 @@
 # ANU Unofficial Timetable
 [![Website status](https://img.shields.io/website?down_color=red&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Ftimetable.cssa.club&logo=microsoft-azure&logoColor=white)](https://timetable.cssa.club)
 [![Build status](https://img.shields.io/github/workflow/status/anucssa/anutimetable/Build%20and%20deploy?logo=github&logoColor=white)](https://github.com/anucssa/anutimetable/actions/workflows/build_and_deploy.yml)
-[![Scraper status](https://img.shields.io/github/workflow/status/anucssa/anutimetable/Scrape%20official%20timetable?logo=github&logoColor=white&label=scraper)](https://github.com/anucssa/anutimetable/actions/workflows/scrape.yml)
+[![Scraper status](https://img.shields.io/github/workflow/status/anucssa/anutimetable/Scrape?logo=github&logoColor=white&label=scraper)](https://github.com/anucssa/anutimetable/actions/workflows/scrape.yml)
 
 ## About
 
