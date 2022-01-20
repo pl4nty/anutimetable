@@ -2,7 +2,7 @@ name: Build and deploy
 
 on:
   push:
-    branches: [$default-branch]
+    branches: [master]
   pull_request_target:
     paths-ignore: [scraper/**]
   # trigger after successful scrape, as push from scrape action doesn't trigger a push event
