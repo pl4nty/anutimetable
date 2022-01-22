@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
   pull_request_target:
-    paths-ignore: [scraper/**]
+    paths-ignore: ['.vscode/**']
   # trigger after successful scrape, as push from scrape action doesn't trigger a push event
   workflow_run:
     workflows: [Scrape]
