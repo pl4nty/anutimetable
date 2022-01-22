@@ -17,7 +17,8 @@ permissions:
 
 jobs:
   swa:
-    if: github.event_name != 'pull_request_target' || contains(github.event.pull_request.labels.*.name, 'safe to test')
+    # if not a PR, or an internal PR, or PR has 'safe to test' label
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name == github.repository || contains(github.event.pull_request.labels.*.name, 'safe to test')
     runs-on: ubuntu-latest
     name: Static Web App
     steps:
