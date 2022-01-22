@@ -244,7 +244,7 @@ let App = () => {
           Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
         <a href="https://cssa.club/">ANU CSSA</a>&nbsp;
         (and a <a href="/contributors.html">lot of people</a>), report issues&nbsp;
-          <a href="https://github.com/anucssa/anutimetable/issues">here</a>
+          <a href="https://forms.office.com/r/sZnsxtsh2F">here</a>
       </Navbar.Text>
       {hiddenOccurrences.length ? (
         <Navbar.Collapse className="justify-content-end">
