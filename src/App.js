@@ -246,12 +246,6 @@ let App = () => {
         (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
           <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
       </Navbar.Text>
-      {hiddenOccurrences.length ? (
-        <Navbar.Collapse className="justify-content-end">
-          Hiding {hiddenOccurrences.length} event{hiddenOccurrences.length > 1 && 's'}.&nbsp;
-          <button className='choose-button' onClick={() => setHiddenOccurrences([])}>Show</button>
-        </Navbar.Collapse>
-      ) : <></> /* need a fragment, not null, because react-bootstrap is funky */}
     </Navbar>
 
     <div
@@ -260,16 +254,16 @@ let App = () => {
       onMouseEnter={() => setSettingsOpen(true)}
     >
       <Button
-        className={'fab-button'}
+        className='fab-button'
         variant="secondary"
         onClick={toggleSettings}
       >
         <svg className={settingsOpen ? 'hidden' : ''} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M5.334 4.545a9.99 9.99 0 0 1 3.542-2.048A3.993 3.993 0 0 0 12 3.999a3.993 3.993 0 0 0 3.124-1.502 9.99 9.99 0 0 1 3.542 2.048 3.993 3.993 0 0 0 .262 3.454 3.993 3.993 0 0 0 2.863 1.955 10.043 10.043 0 0 1 0 4.09c-1.16.178-2.23.86-2.863 1.955a3.993 3.993 0 0 0-.262 3.455 9.99 9.99 0 0 1-3.542 2.047A3.993 3.993 0 0 0 12 20a3.993 3.993 0 0 0-3.124 1.502 9.99 9.99 0 0 1-3.542-2.047 3.993 3.993 0 0 0-.262-3.455 3.993 3.993 0 0 0-2.863-1.954 10.043 10.043 0 0 1 0-4.091 3.993 3.993 0 0 0 2.863-1.955 3.993 3.993 0 0 0 .262-3.454zM13.5 14.597a3 3 0 1 0-3-5.196 3 3 0 0 0 3 5.196z" fill="rgba(255,255,255,1)"/></svg>
         <svg className={settingsOpen ? '' : 'hidden'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" fill="rgba(255,255,255,1)"/></svg>
       </Button>
-      <div className={'fab-actions'}>
+      <div className='fab-actions'>
         <OverlayTrigger
-          key={'start-day'}
+          key='start-day'
           placement="left"
           overlay={
             <Tooltip id="tooltip-start-day">
@@ -278,8 +272,8 @@ let App = () => {
           }
         >
           <Button
-            className={'fab-action'}
-            variant={"primary"}
+            className='fab-action'
+            variant='primary'
             onClick={openStartDayDialog}
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -291,7 +285,7 @@ let App = () => {
           </Button>
         </OverlayTrigger>
         <OverlayTrigger
-          key={'dark-mode'}
+          key='dark-mode'
           placement="left"
           overlay={
             <Tooltip id="tooltip-dark-mode">
@@ -300,14 +294,33 @@ let App = () => {
           }
         >
           <Button
-            className={'fab-action'}
-            variant={"primary"}
+            className='fab-action'
+            variant='primary'
             onClick={toggleDarkMode}
           >
             <svg className={darkMode?'hidden':''} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12zM11 1h2v3h-2V1zm0 19h2v3h-2v-3zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.93zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zm2.121-14.85l1.414 1.415-2.121 2.121-1.414-1.414 2.121-2.121zM5.636 16.95l1.414 1.414-2.121 2.121-1.414-1.414 2.121-2.121zM23 11v2h-3v-2h3zM4 11v2H1v-2h3z" fill="rgba(255,255,255,1)"/></svg>
             <svg className={darkMode?'':'hidden'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11.38 2.019a7.5 7.5 0 1 0 10.6 10.6C21.662 17.854 17.316 22 12.001 22 6.477 22 2 17.523 2 12c0-5.315 4.146-9.661 9.38-9.981z" fill="rgba(255,255,255,1)"/></svg>
           </Button>
         </OverlayTrigger>
+        {hiddenOccurrences.length ? (
+          <OverlayTrigger
+            key='show-hidden'
+            placement="left"
+            overlay={
+              <Tooltip id="tooltip-show-hidden">
+                Show {hiddenOccurrences.length} Hidden Event{hiddenOccurrences.length > 1 ? 's' : ''}
+              </Tooltip>
+            }
+          >
+            <Button
+              className='fab-action'
+              variant='primary'
+              onClick={() => setHiddenOccurrences([])}
+            >
+              <svg viewBox="0 0 24 24" width='24' height='24'><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="rgba(255,255,255,1)"></path></svg>
+            </Button>
+          </OverlayTrigger>
+        ) : <></> /* need a fragment, not null, because react-bootstrap is funky */}
       </div>
     </div>
 
@@ -323,7 +336,7 @@ let App = () => {
               The weekly calendar starts on&nbsp;
               <select
                 value={startingDay}
-                className={'daySelect'}
+                className='daySelect'
                 onChange={handleStartDayChange}
               >
                 <option value={"0"}>Sunday</option>
