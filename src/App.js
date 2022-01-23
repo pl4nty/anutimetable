@@ -308,7 +308,7 @@ let App = () => {
             placement="left"
             overlay={
               <Tooltip id="tooltip-show-hidden">
-                Show {hiddenOccurrences.length} Hidden Event{hiddenOccurrences.length > 1 && 's'}
+                Show {hiddenOccurrences.length} Hidden Event{hiddenOccurrences.length > 1 ? 's' : ''}
               </Tooltip>
             }
           >
