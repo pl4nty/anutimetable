@@ -148,6 +148,6 @@ export default forwardRef(({ state }, ref) => {
 
     eventSourceFailure={err => console.error(err.message)}
 
-    firstDay={state.startingDay}
+    firstDay={state.weekStart}
   />
 })

@@ -194,26 +194,32 @@ let App = () => {
   }
 
   // Starting day of the week
-  const [startingDay, setStartingDay] = useState(0);
-
+  const [weekStart, setWeekStart] = useState(0);
   useEffect(()=>{
-    const cachedStartingDay = localStorage.getItem('startingDay');
-    if(cachedStartingDay && parseInt(cachedStartingDay) >= 0 && parseInt(cachedStartingDay) <= 6){
-      setStartingDay(parseInt(cachedStartingDay));
+    let localWeekStart = localStorage.getItem('weekStart')
+    if (localWeekStart) {
+      localWeekStart = parseInt(localWeekStart)
+      if (localWeekStart >= 0 && localWeekStart <= 6) {
+        setWeekStart(localWeekStart)
+      } else {
+        localStorage.removeItem('weekStart')
+      }
     }
   },[]);
 
   // 0-indexed days of the week to hide (starting from Sunday)
   const [hiddenDays, setHiddenDays] = useState([])
   useEffect(()=>{
-    const localHiddenDays = localStorage.getItem('hiddenDays');
+    // use reduce to discard non-int days
+    const localHiddenDays = localStorage.getItem('hiddenDays')?.split(',')
+      .reduce((acc, x) => [...acc, ...([parseInt(x)] || [])], [])
     if (localHiddenDays) {
-      setHiddenDays(localHiddenDays.split(',').map(x=>parseInt(x)))
+      setHiddenDays(localHiddenDays)
     }
   },[]);
 
   const state = {
-    timeZone, year, session, sessions, timetableData, modules, selectedModules, startingDay, darkMode,
+    timeZone, year, session, sessions, timetableData, modules, selectedModules, weekStart, darkMode,
     setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
     selectOccurrence, resetOccurrence, hideOccurrence, hiddenDays,
   }
@@ -241,14 +247,7 @@ let App = () => {
       ) : <></> /* need a fragment, not null, because react-bootstrap is funky */}
     </Navbar>
 
-    <FloatingActionButton
-      startingDay={startingDay}
-      setStartingDay={setStartingDay}
-      hiddenDays={hiddenDays}
-      setHiddenDays={setHiddenDays}
-      darkMode={darkMode}
-      toggleDarkMode={toggleDarkMode}
-    />
+    <FloatingActionButton {...{ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode }} />
   </Container>
 }
 

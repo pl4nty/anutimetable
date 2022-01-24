@@ -2,18 +2,16 @@ import { useState } from 'react'
 
 import FABItem from './FABItem'
 import SelectModal from './SelectModal'
-import { OverlayTrigger, Button, ButtonGroup } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 
 import { RiSettings4Fill, RiCloseLine, RiMoonFill, RiSunFill, RiCalendar2Fill } from 'react-icons/ri'
 import { BsCalendarWeek } from 'react-icons/bs'
 
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
-const FloatingActionButton = ({ startingDay, setStartingDay, hiddenDays, setHiddenDays, darkMode, toggleDarkMode }) => {
-  const [menuOpen, setMenuOpen] = useState(false)
-
+const WeekStart = ({ setMenuOpen, setWeekStart, weekStart }) => {
   const [weekStartOpen, setWeekStartOpen] = useState(false)
-  const WeekStart = () => <>
+  return <>
     <FABItem
       className='fab-action'
       title='Starting Day of Week'
@@ -24,77 +22,73 @@ const FloatingActionButton = ({ startingDay, setStartingDay, hiddenDays, setHidd
       }}
     />
     <SelectModal 
-      visible={weekStartOpen}
       title='Calendar Start of Week'
       label='The weekly calendar starts on&nbsp;'
+      visible={weekStartOpen}
       options={daysOfWeek}
-      value={startingDay}
+      value={weekStart}
       inline
       onHide={selected => {
         setWeekStartOpen(false)
-        setStartingDay(+selected[0])
-        localStorage.setItem('startingDay', selected[0])
+        setWeekStart(+selected[0])
+        localStorage.setItem('weekStart', selected[0])
       }}
     />
   </>
+}
 
-  const HideDays = () => {
-    const [hideDaysOpen, setHideDaysOpen] = useState(false)
-    return <>
-      <FABItem
-        className='fab-action'
-        title='Toggle Day Visibility'
-        content={<BsCalendarWeek size='1.5em' />}
-        onClick={() => {
-          setHideDaysOpen(true)
-          setMenuOpen(false)
-        }}
-      />
-      <SelectModal
-        visible={hideDaysOpen}
-        title='Toggle Visible Days'
-        label='Select days to hide:'
-        options={daysOfWeek}
-        value={hiddenDays}
-        multiple
-        onHide={selected => {
-          setHideDaysOpen(false)
-          setHiddenDays(selected)
-          localStorage.setItem('hiddenDays', selected);
-        }}
-      />
-    </>
-  }
-
-  const menu = props => <ButtonGroup vertical {...props}>
-    <HideDays />
-    <WeekStart />
+const HiddenDays = ({ setMenuOpen, setHiddenDays, hiddenDays }) => {
+  const [hiddenDaysOpen, setHiddenDaysOpen] = useState(false)
+  return <>
     <FABItem
       className='fab-action'
-      title='Toggle Dark Mode'
-      content={darkMode ? <RiMoonFill size='1.5em' /> : <RiSunFill size='1.5em' />}
-      onClick={toggleDarkMode}
+      title='Toggle Day Visibility'
+      content={<BsCalendarWeek size='1.5em' />}
+      onClick={() => {
+        setHiddenDaysOpen(true)
+        setMenuOpen(false)
+      }}
     />
-  </ButtonGroup>
+    <SelectModal
+      title='Toggle Visible Days'
+      label='Select days to hide:'
+      visible={hiddenDaysOpen}
+      options={daysOfWeek}
+      value={hiddenDays}
+      multiple
+      onHide={selected => {
+        setHiddenDaysOpen(false)
+        setHiddenDays(selected)
+        localStorage.setItem('hiddenDays', selected);
+      }}
+    />
+  </>
+}
 
-  return <OverlayTrigger
-    placement='top'
-    trigger={['focus','click']}
-    rootClose
-    overlay={menu}
+const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode }) => {
+  const [menuOpen, setMenuOpen] = useState(false)
+  return <div
+    className={'fab' + (menuOpen ? ' fab--open' : '')}
+    onMouseEnter={() => setMenuOpen(true)}
+    onMouseLeave={() => setMenuOpen(false)}
   >
     <Button
       variant='secondary'
-      className='rounded-circle p-3'
-      style={{
-        position: 'fixed',
-        bottom: '1em',
-        right: '1em'
-      }}
+      className='fab-button'
+      onClick={() => setMenuOpen(!menuOpen)}
     >
       {menuOpen ? <RiCloseLine size='2em' /> : <RiSettings4Fill size='2em' />}
     </Button>
-  </OverlayTrigger>
+    <div className='fab-actions'>
+      <WeekStart {...{setMenuOpen, weekStart, setWeekStart}} />
+      <HiddenDays {...{setMenuOpen, hiddenDays, setHiddenDays}} />
+      <FABItem
+        title='Toggle Dark Mode'
+        content={darkMode ? <RiMoonFill size='1.5em' /> : <RiSunFill size='1.5em' />}
+        onClick={toggleDarkMode}
+      />
+    </div>
+  </div>
 }
 
 export default FloatingActionButton
