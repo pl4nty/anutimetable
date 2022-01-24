@@ -5618,21 +5618,36 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "ARTV8041_S1-LecA/01",
+    "name": "ARTV8041_S1-FieA/01",
     "description": null,
-    "day": 2,
+    "day": 3,
     "start": "14:00",
     "finish": "16:00",
     "duration": "2:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "16",
+    "module": "ARTV8041",
+    "session": "S1",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": "Environment Studio Fieldwork (offsite) ",
+    "locationID": ""
+   },
+   {
+    "name": "ARTV8041_S1-LecA/01",
+    "description": null,
+    "day": 3,
+    "start": "14:00",
+    "finish": "16:00",
+    "duration": "2:00",
+    "weeks": "8\u201113,17\u201121",
     "module": "ARTV8041",
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "SRWB 2.10",
-    "locationID": "http://www.anu.edu.au/maps#show=11367",
-    "lat": -35.284327,
-    "lon": 149.121169
+    "location": "SOA&D Room 1.29",
+    "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+    "lat": -35.280713,
+    "lon": 149.122377
    }
   ]
  },
@@ -19029,8 +19044,8 @@
     "description": null,
     "day": 2,
     "start": "11:00",
-    "finish": "12:00",
-    "duration": "1:00",
+    "finish": "12:30",
+    "duration": "1:30",
     "weeks": "8\u201113,16\u201121",
     "module": "CHIN3024",
     "session": "S1",
@@ -28779,10 +28794,8 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "COP G030",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "CRIM2001_S1-TutA/01",
@@ -28811,8 +28824,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
+    "location": "RSSS Lectorial 2 Rm 1.23",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
    }
   ]
  },
@@ -28958,17 +28973,8 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "COP G030",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "CRIM6007_S1-TutA/01",
-    "description": null,
     "day": 3,
     "start": "16:00",
-    "finish": "17:00",
     "duration": "1:00",
     "weeks": "8\u201113,16\u201121",
     "module": "CRIM6007",
@@ -28990,8 +28996,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
+    "location": "RSSS Lectorial 2 Rm 1.23",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
    }
   ]
  },
@@ -49897,10 +49905,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "STB_S1 (3.07)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "CBE Bld TR7",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    }
   ]
  },
@@ -55095,8 +55103,8 @@
     "name": "INTR8043_S1-SemA/01",
     "description": null,
     "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
+    "start": "09:00",
+    "finish": "11:00",
     "duration": "2:00",
     "weeks": "8\u201113,16\u201121",
     "module": "INTR8043",
@@ -59480,17 +59488,17 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS2201_S1-SemA/01",
     "description": null,
-    "day": 1,
-    "start": "12:00",
-    "finish": "15:00",
+    "day": 2,
+    "start": "08:00",
+    "finish": "11:00",
     "duration": "3:00",
     "weeks": "11,16\u201117",
     "module": "LAWS2201",
@@ -59506,18 +59514,18 @@
     "name": "LAWS2201_S1-SemA/02",
     "description": null,
     "day": 1,
-    "start": "09:00",
-    "finish": "12:00",
+    "start": "12:00",
+    "finish": "15:00",
     "duration": "3:00",
     "weeks": "8\u201113,16\u201121",
     "module": "LAWS2201",
     "session": "S1",
     "activity": "SemA",
     "occurrence": "02",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS2201_S1-SemA/03",
@@ -59531,10 +59539,10 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "03",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS2201_S1-SemA/04",
@@ -59548,10 +59556,10 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "04",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS2201_S1-SemA/05",
@@ -61144,17 +61152,17 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS6201_S1-SemA/01",
     "description": null,
-    "day": 1,
-    "start": "12:00",
-    "finish": "15:00",
+    "day": 2,
+    "start": "08:00",
+    "finish": "11:00",
     "duration": "3:00",
     "weeks": "11,16\u201117",
     "module": "LAWS6201",
@@ -61170,18 +61178,18 @@
     "name": "LAWS6201_S1-SemA/02",
     "description": null,
     "day": 1,
-    "start": "09:00",
-    "finish": "12:00",
+    "start": "12:00",
+    "finish": "15:00",
     "duration": "3:00",
     "weeks": "8\u201113,16\u201121",
     "module": "LAWS6201",
     "session": "S1",
     "activity": "SemA",
     "occurrence": "02",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS6201_S1-SemA/03",
@@ -61195,10 +61203,10 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "03",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS6201_S1-SemA/04",
@@ -61212,10 +61220,10 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "04",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS6201_S1-SemA/05",
@@ -62436,18 +62444,18 @@
     "name": "LING2105_S1-LecA/01",
     "description": null,
     "day": 1,
-    "start": "08:00",
-    "finish": "10:00",
+    "start": "12:00",
+    "finish": "14:00",
     "duration": "2:00",
     "weeks": "8\u201113,16\u201121",
     "module": "LING2105",
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "COOMBS T",
-    "locationID": "http://www.anu.edu.au/maps#show=11651",
-    "lat": -35.282454,
-    "lon": 149.119653
+    "location": "LAW LINK T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LING2105_S1-TutA/01",
@@ -62939,18 +62947,18 @@
     "name": "LING6105_S1-LecA/01",
     "description": null,
     "day": 1,
-    "start": "08:00",
-    "finish": "10:00",
+    "start": "12:00",
+    "finish": "14:00",
     "duration": "2:00",
     "weeks": "8\u201113,16\u201121",
     "module": "LING6105",
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "COOMBS T",
-    "locationID": "http://www.anu.edu.au/maps#show=11651",
-    "lat": -35.282454,
-    "lon": 149.119653
+    "location": "LAW LINK T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LING6105_S1-TutA/01",
@@ -72623,32 +72631,32 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "MGMT3015_S1-PreTutA/09",
+    "name": "MGMT3015_S1-PreTutA/03",
     "description": null,
-    "day": 6,
-    "start": "17:00",
-    "finish": "18:00",
+    "day": 2,
+    "start": "09:00",
+    "finish": "10:00",
     "duration": "1:00",
     "weeks": "9\u201113,16\u201121",
     "module": "MGMT3015",
     "session": "S1",
     "activity": "PreTutA",
-    "occurrence": "09",
+    "occurrence": "03",
     "location": " prerecorded",
     "locationID": ""
    },
    {
-    "name": "MGMT3015_S1-PreTutA/10",
+    "name": "MGMT3015_S1-PreTutA/04",
     "description": null,
-    "day": 6,
-    "start": "18:00",
-    "finish": "19:00",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
     "duration": "1:00",
     "weeks": "9\u201113,16\u201121",
     "module": "MGMT3015",
     "session": "S1",
     "activity": "PreTutA",
-    "occurrence": "10",
+    "occurrence": "04",
     "location": " prerecorded",
     "locationID": ""
    },
@@ -72682,40 +72690,6 @@
     "activity": "TutA",
     "occurrence": "02",
     "location": "CBE Bld TR5",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "MGMT3015_S1-TutA/03",
-    "description": null,
-    "day": 2,
-    "start": "09:00",
-    "finish": "10:00",
-    "duration": "1:00",
-    "weeks": "9\u201113,16\u201121",
-    "module": "MGMT3015",
-    "session": "S1",
-    "activity": "TutA",
-    "occurrence": "03",
-    "location": "CBE Bld TR6",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "MGMT3015_S1-TutA/04",
-    "description": null,
-    "day": 2,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
-    "weeks": "9\u201113,16\u201121",
-    "module": "MGMT3015",
-    "session": "S1",
-    "activity": "TutA",
-    "occurrence": "04",
-    "location": "CBE Bld TR6",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
@@ -85215,31 +85189,6 @@
    }
   ]
  },
- "POLS4041_S1": {
-  "title": "POLS4041_S1\u00a0Special Topics in Comparative Politics",
-  "id": "POLS4041_S1",
-  "link": "",
-  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POLS4041_S1-SemA/01",
-    "description": null,
-    "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
-    "duration": "2:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "POLS4041",
-    "session": "S1",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Marie Reay 4.04",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   }
-  ]
- },
  "POLS4047_S1": {
   "title": "POLS4047_S1\u00a0Interpretation, Method, Critique: Interpretivist Methods in the Social Sciences",
   "id": "POLS4047_S1",
@@ -85335,31 +85284,6 @@
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
-   }
-  ]
- },
- "POLS8041_S1": {
-  "title": "POLS8041_S1\u00a0Special Topics In Comparative Politics",
-  "id": "POLS8041_S1",
-  "link": "",
-  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POLS8041_S1-SemA/01",
-    "description": null,
-    "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
-    "duration": "2:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "POLS8041",
-    "session": "S1",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Marie Reay 4.04",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
    }
   ]
  },

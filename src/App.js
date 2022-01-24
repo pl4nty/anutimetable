@@ -235,19 +235,13 @@ let App = () => {
     <Navbar>
       <Navbar.Text>
           Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
-        <a href="https://cssa.club/">ANU CSSA</a>&nbsp;
-        (and a <a href="/contributors.html">lot of people</a>), report issues&nbsp;
-          <a href="https://github.com/anucssa/anutimetable/issues">here</a>
+        <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
+        (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
+          <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
       </Navbar.Text>
-      {hiddenOccurrences.length ? (
-        <Navbar.Collapse className="justify-content-end">
-          Hiding {hiddenOccurrences.length} event{hiddenOccurrences.length > 1 && 's'}.&nbsp;
-          <button className='choose-button' onClick={() => setHiddenOccurrences([])}>Show</button>
-        </Navbar.Collapse>
-      ) : <></> /* need a fragment, not null, because react-bootstrap is funky */}
     </Navbar>
 
-    <FloatingActionButton {...{ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode }} />
+    <FloatingActionButton {...{ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hiddenOccurrences, setHiddenOccurrences }} />
   </Container>
 }
 
