@@ -140,6 +140,8 @@ export default forwardRef(({ state }, ref) => {
     weekNumberCalculation={weekNumberCalculation}
     weekText='Week'
 
+    hiddenDays={state.hiddenDays}
+
     fixedWeekCount={false}
 
     timeZone={state.timeZone}
