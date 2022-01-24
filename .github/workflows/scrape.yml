@@ -12,7 +12,8 @@ jobs:
     env:
       TIMETABLE_PREFIX: http://timetabling.anu.edu.au/sws
     strategy:
-      fail-fast: false
+      fail-fast: false # continue scraping even if a session fails
+      max-parallel: 1 # conservative ratelimit to avoid serverside crashes (since the script doesn't have backoff/retry)
       matrix:
         year: [2022]
         session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']

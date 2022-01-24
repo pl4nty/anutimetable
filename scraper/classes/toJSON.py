@@ -25,7 +25,7 @@ def formatCourses(courses: List[Course]):
     obj = {}
     for x in dicts:
         obj[x['id']] = x
-    data = json.JSONEncoder(separators=(',', ':')).encode(obj)
+    data = json.JSONEncoder(indent=1).encode(obj)
     f = open("timetable.json", "w+")
     f.write(data)
     f.close()
