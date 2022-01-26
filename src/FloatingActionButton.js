@@ -31,7 +31,7 @@ const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart }) => {
       inline
       onHide={selected => {
         setWeekStartOpen(false)
-        if (selected[0]) {
+        if (selected.length) {
           setWeekStart(+selected[0])
           localStorage.setItem('weekStart', selected[0])
         }
