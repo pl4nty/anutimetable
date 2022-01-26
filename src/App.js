@@ -112,6 +112,10 @@ let App = () => {
     hiddenOccurrences.filter(([module]) => selectedModules.map(({ id }) => id).includes(module))
   )
 
+  // Map of event IDs to colours that override the event's default colour
+  const [overrideColours, setOverrideColours] = useState(JSON.parse(localStorage.getItem('overrideColours')) || {})
+  useEffect(() => localStorage.setItem('overrideColours', JSON.stringify(overrideColours)), [overrideColours])
+
   // Update query string parameters and calendar events whenever anything changes
   useEffect(() => {
     const api = calendar.current.getApi()
@@ -160,14 +164,16 @@ let App = () => {
         }
       }
 
+      const [h, s, l] = stringToColor(id)
+
       // Add currently visible events to the calendar
       api.addEventSource({
         id,
-        color: stringToColor(id),
+        color: overrideColours[id] || `hsl(${h}, ${s}%, ${l}%)`,
         events: parseEvents(eventsForModule, year, session, id)
       })
     })
-  }, [timetableData, year, session, selectedModules, calendar, timeZone, m, modules, specifiedOccurrences, hiddenOccurrences])
+  }, [overrideColours, timetableData, year, session, selectedModules, calendar, timeZone, m, modules, specifiedOccurrences, hiddenOccurrences])
 
   // Remove specified events for modules that have been removed
   useEffect(() => {
@@ -235,7 +241,7 @@ let App = () => {
   return <Container fluid>
     <h2 className="mt-2">ANU Timetable</h2>
 
-    <Toolbar API={API} ref={calendar} state={state} />
+    <Toolbar API={API} ref={calendar} state={state} {...{overrideColours, setOverrideColours}} />
 
     <Calendar ref={calendar} state={state} />
 

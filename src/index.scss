@@ -285,3 +285,18 @@ body[data-theme="dark"] {
     background-color: #090a0a;
   }
 }
+
+// colour picker
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+::-webkit-color-swatch {
+  padding: 0.4rem;
+  border-radius: 50%;
+}
+
+// prevent colour change (click) on search bar selected item
+.rbt-token-active {
+  background-color: #e7f4ff;
+  color: #007bff;
+}

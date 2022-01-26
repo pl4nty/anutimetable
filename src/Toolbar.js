@@ -1,12 +1,13 @@
-import { forwardRef } from 'react'
+import { forwardRef, useState } from 'react'
 
-import { InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
+import { InputGroup, Dropdown, DropdownButton, Form } from 'react-bootstrap'
 import { Token, Typeahead } from 'react-bootstrap-typeahead'
 import TimezoneSelect from 'react-timezone-select'
 
 import Export from './Export'
+import { hslToHex, stringToColor } from './utils'
 
-export default forwardRef(({ API, state: {
+export default forwardRef(({ API, overrideColours, setOverrideColours, state: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
   setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
 } }, calendar) => {
@@ -22,6 +23,8 @@ export default forwardRef(({ API, state: {
     setSelectedModules([])
     setSession(e)
   }
+
+  const [isColourPending, setIsColourPending] = useState(false)
 
   return <>
   <InputGroup className="mb-2">
@@ -63,13 +66,31 @@ export default forwardRef(({ API, state: {
         onRemove={props.onRemove}
         option={option}
         tabIndex={props.tabIndex}
-        href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
       >
-        <a
+        <Form inline><Form.Label className='m-0 mr-1'><a
           href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
           target={"_blank"}
           rel={"noreferrer"}
-        >{option.id}</a> {/** use id (eg COMP1130) instead of label to save space */}
+        >{option.id}</a></Form.Label> {/** use id (eg COMP1130) instead of label to save space */}
+        <Form.Control
+          id={option.id}
+          custom
+          type='color'
+          defaultValue={overrideColours[option.id] || hslToHex(...stringToColor(option.id))}
+          title="Customise course colour"
+          size='sm'
+          className='rounded-circle border-0 p-0 w-auto h-auto'
+          // triggers expensive rerender, so rate-limit with a timeout
+          onChange={e => {
+            if (!isColourPending) {
+              setTimeout(() => {
+                setOverrideColours({...overrideColours, [option.id]: e.target.value })
+                setIsColourPending(false)
+              }, 1000)
+              setIsColourPending(true)
+            }
+          }}
+        /></Form>
       </Token>}
     />
 

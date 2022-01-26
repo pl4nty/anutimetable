@@ -9,9 +9,22 @@ export const stringToColor = str => {
   if (!(str in stringColorMap)) {
     const hue = hues[Object.keys(stringColorMap).length % hues.length]
     const offset = 60; // configurable
-    stringColorMap[str] = `hsl(${(hue + offset) % 360}, 100%, 30%)`;
+    stringColorMap[str] = [(hue + offset) % 360, 100, 30]; // static saturation and lightness
   }
   return stringColorMap[str]
+}
+
+// https://stackoverflow.com/a/44134328
+// TODO: refactor stringToColor so this isn't necessary
+export const hslToHex = (h, s, l) => {
+  l /= 100;
+  const a = s * Math.min(l, 1 - l) / 100;
+  const f = n => {
+    const k = (n + h / 30) % 12;
+    const color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+    return Math.round(255 * color).toString(16).padStart(2, '0');   // convert to Hex and prefix "0" if needed
+  };
+  return `#${f(0)}${f(8)}${f(4)}`;
 }
 
 // hardcode to semester 1 or 2 as users usually want them
