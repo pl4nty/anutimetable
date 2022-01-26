@@ -3002,7 +3002,7 @@
     "session": "X1",
     "activity": "ComA",
     "occurrence": "01",
-    "location": "CSIT N101",
+    "location": "CSIT N115/N116",
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": "-35.275345",
     "lon": "149.120583"
@@ -3019,7 +3019,7 @@
     "session": "X1",
     "activity": "ComB",
     "occurrence": "01",
-    "location": "CSIT N101",
+    "location": "CSIT N115/N116",
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": -35.275345,
     "lon": 149.120583
@@ -3036,7 +3036,7 @@
     "session": "X1",
     "activity": "ComC",
     "occurrence": "01",
-    "location": "CSIT N101",
+    "location": "CSIT N115/N116",
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": -35.275345,
     "lon": 149.120583
@@ -3053,7 +3053,7 @@
     "session": "X1",
     "activity": "ComD",
     "occurrence": "01",
-    "location": "CSIT N101",
+    "location": "CSIT N115/N116",
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": -35.275345,
     "lon": 149.120583
@@ -3070,7 +3070,7 @@
     "session": "X1",
     "activity": "ComE",
     "occurrence": "01",
-    "location": "CSIT N101",
+    "location": "CSIT N115/N116",
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": -35.275345,
     "lon": 149.120583
@@ -3087,10 +3087,10 @@
     "session": "X1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Ian Ross R107/108/109 Design Studio/Project Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP8430_X1-LecB/01",
@@ -3104,10 +3104,10 @@
     "session": "X1",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "Ian Ross R107/108/109 Design Studio/Project Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": -35.275684,
-    "lon": 149.120161
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP8430_X1-LecC/01",
@@ -3121,10 +3121,10 @@
     "session": "X1",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "Ian Ross R107/108/109 Design Studio/Project Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": -35.275684,
-    "lon": 149.120161
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP8430_X1-LecD/01",
@@ -3138,10 +3138,10 @@
     "session": "X1",
     "activity": "LecD",
     "occurrence": "01",
-    "location": "Ian Ross R107/108/109 Design Studio/Project Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": -35.275684,
-    "lon": 149.120161
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP8430_X1-LecE/01",
@@ -3155,10 +3155,10 @@
     "session": "X1",
     "activity": "LecE",
     "occurrence": "01",
-    "location": "Ian Ross R107/108/109 Design Studio/Project Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": -35.275684,
-    "lon": 149.120161
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    }
   ]
  },
