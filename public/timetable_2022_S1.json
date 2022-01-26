@@ -7341,10 +7341,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "ASTR3007_S1-LecB/01",
@@ -7358,10 +7358,10 @@
     "session": "S1",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "HA G051",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "MORAN G008",
+    "locationID": "http://www.anu.edu.au/maps#show=11416",
+    "lat": -35.277063,
+    "lon": 149.122565
    },
    {
     "name": "ASTR3007_S1-TutA/01",
@@ -7531,10 +7531,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "ASTR6007_S1-LecB/01",
@@ -7548,10 +7548,10 @@
     "session": "S1",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "HA G051",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "MORAN G008",
+    "locationID": "http://www.anu.edu.au/maps#show=11416",
+    "lat": -35.277063,
+    "lon": 149.122565
    },
    {
     "name": "ASTR6007_S1-TutA/01",
@@ -9592,10 +9592,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Kambri MCH",
-    "locationID": "http://www.anu.edu.au/maps#show=108132",
-    "lat": -35.276928,
-    "lon": 149.121926
+    "location": "Marie Reay 3.03",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "BIOL2151_S1-TutA/04",
@@ -10404,10 +10404,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Innovations Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11370",
-    "lat": -35.28236,
-    "lon": 149.11573
+    "location": "RN Robertson C1.08",
+    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
+    "lat": -35.277804,
+    "lon": 149.117146
    },
    {
     "name": "BIOL3178_S1-PraA/01",
@@ -10995,10 +10995,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Kambri MCH",
-    "locationID": "http://www.anu.edu.au/maps#show=108132",
-    "lat": -35.276928,
-    "lon": 149.121926
+    "location": "Marie Reay 3.03",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "BIOL6006_S1-TutA/04",
@@ -12385,10 +12385,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Innovations Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11370",
-    "lat": -35.28236,
-    "lon": 149.11573
+    "location": "RN Robertson C1.08",
+    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
+    "lat": -35.277804,
+    "lon": 149.117146
    },
    {
     "name": "BIOL6178_S1-PraA/01",
@@ -15939,6 +15939,23 @@
     "occurrence": "04",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "BUSN7036_S1-TutA/05",
+    "description": null,
+    "day": 3,
+    "start": "11:00",
+    "finish": "12:00",
+    "duration": "1:00",
+    "weeks": "9\u201113,16\u201121",
+    "module": "BUSN7036",
+    "session": "S1",
+    "activity": "TutA",
+    "occurrence": "05",
+    "location": "CBE Bld TR6",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    }
   ]
  },
@@ -22184,10 +22201,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "COMP2620_S1-TutA/04",
@@ -22201,10 +22218,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "COMP2620_S1-TutA/05",
@@ -22218,27 +22235,27 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "05",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP2620_S1-TutA/06",
     "description": null,
     "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
+    "start": "16:00",
+    "finish": "18:00",
     "duration": "2:00",
     "weeks": "9\u201113,16\u201121",
     "module": "COMP2620",
     "session": "S1",
     "activity": "TutA",
     "occurrence": "06",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP2620_S1-TutA/07",
@@ -22252,10 +22269,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "07",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Gould Seminar Room 246",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "COMP2620_S1-TutA/08",
@@ -24113,6 +24130,48 @@
    }
   ]
  },
+ "COMP4300_S1": {
+  "title": "COMP4300_S1\u00a0Parallel Systems",
+  "id": "COMP4300_S1",
+  "link": "",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "COMP4300_S1-LecA/01",
+    "description": null,
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "duration": "1:00",
+    "weeks": "8\u201113,16\u201121",
+    "module": "COMP4300",
+    "session": "S1",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Marie Reay 4.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "COMP4300_S1-LecB/01",
+    "description": null,
+    "day": 3,
+    "start": "11:00",
+    "finish": "12:30",
+    "duration": "1:30",
+    "weeks": "8\u201113,16\u201121",
+    "module": "COMP4300",
+    "session": "S1",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Marie Reay 5.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   }
+  ]
+ },
  "COMP4450_S1": {
   "title": "COMP4450_S1\u00a0Advanced Computing Research Methods",
   "id": "COMP4450_S1",
@@ -24888,10 +24947,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "COMP6262_S1-TutA/04",
@@ -24905,10 +24964,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "COMP6262_S1-TutA/05",
@@ -24922,27 +24981,27 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "05",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP6262_S1-TutA/06",
     "description": null,
     "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
+    "start": "16:00",
+    "finish": "18:00",
     "duration": "2:00",
     "weeks": "9\u201113,16\u201121",
     "module": "COMP6262",
     "session": "S1",
     "activity": "TutA",
     "occurrence": "06",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP6262_S1-TutA/07",
@@ -24956,10 +25015,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "07",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Gould Seminar Room 246",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "COMP6262_S1-TutA/08",
@@ -27772,6 +27831,48 @@
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
+   }
+  ]
+ },
+ "COMP8300_S1": {
+  "title": "COMP8300_S1\u00a0Parallel Systems",
+  "id": "COMP8300_S1",
+  "link": "",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "COMP8300_S1-LecA/01",
+    "description": null,
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "duration": "1:00",
+    "weeks": "8\u201113,16\u201121",
+    "module": "COMP8300",
+    "session": "S1",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Marie Reay 4.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "COMP8300_S1-LecB/01",
+    "description": null,
+    "day": 3,
+    "start": "11:00",
+    "finish": "12:30",
+    "duration": "1:30",
+    "weeks": "8\u201113,16\u201121",
+    "module": "COMP8300",
+    "session": "S1",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Marie Reay 5.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
@@ -39614,10 +39715,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "ADH G12",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": -35.278353,
-    "lon": 149.121713
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -39639,10 +39740,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": -35.278353,
-    "lon": 149.121713
+    "location": "FSTY 103",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    }
   ]
  },
@@ -40013,10 +40114,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "ADH G12",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": -35.278353,
-    "lon": 149.121713
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -40038,10 +40139,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": -35.278353,
-    "lon": 149.121713
+    "location": "FSTY 103",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    }
   ]
  },
@@ -42491,6 +42592,23 @@
     "locationID": "http://www.anu.edu.au/maps#show=28991",
     "lat": -35.274397,
     "lon": 149.119323
+   },
+   {
+    "name": "ENGN3901_S1-WorB/01",
+    "description": null,
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
+    "duration": "2:00",
+    "weeks": "8\u201113,16\u201121",
+    "module": "ENGN3901",
+    "session": "S1",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "RN Robertson C1.08",
+    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
+    "lat": -35.277804,
+    "lon": 149.117146
    }
   ]
  },
@@ -45965,10 +46083,8 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "02",
-    "location": "RN Robertson C1.08",
-    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
-    "lat": -35.277804,
-    "lon": 149.117146
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "ENVS1003_S1-PraA/03",
@@ -47180,10 +47296,8 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "02",
-    "location": "RN Robertson C1.08",
-    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
-    "lat": -35.277804,
-    "lon": 149.117146
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "ENVS6103_S1-PraA/03",
@@ -61992,10 +62106,10 @@
    {
     "name": "LAWS8584_S1-SemA/01",
     "description": null,
-    "day": 2,
-    "start": "09:00",
-    "finish": "12:00",
-    "duration": "3:00",
+    "day": 1,
+    "start": "16:00",
+    "finish": "18:00",
+    "duration": "2:00",
     "weeks": "8\u201113,16\u201121",
     "module": "LAWS8584",
     "session": "S1",
@@ -73170,10 +73284,8 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "CBE Bld TR7",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
@@ -77898,10 +78010,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "PSYC G8",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    },
    {
     "name": "PASI3001_S1-TutA/01",
@@ -79324,10 +79436,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "PHIL2080_S1-TutA/04",
@@ -79341,10 +79453,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "PHIL2080_S1-TutA/05",
@@ -79358,27 +79470,27 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "05",
-    "location": "HA G050",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "PHIL2080_S1-TutA/06",
     "description": null,
     "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
+    "start": "16:00",
+    "finish": "18:00",
     "duration": "2:00",
     "weeks": "9\u201113,16\u201121",
     "module": "PHIL2080",
     "session": "S1",
     "activity": "TutA",
     "occurrence": "06",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "PHIL2080_S1-TutA/07",
@@ -79392,10 +79504,10 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "07",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "Gould Seminar Room 246",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "PHIL2080_S1-TutA/08",
@@ -80029,7 +80141,24 @@
     "start": "15:00",
     "finish": "16:00",
     "duration": "1:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,18\u201121",
+    "module": "PHYS1001",
+    "session": "S1",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "PHYS T",
+    "locationID": "http://www.anu.edu.au/maps#show=11425",
+    "lat": -35.275316,
+    "lon": 149.1183
+   },
+   {
+    "name": "PHYS1001_S1-LecA/01",
+    "description": null,
+    "day": 1,
+    "start": "10:00",
+    "finish": "11:00",
+    "duration": "1:00",
+    "weeks": "11,16\u201117",
     "module": "PHYS1001",
     "session": "S1",
     "activity": "LecA",
@@ -80080,7 +80209,24 @@
     "start": "11:00",
     "finish": "14:00",
     "duration": "3:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,18\u201121",
+    "module": "PHYS1001",
+    "session": "S1",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "Physics Studio G1",
+    "locationID": "http://www.anu.edu.au/maps#show=11423",
+    "lat": -35.275052,
+    "lon": 149.118554
+   },
+   {
+    "name": "PHYS1001_S1-PraA/01",
+    "description": null,
+    "day": 3,
+    "start": "10:00",
+    "finish": "13:00",
+    "duration": "3:00",
+    "weeks": "11,16\u201117",
     "module": "PHYS1001",
     "session": "S1",
     "activity": "PraA",
@@ -85704,10 +85850,10 @@
    {
     "name": "PSYC1003_S1-PraA/01",
     "description": null,
-    "day": 1,
-    "start": "09:00",
-    "finish": "10:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "08:00",
+    "finish": "09:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85721,16 +85867,16 @@
    {
     "name": "PSYC1003_S1-PraA/02",
     "description": null,
-    "day": 2,
-    "start": "13:00",
-    "finish": "14:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "09:30",
+    "finish": "11:00",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "02",
-    "location": "PSYC 149",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -85738,10 +85884,10 @@
    {
     "name": "PSYC1003_S1-PraA/03",
     "description": null,
-    "day": 2,
-    "start": "09:00",
-    "finish": "10:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "11:00",
+    "finish": "12:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85755,16 +85901,16 @@
    {
     "name": "PSYC1003_S1-PraA/04",
     "description": null,
-    "day": 1,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "13:00",
+    "finish": "14:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "04",
-    "location": "PSYC 149",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -85772,10 +85918,10 @@
    {
     "name": "PSYC1003_S1-PraA/05",
     "description": null,
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "14:30",
+    "finish": "16:00",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85789,16 +85935,16 @@
    {
     "name": "PSYC1003_S1-PraA/06",
     "description": null,
-    "day": 1,
-    "start": "14:00",
-    "finish": "15:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "06",
-    "location": "PSYC 149",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -85806,10 +85952,10 @@
    {
     "name": "PSYC1003_S1-PraA/07",
     "description": null,
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:00",
-    "duration": "1:00",
+    "day": 0,
+    "start": "17:30",
+    "finish": "19:00",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85823,16 +85969,16 @@
    {
     "name": "PSYC1003_S1-PraA/08",
     "description": null,
-    "day": 1,
+    "day": 4,
     "start": "13:00",
-    "finish": "14:00",
-    "duration": "1:00",
+    "finish": "14:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "08",
-    "location": "PSYC 149",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -85840,10 +85986,10 @@
    {
     "name": "PSYC1003_S1-PraA/09",
     "description": null,
-    "day": 0,
-    "start": "11:00",
-    "finish": "12:00",
-    "duration": "1:00",
+    "day": 4,
+    "start": "14:30",
+    "finish": "16:00",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85857,16 +86003,16 @@
    {
     "name": "PSYC1003_S1-PraA/10",
     "description": null,
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
-    "duration": "1:00",
+    "day": 4,
+    "start": "11:00",
+    "finish": "12:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "10",
-    "location": "PSYC 149",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -85874,10 +86020,10 @@
    {
     "name": "PSYC1003_S1-PraA/11",
     "description": null,
-    "day": 0,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85891,16 +86037,16 @@
    {
     "name": "PSYC1003_S1-PraA/12",
     "description": null,
-    "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
-    "duration": "1:00",
+    "day": 2,
+    "start": "17:00",
+    "finish": "18:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "12",
-    "location": "PSYC 149",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -85908,10 +86054,10 @@
    {
     "name": "PSYC1003_S1-PraA/13",
     "description": null,
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
-    "duration": "1:00",
+    "day": 3,
+    "start": "17:00",
+    "finish": "18:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
@@ -85925,168 +86071,15 @@
    {
     "name": "PSYC1003_S1-PraA/14",
     "description": null,
-    "day": 0,
-    "start": "09:00",
-    "finish": "10:00",
-    "duration": "1:00",
+    "day": 4,
+    "start": "17:00",
+    "finish": "18:30",
+    "duration": "1:30",
     "weeks": "9\u201110,12\u201113,18\u201121",
     "module": "PSYC1003",
     "session": "S1",
     "activity": "PraA",
     "occurrence": "14",
-    "location": "PSYC 149",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/15",
-    "description": null,
-    "day": 0,
-    "start": "14:00",
-    "finish": "15:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "15",
-    "location": "PSYC 148",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/16",
-    "description": null,
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "16",
-    "location": "PSYC 149",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/17",
-    "description": null,
-    "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "17",
-    "location": "PSYC 148",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/18",
-    "description": null,
-    "day": 0,
-    "start": "16:00",
-    "finish": "17:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "18",
-    "location": "PSYC 149",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/19",
-    "description": null,
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "19",
-    "location": "PSYC 148",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/20",
-    "description": null,
-    "day": 0,
-    "start": "15:00",
-    "finish": "16:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "20",
-    "location": "PSYC 149",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/21",
-    "description": null,
-    "day": 1,
-    "start": "11:00",
-    "finish": "12:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "21",
-    "location": "PSYC 148",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/22",
-    "description": null,
-    "day": 2,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "22",
-    "location": "PSYC 149",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC1003_S1-PraA/23",
-    "description": null,
-    "day": 2,
-    "start": "11:00",
-    "finish": "12:00",
-    "duration": "1:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "module": "PSYC1003",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "23",
     "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
@@ -86103,29 +86096,14 @@
    {
     "name": "PSYC2002_S1-LecA/01",
     "description": null,
-    "day": 2,
-    "start": "09:00",
-    "finish": "10:00",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
     "duration": "1:00",
     "weeks": "8\u201113,16\u201121",
     "module": "PSYC2002",
     "session": "S1",
     "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "PSYC2002_S1-LecB/01",
-    "description": null,
-    "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
-    "duration": "1:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "PSYC2002",
-    "session": "S1",
-    "activity": "LecB",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -86142,7 +86120,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "01",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86159,7 +86137,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "02",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86176,7 +86154,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "03",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86193,7 +86171,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "04",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86210,7 +86188,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "05",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86242,7 +86220,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "07",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86259,7 +86237,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "08",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86276,7 +86254,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "09",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86293,7 +86271,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "10",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86310,7 +86288,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "11",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86327,7 +86305,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "12",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86335,7 +86313,7 @@
    {
     "name": "PSYC2002_S1-PraA/13",
     "description": null,
-    "day": 1,
+    "day": 2,
     "start": "18:00",
     "finish": "20:00",
     "duration": "2:00",
@@ -86359,7 +86337,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "14",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -86376,10 +86354,25 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "15",
-    "location": "PSYC 150",
+    "location": "PSYC 148",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
+   },
+   {
+    "name": "PSYC2002_S1-PraA/16",
+    "description": null,
+    "day": 3,
+    "start": "18:00",
+    "finish": "20:00",
+    "duration": "2:00",
+    "weeks": "10\u201113,16\u201118,21",
+    "module": "PSYC2002",
+    "session": "S1",
+    "activity": "PraA",
+    "occurrence": "16",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
@@ -86798,7 +86791,7 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "07",
-    "location": "PSYC 149",
+    "location": "PSYC 151",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -87425,7 +87418,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "01",
-    "location": "PSYC 151",
+    "location": "PSYC 150",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -87493,7 +87486,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "05",
-    "location": "PSYC 149",
+    "location": "PSYC 150",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -87595,7 +87588,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "11",
-    "location": "PSYC 149",
+    "location": "PSYC 150",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -87925,7 +87918,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "01",
-    "location": "PSYC 151",
+    "location": "PSYC 150",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -87993,7 +87986,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "05",
-    "location": "PSYC 149",
+    "location": "PSYC 150",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
@@ -88095,7 +88088,7 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "11",
-    "location": "PSYC 149",
+    "location": "PSYC 150",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
