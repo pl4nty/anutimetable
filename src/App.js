@@ -241,7 +241,12 @@ let App = () => {
       </Navbar.Text>
     </Navbar>
 
-    <FloatingActionButton {...{ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hiddenOccurrences, setHiddenOccurrences }} />
+    <FloatingActionButton {...{
+      weekStart, setWeekStart,
+      hiddenDays, setHiddenDays,
+      darkMode, toggleDarkMode,
+      hiddenOccurrences, setHiddenOccurrences
+    }} />
   </Container>
 }
 

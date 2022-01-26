@@ -1,6 +1,6 @@
 import { OverlayTrigger, Tooltip, Button } from 'react-bootstrap'
 
-const FABItem = ({ title, content, onClick, ...props }) => {
+const FABAction = ({ title, content, onClick, ...props }) => {
   const overlay = <Tooltip>{title}</Tooltip>
   
   return <OverlayTrigger placement='left' overlay={overlay} trigger={['hover', 'click']} {...props}>
@@ -10,4 +10,4 @@ const FABItem = ({ title, content, onClick, ...props }) => {
   </OverlayTrigger>
 }
 
-export default FABItem
+export default FABAction
