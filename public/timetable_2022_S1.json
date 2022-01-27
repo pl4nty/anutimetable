@@ -45905,9 +45905,9 @@
     "name": "ENVS1001_S1-TutA/04",
     "description": null,
     "day": 2,
-    "start": "16:00",
-    "finish": "18:00",
-    "duration": "2:00",
+    "start": "17:00",
+    "finish": "20:00",
+    "duration": "3:00",
     "weeks": "8\u201113,16\u201121",
     "module": "ENVS1001",
     "session": "S1",
@@ -46261,6 +46261,21 @@
     "locationID": ""
    },
    {
+    "name": "ENVS2011_S1-FieA/01",
+    "description": null,
+    "day": 6,
+    "start": "09:00",
+    "finish": "17:00",
+    "duration": "8:00",
+    "weeks": "13",
+    "module": "ENVS2011",
+    "session": "S1",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " on campus",
+    "locationID": ""
+   },
+   {
     "name": "ENVS2011_S1-LecA/01",
     "description": null,
     "day": 0,
@@ -46272,8 +46287,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "ENVS2011_S1-LecB/01",
@@ -46287,8 +46304,10 @@
     "session": "S1",
     "activity": "LecB",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Kambri Cinema",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
    },
    {
     "name": "ENVS2011_S1-TutA/01",
@@ -46818,6 +46837,21 @@
     "locationID": ""
    },
    {
+    "name": "ENVS6020_S1-FieA/01",
+    "description": null,
+    "day": 6,
+    "start": "09:00",
+    "finish": "17:00",
+    "duration": "8:00",
+    "weeks": "13",
+    "module": "ENVS6020",
+    "session": "S1",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " on campus",
+    "locationID": ""
+   },
+   {
     "name": "ENVS6020_S1-LecA/01",
     "description": null,
     "day": 0,
@@ -46829,8 +46863,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "ENVS6020_S1-LecB/01",
@@ -46844,8 +46880,10 @@
     "session": "S1",
     "activity": "LecB",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Kambri Cinema",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
    },
    {
     "name": "ENVS6020_S1-TutA/01",
@@ -47118,9 +47156,9 @@
     "name": "ENVS6101_S1-TutA/04",
     "description": null,
     "day": 2,
-    "start": "16:00",
-    "finish": "18:00",
-    "duration": "2:00",
+    "start": "17:00",
+    "finish": "20:00",
+    "duration": "3:00",
     "weeks": "8\u201113,16\u201121",
     "module": "ENVS6101",
     "session": "S1",
@@ -86856,23 +86894,6 @@
     "lon": 149.117814
    },
    {
-    "name": "PSYC3002_S1-PraA/02",
-    "description": null,
-    "day": 3,
-    "start": "18:00",
-    "finish": "21:00",
-    "duration": "3:00",
-    "weeks": "9\u201110,12,18,20",
-    "module": "PSYC3002",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "02",
-    "location": "PSYC 151",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
     "name": "PSYC3002_S1-PraA/03",
     "description": null,
     "day": 4,
@@ -86941,23 +86962,6 @@
     "lon": 149.117814
    },
    {
-    "name": "PSYC3002_S1-PraA/07",
-    "description": null,
-    "day": 4,
-    "start": "15:00",
-    "finish": "18:00",
-    "duration": "3:00",
-    "weeks": "9\u201110,12,18,20",
-    "module": "PSYC3002",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "07",
-    "location": "PSYC 151",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
     "name": "PSYC3002_S1-PraA/08",
     "description": null,
     "day": 3,
@@ -86969,23 +86973,6 @@
     "session": "S1",
     "activity": "PraA",
     "occurrence": "08",
-    "location": "PSYC 151",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC3002_S1-PraA/09",
-    "description": null,
-    "day": 0,
-    "start": "08:00",
-    "finish": "11:00",
-    "duration": "3:00",
-    "weeks": "9\u201110,12,18,20",
-    "module": "PSYC3002",
-    "session": "S1",
-    "activity": "PraA",
-    "occurrence": "09",
     "location": "PSYC 151",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
