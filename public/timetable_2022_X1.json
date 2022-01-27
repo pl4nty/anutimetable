@@ -17,10 +17,10 @@
     "session": "X1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": "-35.277722",
-    "lon": "149.116811"
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": "-35.276241",
+    "lon": "149.117144"
    },
    {
     "name": "/CHEM0001_X1-SemB/01",
@@ -34,10 +34,10 @@
     "session": "X1",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": -35.277722,
-    "lon": 149.116811
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    },
    {
     "name": "/CHEM0001_X1-SemC/01",
@@ -51,10 +51,10 @@
     "session": "X1",
     "activity": "SemC",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": -35.277722,
-    "lon": 149.116811
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    },
    {
     "name": "/CHEM0001_X1-SemD/01",
@@ -68,10 +68,10 @@
     "session": "X1",
     "activity": "SemD",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": -35.277722,
-    "lon": 149.116811
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    },
    {
     "name": "/CHEM0001_X1-SemE/01",
@@ -85,10 +85,10 @@
     "session": "X1",
     "activity": "SemE",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": -35.277722,
-    "lon": 149.116811
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    },
    {
     "name": "/CHEM0001_X1-SemF/01",
@@ -104,8 +104,8 @@
     "occurrence": "01",
     "location": "STB_S2 (3.02)",
     "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": "-35.276241",
-    "lon": "149.117144"
+    "lat": -35.276241,
+    "lon": 149.117144
    },
    {
     "name": "/CHEM0001_X1-SemG/01",
