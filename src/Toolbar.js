@@ -1,8 +1,7 @@
-import { forwardRef } from 'react'
+import { forwardRef, useMemo } from 'react'
 
-import { InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
-import { Token, Typeahead } from 'react-bootstrap-typeahead'
-import TimezoneSelect from 'react-timezone-select'
+import { InputGroup } from 'react-bootstrap'
+import Select, { components } from 'react-select'
 
 import Export from './Export'
 
@@ -10,86 +9,69 @@ export default forwardRef(({ API, state: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
   setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
 } }, calendar) => {
-  const selectYear = e => {
-    if (e === year) return
-    setSelectedModules([])
-    setYear(e)
-    // Assume ascending session order
-    setSession(sessions[e]?.[sessions[e].length-1] || '')
-  }
-  const selectSession = e => {
-    if (e === session) return
-    setSelectedModules([])
-    setSession(e)
-  }
 
-  return <>
-  <InputGroup className="mb-2">
-    <DropdownButton
-      as={InputGroup.Prepend}
-      variant="outline-primary"
-      title={year}
-    >
-      {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
-      {Object.keys(sessions).reverse().map(e => <Dropdown.Item key={e} onClick={() => selectYear(e)}>{e}</Dropdown.Item>)}
-    </DropdownButton>
+  const theme = theme => ({
+    ...theme,
+    colors: {
+      ...theme.colors,
+      neutral0: darkMode ? '#101214' : '#fff',
+      neutral10: darkMode ? theme.colors.neutral80 : theme.colors.neutral10,
+      neutral80: darkMode ? '#fff' : '#000',
+      primary25: darkMode ? '#343A40' : '#deebff',
+      primary: '#42A5FF',
+    }
+  })
 
-    <DropdownButton
-      as={InputGroup.Prepend}
-      variant="outline-primary"
-      title={session}
-    >
-      {sessions[year]?.map(e => <Dropdown.Item key={e} onClick={() => selectSession(e)}>{e}</Dropdown.Item>)}
-    </DropdownButton>
+  const MultiValueLabel = props => <components.MultiValueLabel {...props}>
+      <a variant="link" size="sm" target="_blank" rel="noreferrer"
+        href={`http://programsandcourses.anu.edu.au/${year}/course/${props.data.value}`}
+        onMouseDown={e => e.stopPropagation()} // prevent dropdown from opening
+      >{props.data.value}</a> {/* use value (eg COMP1130) instead of label to save space */}
+  </components.MultiValueLabel>
 
-    <Typeahead
-      id="course-search-box"
+  const options = useMemo(() => Object.entries(modules).map(([id, { title }]) => ({ label: title, value: id })), [modules])  
+  const showExport = selectedModules.length !== 0
 
-      clearButton
-      emptyLabel="No matching courses found"
+  return <InputGroup>
+    <Select
+      className='form-control p-0'
+      styles={{
+        control: provided => ({
+          ...provided,
+          margin: '-1px',
+          ...(showExport && {
+            borderTopRightRadius: 0,
+            borderBottomRightRadius: 0
+          })
+        })
+      }}
+      isMulti
+      isSearchable
+
+      autoFocus
+      // controlShouldRenderValue broken?
+      blurInputOnSelect={false}
+      closeMenuOnSelect
+      // openMenuOnClick={false}
+      captureMenuScroll
+      // closeMenuOnScroll broken?
+      backspaceRemovesValue
+      escapeClearsValue
+      tabSelectsValue
+      
       isLoading={Object.keys(modules).length === 0}
-      multiple
-      highlightOnlyResult
-      labelKey='title'
-      placeholder="Enter a course code here (for example LAWS1201)"
-      // Overwrite bad id property (eg LAWS1201_S1 -> LAWS1201)
-      options={Object.entries(modules).map(([id, val]) => ({...val, id}))}
-      onChange={setSelectedModules}
-      selected={selectedModules}
-      // modified from default: https://github.com/ericgio/react-bootstrap-typeahead/blob/8dcac67b57e9ee121f5a44f30c59346a32b66d48/src/components/Typeahead.tsx#L143-L156
-      renderToken={(option, props, idx) => <Token
-        disabled={props.disabled}
-        key={idx}
-        onRemove={props.onRemove}
-        option={option}
-        tabIndex={props.tabIndex}
-        href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
-      >
-        <a
-          href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
-          target={"_blank"}
-          rel={"noreferrer"}
-        >{option.id}</a> {/** use id (eg COMP1130) instead of label to save space */}
-      </Token>}
-    />
+      loadingMessage={() => 'Loading courses...'}
+      noOptionsMessage={() => 'No matching courses found'}
 
+      theme={theme}
+      // formatOptionLabel={({ label, value }, { context }) => context === "value" ? value : label}
+      components={{ MultiValueLabel }}
+      
+      defaultValue={selectedModules.map(({ title, id }) => ({ label: title, value: id }))}
+      onChange={n => setSelectedModules(n.map(option => ({ ...option, id: option.value })))}
+      options={options}
+    />
     {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {selectedModules.length !== 0 && <Export API={API} year={year} session={session} />}
+    {showExport && <Export API={API} year={year} session={session} />}
   </InputGroup>
-  <TimezoneSelect
-    theme={(theme)=>({
-      ...theme,
-      colors: {
-        ...theme.colors,
-        neutral0: darkMode ? '#101214' : '#fff',
-        neutral80: darkMode ? '#fff' : '#000',
-        primary25: darkMode ? '#343A40' : '#deebff',
-        primary: darkMode ? '#42A5FF' : '#1854A2',
-      }
-    })}
-    className='timezone-select mb-2'
-    value={timeZone}
-    onChange={tz => setTimeZone(tz.value)}
-  />
-  </>
 })

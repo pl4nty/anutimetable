@@ -72,8 +72,9 @@ export default forwardRef(({ state }, ref) => {
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
-    //   expandRows={true}
-    height={'80vh'}
+    height='100%'
+    expandRows={true}
+    // dayMinWidth={} TODO premium plugin
 
     headerToolbar={{
       start: 'prev,next',

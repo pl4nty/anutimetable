@@ -16,7 +16,7 @@
     }
 
     .fc-timegrid-slots .fc-timegrid-slot {
-      height: 80px;
+      height: 3vh !important;
     }
   }
 
@@ -26,9 +26,10 @@
   }
 }
 
+// this overrides @media
 .fc {
   .fc-timegrid-slots .fc-timegrid-slot {
-    height: 100px;
+    height: 6.1vh;
     border-bottom: 0 !important;
     vertical-align: top;
   }
@@ -66,15 +67,8 @@ iframe {
   display: none;
 }
 
-/* make it consistent with bootstrap styling */
-.timezone-select {
-  width: 100%;
-  margin-bottom: 1em;
-  cursor: text;
-}
-
 div[id^=react-select] {
-  z-index: 100000;
+  z-index: 1000;
   cursor: text;
 
   div {

@@ -1,6 +1,7 @@
 import {useRef, useState, useEffect, useMemo} from 'react'
-import {Button, Card, Container, Navbar, OverlayTrigger, Tooltip} from 'react-bootstrap'
+import { Button, Card, Container, Navbar, OverlayTrigger, Tooltip, Row, Col } from 'react-bootstrap'
 
+import Header from './Header'
 import Toolbar from './Toolbar'
 import Calendar from './Calendar'
 import { getInitialState, setQueryParam, unsetQueryParam, fetchJsObject, stringToColor, parseEvents } from './utils'
@@ -230,23 +231,26 @@ let App = () => {
     document.body.style.overflow = startDayDialogOpen ? 'hidden' : 'visible';
   }, [startDayDialogOpen]);
 
+  return <>
+    <Header {...{ sessions, year, setYear, session, setSession, setSelectedModules, timeZone, setTimeZone, darkMode }} />
+    {/* // fluid="xxl" is only supported in Bootstrap 5 */}
+    <Container fluid className='vh-100 p-3 d-flex flex-column'>
+      <Row className='mb-3'>
+        <Col>
+          <Toolbar API={API} ref={calendar} state={state} />
+        </Col>
+      </Row>
 
-  // fluid="xxl" is only supported in Bootstrap 5
-  return <Container fluid>
-    <h2 className="mt-2">ANU Timetable</h2>
-
-    <Toolbar API={API} ref={calendar} state={state} />
-
-    <Calendar ref={calendar} state={state} />
-
-    <Navbar>
-      <Navbar.Text>
-          Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
-        <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
-        (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
-          <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
-      </Navbar.Text>
-    </Navbar>
+      <Calendar ref={calendar} state={state} />
+      
+      <Navbar>
+        <Navbar.Text>
+            Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
+          <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
+          (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
+            <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
+        </Navbar.Text>
+      </Navbar>
 
     <div
       className={`fab ${settingsOpen ? 'fab--open' : ''}`}
@@ -360,6 +364,7 @@ let App = () => {
       </div>
     </div>
   </Container>
+  </>
 }
 
 // Analytics
