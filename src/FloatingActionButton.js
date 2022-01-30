@@ -10,7 +10,7 @@ import { BsCalendarWeek } from 'react-icons/bs'
 
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
-const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart }) => {
+const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart, hiddenDays }) => {
   const [weekStartOpen, setWeekStartOpen] = useState(false)
   return <>
     <FABAction
@@ -26,7 +26,7 @@ const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart }) => {
       title='Calendar Start of Week'
       label='The weekly calendar starts on&nbsp;'
       visible={weekStartOpen}
-      options={daysOfWeek}
+      options={daysOfWeek.filter((_, index) => !hiddenDays.includes(index))}
       value={weekStart}
       inline
       onChange={selected => {
@@ -98,7 +98,7 @@ const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDa
       {menuOpen ? <RiCloseLine size='2em' /> : <RiSettings4Fill size='2em' />}
     </Button>
     <div className='fab-actions'>
-      <WeekStartAction {...{setMenuOpen, weekStart, setWeekStart}} />
+      <WeekStartAction {...{setMenuOpen, weekStart, setWeekStart, hiddenDays}} />
       <HiddenDaysAction {...{setMenuOpen, hiddenDays, setHiddenDays}} />
       <DarkModeAction {...{darkMode, toggleDarkMode}} />
       {hiddenOccurrences.length ? <HiddenOccurrencesAction {...{setMenuOpen, hiddenOccurrences, setHiddenOccurrences}} /> : <></>}
