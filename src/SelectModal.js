@@ -1,11 +1,15 @@
 import { Modal, Form, Button } from 'react-bootstrap'
 import { useState } from 'react'
 
-const SelectModal = ({ visible, title, label, options, value, multiple, inline, onHide, ...props }) => {
-  const hide = () => onHide([].slice.call(selected).map(item => +item.value))
+const SelectModal = ({ visible, title, label, options, value, multiple, inline, onChange, onHide, ...props }) => {
+  const getValues = options => [].slice.call(options).map(item => +item.value)
+  const hide = () => onHide(getValues(selected))
 
   // if single-select, return selection as singleton array for consistency
-  const singleSelect = multiple ? undefined : e => setSelected([e.target])
+  const singleSelect = multiple ? undefined : e => {
+    setSelected([e.target])
+    onChange(getValues(selected))
+  }
 
   // if multi-select, prevent clearing existing selections
   // allows multiple selections without pressing ctrl
@@ -13,6 +17,7 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
     e.preventDefault()
     setSelected(e.target.parentNode.selectedOptions)
     e.target.selected = !e.target.selected
+    onChange(getValues(selected))
   }
 
   const [selected, setSelected] = useState([])

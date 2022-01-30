@@ -29,13 +29,13 @@ const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart }) => {
       options={daysOfWeek}
       value={weekStart}
       inline
-      onHide={selected => {
-        setWeekStartOpen(false)
+      onChange={selected => {
         if (selected.length) {
           setWeekStart(+selected[0])
           localStorage.setItem('weekStart', selected[0])
         }
       }}
+      onHide={() => setWeekStartOpen(false)}
     />
   </>
 }
@@ -59,11 +59,11 @@ const HiddenDaysAction = ({ setMenuOpen, setHiddenDays, hiddenDays }) => {
       options={daysOfWeek}
       value={hiddenDays}
       multiple
-      onHide={selected => {
-        setHiddenDaysOpen(false)
+      onChange={selected => {
         setHiddenDays(selected)
-        localStorage.setItem('hiddenDays', selected);
+        localStorage.setItem('hiddenDays', selected)
       }}
+      onHide={() => setHiddenDaysOpen(false)}
     />
   </>
 }
