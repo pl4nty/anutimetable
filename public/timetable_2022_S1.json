@@ -641,10 +641,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "STB_S1 (3.07)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": "-35.276241",
-    "lon": "149.117144"
+    "location": "CBE LT 4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": "-35.276735",
+    "lon": "149.123501"
    },
    {
     "name": "ANTH2017_S1-WorA/01",
@@ -660,8 +660,8 @@
     "occurrence": "01",
     "location": "STB_S2 (3.02)",
     "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "lat": "-35.276241",
+    "lon": "149.117144"
    },
    {
     "name": "ANTH2017_S1-WorA/02",
@@ -1026,10 +1026,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "STB_S1 (3.07)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "CBE LT 4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "ANTH6017_S1-WorA/01",
@@ -6084,8 +6084,8 @@
     "occurrence": "01",
     "location": "CBE Bld TR5",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": "-35.276735",
-    "lon": "149.123501"
+    "lat": -35.276735,
+    "lon": 149.123501
    }
   ]
  },
@@ -6107,10 +6107,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Hedley Bull Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": "-35.277437",
+    "lon": "149.124005"
    },
    {
     "name": "ASIA2037_S1-TutA/01",
@@ -7076,10 +7076,10 @@
     "session": "S1",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Hedley Bull Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
    },
    {
     "name": "ASIA6037_S1-TutA/01",
@@ -13378,8 +13378,8 @@
     "occurrence": "01",
     "location": "Arndt LT 2",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": "-35.277437",
-    "lon": "149.124005"
+    "lat": -35.277437,
+    "lon": 149.124005
    },
    {
     "name": "BUSI2024_S1-TutA/01",
@@ -19246,23 +19246,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
-   },
-   {
-    "name": "CHIN3024_S1-LecB/01",
-    "description": null,
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:00",
-    "duration": "1:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "CHIN3024",
-    "session": "S1",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "FSTY 103",
-    "locationID": "http://www.anu.edu.au/maps#show=11318",
-    "lat": -35.277907,
-    "lon": 149.116057
    },
    {
     "name": "CHIN3024_S1-TutA/01",
@@ -30369,8 +30352,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Barry Drive 7-11 Ground Floor",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": -35.2752066,
+    "lon": 149.127504
    }
   ]
  },
@@ -30384,16 +30369,18 @@
     "name": "DIPL8001_S1-SemA/01",
     "description": null,
     "day": 2,
-    "start": "15:00",
-    "finish": "17:00",
+    "start": "14:00",
+    "finish": "16:00",
     "duration": "2:00",
     "weeks": "8\u201113,16\u201121",
     "module": "DIPL8001",
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "CBE LT 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    }
   ]
  },
@@ -39847,10 +39834,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "HA 1205",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CRISP G015",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": -35.277419,
+    "lon": 149.123165
    }
   ]
  },
@@ -39872,10 +39859,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "HA 1205",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CRISP G015",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": -35.277419,
+    "lon": 149.123165
    }
   ]
  },
@@ -40246,10 +40233,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "HA 1205",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CRISP G015",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": -35.277419,
+    "lon": 149.123165
    }
   ]
  },
@@ -40271,10 +40258,10 @@
     "session": "S1",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "HA 1205",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "CRISP G015",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": -35.277419,
+    "lon": 149.123165
    }
   ]
  },
@@ -53741,25 +53728,10 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
+    "location": "Crawford Seminar Room 9",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
-   },
-   {
-    "name": "IDEC8003_S1-SemA/02",
-    "description": null,
-    "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
-    "duration": "1:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "IDEC8003",
-    "session": "S1",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
    }
   ]
  },
@@ -54156,25 +54128,10 @@
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Crawford Lennox Room",
+    "location": "Crawford Seminar Room 9",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
-   },
-   {
-    "name": "IDEC8081_S1-SemA/02",
-    "description": null,
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "duration": "1:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "IDEC8081",
-    "session": "S1",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": " Online_Live",
-    "locationID": ""
    }
   ]
  },
@@ -54668,7 +54625,7 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "INFS2024_S1-PreLecA/01",
+    "name": "INFS2024_S1-LecA/01",
     "description": null,
     "day": 6,
     "start": "17:00",
@@ -54677,12 +54634,12 @@
     "weeks": "8\u201113,16\u201121",
     "module": "INFS2024",
     "session": "S1",
-    "activity": "PreLecA",
+    "activity": "LecA",
     "occurrence": "01",
-    "location": "HA Tank",
-    "locationID": "http://www.anu.edu.au/maps#show=11295",
-    "lat": -35.277596,
-    "lon": 149.122472
+    "location": "COOMBS T",
+    "locationID": "http://www.anu.edu.au/maps#show=11651",
+    "lat": -35.282454,
+    "lon": 149.119653
    },
    {
     "name": "INFS2024_S1-TutA/01",
@@ -58999,7 +58956,7 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "LAWS1205_S1-PreLecA/01",
+    "name": "LAWS1205_S1-LecA/01",
     "description": null,
     "day": 2,
     "start": "10:00",
@@ -59008,7 +58965,7 @@
     "weeks": "8\u201113,16\u201121",
     "module": "LAWS1205",
     "session": "S1",
-    "activity": "PreLecA",
+    "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -59091,10 +59048,8 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "LAWS1205_S1-TutA/05",
@@ -59108,10 +59063,8 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "05",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "LAWS1205_S1-TutA/06",
@@ -61413,7 +61366,7 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "LAWS6105_S1-PreLecA/01",
+    "name": "LAWS6105_S1-LecA/01",
     "description": null,
     "day": 2,
     "start": "10:00",
@@ -61422,7 +61375,7 @@
     "weeks": "8\u201113,16\u201121",
     "module": "LAWS6105",
     "session": "S1",
-    "activity": "PreLecA",
+    "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -61454,10 +61407,8 @@
     "session": "S1",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "LAWS6105_S1-TutA/02",
@@ -63506,38 +63457,21 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "LING8004_S1-LecA/01",
+    "name": "LING8004_S1-LetA/01",
     "description": null,
     "day": 1,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
+    "start": "15:00",
+    "finish": "17:00",
+    "duration": "2:00",
     "weeks": "8\u201113,16\u201121",
     "module": "LING8004",
     "session": "S1",
-    "activity": "LecA",
+    "activity": "LetA",
     "occurrence": "01",
-    "location": "Marie Reay 2.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   },
-   {
-    "name": "LING8004_S1-LecB/01",
-    "description": null,
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:00",
-    "duration": "1:00",
-    "weeks": "8\u201113,16\u201121",
-    "module": "LING8004",
-    "session": "S1",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "Marie Reay 6.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "ADH G9",
+    "locationID": "http://www.anu.edu.au/maps#show=11286",
+    "lat": -35.278353,
+    "lon": 149.121713
    },
    {
     "name": "LING8004_S1-TutA/01",
@@ -78029,16 +77963,16 @@
    {
     "name": "NSPO8032_S1-SemA/01",
     "description": null,
-    "day": 3,
-    "start": "17:00",
-    "finish": "18:00",
+    "day": 2,
+    "start": "18:00",
+    "finish": "19:00",
     "duration": "1:00",
     "weeks": "8\u201113,16\u201121",
     "module": "NSPO8032",
     "session": "S1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
+    "location": "Crawford Acton Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
@@ -96506,6 +96440,40 @@
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
+   },
+   {
+    "name": "STST3003_S1-TutA/08",
+    "description": null,
+    "day": 3,
+    "start": "10:00",
+    "finish": "11:00",
+    "duration": "1:00",
+    "weeks": "8\u201113,16\u201120",
+    "module": "STST3003",
+    "session": "S1",
+    "activity": "TutA",
+    "occurrence": "08",
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": -35.282541,
+    "lon": 149.119238
+   },
+   {
+    "name": "STST3003_S1-TutA/09",
+    "description": null,
+    "day": 3,
+    "start": "09:00",
+    "finish": "10:00",
+    "duration": "1:00",
+    "weeks": "8\u201113,16\u201120",
+    "module": "STST3003",
+    "session": "S1",
+    "activity": "TutA",
+    "occurrence": "09",
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": -35.282541,
+    "lon": 149.119238
    },
    {
     "name": "STST3003_S1-WorA/01",
