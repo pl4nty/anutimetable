@@ -918,6 +918,23 @@
     "lon": 149.118997
    },
    {
+    "name": "ASIA2222_X1-LecA/02",
+    "description": null,
+    "day": 0,
+    "start": "13:00",
+    "finish": "15:00",
+    "duration": "2:00",
+    "weeks": "5",
+    "module": "ASIA2222",
+    "session": "X1",
+    "activity": "LecA",
+    "occurrence": "02",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
+   },
+   {
     "name": "ASIA2222_X1-LecB/01",
     "description": null,
     "day": 0,
