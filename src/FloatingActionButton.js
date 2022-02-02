@@ -8,7 +8,8 @@ import { RiSettings4Fill, RiCloseLine, RiMoonFill, RiSunFill, RiCalendar2Fill } 
 import { MdRemoveRedEye } from 'react-icons/md'
 import { BsCalendarWeek } from 'react-icons/bs'
 
-const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+// [["0","Sunday"]...]
+const daysOfWeek = Object.entries(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'])
 
 const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart, hiddenDays }) => {
   const [weekStartOpen, setWeekStartOpen] = useState(false)

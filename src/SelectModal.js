@@ -32,8 +32,8 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
       <Form inline={inline}>
         <Form.Label>{label}</Form.Label>
         <Form.Control as="select" custom multiple={multiple} defaultValue={value} onChange={singleSelect}>
-          {options.map((option, index) => <option key={index} value={index} onMouseDown={multiSelect}>
-            {option}
+          {options.map(([ key, value ]) => <option key={key} value={key} onMouseDown={multiSelect}>
+            {value}
           </option>)}
         </Form.Control>
       </Form>
