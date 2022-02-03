@@ -51,7 +51,7 @@ const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence 
 const weekNumberCalculation = date => {
   const startDate = getStartOfSession()
   const start = startDate ? DateTime.fromJSDate(startDate).weekNumber : 0
-  const end = DateTime.fromJSDate(date).weekNumber
+  const end = DateTime.fromJSDate(date).plus({ days: 1 }).weekNumber // Add 1 to convert FullCalendar (Sun-Sat) to Luxon/ISO (Mon-Sun)
   return end - start + 1 // 0 weeks after start is week 1
 }
 
@@ -139,13 +139,14 @@ export default forwardRef(({ state }, ref) => {
     weekNumbers
     weekNumberCalculation={weekNumberCalculation}
     weekText='Week'
+    firstDay={state.weekStart}
+
+    hiddenDays={state.hiddenDays}
 
     fixedWeekCount={false}
 
     timeZone={state.timeZone}
 
     eventSourceFailure={err => console.error(err.message)}
-
-    firstDay={state.startingDay}
   />
 })
