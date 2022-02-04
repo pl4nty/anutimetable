@@ -5477,8 +5477,10 @@
     "session": "X1",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 on campus",
-    "locationID": ""
+    "location": "Law 6.1.20",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "LAWS4343_X1-SemB/01",
