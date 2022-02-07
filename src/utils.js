@@ -138,3 +138,43 @@ return classes.map(c => {
   }
 })
 }
+
+// Uppon trigger downloads a blob of data to the browser with the given file name
+export const saveAs = (blob, fileName) => {
+  // Create temp invisible element
+  var elem = window.document.createElement('a');
+  elem.href = blob
+  elem.download = fileName;
+  elem.style = 'display:none;';
+
+  // append element to the DOM
+  (document.body || document.documentElement).appendChild(elem);
+
+  // Dispatch a click event to trigger the download
+  if (typeof elem.click === 'function') {
+    elem.click();
+  } else {
+    elem.target = '_blank';
+    elem.dispatchEvent(new MouseEvent('click', {
+      view: window,
+      bubbles: true,
+      cancelable: true
+    }));
+  }
+  URL.revokeObjectURL(elem.href);
+
+  // Remove the temp element from the DOM
+  elem.remove()
+}
+
+// This function crops a given canvas, taken from https://stackoverflow.com/questions/13073647/crop-canvas-export-html5-canvas-with-certain-width-and-height
+export const cropCanvas = (sourceCanvas, left, top, width, height) => {
+  let destCanvas = document.createElement('canvas');
+  destCanvas.width = width;
+  destCanvas.height = height;
+  destCanvas.getContext("2d").drawImage(
+    sourceCanvas,
+    left, top, width, height,  // source rect with content to crop
+    0, 0, width, height);      // newCanvas, same size as source rect
+  return destCanvas;
+}
