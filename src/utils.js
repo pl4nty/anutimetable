@@ -139,7 +139,7 @@ return classes.map(c => {
 })
 }
 
-// Uppon trigger downloads a blob of data to the browser with the given file name
+// Upon trigger downloads a blob of data to the browser with the given file name
 export const saveAs = (blob, fileName) => {
   // Create temp invisible element
   var elem = window.document.createElement('a');
