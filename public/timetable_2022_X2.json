@@ -305,7 +305,7 @@
     "session": "X2",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "COOMBS Extension SR 1.13",
+    "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": "-35.282541",
     "lon": "149.119238"
@@ -322,7 +322,7 @@
     "session": "X2",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "COOMBS Extension SR 1.13",
+    "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": -35.282541,
     "lon": 149.119238
@@ -339,7 +339,7 @@
     "session": "X2",
     "activity": "SemC",
     "occurrence": "01",
-    "location": "COOMBS Extension SR 1.13",
+    "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": -35.282541,
     "lon": 149.119238
@@ -364,7 +364,7 @@
     "session": "X2",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "COOMBS Extension SR 1.13",
+    "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": -35.282541,
     "lon": 149.119238
@@ -381,7 +381,7 @@
     "session": "X2",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "COOMBS Extension SR 1.13",
+    "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": -35.282541,
     "lon": 149.119238
@@ -398,7 +398,7 @@
     "session": "X2",
     "activity": "SemC",
     "occurrence": "01",
-    "location": "COOMBS Extension SR 1.13",
+    "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": -35.282541,
     "lon": 149.119238
@@ -2140,7 +2140,7 @@
     "start": "17:00",
     "finish": "20:30",
     "duration": "3:30",
-    "weeks": "13\u201126",
+    "weeks": "18\u201121",
     "module": "REGN8021",
     "session": "X2",
     "activity": "LecA",
@@ -2190,7 +2190,7 @@
     "start": "09:00",
     "finish": "12:30",
     "duration": "3:30",
-    "weeks": "13,16\u201117",
+    "weeks": "12\u201113,16\u201117",
     "module": "REGN8056",
     "session": "X2",
     "activity": "SemA",
