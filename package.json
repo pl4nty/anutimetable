@@ -15,6 +15,7 @@
     "@microsoft/applicationinsights-react-js": "3.2.1",
     "@microsoft/applicationinsights-web": "2.7.1",
     "bootstrap-darkmode": "^0.9.1",
+    "html-to-image": "^1.9.0",
     "luxon": "^1.28.0",
     "randomcolor": "0.6.2",
     "react": "17.0.2",
@@ -24,6 +25,7 @@
     "react-icons": "4.3.1",
     "react-scripts": "^4.0.3",
     "react-timezone-select": "^1.1.15",
+    "react-to-print": "^2.14.4",
     "rrule": "2.6.8",
     "sass": "^1.48.0"
   },

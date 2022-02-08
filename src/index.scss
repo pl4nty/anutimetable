@@ -285,3 +285,26 @@ body[data-theme="dark"] {
     background-color: #090a0a;
   }
 }
+
+// print formatting - designed for calendar.current
+.print-view {
+  @page { size: landscape; }
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+  // hide toolbar (buttons)
+  .fc-header-toolbar {
+    display: none !important;
+  }
+  // grow calendar to fill page
+  .fc-view-harness {
+    max-height: 100vh;
+  }
+  // overflow across multiple pages
+  .fc-scroller-harness, .fc-scroller {
+    overflow: visible !important;
+  }
+  .fc-timegrid-slots .fc-timegrid-slot, .fc-timegrid-event-harness {
+    height: 2rem !important;
+  }
+}

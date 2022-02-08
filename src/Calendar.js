@@ -74,6 +74,8 @@ export default forwardRef(({ state }, ref) => {
     bootstrapFontAwesome={false}
     //   expandRows={true}
     height={'80vh'}
+    // can't apply in print context because FC events need JS to resize (CSS inset prop)
+    viewClassNames={state.isPrintView ? 'print-view' : ''}
 
     headerToolbar={{
       start: 'prev,next',

@@ -218,10 +218,12 @@ let App = () => {
     }
   },[]);
 
+  const [isPrintView, setIsPrintView] = useState(false)
+
   const state = {
     timeZone, year, session, sessions, timetableData, modules, selectedModules, weekStart, darkMode,
     setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
-    selectOccurrence, resetOccurrence, hideOccurrence, hiddenDays,
+    selectOccurrence, resetOccurrence, hideOccurrence, hiddenDays, isPrintView, setIsPrintView,
   }
 
   // fluid="xxl" is only supported in Bootstrap 5

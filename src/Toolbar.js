@@ -8,7 +8,7 @@ import Export from './Export'
 
 export default forwardRef(({ API, state: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
-  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
+  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules, setIsPrintView
 } }, calendar) => {
   const selectYear = e => {
     if (e === year) return
@@ -74,7 +74,7 @@ export default forwardRef(({ API, state: {
     />
 
     {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {selectedModules.length !== 0 && <Export API={API} year={year} session={session} />}
+    {selectedModules.length !== 0 && <Export {...{ API, year, session, setIsPrintView }} ref={calendar} />}
   </InputGroup>
   <TimezoneSelect
     theme={(theme)=>({
