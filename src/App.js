@@ -1,11 +1,11 @@
-import { useRef, useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { Container, Navbar } from 'react-bootstrap'
 
 import FloatingActionButton from './FloatingActionButton'
 
 import Toolbar from './Toolbar'
 import Calendar from './Calendar'
-import { getInitialState, setQueryParam, unsetQueryParam, fetchJsObject, stringToColor, parseEvents } from './utils'
+import { getInitialState, setQueryParam, unsetQueryParam, fetchJsObject } from './utils'
 
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js'
@@ -16,8 +16,6 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const API = `${isDevelopment ? 'localhost:7071' : window.location.host}/api`
 
 let App = () => {
-  const calendar = useRef()
-
   // Dark mode
   const [darkMode, setDarkMode] = useState(false)
 
@@ -83,8 +81,9 @@ let App = () => {
 
   // Selected modules are stored as an *array* of module objects as above, with
   // an additional `id` field that has the key in `modules`
-  const [selectedModules, intsetSelectedModules] = useState(m.map(([id]) => ({ id })))
+  const [selectedModules, innerSetSelectedModules] = useState(m.map(([id]) => ({ id })))
 
+  // This change function is required because we need to access the previous value 
   const setSelectedModules = updatedModules => {
     // Find no longer preset entries
     selectedModules.forEach(m => {
@@ -95,13 +94,13 @@ let App = () => {
     })
     // Find new entries
     updatedModules.forEach(m => {
-      // No longer present
+      // New module
       if (!selectedModules.includes(m)) {
         setQueryParam(m.id)
       }
     })
 
-    intsetSelectedModules(updatedModules)
+    innerSetSelectedModules(updatedModules)
   }
 
   // List of events chosen from a list of alternatives globally
@@ -132,12 +131,6 @@ let App = () => {
   const updateHiddenOccurrences = () => setHiddenOccurrences(
     hiddenOccurrences.filter(([module]) => selectedModules.map(({ id }) => id).includes(module))
   )
-
-  // Update query string parameters and calendar events whenever anything changes
-  useEffect(() => {
-    const api = calendar.current.getApi()
-
-  }, [timetableData, year, session, selectedModules, calendar, timeZone, m, modules, specifiedOccurrences, hiddenOccurrences])
 
   // Remove specified events for modules that have been removed
   useEffect(() => {
@@ -198,9 +191,9 @@ let App = () => {
   return <Container fluid>
     <h2 className="mt-2">ANU Timetable</h2>
 
-    <Toolbar API={API} ref={calendar} timetableState={timetableState} />
+    <Toolbar API={API} timetableState={timetableState} />
 
-    <Calendar ref={calendar} timetableState={timetableState} />
+    <Calendar timetableState={timetableState} />
 
     <Navbar>
       <Navbar.Text>

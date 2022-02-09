@@ -1,4 +1,4 @@
-import { forwardRef, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
@@ -70,17 +70,19 @@ export default function Calendar({ timetableState }) {
       : new Date();
 
   useEffect(() => {
+    // Ensure we have data
+    if (!timetableState.selectedModules) return
+    if (Object.keys(timetableState.timetableData).length === 0) return
+
     const api = ref.current.getApi()
     const sources = api.getEventSources()
+
+    // TODO: Remove and update only modified modules instead of deleting and adding everything back 
 
     // Remove all sources
     sources.forEach(s => {
       s.remove()
     })
-
-    // Ensure we have data
-    if (!timetableState.selectedModules) return
-    if (Object.keys(timetableState.timetableData).length === 0) return
 
     // Interate over each module and display the appropriate times in the calendar
     timetableState.selectedModules.forEach(({ id }) => {
