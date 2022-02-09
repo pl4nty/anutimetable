@@ -6,7 +6,7 @@ import TimezoneSelect from 'react-timezone-select'
 
 import Export from './Export'
 
-export default forwardRef(({ API, state: {
+export default forwardRef(({ API, timetableState: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
   setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
 } }, calendar) => {

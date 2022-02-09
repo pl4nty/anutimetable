@@ -1,4 +1,4 @@
-import { forwardRef } from 'react'
+import { forwardRef, useEffect, useRef } from 'react'
 
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
@@ -11,7 +11,7 @@ import luxonPlugin from '@fullcalendar/luxon'
 
 import { DateTime } from 'luxon'
 
-import { getStartOfSession } from './utils'
+import { getStartOfSession, stringToColor, parseEvents } from './utils'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -25,7 +25,7 @@ rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   ).map(date => new Date(de.createMarker(date).getTime() + date.getTimezoneOffset() * 60 * 1000))
 }
 
-const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence }) => ({ event }) => {
+const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence }, { event }) => {
   const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
   const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
   // causes a nested <a> in the event
@@ -55,10 +55,12 @@ const weekNumberCalculation = date => {
   return end - start + 1 // 0 weeks after start is week 1
 }
 
-export default forwardRef(({ state }, ref) => {
+export default function Calendar({ timetableState }) {
   const customEvents = {
-    eventContent: e => formatEventContent(state)(e),
+    eventContent: e => formatEventContent(timetableState, e),
   }
+
+  let ref = useRef();
 
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
@@ -66,6 +68,52 @@ export default forwardRef(({ state }, ref) => {
     startOfSemester && startOfSemester.getTime() > new Date().getTime()
       ? startOfSemester
       : new Date();
+
+  useEffect(() => {
+    const api = ref.current.getApi()
+    const sources = api.getEventSources()
+
+    // Remove all sources
+    sources.forEach(s => {
+      s.remove()
+    })
+
+    // Ensure we have data
+    if (!timetableState.selectedModules) return
+    if (Object.keys(timetableState.timetableData).length === 0) return
+
+    // Interate over each module and display the appropriate times in the calendar
+    timetableState.selectedModules.forEach(({ id }) => {
+      let timetableData = timetableState.timetableData
+
+      // What events are currently chosen?
+      // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
+      let eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+      for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
+        if (module !== id) continue
+        // Delete alternatives to an explicitly chosen event
+        eventsForModule = eventsForModule.filter(event =>
+          !(event.activity === groupId && parseInt(event.occurrence) !== occurrence)
+        )
+      }
+      // Delete hidden occurrences
+      for (const [module, groupId, occurrence] of timetableState.hiddenOccurrences) {
+        if (module !== id) continue
+
+        // Filter out hidden elements
+        eventsForModule = eventsForModule.filter(event =>
+          !(event.activity === groupId && parseInt(event.occurrence) === occurrence)
+        )
+      }
+
+      // Add selected events to the calendar
+      api.addEventSource({
+        id,
+        color: stringToColor(id),
+        events: parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+      })
+    })
+  }, [timetableState])
 
   return <FullCalendar
     ref={ref}
@@ -94,7 +142,7 @@ export default forwardRef(({ state }, ref) => {
         titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
         ...customEvents
       },
-      timeGridWeek:{
+      timeGridWeek: {
         weekends: true,
         dayHeaderFormat: { weekday: 'short' },
         ...customEvents
@@ -118,7 +166,7 @@ export default forwardRef(({ state }, ref) => {
     // timeGrid options
     allDaySlot={false}
     // Earliest business hour is 8am AEDT
-    scrollTime={formatDate('2020-01-01T08:00+11:00',{
+    scrollTime={formatDate('2020-01-01T08:00+11:00', {
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit'
@@ -139,14 +187,14 @@ export default forwardRef(({ state }, ref) => {
     weekNumbers
     weekNumberCalculation={weekNumberCalculation}
     weekText='Week'
-    firstDay={state.weekStart}
+    firstDay={timetableState.weekStart}
 
-    hiddenDays={state.hiddenDays}
+    hiddenDays={timetableState.hiddenDays}
 
     fixedWeekCount={false}
 
-    timeZone={state.timeZone}
+    timeZone={timetableState.timeZone}
 
     eventSourceFailure={err => console.error(err.message)}
   />
-})
+}
