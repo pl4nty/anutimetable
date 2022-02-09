@@ -5,7 +5,7 @@ import FloatingActionButton from './FloatingActionButton'
 
 import Toolbar from './Toolbar'
 import Calendar from './Calendar'
-import { findPreviousState, getInitialState, setQueryParam, unsetQueryParam, fetchJsObject, stringToColor, parseEvents } from './utils'
+import { loadCachedQSIfNotExists, getInitialState, setQueryParam, unsetQueryParam, fetchJsObject, stringToColor, parseEvents } from './utils'
 
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js'
@@ -59,7 +59,7 @@ let App = () => {
   )
   useEffect(() => localStorage.timeZone = timeZone, [timeZone])
 
-  findPreviousState()
+  loadCachedQSIfNotExists()
 
   const [y, s, m, h] = getInitialState()
 

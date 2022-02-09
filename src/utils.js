@@ -15,7 +15,7 @@ export const stringToColor = str => {
 }
 
 // Finds a previous state and uses it if the url is empty
-export const findPreviousState = () => {
+export const loadCachedQSIfNotExists = () => {
   const qs = new URLSearchParams(window.location.search)
 
   if (!qs.toString()) {
