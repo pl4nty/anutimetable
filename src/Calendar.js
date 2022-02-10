@@ -10,6 +10,7 @@ import luxonPlugin from '@fullcalendar/luxon'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
+import { useEffect, useState } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -62,11 +63,15 @@ export default function Calendar({ timetableState }) {
       : new Date();
 
   // Where the events are stored
-  const events = []
+  const [calendarEvents, setCalendarEvents] = useState([])
 
+  useEffect(() => {
+    // Ensure we have data
+    if (!timetableState.selectedModules) return
+    if (Object.keys(timetableState.timetableData).length === 0) return
 
-  // Ensure we have data
-  if (timetableState.selectedModules && Object.keys(timetableState.timetableData).length !== 0) {
+    // Where the events are stored
+    const events = [];
 
     // Interate over each module and add the appropriate times in the calendar if needed
     for (let i = 0; i < timetableState.selectedModules.length; i++) {
@@ -114,7 +119,8 @@ export default function Calendar({ timetableState }) {
       }
 
     }
-  }
+    setCalendarEvents(events)
+  }, [timetableState])
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
@@ -123,7 +129,7 @@ export default function Calendar({ timetableState }) {
     //   expandRows={true}
     height={'80vh'}
 
-    eventSources={events}
+    eventSources={calendarEvents}
 
     headerToolbar={{
       start: 'prev,next',
