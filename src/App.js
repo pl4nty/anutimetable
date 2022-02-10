@@ -141,12 +141,13 @@ let App = () => {
         return []
       case 'hide':
         // Should we have a hide url parameter
-        const hide = state.map(x => x.join('_')).join(',')
+        const new_state = [...state, action.values]
+        const hide = new_state.map(x => x.join('_')).join(',')
         if (hide.length > 0)
           setQueryParam('hide', hide)
         else
           unsetQueryParam('hide')
-        return [...state, action.values]
+        return new_state
       default:
         throw new Error()
     }
