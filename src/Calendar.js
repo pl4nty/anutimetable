@@ -54,10 +54,6 @@ const weekNumberCalculation = date => {
 }
 
 export default function Calendar({ timetableState }) {
-  // Ensure we have data
-  if (!timetableState.selectedModules) return <></>
-  if (Object.keys(timetableState.timetableData).length === 0) return <></>
-
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
   const initialDate =
@@ -68,49 +64,55 @@ export default function Calendar({ timetableState }) {
   // Where the events are stored
   const events = []
 
-  // Interate over each module and add the appropriate times in the calendar if needed
-  for (let i = 0; i < timetableState.selectedModules.length; i++) {
-    const { id } = timetableState.selectedModules[i];
-    let timetableData = timetableState.timetableData
 
-    // What events are currently chosen?
-    // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
-    const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+  // Ensure we have data
+  if (timetableState.selectedModules && Object.keys(timetableState.timetableData).length !== 0) {
 
-    // Generate the events paramaters
-    let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+    // Interate over each module and add the appropriate times in the calendar if needed
+    for (let i = 0; i < timetableState.selectedModules.length; i++) {
+      const { id } = timetableState.selectedModules[i];
+      let timetableData = timetableState.timetableData
 
-    // Hide all but the valid occurance
-    for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
-      if (module !== id) continue
+      // What events are currently chosen?
+      // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
+      const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
 
-      eventsList.forEach((event, index) => {
-        if (event.groupId === groupId) {
-          if (parseInt(event.occurrence) === occurrence) {
-            eventsList[index].hasMultipleOccurrences = false
-          } else {
+      // Generate the events paramaters
+      let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+
+      // Hide all but the valid occurance
+      for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
+        if (module !== id) continue
+
+        eventsList.forEach((event, index) => {
+          if (event.groupId === groupId) {
+            if (parseInt(event.occurrence) === occurrence) {
+              eventsList[index].hasMultipleOccurrences = false
+            } else {
+              eventsList[index].display = 'none'
+            }
+          }
+        })
+      }
+
+      // Hide hidden occurrences
+      for (const [module, groupId, occurrence] of timetableState.hidden) {
+        if (module !== id) continue
+
+        eventsList.forEach((event, index) => {
+          if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
             eventsList[index].display = 'none'
           }
-        }
-      })
-    }
+        })
+      }
 
-    // Hide hidden occurrences
-    for (const [module, groupId, occurrence] of timetableState.hidden) {
-      if (module !== id) continue
+      // Add event to the list
+      events[i] = {
+        id,
+        color: stringToColor(id),
+        events: eventsList
+      }
 
-      eventsList.forEach((event, index) => {
-        if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
-          eventsList[index].display = 'none'
-        }
-      })
-    }
-
-    // Add event to the list
-    events[i] = {
-      id,
-      color: stringToColor(id),
-      events: eventsList
     }
   }
 
