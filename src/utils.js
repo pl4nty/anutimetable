@@ -14,6 +14,15 @@ export const stringToColor = str => {
   return stringColorMap[str]
 }
 
+// Finds a previous state and uses it if the url is empty
+export const loadCachedQSIfNotExists = () => {
+  const qs = new URLSearchParams(window.location.search)
+
+  if (!qs.toString()) {
+    window.history.replaceState(null, '', '?' + localStorage.savedQueryParams);
+  }
+}
+
 // hardcode to semester 1 or 2 as users usually want them
 // allows app to function even if /sessions endpoint is down
 export const getInitialState = () => {
@@ -57,12 +66,14 @@ export const setQueryParam = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
   qs.set(param, value ?? qs.get(param) ?? '') // if no value, just ensure param exists
   window.history.replaceState(null, '', '?'+qs.toString())
+  localStorage.savedQueryParams = qs.toString()
 }
 
 export const unsetQueryParam = param => {
   const qs = new URLSearchParams(window.location.search)
   qs.delete(param)
   window.history.replaceState(null, '', '?'+qs.toString())
+  localStorage.savedQueryParams = qs.toString()
 }
 
 export const getStartOfSession = () => {
