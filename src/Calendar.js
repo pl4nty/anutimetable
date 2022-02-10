@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
@@ -60,7 +60,7 @@ export default function Calendar({ timetableState }) {
     eventContent: e => formatEventContent(timetableState, e),
   }
 
-  let ref = useRef();
+  let [eventSources, setEventSources] = useState([])
 
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
@@ -74,56 +74,68 @@ export default function Calendar({ timetableState }) {
     if (!timetableState.selectedModules) return
     if (Object.keys(timetableState.timetableData).length === 0) return
 
-    const api = ref.current.getApi()
-    const sources = api.getEventSources()
+    // Filter out unselected modules
+    let events = eventSources.filter(key => timetableState.selectedModules.some(e => e.id === key.id))
 
-    // TODO: Remove and update only modified modules instead of deleting and adding everything back 
+    console.log(eventSources)
+    console.log(events)
 
-    // Remove all sources
-    sources.forEach(s => {
-      s.remove()
-    })
-
-    // Interate over each module and display the appropriate times in the calendar
-    timetableState.selectedModules.forEach(({ id }) => {
+    // Interate over each module and add the appropriate times in the calendar if needed
+    for (let i = 0; i < timetableState.selectedModules.length; i++) {
+      const { id } = timetableState.selectedModules[i];
       let timetableData = timetableState.timetableData
 
       // What events are currently chosen?
       // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
-      let eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+      const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+
+      // Generate the events paramaters
+      let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+
+      // Hide all but the valid occurance
       for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
         if (module !== id) continue
-        // Delete alternatives to an explicitly chosen event
-        eventsForModule = eventsForModule.filter(event =>
-          !(event.activity === groupId && parseInt(event.occurrence) !== occurrence)
-        )
+
+        eventsList.forEach((event, index) => {
+          if (event.groupId === groupId) {
+            if (parseInt(event.occurrence) === occurrence) {
+              eventsList[index].hasMultipleOccurrences = false
+            } else {
+              eventsList[index].display = 'none'
+            }
+          }
+        })
       }
-      // Delete hidden occurrences
+
+      // Hide hidden occurrences
       for (const [module, groupId, occurrence] of timetableState.hiddenOccurrences) {
         if (module !== id) continue
 
-        // Filter out hidden elements
-        eventsForModule = eventsForModule.filter(event =>
-          !(event.activity === groupId && parseInt(event.occurrence) === occurrence)
-        )
+        eventsList.forEach((event, index) => {
+          if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
+            eventsList[index].display = 'none'
+          }
+        })
       }
 
-      // Add selected events to the calendar
-      api.addEventSource({
+      events[i] = {
         id,
         color: stringToColor(id),
-        events: parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
-      })
-    })
+        events: eventsList
+      }
+    }
+
+    setEventSources(events)
   }, [timetableState])
 
   return <FullCalendar
-    ref={ref}
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
     //   expandRows={true}
     height={'80vh'}
+
+    eventSources={eventSources}
 
     headerToolbar={{
       start: 'prev,next',
