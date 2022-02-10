@@ -68,7 +68,7 @@ let App = () => {
 
   // List of all supported sessions
   const [sessions, setSessions] = useState([])
-  useEffect(() => fetchJsObject(`${window.location.protocol}//${API}/sessions`, setSessions), [sessions])
+  useEffect(() => fetchJsObject(`${window.location.protocol}//${API}/sessions`, setSessions), [])
 
   // Timetable data as a JS object
   const [timetableData, setTimetableData] = useState({})
