@@ -227,25 +227,6 @@ let App = () => {
     selectOccurrence, resetOccurrence, hideOccurrence, hiddenDays,
   }
 
-  // Settings FAB
-  const [settingsOpen, setSettingsOpen] = useState(false)
-  const toggleSettings = () => setSettingsOpen(!settingsOpen)
-
-  // Start day of week dialog
-  const [startDayDialogOpen, setStartDayDialogOpen] = useState(false)
-  const openStartDayDialog = () => {
-    setStartDayDialogOpen(true);
-    setSettingsOpen(false);
-  }
-  const closeStartDayDialog = () => {
-    setStartDayDialogOpen(false);
-    setSettingsOpen(false);
-  }
-
-  useEffect(()=>{
-    document.body.style.overflow = startDayDialogOpen ? 'hidden' : 'visible';
-  }, [startDayDialogOpen]);
-
   return <>
     <Header {...{ sessions, year, setYear, session, setSession, setSelectedModules, timeZone, setTimeZone, darkMode }} />
     {/* // fluid="xxl" is only supported in Bootstrap 5 */}
