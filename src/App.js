@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useReducer } from 'react'
 import { Container, Navbar } from 'react-bootstrap'
 
 import FloatingActionButton from './FloatingActionButton'
@@ -68,7 +68,7 @@ let App = () => {
 
   // List of all supported sessions
   const [sessions, setSessions] = useState([])
-  useEffect(() => fetchJsObject(`${window.location.protocol}//${API}/sessions`, setSessions), [])
+  useEffect(() => fetchJsObject(`${window.location.protocol}//${API}/sessions`, setSessions), [sessions])
 
   // Timetable data as a JS object
   const [timetableData, setTimetableData] = useState({})
@@ -79,14 +79,10 @@ let App = () => {
   const [modules, setModules] = useState({})
   useEffect(() => setModules(Object.entries(timetableData).reduce((acc, [key, module]) => ({ ...acc, [key.split('_')[0]]: processModule(module) }), {})), [timetableData])
 
-  // Selected modules are stored as an *array* of module objects as above, with
-  // an additional `id` field that has the key in `modules`
-  const [selectedModules, innerSetSelectedModules] = useState(m.map(([id]) => ({ id })))
-
-  // This change function is required because we need to access the previous value 
-  const setSelectedModules = updatedModules => {
+  // This needs to be a reducer to access the previous value 
+  const selectedModulesReducer = (state, updatedModules) => {
     // Find no longer preset entries
-    selectedModules.forEach(m => {
+    state.forEach(m => {
       // No longer present
       if (!updatedModules.includes(m)) {
         unsetQueryParam(m.id)
@@ -95,13 +91,17 @@ let App = () => {
     // Find new entries
     updatedModules.forEach(m => {
       // New module
-      if (!selectedModules.includes(m)) {
+      if (!state.includes(m)) {
         setQueryParam(m.id)
       }
     })
 
-    innerSetSelectedModules(updatedModules)
+    return updatedModules
   }
+
+  // Selected modules are stored as an *array* of module objects as above, with
+  // an additional `id` field that has the key in `modules`
+  const [selectedModules, setSelectedModules] = useReducer(selectedModulesReducer, m.map(([id]) => ({ id })))
 
   // List of events chosen from a list of alternatives globally
   // List of lists like ['COMP1130', 'ComA', 1] (called module, groupId, occurrence)
@@ -115,46 +115,44 @@ let App = () => {
     }
     return [[module, r[1], parseInt(r[2])]]
   }))
-  const [specifiedOccurrences, setSpecifiedOccurrences] = useState(getSpecOccurrences())
-  const updateSpecifiedOccurrences = () => setSpecifiedOccurrences(getSpecOccurrences())
 
+  const changeOccurrences = (state, action) => {
+    let [module, groupId, occurrence] = action.values
+    switch (action.type) {
+      case 'select':
+        setQueryParam(module, groupId + occurrence)
+        return [...state, action.values]
+      case 'reset':
+        setQueryParam(module, '')
+        return state.filter(
+          ([m, g, o]) => !(m === module && g === groupId && o === occurrence)
+        )
+      default:
+        throw new Error()
+    }
+  }
+
+  const [specifiedOccurrences, setSpecifiedOccurrences] = useReducer(changeOccurrences, getSpecOccurrences())
+
+  const changeHidden = (state, action) => {
+    switch (action.type) {
+      case 'reset':
+        unsetQueryParam('hide')
+        return []
+      case 'hide':
+        // Should we have a hide url parameter
+        const hide = state.map(x => x.join('_')).join(',')
+        if (hide.length > 0)
+          setQueryParam('hide', hide)
+        else
+          unsetQueryParam('hide')
+        return [...state, action.values]
+      default:
+        throw new Error()
+    }
+  }
   // Events that are manually hidden with the eye icon
-  const [hiddenOccurrences, setHiddenOccurrences] = useState(h)
-  useEffect(() => {
-    const hide = hiddenOccurrences.map(x => x.join('_')).join(',')
-    if (hide.length > 0)
-      setQueryParam('hide', hide)
-    else
-      unsetQueryParam('hide')
-  })
-  // Updating clears hidden occurrences from no longer selected modules
-  const updateHiddenOccurrences = () => setHiddenOccurrences(
-    hiddenOccurrences.filter(([module]) => selectedModules.map(({ id }) => id).includes(module))
-  )
-
-  // Remove specified events for modules that have been removed
-  useEffect(() => {
-    updateSpecifiedOccurrences()
-    updateHiddenOccurrences()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedModules])
-
-  // We select occurrences by adding them to specifiedOccurrences, which
-  // edits the query string in an effect
-  const selectOccurrence = (module, groupId, occurrence) => {
-    // Eg adding ['COMP1130', 'ComA', 1]
-    setQueryParam(module, groupId + occurrence)
-    setSpecifiedOccurrences([...specifiedOccurrences, [module, groupId, occurrence]])
-  }
-  const resetOccurrence = (module, groupId, occurrence) => {
-    setQueryParam(module, '')
-    setSpecifiedOccurrences(specifiedOccurrences.filter(
-      ([m, g, o]) => !(m === module && g === groupId && o === occurrence)
-    ))
-  }
-  const hideOccurrence = (module, groupId, occurrence) => {
-    setHiddenOccurrences([...hiddenOccurrences, [module, groupId, occurrence]])
-  }
+  const [hidden, setHidden] = useReducer(changeHidden, h)
 
   // Starting day of the week
   const [weekStart, setWeekStart] = useState(0);
@@ -182,9 +180,9 @@ let App = () => {
   }, []);
 
   const timetableState = {
-    timeZone, year, session, sessions, specifiedOccurrences, hiddenOccurrences, timetableData, modules, selectedModules, weekStart, darkMode,
-    setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
-    selectOccurrence, resetOccurrence, hideOccurrence, hiddenDays,
+    timeZone, year, session, sessions, specifiedOccurrences, hidden, timetableData, modules, selectedModules, weekStart, darkMode,
+    setTimeZone, setYear, setSession, setSessions, setSpecifiedOccurrences, setHidden, setTimetableData, setModules, setSelectedModules,
+    hiddenDays,
   }
 
   // fluid="xxl" is only supported in Bootstrap 5
@@ -208,7 +206,7 @@ let App = () => {
       weekStart, setWeekStart,
       hiddenDays, setHiddenDays,
       darkMode, toggleDarkMode,
-      hiddenOccurrences, setHiddenOccurrences
+      hidden, setHidden
     }} />
   </Container>
 }

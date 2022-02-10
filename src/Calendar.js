@@ -25,7 +25,7 @@ rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   ).map(date => new Date(de.createMarker(date).getTime() + date.getTimezoneOffset() * 60 * 1000))
 }
 
-const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence }, { event }) => {
+const formatEventContent = ({ setSpecifiedOccurrences, setHidden }, { event }) => {
   const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
   const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
   // causes a nested <a> in the event
@@ -33,13 +33,13 @@ const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence 
   const locationLine = url
     ? <a href={url} target="_blank" rel="noreferrer">{location}</a>
     : location;
-  const dispatch = f => f(event.source.id, event.groupId, event.extendedProps.occurrence)
+  const values = [event.source.id, event.groupId, event.extendedProps.occurrence];
   const button = activity.startsWith('Lec') ? null :
     hasMultipleOccurrences
-      ? <button className='choose-button' onClick={() => dispatch(selectOccurrence)}>Choose</button>
-      : <button className='choose-button' onClick={() => dispatch(resetOccurrence)}>Reset</button>
+      ? <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'select', values })}>Choose</button>
+      : <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'reset', values })}>Reset</button>
   return <>
-    <div className='hide-button' title='Hide this event' onClick={() => dispatch(hideOccurrence)}>
+    <div className='hide-button' title='Hide this event' onClick={() => setHidden({ type: 'hide', values })}>
       <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
     </div>
     <p>{event.title}</p>
@@ -56,10 +56,6 @@ const weekNumberCalculation = date => {
 }
 
 export default function Calendar({ timetableState }) {
-  const customEvents = {
-    eventContent: e => formatEventContent(timetableState, e),
-  }
-
   let [eventSources, setEventSources] = useState([])
 
   // Set the initial date to max(start of sem, today)
@@ -76,9 +72,6 @@ export default function Calendar({ timetableState }) {
 
     // Filter out unselected modules
     let events = eventSources.filter(key => timetableState.selectedModules.some(e => e.id === key.id))
-
-    console.log(eventSources)
-    console.log(events)
 
     // Interate over each module and add the appropriate times in the calendar if needed
     for (let i = 0; i < timetableState.selectedModules.length; i++) {
@@ -108,7 +101,7 @@ export default function Calendar({ timetableState }) {
       }
 
       // Hide hidden occurrences
-      for (const [module, groupId, occurrence] of timetableState.hiddenOccurrences) {
+      for (const [module, groupId, occurrence] of timetableState.hidden) {
         if (module !== id) continue
 
         eventsList.forEach((event, index) => {
@@ -154,12 +147,12 @@ export default function Calendar({ timetableState }) {
     views={{
       timeGridDay: {
         titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
-        ...customEvents
+        eventContent: e => formatEventContent(timetableState, e),
       },
       timeGridWeek: {
         weekends: true,
         dayHeaderFormat: { weekday: 'short' },
-        ...customEvents
+        eventContent: e => formatEventContent(timetableState, e),
       },
       listTwoDay: {
         type: 'list',
@@ -168,7 +161,7 @@ export default function Calendar({ timetableState }) {
         listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
         displayEventTime: true,
         weekends: true,
-        ...customEvents
+        eventContent: e => formatEventContent(timetableState, e),
       },
       dayGridMonth: {
         weekNumberFormat: { week: 'short' }
