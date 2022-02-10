@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react'
-
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
 import bootstrapPlugin from '@fullcalendar/bootstrap'
@@ -56,7 +54,9 @@ const weekNumberCalculation = date => {
 }
 
 export default function Calendar({ timetableState }) {
-  let [eventSources, setEventSources] = useState([])
+  // Ensure we have data
+  if (!timetableState.selectedModules) return <></>
+  if (Object.keys(timetableState.timetableData).length === 0) return <></>
 
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
@@ -65,61 +65,54 @@ export default function Calendar({ timetableState }) {
       ? startOfSemester
       : new Date();
 
-  useEffect(() => {
-    // Ensure we have data
-    if (!timetableState.selectedModules) return
-    if (Object.keys(timetableState.timetableData).length === 0) return
+  // Where the events are stored
+  const events = []
 
-    // Filter out unselected modules
-    let events = eventSources.filter(key => timetableState.selectedModules.some(e => e.id === key.id))
+  // Interate over each module and add the appropriate times in the calendar if needed
+  for (let i = 0; i < timetableState.selectedModules.length; i++) {
+    const { id } = timetableState.selectedModules[i];
+    let timetableData = timetableState.timetableData
 
-    // Interate over each module and add the appropriate times in the calendar if needed
-    for (let i = 0; i < timetableState.selectedModules.length; i++) {
-      const { id } = timetableState.selectedModules[i];
-      let timetableData = timetableState.timetableData
+    // What events are currently chosen?
+    // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
+    const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
 
-      // What events are currently chosen?
-      // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
-      const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+    // Generate the events paramaters
+    let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
 
-      // Generate the events paramaters
-      let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+    // Hide all but the valid occurance
+    for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
+      if (module !== id) continue
 
-      // Hide all but the valid occurance
-      for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
-        if (module !== id) continue
-
-        eventsList.forEach((event, index) => {
-          if (event.groupId === groupId) {
-            if (parseInt(event.occurrence) === occurrence) {
-              eventsList[index].hasMultipleOccurrences = false
-            } else {
-              eventsList[index].display = 'none'
-            }
-          }
-        })
-      }
-
-      // Hide hidden occurrences
-      for (const [module, groupId, occurrence] of timetableState.hidden) {
-        if (module !== id) continue
-
-        eventsList.forEach((event, index) => {
-          if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
+      eventsList.forEach((event, index) => {
+        if (event.groupId === groupId) {
+          if (parseInt(event.occurrence) === occurrence) {
+            eventsList[index].hasMultipleOccurrences = false
+          } else {
             eventsList[index].display = 'none'
           }
-        })
-      }
-
-      events[i] = {
-        id,
-        color: stringToColor(id),
-        events: eventsList
-      }
+        }
+      })
     }
 
-    setEventSources(events)
-  }, [timetableState])
+    // Hide hidden occurrences
+    for (const [module, groupId, occurrence] of timetableState.hidden) {
+      if (module !== id) continue
+
+      eventsList.forEach((event, index) => {
+        if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
+          eventsList[index].display = 'none'
+        }
+      })
+    }
+
+    // Add event to the list
+    events[i] = {
+      id,
+      color: stringToColor(id),
+      events: eventsList
+    }
+  }
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
@@ -128,7 +121,7 @@ export default function Calendar({ timetableState }) {
     //   expandRows={true}
     height={'80vh'}
 
-    eventSources={eventSources}
+    eventSources={events}
 
     headerToolbar={{
       start: 'prev,next',
