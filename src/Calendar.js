@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
