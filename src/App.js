@@ -1,5 +1,7 @@
 import {useRef, useState, useEffect, useMemo} from 'react'
-import { Button, Card, Container, Navbar, OverlayTrigger, Tooltip, Row, Col } from 'react-bootstrap'
+import { Container, Navbar, Row, Col } from 'react-bootstrap'
+
+import FloatingActionButton from './FloatingActionButton'
 
 import Header from './Header'
 import Toolbar from './Toolbar'
