@@ -76,7 +76,7 @@ let App = () => {
 
   // Timetable data as a JS object
   const [timetableData, setTimetableData] = useState({})
-  useEffect(() => fetchJsObject(`/timetable_${year}_${session}.json`, setTimetableData), [year, session])
+  useEffect(() => fetchJsObject(`/timetable_data/${year}/${session}.min.json`, setTimetableData), [year, session])
 
   // Modules (courses) are in an object like { COMP1130: { title: 'COMP1130 Pro...', dates: 'Displaying Dates: ...', link: "" }, ... }
   const processModule = ({classes, id, title, ...module}) => ({ title: title.replace(/_[A-Z][1-9]/, ''), ...module })

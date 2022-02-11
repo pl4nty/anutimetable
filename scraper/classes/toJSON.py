@@ -30,10 +30,16 @@ def formatCourses(courses: List[Course]):
     obj = {}
     for x in dicts:
         obj[x['id']] = x
-    data = json.dumps(obj, separators=(',', ':'))
-    f = open("timetable.json", "w+")
-    f.write(data)
-    f.close()
+
+    # Minified version
+    with open("timetable.min.json", "w+") as f:
+        data = json.dumps(obj, separators=(',', ':'))
+        f.write(data)
+
+    # Pretty print version
+    with open("timetable.json", "w+") as f:
+        data = json.dumps(obj, indent=1)
+        f.write(data)
 
 
 def clockToDecimal(s: str):
