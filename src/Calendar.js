@@ -73,19 +73,19 @@ export default function Calendar({ timetableState }) {
     // Where the events are stored
     const events = [];
 
-    // Interate over each module and add the appropriate times in the calendar if needed
+    // Iterate over each module and add the appropriate times to the calendar if needed
     for (let i = 0; i < timetableState.selectedModules.length; i++) {
       const { id } = timetableState.selectedModules[i];
       let timetableData = timetableState.timetableData
 
-      // What events are currently chosen?
+      // Which events are currently chosen?
       // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
       const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
 
-      // Generate the events paramaters
+      // Generate the events parameters
       let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
 
-      // Hide all but the valid occurance
+      // Hide all but the valid occurrence
       for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
         if (module !== id) continue
 

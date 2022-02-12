@@ -81,7 +81,7 @@ let App = () => {
 
   // This needs to be a reducer to access the previous value 
   const selectedModulesReducer = (state, updatedModules) => {
-    // Find no longer preset entries
+    // Find no longer present entries
     state.forEach(m => {
       // No longer present
       if (!updatedModules.includes(m)) {
