@@ -18,7 +18,7 @@ function timesToArray(date, timeString) {
 // eg ?COMP2310_S2=LecA 01,LecB 01
 module.exports = async function (context, req) {
     const SOURCE = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development' ? 'http://localhost:3000/' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public/'
-    const TIMETABLE_JSON = SOURCE+`timetable${'_'+req.query.y || ''}${'_'+req.query.s || ''}.json`
+    const TIMETABLE_JSON = SOURCE+`timetable_data/${req.query.y}/${req.query.s}.min.json`
 
     context.log.info(`Running in node ${process.version}`)
 

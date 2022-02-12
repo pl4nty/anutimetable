@@ -5,7 +5,7 @@ const isDev = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development'
 // /modules?year=${year}&session=${session}
 module.exports = async function (context, req) {
     const prod = `https://raw.githubusercontent.com/anucssa/anutimetable/master/public/timetable_${req.query.year}_${req.query.session}.json`
-    const TIMETABLE_JSON = isDev ? `http://localhost:3000/timetable_${req.query.year}_${req.query.session}.json` : prod
+    const TIMETABLE_JSON = isDev ? `http://localhost:3000/timetable_data/${req.query.year}/${req.query.session}.min.json` : prod
 
     let modules
     try {
