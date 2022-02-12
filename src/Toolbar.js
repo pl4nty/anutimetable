@@ -22,6 +22,7 @@ export default forwardRef(({ API, state: {
       neutral80: darkMode ? '#fff' : '#000',
       primary25: darkMode ? '#343A40' : '#deebff',
       primary: '#42A5FF',
+      primary50: darkMode ? '#343A40' : '#deebff',
     }
   })
 
@@ -36,20 +37,28 @@ export default forwardRef(({ API, state: {
     return Object.entries(modules).map(([id, { title }]) => ({ label: title, value: id }))
   }, [modules])
   const showExport = selectedModules.length !== 0
+  
+  const control = provided => ({
+    ...provided,
+    margin: '-1px',
+    ...(showExport && {
+      borderTopRightRadius: 0,
+      borderBottomRightRadius: 0
+    })
+  })
+
+  const option = provided => ({
+    ...provided,
+    ':hover': {
+      transitionDelay: '30ms',
+      background: provided[':active'].backgroundColor
+    }
+  })
 
   return <InputGroup>
     <BigSelect
       className="form-control p-0"
-      styles={{
-        control: provided => ({
-          ...provided,
-          margin: '-1px',
-          ...(showExport && {
-            borderTopRightRadius: 0,
-            borderBottomRightRadius: 0
-          })
-        })
-      }}
+      styles={{ control, option }}
       isMulti
       isSearchable
 
