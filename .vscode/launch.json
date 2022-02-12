@@ -14,9 +14,12 @@
         {
             "name": "Frontend in Edge",
             "type": "pwa-msedge",
-            "request": "launch",
+            "request": "attach",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}",
+            "userDataDir": false,
+            "cleanUp": "onlyTab",
+            "port": 9222,
             "preLaunchTask": "swa start",
             "presentation": {
                 "group": "browsers",
