@@ -1,7 +1,7 @@
 import { forwardRef, useMemo } from 'react'
 
 import { InputGroup } from 'react-bootstrap'
-import Select, { components } from 'react-select'
+import { components } from 'react-select'
 import BigSelect from './BigSelect'
 
 import Export from './Export'
