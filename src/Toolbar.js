@@ -2,12 +2,15 @@ import { forwardRef, useMemo } from 'react'
 
 import { InputGroup } from 'react-bootstrap'
 import Select, { components } from 'react-select'
+import BigSelect from './BigSelect'
 
 import Export from './Export'
 
+
+
 export default forwardRef(({ API, state: {
-  timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
-  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
+  year, session, modules, selectedModules, darkMode,
+  setSelectedModules,
 } }, calendar) => {
 
   const theme = theme => ({
@@ -23,18 +26,20 @@ export default forwardRef(({ API, state: {
   })
 
   const MultiValueLabel = props => <components.MultiValueLabel {...props}>
-      <a variant="link" size="sm" target="_blank" rel="noreferrer"
-        href={`http://programsandcourses.anu.edu.au/${year}/course/${props.data.value}`}
-        onMouseDown={e => e.stopPropagation()} // prevent dropdown from opening
-      >{props.data.value}</a> {/* use value (eg COMP1130) instead of label to save space */}
+    <a variant="link" size="sm" target="_blank" rel="noreferrer"
+      href={`http://programsandcourses.anu.edu.au/${year}/course/${props.data.value}`}
+      onMouseDown={e => e.stopPropagation()} // prevent dropdown from opening on href
+    >{props.data.value}</a> {/* use value (eg COMP1130) instead of label to save space */}
   </components.MultiValueLabel>
 
-  const options = useMemo(() => Object.entries(modules).map(([id, { title }]) => ({ label: title, value: id })), [modules])  
+  const options = useMemo(() => {
+    return Object.entries(modules).map(([id, { title }]) => ({ label: title, value: id }))
+  }, [modules])
   const showExport = selectedModules.length !== 0
 
   return <InputGroup>
-    <Select
-      className='form-control p-0'
+    <BigSelect
+      className="form-control p-0"
       styles={{
         control: provided => ({
           ...provided,
@@ -53,7 +58,7 @@ export default forwardRef(({ API, state: {
       blurInputOnSelect={false}
       closeMenuOnSelect
       // openMenuOnClick={false}
-      captureMenuScroll
+      // captureMenuScroll overriden by BigSelect
       // closeMenuOnScroll broken?
       backspaceRemovesValue
       escapeClearsValue
