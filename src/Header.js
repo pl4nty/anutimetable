@@ -32,7 +32,21 @@ const Header = ({ sessions, year, setYear, session, setSession, setSelectedModul
   })
 
   return <Navbar variant={mode} bg={mode} expand="md" sticky="top">
-    <Navbar.Brand href="/">ANU Timetable</Navbar.Brand>
+    <Navbar.Brand href="https://cssa.club/">
+      <img
+        alt="CSSA logo"
+        src="/cssa-mono.svg"
+        width="30"
+        height="30"
+        style={darkMode ? {
+          filter: 'invert(.75)'
+        } : {
+          filter: 'invert(.25)'
+        }}
+        className="d-inline-block align-top mr-1"
+      />{' '}
+      ANU Timetable
+    </Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse>
       <Nav className="mr-auto">
@@ -43,6 +57,14 @@ const Header = ({ sessions, year, setYear, session, setSession, setSelectedModul
         <NavDropdown title={session}>
           {sessions[year]?.map(k => <NavDropdown.Item key={k} onClick={selectSession}>{k}</NavDropdown.Item>)}
         </NavDropdown>
+        {/* <NavDropdown title="About">
+          <NavDropdown.Item href="/contributors.html">
+            Contributors
+          </NavDropdown.Item>
+          <NavDropdown.Item href="https://forms.office.com/r/sZnsxtsh2F" target="_blank" rel="noreferrer">
+            Feedback
+          </NavDropdown.Item>
+        </NavDropdown> */}
       </Nav>
       <TimezoneSelect theme={theme} value={timeZone} onChange={tz => setTimeZone(tz.value)}
       />

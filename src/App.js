@@ -228,33 +228,40 @@ let App = () => {
   }
 
   return <>
-    <Header {...{ sessions, year, setYear, session, setSession, setSelectedModules, timeZone, setTimeZone, darkMode }} />
     {/* // fluid="xxl" is only supported in Bootstrap 5 */}
-    <Container fluid className='vh-100 p-3 d-flex flex-column'>
-      <Row className='mb-3'>
-        <Col>
-          <Toolbar API={API} ref={calendar} state={state} />
+    <Container fluid className='d-flex flex-column vh-100 px-0'>
+      <Row className="m-0">
+        <Col className="p-0">
+          <Header {...{ sessions, year, setYear, session, setSession, setSelectedModules, timeZone, setTimeZone, darkMode }} />
         </Col>
       </Row>
-
-      <Calendar ref={calendar} state={state} />
-      
-      <Navbar>
-        <Navbar.Text>
-            Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
-          <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
-          (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
-            <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
-        </Navbar.Text>
-      </Navbar>
-
+      <Row className="flex-column flex-grow-1 m-0 pt-3 pb-3">
+        <Col className="flex-grow-0 mb-3">
+          <Toolbar API={API} ref={calendar} state={state} />
+        </Col>
+        <Col className="w-100">
+          <Calendar ref={calendar} state={state} />
+        </Col>
+      </Row>
+      <Row className="m-0">
+        <Col className="p-0">
+          <Navbar>
+            <Navbar.Text>
+                Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
+              <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
+              (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
+                <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
+            </Navbar.Text>
+          </Navbar>
+        </Col>
+      </Row>
+    </Container>
     <FloatingActionButton {...{
       weekStart, setWeekStart,
       hiddenDays, setHiddenDays,
       darkMode, toggleDarkMode,
       hiddenOccurrences, setHiddenOccurrences
     }} />
-  </Container>
   </>
 }
 
