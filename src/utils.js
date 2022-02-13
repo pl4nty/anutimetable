@@ -100,27 +100,28 @@ export const fetchJsObject = (path, callback) => {
 // list may represent several events recurring at the same time each week
 export const parseEvents = (classes, year, session, id /* course code */) => {
   const activitiesWithMultipleOccurrences = classes.map(c => c.activity).filter((e, i, a) => a.indexOf(e) !== i && a.lastIndexOf(e) === i)
+
   return classes.map(c => {
     const location = c.location
     const occurrence = parseInt(c.occurrence)
 
     const title = [
-      c.module,
+      id,
       c.activity,
       ...(c.activity.startsWith('Lec') ? [] : [occurrence])
     ].join(' ')
 
-    const inclusiveRange = ([start, end]) => (end && Array.from({ length: end - start + 1 }, (_, i) => start + i)) || [start]
+    const inclusiveRange = ([start, end]) => (end && Array.from({ length: end-start+1 }, (_, i) => start+i)) || [start]
     // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
     // '8' => [8]
     const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
 
     const [start, end] = [
       [weeks[0], c.start],
-      [weeks[weeks.length - 1], c.finish]
+      [weeks[weeks.length-1], c.finish]
     ].map(([week, time]) => DateTime
       .fromFormat(time, 'HH:mm', { zone: 'UTC' })
-      .set({ weekYear: year, weekNumber: week, weekday: c.day + 1 }) // ANU 0-offset => Luxon 1-offset
+      .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
     )
 
     // handles timezone across days/weeks, not verified across years
@@ -128,7 +129,7 @@ export const parseEvents = (classes, year, session, id /* course code */) => {
       freq: 'weekly',
       dtstart: start.toJSDate(),
       until: end.toJSDate(),
-      byweekday: start.weekday - 1, // Luxon 1-offset => rrule 0-offset
+      byweekday: start.weekday-1, // Luxon 1-offset => rrule 0-offset
       byweekno: weeks, // rrule allows RFC violation (compliant byweekno requires freq=YEARLY)
       tzid: 'Australia/Canberra'
     }

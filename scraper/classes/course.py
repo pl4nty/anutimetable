@@ -1,12 +1,13 @@
 from bs4 import BeautifulSoup
-import itertools 
+import itertools
 from typing import List
 import re
 import requests
 
+
 def splitHeaderTable(res, geodata):
     soup = BeautifulSoup(res.content, 'html.parser')
-    
+
     table = soup.find_all("tbody")
     header = soup.find_all('div', attrs={"data-role": "collapsible"})
     courses = []
@@ -18,7 +19,7 @@ def splitHeaderTable(res, geodata):
         c = Course(h, t, geodata)
         courses.append(c)
         # print(c)
-        
+
     return courses
 
 
@@ -27,8 +28,10 @@ class Course:
         self.title = header.find("h3").string
         self.id = header.find("a").string
         self.link = header.find("a")['href']
-        self.dates = header.find('h3', class_="date-info-display").string.strip()
+        self.dates = header.find(
+            'h3', class_="date-info-display").string.strip()
         self.classes: List[Lesson] = self._getClasses(table, geodata)
+
     def _getClasses(self, table, geodata):
         classes = []
         for row in table.find_all("tr"):
@@ -40,6 +43,7 @@ class Course:
                 print(f"Raw table data\n{row.prettify()}")
                 raise e
         return classes
+
     def __str__(self):
         return f"{self.title} -- {self.dates}"
 
@@ -48,20 +52,19 @@ class Lesson:
     def __init__(self, row, geodata):
         cells = row.find_all("td")
         self.name = cells[0].a.next.strip()
-        self.description = None
+
         self.day = dayToNum(cells[1].string)
-        self.start =  cells[2].string
+        self.start = cells[2].string
         self.finish = cells[3].string
-        self.duration = cells[4].string
         self.weeks = cells[5].a.string.strip()
 
-        # Use regex as ANU's data cannot be matched by position/symbol - it often adds random spaces and symbols
-        self.module = re.search('[A-Za-z]{4}[0-9]{4}', self.name).group(0)
-        self.session = re.search('_\w{2}', self.name).group(0)[1:] # remove leading underscore
-        self.activity = re.search('-([A-Za-z]|[^\/\W])+', self.name).group(0)[1:] # remove leading dash
+        self.activity = re.search(
+            '-([A-Za-z]|[^\/\W])+', self.name).group(0)[1:]  # remove leading dash
         occurrence = re.search('/[0-9]+', self.name)
-        self.occurrence = '01' if not occurrence else occurrence.group(0)[1:] # remove leading slash and default to 01 if unspecified
         
+        # remove leading slash and default to 01 if unspecified
+        self.occurrence = '01' if not occurrence else occurrence.group(0)[1:]
+
         if cells[7].a == None:
             self.location = cells[7].string
             self.locationID = ""
@@ -84,9 +87,10 @@ class Lesson:
                     self.lat = geo['latitude']
                     self.lon = geo['longitude']
                     return
-                    
+
             try:
-                geo = [*requests.get('https://www.anu.edu.au/anu-campus-map/show/'+str(mapID)).json()['points'].values()][0]
+                geo = [*requests.get('https://www.anu.edu.au/anu-campus-map/show/' +
+                                     str(mapID)).json()['points'].values()][0]
                 self.lat = str(geo['latitude'])
                 self.lon = str(geo['longitude'])
                 geodata['items'].append({'id': mapID, 'point': geo})
@@ -94,10 +98,11 @@ class Lesson:
             except:
                 print(f"Could not find location for {self.name} at {mapID}")
                 print(f"{self.locationID}")
-        
+
     def __str__(self):
-        return "{}: {}, {} {} - {}: {}h, Weeks: {}, {}".format(self.name, self.description, 
-            self.day, self.start, self.finish, self.duration, self.weeks, self.location)
+        return "{}: {}, {} {} - {}: {}h, Weeks: {}, {}".format(self.name, self.description,
+                                                               self.day, self.start, self.finish, self.duration, self.weeks, self.location)
+
 
 def dayToNum(s: str):
     days = {
