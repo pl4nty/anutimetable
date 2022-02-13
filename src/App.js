@@ -142,9 +142,9 @@ let App = () => {
   useEffect(() => {
     const hide = hiddenEvents.map(x => x.join('_')).join(',')
     if (hide.length > 0)
-      setQueryParam(param, hide)
+      setQueryParam('hide', hide)
     else
-      unsetQueryParam(param)
+      unsetQueryParam('hide')
   })
 
 
