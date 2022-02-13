@@ -36,7 +36,7 @@ export const getInitialState = () => {
 
     // If semester 2 complete (after Sept), default to next year
     if (!year && month > 9) {
-      year = now.getFullYear()+1
+      year = now.getFullYear() + 1
       session = 'S1'
     } else {
       session = month < 5 ? 'S1' : 'S2'
@@ -65,14 +65,14 @@ export const getInitialState = () => {
 export const setQueryParam = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
   qs.set(param, value ?? qs.get(param) ?? '') // if no value, just ensure param exists
-  window.history.replaceState(null, '', '?'+qs.toString())
+  window.history.replaceState(null, '', '?' + qs.toString())
   localStorage.savedQueryParams = qs.toString()
 }
 
 export const unsetQueryParam = param => {
   const qs = new URLSearchParams(window.location.search)
   qs.delete(param)
-  window.history.replaceState(null, '', '?'+qs.toString())
+  window.history.replaceState(null, '', '?' + qs.toString())
   localStorage.savedQueryParams = qs.toString()
 }
 
@@ -100,53 +100,54 @@ export const fetchJsObject = (path, callback) => {
 // list may represent several events recurring at the same time each week
 export const parseEvents = (classes, year, session, id /* course code */) => {
   const activitiesWithMultipleOccurrences = classes.map(c => c.activity).filter((e, i, a) => a.indexOf(e) !== i && a.lastIndexOf(e) === i)
-return classes.map(c => {
-  const location = c.location
-  const occurrence = parseInt(c.occurrence)
+  return classes.map(c => {
+    const location = c.location
+    const occurrence = parseInt(c.occurrence)
 
-  const title = [
-    id,
-    c.activity,
-    ...(c.activity.startsWith('Lec') ? [] : [occurrence])
-  ].join(' ')
+    const title = [
+      id,
+      c.activity,
+      ...(c.activity.startsWith('Lec') ? [] : [occurrence])
+    ].join(' ')
 
-  const inclusiveRange = ([start, end]) => (end && Array.from({ length: end-start+1 }, (_, i) => start+i)) || [start]
-  // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
-  // '8' => [8]
-  const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
+    const inclusiveRange = ([start, end]) => (end && Array.from({ length: end-start+1 }, (_, i) => start+i)) || [start]
+    // '1\u20113,5\u20117' (1-3,6-8) => [1,2,3,6,7,8]
+    // '8' => [8]
+    const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
 
-  const interval = [c.start, c.finish].map(time => DateTime.fromFormat(time, 'HH:mm', { zone: 'UTC' }))
-  const duration = interval[1].diff(interval[0]).toFormat('h:mm')
-  const [start, end] = [
-    [weeks[0], interval[0]],
-    [weeks[weeks.length-1], interval[1]]
-  ].map(([week, time]) => time
-    .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
-  )
-  
-  // handles timezone across days/weeks, not verified across years
-  const rrule = {
-    freq: 'weekly',
-    dtstart: start.toJSDate(),
-    until: end.toJSDate(),
-    byweekday: start.weekday-1, // Luxon 1-offset => rrule 0-offset
-    byweekno: weeks, // rrule allows RFC violation (compliant byweekno requires freq=YEARLY)
-    tzid: 'Australia/Canberra'
-  }
-  
-  return {
-    // extendedProps
-    ...c,
-    occurrence,
-    hasMultipleOccurrences: activitiesWithMultipleOccurrences.indexOf(c.activity) !== -1,
+    const interval = [c.start, c.finish].map(time => DateTime.fromFormat(time, 'HH:mm', { zone: 'UTC' }))
+    const duration = interval[1].diff(interval[0]).toFormat('h:mm')
+    const [start, end] = [
+      [weeks[0], interval[0]],
+      [weeks[weeks.length-1], interval[1]]
+    ].map(([week, time]) => time
+      .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
+    )
 
-    // custom ID allows removal of events that aren't in memory (ie only available by getEventById())
-    id: [c.module, c.activity, occurrence].join('_'),
-    title,
-    groupId: c.activity, // identifies selection groups eg TutA
-    location,
-    duration,
-    rrule
-  }
-})
+    // handles timezone across days/weeks, not verified across years
+    const rrule = {
+      freq: 'weekly',
+      dtstart: start.toJSDate(),
+      until: end.toJSDate(),
+      byweekday: start.weekday-1, // Luxon 1-offset => rrule 0-offset
+      byweekno: weeks, // rrule allows RFC violation (compliant byweekno requires freq=YEARLY)
+      tzid: 'Australia/Canberra'
+    }
+
+    return {
+      // extendedProps
+      ...c,
+      occurrence,
+      hasMultipleOccurrences: activitiesWithMultipleOccurrences.indexOf(c.activity) !== -1,
+
+      // custom ID allows removal of events that aren't in memory (ie only available by getEventById())
+      id: [c.module, c.activity, occurrence].join('_'),
+      title,
+      groupId: c.activity, // identifies selection groups eg TutA
+      display: 'auto',
+      location,
+      duration,
+      rrule
+    }
+  })
 }

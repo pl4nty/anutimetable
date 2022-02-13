@@ -1,5 +1,3 @@
-import { forwardRef } from 'react'
-
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
 import bootstrapPlugin from '@fullcalendar/bootstrap'
@@ -11,7 +9,7 @@ import luxonPlugin from '@fullcalendar/luxon'
 
 import { DateTime } from 'luxon'
 
-import { getStartOfSession } from './utils'
+import { getStartOfSession, stringToColor, parseEvents } from './utils'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -25,7 +23,7 @@ rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   ).map(date => new Date(de.createMarker(date).getTime() + date.getTimezoneOffset() * 60 * 1000))
 }
 
-const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence }) => ({ event }) => {
+const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { event }) => {
   const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
   const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
   // causes a nested <a> in the event
@@ -33,13 +31,13 @@ const formatEventContent = ({ selectOccurrence, resetOccurrence, hideOccurrence 
   const locationLine = url
     ? <a href={url} target="_blank" rel="noreferrer">{location}</a>
     : location;
-  const dispatch = f => f(event.source.id, event.groupId, event.extendedProps.occurrence)
+  const values = [event.source.id, event.groupId, event.extendedProps.occurrence];
   const button = activity.startsWith('Lec') ? null :
     hasMultipleOccurrences
-      ? <button className='choose-button' onClick={() => dispatch(selectOccurrence)}>Choose</button>
-      : <button className='choose-button' onClick={() => dispatch(resetOccurrence)}>Reset</button>
+      ? <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'select', values })}>Choose</button>
+      : <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'reset', values })}>Reset</button>
   return <>
-    <div className='hide-button' title='Hide this event' onClick={() => dispatch(hideOccurrence)}>
+    <div className='hide-button' title='Hide this event' onClick={() => setHiddenEvents(events => [...events, values])}>
       <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
     </div>
     <p>{event.title}</p>
@@ -55,11 +53,7 @@ const weekNumberCalculation = date => {
   return end - start + 1 // 0 weeks after start is week 1
 }
 
-export default forwardRef(({ state }, ref) => {
-  const customEvents = {
-    eventContent: e => formatEventContent(state)(e),
-  }
-
+export default function Calendar({ timetableState }) {
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
   const initialDate =
@@ -67,13 +61,67 @@ export default forwardRef(({ state }, ref) => {
       ? startOfSemester
       : new Date();
 
+  // Where the events are stored
+  const events = [];
+
+  // Ensure we have data
+  if (timetableState.selectedModules && Object.keys(timetableState.timetableData).length !== 0) {
+
+    // Iterate over each module and add the appropriate times to the calendar if needed
+    for (let i = 0; i < timetableState.selectedModules.length; i++) {
+      const { id } = timetableState.selectedModules[i];
+      let timetableData = timetableState.timetableData
+
+      // Which events are currently chosen?
+      // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
+      const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+
+      // Generate the events parameters
+      let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+
+      // Hide all but the valid occurrence
+      for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
+        if (module !== id) continue
+
+        eventsList.forEach((event, index) => {
+          if (event.groupId === groupId) {
+            if (parseInt(event.occurrence) === occurrence) {
+              eventsList[index].hasMultipleOccurrences = false
+            } else {
+              eventsList[index].display = 'none'
+            }
+          }
+        })
+      }
+
+      // Hide hidden occurrences
+      for (const [module, groupId, occurrence] of timetableState.hiddenEvents) {
+        if (module !== id) continue
+
+        eventsList.forEach((event, index) => {
+          if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
+            eventsList[index].display = 'none'
+          }
+        })
+      }
+
+      // Add event to the list
+      events[i] = {
+        id,
+        color: stringToColor(id),
+        events: eventsList
+      }
+    }
+  }
+
   return <FullCalendar
-    ref={ref}
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
     //   expandRows={true}
     height={'80vh'}
+
+    eventSources={events}
 
     headerToolbar={{
       start: 'prev,next',
@@ -92,12 +140,12 @@ export default forwardRef(({ state }, ref) => {
     views={{
       timeGridDay: {
         titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
-        ...customEvents
+        eventContent: e => formatEventContent(timetableState, e),
       },
-      timeGridWeek:{
+      timeGridWeek: {
         weekends: true,
         dayHeaderFormat: { weekday: 'short' },
-        ...customEvents
+        eventContent: e => formatEventContent(timetableState, e),
       },
       listTwoDay: {
         type: 'list',
@@ -106,7 +154,7 @@ export default forwardRef(({ state }, ref) => {
         listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
         displayEventTime: true,
         weekends: true,
-        ...customEvents
+        eventContent: e => formatEventContent(timetableState, e),
       },
       dayGridMonth: {
         weekNumberFormat: { week: 'short' }
@@ -118,7 +166,7 @@ export default forwardRef(({ state }, ref) => {
     // timeGrid options
     allDaySlot={false}
     // Earliest business hour is 8am AEDT
-    scrollTime={formatDate('2020-01-01T08:00+11:00',{
+    scrollTime={formatDate('2020-01-01T08:00+11:00', {
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit'
@@ -139,14 +187,14 @@ export default forwardRef(({ state }, ref) => {
     weekNumbers
     weekNumberCalculation={weekNumberCalculation}
     weekText='Week'
-    firstDay={state.weekStart}
+    firstDay={timetableState.weekStart}
 
-    hiddenDays={state.hiddenDays}
+    hiddenDays={timetableState.hiddenDays}
 
     fixedWeekCount={false}
 
-    timeZone={state.timeZone}
+    timeZone={timetableState.timeZone}
 
     eventSourceFailure={err => console.error(err.message)}
   />
-})
+}
