@@ -3930,6 +3930,59 @@
    }
   ]
  },
+ "CRWF9000_X1": {
+  "title": "CRWF9000_X1\u00a0Fostering Public Policy Research",
+  "id": "CRWF9000_X1",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "CRWF9000_X1-SemA/01",
+    "description": null,
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "duration": "8:00",
+    "weeks": "7",
+    "module": "CRWF9000",
+    "session": "X1",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " dual delivery",
+    "locationID": ""
+   },
+   {
+    "name": "CRWF9000_X1-SemB/01",
+    "description": null,
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "duration": "8:00",
+    "weeks": "7",
+    "module": "CRWF9000",
+    "session": "X1",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": " dual delivery",
+    "locationID": ""
+   },
+   {
+    "name": "CRWF9000_X1-SemC/01",
+    "description": null,
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "duration": "8:00",
+    "weeks": "7",
+    "module": "CRWF9000",
+    "session": "X1",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": " dual delivery",
+    "locationID": ""
+   }
+  ]
+ },
  "EMDV8081_X1": {
   "title": "EMDV8081_X1\u00a0Domestic Climate Change Policy and Economics",
   "id": "EMDV8081_X1",
@@ -5616,9 +5669,9 @@
     "name": "LAWS4343_X1-SemE/01",
     "description": null,
     "day": 4,
-    "start": "09:00",
+    "start": "08:30",
     "finish": "18:00",
-    "duration": "9:00",
+    "duration": "9:30",
     "weeks": "6",
     "module": "LAWS4343",
     "session": "X1",
@@ -6769,6 +6822,78 @@
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
+   }
+  ]
+ },
+ "POGO8004_X1": {
+  "title": "POGO8004_X1\u00a0Poverty Reduction",
+  "id": "POGO8004_X1",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8004_X1-LecA/02",
+    "description": null,
+    "day": 0,
+    "start": "14:00",
+    "finish": "16:00",
+    "duration": "2:00",
+    "weeks": "8\u20119,12",
+    "module": "POGO8004",
+    "session": "X1",
+    "activity": "LecA",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8004_X1-SemA/01",
+    "description": null,
+    "day": 0,
+    "start": "09:30",
+    "finish": "12:00",
+    "duration": "2:30",
+    "weeks": "8\u20119,12",
+    "module": "POGO8004",
+    "session": "X1",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 8",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8004_X1-SemB/01",
+    "description": null,
+    "day": 4,
+    "start": "09:30",
+    "finish": "12:00",
+    "duration": "2:30",
+    "weeks": "8,10\u201111",
+    "module": "POGO8004",
+    "session": "X1",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 8",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8004_X1-SemB/02",
+    "description": null,
+    "day": 4,
+    "start": "14:00",
+    "finish": "16:00",
+    "duration": "2:00",
+    "weeks": "8,10\u201111",
+    "module": "POGO8004",
+    "session": "X1",
+    "activity": "SemB",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
