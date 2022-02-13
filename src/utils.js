@@ -105,7 +105,7 @@ return classes.map(c => {
   const occurrence = parseInt(c.occurrence)
 
   const title = [
-    c.module,
+    id,
     c.activity,
     ...(c.activity.startsWith('Lec') ? [] : [occurrence])
   ].join(' ')
