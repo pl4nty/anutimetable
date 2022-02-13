@@ -101,22 +101,22 @@ module.exports = async function (context, req) {
                         let { lat, lon } = session
 
                         const description = `${lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : session.locationID}
-https://wattlecourses.anu.edu.au/course/search.php?q=${session.module}+${year}
-https://programsandcourses.anu.edu.au/${year}/course/${session.module}`
+https://wattlecourses.anu.edu.au/course/search.php?q=${courseCode}+${year}
+https://programsandcourses.anu.edu.au/${year}/course/${courseCode}`
 
                         events.push({
                             start: timesToArray(startDay, session.start, context),
                             startOutputType: 'local',
                             end: timesToArray(startDay, session.finish, context),
-                            title: `${session.module} ${session.activity} ${parseInt(session.occurrence)}`,
+                            title: `${courseCode} ${session.activity} ${parseInt(session.occurrence)}`,
                             description,
                             location: session.location,
                             geo: lat && { lat: parseFloat(lat), lon: parseFloat(lon) }, // could mapReduce, but it's only 2 elements
-                            url: `https://programsandcourses.anu.edu.au/${year}/course/${session.module}`,
+                            url: `https://programsandcourses.anu.edu.au/${year}/course/${courseCode}`,
                             productId: 'anucssa/timetable',
                             uid: session.name+weeks.replace('\u2011','-'),
                             recurrenceRule: `FREQ=WEEKLY;BYDAY=${weekday};INTERVAL=1;COUNT=${repetitions}`,
-                            calName: `ANU Timetable ${year} ${session.session}`
+                            calName: `ANU Timetable ${year} ${req.query.s}`
                         })
                     }
                 }
