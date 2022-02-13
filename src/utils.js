@@ -100,7 +100,6 @@ export const fetchJsObject = (path, callback) => {
 // list may represent several events recurring at the same time each week
 export const parseEvents = (classes, year, session, id /* course code */) => {
   const activitiesWithMultipleOccurrences = classes.map(c => c.activity).filter((e, i, a) => a.indexOf(e) !== i && a.lastIndexOf(e) === i)
-
   return classes.map(c => {
     const location = c.location
     const occurrence = parseInt(c.occurrence)
@@ -116,11 +115,12 @@ export const parseEvents = (classes, year, session, id /* course code */) => {
     // '8' => [8]
     const weeks = c.weeks.split(',').flatMap(w => inclusiveRange(w.split('\u2011').map(x => parseInt(x))))
 
+    const interval = [c.start, c.finish].map(time => DateTime.fromFormat(time, 'HH:mm', { zone: 'UTC' }))
+    const duration = interval[1].diff(interval[0]).toFormat('h:mm')
     const [start, end] = [
-      [weeks[0], c.start],
-      [weeks[weeks.length-1], c.finish]
-    ].map(([week, time]) => DateTime
-      .fromFormat(time, 'HH:mm', { zone: 'UTC' })
+      [weeks[0], interval[0]],
+      [weeks[weeks.length-1], interval[1]]
+    ].map(([week, time]) => time
       .set({ weekYear: year, weekNumber: week, weekday: c.day+1 }) // ANU 0-offset => Luxon 1-offset
     )
 
@@ -146,7 +146,7 @@ export const parseEvents = (classes, year, session, id /* course code */) => {
       groupId: c.activity, // identifies selection groups eg TutA
       display: 'auto',
       location,
-      duration: c.duration,
+      duration,
       rrule
     }
   })
