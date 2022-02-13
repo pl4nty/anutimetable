@@ -135,26 +135,18 @@ let App = () => {
 
   const [specifiedOccurrences, setSpecifiedOccurrences] = useReducer(changeOccurrences, getSpecOccurrences())
 
-  const changeHidden = (state, action) => {
-    switch (action.type) {
-      case 'reset':
-        unsetQueryParam('hide')
-        return []
-      case 'hide':
-        // Should we have a hide url parameter
-        const new_state = [...state, action.values]
-        const hide = new_state.map(x => x.join('_')).join(',')
-        if (hide.length > 0)
-          setQueryParam('hide', hide)
-        else
-          unsetQueryParam('hide')
-        return new_state
-      default:
-        throw new Error()
-    }
-  }
   // Events that are manually hidden with the eye icon
-  const [hidden, setHidden] = useReducer(changeHidden, h)
+  const [hiddenEvents, setHiddenEvents] = useState(h)
+
+  // Update URL parameters
+  useEffect(() => {
+    const hide = hiddenEvents.map(x => x.join('_')).join(',')
+    if (hide.length > 0)
+      setQueryParam(param, hide)
+    else
+      unsetQueryParam(param)
+  })
+
 
   // Starting day of the week
   const [weekStart, setWeekStart] = useState(0);
@@ -182,8 +174,8 @@ let App = () => {
   }, []);
 
   const timetableState = {
-    timeZone, year, session, sessions, specifiedOccurrences, hidden, timetableData, modules, selectedModules, weekStart, darkMode,
-    setTimeZone, setYear, setSession, setSessions, setSpecifiedOccurrences, setHidden, setTimetableData, setModules, setSelectedModules,
+    timeZone, year, session, sessions, specifiedOccurrences, hiddenEvents, timetableData, modules, selectedModules, weekStart, darkMode,
+    setTimeZone, setYear, setSession, setSessions, setSpecifiedOccurrences, setHiddenEvents, setTimetableData, setModules, setSelectedModules,
     hiddenDays,
   }
 
@@ -208,7 +200,7 @@ let App = () => {
       weekStart, setWeekStart,
       hiddenDays, setHiddenDays,
       darkMode, toggleDarkMode,
-      hidden, setHidden
+      hidden: hiddenEvents, setHiddenEvents
     }} />
   </Container>
 }

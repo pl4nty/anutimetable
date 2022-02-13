@@ -75,16 +75,16 @@ const DarkModeAction = ({ darkMode, toggleDarkMode }) => <FABAction
   onClick={toggleDarkMode}
 />
 
-const HiddenOccurrencesAction = ({ setMenuOpen, hidden, setHidden }) => <FABAction
+const HiddenOccurrencesAction = ({ setMenuOpen, hidden, setHiddenEvents }) => <FABAction
   title={`Show ${hidden.length} Hidden Event${hidden.length > 1 ? 's' : ''}`}
   content={<MdRemoveRedEye size='1.5em' />}
   onClick={() => {
-    setHidden({ type: 'reset' })
+    setHiddenEvents([])
     setMenuOpen(false)
   }}
 />
 
-const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hidden, setHidden }) => {
+const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hidden, setHiddenEvents }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   return <div
     className={'fab' + (menuOpen ? ' fab--open' : '')}
@@ -102,7 +102,7 @@ const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDa
       <WeekStartAction {...{ setMenuOpen, weekStart, setWeekStart, hiddenDays }} />
       <HiddenDaysAction {...{ setMenuOpen, hiddenDays, setHiddenDays }} />
       <DarkModeAction {...{ darkMode, toggleDarkMode }} />
-      {hidden.length ? <HiddenOccurrencesAction {...{ setMenuOpen, hidden, setHidden }} /> : <></>}
+      {hidden.length ? <HiddenOccurrencesAction {...{ setMenuOpen, hidden, setHiddenEvents }} /> : <></>}
     </div>
   </div>
 }
