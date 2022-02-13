@@ -68,7 +68,7 @@ let App = () => {
   useEffect(() => setQueryParam('s', session), [session])
 
   // List of all supported sessions
-  const [sessions, setSessions] = useState([])
+  const [sessions, setSessions] = useState({})
   useEffect(() => fetchJsObject(`${window.location.protocol}//${API}/sessions`, setSessions), [])
 
   // Timetable data as a JS object
@@ -77,25 +77,40 @@ let App = () => {
 
   // Modules (courses) are in an object like { COMP1130: { title: 'COMP1130 Pro...', dates: 'Displaying Dates: ...', link: "" }, ... }
   const processModule = ({ classes, id, title, ...module }) => ({ title: title.replace(/_[A-Z][1-9]/, ''), ...module })
+
+  // Events that are manually hidden with the eye icon
+  const [hiddenEvents, setHiddenEvents] = useState(h)
+
+  // Update URL parameters
+  useEffect(() => {
+    const hide = hiddenEvents.map(x => x.join('_')).join(',')
+    if (hide.length > 0)
+      setQueryParam('hide', hide)
+    else
+      unsetQueryParam('hide')
+  })
+
   const [modules, setModules] = useState({})
   useEffect(() => setModules(Object.entries(timetableData).reduce((acc, [key, module]) => ({ ...acc, [key.split('_')[0]]: processModule(module) }), {})), [timetableData])
 
   // This needs to be a reducer to access the previous value 
   const selectedModulesReducer = (state, updatedModules) => {
     // Find no longer present entries
-    state.forEach(m => {
+    state.forEach(module => {
       // No longer present
-      if (!updatedModules.includes(m)) {
-        unsetQueryParam(m.id)
+      if (!updatedModules.includes(module)) {
+        unsetQueryParam(module.id)
       }
     })
     // Find new entries
-    updatedModules.forEach(m => {
+    updatedModules.forEach(module => {
       // New module
-      if (!state.includes(m)) {
-        setQueryParam(m.id)
+      if (!state.includes(module)) {
+        setQueryParam(module.id)
       }
     })
+
+    setHiddenEvents(hidden => hidden.filter(([module]) => updatedModules.map(({ id }) => id).includes(module)))
 
     return updatedModules
   }
@@ -118,6 +133,10 @@ let App = () => {
   }))
 
   const changeOccurrences = (state, action) => {
+    // If called as empty reset state based on url params
+    if (!action) {
+      return getSpecOccurrences()
+    }
     let [module, groupId, occurrence] = action.values
     switch (action.type) {
       case 'select':
@@ -134,18 +153,9 @@ let App = () => {
   }
 
   const [specifiedOccurrences, setSpecifiedOccurrences] = useReducer(changeOccurrences, getSpecOccurrences())
-
-  // Events that are manually hidden with the eye icon
-  const [hiddenEvents, setHiddenEvents] = useState(h)
-
-  // Update URL parameters
   useEffect(() => {
-    const hide = hiddenEvents.map(x => x.join('_')).join(',')
-    if (hide.length > 0)
-      setQueryParam('hide', hide)
-    else
-      unsetQueryParam('hide')
-  })
+    setSpecifiedOccurrences()
+  }, [selectedModules])
 
 
   // Starting day of the week
