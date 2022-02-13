@@ -57,7 +57,7 @@ export default forwardRef(({ API, state: {
 
   return <InputGroup>
     <BigSelect
-      className="form-control p-0"
+      className="flex-grow-1 w-25 border"
       styles={{ control, option }}
       isMulti
       isSearchable
