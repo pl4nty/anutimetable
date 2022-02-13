@@ -81,7 +81,7 @@ export default forwardRef(({ API, state: {
       // formatOptionLabel={({ label, value }, { context }) => context === "value" ? value : label}
       components={{ MultiValueLabel }}
       
-      defaultValue={selectedModules.map(({ title, id }) => ({ label: title, value: id }))}
+      value={selectedModules.map(({ title, id }) => ({ label: title, value: id }))}
       onChange={n => setSelectedModules(n.map(option => ({ ...option, id: option.value })))}
       options={options}
     />
