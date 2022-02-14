@@ -18,7 +18,7 @@ function timesToArray(date, timeString) {
 // eg ?COMP2310_S2=LecA 01,LecB 01
 module.exports = async function (context, req) {
     const SOURCE = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development' ? 'http://localhost:3000/' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public/'
-    const TIMETABLE_JSON = SOURCE+`timetable${'_'+req.query.y || ''}${'_'+req.query.s || ''}.json`
+    const TIMETABLE_JSON = SOURCE+`timetable_data/${req.query.y}/${req.query.s}.min.json`
 
     context.log.info(`Running in node ${process.version}`)
 
@@ -101,22 +101,22 @@ module.exports = async function (context, req) {
                         let { lat, lon } = session
 
                         const description = `${lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : session.locationID}
-https://wattlecourses.anu.edu.au/course/search.php?q=${session.module}+${year}
-https://programsandcourses.anu.edu.au/${year}/course/${session.module}`
+https://wattlecourses.anu.edu.au/course/search.php?q=${courseCode}+${year}
+https://programsandcourses.anu.edu.au/${year}/course/${courseCode}`
 
                         events.push({
                             start: timesToArray(startDay, session.start, context),
                             startOutputType: 'local',
                             end: timesToArray(startDay, session.finish, context),
-                            title: `${session.module} ${session.activity} ${parseInt(session.occurrence)}`,
+                            title: `${courseCode} ${session.activity} ${parseInt(session.occurrence)}`,
                             description,
                             location: session.location,
                             geo: lat && { lat: parseFloat(lat), lon: parseFloat(lon) }, // could mapReduce, but it's only 2 elements
-                            url: `https://programsandcourses.anu.edu.au/${year}/course/${session.module}`,
+                            url: `https://programsandcourses.anu.edu.au/${year}/course/${courseCode}`,
                             productId: 'anucssa/timetable',
                             uid: session.name+weeks.replace('\u2011','-'),
                             recurrenceRule: `FREQ=WEEKLY;BYDAY=${weekday};INTERVAL=1;COUNT=${repetitions}`,
-                            calName: `ANU Timetable ${year} ${session.session}`
+                            calName: `ANU Timetable ${year} ${req.query.s}`
                         })
                     }
                 }

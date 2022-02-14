@@ -1,4 +1,4 @@
-import { forwardRef, useMemo } from 'react'
+import { useMemo } from 'react'
 
 import { InputGroup } from 'react-bootstrap'
 import { components } from 'react-select'
@@ -8,11 +8,10 @@ import Export from './Export'
 
 
 
-export default forwardRef(({ API, state: {
-  year, session, modules, selectedModules, darkMode,
-  setSelectedModules,
-} }, calendar) => {
-
+export default function Toolbar({ API, timetableState: {
+  timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
+  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
+} }) {
   const theme = theme => ({
     ...theme,
     colors: {
@@ -88,4 +87,4 @@ export default forwardRef(({ API, state: {
     {/* somehow there's no NPM module for this. maybe I should write one? */}
     {showExport && <Export API={API} year={year} session={session} />}
   </InputGroup>
-})
+}

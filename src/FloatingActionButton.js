@@ -23,7 +23,7 @@ const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart, hiddenDays }) =
         setMenuOpen(false)
       }}
     />
-    <SelectModal 
+    <SelectModal
       title='Calendar Start of Week'
       label='The weekly calendar starts on&nbsp;'
       visible={weekStartOpen}
@@ -75,16 +75,16 @@ const DarkModeAction = ({ darkMode, toggleDarkMode }) => <FABAction
   onClick={toggleDarkMode}
 />
 
-const HiddenOccurrencesAction = ({ setMenuOpen, hiddenOccurrences, setHiddenOccurrences }) => <FABAction
-  title={`Show ${hiddenOccurrences.length} Hidden Event${hiddenOccurrences.length > 1 ? 's' : ''}`}
+const HiddenOccurrencesAction = ({ setMenuOpen, hidden, setHiddenEvents }) => <FABAction
+  title={`Show ${hidden.length} Hidden Event${hidden.length > 1 ? 's' : ''}`}
   content={<MdRemoveRedEye size='1.5em' />}
   onClick={() => {
-    setHiddenOccurrences([])
+    setHiddenEvents([])
     setMenuOpen(false)
   }}
 />
 
-const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hiddenOccurrences, setHiddenOccurrences }) => {
+const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hidden, setHiddenEvents }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   return <div
     className={'fab' + (menuOpen ? ' fab--open' : '')}
@@ -99,10 +99,10 @@ const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDa
       {menuOpen ? <RiCloseLine size='2em' /> : <RiSettings4Fill size='2em' />}
     </Button>
     <div className='fab-actions'>
-      <WeekStartAction {...{setMenuOpen, weekStart, setWeekStart, hiddenDays}} />
-      <HiddenDaysAction {...{setMenuOpen, hiddenDays, setHiddenDays}} />
-      <DarkModeAction {...{darkMode, toggleDarkMode}} />
-      {hiddenOccurrences.length ? <HiddenOccurrencesAction {...{setMenuOpen, hiddenOccurrences, setHiddenOccurrences}} /> : <></>}
+      <WeekStartAction {...{ setMenuOpen, weekStart, setWeekStart, hiddenDays }} />
+      <HiddenDaysAction {...{ setMenuOpen, hiddenDays, setHiddenDays }} />
+      <DarkModeAction {...{ darkMode, toggleDarkMode }} />
+      {hidden.length ? <HiddenOccurrencesAction {...{ setMenuOpen, hidden, setHiddenEvents }} /> : <></>}
     </div>
   </div>
 }

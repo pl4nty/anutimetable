@@ -50,7 +50,7 @@ jobs:
           SESSION: ${{ matrix.session }}
         # inline bash string manipulation to get string after first space
         # gets the session string (S1),  eg timetable_2022_S1.json
-        run: cmp timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
+        run: cmp timetable.json ../public/timetable_data/${YEAR}/${SESSION#* }.json
 
       - name: Commit to repo if data has changed
         if: ${{ steps.compare.outcome == 'failure' }}
@@ -63,7 +63,8 @@ jobs:
         # gets the session string (S1),  eg timetable_2022_S1.json
         run: |
           cd scraper
-          mv -f ./timetable.json ../public/timetable_${YEAR}_${SESSION#* }.json
+          mv -f ./timetable.json ../public/timetable_data/${YEAR}/${SESSION#* }.json
+          mv -f ./timetable.min.json ../public/timetable_data/${YEAR}/${SESSION#* }.min.json
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git config pull.rebase true
