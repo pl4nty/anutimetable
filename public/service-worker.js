@@ -1,3 +1,6 @@
+// This is a service worker in place of the old service worker.
+// It removes itself as shown here https://github.com/NekR/self-destroying-sw
+
 self.addEventListener('install', function (e) {
   self.skipWaiting();
 });
