@@ -1,4 +1,4 @@
-import FullCalendar, { formatDate } from '@fullcalendar/react'
+import FullCalendar from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
 import bootstrapPlugin from '@fullcalendar/bootstrap'
 import dayGridPlugin from '@fullcalendar/daygrid'
@@ -10,6 +10,7 @@ import luxonPlugin from '@fullcalendar/luxon'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
+import { useMemo } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -62,10 +63,11 @@ export default function Calendar({ timetableState }) {
       : new Date();
 
   // Where the events are stored
-  const events = [];
-
-  // Ensure we have data
-  if (timetableState.selectedModules && Object.keys(timetableState.timetableData).length !== 0) {
+  const events = useMemo(() => {
+    // Ensure we have data
+    if (!timetableState.selectedModules) return []
+    if (Object.keys(timetableState.timetableData).length === 0) return []
+    const newEvents = [];
 
     // Iterate over each module and add the appropriate times to the calendar if needed
     for (let i = 0; i < timetableState.selectedModules.length; i++) {
@@ -106,13 +108,43 @@ export default function Calendar({ timetableState }) {
       }
 
       // Add event to the list
-      events[i] = {
+      newEvents[i] = {
         id,
         color: stringToColor(id),
         events: eventsList
       }
     }
-  }
+    return newEvents
+  }, [timetableState])
+
+  const [startTime, finishTime] = useMemo(() => {
+    // 9 - 5 Workday
+    let newStartTime = DateTime.fromFormat('09:00', 'HH:mm', { zone: 'Australia/Sydney' })
+    // Exclusive times mean end of 7pm equals 8pm
+    let newFinishTime = DateTime.fromFormat('18:00', 'HH:mm', { zone: 'Australia/Sydney' })
+
+    // Find any events that push these default boundaries
+    events.forEach(eventList => {
+      eventList.events.forEach(e => {
+        if (e.display === 'auto') {
+          let start = DateTime.fromFormat(e.start, 'HH:mm', { zone: 'Australia/Sydney' })
+          let finish = DateTime.fromFormat(e.finish, 'HH:mm', { zone: 'Australia/Sydney' })
+          if (start < newStartTime) newStartTime = start
+          if (finish > newFinishTime) newFinishTime = finish
+        }
+      })
+    })
+
+    // Change the local to the users timezone
+    newStartTime = newStartTime.setZone(timetableState.timeZone)
+    newFinishTime = newFinishTime.setZone(timetableState.timeZone)
+
+    // Unfortunatly when an event wrappes around past midnight local time, we must show all of the calendar rows
+    if (newStartTime.hour >= newFinishTime.hour)
+      return [DateTime.fromFormat('00:00', 'HH:mm'), DateTime.fromFormat('23:59', 'HH:mm')]
+
+    return [newStartTime, newFinishTime]
+  }, [events, timetableState.timeZone])
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
@@ -167,11 +199,11 @@ export default function Calendar({ timetableState }) {
     // timeGrid options
     allDaySlot={false}
     // Earliest business hour is 8am AEDT
-    scrollTime={formatDate('2020-01-01T08:00+11:00', {
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit'
-    })}
+    // scrollTime={formatDate('2020-01-01T08:00+11:00', {
+    //   hour: '2-digit',
+    //   minute: '2-digit',
+    //   second: '2-digit'
+    // })}
     scrollTimeReset={false}
     slotDuration={'01:00:00'}
     nowIndicator
@@ -195,6 +227,9 @@ export default function Calendar({ timetableState }) {
     fixedWeekCount={false}
 
     timeZone={timetableState.timeZone}
+
+    slotMinTime={startTime.toLocaleString(DateTime.TIME_24_SIMPLE)}
+    slotMaxTime={finishTime.toLocaleString(DateTime.TIME_24_SIMPLE)}
 
     eventSourceFailure={err => console.error(err.message)}
   />
