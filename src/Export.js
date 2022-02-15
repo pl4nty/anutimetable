@@ -10,6 +10,7 @@ const Export = ({ API, year, session }) => {
 
   return <DropdownButton
     as={InputGroup.Append}
+    alignRight
     variant='outline-primary'
     title='Export'
     onClick={() => setPath(`${API}/GetICS${window.location.search}`)}

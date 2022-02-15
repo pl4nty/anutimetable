@@ -57,7 +57,6 @@ const Header = ({ API, timetableState}) => {
           </NavDropdown.Item>
         </NavDropdown> */}
       </Nav>
-      {/* <TimezoneSelect theme={theme} value={timeZone} onChange={tz => setTimeZone(tz.value)}/> */}
       <Toolbar API={API} timetableState={timetableState} />
     </Navbar.Collapse>
   </Navbar>
