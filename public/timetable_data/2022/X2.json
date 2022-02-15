@@ -920,6 +920,40 @@
    }
   ]
  },
+ "HUMN9001_X2": {
+  "title": "HUMN9001_X2\u00a0Interdisciplinary Humanities Research: Methods, Theories and Skills",
+  "id": "HUMN9001_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "HUMN9001_X2-SemA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "16\u201121",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": "-35.284327",
+    "lon": "149.121169"
+   },
+   {
+    "name": "HUMN9001_X2-SemB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "16\u201121",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   }
+  ]
+ },
  "INDG8004_X2": {
   "title": "INDG8004_X2\u00a0Australian Indigenous Policy",
   "id": "INDG8004_X2",
