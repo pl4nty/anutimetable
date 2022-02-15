@@ -146,7 +146,12 @@ export default function Calendar({ timetableState }) {
     return [newStartTime, newFinishTime]
   }, [events, timetableState.timeZone])
 
-  const [rowHeight, setRowHeight] = useState([true, '1:00:00'])
+  const calculateRowHeight = () => {
+    if (window.innerHeight <= 650) return [false, '0:30:00']
+    else return [true, '1:00:00']
+  }
+
+  const [rowHeight, setRowHeight] = useState(calculateRowHeight)
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
@@ -157,10 +162,7 @@ export default function Calendar({ timetableState }) {
     slotDuration={rowHeight[1]}
     // dayMinWidth={} TODO premium plugin
 
-    windowResize={() => {
-      if (window.innerHeight <= 650) setRowHeight([false, '0:30:00'])
-      if (window.innerHeight > 650) setRowHeight([true, '1:00:00'])
-    }}
+    windowResize={() => setRowHeight(calculateRowHeight)}
 
     eventSources={events}
 
