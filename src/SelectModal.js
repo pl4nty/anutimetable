@@ -24,7 +24,7 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
 
   const [selected, setSelected] = useState([])
 
-  return <Modal size="xl" centered show={visible} onHide={hide} {...props}>
+  return <Modal size="md" centered show={visible} onHide={hide} {...props}>
     <Modal.Header closeButton>
       <Modal.Title>{title}</Modal.Title>
     </Modal.Header>
@@ -32,7 +32,7 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
       <Form inline={inline}>
         <Form.Label>{label}</Form.Label>
         <Form.Control as="select" custom multiple={multiple} defaultValue={value} onChange={singleSelect}>
-          {options.map(([ key, value ]) => <option key={key} value={key} onMouseDown={multiSelect}>
+          {options.map(([ key, value ]) => <option key={key} value={key} onPointerDown={multiSelect}>
             {value}
           </option>)}
         </Form.Control>
