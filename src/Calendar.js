@@ -146,19 +146,20 @@ export default function Calendar({ timetableState }) {
     return [newStartTime, newFinishTime]
   }, [events, timetableState.timeZone])
 
-  const [slotDuration, setSlotDuration] = useState('1:00:00')
+  const [rowHeight, setRowHeight] = useState([true, '1:00:00'])
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
     height='100%'
-    // expandRows={true}
+    expandRows={rowHeight[0]}
+    slotDuration={rowHeight[1]}
     // dayMinWidth={} TODO premium plugin
 
     windowResize={() => {
-      if (window.innerHeight <= 650) setSlotDuration('0:30:00')
-      if (window.innerHeight > 650) setSlotDuration('1:00:00')  
+      if (window.innerHeight <= 650) setRowHeight([false, '0:30:00'])
+      if (window.innerHeight > 650) setRowHeight([true, '1:00:00'])
     }}
 
     eventSources={events}
@@ -212,7 +213,6 @@ export default function Calendar({ timetableState }) {
       second: '2-digit'
     })}
     scrollTimeReset={false}
-    slotDuration={slotDuration}
     slotLabelClassNames={'slot-label'}
     nowIndicator
     navLinks
