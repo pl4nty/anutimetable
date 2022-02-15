@@ -1,4 +1,4 @@
-import FullCalendar from '@fullcalendar/react'
+import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
 import bootstrapPlugin from '@fullcalendar/bootstrap'
 import dayGridPlugin from '@fullcalendar/daygrid'
@@ -10,7 +10,7 @@ import luxonPlugin from '@fullcalendar/luxon'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -146,13 +146,20 @@ export default function Calendar({ timetableState }) {
     return [newStartTime, newFinishTime]
   }, [events, timetableState.timeZone])
 
+  const [slotDuration, setSlotDuration] = useState('1:00:00')
+
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
     height='100%'
-    expandRows={true}
+    // expandRows={true}
     // dayMinWidth={} TODO premium plugin
+
+    windowResize={() => {
+      if (window.innerHeight <= 650) setSlotDuration('0:30:00')
+      if (window.innerHeight > 650) setSlotDuration('1:00:00')  
+    }}
 
     eventSources={events}
 
@@ -199,13 +206,14 @@ export default function Calendar({ timetableState }) {
     // timeGrid options
     allDaySlot={false}
     // Earliest business hour is 8am AEDT
-    // scrollTime={formatDate('2020-01-01T08:00+11:00', {
-    //   hour: '2-digit',
-    //   minute: '2-digit',
-    //   second: '2-digit'
-    // })}
+    scrollTime={formatDate('2020-01-01T08:00+11:00', {
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit'
+    })}
     scrollTimeReset={false}
-    slotDuration={'01:00:00'}
+    slotDuration={slotDuration}
+    slotLabelClassNames={'slot-label'}
     nowIndicator
     navLinks
     // businessHours={{
@@ -215,6 +223,9 @@ export default function Calendar({ timetableState }) {
     // }}
     displayEventTime={false}
     defaultAllDay={false} // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
+
+    slotEventOverlap={false}
+
 
     // Week 1 = start of semester
     weekNumbers

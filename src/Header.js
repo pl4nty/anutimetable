@@ -1,5 +1,5 @@
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import TimezoneSelect from 'react-timezone-select'
+import Toolbar from './Toolbar'
 
 import { useMemo } from 'react'
 
@@ -12,7 +12,8 @@ const select = (state, setState, setModules, callback) => e => {
   }
 }
 
-const Header = ({ sessions, year, setYear, session, setSession, setSelectedModules, timeZone, setTimeZone, darkMode }) => {
+const Header = ({ API, timetableState}) => {
+  let {sessions, year, setYear, session, setSession, setSelectedModules, darkMode} = timetableState
   const selectYear = select(year, setYear, setSelectedModules, yr => {
     const s = sessions[yr]
     setSession(s?.[s.length-1] || '')
@@ -20,16 +21,6 @@ const Header = ({ sessions, year, setYear, session, setSession, setSelectedModul
   const selectSession = select(session, setSession, setSelectedModules)
   const years = useMemo(() => Object.keys(sessions).reverse(), [sessions])
   const mode = darkMode ? 'dark' : 'light'
-  const theme = theme => ({
-    ...theme,
-    colors: {
-      ...theme.colors,
-      neutral0: darkMode ? '#101214' : '#fff',
-      neutral80: darkMode ? '#fff' : '#000',
-      primary25: darkMode ? '#343A40' : '#deebff',
-      primary: '#42A5FF',
-    }
-  })
 
   return <Navbar variant={mode} bg={mode} expand="md" sticky="top">
     <Navbar.Brand href="https://cssa.club/">
@@ -66,8 +57,8 @@ const Header = ({ sessions, year, setYear, session, setSession, setSelectedModul
           </NavDropdown.Item>
         </NavDropdown> */}
       </Nav>
-      <TimezoneSelect theme={theme} value={timeZone} onChange={tz => setTimeZone(tz.value)}
-      />
+      {/* <TimezoneSelect theme={theme} value={timeZone} onChange={tz => setTimeZone(tz.value)}/> */}
+      <Toolbar API={API} timetableState={timetableState} />
     </Navbar.Collapse>
   </Navbar>
 }
