@@ -3012,8 +3012,10 @@
     "weeks": "7",
     "activity": "SemA",
     "occurrence": "01",
-    "location": " dual delivery",
-    "locationID": ""
+    "location": "Crawford Seminar Room 9",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": "-35.287633",
+    "lon": "149.11587"
    },
    {
     "name": "CRWF9000_X1-SemB/01",
@@ -3023,8 +3025,10 @@
     "weeks": "7",
     "activity": "SemB",
     "occurrence": "01",
-    "location": " dual delivery",
-    "locationID": ""
+    "location": "Crawford Seminar Room 9",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "CRWF9000_X1-SemC/01",
@@ -3034,8 +3038,10 @@
     "weeks": "7",
     "activity": "SemC",
     "occurrence": "01",
-    "location": " dual delivery",
-    "locationID": ""
+    "location": "Crawford Seminar Room 9",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    }
   ]
  },
@@ -3055,8 +3061,8 @@
     "occurrence": "01",
     "location": "Crawford Acton Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": "-35.287633",
-    "lon": "149.11587"
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "EMDV8081_X1-SemA/02",
