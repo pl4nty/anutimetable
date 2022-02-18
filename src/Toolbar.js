@@ -1,13 +1,11 @@
 import { useMemo } from 'react'
 
-import { InputGroup, Button } from 'react-bootstrap'
+import { InputGroup } from 'react-bootstrap'
 import { components } from 'react-select'
 import BigSelect from './BigSelect'
 
 import Export from './Export'
 import { stringToColor } from './utils'
-
-import { BiColorFill } from 'react-icons/bi'
 
 export default function Toolbar({ API, timetableState: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
