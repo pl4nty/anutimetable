@@ -298,7 +298,8 @@ body[data-theme="dark"] {
 //   background: #26c2ff;
 // }
 
-.fc-event-main object {
-  width: 0;
-  height: 0;
+.fc-event-main p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
