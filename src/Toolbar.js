@@ -1,12 +1,13 @@
 import { useMemo } from 'react'
 
-import { InputGroup } from 'react-bootstrap'
+import { InputGroup, Button } from 'react-bootstrap'
 import { components } from 'react-select'
 import BigSelect from './BigSelect'
 
 import Export from './Export'
+import { stringToColor } from './utils'
 
-
+import { BiColorFill } from 'react-icons/bi'
 
 export default function Toolbar({ API, timetableState: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
@@ -37,13 +38,21 @@ export default function Toolbar({ API, timetableState: {
   }, [modules])
   const showExport = selectedModules.length !== 0
   
-  const control = provided => ({
+  const control = (provided) => ({
     ...provided,
     margin: '-1px',
     ...(showExport && {
       borderTopRightRadius: 0,
       borderBottomRightRadius: 0
-    })
+    }),
+  })
+
+  const multiValue = (provided, {data}) => ({
+    ...provided,
+    backgroundColor: stringToColor(data.value),
+    a: {
+      color: 'white'
+    }
   })
 
   const option = provided => ({
@@ -51,13 +60,13 @@ export default function Toolbar({ API, timetableState: {
     ':hover': {
       transitionDelay: '30ms',
       background: provided[':active'].backgroundColor
-    }
+    },
   })
 
   return <InputGroup>
     <BigSelect
       className="flex-grow-1 w-25 border"
-      styles={{ control, option }}
+      styles={{ control, option, multiValue }}
       isMulti
       isSearchable
 
