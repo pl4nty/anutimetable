@@ -80,15 +80,12 @@ export const appendQueryParam = (param, value) => {
   localStorage.savedQueryParams = qs.toString()
 }
 
+// delete `value` entry from the specified parameter if it exists
 export const deleteQueryParam = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  if (qs.get(param) && value) {
-    const valueSet = new Set([...qs.get(param).split(',')])
-    valueSet.delete(value)
-    qs.set(param, [...valueSet].join(','))
-  } else {
-    qs.set(param, qs.get(param) ?? '')
-  }
+  const valueSet = new Set([...qs.get(param).split(',')])
+  valueSet.delete(value)
+  qs.set(param, [...valueSet].join(','))
   window.history.replaceState(null, '', '?' + qs.toString())
   localStorage.savedQueryParams = qs.toString()
 }
