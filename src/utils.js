@@ -74,7 +74,7 @@ export const appendQueryParam = (param, value) => {
   if (qs.get(param)) {
     qs.set(param, [...new Set([...qs.get(param).split(','), value])].join(',')) // remove duplication
   } else {
-    qs.set(param, value ?? qs.get(param) ?? '')
+    qs.set(param, value)
   }
   window.history.replaceState(null, '', '?' + qs.toString())
   localStorage.savedQueryParams = qs.toString()
