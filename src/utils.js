@@ -69,6 +69,30 @@ export const setQueryParam = (param, value) => {
   localStorage.savedQueryParams = qs.toString()
 }
 
+export const appendQueryParam = (param, value) => {
+  const qs = new URLSearchParams(window.location.search)
+  if (qs.get(param) && value) {
+    qs.set(param, [...new Set([...qs.get(param).split(','), value])].join(',')) // remove duplication
+  } else {
+    qs.set(param, value ?? qs.get(param) ?? '')
+  }
+  window.history.replaceState(null, '', '?' + qs.toString())
+  localStorage.savedQueryParams = qs.toString()
+}
+
+export const deleteQueryParam = (param, value) => {
+  const qs = new URLSearchParams(window.location.search)
+  if (qs.get(param) && value) {
+    const valueSet = new Set([...qs.get(param).split(',')])
+    valueSet.delete(value)
+    qs.set(param, [...valueSet].join(','))
+  } else {
+    qs.set(param, qs.get(param) ?? '')
+  }
+  window.history.replaceState(null, '', '?' + qs.toString())
+  localStorage.savedQueryParams = qs.toString()
+}
+
 export const unsetQueryParam = param => {
   const qs = new URLSearchParams(window.location.search)
   qs.delete(param)
