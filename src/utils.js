@@ -71,7 +71,7 @@ export const setQueryParam = (param, value) => {
 
 export const appendQueryParam = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  if (qs.get(param) && value) {
+  if (qs.get(param)) {
     qs.set(param, [...new Set([...qs.get(param).split(','), value])].join(',')) // remove duplication
   } else {
     qs.set(param, value ?? qs.get(param) ?? '')
