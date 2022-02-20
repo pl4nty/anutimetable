@@ -69,25 +69,19 @@ export const setQueryParam = (param, value) => {
   localStorage.savedQueryParams = qs.toString()
 }
 
-export const appendQueryParam = (param, value) => {
+export const appendQueryParamElement = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  if (qs.get(param)) {
-    qs.set(param, [...new Set([...qs.get(param).split(','), value])].join(',')) // remove duplication
-  } else {
-    qs.set(param, value)
-  }
-  window.history.replaceState(null, '', '?' + qs.toString())
-  localStorage.savedQueryParams = qs.toString()
+  setQueryParam(param, qs.get(param) ?
+    [...new Set([...qs.get(param).split(','), value])].join(',') :
+    value)
 }
 
 // delete `value` entry from the specified parameter if it exists
-export const deleteQueryParam = (param, value) => {
+export const popQueryParamElement = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  const valueSet = new Set([...qs.get(param).split(',')])
-  valueSet.delete(value)
-  qs.set(param, [...valueSet].join(','))
-  window.history.replaceState(null, '', '?' + qs.toString())
-  localStorage.savedQueryParams = qs.toString()
+  const existing = new Set([...(qs.get(param) ?? []).split(',')])
+  existing.delete(value)
+  setQueryParam(param, [...existing].join(','))
 }
 
 export const unsetQueryParam = param => {
