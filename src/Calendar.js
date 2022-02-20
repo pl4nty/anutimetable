@@ -10,7 +10,7 @@ import luxonPlugin from '@fullcalendar/luxon'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
-import { useMemo, useState } from 'react'
+import { useReducer, useMemo } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -146,23 +146,27 @@ export default function Calendar({ timetableState }) {
     return [newStartTime, newFinishTime]
   }, [events, timetableState.timeZone])
 
-  const calculateRowHeight = () => {
-    if (window.innerHeight <= 650) return [false, '0:30:00']
-    else return [true, '1:00:00']
-  }
+  // This is the grid component. 
+  const table = document.getElementsByClassName('fc-scrollgrid')[0]
+  
+  // Choose an appropriate height for each colomn so that a one hour tut, 
+  // can show a title, location and a reset/choose button
+  let slotDuration = '1:00:00'
+  if (table?.clientHeight <= 650) slotDuration = '0:30:00'
+  if (table?.clientHeight <= 350) slotDuration = '0:20:00'
 
-  const [rowHeight, setRowHeight] = useState(calculateRowHeight)
+  // https://reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate
+  const [,forceUpdate] = useReducer(x => x + 1, 0);
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
     height='100%'
-    expandRows={rowHeight[0]}
-    slotDuration={rowHeight[1]}
-    // dayMinWidth={} TODO premium plugin
+    expandRows={true}
+    slotDuration={slotDuration}
 
-    windowResize={() => setRowHeight(calculateRowHeight)}
+    windowResize={forceUpdate}
 
     eventSources={events}
 
