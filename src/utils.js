@@ -71,15 +71,13 @@ export const setQueryParam = (param, value) => {
 
 export const appendQueryParamElement = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  setQueryParam(param, qs.get(param) ?
-    [...new Set([...qs.get(param).split(','), value])].join(',') :
-    value)
+  setQueryParam(param, [...new Set(qs.get(param) ? qs.get(param).split(',') : []).add(value)].join(','))
 }
 
 // delete `value` entry from the specified parameter if it exists
 export const popQueryParamElement = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  const existing = new Set([...(qs.get(param) ?? []).split(',')])
+  const existing = new Set(qs.get(param) ? qs.get(param).split(',') : [])
   existing.delete(value)
   setQueryParam(param, [...existing].join(','))
 }
