@@ -69,6 +69,19 @@ export const setQueryParam = (param, value) => {
   localStorage.savedQueryParams = qs.toString()
 }
 
+export const appendQueryParamElement = (param, value) => {
+  const qs = new URLSearchParams(window.location.search)
+  setQueryParam(param, [...new Set((qs.get(param) || null)?.split(',')).add(value)].join(','))
+}
+
+// delete `value` entry from the specified parameter if it exists
+export const popQueryParamElement = (param, value) => {
+  const qs = new URLSearchParams(window.location.search)
+  const existing = new Set(qs.get(param) ? qs.get(param).split(',') : [])
+  existing.delete(value)
+  setQueryParam(param, [...existing].join(','))
+}
+
 export const unsetQueryParam = param => {
   const qs = new URLSearchParams(window.location.search)
   qs.delete(param)

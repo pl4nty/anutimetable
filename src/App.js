@@ -5,7 +5,7 @@ import FloatingActionButton from './FloatingActionButton'
 
 import Toolbar from './Toolbar'
 import Calendar from './Calendar'
-import { loadCachedQSIfNotExists, getInitialState, setQueryParam, unsetQueryParam, fetchJsObject } from './utils'
+import { loadCachedQSIfNotExists, getInitialState, setQueryParam, appendQueryParamElement, popQueryParamElement, unsetQueryParam, fetchJsObject } from './utils'
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js'
 
@@ -140,10 +140,10 @@ let App = () => {
     let [module, groupId, occurrence] = action.values
     switch (action.type) {
       case 'select':
-        setQueryParam(module, groupId + occurrence)
+        appendQueryParamElement(module, groupId + occurrence)
         return [...state, action.values]
       case 'reset':
-        setQueryParam(module, '')
+        popQueryParamElement(module, groupId + occurrence)
         return state.filter(
           ([m, g, o]) => !(m === module && g === groupId && o === occurrence)
         )
