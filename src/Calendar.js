@@ -7,10 +7,12 @@ import listPlugin from '@fullcalendar/list'
 import rrulePlugin from '@fullcalendar/rrule'
 import luxonPlugin from '@fullcalendar/luxon'
 
+import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai'
+
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
-import { useReducer, useMemo } from 'react'
+import { useReducer, useMemo, useState } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -158,6 +160,10 @@ export default function Calendar({ timetableState }) {
   // https://reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate
   const [,forceUpdate] = useReducer(x => x + 1, 0);
 
+  const [fullScreen, setFullScreen] = useState(false)
+
+  document.addEventListener('fullscreenchange', () => setFullScreen(!fullScreen), false);
+
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
@@ -173,7 +179,7 @@ export default function Calendar({ timetableState }) {
     headerToolbar={{
       start: 'prev,next',
       center: 'title',
-      end: 'timeGridDay,timeGridWeek,dayGridMonth,listTwoDay'
+      end: 'timeGridDay,timeGridWeek,dayGridMonth,listTwoDay,fullScreen'
     }}
     buttonText={{
       today: 'Today',
@@ -182,6 +188,16 @@ export default function Calendar({ timetableState }) {
       day: 'Day',
       week: 'Week',
       month: 'Month'
+    }}
+    customButtons = {{
+      fullScreen: {
+        text: fullScreen ? <AiOutlineFullscreenExit size='1.5em'/> : <AiOutlineFullscreen size='1.5em'/>,
+        hint: fullScreen ? 'Exit FullScreen' : 'Enter FullScreen',
+        click: () => {
+          if (fullScreen) document.exitFullscreen()
+          else document.getElementsByClassName('fc')[0].requestFullscreen()
+        }
+      }
     }}
 
     views={{

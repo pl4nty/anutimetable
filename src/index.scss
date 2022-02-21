@@ -244,6 +244,11 @@ div[id^=react-select] {
   font-weight: bold;
 }
 
+body[data-theme="light"] {
+  .fc {
+    background-color: white;
+  }
+}
 body[data-theme="dark"] {
   nav.navbar .navbar-text a {
     color: white;
