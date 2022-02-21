@@ -71,7 +71,7 @@ export const setQueryParam = (param, value) => {
 
 export const appendQueryParamElement = (param, value) => {
   const qs = new URLSearchParams(window.location.search)
-  setQueryParam(param, [...new Set(qs.get(param) ? qs.get(param).split(',') : []).add(value)].join(','))
+  setQueryParam(param, [...new Set((qs.get(param) || null)?.split(',')).add(value)].join(','))
 }
 
 // delete `value` entry from the specified parameter if it exists
