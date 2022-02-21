@@ -58,8 +58,12 @@ class Lesson:
         self.finish = cells[3].string
         self.weeks = cells[5].a.string.strip()
 
-        self.activity = re.search(
-            '-([A-Za-z]|[^\/\W])+', self.name).group(0)[1:]  # remove leading dash
+        activity = re.search('-([A-Za-z]|[^\/\W])+', self.name)
+        if activity:
+            self.activity = activity.group(0)[1:]  # remove leading dash
+        else:
+            self.activity = 'Err'
+        
         occurrence = re.search('/[0-9]+', self.name)
         
         # remove leading slash and default to 01 if unspecified
