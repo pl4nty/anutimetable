@@ -8,16 +8,6 @@
     .fc-header-toolbar .fc-toolbar-title {
       margin: 1vh;
     }
-
-    /* override static width for week number */
-    .fc-timegrid-axis-cushion {
-      min-width: 0px !important;
-      /*max-width:*/
-    }
-
-    .fc-timegrid-slots .fc-timegrid-slot {
-      height: 3vh !important;
-    }
   }
 
   .fc-header-toolbar .fc-toolbar-chunk {
@@ -29,7 +19,8 @@
 // this overrides @media
 .fc {
   .fc-timegrid-slots .fc-timegrid-slot {
-    height: 6.1vh;
+    // Height of an 1 hour section where each link is (1 em * 0.85 * 0.85)
+    height: calc(3em * 0.85 * 0.85);
     border-bottom: 0 !important;
     vertical-align: top;
   }

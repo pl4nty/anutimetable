@@ -12,7 +12,7 @@ import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
-import { useReducer, useMemo, useState, useEffect, useCallback } from 'react'
+import { useMemo, useState, useEffect, useCallback } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -142,9 +142,6 @@ const getLocaleStartFinishTime = (events, timeZone) => {
 }
 
 export default function Calendar({ timetableState }) {
-  // https://reactjs.org/docs/hooks-faq.html#is-there-something-like-forceupdate
-  const [, forceUpdate] = useReducer(x => x + 1, 0);
-
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
   const initialDate =
@@ -172,24 +169,12 @@ export default function Calendar({ timetableState }) {
     else document.getElementsByClassName('fc')[0].requestFullscreen()
   }, [fullScreen])
 
-  // This is the grid component. 
-  const table = document.getElementsByClassName('fc-scrollgrid')[0]
-
-  // Choose an appropriate height for each colomn so that a one hour tut, 
-  // can show a title, location and a reset/choose button
-  let slotDuration = '1:00:00'
-  if (table?.clientHeight <= 650) slotDuration = '0:30:00'
-  if (table?.clientHeight <= 350) slotDuration = '0:20:00'
-
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
     height='100%'
     expandRows={true}
-    slotDuration={slotDuration}
-
-    windowResize={forceUpdate}
 
     eventSources={events}
 
