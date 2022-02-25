@@ -606,7 +606,7 @@
     "weeks": "17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 4.04",
+    "location": "Marie Reay 4.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -763,6 +763,19 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
+    "weeks": "20,24",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB W120",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "EXTN1011A_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
     "weeks": "17\u201126",
     "activity": "LecA",
     "occurrence": "01",
@@ -787,10 +800,10 @@
     "weeks": "13\u201114,17\u201126",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "PSYC G8",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
+    "location": "Physics Studio G1",
+    "locationID": "http://www.anu.edu.au/maps#show=11423",
+    "lat": -35.275052,
+    "lon": 149.118554
    }
   ]
  },
@@ -965,7 +978,7 @@
     "day": 0,
     "start": "15:00",
     "finish": "18:00",
-    "weeks": "14\u201119",
+    "weeks": "14\u201115,18\u201119",
     "activity": "SemA",
     "occurrence": "01",
     "location": "LJ Hume",
@@ -1103,7 +1116,7 @@
     "day": 0,
     "start": "15:00",
     "finish": "18:00",
-    "weeks": "14\u201119",
+    "weeks": "14\u201115,18\u201119",
     "activity": "SemA",
     "occurrence": "01",
     "location": "LJ Hume",
@@ -1627,6 +1640,73 @@
    }
   ]
  },
+ "NSPO8049_X2": {
+  "title": "NSPO8049_X2\u00a0Security in the Indo-Pacific",
+  "id": "NSPO8049_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "NSPO8049_X2-SemA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "14",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": "-35.287633",
+    "lon": "149.11587"
+   },
+   {
+    "name": "NSPO8049_X2-SemA/02",
+    "day": 3,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "14",
+    "activity": "SemA",
+    "occurrence": "02",
+    "location": " On campus",
+    "locationID": ""
+   },
+   {
+    "name": "NSPO8049_X2-SemB/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "14",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "NSPO8049_X2-SemB/02",
+    "day": 4,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "14",
+    "activity": "SemB",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "NSPO8049_X2-SemC/02",
+    "day": 3,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "16",
+    "activity": "SemC",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
  "PASI8010_X2": {
   "title": "PASI8010_X2\u00a0Evidence-based program design and implementation in the Pacific",
   "id": "PASI8010_X2",
@@ -1643,8 +1723,8 @@
     "occurrence": "01",
     "location": "Crawford Seminar Room 7",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": "-35.287633",
-    "lon": "149.11587"
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "PASI8010_X2-SemB/01",
