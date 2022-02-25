@@ -23,10 +23,12 @@ const Header = ({ API, timetableState}) => {
   const mode = darkMode ? 'dark' : 'light'
 
   return <Navbar variant={mode} bg={mode} expand="md" sticky="top">
-    <Navbar.Brand href="https://cssa.club/">
-      <img
+    <Navbar.Brand>
+      {/* eslint-disable-next-line react/jsx-no-target-blank */}
+      <a href="https://cssa.club/" target="_blank"><img
         alt="CSSA logo"
         src="/cssa-mono.svg"
+        
         width="30"
         height="30"
         style={darkMode ? {
@@ -35,13 +37,13 @@ const Header = ({ API, timetableState}) => {
           filter: 'invert(.25)'
         }}
         className="d-inline-block align-top mr-1"
-      />{' '}
+      /></a>{' '}
       ANU Timetable
     </Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse>
-      <Nav className="mr-auto">
-        <NavDropdown title={year}>
+      <Nav className="mr-auto flex-row">
+        <NavDropdown title={year} className="mr-3">
           {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
           {years.map(k => <NavDropdown.Item key={k} onClick={selectYear}>{k}</NavDropdown.Item>)}
         </NavDropdown>
