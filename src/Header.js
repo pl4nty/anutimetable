@@ -22,15 +22,15 @@ const Header = ({ API, timetableState}) => {
   const years = useMemo(() => Object.keys(sessions).reverse(), [sessions])
   const mode = darkMode ? 'dark' : 'light'
 
-  return <Navbar variant={mode} bg={mode} expand="md" sticky="top">
-    <Navbar.Brand>
+  return <Navbar variant={mode} bg={mode} expand="sm" sticky="top">
+    <Navbar.Brand style={{ fontSize: '1.135rem' }}>
       {/* eslint-disable-next-line react/jsx-no-target-blank */}
       <a href="https://cssa.club/" target="_blank"><img
         alt="CSSA logo"
         src="/cssa-mono.svg"
         
-        width="30"
-        height="30"
+        width="28"
+        height="28"
         style={darkMode ? {
           filter: 'invert(.75)'
         } : {
@@ -42,8 +42,8 @@ const Header = ({ API, timetableState}) => {
     </Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse>
-      <Nav className="mr-auto flex-row">
-        <NavDropdown title={year} className="mr-3">
+      <Nav className="mr-3 flex-row">
+        <NavDropdown title={year} className="mr-2">
           {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
           {years.map(k => <NavDropdown.Item key={k} onClick={selectYear}>{k}</NavDropdown.Item>)}
         </NavDropdown>

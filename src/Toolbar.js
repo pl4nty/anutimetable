@@ -61,9 +61,9 @@ export default function Toolbar({ API, timetableState: {
     },
   })
 
-  return <InputGroup>
+  return <InputGroup style={{ maxWidth: '30rem' }}>
     <BigSelect
-      className="flex-grow-1 w-25 border"
+      className="flex-grow-1 border"
       styles={{ control, option, multiValue }}
       isMulti
       isSearchable

@@ -299,3 +299,9 @@ body[data-theme="dark"] {
   overflow: hidden;
   white-space: nowrap;
 }
+
+.nav-item .dropdown-menu.show {
+  position: absolute;
+  z-index: 1500;
+  min-width: 5rem; // half of default, to avoid overflow
+}
