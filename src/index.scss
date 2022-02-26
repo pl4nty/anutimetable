@@ -117,6 +117,30 @@ div[id^=react-select] {
   }
 }
 
+:fullscreen {
+  @media (min-width: 600px) {
+    .btn.btn-primary {
+      // Move element to top of screen
+      margin-top: -0.1em;
+    }
+    // Hide the corners
+    .fc-prev-button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .fc-next-button {
+      border-top-right-radius: 0;
+    }
+    .fc-timeGridDay-button {
+      border-top-left-radius: 0;
+    }
+    .fc-fullScreen-button {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+}
+
 .fc-timegrid-event-harness:hover .hide-button {
   display: block;
 }
