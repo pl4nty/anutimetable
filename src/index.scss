@@ -305,3 +305,7 @@ body[data-theme="dark"] {
   z-index: 1500;
   min-width: 5rem; // half of default, to avoid overflow
 }
+
+.dropdown-toggle.nav-link {
+  padding: 0.5rem;
+}

@@ -22,8 +22,8 @@ const Header = ({ API, timetableState}) => {
   const years = useMemo(() => Object.keys(sessions).reverse(), [sessions])
   const mode = darkMode ? 'dark' : 'light'
 
-  return <Navbar variant={mode} bg={mode} expand="sm" sticky="top">
-    <Navbar.Brand style={{ fontSize: '1.135rem' }}>
+  return <Navbar variant={mode} bg={mode} expand="lg" sticky="top">
+    <Navbar.Brand style={{ fontSize: '1.135rem' }} className="mr-0 mr-sm-2 mr-lg-3">
       {/* eslint-disable-next-line react/jsx-no-target-blank */}
       <a href="https://cssa.club/" target="_blank"><img
         alt="CSSA logo"
@@ -40,25 +40,25 @@ const Header = ({ API, timetableState}) => {
       /></a>{' '}
       ANU Timetable
     </Navbar.Brand>
-    <Navbar.Toggle />
+    <Nav className="mr-auto flex-row">
+      <NavDropdown title={year}>
+        {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
+        {years.map(k => <NavDropdown.Item key={k} onClick={selectYear}>{k}</NavDropdown.Item>)}
+      </NavDropdown>
+      <NavDropdown title={session} className="mr-0 mr-sm-2 mr-lg-3">
+        {sessions[year]?.map(k => <NavDropdown.Item key={k} onClick={selectSession}>{k}</NavDropdown.Item>)}
+      </NavDropdown>
+      {/* <NavDropdown title="About">
+        <NavDropdown.Item href="/contributors.html">
+          Contributors
+        </NavDropdown.Item>
+        <NavDropdown.Item href="https://forms.office.com/r/sZnsxtsh2F" target="_blank" rel="noreferrer">
+          Feedback
+        </NavDropdown.Item>
+      </NavDropdown> */}
+    </Nav>
+    <Navbar.Toggle className="mb-1"/>
     <Navbar.Collapse>
-      <Nav className="mr-3 flex-row">
-        <NavDropdown title={year} className="mr-2">
-          {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
-          {years.map(k => <NavDropdown.Item key={k} onClick={selectYear}>{k}</NavDropdown.Item>)}
-        </NavDropdown>
-        <NavDropdown title={session}>
-          {sessions[year]?.map(k => <NavDropdown.Item key={k} onClick={selectSession}>{k}</NavDropdown.Item>)}
-        </NavDropdown>
-        {/* <NavDropdown title="About">
-          <NavDropdown.Item href="/contributors.html">
-            Contributors
-          </NavDropdown.Item>
-          <NavDropdown.Item href="https://forms.office.com/r/sZnsxtsh2F" target="_blank" rel="noreferrer">
-            Feedback
-          </NavDropdown.Item>
-        </NavDropdown> */}
-      </Nav>
       <Toolbar API={API} timetableState={timetableState} />
     </Navbar.Collapse>
   </Navbar>
