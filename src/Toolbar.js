@@ -35,11 +35,12 @@ export default function Toolbar({ API, timetableState: {
     return Object.entries(modules).map(([id, { title }]) => ({ label: title, value: id }))
   }, [modules])
   const showExport = selectedModules.length !== 0
-  
+
   const control = (provided) => ({
     ...provided,
     margin: '-1px',
     minWidth: '20rem',
+    maxWidth: '30rem',
     ...(showExport && {
       borderTopRightRadius: 0,
       borderBottomRightRadius: 0
@@ -62,7 +63,7 @@ export default function Toolbar({ API, timetableState: {
     },
   })
 
-  return <InputGroup>
+  return <InputGroup style={{maxWidth: 'none !important', flexShrink: 1}}>
     <BigSelect
       className="border"
       styles={{ control, option, multiValue }}
@@ -79,7 +80,7 @@ export default function Toolbar({ API, timetableState: {
       backspaceRemovesValue
       escapeClearsValue
       tabSelectsValue
-      
+
       isLoading={Object.keys(modules).length === 0}
       loadingMessage={() => 'Loading courses...'}
       noOptionsMessage={() => 'No matching courses found'}
@@ -87,7 +88,7 @@ export default function Toolbar({ API, timetableState: {
       theme={theme}
       // formatOptionLabel={({ label, value }, { context }) => context === "value" ? value : label}
       components={{ MultiValueLabel }}
-      
+
       value={selectedModules.map(({ title, id }) => ({ label: title, value: id }))}
       onChange={n => setSelectedModules(n.map(option => ({ ...option, id: option.value })))}
       options={options}
