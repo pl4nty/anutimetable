@@ -37,7 +37,7 @@ const Header = ({ API, timetableState}) => {
           filter: 'invert(.25)'
         }}
         className="d-inline-block align-top mr-1"
-      /></a>{' '}
+      /></a>&nbsp;
       ANU Timetable
     </Navbar.Brand>
     <Nav className="mr-auto flex-row">

@@ -37,15 +37,18 @@ export default function Toolbar({ API, timetableState: {
   const showExport = selectedModules.length !== 0
 
   const styles = {
-    control: (provided) => ({
+    control: provided => ({
       ...provided,
       margin: '-1px',
-      minWidth: '20rem',
-      maxWidth: '32rem',
       ...(showExport && {
         borderTopRightRadius: 0,
         borderBottomRightRadius: 0
       }),
+    }),
+
+    container: provided => ({
+      ...provided,
+      flexGrow: 10,
     }),
 
     multiValue: (provided, { data }) => ({
@@ -74,7 +77,7 @@ export default function Toolbar({ API, timetableState: {
     }),
   }
 
-  return <InputGroup style={{ maxWidth: 'none !important', flexBasis: 'fit-content' }}>
+  return <InputGroup /* style={{ maxWidth: 'none !important', /*flexBasis: 'fit-content' }} */>
     <BigSelect
       className="border"
       styles={styles}
