@@ -5,15 +5,17 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
   const hide = () => onHide(selected)
 
   // if single-select, return selection as singleton array for consistency
-  const singleSelect = multiple ? undefined : e => {
-    setSelected([+e.target.value])
-    onChange([+e.target.value])
+  const singleSelect = e => {
+    const options = Array.from(e.target.selectedOptions).map(o => +o.value)
+    setSelected(options)
+    onChange(options)
   }
 
   // if multi-select, prevent clearing existing selections
   // allows multiple selections without pressing ctrl
   const multiSelect = !multiple ? undefined : e => {
     e.preventDefault()
+    e.stopPropagation()
     const newSelect = +e.target.value
     const index = selected.indexOf(newSelect)
     const newSelection = e.target.selected ? [...selected.slice(0, index), ...selected.slice(index+1)] : [...selected, newSelect]
