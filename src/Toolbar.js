@@ -63,7 +63,7 @@ export default function Toolbar({ API, timetableState: {
     },
   })
 
-  return <InputGroup style={{maxWidth: 'none !important', flexShrink: 1}}>
+  return <InputGroup style={{maxWidth: 'none !important', flexBasis: 'fit-content'}}>
     <BigSelect
       className="border"
       styles={{ control, option, multiValue }}
@@ -94,6 +94,6 @@ export default function Toolbar({ API, timetableState: {
       options={options}
     />
     {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {showExport && <Export API={API} year={year} session={session} />}
+    {showExport && <Export API={API} year={year} session={session}/>}
   </InputGroup>
 }
