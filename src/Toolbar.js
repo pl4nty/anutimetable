@@ -40,7 +40,7 @@ export default function Toolbar({ API, timetableState: {
     ...provided,
     margin: '-1px',
     minWidth: '20rem',
-    maxWidth: '30rem',
+    maxWidth: '32rem',
     ...(showExport && {
       borderTopRightRadius: 0,
       borderBottomRightRadius: 0
