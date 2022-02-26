@@ -36,37 +36,48 @@ export default function Toolbar({ API, timetableState: {
   }, [modules])
   const showExport = selectedModules.length !== 0
 
-  const control = (provided) => ({
-    ...provided,
-    margin: '-1px',
-    minWidth: '20rem',
-    maxWidth: '32rem',
-    ...(showExport && {
-      borderTopRightRadius: 0,
-      borderBottomRightRadius: 0
+  const styles = {
+    control: (provided) => ({
+      ...provided,
+      margin: '-1px',
+      minWidth: '20rem',
+      maxWidth: '32rem',
+      ...(showExport && {
+        borderTopRightRadius: 0,
+        borderBottomRightRadius: 0
+      }),
     }),
-  })
 
-  const multiValue = (provided, {data}) => ({
-    ...provided,
-    backgroundColor: stringToColor(data.value),
-    a: {
-      color: 'white'
-    }
-  })
+    multiValue: (provided, { data }) => ({
+      ...provided,
+      backgroundColor: stringToColor(data.value),
+    }),
 
-  const option = provided => ({
-    ...provided,
-    ':hover': {
-      transitionDelay: '30ms',
-      background: provided[':active'].backgroundColor
-    },
-  })
+    multiValueLabel: provided => ({
+      ...provided,
+      a: {
+        color: 'white'
+      }
+    }),
 
-  return <InputGroup style={{maxWidth: 'none !important', flexBasis: 'fit-content'}}>
+    multiValueRemove: provided => ({
+      ...provided,
+      color: 'white',
+    }),
+
+    option: provided => ({
+      ...provided,
+      ':hover': {
+        transitionDelay: '30ms',
+        background: provided[':active'].backgroundColor
+      },
+    }),
+  }
+
+  return <InputGroup style={{ maxWidth: 'none !important', flexBasis: 'fit-content' }}>
     <BigSelect
       className="border"
-      styles={{ control, option, multiValue }}
+      styles={styles}
       isMulti
       isSearchable
 
@@ -94,6 +105,6 @@ export default function Toolbar({ API, timetableState: {
       options={options}
     />
     {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {showExport && <Export API={API} year={year} session={session}/>}
+    {showExport && <Export API={API} year={year} session={session} />}
   </InputGroup>
 }
