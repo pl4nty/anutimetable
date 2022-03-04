@@ -551,10 +551,31 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201126,29\u201138,41\u201147",
+    "weeks": "17\u201126",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 4.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   }
+  ]
+ },
+ "EXTN1006B_X2": {
+  "title": "EXTN1006B_X2\u00a0ANU Extension Continuing Japanese B",
+  "id": "EXTN1006B_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EXTN1006B_X2-LecB/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "10\u201114,17\u201126",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Marie Reay 4.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
