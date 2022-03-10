@@ -1256,6 +1256,32 @@
   "classes": [
    {
     "name": "ARAB1002_S1-LecA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "11,16\u201117",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CAIS 1.15 Al-Falasi Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": "-35.279598",
+    "lon": "149.120968"
+   },
+   {
+    "name": "ARAB1002_S1-LecA/02",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "11,16\u201117",
+    "activity": "LecA",
+    "occurrence": "02",
+    "location": "CAIS 1.15 Al-Falasi Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
+   },
+   {
+    "name": "ARAB1002_S1-LecA/01",
     "day": 0,
     "start": "10:00",
     "finish": "12:00",
@@ -1264,8 +1290,8 @@
     "occurrence": "01",
     "location": "CAIS 1.15 Al-Falasi Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": "-35.279598",
-    "lon": "149.120968"
+    "lat": -35.279598,
+    "lon": 149.120968
    },
    {
     "name": "ARAB1002_S1-LecA/02",
@@ -1405,6 +1431,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=11377",
     "lat": -35.279598,
     "lon": 149.120968
+   },
+   {
+    "name": "ARAB2011_S1-LecA/02",
+    "day": 3,
+    "start": "18:00",
+    "finish": "20:00",
+    "weeks": "11,16\u201117",
+    "activity": "LecA",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "ARAB2011_S1-LecA/02",
@@ -6953,10 +6990,10 @@
     "weeks": "10,12,17,19",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "BPB W118",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
+    "location": "Han 2.24",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    }
   ]
  },
@@ -27534,7 +27571,7 @@
   ]
  },
  "ECON3181_S1": {
-  "title": "ECON3181_S1\u00a0Competition Policy and the Economics of Regulation",
+  "title": "ECON3181_S1\u00a0Competition Policy and Regulation",
   "id": "ECON3181_S1",
   "link": "",
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
@@ -28152,7 +28189,7 @@
   ]
  },
  "ECON6181_S1": {
-  "title": "ECON6181_S1\u00a0Competition Policy and the Economics of Regulation",
+  "title": "ECON6181_S1\u00a0Competition Policy and Regulation",
   "id": "ECON6181_S1",
   "link": "",
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
@@ -42516,7 +42553,20 @@
     "day": 1,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "11\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "ADH 123a",
+    "locationID": "http://www.anu.edu.au/maps#show=11286",
+    "lat": -35.278353,
+    "lon": 149.121713
+   },
+   {
+    "name": "FREN3010_S1-TutA/03",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201110",
     "activity": "TutA",
     "occurrence": "03",
     "location": "RSSS Lectorial 1 Rm 1.21",
@@ -42542,7 +42592,20 @@
     "day": 2,
     "start": "12:00",
     "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "11\u201113,16\u201121",
+    "activity": "TutB",
+    "occurrence": "02",
+    "location": "ADH 123a",
+    "locationID": "http://www.anu.edu.au/maps#show=11286",
+    "lat": -35.278353,
+    "lon": 149.121713
+   },
+   {
+    "name": "FREN3010_S1-TutB/02",
+    "day": 2,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "8\u201110",
     "activity": "TutB",
     "occurrence": "02",
     "location": "RSSS Lectorial 1 Rm 1.21",
@@ -48543,7 +48606,7 @@
     "day": 0,
     "start": "08:00",
     "finish": "09:00",
-    "weeks": "10\u201113,16\u201121",
+    "weeks": "10,12\u201113,18\u201121",
     "activity": "TutA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 2",
@@ -48567,7 +48630,7 @@
     "day": 0,
     "start": "09:00",
     "finish": "10:00",
-    "weeks": "10\u201113,16\u201121",
+    "weeks": "10,12\u201113,18\u201121",
     "activity": "TutA",
     "occurrence": "02",
     "location": "Fellows Road Law Theatre 2",
@@ -48591,7 +48654,7 @@
     "day": 0,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "10\u201113,16\u201121",
+    "weeks": "10,12\u201113,18\u201121",
     "activity": "TutA",
     "occurrence": "03",
     "location": "Fellows Road Law Theatre 2",
@@ -48615,7 +48678,7 @@
     "day": 0,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "10\u201113,16\u201121",
+    "weeks": "10,12\u201113,18\u201121",
     "activity": "TutA",
     "occurrence": "04",
     "location": " online live",
@@ -48637,7 +48700,7 @@
     "day": 0,
     "start": "16:00",
     "finish": "17:00",
-    "weeks": "10\u201113,16\u201121",
+    "weeks": "10,12\u201113,18\u201121",
     "activity": "TutA",
     "occurrence": "05",
     "location": " online live",
@@ -48659,7 +48722,7 @@
     "day": 0,
     "start": "17:00",
     "finish": "18:00",
-    "weeks": "10\u201113,16\u201121",
+    "weeks": "10,12\u201113,18\u201121",
     "activity": "TutA",
     "occurrence": "06",
     "location": "Fellows Road Law Theatre 2",
@@ -64673,6 +64736,17 @@
     "day": 0,
     "start": "10:00",
     "finish": "12:00",
+    "weeks": "11,16\u201117",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "PERS3005_S1-LecA/01",
+    "day": 0,
+    "start": "10:00",
+    "finish": "12:00",
     "weeks": "8\u201110,12\u201113,18\u201121",
     "activity": "LecA",
     "occurrence": "01",
@@ -70796,6 +70870,17 @@
     "finish": "10:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "WorB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "PORT1001_S1-WorC/01",
+    "day": 4,
+    "start": "08:00",
+    "finish": "09:00",
+    "weeks": "10\u201113,16\u201121",
+    "activity": "WorC",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
