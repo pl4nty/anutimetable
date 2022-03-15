@@ -593,9 +593,22 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "6\u201114,17\u201126,29\u201138,41\u201147",
+    "weeks": "17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
+    "location": "Marie Reay 4.05",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "EXTN1007A_X2-LecA/02",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "41\u201147",
+    "activity": "LecA",
+    "occurrence": "02",
     "location": "Marie Reay 4.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
@@ -614,9 +627,22 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "6\u201114,17\u201126,29\u201138,41\u201147",
+    "weeks": "17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
+    "location": "Marie Reay 4.05",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "EXTN1007B_X2-LecA/02",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "5\u201114",
+    "activity": "LecA",
+    "occurrence": "02",
     "location": "Marie Reay 4.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
@@ -635,7 +661,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201126",
+    "weeks": "17\u201126,29\u201138,41\u201147",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
@@ -656,13 +682,47 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "10\u201114,17\u201126",
+    "weeks": "5\u201114,17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 5.04",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
+   }
+  ]
+ },
+ "EXTN1009A_X2": {
+  "title": "EXTN1009A_X2\u00a0Korean Secondary Extension - Continuing A",
+  "id": "EXTN1009A_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EXTN1009A_X2-ComA/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "17\u201126,29\u201138,41\u201145",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "HN Lab 2",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "EXTN1009B_X2-ComB/01",
+    "day": 1,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "5\u201114,17\u201126,29\u201138",
+    "activity": "ComB",
+    "occurrence": "01",
+    "location": "HN Lab 1",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
    }
   ]
  },
@@ -677,13 +737,34 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "10\u201114,17\u201126",
+    "weeks": "9\u201114,17\u201126,29\u201138,41\u201147",
     "activity": "LecA",
     "occurrence": "01",
     "location": "BPB ETC Studio 2 Orange",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": "-35.280067",
     "lon": "149.121758"
+   }
+  ]
+ },
+ "EXTN1010B_X2": {
+  "title": "EXTN1010B_X2\u00a0ANU Extension Indonesian Politics and Culture B",
+  "id": "EXTN1010B_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EXTN1010B_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "9\u201114,17\u201126,29\u201138,41\u201147",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 2 Orange",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
@@ -698,20 +779,7 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "20,24",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "BPB W120",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   },
-   {
-    "name": "EXTN1011A_X2-LecA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "17\u201126",
+    "weeks": "17\u201126,29\u201138,41\u201147",
     "activity": "LecA",
     "occurrence": "01",
     "location": "PSYC G6",
@@ -732,7 +800,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "10\u201114,17\u201126",
+    "weeks": "5\u201114,17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Physics Studio G1",
@@ -784,48 +852,6 @@
    }
   ]
  },
- "EXTN1019A_X2": {
-  "title": "EXTN1019A_X2\u00a0ANU Extension Creative Computing A",
-  "id": "EXTN1019A_X2",
-  "link": "",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "EXTN1019A_X2-ComA/01",
-    "day": 2,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "17\u201126",
-    "activity": "ComA",
-    "occurrence": "01",
-    "location": "HN Lab 2",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   }
-  ]
- },
- "EXTN1019B_X2": {
-  "title": "EXTN1019B_X2\u00a0ANU Extension Creative Computing B",
-  "id": "EXTN1019B_X2",
-  "link": "",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "EXTN1019B_X2-ComA/01",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "10\u201114,17\u201126",
-    "activity": "ComA",
-    "occurrence": "01",
-    "location": "HN Lab 1",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   }
-  ]
- },
  "EXTN1020A_X2": {
   "title": "EXTN1020A_X2\u00a0ANU Extension Global Perspectives in Commerce A",
   "id": "EXTN1020A_X2",
@@ -837,7 +863,7 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201126",
+    "weeks": "17\u201126,29\u201138,41\u201147",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.04",
@@ -858,7 +884,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "10\u201114,17\u201126",
+    "weeks": "5\u201114,17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.04",
