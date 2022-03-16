@@ -2492,7 +2492,7 @@
     "weeks": "13",
     "activity": "TutA",
     "occurrence": "01",
-    "location": " Fieldwork",
+    "location": " Fieldtrip Offsite ",
     "locationID": ""
    },
    {
@@ -2514,7 +2514,7 @@
     "weeks": "18",
     "activity": "TutA",
     "occurrence": "01",
-    "location": " Fieldwork",
+    "location": "NGA Sculpture Garden (offsite) Fieldwork",
     "locationID": ""
    },
    {
@@ -3108,7 +3108,7 @@
     "weeks": "13",
     "activity": "TutA",
     "occurrence": "01",
-    "location": " Fieldwork",
+    "location": " Fieldtrip Offsite ",
     "locationID": ""
    },
    {
@@ -3130,7 +3130,7 @@
     "weeks": "18",
     "activity": "TutA",
     "occurrence": "01",
-    "location": " Fieldwork",
+    "location": "NGA Sculpture Garden (offsite) Fieldwork",
     "locationID": ""
    },
    {
@@ -8651,7 +8651,20 @@
     "day": 4,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "9,11\u201113,17",
+    "weeks": "13",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Marie Reay 6.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "BIOL3142_S1-WorA/01",
+    "day": 4,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "9,11\u201112,17",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Gould Seminar Room 235",
@@ -9970,7 +9983,20 @@
     "day": 4,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "9,11\u201113,17",
+    "weeks": "13",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Marie Reay 6.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "BIOL6143_S1-WorA/01",
+    "day": 4,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "9,11\u201112,17",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Gould Seminar Room 235",
@@ -14756,6 +14782,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11384",
     "lat": -35.276241,
     "lon": 149.117144
+   },
+   {
+    "name": "CHEM2211_S1-TutA/01",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "11\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Han 2.27",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    }
   ]
  },
@@ -58092,10 +58131,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "RSSS Lectorial 1 Rm 1.21",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": "CAIS 1.14",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
    }
   ]
  },
@@ -58287,10 +58326,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "RSSS Lectorial 1 Rm 1.21",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": "CAIS 1.14",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
    }
   ]
  },
@@ -58305,27 +58344,6 @@
     "day": 3,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   }
-  ]
- },
- "MEAS8127_S1": {
-  "title": "MEAS8127_S1\u00a0'Sectarianism' in the Middle East: Theology, Politics and Identity",
-  "id": "MEAS8127_S1",
-  "link": "",
-  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "MEAS8127_S1-SemA/01",
-    "day": 1,
-    "start": "15:00",
-    "finish": "17:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
