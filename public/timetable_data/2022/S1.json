@@ -11583,19 +11583,6 @@
     "lon": 149.124005
    },
    {
-    "name": "BUSN1001_S1-TutA/06",
-    "day": 4,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "06",
-    "location": "Arndt TR4",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
-   },
-   {
     "name": "BUSN1001_S1-TutA/08",
     "day": 1,
     "start": "12:00",
@@ -11739,19 +11726,6 @@
     "activity": "TutA",
     "occurrence": "20",
     "location": "Arndt TR4",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
-   },
-   {
-    "name": "BUSN1001_S1-TutA/21",
-    "day": 4,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "21",
-    "location": "Arndt TR5",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
@@ -47365,9 +47339,22 @@
    {
     "name": "JPNS3006_S1-SemA/02",
     "day": 0,
+    "start": "11:00",
+    "finish": "12:30",
+    "weeks": "19",
+    "activity": "SemA",
+    "occurrence": "02",
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": -35.282541,
+    "lon": 149.119238
+   },
+   {
+    "name": "JPNS3006_S1-SemA/02",
+    "day": 0,
     "start": "12:00",
     "finish": "13:30",
-    "weeks": "8\u201110,12\u201113,18\u201121",
+    "weeks": "8\u201110,12\u201113,18,20\u201121",
     "activity": "SemA",
     "occurrence": "02",
     "location": "Coombs Seminar Room B 3.104",
@@ -62753,17 +62740,6 @@
     "locationID": "https://www.anu.edu.au/maps#show=29089",
     "lat": -35.280391,
     "lon": 149.123592
-   },
-   {
-    "name": "MUSI2205_S1-SemB/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
    }
   ]
  },
@@ -76016,17 +75992,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
-   },
-   {
-    "name": "STAT3004_S1-TutA/02",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
    }
   ]
  },
@@ -76350,32 +76315,6 @@
     "locationID": ""
    },
    {
-    "name": "STAT3057_S1-TutA/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "10\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "CBE LT 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "STAT3057_S1-TutA/01",
-    "day": 4,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "9",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Arndt LT 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
-   },
-   {
     "name": "STAT3057_S1-TutA/02",
     "day": 1,
     "start": "16:00",
@@ -76674,17 +76613,6 @@
     "lon": 149.123419
    },
    {
-    "name": "STAT4038_S1-ComA/08",
-    "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "activity": "ComA",
-    "occurrence": "08",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
     "name": "STAT4038_S1-ComA/09",
     "day": 3,
     "start": "09:00",
@@ -76731,19 +76659,6 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "ComA",
     "occurrence": "13",
-    "location": "COP G025",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "STAT4038_S1-ComA/14",
-    "day": 4,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "14",
     "location": "COP G025",
     "locationID": "http://www.anu.edu.au/maps#show=28971",
     "lat": -35.277985,
@@ -76852,17 +76767,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=28971",
     "lat": -35.277985,
     "lon": 149.123419
-   },
-   {
-    "name": "STAT4040_S1-ComA/03",
-    "day": 0,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "activity": "ComA",
-    "occurrence": "03",
-    "location": " online live",
-    "locationID": ""
    },
    {
     "name": "STAT4040_S1-ComA/04",
@@ -77258,17 +77162,6 @@
     "lon": 149.123419
    },
    {
-    "name": "STAT6038_S1-ComA/08",
-    "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "activity": "ComA",
-    "occurrence": "08",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
     "name": "STAT6038_S1-ComA/09",
     "day": 3,
     "start": "09:00",
@@ -77315,19 +77208,6 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "ComA",
     "occurrence": "13",
-    "location": "COP G025",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "STAT6038_S1-ComA/14",
-    "day": 4,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "14",
     "location": "COP G025",
     "locationID": "http://www.anu.edu.au/maps#show=28971",
     "lat": -35.277985,
@@ -77816,17 +77696,6 @@
     "lon": 149.123419
    },
    {
-    "name": "STAT7040_S1-ComA/03",
-    "day": 0,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "9\u201110,12\u201113,18\u201121",
-    "activity": "ComA",
-    "occurrence": "03",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
     "name": "STAT7040_S1-ComA/04",
     "day": 2,
     "start": "17:00",
@@ -78042,17 +77911,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
-   },
-   {
-    "name": "STAT7055_S1-WorA/08",
-    "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "08",
-    "location": " online live",
-    "locationID": ""
    },
    {
     "name": "STAT7055_S1-WorA/09",
