@@ -1329,10 +1329,10 @@
     "weeks": "11,16\u201117",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": "-35.279598",
-    "lon": "149.120968"
+    "location": "BPB W121",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    },
    {
     "name": "ARAB1002_S1-LecA/02",
@@ -1342,10 +1342,10 @@
     "weeks": "11,16\u201117",
     "activity": "LecA",
     "occurrence": "02",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
+    "location": "BPB W121",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "ARAB1002_S1-LecA/01",
@@ -1357,8 +1357,8 @@
     "occurrence": "01",
     "location": "CAIS 1.15 Al-Falasi Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
+    "lat": "-35.279598",
+    "lon": "149.120968"
    },
    {
     "name": "ARAB1002_S1-LecA/02",
@@ -1370,8 +1370,8 @@
     "occurrence": "02",
     "location": "BPB W121",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "ARAB1002_S1-LecA/03",
@@ -24582,7 +24582,20 @@
     "day": 3,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "BPB W120",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "DEMO1001_S1-TutA/02",
+    "day": 3,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "9\u201111",
     "activity": "TutA",
     "occurrence": "02",
     "location": "Han 2.28",
@@ -31276,13 +31289,26 @@
     "day": 1,
     "start": "13:00",
     "finish": "16:00",
-    "weeks": "11\u201113,16\u201118",
+    "weeks": "11",
     "activity": "LetA",
     "occurrence": "01",
     "location": "RSES Jaeger 4",
     "locationID": "http://www.anu.edu.au/maps#search=jaeger&show=29285",
     "lat": -35.284423,
     "lon": 149.114702
+   },
+   {
+    "name": "EMSC4122_S1-LetA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "12\u201113,16\u201118",
+    "activity": "LetA",
+    "occurrence": "01",
+    "location": "RSES 2_Jaeger 8 1.11",
+    "locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31095",
+    "lat": -35.283954,
+    "lon": 149.115286
    },
    {
     "name": "EMSC4122_S1-LetB/01",
@@ -31302,13 +31328,26 @@
     "day": 3,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "11\u201113,16\u201118",
+    "weeks": "11",
     "activity": "LetC",
     "occurrence": "01",
     "location": "RSES Jaeger 4",
     "locationID": "http://www.anu.edu.au/maps#search=jaeger&show=29285",
     "lat": -35.284423,
     "lon": 149.114702
+   },
+   {
+    "name": "EMSC4122_S1-LetC/01",
+    "day": 3,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "12\u201113,16\u201118",
+    "activity": "LetC",
+    "occurrence": "01",
+    "location": "RSES 2_Jaeger 8 1.11",
+    "locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31095",
+    "lat": -35.283954,
+    "lon": 149.115286
    }
   ]
  },
@@ -31962,13 +32001,26 @@
     "day": 1,
     "start": "13:00",
     "finish": "16:00",
-    "weeks": "11\u201113,16\u201118",
+    "weeks": "11",
     "activity": "LetA",
     "occurrence": "01",
     "location": "RSES Jaeger 4",
     "locationID": "http://www.anu.edu.au/maps#search=jaeger&show=29285",
     "lat": -35.284423,
     "lon": 149.114702
+   },
+   {
+    "name": "EMSC8022_S1-LetA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "12\u201113,16\u201118",
+    "activity": "LetA",
+    "occurrence": "01",
+    "location": "RSES 2_Jaeger 8 1.11",
+    "locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31095",
+    "lat": -35.283954,
+    "lon": 149.115286
    },
    {
     "name": "EMSC8022_S1-LetB/01",
@@ -31988,13 +32040,26 @@
     "day": 3,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "11\u201113,16\u201118",
+    "weeks": "11",
     "activity": "LetC",
     "occurrence": "01",
     "location": "RSES Jaeger 4",
     "locationID": "http://www.anu.edu.au/maps#search=jaeger&show=29285",
     "lat": -35.284423,
     "lon": 149.114702
+   },
+   {
+    "name": "EMSC8022_S1-LetC/01",
+    "day": 3,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "12\u201113,16\u201118",
+    "activity": "LetC",
+    "occurrence": "01",
+    "location": "RSES 2_Jaeger 8 1.11",
+    "locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31095",
+    "lat": -35.283954,
+    "lon": 149.115286
    }
   ]
  },
@@ -42573,7 +42638,18 @@
     "day": 3,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "TutB",
+    "occurrence": "03",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "FREN3010_S1-TutB/03",
+    "day": 3,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201111",
     "activity": "TutB",
     "occurrence": "03",
     "location": "Hedley Bull Theatre 2",
@@ -51887,7 +51963,20 @@
     "day": 1,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "BPB W303",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "LING2008_S1-TutA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201111",
     "activity": "TutA",
     "occurrence": "01",
     "location": "BPB W120",
@@ -76757,10 +76846,23 @@
    },
    {
     "name": "STAT4040_S1-ComA/01",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "Peter Karmel 2.29 (Lab 2)",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "STAT4040_S1-ComA/01",
     "day": 4,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201111",
     "activity": "ComA",
     "occurrence": "01",
     "location": "COP G026",
@@ -77684,10 +77786,23 @@
    },
    {
     "name": "STAT7040_S1-ComA/01",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "Peter Karmel 2.29 (Lab 2)",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "STAT7040_S1-ComA/01",
     "day": 4,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201111",
     "activity": "ComA",
     "occurrence": "01",
     "location": "COP G026",
