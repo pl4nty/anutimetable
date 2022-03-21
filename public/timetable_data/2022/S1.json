@@ -24611,10 +24611,8 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Han 2.28",
-    "locationID": "http://www.anu.edu.au/maps#show=11313",
-    "lat": -35.276955,
-    "lon": 149.117796
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
@@ -34229,7 +34227,20 @@
     "day": 3,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "9\u201113,16\u201118",
+    "weeks": "16",
+    "activity": "PraA",
+    "occurrence": "02",
+    "location": "Birch 1.08 Teaching Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   },
+   {
+    "name": "ENGN2300_S1-PraA/02",
+    "day": 3,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "9\u201113,17\u201118",
     "activity": "PraA",
     "occurrence": "02",
     "location": "Birch 1.08 Teaching Lab",
@@ -71740,6 +71751,19 @@
     "occurrence": "16",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "PSYC2002_S1-PraA/17",
+    "day": 1,
+    "start": "16:30",
+    "finish": "18:30",
+    "weeks": "16",
+    "activity": "PraA",
+    "occurrence": "17",
+    "location": "PSYC 151",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    }
   ]
  },
