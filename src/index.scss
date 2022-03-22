@@ -8,16 +8,6 @@
     .fc-header-toolbar .fc-toolbar-title {
       margin: 1vh;
     }
-
-    /* override static width for week number */
-    .fc-timegrid-axis-cushion {
-      min-width: 0px !important;
-      /*max-width:*/
-    }
-
-    .fc-timegrid-slots .fc-timegrid-slot {
-      height: 80px;
-    }
   }
 
   .fc-header-toolbar .fc-toolbar-chunk {
@@ -26,9 +16,11 @@
   }
 }
 
+// this overrides @media
 .fc {
   .fc-timegrid-slots .fc-timegrid-slot {
-    height: 100px;
+    // Height of an 1 hour section where each link is (1 em * 0.85 * 0.85)
+    height: calc(3em * 0.85 * 0.85);
     border-bottom: 0 !important;
     vertical-align: top;
   }
@@ -66,15 +58,8 @@ iframe {
   display: none;
 }
 
-/* make it consistent with bootstrap styling */
-.timezone-select {
-  width: 100%;
-  margin-bottom: 1em;
-  cursor: text;
-}
-
 div[id^=react-select] {
-  z-index: 100000;
+  z-index: 1000;
   cursor: text;
 
   div {
@@ -129,6 +114,30 @@ div[id^=react-select] {
   }
   .justify-content-end {
     justify-content: flex-start !important;
+  }
+}
+
+:fullscreen {
+  @media (min-width: 600px) {
+    .btn.btn-primary {
+      // Move element to top of screen
+      margin-top: -0.1em;
+    }
+    // Hide the corners
+    .fc-prev-button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .fc-next-button {
+      border-top-right-radius: 0;
+    }
+    .fc-timeGridDay-button {
+      border-top-left-radius: 0;
+    }
+    .fc-fullScreen-button {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
   }
 }
 
@@ -250,6 +259,11 @@ div[id^=react-select] {
   font-weight: bold;
 }
 
+body[data-theme="light"] {
+  .fc {
+    background-color: white;
+  }
+}
 body[data-theme="dark"] {
   nav.navbar .navbar-text a {
     color: white;
@@ -286,7 +300,40 @@ body[data-theme="dark"] {
   }
 }
 
-.fc-event-main object {
-  width: 0;
-  height: 0;
+// BigSelect.js
+.custom-option.big-select__option {
+  transition: background 60ms;
+  // min-height: 60px;
+  display: flex;
+  align-items: center;
+}
+// .custom-option:hover {
+//   transition-delay: 60ms;
+//   background: #e2e6eb;
+// }
+// .custom-option.big-select__option--is-focused {
+//   background: #e2e6eb;
+// }
+// .custom-option.big-select__option--is-selected {
+//   background: #26c2ff;
+// }
+
+.fc-event-main p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.nav-item .dropdown-menu.show {
+  position: absolute;
+  z-index: 1500;
+  min-width: 5rem; // half of default, to avoid overflow
+}
+
+.dropdown-toggle.nav-link {
+  padding: 0.5rem;
+}
+
+#export-button {
+  flex-grow: 1;
 }

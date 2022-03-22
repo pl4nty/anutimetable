@@ -7,9 +7,12 @@ import listPlugin from '@fullcalendar/list'
 import rrulePlugin from '@fullcalendar/rrule'
 import luxonPlugin from '@fullcalendar/luxon'
 
+import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai'
+
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
+import { useMemo, useState, useEffect, useCallback } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -41,7 +44,7 @@ const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { even
       <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
     </div>
     <p>{event.title}</p>
-    <object>{locationLine}</object>
+    <p>{locationLine}</p>
     <p>{button}</p>
   </>
 }
@@ -53,6 +56,91 @@ const weekNumberCalculation = date => {
   return end - start + 1 // 0 weeks after start is week 1
 }
 
+const getEvents = timetableState => {
+  // Ensure we have data
+  if (!timetableState.selectedModules) return []
+  if (Object.keys(timetableState.timetableData).length === 0) return []
+  const newEvents = [];
+
+  // Iterate over each module and add the appropriate times to the calendar if needed
+  for (let i = 0; i < timetableState.selectedModules.length; i++) {
+    const { id } = timetableState.selectedModules[i];
+    let timetableData = timetableState.timetableData
+
+    // Which events are currently chosen?
+    // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
+    const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+
+    // Generate the events parameters
+    let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+
+    // Hide all but the valid occurrence
+    for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
+      if (module !== id) continue
+
+      eventsList.forEach((event, index) => {
+        if (event.groupId === groupId) {
+          if (parseInt(event.occurrence) === occurrence) {
+            eventsList[index].hasMultipleOccurrences = false
+          } else {
+            eventsList[index].display = 'none'
+          }
+        }
+      })
+    }
+
+    // Hide hidden occurrences
+    for (const [module, groupId, occurrence] of timetableState.hiddenEvents) {
+      if (module !== id) continue
+
+      eventsList.forEach((event, index) => {
+        if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
+          eventsList[index].display = 'none'
+        }
+      })
+    }
+
+    // Add event to the list
+    newEvents[i] = {
+      id,
+      color: stringToColor(id),
+      events: eventsList
+    }
+  }
+  return newEvents
+}
+
+const getLocaleStartFinishTime = (events, timeZone) => {
+  // 9 - 5 Workday
+  let startTime = DateTime.fromFormat('09:00', 'HH:mm', { zone: 'Australia/Sydney' })
+  // Exclusive times mean end of 7pm equals 8pm
+  let finishTime = DateTime.fromFormat('18:00', 'HH:mm', { zone: 'Australia/Sydney' })
+
+  // Find any events that push these default boundaries
+  events.forEach(eventList => {
+    eventList.events.forEach(e => {
+      if (e.display === 'auto') {
+        let start = DateTime.fromFormat(e.start, 'HH:mm', { zone: 'Australia/Sydney' })
+        let finish = DateTime.fromFormat(e.finish, 'HH:mm', { zone: 'Australia/Sydney' })
+        if (start < startTime) startTime = start
+        if (finish > finishTime) finishTime = finish
+      }
+    })
+  })
+
+  // Change the local to the users timezone
+  startTime = startTime.setZone(timeZone)
+  finishTime = finishTime.setZone(timeZone)
+
+  // Unfortunatly when an event wrappes around past midnight local time, we must show all of the calendar rows
+  if (startTime.hour >= finishTime.hour) {
+    startTime = DateTime.fromFormat('00:00', 'HH:mm')
+    finishTime = DateTime.fromFormat('23:59', 'HH:mm')
+  }
+
+  return [startTime.toLocaleString(DateTime.TIME_24_SIMPLE), finishTime.toLocaleString(DateTime.TIME_24_SIMPLE)]
+}
+
 export default function Calendar({ timetableState }) {
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
@@ -62,71 +150,38 @@ export default function Calendar({ timetableState }) {
       : new Date();
 
   // Where the events are stored
-  const events = [];
+  const events = useMemo(() => getEvents(timetableState), [timetableState])
+  const [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timetableState.timeZone), [events, timetableState.timeZone])
 
-  // Ensure we have data
-  if (timetableState.selectedModules && Object.keys(timetableState.timetableData).length !== 0) {
+  const [fullScreen, setFullScreen] = useState(false)
 
-    // Iterate over each module and add the appropriate times to the calendar if needed
-    for (let i = 0; i < timetableState.selectedModules.length; i++) {
-      const { id } = timetableState.selectedModules[i];
-      let timetableData = timetableState.timetableData
+  useEffect(() => {
+    const func = () => setFullScreen(!fullScreen)
+    document.addEventListener('fullscreenchange', func, false);
+    return () => document.removeEventListener('fullscreenchange', func, false)
+  }, [fullScreen])
 
-      // Which events are currently chosen?
-      // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
-      const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+  // Handler for calendar to display event content
+  const getEventContent = useCallback(e => formatEventContent(timetableState, e), [timetableState])
 
-      // Generate the events parameters
-      let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
-
-      // Hide all but the valid occurrence
-      for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
-        if (module !== id) continue
-
-        eventsList.forEach((event, index) => {
-          if (event.groupId === groupId) {
-            if (parseInt(event.occurrence) === occurrence) {
-              eventsList[index].hasMultipleOccurrences = false
-            } else {
-              eventsList[index].display = 'none'
-            }
-          }
-        })
-      }
-
-      // Hide hidden occurrences
-      for (const [module, groupId, occurrence] of timetableState.hiddenEvents) {
-        if (module !== id) continue
-
-        eventsList.forEach((event, index) => {
-          if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
-            eventsList[index].display = 'none'
-          }
-        })
-      }
-
-      // Add event to the list
-      events[i] = {
-        id,
-        color: stringToColor(id),
-        events: eventsList
-      }
-    }
-  }
+  const fullScreenClick = useCallback(() => {
+    if (fullScreen) document.exitFullscreen()
+    else document.getElementsByClassName('fc')[0].requestFullscreen()
+  }, [fullScreen])
 
   return <FullCalendar
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
-    //   expandRows={true}
-    height={'80vh'}
+    height='100%'
+    expandRows={true}
 
     eventSources={events}
 
     headerToolbar={{
       start: 'prev,next',
       center: 'title',
-      end: 'timeGridDay,timeGridWeek,dayGridMonth,listTwoDay'
+      end: 'timeGridDay,timeGridWeek,dayGridMonth,listTwoDay,fullScreen'
     }}
     buttonText={{
       today: 'Today',
@@ -136,16 +191,23 @@ export default function Calendar({ timetableState }) {
       week: 'Week',
       month: 'Month'
     }}
+    customButtons={{
+      fullScreen: {
+        text: fullScreen ? <AiOutlineFullscreenExit size='1.5em' /> : <AiOutlineFullscreen size='1.5em' />,
+        hint: fullScreen ? 'Exit FullScreen' : 'Enter FullScreen',
+        click: fullScreenClick
+      }
+    }}
 
     views={{
       timeGridDay: {
         titleFormat: { year: 'numeric', month: 'short', day: 'numeric' },
-        eventContent: e => formatEventContent(timetableState, e),
+        eventContent: getEventContent,
       },
       timeGridWeek: {
         weekends: true,
         dayHeaderFormat: { weekday: 'short' },
-        eventContent: e => formatEventContent(timetableState, e),
+        eventContent: getEventContent,
       },
       listTwoDay: {
         type: 'list',
@@ -154,7 +216,7 @@ export default function Calendar({ timetableState }) {
         listDayFormat: { weekday: 'long', month: 'short', day: 'numeric' },
         displayEventTime: true,
         weekends: true,
-        eventContent: e => formatEventContent(timetableState, e),
+        eventContent: getEventContent,
       },
       dayGridMonth: {
         weekNumberFormat: { week: 'short' }
@@ -172,7 +234,7 @@ export default function Calendar({ timetableState }) {
       second: '2-digit'
     })}
     scrollTimeReset={false}
-    slotDuration={'01:00:00'}
+    slotLabelClassNames={'slot-label'}
     nowIndicator
     navLinks
     // businessHours={{
@@ -182,6 +244,9 @@ export default function Calendar({ timetableState }) {
     // }}
     displayEventTime={false}
     defaultAllDay={false} // allDay=false required for non-string rrule inputs (eg Dates) https://github.com/fullcalendar/fullcalendar/issues/6689
+
+    slotEventOverlap={false}
+
 
     // Week 1 = start of semester
     weekNumbers
@@ -194,6 +259,9 @@ export default function Calendar({ timetableState }) {
     fixedWeekCount={false}
 
     timeZone={timetableState.timeZone}
+
+    slotMinTime={startTime}
+    slotMaxTime={finishTime}
 
     eventSourceFailure={err => console.error(err.message)}
   />

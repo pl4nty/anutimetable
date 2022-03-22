@@ -1,9 +1,9 @@
 import { useState, useEffect, useMemo, useReducer } from 'react'
-import { Container, Navbar } from 'react-bootstrap'
+import { Container, Navbar, Row, Col } from 'react-bootstrap'
 
 import FloatingActionButton from './FloatingActionButton'
 
-import Toolbar from './Toolbar'
+import Header from './Header'
 import Calendar from './Calendar'
 import { loadCachedQSIfNotExists, getInitialState, setQueryParam, appendQueryParamElement, popQueryParamElement, unsetQueryParam, fetchJsObject } from './utils'
 import { ApplicationInsights } from '@microsoft/applicationinsights-web'
@@ -49,7 +49,8 @@ let App = () => {
   }
 
   // Timezone string, like "Australia/Sydney"
-  const [timeZone, setTimeZone] = useState(localStorage.timeZone
+  const [timeZone, setTimeZone] = useState(
+    localStorage.timeZone
     // If localStorage is empty, use browser's timezone and handle UTC special case
     || Intl.DateTimeFormat()?.resolvedOptions()?.timeZone.replace(/^UTC$/, 'Etc/GMT')
     || 'Australia/Canberra' // Default to Canberra if API is missing (pre-2018 browsers)
@@ -189,30 +190,41 @@ let App = () => {
     hiddenDays,
   }
 
-  // fluid="xxl" is only supported in Bootstrap 5
-  return <Container fluid>
-    <h2 className="mt-2">ANU Timetable</h2>
-
-    <Toolbar API={API} timetableState={timetableState} />
-
-    <Calendar timetableState={timetableState} />
-
-    <Navbar>
-      <Navbar.Text>
-        Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
-        <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
-        (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
-        <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
-      </Navbar.Text>
-    </Navbar>
+  return <>
+    {/* // fluid="xxl" is only supported in Bootstrap 5 */}
+    <Container fluid className='d-flex flex-column vh-100 px-0'>
+      <Row className="m-0">
+        <Col className="p-0">
+          <Header API={API} timetableState={timetableState} />
+        </Col>
+      </Row>
+      <Row className="flex-column flex-grow-1 m-0 pt-3 pb-3">
+        <Col className="w-100">
+          <Calendar timetableState={timetableState} />
+        </Col>
+      </Row>
+      <Row className="m-0">
+        <Col className="p-0">
+          <Navbar>
+            <Navbar.Text>
+              Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
+              <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
+              (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
+              <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
+            </Navbar.Text>
+          </Navbar>
+        </Col>
+      </Row>
+    </Container>
 
     <FloatingActionButton {...{
       weekStart, setWeekStart,
       hiddenDays, setHiddenDays,
       darkMode, toggleDarkMode,
-      hidden: hiddenEvents, setHiddenEvents
+      hidden: hiddenEvents, setHiddenEvents, 
+      timeZone, setTimeZone
     }} />
-  </Container>
+  </>
 }
 
 // Analytics

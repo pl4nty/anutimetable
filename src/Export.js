@@ -9,16 +9,19 @@ const Export = ({ API, year, session }) => {
   const name = `ANU Timetable ${session} ${year}`
 
   return <DropdownButton
+    style={{flexGrow: 1}}
     as={InputGroup.Append}
-    variant='outline-primary'
+    alignRight
     title='Export'
+    variant='outline-primary'
+    id='export-button'
     onClick={() => setPath(`${API}/GetICS${window.location.search}`)}
   >
     <Dropdown.Item eventKey="web" target={"_blank"} rel={"noreferrer"}
       href={`webcal://${path}`}>
       <SiApple /> WebCal (eg iOS)
     </Dropdown.Item>
-    <Dropdown.Item eventKey="gcal" target={"_blank"} rel={"noreferrer"} 
+    <Dropdown.Item eventKey="gcal" target={"_blank"} rel={"noreferrer"}
       href={`https://www.google.com/calendar/render?cid=${encoded}`}>
       <SiGooglecalendar /> Google Calendar
     </Dropdown.Item>
