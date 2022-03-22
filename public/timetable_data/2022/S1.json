@@ -5183,7 +5183,20 @@
     "day": 3,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "06",
+    "location": "Coombs Seminar Room D 3.204",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "ASIA1035_S1-TutA/06",
+    "day": 3,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201111",
     "activity": "TutA",
     "occurrence": "06",
     "location": "Coombs Seminar Room F 3.304",
@@ -7164,7 +7177,7 @@
     "day": 4,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "9",
+    "weeks": "9,12",
     "activity": "LecA",
     "occurrence": "01",
     "location": "RN Robertson T",
@@ -50174,6 +50187,19 @@
     "occurrence": "15",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "LAWS2244_S1-WorA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "13",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    }
   ]
  },
@@ -51379,6 +51405,19 @@
     "occurrence": "01",
     "location": " prerecorded",
     "locationID": ""
+   },
+   {
+    "name": "LAWS6244_S1-WorA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "13",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS6244_S1-TutA/01",
