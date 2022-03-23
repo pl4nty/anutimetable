@@ -3897,16 +3897,27 @@
    },
    {
     "name": "LAWS4005_X1-SemA/01",
-    "day": 0,
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "16",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Moot Court T1,Moot Court T2 ",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS4005_X1-SemA/01",
+    "day": 2,
     "start": "08:00",
     "finish": "11:00",
     "weeks": "16",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Marie Reay 6.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "Hedley Bull Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
    },
    {
     "name": "LAWS4005_X1-SemB/01",
@@ -6058,16 +6069,27 @@
    },
    {
     "name": "VCPG6005_X1-SemA/01",
-    "day": 0,
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "16",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Moot Court T1,Moot Court T2 ",
+    "locationID": ""
+   },
+   {
+    "name": "VCPG6005_X1-SemA/01",
+    "day": 2,
     "start": "08:00",
     "finish": "11:00",
     "weeks": "16",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Marie Reay 6.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "Hedley Bull Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
    },
    {
     "name": "VCPG6005_X1-SemB/01",
@@ -6105,16 +6127,27 @@
    },
    {
     "name": "VCUG3005_X1-SemA/01",
-    "day": 0,
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "16",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Moot Court T1,Moot Court T2 ",
+    "locationID": ""
+   },
+   {
+    "name": "VCUG3005_X1-SemA/01",
+    "day": 2,
     "start": "08:00",
     "finish": "11:00",
     "weeks": "16",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Marie Reay 6.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "Hedley Bull Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
    },
    {
     "name": "VCUG3005_X1-SemB/01",
