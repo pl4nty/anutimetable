@@ -37203,10 +37203,10 @@
     "weeks": "11\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "20",
-    "location": "CSIT N108",
-    "locationID": "http://www.anu.edu.au/maps#show=11360",
-    "lat": -35.275345,
-    "lon": 149.120583
+    "location": "Ian Ross R214 Seminar Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11303",
+    "lat": -35.275684,
+    "lon": 149.120161
    },
    {
     "name": "ENGN8100_S1-TutA/20",
@@ -45822,7 +45822,7 @@
     "day": 6,
     "start": "17:00",
     "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201111",
     "activity": "PreLecA",
     "occurrence": "01",
     "location": " prerecorded",
@@ -45833,13 +45833,37 @@
     "day": 1,
     "start": "16:00",
     "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "BPB W303",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "INTR8069_S1-SemA/01",
+    "day": 1,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "8\u201111",
     "activity": "SemA",
     "occurrence": "01",
     "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
     "lat": -35.282541,
     "lon": 149.119238
+   },
+   {
+    "name": "INTR8069_S1-SemA/02",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "13,16\u201121",
+    "activity": "SemA",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "INTR8069_S1-TutA/01",
@@ -45866,6 +45890,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=11379",
     "lat": -35.282857,
     "lon": 149.119686
+   },
+   {
+    "name": "INTR8069_S1-TutA/02",
+    "day": 3,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "12\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": " on campus",
+    "locationID": ""
    }
   ]
  },
