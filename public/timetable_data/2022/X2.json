@@ -323,7 +323,7 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "5\u201114",
+    "weeks": "10\u201114",
     "activity": "LecA",
     "occurrence": "02",
     "location": "Physics Studio G1",
@@ -344,13 +344,26 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201126,29\u201138,41\u201147",
+    "weeks": "17\u201121,30\u201138,41\u201147",
     "activity": "LecA",
     "occurrence": "01",
     "location": "STB_S1 (3.07)",
     "locationID": "http://www.anu.edu.au/maps#show=11384",
     "lat": "-35.276241",
     "lon": "149.117144"
+   },
+   {
+    "name": "EXTN1002A_X2-LecA/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "22\u201126,29",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": "-35.277561",
+    "lon": "149.115905"
    }
   ]
  },
@@ -365,7 +378,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "5,7\u201114,17\u201126,29\u201138",
+    "weeks": "10\u201114,17\u201126,29\u201138",
     "activity": "LecA",
     "occurrence": "01",
     "location": "STB_S2 (3.02)",
@@ -433,7 +446,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "5\u201114",
+    "weeks": "10\u201114",
     "activity": "ComB",
     "occurrence": "01",
     "location": "Peter Karmel 2.28 (Lab 1)",
@@ -459,8 +472,8 @@
     "occurrence": "01",
     "location": "SRES T",
     "locationID": "http://www.anu.edu.au/maps#show=11437",
-    "lat": "-35.277561",
-    "lon": "149.115905"
+    "lat": -35.277561,
+    "lon": 149.115905
    }
   ]
  },
@@ -475,7 +488,7 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "5\u201114,17\u201126,29\u201138",
+    "weeks": "10\u201114,17\u201126,29\u201138",
     "activity": "ComA",
     "occurrence": "01",
     "location": "Gould 112",
@@ -640,7 +653,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "5\u201114",
+    "weeks": "10\u201114",
     "activity": "LecA",
     "occurrence": "02",
     "location": "Marie Reay 4.05",
@@ -850,7 +863,7 @@
     "day": 1,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "5\u201114,17\u201126,29\u201138",
+    "weeks": "10\u201114,17\u201126,29\u201138",
     "activity": "ComB",
     "occurrence": "01",
     "location": "HN Lab 1",
@@ -937,7 +950,7 @@
   ]
  },
  "INDG8004_X2": {
-  "title": "INDG8004_X2\u00a0Australian Indigenous Policy",
+  "title": "INDG8004_X2\u00a0First Nations Peoples and Public Policy in Australia",
   "id": "INDG8004_X2",
   "link": "",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
@@ -1075,7 +1088,7 @@
   ]
  },
  "INDG8005_X2": {
-  "title": "INDG8005_X2\u00a0Australian Indigenous Policy (Advanced)",
+  "title": "INDG8005_X2\u00a0First Nations Peoples and Public Policy in Australia (Advanced)",
   "id": "INDG8005_X2",
   "link": "",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
