@@ -3903,8 +3903,10 @@
     "weeks": "16",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 ",
-    "locationID": ""
+    "location": "Moot Court T1",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "LAWS4005_X1-SemA/01",
@@ -4269,8 +4271,10 @@
     "weeks": "6",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 on campus",
-    "locationID": ""
+    "location": "Moot Court T1",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "LAWS4343_X1-SemC/01",
@@ -4280,8 +4284,10 @@
     "weeks": "6",
     "activity": "SemC",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 on campus",
-    "locationID": ""
+    "location": "Moot Court T1",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "LAWS4343_X1-SemD/01",
@@ -4291,8 +4297,10 @@
     "weeks": "6",
     "activity": "SemD",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 on campus",
-    "locationID": ""
+    "location": "Moot Court T1",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "LAWS4343_X1-SemE/01",
@@ -6075,8 +6083,10 @@
     "weeks": "16",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 ",
-    "locationID": ""
+    "location": "Moot Court T1",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "VCPG6005_X1-SemA/01",
@@ -6133,8 +6143,10 @@
     "weeks": "16",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Moot Court T1,Moot Court T2 ",
-    "locationID": ""
+    "location": "Moot Court T1",
+    "locationID": "http://campusmap.anu.edu.au#show=106553",
+    "lat": -35.280305,
+    "lon": 149.118658
    },
    {
     "name": "VCUG3005_X1-SemA/01",
