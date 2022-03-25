@@ -63,6 +63,7 @@ jobs:
         # gets the session string (S1),  eg timetable_2022_S1.json
         run: |
           cd scraper
+          test -e ./timetable.json || exit
           mv -f ./timetable.json ../public/timetable_data/${YEAR}/${SESSION#* }.json
           mv -f ./timetable.min.json ../public/timetable_data/${YEAR}/${SESSION#* }.min.json
           git config user.name github-actions
