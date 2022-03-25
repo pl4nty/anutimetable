@@ -39,7 +39,8 @@ coursesPage.courseList = list(filter(lambda x: x[0].endswith(f"{SESSION_ID}"), c
 
 courseCount = len(coursesPage.courseList)
 print(f"Found {courseCount} courses.")
-
+if courseCount == 0:
+    sys.exit(0)
 
 body = coursesPage.getBody(SESSION_INDEX)
 body = [(k, v) for k, v in body.items()]
