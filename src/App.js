@@ -186,6 +186,10 @@ let App = () => {
 
   const [isPrintView, setIsPrintView] = useState(false)
 
+  useEffect(() => {
+    document.body.className = isPrintView ? 'print-view' : ''
+  }, [isPrintView])
+
   // const state = {
   //   timeZone, year, session, sessions, timetableData, modules, selectedModules, weekStart, darkMode,
   //   setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
@@ -227,7 +231,7 @@ let App = () => {
       weekStart, setWeekStart,
       hiddenDays, setHiddenDays,
       darkMode, toggleDarkMode,
-      hidden: hiddenEvents, setHiddenEvents, 
+      hidden: hiddenEvents, setHiddenEvents,
       timeZone, setTimeZone
     }} />
   </>

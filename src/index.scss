@@ -317,14 +317,18 @@ body[data-theme="dark"] {
     -webkit-print-color-adjust: exact;
   }
 
+  // A4 Sheet
+  .fc-view-harness {
+    height: 21cm;
+    max-height: 21cm;
+    width: 29.7cm;
+    font-size: 12pt;
+  }
+
+
   // hide toolbar (buttons)
   .fc-header-toolbar {
     display: none !important;
-  }
-
-  // grow calendar to fill page
-  .fc-view-harness {
-    max-height: 100vh;
   }
 
   // overflow across multiple pages
@@ -333,9 +337,13 @@ body[data-theme="dark"] {
     overflow: visible !important;
   }
 
-  .fc-timegrid-slots .fc-timegrid-slot,
-  .fc-timegrid-event-harness {
-    height: 2rem !important;
+  .fc {
+
+    .fc-timegrid-slots .fc-timegrid-slot,
+    .fc-timegrid-event-harness {
+      // Height of an 1 hour section where each link is (1 em * 0.85 * 0.85)
+      height: initial !important;
+    }
   }
 }
 

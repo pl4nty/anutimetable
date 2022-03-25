@@ -1,42 +1,74 @@
 import { useState, forwardRef } from 'react'
 import { Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
 import { SiApple, SiGooglecalendar, SiMicrosoftoutlook, SiMicrosoftexchange } from 'react-icons/si'
-import { BsFillCalendarWeekFill, BsFillPrinterFill, BsCardImage  } from 'react-icons/bs'
+import { BsFillCalendarWeekFill, BsFillPrinterFill, BsCardImage } from 'react-icons/bs'
 
-import { useReactToPrint } from 'react-to-print';
 import { toPng } from 'html-to-image';
+
+// Export types
+const EXPORT_DOWNLOAD = 0
+const EXPORT_PRINT = 1
 
 const Export = forwardRef(({ API, year, session, setIsPrintView }, calendar) => {
   const [path, setPath] = useState('')
-  const encoded = encodeURIComponent('http://'+path)
+  const encoded = encodeURIComponent('http://' + path)
   const name = `ANU Timetable ${session} ${year}`
-  const staticName = `${name} as of ${new Date().toLocaleDateString().replace(/(\/|\\)/g,'.')}`
+  const staticName = `${name} as of ${new Date().toLocaleDateString().replace(/(\/|\\)/g, '.')}`
 
-  const exportImage = converter => () => {
-    // can't use calendar.scrollToTime() because there's no getScollTime method - fullcalendar#5736
-    const scroller = document.querySelector('td[role="presentation"]>.fc-scroller-harness>.fc-scroller')
-    const { scrollTop } = scroller
+  const exportImage = exportType => () => {
+    setIsPrintView(true)
 
-    // set height to view whole timetable - should use props/class instead
-    const cal = document.querySelector('.fc-view-harness')
-    cal.style.minHeight = '270vh'
+    setTimeout(() => {
+      // can't use calendar.scrollToTime() because there's no getScollTime method - fullcalendar#5736
+      const scroller = document.querySelector('td[role="presentation"]>.fc-scroller-harness>.fc-scroller')
+      const { scrollTop } = scroller
 
-    converter(cal, {
-      cacheBust: true
-    }).then(dataUrl => {
-      const link = document.createElement('a')
-      link.download = `${staticName}.png`
-      link.href = dataUrl
-      link.click()
+      // set height to view whole timetable - should use props/class instead
+      const cal = document.querySelector('.fc-view-harness')
 
-      // reset height and scroll position
-      cal.style.minHeight = ''
-      scroller.scrollTop = scrollTop
-    })
+      toPng(cal, {
+        cacheBust: true,
+        backgroundColor: 'white',
+      }).then(dataUrl => {
+        if (exportType == EXPORT_DOWNLOAD) {
+          const link = document.createElement('a')
+          link.download = `${staticName}.png`
+          link.href = dataUrl
+          link.click()
+        } else if (exportType == EXPORT_PRINT) {
+          // Create a container iframe
+          const iframe = document.createElement('iframe');
+
+          // Hide the iframe
+          iframe.style.height = 0;
+          iframe.style.visibility = 'hidden';
+          iframe.style.width = 0;
+
+          // Create minimal skeleton for displaying the img
+          iframe.setAttribute('srcdoc', `<html><body><img src="${dataUrl}"/></body></html>`);
+
+          document.body.appendChild(iframe)
+
+          // Remove print iframe after printing
+          iframe.contentWindow.addEventListener('afterprint', () => {
+            document.body.removeChild(iframe)
+          })
+
+          // Once the iframe has loaded ask to print it
+          iframe.addEventListener('load', () => {
+            iframe.contentWindow.print()
+          })
+        }
+
+        // Reset to initial state
+        scroller.scrollTop = scrollTop
+        setIsPrintView(false)
+      })
+    }, 100);
   }
 
   return <DropdownButton
-    style={{flexGrow: 1}}
+    style={{ flexGrow: 1 }}
     as={InputGroup.Append}
     alignRight
     title='Export'
@@ -67,33 +99,10 @@ const Export = forwardRef(({ API, year, session, setIsPrintView }, calendar) => 
     <Dropdown.Item eventKey="ics" download={`${staticName}.ics`} href={`${window.location.protocol}//${path}`}>
       <BsFillCalendarWeekFill /> ICS file
     </Dropdown.Item>
-    <Dropdown.Item eventKey="print" onClick={useReactToPrint({
-      documentTitle: staticName,
-      content: () => calendar.current,
-      bodyClass: 'print-view',
-      pageStyle: '', // suppress default styles
-      onBeforeGetContent: () => {
-        setIsPrintView(true)
-
-        // updateSize() isn't a Promise, so we poll instead
-        // could use the Calendar's windowResize handler prop, but it wouldn't be pretty
-        const cal = document.querySelector('.fc-v-event') // TODO is this the ideal selector?
-        const height = cal.clientHeight // height might not change in certain screen dimensions
-        const poll = resolve => {
-          if (document.querySelector('.fc-v-event').clientHeight !== height) {
-            resolve()
-          } else {
-            setTimeout(() => poll(resolve), 300)
-          }
-        }
-        calendar.current.getApi().updateSize()
-        return new Promise(resolve => poll(resolve))
-      },
-      onAfterPrint: () => setIsPrintView(false)
-    })}>
+    <Dropdown.Item eventKey="print" onClick={exportImage(EXPORT_PRINT)}>
       <BsFillPrinterFill /> Print
     </Dropdown.Item>
-    <Dropdown.Item eventKey="png" onClick={exportImage(toPng)}>
+    <Dropdown.Item eventKey="png" onClick={exportImage(EXPORT_DOWNLOAD)}>
       <BsCardImage /> PNG image
     </Dropdown.Item>
   </DropdownButton>
