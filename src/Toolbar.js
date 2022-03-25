@@ -1,95 +1,113 @@
-import { forwardRef } from 'react'
+import { useMemo } from 'react'
 
-import { InputGroup, Dropdown, DropdownButton } from 'react-bootstrap'
-import { Token, Typeahead } from 'react-bootstrap-typeahead'
-import TimezoneSelect from 'react-timezone-select'
+import { InputGroup } from 'react-bootstrap'
+import { components } from 'react-select'
+import BigSelect from './BigSelect'
 
 import Export from './Export'
+import { stringToColor } from './utils'
 
-export default forwardRef(({ API, state: {
+export default function Toolbar({ API, timetableState: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
-  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules, setIsPrintView
-} }, calendar) => {
-  const selectYear = e => {
-    if (e === year) return
-    setSelectedModules([])
-    setYear(e)
-    // Assume ascending session order
-    setSession(sessions[e]?.[sessions[e].length-1] || '')
-  }
-  const selectSession = e => {
-    if (e === session) return
-    setSelectedModules([])
-    setSession(e)
-  }
+  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
+} }) {
+  const theme = theme => ({
+    ...theme,
+    colors: {
+      ...theme.colors,
+      neutral0: darkMode ? '#101214' : '#fff',
+      neutral10: darkMode ? theme.colors.neutral80 : theme.colors.neutral10,
+      neutral80: darkMode ? '#fff' : '#000',
+      primary25: darkMode ? '#343A40' : '#deebff',
+      primary: '#42A5FF',
+      primary50: darkMode ? '#343A40' : '#deebff',
+    }
+  })
 
-  return <>
-  <InputGroup className="mb-2">
-    <DropdownButton
-      as={InputGroup.Prepend}
-      variant="outline-primary"
-      title={year}
-    >
-      {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
-      {Object.keys(sessions).reverse().map(e => <Dropdown.Item key={e} onClick={() => selectYear(e)}>{e}</Dropdown.Item>)}
-    </DropdownButton>
+  const MultiValueLabel = props => <components.MultiValueLabel {...props}>
+    <a variant="link" size="sm" target="_blank" rel="noreferrer"
+      href={`http://programsandcourses.anu.edu.au/${year}/course/${props.data.value}`}
+      onMouseDown={e => e.stopPropagation()} // prevent dropdown from opening on href
+    >{props.data.value}</a> {/* use value (eg COMP1130) instead of label to save space */}
+  </components.MultiValueLabel>
 
-    <DropdownButton
-      as={InputGroup.Prepend}
-      variant="outline-primary"
-      title={session}
-    >
-      {sessions[year]?.map(e => <Dropdown.Item key={e} onClick={() => selectSession(e)}>{e}</Dropdown.Item>)}
-    </DropdownButton>
+  const options = useMemo(() => {
+    return Object.entries(modules).map(([id, { title }]) => ({ label: title, value: id }))
+  }, [modules])
+  const showExport = selectedModules.length !== 0
 
-    <Typeahead
-      id="course-search-box"
+  const styles = {
+    control: provided => ({
+      ...provided,
+      margin: '-1px',
+      ...(showExport && {
+        borderTopRightRadius: 0,
+        borderBottomRightRadius: 0
+      }),
+    }),
 
-      clearButton
-      emptyLabel="No matching courses found"
-      isLoading={Object.keys(modules).length === 0}
-      multiple
-      highlightOnlyResult
-      labelKey='title'
-      placeholder="Enter a course code here (for example LAWS1201)"
-      // Overwrite bad id property (eg LAWS1201_S1 -> LAWS1201)
-      options={Object.entries(modules).map(([id, val]) => ({...val, id}))}
-      onChange={setSelectedModules}
-      selected={selectedModules}
-      // modified from default: https://github.com/ericgio/react-bootstrap-typeahead/blob/8dcac67b57e9ee121f5a44f30c59346a32b66d48/src/components/Typeahead.tsx#L143-L156
-      renderToken={(option, props, idx) => <Token
-        disabled={props.disabled}
-        key={idx}
-        onRemove={props.onRemove}
-        option={option}
-        tabIndex={props.tabIndex}
-        href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
-      >
-        <a
-          href={`http://programsandcourses.anu.edu.au/${year}/course/${option.id}`}
-          target={"_blank"}
-          rel={"noreferrer"}
-        >{option.id}</a> {/** use id (eg COMP1130) instead of label to save space */}
-      </Token>}
-    />
+    container: provided => ({
+      ...provided,
+      flexGrow: 10,
+    }),
 
-    {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {selectedModules.length !== 0 && <Export {...{ API, year, session, setIsPrintView }} ref={calendar} />}
-  </InputGroup>
-  <TimezoneSelect
-    theme={(theme)=>({
-      ...theme,
-      colors: {
-        ...theme.colors,
-        neutral0: darkMode ? '#101214' : '#fff',
-        neutral80: darkMode ? '#fff' : '#000',
-        primary25: darkMode ? '#343A40' : '#deebff',
-        primary: darkMode ? '#42A5FF' : '#1854A2',
+    multiValue: (provided, { data }) => ({
+      ...provided,
+      backgroundColor: stringToColor(data.value),
+    }),
+
+    multiValueLabel: provided => ({
+      ...provided,
+      a: {
+        color: 'white'
       }
-    })}
-    className='timezone-select mb-2'
-    value={timeZone}
-    onChange={tz => setTimeZone(tz.value)}
-  />
-  </>
-})
+    }),
+
+    multiValueRemove: provided => ({
+      ...provided,
+      color: 'white',
+    }),
+
+    option: provided => ({
+      ...provided,
+      ':hover': {
+        transitionDelay: '30ms',
+        background: provided[':active'].backgroundColor
+      },
+    }),
+  }
+
+  return <InputGroup /* style={{ maxWidth: 'none !important', /*flexBasis: 'fit-content' }} */>
+    <BigSelect
+      className="border"
+      styles={styles}
+      isMulti
+      isSearchable
+
+      autoFocus
+      // controlShouldRenderValue broken?
+      blurInputOnSelect={false}
+      closeMenuOnSelect
+      // openMenuOnClick={false}
+      // captureMenuScroll overriden by BigSelect
+      // closeMenuOnScroll broken?
+      backspaceRemovesValue
+      escapeClearsValue
+      tabSelectsValue
+
+      isLoading={Object.keys(modules).length === 0}
+      loadingMessage={() => 'Loading courses...'}
+      noOptionsMessage={() => 'No matching courses found'}
+
+      theme={theme}
+      // formatOptionLabel={({ label, value }, { context }) => context === "value" ? value : label}
+      components={{ MultiValueLabel }}
+
+      value={selectedModules.map(({ title, id }) => ({ label: title, value: id }))}
+      onChange={n => setSelectedModules(n.map(option => ({ ...option, id: option.value })))}
+      options={options}
+    />
+    {/* somehow there's no NPM module for this. maybe I should write one? */}
+    {showExport && <Export API={API} year={year} session={session} />}
+  </InputGroup >
+}

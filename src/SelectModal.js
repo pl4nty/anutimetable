@@ -5,15 +5,17 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
   const hide = () => onHide(selected)
 
   // if single-select, return selection as singleton array for consistency
-  const singleSelect = multiple ? undefined : e => {
-    setSelected([+e.target.value])
-    onChange([+e.target.value])
+  const singleSelect = e => {
+    const options = Array.from(e.target.selectedOptions).map(o => +o.value)
+    setSelected(options)
+    onChange(options)
   }
 
   // if multi-select, prevent clearing existing selections
   // allows multiple selections without pressing ctrl
   const multiSelect = !multiple ? undefined : e => {
     e.preventDefault()
+    e.stopPropagation()
     const newSelect = +e.target.value
     const index = selected.indexOf(newSelect)
     const newSelection = e.target.selected ? [...selected.slice(0, index), ...selected.slice(index+1)] : [...selected, newSelect]
@@ -24,7 +26,7 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
 
   const [selected, setSelected] = useState([])
 
-  return <Modal size="xl" centered show={visible} onHide={hide} {...props}>
+  return <Modal size="md" centered show={visible} onHide={hide} {...props}>
     <Modal.Header closeButton>
       <Modal.Title>{title}</Modal.Title>
     </Modal.Header>
@@ -32,7 +34,7 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
       <Form inline={inline}>
         <Form.Label>{label}</Form.Label>
         <Form.Control as="select" custom multiple={multiple} defaultValue={value} onChange={singleSelect}>
-          {options.map(([ key, value ]) => <option key={key} value={key} onMouseDown={multiSelect}>
+          {options.map(([ key, value ]) => <option key={key} value={key} onPointerDown={multiSelect}>
             {value}
           </option>)}
         </Form.Control>

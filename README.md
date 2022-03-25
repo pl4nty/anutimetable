@@ -33,6 +33,13 @@ This is an unofficial alternative timetable viewer for the Australian National U
 
 ## Changelog
 
+### 2022-03-22
+- New responsive UI redesign thanks to [@pl4nty](https://github.com/pl4nty), [@CraftyDH](https://github.com/CraftyDH) and [@ashleylamont](https://github.com/ashleylamont)
+
+### 2022-02-14
+- Caching of selected classes and tutorials thanks to [@CraftyDH](https://github.com/CraftyDH)
+- Removed the service worker for faster updates thanks to [@OliverBalfour](https://github.com/OliverBalfour)
+
 ### 2022-01-13
 - Another rewrite in React thanks to [@pl4nty](https://github.com/pl4nty)
 - Migrated into the [ANU Computer Science Students' Association](https://cssa.club/)'s [GitHub organisation](https://github.com/anucssa) for ongoing maintenance

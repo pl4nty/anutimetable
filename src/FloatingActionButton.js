@@ -2,11 +2,12 @@ import { useState } from 'react'
 
 import FABAction from './FABAction'
 import SelectModal from './SelectModal'
-import { Button } from 'react-bootstrap'
+import { Button, Modal } from 'react-bootstrap'
 
 import { RiSettings4Fill, RiCloseLine, RiMoonFill, RiSunFill, RiCalendar2Fill } from 'react-icons/ri'
 import { MdRemoveRedEye } from 'react-icons/md'
-import { BsCalendarWeek } from 'react-icons/bs'
+import { BsCalendarWeek, BsClock } from 'react-icons/bs'
+import TimezoneSelect from 'react-timezone-select/dist'
 
 // [["0","Sunday"]...]
 const daysOfWeek = Object.entries(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'])
@@ -23,7 +24,7 @@ const WeekStartAction = ({ setMenuOpen, setWeekStart, weekStart, hiddenDays }) =
         setMenuOpen(false)
       }}
     />
-    <SelectModal 
+    <SelectModal
       title='Calendar Start of Week'
       label='The weekly calendar starts on&nbsp;'
       visible={weekStartOpen}
@@ -69,22 +70,65 @@ const HiddenDaysAction = ({ setMenuOpen, setHiddenDays, hiddenDays }) => {
   </>
 }
 
+
+const TimeZoneAction = ({ setMenuOpen, setTimeZone, timeZone, darkMode }) => {
+  const [timeZoneOpen, setTimeZoneOpen] = useState(false)
+
+  const theme = theme => ({
+    ...theme,
+    colors: {
+      ...theme.colors,
+      neutral0: darkMode ? '#101214' : '#fff',
+      neutral80: darkMode ? '#fff' : '#000',
+      primary25: darkMode ? '#343A40' : '#deebff',
+      primary: '#42A5FF',
+    }
+  })
+
+  return <>
+    <FABAction
+      className='fab-action'
+      title='Change Timezone'
+      content={<BsClock size='1.25em' className='m-1' />}
+      onClick={() => {
+        setTimeZoneOpen(true)
+        setMenuOpen(false)
+      }}
+    />
+
+    <Modal size="xl" centered show={timeZoneOpen} onHide={() => setTimeZoneOpen(false)}>
+      <Modal.Header closeButton>
+        <Modal.Title>Change the timezone</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <TimezoneSelect theme={theme} value={timeZone} onChange={tz => setTimeZone(tz.value)} />
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={() => setTimeZoneOpen(false)}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  </>
+}
+
+
 const DarkModeAction = ({ darkMode, toggleDarkMode }) => <FABAction
   title='Toggle Dark Mode'
   content={darkMode ? <RiMoonFill size='1.5em' /> : <RiSunFill size='1.5em' />}
   onClick={toggleDarkMode}
 />
 
-const HiddenOccurrencesAction = ({ setMenuOpen, hiddenOccurrences, setHiddenOccurrences }) => <FABAction
-  title={`Show ${hiddenOccurrences.length} Hidden Event${hiddenOccurrences.length > 1 ? 's' : ''}`}
+const HiddenOccurrencesAction = ({ setMenuOpen, hidden, setHiddenEvents }) => <FABAction
+  title={`Show ${hidden.length} Hidden Event${hidden.length > 1 ? 's' : ''}`}
   content={<MdRemoveRedEye size='1.5em' />}
   onClick={() => {
-    setHiddenOccurrences([])
+    setHiddenEvents([])
     setMenuOpen(false)
   }}
 />
 
-const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hiddenOccurrences, setHiddenOccurrences }) => {
+const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDays, darkMode, toggleDarkMode, hidden, setHiddenEvents, timeZone, setTimeZone }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   return <div
     className={'fab' + (menuOpen ? ' fab--open' : '')}
@@ -99,10 +143,11 @@ const FloatingActionButton = ({ weekStart, setWeekStart, hiddenDays, setHiddenDa
       {menuOpen ? <RiCloseLine size='2em' /> : <RiSettings4Fill size='2em' />}
     </Button>
     <div className='fab-actions'>
-      <WeekStartAction {...{setMenuOpen, weekStart, setWeekStart, hiddenDays}} />
-      <HiddenDaysAction {...{setMenuOpen, hiddenDays, setHiddenDays}} />
-      <DarkModeAction {...{darkMode, toggleDarkMode}} />
-      {hiddenOccurrences.length ? <HiddenOccurrencesAction {...{setMenuOpen, hiddenOccurrences, setHiddenOccurrences}} /> : <></>}
+      <WeekStartAction {...{ setMenuOpen, weekStart, setWeekStart, hiddenDays }} />
+      <HiddenDaysAction {...{ setMenuOpen, hiddenDays, setHiddenDays }} />
+      <TimeZoneAction {...{ setMenuOpen, timeZone, setTimeZone, darkMode }} />
+      <DarkModeAction {...{ darkMode, toggleDarkMode }} />
+      {hidden.length ? <HiddenOccurrencesAction {...{ setMenuOpen, hidden, setHiddenEvents }} /> : <></>}
     </div>
   </div>
 }
