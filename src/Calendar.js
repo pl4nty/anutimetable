@@ -239,7 +239,8 @@ export default function Calendar({ timetableState }) {
     })}
     scrollTimeReset={false}
     slotLabelClassNames={'slot-label'}
-    nowIndicator
+    // Don't show indicator in print view
+    nowIndicator={!timetableState.isPrintView}
     navLinks
     // businessHours={{
     //   daysOfWeek: [1, 2, 3, 4, 5],

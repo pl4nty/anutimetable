@@ -325,25 +325,16 @@ body[data-theme="dark"] {
     font-size: 12pt;
   }
 
-
-  // hide toolbar (buttons)
-  .fc-header-toolbar {
-    display: none !important;
+  // Reset the height because by default there is enough space for two lines
+  // and we remove Choose/Reset buttons in print view
+  .fc-timegrid-slots .fc-timegrid-slot,
+  .fc-timegrid-event-harness {
+    height: initial !important;
   }
 
-  // overflow across multiple pages
-  .fc-scroller-harness,
-  .fc-scroller {
-    overflow: visible !important;
-  }
-
-  .fc {
-
-    .fc-timegrid-slots .fc-timegrid-slot,
-    .fc-timegrid-event-harness {
-      // Height of an 1 hour section where each link is (1 em * 0.85 * 0.85)
-      height: initial !important;
-    }
+  // Kill backgound yellow of current day
+  .fc-timegrid-col.fc-day-today {
+    background-color: initial !important;
   }
 }
 

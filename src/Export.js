@@ -30,12 +30,12 @@ const Export = forwardRef(({ API, year, session, setIsPrintView }, calendar) => 
         cacheBust: true,
         backgroundColor: 'white',
       }).then(dataUrl => {
-        if (exportType == EXPORT_DOWNLOAD) {
+        if (exportType === EXPORT_DOWNLOAD) {
           const link = document.createElement('a')
           link.download = `${staticName}.png`
           link.href = dataUrl
           link.click()
-        } else if (exportType == EXPORT_PRINT) {
+        } else if (exportType === EXPORT_PRINT) {
           // Create a container iframe
           const iframe = document.createElement('iframe');
 
