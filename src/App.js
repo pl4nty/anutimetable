@@ -185,6 +185,7 @@ let App = () => {
   }, []);
 
   const [isPrintView, setIsPrintView] = useState(false)
+  const [printViewCaptureFirstSection, setPrintViewCaptureFirstSection] = useState(true)
 
   useEffect(() => {
     document.body.className = isPrintView ? 'print-view' : ''
@@ -197,7 +198,7 @@ let App = () => {
   const timetableState = {
     timeZone, year, session, sessions, specifiedOccurrences, hiddenEvents, timetableData, modules, selectedModules, weekStart, darkMode,
     setTimeZone, setYear, setSession, setSessions, setSpecifiedOccurrences, setHiddenEvents, setTimetableData, setModules, setSelectedModules,
-    hiddenDays, isPrintView, setIsPrintView
+    hiddenDays, isPrintView, setIsPrintView, printViewCaptureFirstSection, setPrintViewCaptureFirstSection
   }
 
   return <>

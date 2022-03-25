@@ -9,14 +9,61 @@ import { toPng } from 'html-to-image';
 const EXPORT_DOWNLOAD = 0
 const EXPORT_PRINT = 1
 
-const Export = forwardRef(({ API, year, session, setIsPrintView }, calendar) => {
+
+const Export = forwardRef(({ API, year, session, setIsPrintView, printViewCaptureFirstSection, setPrintViewCaptureFirstSection }, calendar) => {
   const [path, setPath] = useState('')
   const encoded = encodeURIComponent('http://' + path)
+
   const name = `ANU Timetable ${session} ${year}`
   const staticName = `${name} as of ${new Date().toLocaleDateString().replace(/(\/|\\)/g, '.')}`
 
+  const exportDownload = (exportType, image1, image2) => {
+    if (exportType === EXPORT_DOWNLOAD) {
+      const linka = document.createElement('a')
+      linka.download = `${staticName}.png`
+      linka.href = image1
+      linka.click()
+      if (image2) {
+        const linkb = document.createElement('a')
+        linkb.download = `${staticName}-2.png`
+        linkb.href = image2
+        linkb.click()
+      }
+    } else if (exportType === EXPORT_PRINT) {
+      // Create a container iframe
+      const iframe = document.createElement('iframe');
+
+      // Hide the iframe
+      iframe.style.height = 0;
+      iframe.style.visibility = 'hidden';
+      iframe.style.width = 0;
+
+      // Create minimal skeleton for displaying the img
+      let html = !!image2 ? `<img src="${image1}"/><img src="${image2}"/>` : `<img src="${image1}"/>`
+
+      iframe.setAttribute('srcdoc', `<html><body>${html}</body></html>`);
+
+      document.body.appendChild(iframe)
+
+      // Remove print iframe after printing
+      iframe.contentWindow.addEventListener('afterprint', () => {
+        document.body.removeChild(iframe)
+      })
+
+      // Once the iframe has loaded ask to print it
+      iframe.addEventListener('load', () => {
+        iframe.contentWindow.print()
+      })
+    }
+  }
+
+
   const exportImage = exportType => () => {
     setIsPrintView(true)
+    setPrintViewCaptureFirstSection(true)
+
+    // Globals are needed as I can't work out how to update react state from a timeout
+    window.secondPictureNeeded = false
 
     setTimeout(() => {
       // can't use calendar.scrollToTime() because there's no getScollTime method - fullcalendar#5736
@@ -29,40 +76,30 @@ const Export = forwardRef(({ API, year, session, setIsPrintView }, calendar) => 
       toPng(cal, {
         cacheBust: true,
         backgroundColor: 'white',
-      }).then(dataUrl => {
-        if (exportType === EXPORT_DOWNLOAD) {
-          const link = document.createElement('a')
-          link.download = `${staticName}.png`
-          link.href = dataUrl
-          link.click()
-        } else if (exportType === EXPORT_PRINT) {
-          // Create a container iframe
-          const iframe = document.createElement('iframe');
+      }).then(image1 => {
+        if (window.secondPictureNeeded) {
+          // Tell the calendar to render the second picture
+          setPrintViewCaptureFirstSection(false)
 
-          // Hide the iframe
-          iframe.style.height = 0;
-          iframe.style.visibility = 'hidden';
-          iframe.style.width = 0;
+          setTimeout(() => {
+            toPng(cal, {
+              cacheBust: true,
+              backgroundColor: 'white',
+            }).then(image2 => {
+              exportDownload(exportType, image1, image2)
 
-          // Create minimal skeleton for displaying the img
-          iframe.setAttribute('srcdoc', `<html><body><img src="${dataUrl}"/></body></html>`);
+              // Reset to initial state
+              scroller.scrollTop = scrollTop
+              setIsPrintView(false)
+            })
+          }, 50)
+        } else {
+          exportDownload(exportType, image1, null)
 
-          document.body.appendChild(iframe)
-
-          // Remove print iframe after printing
-          iframe.contentWindow.addEventListener('afterprint', () => {
-            document.body.removeChild(iframe)
-          })
-
-          // Once the iframe has loaded ask to print it
-          iframe.addEventListener('load', () => {
-            iframe.contentWindow.print()
-          })
+          // Reset to initial state
+          scroller.scrollTop = scrollTop
+          setIsPrintView(false)
         }
-
-        // Reset to initial state
-        scroller.scrollTop = scrollTop
-        setIsPrintView(false)
       })
     }, 100);
   }

@@ -152,7 +152,21 @@ export default function Calendar({ timetableState }) {
 
   // Where the events are stored
   const events = useMemo(() => getEvents(timetableState), [timetableState])
-  const [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timetableState.timeZone), [events, timetableState.timeZone])
+  let [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timetableState.timeZone), [events, timetableState.timeZone])
+
+  if (timetableState.isPrintView) {
+    if (startTime === '00:00' &&
+      finishTime === '23:59') {
+      window.secondPictureNeeded = true
+
+      if (timetableState.printViewCaptureFirstSection) {
+        finishTime = '12:00'
+      } else {
+        startTime = '12:00'
+      }
+    }
+  }
+
 
   const [fullScreen, setFullScreen] = useState(false)
 

@@ -9,7 +9,7 @@ import { stringToColor } from './utils'
 
 export default function Toolbar({ API, timetableState: {
   timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
-  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules, setIsPrintView
+  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules, setIsPrintView, printViewCaptureFirstSection, setPrintViewCaptureFirstSection
 } }) {
   const theme = theme => ({
     ...theme,
@@ -108,6 +108,6 @@ export default function Toolbar({ API, timetableState: {
       options={options}
     />
     {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {showExport && <Export API={API} year={year} session={session} setIsPrintView={setIsPrintView} />}
+    {showExport && <Export API={API} year={year} session={session} setIsPrintView={setIsPrintView} printViewCaptureFirstSection={printViewCaptureFirstSection} setPrintViewCaptureFirstSection={setPrintViewCaptureFirstSection} />}
   </InputGroup >
 }
