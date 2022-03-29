@@ -41292,27 +41292,29 @@
    },
    {
     "name": "FINM7003_S1-TutA/01",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
+    "name": "FINM7003_S1-TutA/01",
     "day": 2,
     "start": "17:00",
     "finish": "18:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201113",
     "activity": "TutA",
     "occurrence": "01",
     "location": "CBE TR2",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
-   },
-   {
-    "name": "FINM7003_S1-TutA/02",
-    "day": 3,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
    }
   ]
  },
@@ -62429,6 +62431,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11295",
     "lat": -35.277596,
     "lon": 149.122472
+   },
+   {
+    "name": "MKTG3023_S1-SemA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "13",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "CBE LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    }
   ]
  },
@@ -78213,9 +78228,9 @@
    },
    {
     "name": "STAT6013_S1-TutA/01",
-    "day": 1,
-    "start": "15:00",
-    "finish": "16:00",
+    "day": 3,
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "11,16\u201117",
     "activity": "TutA",
     "occurrence": "01",
@@ -78235,10 +78250,23 @@
    },
    {
     "name": "STAT6013_S1-TutA/02",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "13,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "Arndt TR2",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
+   },
+   {
+    "name": "STAT6013_S1-TutA/02",
     "day": 2,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201112",
     "activity": "TutA",
     "occurrence": "02",
     "location": "Arndt TR5",
@@ -78544,9 +78572,9 @@
    },
    {
     "name": "STAT6039_S1-TutA/01",
-    "day": 1,
-    "start": "15:00",
-    "finish": "16:00",
+    "day": 3,
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "11,16\u201117",
     "activity": "TutA",
     "occurrence": "01",
@@ -78566,10 +78594,23 @@
    },
    {
     "name": "STAT6039_S1-TutA/02",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "13,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "Arndt TR2",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
+   },
+   {
+    "name": "STAT6039_S1-TutA/02",
     "day": 2,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201112",
     "activity": "TutA",
     "occurrence": "02",
     "location": "Arndt TR5",
