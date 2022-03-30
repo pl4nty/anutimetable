@@ -744,6 +744,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
+   },
+   {
+    "name": "EXTN1010B_X2-LecA/02",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "13",
+    "activity": "LecA",
+    "occurrence": "02",
+    "location": "BPB ETC Studio 3 Yellow",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
