@@ -49736,6 +49736,19 @@
     "occurrence": "23",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "LAWS1205_S1-WorA/01",
+    "day": 3,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "16\u201121",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Fellows Road Law Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": -35.280217,
+    "lon": 149.119061
    }
   ]
  },
@@ -51536,6 +51549,19 @@
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "LAWS6105_S1-WorA/01",
+    "day": 3,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "16\u201121",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Fellows Road Law Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": -35.280217,
+    "lon": 149.119061
    },
    {
     "name": "LAWS6105_S1-TutA/01",
@@ -73383,6 +73409,19 @@
     "lon": 149.117814
    },
    {
+    "name": "PSYC3016_S1-PraA/06",
+    "day": 3,
+    "start": "17:00",
+    "finish": "20:00",
+    "weeks": "13,17,19,21",
+    "activity": "PraA",
+    "occurrence": "06",
+    "location": "PSYC 149",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
+   },
+   {
     "name": "PSYC3016_S1-PraA/07",
     "day": 2,
     "start": "14:00",
@@ -73390,6 +73429,19 @@
     "weeks": "13,17,19,21",
     "activity": "PraA",
     "occurrence": "07",
+    "location": "PSYC 149",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
+   },
+   {
+    "name": "PSYC3016_S1-PraA/08",
+    "day": 4,
+    "start": "17:00",
+    "finish": "20:00",
+    "weeks": "13,17,19,21",
+    "activity": "PraA",
+    "occurrence": "08",
     "location": "PSYC 149",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
@@ -73819,6 +73871,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
+   },
+   {
+    "name": "PSYC4011_S1-WorC/01",
+    "day": 4,
+    "start": "09:30",
+    "finish": "14:00",
+    "weeks": "16",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": "PSYC G8",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    }
   ]
  },
@@ -73907,6 +73972,19 @@
     "lon": 149.117814
    },
    {
+    "name": "PSYC6016_S1-PraA/06",
+    "day": 3,
+    "start": "17:00",
+    "finish": "20:00",
+    "weeks": "13,17,19,21",
+    "activity": "PraA",
+    "occurrence": "06",
+    "location": "PSYC 149",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
+   },
+   {
     "name": "PSYC6016_S1-PraA/07",
     "day": 2,
     "start": "14:00",
@@ -73914,6 +73992,19 @@
     "weeks": "13,17,19,21",
     "activity": "PraA",
     "occurrence": "07",
+    "location": "PSYC 149",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
+   },
+   {
+    "name": "PSYC6016_S1-PraA/08",
+    "day": 4,
+    "start": "17:00",
+    "finish": "20:00",
+    "weeks": "13,17,19,21",
+    "activity": "PraA",
+    "occurrence": "08",
     "location": "PSYC 149",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
