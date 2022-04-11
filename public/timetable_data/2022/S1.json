@@ -23404,6 +23404,79 @@
    }
   ]
  },
+ "COMP8260_S1": {
+  "title": "COMP8260_S1\u00a0Professional Practice 2",
+  "id": "COMP8260_S1",
+  "link": "",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "COMP8260_S1-LecA/01",
+    "day": 1,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "17\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Marie Reay 6.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "COMP8260_S1-WorA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP8260_S1-WorA/02",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "Birch 1.29 Teaching Instrumentation Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   },
+   {
+    "name": "COMP8260_S1-WorA/03",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "03",
+    "location": "Birch 1.33 Teaching Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   },
+   {
+    "name": "COMP8260_S1-WorA/04",
+    "day": 3,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "04",
+    "location": "Birch 1.33 Teaching Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   }
+  ]
+ },
  "COMP8300_S1": {
   "title": "COMP8300_S1\u00a0Parallel Systems",
   "id": "COMP8300_S1",
@@ -37815,6 +37888,79 @@
     "weeks": "8",
     "activity": "WorA",
     "occurrence": "01",
+    "location": "Birch 1.33 Teaching Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   }
+  ]
+ },
+ "ENGN8260_S1": {
+  "title": "ENGN8260_S1\u00a0Professional Practice 2",
+  "id": "ENGN8260_S1",
+  "link": "",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "ENGN8260_S1-LecA/01",
+    "day": 1,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "17\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Marie Reay 6.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "ENGN8260_S1-WorA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "ENGN8260_S1-WorA/02",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "Birch 1.29 Teaching Instrumentation Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   },
+   {
+    "name": "ENGN8260_S1-WorA/03",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "03",
+    "location": "Birch 1.33 Teaching Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   },
+   {
+    "name": "ENGN8260_S1-WorA/04",
+    "day": 3,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "17\u201121",
+    "activity": "WorA",
+    "occurrence": "04",
     "location": "Birch 1.33 Teaching Lab",
     "locationID": "http://www.anu.edu.au/maps#show=28991",
     "lat": -35.274397,
