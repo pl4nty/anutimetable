@@ -13979,40 +13979,6 @@
    }
   ]
  },
- "CBEA3001_S1": {
-  "title": "CBEA3001_S1\u00a0College of Business and Economics Special Industry Project",
-  "id": "CBEA3001_S1",
-  "link": "",
-  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CBEA3001_S1-SemA/01",
-    "day": 1,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "CBE LT 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "CBEA3001_S1-TutA/01",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "CBE LT 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   }
-  ]
- },
  "CBEA3070_S1": {
   "title": "CBEA3070_S1\u00a0ANU College of Business and Economics Internship Program (UG)",
   "id": "CBEA3070_S1",
@@ -35451,13 +35417,26 @@
     "day": 1,
     "start": "13:00",
     "finish": "16:00",
-    "weeks": "12\u201113,16\u201117",
+    "weeks": "12\u201113",
     "activity": "PraA",
     "occurrence": "01",
     "location": "Birch 1.35 Teaching Lab",
     "locationID": "http://www.anu.edu.au/maps#show=28991",
     "lat": -35.274397,
     "lon": 149.119323
+   },
+   {
+    "name": "ENGN3339_S1-PraA/01",
+    "day": 1,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "17,19,21",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "ENGN 101",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": -35.276172,
+    "lon": 149.11994
    },
    {
     "name": "ENGN3339_S1-TutA/01",
@@ -50432,10 +50411,21 @@
    },
    {
     "name": "LAWS2201_S1-SemA/05",
+    "day": 0,
+    "start": "19:00",
+    "finish": "22:00",
+    "weeks": "18",
+    "activity": "SemA",
+    "occurrence": "05",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS2201_S1-SemA/05",
     "day": 2,
     "start": "19:00",
     "finish": "22:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201113,16\u201117,19\u201121",
     "activity": "SemA",
     "occurrence": "05",
     "location": " online live",
@@ -51982,10 +51972,21 @@
    },
    {
     "name": "LAWS6201_S1-SemA/05",
+    "day": 0,
+    "start": "19:00",
+    "finish": "22:00",
+    "weeks": "18",
+    "activity": "SemA",
+    "occurrence": "05",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS6201_S1-SemA/05",
     "day": 2,
     "start": "19:00",
     "finish": "22:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201113,16\u201117,19\u201121",
     "activity": "SemA",
     "occurrence": "05",
     "location": " online live",
