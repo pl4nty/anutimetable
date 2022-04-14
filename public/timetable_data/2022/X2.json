@@ -951,26 +951,26 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "13",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "BPB ETC Studio 3 Yellow",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
-    "name": "EXTN1010A_X2-LecA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "14,17\u201126,29\u201138,41\u201147",
+    "weeks": "13\u201114,17\u201124,44\u201146",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Peter Karmel 2.29 (Lab 2)",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
+   },
+   {
+    "name": "EXTN1010A_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "25\u201126,29\u201138,41\u201143,47",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 3 Yellow",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    },
    {
     "name": "EXTN1010A_X2-LecA/01",
@@ -998,26 +998,26 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "13",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "BPB ETC Studio 3 Yellow",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   },
-   {
-    "name": "EXTN1010B_X2-LecA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "14,17\u201126,29\u201138,41\u201147",
+    "weeks": "13\u201114,17\u201124,44\u201146",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Peter Karmel 2.29 (Lab 2)",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
+   },
+   {
+    "name": "EXTN1010B_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "25\u201126,29\u201138,41\u201143,47",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 3 Yellow",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1010B_X2-LecA/01",
@@ -1186,27 +1186,6 @@
    }
   ]
  },
- "EXTN1020A_X2": {
-  "title": "EXTN1020A_X2\u00a0ANU Extension Global Perspectives in Commerce A",
-  "id": "EXTN1020A_X2",
-  "link": "",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "EXTN1020A_X2-LecA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "17\u201126,29\u201138,41\u201147",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Marie Reay 3.04",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   }
-  ]
- },
  "EXTN1020B_X2": {
   "title": "EXTN1020B_X2\u00a0ANU Extension Global Perspectives in Commerce B",
   "id": "EXTN1020B_X2",
@@ -1218,10 +1197,10 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "10\u201114,19",
+    "weeks": "17\u201118,20\u201126,30\u201135,37\u201138",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 3.04",
+    "location": "Marie Reay 3.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -1231,10 +1210,23 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201118,20\u201126,30\u201135,37\u201138",
+    "weeks": "19,29,36",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 3.02",
+    "location": "Marie Reay 3.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "EXTN1020B_X2-LecA/01 <5-14>",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "9\u201114",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Marie Reay 3.04",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
