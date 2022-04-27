@@ -30085,6 +30085,19 @@
    },
    {
     "name": "ECON8069_S1-TutA/14",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "17",
+    "activity": "TutA",
+    "occurrence": "14",
+    "location": "HA 2177",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
+   },
+   {
+    "name": "ECON8069_S1-TutA/14",
     "day": 0,
     "start": "10:00",
     "finish": "11:00",
@@ -74848,6 +74861,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
+   },
+   {
+    "name": "PSYC8101_S1-WorA/01",
+    "day": 4,
+    "start": "08:00",
+    "finish": "17:00",
+    "weeks": "24",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "PSYC 149",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    }
   ]
  },
@@ -79122,7 +79148,18 @@
     "day": 3,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "11,16\u201117",
+    "weeks": "11,16",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STAT6013_S1-TutA/01",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "17",
     "activity": "TutA",
     "occurrence": "01",
     "location": " online live",
@@ -79466,7 +79503,18 @@
     "day": 3,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "11,16\u201117",
+    "weeks": "11,16",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STAT6039_S1-TutA/01",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "17",
     "activity": "TutA",
     "occurrence": "01",
     "location": " online live",
