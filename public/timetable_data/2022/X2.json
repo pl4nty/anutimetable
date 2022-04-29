@@ -951,7 +951,7 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "13\u201114,17\u201124,44\u201146",
+    "weeks": "13\u201114,18\u201124,44\u201146",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Peter Karmel 2.29 (Lab 2)",
@@ -964,13 +964,26 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
+    "weeks": "17",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 2 Orange",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
+   },
+   {
+    "name": "EXTN1010A_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
     "weeks": "25\u201126,29\u201138,41\u201143,47",
     "activity": "LecA",
     "occurrence": "01",
     "location": "BPB ETC Studio 3 Yellow",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1010A_X2-LecA/01",
@@ -998,13 +1011,26 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "13\u201114,17\u201124,44\u201146",
+    "weeks": "13\u201114,18\u201124,44\u201146",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Peter Karmel 2.29 (Lab 2)",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
+   },
+   {
+    "name": "EXTN1010B_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "17",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 2 Orange",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1010B_X2-LecA/01",
@@ -2161,6 +2187,27 @@
     "activity": "SemD",
     "occurrence": "01",
     "location": "Crawford Seminar Room 7",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
+ "POGO8138_X2": {
+  "title": "POGO8138_X2\u00a0Science, Technology and Public Policy",
+  "id": "POGO8138_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8138_X2-SemA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "17\u201122",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
