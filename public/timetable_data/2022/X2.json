@@ -1212,6 +1212,40 @@
    }
   ]
  },
+ "EXTN1020A_X2": {
+  "title": "EXTN1020A_X2\u00a0ANU Extension Global Perspectives in Commerce A",
+  "id": "EXTN1020A_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EXTN1020A_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "17",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Marie Reay 3.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "EXTN1020A_X2-LecA/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "18\u201126,29\u201138,41\u201147",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB W121",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   }
+  ]
+ },
  "EXTN1020B_X2": {
   "title": "EXTN1020B_X2\u00a0ANU Extension Global Perspectives in Commerce B",
   "id": "EXTN1020B_X2",
