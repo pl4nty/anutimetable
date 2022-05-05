@@ -72229,6 +72229,19 @@
   "classes": [
    {
     "name": "POLS2137_S1-WorA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "20",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Marie Reay 6.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "POLS2137_S1-WorA/01",
     "day": 2,
     "start": "10:00",
     "finish": "13:00",
