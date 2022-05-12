@@ -234,6 +234,165 @@
    }
   ]
  },
+ "ARCH3006_X2": {
+  "title": "ARCH3006_X2\u00a0Professional Archaeology",
+  "id": "ARCH3006_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "ARCH3006_X2-ComA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
+    "locationID": "http://www.anu.edu.au/maps#show=11276",
+    "lat": "-35.282194",
+    "lon": "149.118399"
+   },
+   {
+    "name": "ARCH3006_X2-ComA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
+    "locationID": "http://www.anu.edu.au/maps#show=11276",
+    "lat": -35.282194,
+    "lon": 149.118399
+   },
+   {
+    "name": "ARCH3006_X2-ComA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
+    "locationID": "http://www.anu.edu.au/maps#show=11276",
+    "lat": -35.282194,
+    "lon": 149.118399
+   },
+   {
+    "name": "ARCH3006_X2-ComA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
+    "locationID": "http://www.anu.edu.au/maps#show=11276",
+    "lat": -35.282194,
+    "lon": 149.118399
+   },
+   {
+    "name": "ARCH3006_X2-FieA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieB/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieB/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieB/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieB/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-FieB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " Fieldwork off campus",
+    "locationID": ""
+   }
+  ]
+ },
  "ARTH8021_X2": {
   "title": "ARTH8021_X2\u00a0Writing About Art and Creative Practice",
   "id": "ARTH8021_X2",
