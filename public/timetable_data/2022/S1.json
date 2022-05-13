@@ -14998,6 +14998,66 @@
    }
   ]
  },
+ "CHEM8030_S1": {
+  "title": "CHEM8030_S1\u00a0Modern Materials Characterisation",
+  "id": "CHEM8030_S1",
+  "link": "",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "CHEM8030_S1-LecA/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "20",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "CHEM8030_S1-LecB/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "20",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Han 2.24",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "CHEM8030_S1-LecC/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "21",
+    "activity": "LecC",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "CHEM8030_S1-LecD/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "21",
+    "activity": "LecD",
+    "occurrence": "01",
+    "location": "Han 2.24",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   }
+  ]
+ },
  "CHEM8032_S1": {
   "title": "CHEM8032_S1\u00a0Modern Materials Applications",
   "id": "CHEM8032_S1",
@@ -51721,7 +51781,20 @@
     "day": 1,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "20",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
+   },
+   {
+    "name": "LAWS4245_S1-WorA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201119,21",
     "activity": "WorA",
     "occurrence": "01",
     "location": " online live",
@@ -53227,7 +53300,20 @@
     "day": 1,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "20",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
+   },
+   {
+    "name": "LAWS8445_S1-WorA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201119,21",
     "activity": "WorA",
     "occurrence": "01",
     "location": " online live",
@@ -61402,10 +61488,23 @@
   "classes": [
    {
     "name": "MEDN2001_S1-LecA/01",
+    "day": 1,
+    "start": "08:00",
+    "finish": "09:00",
+    "weeks": "21",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
+    "name": "MEDN2001_S1-LecA/01",
     "day": 0,
     "start": "13:30",
     "finish": "14:30",
-    "weeks": "8\u201110,12\u201113,18\u201121",
+    "weeks": "8\u201110,12\u201113,18\u201120",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -61593,10 +61692,23 @@
   "classes": [
    {
     "name": "MEDN6001_S1-LecA/01",
+    "day": 1,
+    "start": "08:00",
+    "finish": "09:00",
+    "weeks": "21",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
+    "name": "MEDN6001_S1-LecA/01",
     "day": 0,
     "start": "13:30",
     "finish": "14:30",
-    "weeks": "8\u201110,12\u201113,18\u201121",
+    "weeks": "8\u201110,12\u201113,18\u201120",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Leonard Huxley T",
