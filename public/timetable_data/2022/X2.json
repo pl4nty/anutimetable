@@ -1247,12 +1247,12 @@
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "EXTN1011B_X2_DroA/01",
+    "name": "EXTN1011B_X2-DroA/01",
     "day": 2,
     "start": "08:00",
     "finish": "13:00",
     "weeks": "15",
-    "activity": "Err",
+    "activity": "DroA",
     "occurrence": "01",
     "location": "PSYC G5",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
@@ -1260,12 +1260,12 @@
     "lon": 149.117814
    },
    {
-    "name": "EXTN1011B_X2_DroA/01",
+    "name": "EXTN1011B_X2-DroA/01",
     "day": 3,
     "start": "08:00",
     "finish": "13:00",
     "weeks": "15",
-    "activity": "Err",
+    "activity": "DroA",
     "occurrence": "01",
     "location": "PSYC G5",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
