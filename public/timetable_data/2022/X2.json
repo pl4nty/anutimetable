@@ -659,6 +659,209 @@
    }
   ]
  },
+ "COMP6490_X2": {
+  "title": "COMP6490_X2\u00a0Document Analysis",
+  "id": "COMP6490_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "COMP6490_X2-ComA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
+    "name": "COMP6490_X2-ComA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-ComA/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-ComA/01",
+    "day": 3,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-ComA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecA/01",
+    "day": 0,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "26",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecA/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "26",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecA/01",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "26",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "26",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecA/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "26",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecB/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "26",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecB/01",
+    "day": 1,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "26",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecB/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "26",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecB/01",
+    "day": 3,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "26",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
+    "name": "COMP6490_X2-LecB/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "26",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CSIT N101",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   }
+  ]
+ },
  "EXTN1001A_X2": {
   "title": "EXTN1001A_X2\u00a0ANU Extension Astrophysics A",
   "id": "EXTN1001A_X2",
@@ -1042,10 +1245,10 @@
     "weeks": "29",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 4.05",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    },
    {
     "name": "EXTN1007A_X2-LecA/02",
@@ -1089,10 +1292,10 @@
     "weeks": "29",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 4.05",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1007B_X2-LecA/02",
@@ -1193,8 +1396,8 @@
     "occurrence": "01",
     "location": "BPB ETC Studio 2 Orange",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1010A_X2-LecA/01",
