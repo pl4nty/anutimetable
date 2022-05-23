@@ -390,6 +390,32 @@
     "occurrence": "01",
     "location": " Fieldwork off campus",
     "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-LetA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "24",
+    "activity": "LetA",
+    "occurrence": "01",
+    "location": "Marie Reay 5.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "ARCH3006_X2-LetB/01",
+    "day": 2,
+    "start": "12:30",
+    "finish": "19:30",
+    "weeks": "24",
+    "activity": "LetB",
+    "occurrence": "01",
+    "location": "Marie Reay 5.06",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
