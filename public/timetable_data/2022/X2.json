@@ -399,7 +399,7 @@
     "weeks": "24",
     "activity": "LetA",
     "occurrence": "01",
-    "location": "Marie Reay 5.04",
+    "location": "Marie Reay 5.06",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -416,6 +416,54 @@
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
+   },
+   {
+    "name": "ARCH3006_X2-LetD/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "LetD",
+    "occurrence": "01",
+    "location": "Banks 2.23 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
+   },
+   {
+    "name": "ARCH3006_X2-LetD/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "LetD",
+    "occurrence": "01",
+    "location": "Banks 2.23 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
+   },
+   {
+    "name": "ARCH3006_X2-LetE/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "LetE",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "ARCH3006_X2-LetE/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "25",
+    "activity": "LetE",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
