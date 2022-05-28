@@ -824,6 +824,79 @@
    }
   ]
  },
+ "CRIM2006_X2": {
+  "title": "CRIM2006_X2\u00a0Young People and Crime: Developmental Criminology and its Discontents",
+  "id": "CRIM2006_X2",
+  "link": "",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "CRIM2006_X2-SemA/01",
+    "day": 0,
+    "start": "10:00",
+    "finish": "15:00",
+    "weeks": "23",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "CRIM2006_X2-SemB/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "15:00",
+    "weeks": "22\u201123",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "CRIM2006_X2-SemC/01",
+    "day": 2,
+    "start": "10:00",
+    "finish": "15:00",
+    "weeks": "22\u201123",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "CRIM2006_X2-SemD/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "15:00",
+    "weeks": "22\u201123",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "CRIM2006_X2-SemE/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "15:00",
+    "weeks": "22",
+    "activity": "SemE",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   }
+  ]
+ },
  "EXTN1001A_X2": {
   "title": "EXTN1001A_X2\u00a0ANU Extension Astrophysics A",
   "id": "EXTN1001A_X2",
