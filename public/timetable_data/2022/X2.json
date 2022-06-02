@@ -838,7 +838,7 @@
     "weeks": "23",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "RSSS Lectorial 1 Rm 1.21",
+    "location": "RSSS Auditorium 1.28",
     "locationID": "http://www.anu.edu.au/maps#show=123279",
     "lat": -35.2791261,
     "lon": 149.1212115
@@ -874,7 +874,7 @@
     "day": 3,
     "start": "10:00",
     "finish": "15:00",
-    "weeks": "22\u201123",
+    "weeks": "22",
     "activity": "SemD",
     "occurrence": "01",
     "location": "RSSS Lectorial 1 Rm 1.21",
@@ -891,6 +891,19 @@
     "activity": "SemE",
     "occurrence": "01",
     "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "CRIM2006_X2-SemF/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "15:00",
+    "weeks": "23",
+    "activity": "SemF",
+    "occurrence": "01",
+    "location": "RSSS Auditorium 1.28",
     "locationID": "http://www.anu.edu.au/maps#show=123279",
     "lat": -35.2791261,
     "lon": 149.1212115
