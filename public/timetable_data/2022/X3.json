@@ -1,105 +1,74 @@
 {
- "LAWS4262_X3": {
-  "title": "LAWS4262_X3\u00a0Advanced Administrative Law",
-  "id": "LAWS4262_X3",
-  "link": "",
+ "SCOM6012_X3": {
+  "title": "SCOM6012_X3\u00a0Science Communication and the Web",
+  "id": "SCOM6012_X3",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/SCOM6012",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "LAWS4262_X3-SemA/01",
+    "name": "SCOM6012_X3-PraA/01",
     "day": 0,
     "start": "09:00",
-    "finish": "12:00",
-    "weeks": "27\u201129",
-    "activity": "SemA",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "PraA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Green Couch Room",
+    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+    "lat": "-35.27583",
+    "lon": "149.11753"
    },
    {
-    "name": "LAWS4262_X3-SemB/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "16:00",
-    "weeks": "27\u201129",
-    "activity": "SemB",
+    "name": "SCOM6012_X3-PraB/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "PraB",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Green Couch Room",
+    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+    "lat": -35.27583,
+    "lon": 149.11753
    },
    {
-    "name": "LAWS4262_X3-SemC/01",
+    "name": "SCOM6012_X3-PraC/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "PraC",
+    "occurrence": "01",
+    "location": "Green Couch Room",
+    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+    "lat": -35.27583,
+    "lon": 149.11753
+   },
+   {
+    "name": "SCOM6012_X3-PraD/01",
     "day": 3,
     "start": "09:00",
-    "finish": "12:00",
-    "weeks": "27\u201129",
-    "activity": "SemC",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "PraD",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Green Couch Room",
+    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+    "lat": -35.27583,
+    "lon": 149.11753
    },
    {
-    "name": "LAWS4262_X3-SemD/01",
-    "day": 3,
-    "start": "13:00",
-    "finish": "16:00",
-    "weeks": "27\u201129",
-    "activity": "SemD",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "LAWS8462_X3": {
-  "title": "LAWS8462_X3\u00a0Advanced Administrative Law",
-  "id": "LAWS8462_X3",
-  "link": "",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "LAWS8462_X3-SemA/01",
-    "day": 0,
+    "name": "SCOM6012_X3-PraE/01",
+    "day": 4,
     "start": "09:00",
-    "finish": "12:00",
-    "weeks": "27\u201129",
-    "activity": "SemA",
+    "finish": "17:00",
+    "weeks": "26",
+    "activity": "PraE",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8462_X3-SemB/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "16:00",
-    "weeks": "27\u201129",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8462_X3-SemC/01",
-    "day": 3,
-    "start": "09:00",
-    "finish": "12:00",
-    "weeks": "27\u201129",
-    "activity": "SemC",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8462_X3-SemD/01",
-    "day": 3,
-    "start": "13:00",
-    "finish": "16:00",
-    "weeks": "27\u201129",
-    "activity": "SemD",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Green Couch Room",
+    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+    "lat": -35.27583,
+    "lon": 149.11753
    }
   ]
  }
