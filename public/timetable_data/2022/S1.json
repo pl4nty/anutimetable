@@ -4256,7 +4256,7 @@
     "weeks": "10",
     "activity": "FieA",
     "occurrence": "01",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4267,7 +4267,7 @@
     "weeks": "10",
     "activity": "FieA",
     "occurrence": "01",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4278,7 +4278,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "01",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4289,7 +4289,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4300,7 +4300,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4311,7 +4311,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4322,7 +4322,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4802,7 +4802,7 @@
     "weeks": "10",
     "activity": "FieA",
     "occurrence": "01",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4813,7 +4813,7 @@
     "weeks": "10",
     "activity": "FieA",
     "occurrence": "01",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4824,7 +4824,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "01",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4835,7 +4835,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4846,7 +4846,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4857,7 +4857,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -4868,7 +4868,7 @@
     "weeks": "14",
     "activity": "FieB",
     "occurrence": "02",
-    "location": "Environment Studio Fieldwork (offsite) ",
+    "location": "Environment Studio Fieldwork (offsite) offsite",
     "locationID": ""
    },
    {
@@ -45624,49 +45624,6 @@
    }
   ]
  },
- "IDEC8011_S1": {
-  "title": "IDEC8011_S1\u00a0Masters Research Essay",
-  "id": "IDEC8011_S1",
-  "link": "https://programsandcourses.anu.edu.au/2022/course/IDEC8011",
-  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8011_S1-LecA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "IDEC8011_S1-SemA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201110,12\u201113,18\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8011_S1-SemA/02",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201110,12\u201113,18\u201121",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
  "IDEC8015_S1": {
   "title": "IDEC8015_S1\u00a0Mathematical Methods in Applied Economics",
   "id": "IDEC8015_S1",
@@ -45876,49 +45833,6 @@
     "start": "18:00",
     "finish": "19:00",
     "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "IDEC8033_S1": {
-  "title": "IDEC8033_S1\u00a0Research Project",
-  "id": "IDEC8033_S1",
-  "link": "https://programsandcourses.anu.edu.au/2022/course/IDEC8033",
-  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8033_S1-LecA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "IDEC8033_S1-SemA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201110,12\u201113,18\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8033_S1-SemA/02",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201110,12\u201113,18\u201121",
     "activity": "SemA",
     "occurrence": "02",
     "location": " online live",
