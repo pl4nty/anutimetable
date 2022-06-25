@@ -25,8 +25,8 @@ def splitHeaderTable(res, geodata):
 
 class Course:
     def __init__(self, header, table, geodata):
-        self.title = header.find("h3").string
-        self.id = header.find("a").string
+        self.title = re.sub("_\([0-9]+\)", '', header.find("h3").string.split(' (Class:')[0])
+        self.id = header.find("a").string.replace('_(01)', '')
         self.link = header.find("a")['href']
         self.dates = header.find(
             'h3', class_="date-info-display").string.strip()
@@ -51,7 +51,7 @@ class Course:
 class Lesson:
     def __init__(self, row, geodata):
         cells = row.find_all("td")
-        self.name = cells[0].a.next.strip()
+        self.name = re.sub("_\([0-9]+\)", '', cells[0].a.next.strip())
 
         self.day = dayToNum(cells[1].string)
         self.start = cells[2].string
