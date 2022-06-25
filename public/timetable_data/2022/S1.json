@@ -1300,19 +1300,6 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "ARAB1002_S1-LecA/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "11,16\u201117",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "BPB W121",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
     "name": "ARAB1002_S1-LecA/02",
     "day": 4,
     "start": "12:00",
@@ -1320,6 +1307,19 @@
     "weeks": "11,16\u201117",
     "activity": "LecA",
     "occurrence": "02",
+    "location": "BPB W121",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
+   },
+   {
+    "name": "ARAB1002_S1-LecA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "11,16\u201117",
+    "activity": "LecA",
+    "occurrence": "01",
     "location": "BPB W121",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
@@ -25004,6 +25004,125 @@
    }
   ]
  },
+ "CRIM2013_S1 ": {
+  "title": "CRIM2013_S1 \u00a0Policing",
+  "id": "CRIM2013_S1 ",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/CRIM2013",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "CRIM2013_S1-LecA /01",
+    "day": 0,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201110,12\u201113,18\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "CRIM2013_S1-TutA/01",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Marie Reay 3.03",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "CRIM2013_S1-TutA/02",
+    "day": 4,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "Marie Reay 3.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "CRIM2013_S1-TutA/03",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "Marie Reay 3.03",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "CRIM2013_S1-TutA/04",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "04",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "CRIM2013_S1-TutA/05",
+    "day": 1,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "05",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "CRIM2013_S1-TutA/06",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "06",
+    "location": "Marie Reay 5.06",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "CRIM2013_S1-TutA/07",
+    "day": 4,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "07",
+    "location": "Marie Reay 3.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
+    "name": "CRIM2013_S1-TutA/08",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "08",
+    "location": "Marie Reay 4.03",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   }
+  ]
+ },
  "CRIM3005_S1": {
   "title": "CRIM3005_S1\u00a0Diversity and Crime: Equality in the Criminal Justice System",
   "id": "CRIM3005_S1",
@@ -45130,6 +45249,25 @@
     "locationID": "http://www.anu.edu.au/maps#show=123279",
     "lat": -35.2791261,
     "lon": 149.1212115
+   }
+  ]
+ },
+ "HIST8016_S1 ": {
+  "title": "HIST8016_S1 \u00a0Colonial Encounters",
+  "id": "HIST8016_S1 ",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/HIST8016",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "HIST8016_S1-SemA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
