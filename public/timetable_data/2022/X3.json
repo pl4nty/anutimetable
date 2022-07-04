@@ -4526,8 +4526,8 @@
    {
     "name": "POLS2113_X3-TutB/01",
     "day": 1,
-    "start": "14:00",
-    "finish": "15:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "27\u201129",
     "activity": "TutB",
     "occurrence": "01",
@@ -4537,8 +4537,8 @@
    {
     "name": "POLS2113_X3-TutB/02",
     "day": 1,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "27\u201129",
     "activity": "TutB",
     "occurrence": "02",
@@ -4574,28 +4574,24 @@
    {
     "name": "POLS2113_X3-TutC/01",
     "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "27\u201129",
     "activity": "TutC",
     "occurrence": "01",
-    "location": "RSSS Lectorial 2 Rm 1.23",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "POLS2113_X3-TutC/02",
     "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "27\u201129",
     "activity": "TutC",
     "occurrence": "02",
-    "location": "RSSS Lectorial 2 Rm 1.23",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "POLS2113_X3-TutC/03",
@@ -4626,28 +4622,24 @@
    {
     "name": "POLS2113_X3-TutD/01",
     "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "28\u201129",
     "activity": "TutD",
     "occurrence": "01",
-    "location": "RSSS Meeting Room 6.68",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "POLS2113_X3-TutD/02",
     "day": 3,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "28\u201129",
     "activity": "TutD",
     "occurrence": "02",
-    "location": "RSSS Meeting Room 6.68",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "POLS2113_X3-TutD/03",
