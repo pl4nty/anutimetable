@@ -9618,8 +9618,8 @@
    {
     "name": "BUSI7280_S2-LecA/01",
     "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
+    "start": "14:00",
+    "finish": "16:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
@@ -10339,15 +10339,15 @@
    {
     "name": "BUSN3002_S2-TutA/01",
     "day": 2,
-    "start": "11:00",
-    "finish": "12:00",
+    "start": "18:00",
+    "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "MORAN G010",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "BUSN3002_S2-TutA/02",
@@ -10377,9 +10377,9 @@
    },
    {
     "name": "BUSN3002_S2-TutA/04",
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
+    "day": 4,
+    "start": "18:00",
+    "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "04",
@@ -11827,16 +11827,14 @@
    },
    {
     "name": "BUSN7052_S2-TutA/03",
-    "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
+    "day": 1,
+    "start": "18:00",
+    "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Arndt TR3",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "BUSN7052_S2-TutA/04",
@@ -11865,8 +11863,8 @@
    {
     "name": "BUSN7052_S2-TutA/06",
     "day": 3,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "06",
@@ -39417,8 +39415,8 @@
    {
     "name": "FINM7006_S2-TutA/01",
     "day": 2,
-    "start": "09:00",
-    "finish": "10:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
@@ -39567,6 +39565,17 @@
     "activity": "TutA",
     "occurrence": "13",
     "location": " online prerecorded",
+    "locationID": ""
+   },
+   {
+    "name": "FINM7006_S2-TutA/14",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "14",
+    "location": " online live",
     "locationID": ""
    },
    {
@@ -46346,10 +46355,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Coombs Seminar Room E 3.214",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
+    "location": "BPB W118",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "JPNS2013_S2-TutA/02",
@@ -46561,10 +46570,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "WorB",
     "occurrence": "03",
-    "location": "Coombs Seminar Room G 3.314",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
+    "location": "BPB W118",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "JPNS2013_S2-WorB/04",
@@ -49300,10 +49309,8 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "LAW LIBRARY COMP LAB",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
+    "location": "Online Live Online & On Campus",
+    "locationID": ""
    }
   ]
  },
@@ -56389,9 +56396,9 @@
   "classes": [
    {
     "name": "MGMT2100_S2-TutA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
+    "day": 3,
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
@@ -58628,7 +58635,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "PraA",
     "occurrence": "08",
-    "location": "Peter Karmel Big Band Room",
+    "location": "Peter Karmel 1.28",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -59442,7 +59449,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "PraA",
     "occurrence": "08",
-    "location": "Peter Karmel Big Band Room",
+    "location": "Peter Karmel 1.28",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -63986,10 +63993,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": -35.282541,
+    "lon": 149.119238
    },
    {
     "name": "POLS2055_S2-TutA/02",
@@ -70474,13 +70481,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT2001_S2-PreTutA/01",
+    "name": "STAT2001_S2-TutA/04",
     "day": 6,
     "start": "19:00",
     "finish": "20:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "04",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -70660,13 +70667,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT2008_S2-PreComA/01",
+    "name": "STAT2008_S2-ComA/06",
     "day": 6,
-    "start": "18:00",
-    "finish": "19:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreComA",
-    "occurrence": "01",
+    "activity": "ComA",
+    "occurrence": "06",
     "location": " online prerecorded",
     "locationID": ""
    },
@@ -70675,7 +70682,20 @@
     "day": 1,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "STAT2008_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
@@ -70768,13 +70788,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT2013_S2-PreTutA/01",
+    "name": "STAT2013_S2-TutA/04",
     "day": 6,
     "start": "19:00",
     "finish": "20:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "04",
     "location": " online prerecorded",
     "locationID": ""
    },
@@ -70861,13 +70881,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT2014_S2-PreComA/01",
+    "name": "STAT2014_S2-ComA/06",
     "day": 6,
-    "start": "18:00",
-    "finish": "19:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreComA",
-    "occurrence": "01",
+    "activity": "ComA",
+    "occurrence": "06",
     "location": " online prerecorded",
     "locationID": ""
    },
@@ -70876,7 +70896,20 @@
     "day": 1,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "STAT2014_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
@@ -70917,17 +70950,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=90783",
     "lat": -35.2752066,
     "lon": 149.127504
-   },
-   {
-    "name": "STAT2032_S2-PreTutA/04",
-    "day": 6,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "04",
-    "location": " online prerecorded",
-    "locationID": ""
    },
    {
     "name": "STAT2032_S2-PreWorA/01",
@@ -70975,6 +70997,17 @@
     "activity": "TutA",
     "occurrence": "03",
     "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STAT2032_S2-TutA/04",
+    "day": 6,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "04",
+    "location": " online prerecorded",
     "locationID": ""
    }
   ]
@@ -71277,6 +71310,17 @@
     "locationID": ""
    },
    {
+    "name": "STAT3017_S2-ComA/03",
+    "day": 6,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "30,32,34,38,40,42",
+    "activity": "ComA",
+    "occurrence": "03",
+    "location": " online prerecorded",
+    "locationID": ""
+   },
+   {
     "name": "STAT3017_S2-LecA/01",
     "day": 2,
     "start": "15:00",
@@ -71288,17 +71332,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
-   },
-   {
-    "name": "STAT3017_S2-PreComA/01",
-    "day": 6,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "30,32,34,38,40,42",
-    "activity": "PreComA",
-    "occurrence": "01",
-    "location": "Online Live ",
-    "locationID": ""
    },
    {
     "name": "STAT3017_S2-WorA/01",
@@ -71738,13 +71771,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT4030_S2-PreTutA/01",
+    "name": "STAT4030_S2-TutA/05",
     "day": 6,
     "start": "18:00",
     "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "05",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -71761,7 +71794,20 @@
     "day": 1,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "STAT4038_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
@@ -71916,13 +71962,13 @@
     "lon": 149.123419
    },
    {
-    "name": "STAT4038_S2-PreComA/01",
+    "name": "STAT4038_S2-ComA/13",
     "day": 6,
     "start": "17:00",
     "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreComA",
-    "occurrence": "01",
+    "activity": "ComA",
+    "occurrence": "13",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -72041,13 +72087,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT4116_S2-PreTutA/01",
+    "name": "STAT4116_S2-TutA/03",
     "day": 6,
-    "start": "17:00",
-    "finish": "18:00",
+    "start": "18:00",
+    "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "03",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -72149,13 +72195,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT6013_S2-PreTutA/01",
+    "name": "STAT6013_S2-TutA/04",
     "day": 6,
-    "start": "22:00",
-    "finish": "23:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "04",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -72172,7 +72218,20 @@
     "day": 1,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "STAT6014_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
@@ -72340,13 +72399,13 @@
     "lon": 149.123419
    },
    {
-    "name": "STAT6014_S2-PreComA/01",
+    "name": "STAT6014_S2-ComA/13",
     "day": 6,
     "start": "17:00",
     "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreComA",
-    "occurrence": "01",
+    "activity": "ComA",
+    "occurrence": "13",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -72363,7 +72422,20 @@
     "day": 1,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "STAT6038_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
@@ -72518,13 +72590,13 @@
     "lon": 149.123419
    },
    {
-    "name": "STAT6038_S2-PreComA/01",
+    "name": "STAT6038_S2-ComA/13",
     "day": 6,
     "start": "17:00",
     "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreComA",
-    "occurrence": "01",
+    "activity": "ComA",
+    "occurrence": "13",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -72613,13 +72685,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT6039_S2-PreTutA/01",
+    "name": "STAT6039_S2-TutA/04",
     "day": 6,
-    "start": "22:00",
-    "finish": "23:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "04",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -73055,13 +73127,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT7016_S2-PreTutA/01",
+    "name": "STAT7016_S2-TutA/03",
     "day": 6,
-    "start": "17:00",
-    "finish": "18:00",
+    "start": "18:00",
+    "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "03",
     "location": " online prerecorded",
     "locationID": ""
    }
@@ -73122,14 +73194,14 @@
     "locationID": ""
    },
    {
-    "name": "STAT7017_S2-PreComA/01",
+    "name": "STAT7017_S2-ComA/03",
     "day": 6,
     "start": "16:00",
     "finish": "17:00",
     "weeks": "30,32,34,38,40,42",
-    "activity": "PreComA",
-    "occurrence": "01",
-    "location": " ",
+    "activity": "ComA",
+    "occurrence": "03",
+    "location": " online prerecorded",
     "locationID": ""
    }
   ]
@@ -73262,13 +73334,13 @@
     "locationID": ""
    },
    {
-    "name": "STAT7030_S2-PreTutA/01",
+    "name": "STAT7030_S2-TutA/05",
     "day": 6,
     "start": "18:00",
     "finish": "19:00",
     "weeks": "31\u201135,38\u201143",
-    "activity": "PreTutA",
-    "occurrence": "01",
+    "activity": "TutA",
+    "occurrence": "05",
     "location": " online prerecorded",
     "locationID": ""
    }
