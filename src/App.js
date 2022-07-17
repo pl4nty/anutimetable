@@ -239,6 +239,7 @@ if (!isDevelopment) {
     }
   })
   appInsights.loadAppInsights()
+  appInsights.trackPageView()
 
   App = withAITracking(reactPlugin, App)
 }
