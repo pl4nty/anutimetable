@@ -249,9 +249,7 @@
     "activity": "ComA",
     "occurrence": "01",
     "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
-    "locationID": "http://www.anu.edu.au/maps#show=11276",
-    "lat": "-35.282194",
-    "lon": "149.118399"
+    "locationID": "http://www.anu.edu.au/maps#show=11276"
    },
    {
     "name": "ARCH3006_X2-FieA/01",
@@ -336,9 +334,7 @@
     "activity": "LetF",
     "occurrence": "01",
     "location": "MORAN G007",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": "-35.277063",
-    "lon": "149.122565"
+    "locationID": "http://www.anu.edu.au/maps#show=11416"
    },
    {
     "name": "ARCH3006_X2-LetG/01",
@@ -542,9 +538,7 @@
     "activity": "SemA",
     "occurrence": "01",
     "location": "COOMBS Extension LT 1.04",
-    "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": "-35.282541",
-    "lon": "149.119238"
+    "locationID": "http://www.anu.edu.au/maps#show=11280"
    },
    {
     "name": "ASIA3021_X2-SemB/01",
@@ -556,8 +550,8 @@
     "occurrence": "01",
     "location": "COOMBS Extension LT 1.04",
     "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": -35.282541,
-    "lon": 149.119238
+    "lat": "-35.282541",
+    "lon": "149.119238"
    },
    {
     "name": "ASIA3021_X2-SemC/01",
@@ -1286,6 +1280,19 @@
     "lon": 149.120685
    },
    {
+    "name": "EXTN1007A_X2-LecA/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "29",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
+   },
+   {
     "name": "EXTN1007A_X2-LecA/02",
     "day": 2,
     "start": "17:00",
@@ -1318,6 +1325,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
+   },
+   {
+    "name": "EXTN1007B_X2-LecA/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "29",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1007B_X2-LecA/02",
@@ -1418,8 +1438,8 @@
     "occurrence": "01",
     "location": "BPB ETC Studio 2 Orange",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1010A_X2-LecA/01",
