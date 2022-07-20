@@ -4351,32 +4351,6 @@
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "POGO8136_X3-SemA/01",
-    "day": 0,
-    "start": "09:30",
-    "finish": "11:00",
-    "weeks": "30\u201131,35",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8136_X3-SemB/01",
-    "day": 4,
-    "start": "09:30",
-    "finish": "11:00",
-    "weeks": "29,31",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
     "name": "POGO8136_X3-WorA/01",
     "day": 0,
     "start": "14:30",
@@ -4460,6 +4434,74 @@
     "occurrence": "01",
     "location": " Online",
     "locationID": ""
+   }
+  ]
+ },
+ "POGO8239_X3": {
+  "title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_In Person_On Campus",
+  "id": "POGO8239_X3",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8239",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8239_X3-WorA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "32,35",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8239_X3-WorB/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "32",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
+ "POGO8239_X3_(02)": {
+  "title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_Online_Online",
+  "id": "POGO8239_X3_(02)",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8239",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8239_X3-WorA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "32,35",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8239_X3-WorB/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "32",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    }
   ]
  },
@@ -5683,64 +5725,6 @@
     "finish": "16:00",
     "weeks": "26\u201139",
     "activity": "LetE",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "SOCR8011_X3": {
-  "title": "SOCR8011_X3\u00a0Mixed methods social research",
-  "id": "SOCR8011_X3",
-  "link": "https://programsandcourses.anu.edu.au/2022/course/SOCR8011",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "SOCR8011_X3-SemA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "32\u201133",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "SOCR8011_X3-SemB/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "32\u201133",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "SOCR8011_X3-SemC/01",
-    "day": 3,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "32",
-    "activity": "SemC",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "SOCR8011_X3-TutA/01",
-    "day": 2,
-    "start": "14:00",
-    "finish": "16:00",
-    "weeks": "27",
-    "activity": "TutA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
