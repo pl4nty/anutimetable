@@ -4353,35 +4353,28 @@
    {
     "name": "POGO8136_X3-WorA/01",
     "day": 0,
-    "start": "14:30",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "17:00",
     "weeks": "30\u201131,35",
     "activity": "WorA",
     "occurrence": "01",
-    "location": " On campus",
-    "locationID": ""
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8136_X3-WorB/01",
     "day": 4,
-    "start": "14:30",
-    "finish": "16:00",
+    "start": "12:00",
+    "finish": "17:00",
     "weeks": "29,31",
     "activity": "WorB",
     "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   },
-   {
-    "name": "POGO8136_X3-WorC/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "16:00",
-    "weeks": "33",
-    "activity": "WorC",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    }
   ]
  },
@@ -4394,35 +4387,28 @@
    {
     "name": "POGO8136_X3-WorA/01",
     "day": 0,
-    "start": "14:30",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "17:00",
     "weeks": "30\u201131,35",
     "activity": "WorA",
     "occurrence": "01",
-    "location": " On campus",
-    "locationID": ""
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8136_X3-WorB/01",
     "day": 4,
-    "start": "14:30",
-    "finish": "16:00",
+    "start": "12:00",
+    "finish": "17:00",
     "weeks": "29,31",
     "activity": "WorB",
     "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   },
-   {
-    "name": "POGO8136_X3-WorC/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "16:00",
-    "weeks": "33",
-    "activity": "WorC",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8136_X3-SemA/01",
@@ -4437,6 +4423,48 @@
    }
   ]
  },
+ "POGO8230_X3": {
+  "title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_In Person_On Campus",
+  "id": "POGO8230_X3",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8230",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8230_X3-WorA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "30\u201131",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 9",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
+ "POGO8230_X3_(02)": {
+  "title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_Online_Online",
+  "id": "POGO8230_X3_(02)",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8230",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8230_X3-WorA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "30\u201131",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 9",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
  "POGO8239_X3": {
   "title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_In Person_On Campus",
   "id": "POGO8239_X3",
@@ -4448,10 +4476,10 @@
     "day": 0,
     "start": "15:00",
     "finish": "18:00",
-    "weeks": "32,35",
+    "weeks": "32",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "Crawford Lennox Room",
+    "location": "Crawford Brindabella Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
@@ -4464,7 +4492,20 @@
     "weeks": "32",
     "activity": "WorB",
     "occurrence": "01",
-    "location": "Crawford Lennox Room",
+    "location": "Crawford Brindabella Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8239_X3-WorC/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "35",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": "Crawford Brindabella Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
@@ -4482,10 +4523,10 @@
     "day": 0,
     "start": "15:00",
     "finish": "18:00",
-    "weeks": "32,35",
+    "weeks": "32",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "Crawford Lennox Room",
+    "location": "Crawford Brindabella Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
@@ -4498,7 +4539,20 @@
     "weeks": "32",
     "activity": "WorB",
     "occurrence": "01",
-    "location": "Crawford Lennox Room",
+    "location": "Crawford Brindabella Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8239_X3-WorC/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "35",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": "Crawford Brindabella Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
