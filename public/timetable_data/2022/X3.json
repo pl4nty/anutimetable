@@ -4344,6 +4344,116 @@
    }
   ]
  },
+ "POGO8076_X3": {
+  "title": "POGO8076_X3\u00a0Corruption and Anti-corruption_In Person_On Campus",
+  "id": "POGO8076_X3",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8076",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8076_X3-LecA/01",
+    "day": 1,
+    "start": "09:30",
+    "finish": "11:00",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 8",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8076_X3-SemA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "16:30",
+    "weeks": "36\u201137",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemB/01",
+    "day": 2,
+    "start": "09:30",
+    "finish": "12:00",
+    "weeks": "36\u201137",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8076_X3-SemC/01",
+    "day": 4,
+    "start": "09:30",
+    "finish": "12:00",
+    "weeks": "36\u201137",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": "Crawford Lennox Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
+ "POGO8076_X3_(02)": {
+  "title": "POGO8076_X3\u00a0Corruption and Anti-corruption_Online_Online",
+  "id": "POGO8076_X3_(02)",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8076",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8076_X3-SemA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "16:30",
+    "weeks": "36\u201137",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-LecA/01",
+    "day": 1,
+    "start": "12:30",
+    "finish": "14:00",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemB/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:30",
+    "weeks": "36\u201137",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemC/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:30",
+    "weeks": "36\u201137",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": " online",
+    "locationID": ""
+   }
+  ]
+ },
  "POGO8136_X3": {
   "title": "POGO8136_X3\u00a0Participating in Public Policy: Citizen Engagement and Public Talk_In Person_On Campus",
   "id": "POGO8136_X3",
@@ -4355,7 +4465,7 @@
     "day": 0,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201131,35",
+    "weeks": "30,32,35",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Crawford Seminar Room 3",
@@ -4368,7 +4478,7 @@
     "day": 4,
     "start": "12:00",
     "finish": "17:00",
-    "weeks": "29,31",
+    "weeks": "29,31,33",
     "activity": "WorB",
     "occurrence": "01",
     "location": "Crawford Seminar Room 3",
@@ -4389,7 +4499,7 @@
     "day": 0,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201131,35",
+    "weeks": "30,32,35",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Crawford Seminar Room 3",
@@ -4402,24 +4512,13 @@
     "day": 4,
     "start": "12:00",
     "finish": "17:00",
-    "weeks": "29,31",
+    "weeks": "29,31,33",
     "activity": "WorB",
     "occurrence": "01",
     "location": "Crawford Seminar Room 3",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
-   },
-   {
-    "name": "POGO8136_X3-SemA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:30",
-    "weeks": "30",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " Online",
-    "locationID": ""
    }
   ]
  },
