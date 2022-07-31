@@ -4437,6 +4437,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11379",
     "lat": -35.282857,
     "lon": 149.119686
+   },
+   {
+    "name": "ASIA2040_S2-TutA/03",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "BPB W303",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
@@ -5360,6 +5373,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11379",
     "lat": -35.282857,
     "lon": 149.119686
+   },
+   {
+    "name": "ASIA6006_S2-TutA/03",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "BPB W303",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
@@ -6285,6 +6311,17 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "BIAN1001_S2-MakA/01",
+    "day": 6,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "01",
+    "location": " online pre-recorded",
     "locationID": ""
    },
    {
