@@ -9690,7 +9690,7 @@
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "01",
-    "location": " online live",
+    "location": " online live Public Holiday Makeup",
     "locationID": ""
    }
   ]
@@ -9720,7 +9720,7 @@
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "01",
-    "location": " online live",
+    "location": " online live Public Holiday Makeup",
     "locationID": ""
    }
   ]
@@ -32294,10 +32294,10 @@
     "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Arndt TR3",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
+    "location": "CBE Bld TR8",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "EMET7001_S2-TutA/02",
@@ -54526,26 +54526,13 @@
     "day": 0,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "30",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "FSTY T",
     "locationID": "http://www.anu.edu.au/maps#show=11318",
     "lat": -35.277907,
     "lon": 149.116057
-   },
-   {
-    "name": "LING2015_S2-LecA/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "31\u201135,38\u201139,41\u201143",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "STB_S1 (3.07)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
    },
    {
     "name": "LING2015_S2-LecB/01",
@@ -54899,26 +54886,13 @@
     "day": 0,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "30",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "FSTY T",
     "locationID": "http://www.anu.edu.au/maps#show=11318",
     "lat": -35.277907,
     "lon": 149.116057
-   },
-   {
-    "name": "LING6015_S2-LecA/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "31\u201135,38\u201139,41\u201143",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "STB_S1 (3.07)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
    },
    {
     "name": "LING6015_S2-LecB/01",
@@ -55088,7 +55062,7 @@
   ]
  },
  "LING8013_S2": {
-  "title": "LING8013_S2\u00a0Language and Society",
+  "title": "LING8013_S2\u00a0Language and Society_Online or In Person",
   "id": "LING8013_S2",
   "link": "https://programsandcourses.anu.edu.au/2022/course/LING8013",
   "dates": "Displaying Dates: 18 Jul 22 - 20 Nov 22 (calendar week(s) 29\u201146)",
