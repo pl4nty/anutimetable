@@ -145,16 +145,68 @@
   "classes": [
    {
     "name": "BIAN8010_X4-TutA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "49",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Banks 2.39 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
+   },
+   {
+    "name": "BIAN8010_X4-TutA/01",
     "day": 1,
     "start": "09:00",
     "finish": "16:00",
     "weeks": "49",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "BPB W107",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
+    "location": "Banks 2.39 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
+   },
+   {
+    "name": "BIAN8010_X4-TutA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "49",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Banks 2.39 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
+   },
+   {
+    "name": "BIAN8010_X4-TutA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "49",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Banks 2.39 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
+   },
+   {
+    "name": "BIAN8010_X4-TutA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "49",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Banks 2.39 Lab",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": -35.276048,
+    "lon": 149.116274
    }
   ]
  },
@@ -393,6 +445,79 @@
     "locationID": "http://www.anu.edu.au/maps#show=11318",
     "lat": -35.277907,
     "lon": 149.116057
+   }
+  ]
+ },
+ "MUSC8006_X4": {
+  "title": "MUSC8006_X4\u00a0Indigenous Collections and Exhibitions",
+  "id": "MUSC8006_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/MUSC8006",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "MUSC8006_X4-WorA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "44",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "MUSC8006_X4-WorA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "44",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "MUSC8006_X4-WorA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "44",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "MUSC8006_X4-WorA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "44",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "MUSC8006_X4-WorA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "44",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
