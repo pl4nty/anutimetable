@@ -4660,6 +4660,100 @@
    }
   ]
  },
+ "POGO8220_X3": {
+  "title": "POGO8220_X3\u00a0Issues in Japanese Policy_In Person_On Campus",
+  "id": "POGO8220_X3",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8220",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8220_X3-WorA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "15:00",
+    "weeks": "34\u201135",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8220_X3-WorA/01",
+    "day": 5,
+    "start": "09:00",
+    "finish": "15:00",
+    "weeks": "34\u201135",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8220_X3-WorB/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "17:00",
+    "weeks": "38",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
+ "POGO8220_X3_(02)": {
+  "title": "POGO8220_X3\u00a0Issues in Japanese Policy_Online_Online",
+  "id": "POGO8220_X3_(02)",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8220",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8220_X3-WorA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "15:00",
+    "weeks": "34\u201135",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8220_X3-WorA/01",
+    "day": 5,
+    "start": "09:00",
+    "finish": "15:00",
+    "weeks": "34\u201135",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "POGO8220_X3-WorB/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "17:00",
+    "weeks": "38",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
  "POGO8230_X3": {
   "title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_In Person_On Campus",
   "id": "POGO8230_X3",
