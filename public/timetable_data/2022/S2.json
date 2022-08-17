@@ -27996,26 +27996,26 @@
    },
    {
     "name": "ECON1101_S2-MakA/04",
-    "day": 1,
+    "day": 4,
     "start": "10:00",
     "finish": "11:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "04",
-    "location": "Marie Reay 4.04",
+    "location": "Marie Reay 5.03",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
    },
    {
     "name": "ECON1101_S2-MakA/05",
-    "day": 1,
+    "day": 4,
     "start": "09:00",
     "finish": "10:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "05",
-    "location": "Marie Reay 4.04",
+    "location": "Marie Reay 5.03",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -78829,6 +78829,30 @@
     "occurrence": "03",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "STAT4038_S2-MakA/04",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "04",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STAT4038_S2-MakA/05",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "05",
+    "location": "COP G021",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    }
   ]
  },
@@ -79327,6 +79351,30 @@
     "occurrence": "03",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "STAT6014_S2-MakA/04",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "04",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STAT6014_S2-MakA/05",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "05",
+    "location": "COP G021",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    }
   ]
  },
@@ -79566,6 +79614,30 @@
     "occurrence": "03",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "STAT6038_S2-MakA/04",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "04",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STAT6038_S2-MakA/05",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "05",
+    "location": "COP G021",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    }
   ]
  },
