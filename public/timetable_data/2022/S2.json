@@ -55316,17 +55316,6 @@
     "lon": 149.121758
    },
    {
-    "name": "LAWS6104_S2-TutA/01",
-    "day": 3,
-    "start": "18:00",
-    "finish": "19:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
     "name": "LAWS6104_S2-TutA/02",
     "day": 1,
     "start": "18:00",
@@ -78833,8 +78822,8 @@
    {
     "name": "STAT4038_S2-MakA/04",
     "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "04",
@@ -78844,12 +78833,12 @@
    {
     "name": "STAT4038_S2-MakA/05",
     "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "05",
-    "location": "COP G021",
+    "location": "COP G026",
     "locationID": "http://www.anu.edu.au/maps#show=28971",
     "lat": -35.277985,
     "lon": 149.123419
@@ -79355,8 +79344,8 @@
    {
     "name": "STAT6014_S2-MakA/04",
     "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "04",
@@ -79366,12 +79355,12 @@
    {
     "name": "STAT6014_S2-MakA/05",
     "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "05",
-    "location": "COP G021",
+    "location": "COP G026",
     "locationID": "http://www.anu.edu.au/maps#show=28971",
     "lat": -35.277985,
     "lon": 149.123419
@@ -79618,8 +79607,8 @@
    {
     "name": "STAT6038_S2-MakA/04",
     "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "04",
@@ -79629,12 +79618,12 @@
    {
     "name": "STAT6038_S2-MakA/05",
     "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "05",
-    "location": "COP G021",
+    "location": "COP G026",
     "locationID": "http://www.anu.edu.au/maps#show=28971",
     "lat": -35.277985,
     "lon": 149.123419
