@@ -74711,26 +74711,13 @@
     "day": 0,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201133,35,38\u201139,41\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "FilA",
     "occurrence": "01",
     "location": "PSYC G8",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
-   },
-   {
-    "name": "SCRN2003_S2-FilA/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "34",
-    "activity": "FilA",
-    "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
    },
    {
     "name": "SCRN2003_S2-SemA/01",
@@ -74763,26 +74750,13 @@
     "day": 0,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "30\u201133,35,38\u201139,41\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "WorA",
     "occurrence": "01",
     "location": "PSYC G8",
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
-   },
-   {
-    "name": "SCRN2003_S2-WorA/01",
-    "day": 0,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "34",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
    }
   ]
  },
