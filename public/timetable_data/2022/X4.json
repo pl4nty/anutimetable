@@ -607,23 +607,46 @@
    }
   ]
  },
+ "NSPO8044_X4": {
+  "title": "NSPO8044_X4\u00a0Energy Security_In Person_On campus",
+  "id": "NSPO8044_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/NSPO8044",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "NSPO8044_X4-SemA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "44",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": "-35.287633",
+    "lon": "149.11587"
+   },
+   {
+    "name": "NSPO8044_X4-SemB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "44",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
  "NSPO8044_X4_(02)": {
   "title": "NSPO8044_X4\u00a0Energy Security_Online_Online",
   "id": "NSPO8044_X4_(02)",
   "link": "https://programsandcourses.anu.edu.au/2022/course/NSPO8044",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
-   {
-    "name": "NSPO8044_X4-SemC/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "15:00",
-    "weeks": "46",
-    "activity": "SemC",
-    "occurrence": "01",
-    "location": " Online live",
-    "locationID": ""
-   },
    {
     "name": "NSPO8044_X4-SemA/01",
     "day": 3,
@@ -632,7 +655,7 @@
     "weeks": "44",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Online Live on campus",
+    "location": " online live",
     "locationID": ""
    },
    {
@@ -643,7 +666,18 @@
     "weeks": "44",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "Online Live on campus",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "NSPO8044_X4-SemC/01",
+    "day": 3,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "46",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": " online live",
     "locationID": ""
    }
   ]
