@@ -4824,13 +4824,26 @@
     "day": 3,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201133,35,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Hedley Bull Theatre 1",
     "locationID": "http://www.anu.edu.au/maps#show=11379",
     "lat": -35.282857,
     "lon": 149.119686
+   },
+   {
+    "name": "ASIA2065_S2-LecA/01",
+    "day": 3,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "34",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "China in the World LT",
+    "locationID": "http://www.anu.edu.au/maps#show=11390",
+    "lat": "-35.280567",
+    "lon": "149.117565"
    },
    {
     "name": "ASIA2065_S2-TutA/01",
@@ -40277,10 +40290,10 @@
     "weeks": "34,42",
     "activity": "ComA",
     "occurrence": "01",
-    "location": "Craig Bld C3.14",
-    "locationID": "http://www.anu.edu.au/maps#show=11421",
-    "lat": -35.274514,
-    "lon": 149.119974
+    "location": "Ian Ross R104 (Systems and Control Lab)",
+    "locationID": "http://www.anu.edu.au/maps#show=11303",
+    "lat": -35.275684,
+    "lon": 149.120161
    },
    {
     "name": "ENGN8224_S2-LecA/01",
