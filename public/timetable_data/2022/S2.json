@@ -4392,7 +4392,18 @@
     "day": 3,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online prerecorded",
+    "locationID": ""
+   },
+   {
+    "name": "ASIA1999_S2-LecA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "31\u201134",
     "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
@@ -4403,11 +4414,13 @@
     "day": 3,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "30",
+    "weeks": "35,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": " online prerecorded",
-    "locationID": ""
+    "location": "Kambri Cinema",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
    },
    {
     "name": "ASIA1999_S2-TutA/01",
@@ -18486,8 +18499,10 @@
     "weeks": "31\u201134,39\u201142",
     "activity": "ComB",
     "occurrence": "01",
-    "location": " on campus",
-    "locationID": ""
+    "location": "HN 1.25",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
    },
    {
     "name": "COMP3320_S2-LecA/01",
@@ -22957,8 +22972,10 @@
     "weeks": "31\u201134,39\u201142",
     "activity": "ComB",
     "occurrence": "01",
-    "location": " on campus",
-    "locationID": ""
+    "location": "HN 1.25",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
    },
    {
     "name": "COMP6464_S2-LecA/01",
