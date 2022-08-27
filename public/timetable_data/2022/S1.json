@@ -26,10 +26,10 @@
     "weeks": "10\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "HA Tank",
-    "locationID": "http://www.anu.edu.au/maps#show=11295",
-    "lat": "-35.277596",
-    "lon": "149.122472"
+    "location": "LAW LINK T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": "-35.281073",
+    "lon": "149.118997"
    }
   ]
  },
@@ -60,10 +60,10 @@
     "weeks": "10\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "HA Tank",
-    "locationID": "http://www.anu.edu.au/maps#show=11295",
-    "lat": -35.277596,
-    "lon": 149.122472
+    "location": "LAW LINK T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    }
   ]
  },
@@ -130,8 +130,8 @@
     "occurrence": "01",
     "location": "HA Tank",
     "locationID": "http://www.anu.edu.au/maps#show=11295",
-    "lat": -35.277596,
-    "lon": 149.122472
+    "lat": "-35.277596",
+    "lon": "149.122472"
    },
    {
     "name": "ANCH2021_S1-LecA/01",
@@ -5537,8 +5537,8 @@
     "occurrence": "01",
     "location": "LAW LINK T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": "-35.281073",
-    "lon": "149.118997"
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "ASIA2111_S1-TutA/01",
