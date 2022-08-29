@@ -1570,6 +1570,101 @@
    }
   ]
  },
+ "EMDV8124_X3": {
+  "title": "EMDV8124_X3\u00a0Disaster Risk Reduction and Management_In Person_On Campus",
+  "id": "EMDV8124_X3",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/EMDV8124",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EMDV8124_X3-WorA/01",
+    "day": 0,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "35",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 7",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
+ "EMDV8124_X3_(02)": {
+  "title": "EMDV8124_X3\u00a0Disaster Risk Reduction and Management_Online_Online",
+  "id": "EMDV8124_X3_(02)",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/EMDV8124",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EMDV8124_X3-WorA/01",
+    "day": 1,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "35",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8124_X3-WorB/01",
+    "day": 0,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "36\u201137",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8124_X3-WorC/01",
+    "day": 1,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "36\u201137",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8124_X3-WorD/01",
+    "day": 2,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "36\u201137",
+    "activity": "WorD",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8124_X3-WorE/01",
+    "day": 3,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "36\u201137",
+    "activity": "WorE",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8124_X3-WorF/01",
+    "day": 4,
+    "start": "08:00",
+    "finish": "18:00",
+    "weeks": "36\u201137",
+    "activity": "WorF",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
  "ENVS2018_X3": {
   "title": "ENVS2018_X3\u00a0Environmental Science Field School",
   "id": "ENVS2018_X3",
