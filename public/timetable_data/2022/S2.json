@@ -28144,13 +28144,26 @@
     "day": 4,
     "start": "16:00",
     "finish": "17:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201134,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
     "location": "Arndt TR1",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON1101_S2-TutA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "35",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Marie Reay 5.06",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "ECON1101_S2-TutA/02",
@@ -28272,13 +28285,26 @@
     "day": 4,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201134,38\u201143",
     "activity": "TutA",
     "occurrence": "11",
     "location": "Arndt TR2",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON1101_S2-TutA/11",
+    "day": 2,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "35",
+    "activity": "TutA",
+    "occurrence": "11",
+    "location": "Marie Reay 4.04",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "ECON1101_S2-TutA/12",
@@ -56263,7 +56289,7 @@
   ]
  },
  "LAWS8229_S2": {
-  "title": "LAWS8229_S2\u00a0International Law of World Trade",
+  "title": "LAWS8229_S2\u00a0International Trade Law_Online",
   "id": "LAWS8229_S2",
   "link": "https://programsandcourses.anu.edu.au/2022/course/LAWS8229",
   "dates": "Displaying Dates: 18 Jul 22 - 20 Nov 22 (calendar week(s) 29\u201146)",
