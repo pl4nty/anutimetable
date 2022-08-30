@@ -32776,11 +32776,24 @@
     "day": 4,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201134",
     "activity": "ComA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "EMET3006_S2-ComA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "35,38\u201143",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "COP G026",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "EMET3006_S2-LecA/01",
@@ -33048,11 +33061,24 @@
     "day": 4,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201134",
     "activity": "ComA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "EMET4301_S2-ComA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "35,38\u201143",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "COP G026",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "EMET4301_S2-LecA/01",
@@ -33529,11 +33555,24 @@
     "day": 4,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201134",
     "activity": "ComA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "EMET8001_S2-ComA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "35,38\u201143",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "COP G026",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "EMET8001_S2-LecA/01",
