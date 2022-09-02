@@ -45559,6 +45559,27 @@
    }
   ]
  },
+ "HLTH4001_S1": {
+  "title": "HLTH4001_S1\u00a0Health and Medicine Honours",
+  "id": "HLTH4001_S1",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/HLTH4001",
+  "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "HLTH4001_S1-SemA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Florey PBL Room 13_2.45",
+    "locationID": "http://www.anu.edu.au/maps#show=29029",
+    "lat": -35.282847,
+    "lon": 149.114173
+   }
+  ]
+ },
  "HUMN2051_S1": {
   "title": "HUMN2051_S1\u00a0Introduction to Cultural Heritage Management",
   "id": "HUMN2051_S1",
@@ -60567,6 +60588,17 @@
     "lon": 149.114173
    },
    {
+    "name": "MEDI8011_S1-PraB03 <10,11>/02",
+    "day": 0,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "10\u201111",
+    "activity": "PraB03",
+    "occurrence": "02",
+    "location": " ",
+    "locationID": ""
+   },
+   {
     "name": "MEDI8011_S1-SemA01&A02 <6-23>/01",
     "day": 2,
     "start": "09:00",
@@ -61046,6 +61078,19 @@
     "activity": "WorA",
     "occurrence": "11",
     "location": "Florey PBL Room 11_2.47",
+    "locationID": "http://www.anu.edu.au/maps#show=29029",
+    "lat": -35.282847,
+    "lon": 149.114173
+   },
+   {
+    "name": "MEDI8011_S1-WorA/12",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "6\u201111,13\u201114,16\u201123",
+    "activity": "WorA",
+    "occurrence": "12",
+    "location": "Florey PBL Room 12_2.46",
     "locationID": "http://www.anu.edu.au/maps#show=29029",
     "lat": -35.282847,
     "lon": 149.114173
