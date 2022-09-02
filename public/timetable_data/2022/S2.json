@@ -12481,7 +12481,20 @@
     "day": 3,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Barry Drive 7-11 First Floor Left",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": -35.2752066,
+    "lon": 149.127504
+   },
+   {
+    "name": "BUSN7031_S2-LecA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "38\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Barry Drive 7-11 First Floor Left",
@@ -36198,15 +36211,13 @@
    {
     "name": "ENGN1217_S2-MakA/01",
     "day": 3,
-    "start": "09:00",
-    "finish": "11:00",
+    "start": "10:00",
+    "finish": "12:00",
     "weeks": "40",
     "activity": "MakA",
     "occurrence": "01",
-    "location": "COOMBS T",
-    "locationID": "http://www.anu.edu.au/maps#show=11651",
-    "lat": -35.282454,
-    "lon": 149.119653
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "ENGN1217_S2-PraA/01",
@@ -82453,6 +82464,19 @@
     "occurrence": "02",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "WARS2002_S2-TutA/03",
+    "day": 2,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "38\u201143",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
