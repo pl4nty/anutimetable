@@ -989,7 +989,7 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201121,30\u201138,41\u201147",
+    "weeks": "17\u201121,30\u201138,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "STB_S1 (3.07)",
@@ -1009,6 +1009,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11437",
     "lat": "-35.277561",
     "lon": "149.115905"
+   },
+   {
+    "name": "EXTN1002A_X2-LecA/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "44\u201147",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "STB_S2 (3.02)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    }
   ]
  },
