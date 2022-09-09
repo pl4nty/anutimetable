@@ -53148,13 +53148,26 @@
     "day": 0,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "31\u201135,38\u201139,41\u201143",
+    "weeks": "31\u201135,39,41\u201143",
     "activity": "TutA",
     "occurrence": "04",
     "location": "BPB W121",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
+   },
+   {
+    "name": "LAWS1204_S2-TutA/04",
+    "day": 2,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "38",
+    "activity": "TutA",
+    "occurrence": "04",
+    "location": "LAW LINK T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    },
    {
     "name": "LAWS1204_S2-TutA/05",
@@ -55283,19 +55296,6 @@
     "locationID": ""
    },
    {
-    "name": "LAWS4285_S2-SemA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "LAW T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
     "name": "LAWS4285_S2-SemA/02",
     "day": 3,
     "start": "12:00",
@@ -55303,10 +55303,8 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "SemA",
     "occurrence": "02",
-    "location": "LAW T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
+    "location": "Online Live on campus",
+    "locationID": ""
    }
   ]
  },
@@ -58246,6 +58244,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11424",
     "lat": -35.274459,
     "lon": 149.117814
+   },
+   {
+    "name": "MATH1113_S2-MakA/01",
+    "day": 3,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "01",
+    "location": "Marie Reay 4.05",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "MATH1113_S2-WorA/01",
