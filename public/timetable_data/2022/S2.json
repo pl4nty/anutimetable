@@ -81639,6 +81639,54 @@
     "lon": 149.119653
    },
    {
+    "name": "STST3002_S2-MakA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "38",
+    "activity": "MakA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STST3002_S2-MakA/02",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "38",
+    "activity": "MakA",
+    "occurrence": "02",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STST3002_S2-MakA/03",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "38",
+    "activity": "MakA",
+    "occurrence": "03",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "STST3002_S2-MakA/04",
+    "day": 4,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "38",
+    "activity": "MakA",
+    "occurrence": "04",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
     "name": "STST3002_S2-TutA/01",
     "day": 2,
     "start": "11:00",
