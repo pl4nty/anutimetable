@@ -3386,7 +3386,20 @@
     "day": 3,
     "start": "14:00",
     "finish": "18:00",
-    "weeks": "31\u201132,34\u201135,39\u201140,42\u201143",
+    "weeks": "31\u201132,34\u201135",
+    "activity": "StuA",
+    "occurrence": "02",
+    "location": "SOA&D Foundation Room 3 and 4_G54.54A",
+    "locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+    "lat": -35.280713,
+    "lon": 149.122377
+   },
+   {
+    "name": "ARTV1502_S2-StuA/02",
+    "day": 3,
+    "start": "13:30",
+    "finish": "18:00",
+    "weeks": "39\u201140,42\u201143",
     "activity": "StuA",
     "occurrence": "02",
     "location": "SOA&D Foundation Room 3 and 4_G54.54A",
@@ -3779,7 +3792,7 @@
     "name": "ARTV2508_S2-StuA/01",
     "day": 3,
     "start": "14:00",
-    "finish": "18:00",
+    "finish": "16:00",
     "weeks": "40",
     "activity": "StuA",
     "occurrence": "01",
@@ -3863,7 +3876,7 @@
     "name": "ARTV2708_S2-StuA/01",
     "day": 3,
     "start": "14:00",
-    "finish": "18:00",
+    "finish": "16:00",
     "weeks": "40",
     "activity": "StuA",
     "occurrence": "01",
@@ -4051,7 +4064,20 @@
     "day": 3,
     "start": "09:00",
     "finish": "13:00",
-    "weeks": "30\u201135,39\u201143",
+    "weeks": "30\u201135,43",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "SOA&D Lecture Theatre 1.42",
+    "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+    "lat": -35.280713,
+    "lon": 149.122377
+   },
+   {
+    "name": "ARTV3029_S2-StuA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "14:00",
+    "weeks": "39\u201142",
     "activity": "StuA",
     "occurrence": "01",
     "location": "SOA&D Lecture Theatre 1.42",
@@ -4072,7 +4098,20 @@
     "day": 3,
     "start": "09:00",
     "finish": "13:00",
-    "weeks": "30\u201135,39\u201143",
+    "weeks": "30\u201135,43",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "SOA&D Lecture Theatre 1.42",
+    "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+    "lat": -35.280713,
+    "lon": 149.122377
+   },
+   {
+    "name": "ARTV3034_S2-StuA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "14:00",
+    "weeks": "39\u201142",
     "activity": "StuA",
     "occurrence": "01",
     "location": "SOA&D Lecture Theatre 1.42",
@@ -4093,7 +4132,20 @@
     "day": 3,
     "start": "09:00",
     "finish": "13:00",
-    "weeks": "30\u201135,39\u201143",
+    "weeks": "30\u201135,43",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "SOA&D Lecture Theatre 1.42",
+    "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+    "lat": -35.280713,
+    "lon": 149.122377
+   },
+   {
+    "name": "ARTV3035_S2-StuA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "14:00",
+    "weeks": "39\u201142",
     "activity": "StuA",
     "occurrence": "01",
     "location": "SOA&D Lecture Theatre 1.42",
@@ -17926,6 +17978,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11425",
     "lat": -35.275316,
     "lon": 149.1183
+   },
+   {
+    "name": "COMP2100_S2-LecB/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "17:30",
+    "weeks": "38",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "ENGN T",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": "-35.276172",
+    "lon": "149.11994"
    }
   ]
  },
@@ -20062,8 +20127,8 @@
     "occurrence": "01",
     "location": "ENGN T",
     "locationID": "http://www.anu.edu.au/maps#show=11304",
-    "lat": "-35.276172",
-    "lon": "149.11994"
+    "lat": -35.276172,
+    "lon": 149.11994
    }
   ]
  },
@@ -23619,6 +23684,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11425",
     "lat": -35.275316,
     "lon": 149.1183
+   },
+   {
+    "name": "COMP6442_S2-LecB/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "17:30",
+    "weeks": "38",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "ENGN T",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": -35.276172,
+    "lon": 149.11994
    }
   ]
  },
@@ -83528,54 +83606,6 @@
     "lon": 149.119653
    },
    {
-    "name": "STST3002_S2-MakA/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "38",
-    "activity": "MakA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "STST3002_S2-MakA/02",
-    "day": 4,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "38",
-    "activity": "MakA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "STST3002_S2-MakA/03",
-    "day": 4,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "38",
-    "activity": "MakA",
-    "occurrence": "03",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
-   },
-   {
-    "name": "STST3002_S2-MakA/04",
-    "day": 4,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "38",
-    "activity": "MakA",
-    "occurrence": "04",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
-   },
-   {
     "name": "STST3002_S2-TutA/01",
     "day": 2,
     "start": "11:00",
@@ -83661,11 +83691,33 @@
     "locationID": ""
    },
    {
+    "name": "STST3002_S2-TutA/07",
+    "day": 4,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "38",
+    "activity": "TutA",
+    "occurrence": "07",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
     "name": "STST3002_S2-TutA/08",
     "day": 3,
     "start": "10:00",
     "finish": "11:00",
     "weeks": "30\u201135,39\u201143",
+    "activity": "TutA",
+    "occurrence": "08",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "STST3002_S2-TutA/08",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "38",
     "activity": "TutA",
     "occurrence": "08",
     "location": " online live",
@@ -83685,11 +83737,37 @@
     "lon": 149.119686
    },
    {
+    "name": "STST3002_S2-TutA/09",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "38",
+    "activity": "TutA",
+    "occurrence": "09",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
     "name": "STST3002_S2-TutA/10",
     "day": 3,
     "start": "17:00",
     "finish": "18:00",
     "weeks": "30\u201135,39\u201143",
+    "activity": "TutA",
+    "occurrence": "10",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "STST3002_S2-TutA/10",
+    "day": 4,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "38",
     "activity": "TutA",
     "occurrence": "10",
     "location": "Hedley Bull Seminar Room 3",
