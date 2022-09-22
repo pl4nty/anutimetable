@@ -2531,19 +2531,6 @@
     "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
     "lat": -35.280713,
     "lon": 149.122377
-   },
-   {
-    "name": "ARTH1007_S2-TutA/08",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "30\u201135,39\u201143",
-    "activity": "TutA",
-    "occurrence": "08",
-    "location": "Marie Reay 5.05",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
    }
   ]
  },
@@ -2798,32 +2785,6 @@
     "weeks": "39",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "Marie Reay 3.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   },
-   {
-    "name": "ARTH2171_S2-TutA/03",
-    "day": 3,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "30\u201131,33\u201135,39\u201143",
-    "activity": "TutA",
-    "occurrence": "03",
-    "location": "Marie Reay 5.03",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   },
-   {
-    "name": "ARTH2171_S2-TutA/03",
-    "day": 3,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "32",
-    "activity": "TutA",
-    "occurrence": "03",
     "location": "Marie Reay 3.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
@@ -3438,7 +3399,20 @@
     "day": 3,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30,33,41",
+    "weeks": "30,33",
+    "activity": "StuB",
+    "occurrence": "02",
+    "location": "SOA&D Foundation Room 3 and 4_G54.54A",
+    "locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+    "lat": -35.280713,
+    "lon": 149.122377
+   },
+   {
+    "name": "ARTV1502_S2-StuB/02",
+    "day": 3,
+    "start": "14:00",
+    "finish": "18:00",
+    "weeks": "41",
     "activity": "StuB",
     "occurrence": "02",
     "location": "SOA&D Foundation Room 3 and 4_G54.54A",
@@ -3522,6 +3496,17 @@
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    },
    {
+    "name": "ARTV1704_S2-StuA/02",
+    "day": 1,
+    "start": "10:00",
+    "finish": "13:00",
+    "weeks": "39",
+    "activity": "StuA",
+    "occurrence": "02",
+    "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
+    "locationID": "http://soa.anu.edu.au/printmedia/map"
+   },
+   {
     "name": "ARTV1704_S2-StuB/01",
     "day": 1,
     "start": "14:00",
@@ -3529,6 +3514,17 @@
     "weeks": "31\u201133,35,39\u201143",
     "activity": "StuB",
     "occurrence": "01",
+    "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
+    "locationID": "http://soa.anu.edu.au/printmedia/map"
+   },
+   {
+    "name": "ARTV1704_S2-StuB/02",
+    "day": 3,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "31\u201133,35,39\u201143",
+    "activity": "StuB",
+    "occurrence": "02",
     "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    }
@@ -3790,6 +3786,17 @@
    },
    {
     "name": "ARTV2508_S2-StuA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "SOA&D Painting Third Year Studio 1.14/15",
+    "locationID": "http://soa.anu.edu.au/painting/map"
+   },
+   {
+    "name": "ARTV2508_S2-StuA/01",
     "day": 3,
     "start": "14:00",
     "finish": "16:00",
@@ -3870,6 +3877,17 @@
     "activity": "StuA",
     "occurrence": "01",
     "location": "SOA&D Painting Second Year Studio 1.21",
+    "locationID": "http://soa.anu.edu.au/painting/map"
+   },
+   {
+    "name": "ARTV2708_S2-StuA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "SOA&D Painting Third Year Studio 1.14/15",
     "locationID": "http://soa.anu.edu.au/painting/map"
    },
    {
@@ -4385,6 +4403,17 @@
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    },
    {
+    "name": "ARTV6704_S2-StuA/02",
+    "day": 1,
+    "start": "10:00",
+    "finish": "13:00",
+    "weeks": "39",
+    "activity": "StuA",
+    "occurrence": "02",
+    "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
+    "locationID": "http://soa.anu.edu.au/printmedia/map"
+   },
+   {
     "name": "ARTV6704_S2-StuB/01",
     "day": 1,
     "start": "14:00",
@@ -4392,6 +4421,17 @@
     "weeks": "31\u201133,35,39\u201143",
     "activity": "StuB",
     "occurrence": "01",
+    "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
+    "locationID": "http://soa.anu.edu.au/printmedia/map"
+   },
+   {
+    "name": "ARTV6704_S2-StuB/02",
+    "day": 3,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "31\u201133,35,39\u201143",
+    "activity": "StuB",
+    "occurrence": "02",
     "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    }
@@ -33889,10 +33929,23 @@
     "day": 1,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38",
     "activity": "LecB",
     "occurrence": "01",
     "location": "CBE LT 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
+    "name": "EMET3006_S2-LecB/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "39\u201143",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CBE LT 1",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
@@ -34174,10 +34227,23 @@
     "day": 1,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38",
     "activity": "LecB",
     "occurrence": "01",
     "location": "CBE LT 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
+    "name": "EMET4301_S2-LecB/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "39\u201143",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CBE LT 1",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
@@ -34668,10 +34734,23 @@
     "day": 1,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38",
     "activity": "LecB",
     "occurrence": "01",
     "location": "CBE LT 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
+    "name": "EMET8001_S2-LecB/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "39\u201143",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "CBE LT 1",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
@@ -62665,6 +62744,28 @@
     "locationID": ""
    },
    {
+    "name": "MEAS3004_S2-LecA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "38",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online pre-recorded",
+    "locationID": ""
+   },
+   {
+    "name": "MEAS3004_S2-TutA/01",
+    "day": 2,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "39",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
     "name": "MEAS3004_S2-TutA/01",
     "day": 3,
     "start": "11:00",
@@ -62818,6 +62919,28 @@
     "finish": "11:00",
     "weeks": "30\u201135,39\u201143",
     "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "MEAS6004_S2-LecA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "38",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online pre-recorded",
+    "locationID": ""
+   },
+   {
+    "name": "MEAS6004_S2-TutA/01",
+    "day": 2,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "39",
+    "activity": "TutA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
