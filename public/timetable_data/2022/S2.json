@@ -8759,16 +8759,16 @@
    },
    {
     "name": "BIOL3206_S2-WorC/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "14:00",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "39",
     "activity": "WorC",
     "occurrence": "01",
-    "location": "RN Robertson Slatyer Room",
-    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
-    "lat": -35.277804,
-    "lon": 149.117146
+    "location": "Marie Reay 5.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
@@ -10076,16 +10076,16 @@
    },
    {
     "name": "BIOL6206_S2-WorC/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "14:00",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "39",
     "activity": "WorC",
     "occurrence": "01",
-    "location": "RN Robertson Slatyer Room",
-    "locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
-    "lat": -35.277804,
-    "lon": 149.117146
+    "location": "Marie Reay 5.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
