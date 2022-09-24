@@ -28320,13 +28320,26 @@
     "day": 3,
     "start": "14:00",
     "finish": "17:00",
-    "weeks": "30\u201135,39\u201143",
+    "weeks": "30\u201135,41\u201143",
     "activity": "StuA",
     "occurrence": "01",
     "location": "Peter Karmel 2.28 (Lab 1)",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": "-35.280194",
     "lon": "149.123822"
+   },
+   {
+    "name": "DESN2009_S2-StuA/01",
+    "day": 3,
+    "start": "14:00",
+    "finish": "18:00",
+    "weeks": "39\u201140",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "Peter Karmel 2.28 (Lab 1)",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
    },
    {
     "name": "DESN2009_S2-StuA/02",
@@ -56768,13 +56781,24 @@
     "day": 4,
     "start": "10:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Law 6.1.19",
     "locationID": "http://campusmap.anu.edu.au#show=106553",
     "lat": -35.280305,
     "lon": 149.118658
+   },
+   {
+    "name": "LAWS4281_S2-SemA/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "13:00",
+    "weeks": "39\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " Acacia meeting room",
+    "locationID": ""
    }
   ]
  },
@@ -57922,13 +57946,24 @@
     "day": 4,
     "start": "10:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Law 6.1.19",
     "locationID": "http://campusmap.anu.edu.au#show=106553",
     "lat": -35.280305,
     "lon": 149.118658
+   },
+   {
+    "name": "LAWS6281_S2-SemA/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "13:00",
+    "weeks": "39\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " Acacia meeting room",
+    "locationID": ""
    }
   ]
  },
@@ -59459,6 +59494,19 @@
     "start": "14:00",
     "finish": "15:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "COOMBS T",
+    "locationID": "http://www.anu.edu.au/maps#show=11651",
+    "lat": -35.282454,
+    "lon": 149.119653
+   },
+   {
+    "name": "MATH1014_S2-LecA/01",
+    "day": 4,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "COOMBS T",
@@ -66443,11 +66491,24 @@
     "lon": 149.123822
    },
    {
+    "name": "MUSI2220_S2",
+    "day": 3,
+    "start": "16:00",
+    "finish": "18:30",
+    "weeks": "39\u201142",
+    "activity": "Err",
+    "occurrence": "01",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
     "name": "MUSI2220_S2-PraA/07",
     "day": 3,
     "start": "16:00",
     "finish": "18:00",
-    "weeks": "30\u201135,39\u201143",
+    "weeks": "30\u201135,43",
     "activity": "PraA",
     "occurrence": "07",
     "location": "Peter Karmel 1.28",
@@ -67286,11 +67347,24 @@
     "lon": 149.123822
    },
    {
+    "name": "MUSI4412_S2",
+    "day": 3,
+    "start": "16:00",
+    "finish": "18:30",
+    "weeks": "39\u201142",
+    "activity": "Err",
+    "occurrence": "01",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
     "name": "MUSI4412_S2-PraA/07",
     "day": 3,
     "start": "16:00",
     "finish": "18:00",
-    "weeks": "30\u201135,39\u201143",
+    "weeks": "30\u201135,43",
     "activity": "PraA",
     "occurrence": "07",
     "location": "Peter Karmel 1.28",
@@ -73275,6 +73349,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=11313",
     "lat": -35.276955,
     "lon": 149.117796
+   },
+   {
+    "name": "POLS2123_S2-TutA/09",
+    "day": 4,
+    "start": "16:30",
+    "finish": "17:30",
+    "weeks": "38\u201143",
+    "activity": "TutA",
+    "occurrence": "09",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
