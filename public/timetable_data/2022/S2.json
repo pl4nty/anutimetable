@@ -1528,7 +1528,7 @@
   ]
  },
  "ARAB1003_S2": {
-  "title": "ARAB1003_S2\u00a0Introductory Arabic 2_In Person_On-Campus",
+  "title": "ARAB1003_S2\u00a0Introductory Arabic 2_Online or In Person_On-Campus",
   "id": "ARAB1003_S2",
   "link": "https://programsandcourses.anu.edu.au/2022/course/ARAB1003",
   "dates": "Displaying Dates: 18 Jul 22 - 20 Nov 22 (calendar week(s) 29\u201146)",
@@ -1601,7 +1601,7 @@
   ]
  },
  "ARAB1003_S2_(02)": {
-  "title": "ARAB1003_S2\u00a0Introductory Arabic 2_Online_ANU Online",
+  "title": "ARAB1003_S2\u00a0Introductory Arabic 2_Online or In Person_ANU Online",
   "id": "ARAB1003_S2_(02)",
   "link": "https://programsandcourses.anu.edu.au/2022/course/ARAB1003",
   "dates": "Displaying Dates: 18 Jul 22 - 20 Nov 22 (calendar week(s) 29\u201146)",
@@ -33681,6 +33681,19 @@
     "lon": 149.120685
    },
    {
+    "name": "EMET1001_S2-TutA/01",
+    "day": 3,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Marie Reay 5.03",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
+   },
+   {
     "name": "EMET1001_S2-TutA/02",
     "day": 1,
     "start": "15:00",
@@ -33806,6 +33819,19 @@
     "activity": "TutA",
     "occurrence": "10",
     "location": "Arndt TR2",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
+   },
+   {
+    "name": "EMET1001_S2-TutA/10",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "10",
+    "location": "Arndt TR1",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
@@ -66491,19 +66517,6 @@
     "lon": 149.123822
    },
    {
-    "name": "MUSI2220_S2",
-    "day": 3,
-    "start": "16:00",
-    "finish": "18:30",
-    "weeks": "39\u201142",
-    "activity": "Err",
-    "occurrence": "01",
-    "location": "Peter Karmel Big Band Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11368",
-    "lat": -35.280194,
-    "lon": 149.123822
-   },
-   {
     "name": "MUSI2220_S2-PraA/07",
     "day": 3,
     "start": "16:00",
@@ -66512,6 +66525,19 @@
     "activity": "PraA",
     "occurrence": "07",
     "location": "Peter Karmel 1.28",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI2220_S2-PraA/07",
+    "day": 3,
+    "start": "16:00",
+    "finish": "18:30",
+    "weeks": "39\u201142",
+    "activity": "PraA",
+    "occurrence": "07",
+    "location": "Peter Karmel Big Band Room",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -67347,19 +67373,6 @@
     "lon": 149.123822
    },
    {
-    "name": "MUSI4412_S2",
-    "day": 3,
-    "start": "16:00",
-    "finish": "18:30",
-    "weeks": "39\u201142",
-    "activity": "Err",
-    "occurrence": "01",
-    "location": "Peter Karmel Big Band Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11368",
-    "lat": -35.280194,
-    "lon": 149.123822
-   },
-   {
     "name": "MUSI4412_S2-PraA/07",
     "day": 3,
     "start": "16:00",
@@ -67368,6 +67381,19 @@
     "activity": "PraA",
     "occurrence": "07",
     "location": "Peter Karmel 1.28",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI4412_S2-PraA/07",
+    "day": 3,
+    "start": "16:00",
+    "finish": "18:30",
+    "weeks": "39\u201142",
+    "activity": "PraA",
+    "occurrence": "07",
+    "location": "Peter Karmel Big Band Room",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
