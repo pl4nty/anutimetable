@@ -775,7 +775,7 @@
    },
    {
     "name": "ANTH2025_S2-LecA/01",
-    "day": 2,
+    "day": 3,
     "start": "10:00",
     "finish": "12:00",
     "weeks": "39",
@@ -1106,7 +1106,7 @@
    },
    {
     "name": "ANTH6025_S2-LecA/01",
-    "day": 2,
+    "day": 3,
     "start": "10:00",
     "finish": "12:00",
     "weeks": "39",
@@ -31149,6 +31149,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON3100_S2-LecA/01",
+    "day": 4,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
    }
   ]
  },
@@ -47769,7 +47782,7 @@
    },
    {
     "name": "GEND2035_S2-LecA/01",
-    "day": 2,
+    "day": 3,
     "start": "10:00",
     "finish": "12:00",
     "weeks": "39",
@@ -60443,6 +60456,19 @@
     "lon": 149.1191
    },
    {
+    "name": "MATH2306_S2-WorA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "40",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
     "name": "MATH2306_S2-WorA/02",
     "day": 1,
     "start": "13:00",
@@ -62561,6 +62587,19 @@
     "start": "10:00",
     "finish": "11:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH6406_S2-WorA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "40",
     "activity": "WorA",
     "occurrence": "01",
     "location": "HN 1.57",
