@@ -43969,11 +43969,24 @@
     "day": 2,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "40\u201141",
+    "weeks": "40",
     "activity": "SemB",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "ENVS6307_S2-SemB/01",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "41",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "FSTY 103",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    }
   ]
  },
