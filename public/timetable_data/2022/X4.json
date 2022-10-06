@@ -223,6 +223,40 @@
    }
   ]
  },
+ "DIPL8012_X4": {
+  "title": "DIPL8012_X4\u00a0Special Topics in Diplomacy_Indigenous Diplomacy",
+  "id": "DIPL8012_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/DIPL8012",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "DIPL8012_X4-SemA/01",
+    "day": 0,
+    "start": "13:30",
+    "finish": "17:30",
+    "weeks": "45",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Hedley Bull Room 3.27 Reading Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "DIPL8012_X4-SemB/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "15:00",
+    "weeks": "48",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Hedley Bull Room 3.27 Reading Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   }
+  ]
+ },
  "ENVS2002_X4": {
   "title": "ENVS2002_X4\u00a0Environmental Measurement, Modelling and Monitoring",
   "id": "ENVS2002_X4",
@@ -772,8 +806,8 @@
     "occurrence": "01",
     "location": "Coombs Seminar Room B 3.104",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": "-35.281813",
-    "lon": "149.120055"
+    "lat": -35.281813,
+    "lon": 149.120055
    },
    {
     "name": "PASI8305_X4-SemB/01",
