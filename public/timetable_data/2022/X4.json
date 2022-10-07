@@ -230,6 +230,19 @@
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
+    "name": "DIPL8012_X4_WorB/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "47",
+    "activity": "Err",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": "-35.282857",
+    "lon": "149.119686"
+   },
+   {
     "name": "DIPL8012_X4-SemA/01",
     "day": 0,
     "start": "13:30",
@@ -254,6 +267,32 @@
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
+   },
+   {
+    "name": "DIPL8012_X4-WorA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "47",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "DIPL8012_X4-WorC/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "47",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
    }
   ]
  },
