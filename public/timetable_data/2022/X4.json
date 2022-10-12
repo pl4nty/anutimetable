@@ -1091,8 +1091,10 @@
     "weeks": "47",
     "activity": "WorA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Crawford Acton Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8232_X4-WorA/02",
@@ -1113,8 +1115,10 @@
     "weeks": "47",
     "activity": "WorB",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Crawford Acton Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8232_X4-WorB/02",
@@ -1135,8 +1139,10 @@
     "weeks": "48",
     "activity": "WorC",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Crawford Seminar Room 8",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8232_X4-WorC/02",
@@ -1157,8 +1163,10 @@
     "weeks": "48",
     "activity": "WorD",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Crawford Acton Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    },
    {
     "name": "POGO8232_X4-WorD/02",
@@ -1413,6 +1421,79 @@
     "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
     "lat": -35.27583,
     "lon": 149.11753
+   }
+  ]
+ },
+ "SOCR8201_X4": {
+  "title": "SOCR8201_X4\u00a0Introduction to Social Science Methods and Types of Data_intensive course",
+  "id": "SOCR8201_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/SOCR8201",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "SOCR8201_X4_SemA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "44",
+    "activity": "Err",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "SOCR8201_X4-SemB/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "44",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "SOCR8201_X4-SemC/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "44",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "SOCR8201_X4-SemD/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "44",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "SOCR8201_X4-SemE/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "44",
+    "activity": "SemE",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
    }
   ]
  },
