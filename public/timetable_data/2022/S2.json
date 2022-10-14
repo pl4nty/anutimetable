@@ -63629,6 +63629,19 @@
    {
     "name": "MEDI8020_S2-LecA/01",
     "day": 2,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "45",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Innovations Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11370",
+    "lat": -35.28236,
+    "lon": 149.11573
+   },
+   {
+    "name": "MEDI8020_S2-LecA/01",
+    "day": 2,
     "start": "12:00",
     "finish": "13:00",
     "weeks": "25\u201126,29\u201136",
@@ -63638,6 +63651,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11325",
     "lat": -35.283152,
     "lon": 149.113616
+   },
+   {
+    "name": "MEDI8020_S2-LecB/01",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "45",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Innovations Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11370",
+    "lat": -35.28236,
+    "lon": 149.11573
    },
    {
     "name": "MEDI8020_S2-LecB/01",
@@ -63679,6 +63705,19 @@
     "lon": 149.11573
    },
    {
+    "name": "MEDI8020_S2-LecC/01",
+    "day": 3,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "41,43\u201145",
+    "activity": "LecC",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
     "name": "MEDI8020_S2-LecD/01",
     "day": 3,
     "start": "11:30",
@@ -63705,6 +63744,19 @@
     "lon": 149.113616
    },
    {
+    "name": "MEDI8020_S2-LecD/01",
+    "day": 3,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "41,43\u201145",
+    "activity": "LecD",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
     "name": "MEDI8020_S2-LecE/01",
     "day": 3,
     "start": "14:00",
@@ -63718,11 +63770,37 @@
     "lon": 149.113616
    },
    {
+    "name": "MEDI8020_S2-LecE/01",
+    "day": 3,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "41,43\u201145",
+    "activity": "LecE",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
     "name": "MEDI8020_S2-LecF/01",
     "day": 3,
     "start": "15:00",
     "finish": "16:00",
     "weeks": "25\u201126,29\u201136",
+    "activity": "LecF",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
+    "name": "MEDI8020_S2-LecF/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "41,43\u201145",
     "activity": "LecF",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -63757,6 +63835,19 @@
     "lon": 149.113616
    },
    {
+    "name": "MEDI8020_S2-LecG/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "41,43\u201145",
+    "activity": "LecG",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
     "name": "MEDI8020_S2-LecH/01",
     "day": 4,
     "start": "12:00",
@@ -63783,12 +63874,64 @@
     "lon": 149.113616
    },
    {
+    "name": "MEDI8020_S2-PraA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "41,43\u201145",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "Florey Medical Sciences Lab B1.20",
+    "locationID": "http://www.anu.edu.au/maps#show=29029",
+    "lat": -35.282847,
+    "lon": 149.114173
+   },
+   {
+    "name": "MEDI8020_S2-PraB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "41,43\u201145",
+    "activity": "PraB",
+    "occurrence": "01",
+    "location": "Florey Medical Sciences Lab B1.20",
+    "locationID": "http://www.anu.edu.au/maps#show=29029",
+    "lat": -35.282847,
+    "lon": 149.114173
+   },
+   {
+    "name": "MEDI8020_S2-SemA/01",
+    "day": 2,
+    "start": "12:00",
+    "finish": "13:30",
+    "weeks": "41,43\u201145",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
     "name": "MEDI8020_S2-SemA/01",
     "day": 2,
     "start": "14:00",
     "finish": "15:30",
     "weeks": "25\u201126,29\u201136",
     "activity": "SemA",
+    "occurrence": "01",
+    "location": "Innovations Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11370",
+    "lat": -35.28236,
+    "lon": 149.11573
+   },
+   {
+    "name": "MEDI8020_S2-SemB/01",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "45",
+    "activity": "SemB",
     "occurrence": "01",
     "location": "Innovations Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11370",
