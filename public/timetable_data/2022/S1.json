@@ -1300,19 +1300,6 @@
   "dates": "Displaying Dates: 14 Feb 22 - 19 Jun 22 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "ARAB1002_S1-LecA/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "11,16\u201117",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "BPB W121",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
     "name": "ARAB1002_S1-LecA/02",
     "day": 4,
     "start": "12:00",
@@ -1320,6 +1307,19 @@
     "weeks": "11,16\u201117",
     "activity": "LecA",
     "occurrence": "02",
+    "location": "BPB W121",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
+   },
+   {
+    "name": "ARAB1002_S1-LecA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "11,16\u201117",
+    "activity": "LecA",
+    "occurrence": "01",
     "location": "BPB W121",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
