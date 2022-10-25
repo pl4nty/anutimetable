@@ -230,19 +230,6 @@
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "DIPL8012_X4_WorB/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "16:00",
-    "weeks": "47",
-    "activity": "Err",
-    "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": "-35.282857",
-    "lon": "149.119686"
-   },
-   {
     "name": "DIPL8012_X4-SemA/01",
     "day": 0,
     "start": "13:30",
@@ -275,6 +262,19 @@
     "finish": "16:00",
     "weeks": "47",
     "activity": "WorA",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": "-35.282857",
+    "lon": "149.119686"
+   },
+   {
+    "name": "DIPL8012_X4-WorB/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "47",
+    "activity": "WorB",
     "occurrence": "01",
     "location": "Hedley Bull Seminar Room 3",
     "locationID": "http://www.anu.edu.au/maps#show=11379",
@@ -826,6 +826,66 @@
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
+   }
+  ]
+ },
+ "PASI8302_X4": {
+  "title": "PASI8302_X4\u00a0Bougainville in Transition_In-Person and Online",
+  "id": "PASI8302_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/PASI8302",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "PASI8302_X4-SemA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room F 3.304",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room F 3.304",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemC/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "46",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room F 3.304",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemD/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "46",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room F 3.304",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
    }
   ]
  },
@@ -1431,12 +1491,12 @@
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "SOCR8201_X4_SemA/01",
+    "name": "SOCR8201_X4-SemA/01",
     "day": 0,
     "start": "09:00",
     "finish": "17:00",
     "weeks": "44",
-    "activity": "Err",
+    "activity": "SemA",
     "occurrence": "01",
     "location": "RSSS Lectorial 1 Rm 1.21",
     "locationID": "http://www.anu.edu.au/maps#show=123279",
