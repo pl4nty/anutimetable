@@ -52,8 +52,8 @@ const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { even
       <p>{button}</p>
     </>)
   } else return <>
-    <div class="fc-daygrid-event-dot" style={{"border-color": borderColor}}></div>
-    <div class="fc-event-title">{event.title}</div>
+    <div className="fc-daygrid-event-dot" style={{borderColor: borderColor}}></div>
+    <div className="fc-event-title">{event.title}</div>
   </>
 }
 
