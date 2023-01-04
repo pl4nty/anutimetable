@@ -35,7 +35,7 @@
 		{
 			"type": "shell",
 			"label": "swa start",
-			"command": "swa start http://localhost:3000/ --run 'npm start' --api-location http://localhost:7071",
+			"command": "npx swa start http://localhost:3000/ --run 'npm start' --api-location http://localhost:7071",
 			"isBackground": true,
 			"problemMatcher": [
 				{

@@ -25,6 +25,4 @@ export default async function (context, req) {
     context.res = {
         body: Object.entries(modules).reduce((acc, [key, module]) => ({...acc, [key.split('_')[0]]: dropClasses(module)}),{})
     }
-    
-    context.done()
 }

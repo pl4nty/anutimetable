@@ -93,6 +93,7 @@ export const getStartOfSession = () => {
   const [year, session] = getInitialState()
   return {
     '2022S1': new Date('2022-02-20T21:00:00Z'), // 8AM 21 Feb in GMT
+    '2023S1': new Date('2023-02-20T21:00:00Z'), // 8AM 21 Feb in GMT
   }?.[year + session]
 }
 
