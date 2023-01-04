@@ -19,6 +19,7 @@ import { useMemo, useState, useEffect, useCallback } from 'react'
 // (Recurring events don't respect timezones in FullCalendar)
 // We simply replace the expand function here: https://github.com/fullcalendar/fullcalendar/blob/ede23c4b2bf0ee0bb2cbe4694b3e899a09d14da6/packages/rrule/src/main.ts#L36-L56
 // With a custom version below
+// somehow this pins us to rrule 2.6.8, since 2.7 removes Luxon with jakubroztocil/rrule#508 and starts returning "invalid date" on the rruleset
 rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   return errd.rruleSet.between(
     fr.start,
