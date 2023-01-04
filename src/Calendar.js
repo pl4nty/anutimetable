@@ -28,27 +28,30 @@ rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   ).map(date => new Date(de.createMarker(date).getTime() + date.getTimezoneOffset() * 60 * 1000))
 }
 
-const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { event }) => {
-  const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
-  const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
-  // causes a nested <a> in the event
-  // fix PR is unmerged since Apr 2021: fullcalendar/fullcalendar#5710
-  const locationLine = url
-    ? <a href={url} target="_blank" rel="noreferrer">{location}</a>
-    : location;
-  const values = [event.source.id, event.groupId, event.extendedProps.occurrence];
-  const button = activity.startsWith('Lec') ? null :
-    hasMultipleOccurrences
-      ? <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'select', values })}>Choose</button>
-      : <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'reset', values })}>Reset</button>
-  return <>
-    <div className='hide-button' title='Hide this event' onClick={() => setHiddenEvents(events => [...events, values])}>
-      <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
-    </div>
-    <p>{event.title}</p>
-    <p>{locationLine}</p>
-    <p>{button}</p>
-  </>
+const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { event, view }) => {
+  // view-specific eventContent options seem to have broken since FullCalendar 6, so we have to apply them manually
+  if (view.type !== 'dayGridMonth') {
+    const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
+    const url = lat ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}` : locationID
+    // causes a nested <a> in the event
+    // fix PR is unmerged since Apr 2021: fullcalendar/fullcalendar#5710
+    const locationLine = url
+      ? <a href={url} target="_blank" rel="noreferrer">{location}</a>
+      : location;
+    const values = [event.source.id, event.groupId, event.extendedProps.occurrence];
+    const button = activity.startsWith('Lec') ? null :
+      hasMultipleOccurrences
+        ? <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'select', values })}>Choose</button>
+        : <button className='choose-button' onClick={() => setSpecifiedOccurrences({ type: 'reset', values })}>Reset</button>
+    return (<>
+      <div className='hide-button' title='Hide this event' onClick={() => setHiddenEvents(events => [...events, values])}>
+        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+      </div>
+      <p>{event.title}</p>
+      <p>{locationLine}</p>
+      <p>{button}</p>
+    </>)
+  } else return <p>{event.title}</p>
 }
 
 const weekNumberCalculation = date => {
@@ -200,6 +203,8 @@ export default function Calendar({ timetableState }) {
         click: fullScreenClick
       }
     }}
+
+    eventContent={getEventContent}
 
     views={{
       timeGridDay: {
