@@ -5,10 +5,10 @@ import bootstrapPlugin from '@fullcalendar/bootstrap5'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
-import rrulePlugin from '@fullcalendar/rrule'
+import rrulePlugin from '@fullcalendar/rrule' // causes build warns: jakubroztocil/rrule#522
 import luxonPlugin from '@fullcalendar/luxon2'
 
-import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai'
+// import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai'
 
 import { DateTime } from 'luxon'
 
