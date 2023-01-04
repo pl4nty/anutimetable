@@ -1,11 +1,11 @@
 import FullCalendar, { formatDate } from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
-import bootstrapPlugin from '@fullcalendar/bootstrap'
+import bootstrapPlugin from '@fullcalendar/bootstrap5'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
 import rrulePlugin from '@fullcalendar/rrule'
-import luxonPlugin from '@fullcalendar/luxon'
+import luxonPlugin from '@fullcalendar/luxon2'
 
 import { AiOutlineFullscreen, AiOutlineFullscreenExit } from 'react-icons/ai'
 
