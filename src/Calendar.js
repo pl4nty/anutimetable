@@ -1,4 +1,5 @@
-import FullCalendar, { formatDate } from '@fullcalendar/react'
+import { formatDate } from '@fullcalendar/core'
+import FullCalendar from '@fullcalendar/react'
 // Bootstrap 5 support is WIP: fullcalendar/fullcalendar#6625
 import bootstrapPlugin from '@fullcalendar/bootstrap5'
 import dayGridPlugin from '@fullcalendar/daygrid'
@@ -193,7 +194,7 @@ export default function Calendar({ timetableState }) {
     }}
     customButtons={{
       fullScreen: {
-        text: fullScreen ? <AiOutlineFullscreenExit size='1.5em' /> : <AiOutlineFullscreen size='1.5em' />,
+        text: fullScreen ? 'Exit' : 'FullScreen', // see fullcalendar/fullcalendar#7120 <AiOutlineFullscreenExit size='1.5em' /> : <AiOutlineFullscreen size='1.5em' />,
         hint: fullScreen ? 'Exit FullScreen' : 'Enter FullScreen',
         click: fullScreenClick
       }

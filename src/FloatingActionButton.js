@@ -7,7 +7,7 @@ import { Button, Modal } from 'react-bootstrap'
 import { RiSettings4Fill, RiCloseLine, RiMoonFill, RiSunFill, RiCalendar2Fill } from 'react-icons/ri'
 import { MdRemoveRedEye } from 'react-icons/md'
 import { BsCalendarWeek, BsClock } from 'react-icons/bs'
-import TimezoneSelect from 'react-timezone-select/dist'
+import TimezoneSelect from 'react-timezone-select'
 
 // [["0","Sunday"]...]
 const daysOfWeek = Object.entries(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'])

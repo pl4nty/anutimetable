@@ -55,7 +55,9 @@ let App = () => {
     || Intl.DateTimeFormat()?.resolvedOptions()?.timeZone.replace(/^UTC$/, 'Etc/GMT')
     || 'Australia/Canberra' // Default to Canberra if API is missing (pre-2018 browsers)
   )
-  useEffect(() => localStorage.timeZone = timeZone, [timeZone])
+  useEffect(() => {
+    localStorage.timeZone = timeZone
+  }, [timeZone])
 
   loadCachedQSIfNotExists()
 
