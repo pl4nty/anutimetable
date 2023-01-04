@@ -50,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@azure/static-web-apps-cli": "1.0.4",
+    "@azure/static-web-apps-cli": "^1.0.4",
     "azure-functions-core-tools": "4.0.4915",
     "cross-env": "7.0.3"
   }

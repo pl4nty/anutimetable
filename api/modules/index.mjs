@@ -1,9 +1,9 @@
-const fetch = require('node-fetch')
+import fetch from 'node-fetch'
 
 const isDev = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development'
 
 // /modules?year=${year}&session=${session}
-module.exports = async function (context, req) {
+export default async function (context, req) {
     const SOURCE = isDev ? 'http://localhost:3000' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public'
     const TIMETABLE_JSON = `${SOURCE}/timetable_data/${req.query.year}/${req.query.session}.min.json`
 
