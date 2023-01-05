@@ -156,10 +156,6 @@ let App = () => {
   }
 
   const [specifiedOccurrences, setSpecifiedOccurrences] = useReducer(changeOccurrences, getSpecOccurrences())
-  useEffect(() => {
-    setSpecifiedOccurrences()
-  }, [selectedModules])
-
 
   // Starting day of the week
   const [weekStart, setWeekStart] = useState(0);
@@ -186,23 +182,17 @@ let App = () => {
     }
   }, []);
 
-  const timetableState = {
-    timeZone, year, session, sessions, specifiedOccurrences, hiddenEvents, timetableData, modules, selectedModules, weekStart, darkMode,
-    setTimeZone, setYear, setSession, setSessions, setSpecifiedOccurrences, setHiddenEvents, setTimetableData, setModules, setSelectedModules,
-    hiddenDays,
-  }
-
   return <>
     {/* // fluid="xxl" is only supported in Bootstrap 5 */}
     <Container fluid className='d-flex flex-column vh-100 px-0'>
       <Row className="m-0">
         <Col className="p-0">
-          <Header API={API} timetableState={timetableState} />
+          <Header API={API} sessions={sessions} year={year} setYear={setYear} session={session} modules={modules} selectedModules={selectedModules} setSession={setSession} setSelectedModules={setSelectedModules} darkMode={darkMode} />
         </Col>
       </Row>
       <Row className="flex-column flex-grow-1 m-0 pt-3 pb-3">
         <Col className="w-100 px-3">
-          <Calendar timetableState={timetableState} />
+          <Calendar timetableData={timetableData} selectedModules={selectedModules} session={session} year={year} specifiedOccurrences={specifiedOccurrences} hiddenEvents={hiddenEvents} weekStart={weekStart} hiddenDays={hiddenDays} timeZone={timeZone} setSpecifiedOccurrences={setSpecifiedOccurrences} setHiddenEvents={setHiddenEvents} />
         </Col>
       </Row>
       <Row className="m-0">
@@ -223,7 +213,7 @@ let App = () => {
       weekStart, setWeekStart,
       hiddenDays, setHiddenDays,
       darkMode, toggleDarkMode,
-      hidden: hiddenEvents, setHiddenEvents, 
+      hidden: hiddenEvents, setHiddenEvents,
       timeZone, setTimeZone
     }} />
   </>

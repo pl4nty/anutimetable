@@ -12,11 +12,10 @@ const select = (state, setState, setModules, callback) => e => {
   }
 }
 
-const Header = ({ API, timetableState}) => {
-  let {sessions, year, setYear, session, setSession, setSelectedModules, darkMode} = timetableState
+const Header = ({ API, sessions, year, setYear, session, modules, selectedModules, setSession, setSelectedModules, darkMode }) => {
   const selectYear = select(year, setYear, setSelectedModules, yr => {
     const s = sessions[yr]
-    setSession(s?.[s.length-1] || '')
+    setSession(s?.[s.length - 1] || '')
   })
   const selectSession = select(session, setSession, setSelectedModules)
   const years = useMemo(() => Object.keys(sessions).reverse(), [sessions])
@@ -28,7 +27,6 @@ const Header = ({ API, timetableState}) => {
       <a href="https://cssa.club/" target="_blank"><img
         alt="CSSA logo"
         src="/cssa-mono.svg"
-        
         width="28"
         height="28"
         style={darkMode ? {
@@ -57,9 +55,9 @@ const Header = ({ API, timetableState}) => {
         </NavDropdown.Item>
       </NavDropdown> */}
     </Nav>
-    <Navbar.Toggle className="mb-1"/>
+    <Navbar.Toggle className="mb-1" />
     <Navbar.Collapse>
-      <Toolbar API={API} timetableState={timetableState} />
+      <Toolbar API={API} year={year} session={session} modules={modules} selectedModules={selectedModules} darkMode={darkMode} setSelectedModules={setSelectedModules} />
     </Navbar.Collapse>
   </Navbar>
 }

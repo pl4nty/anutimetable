@@ -28,7 +28,7 @@ rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   ).map(date => new Date(de.createMarker(date).getTime() + date.getTimezoneOffset() * 60 * 1000))
 }
 
-const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { event, view, borderColor }) => {
+const formatEventContent = (setSpecifiedOccurrences, setHiddenEvents, { event, view, borderColor }) => {
   // view-specific eventContent options seem to have broken since FullCalendar 6, so we have to apply them manually
   if (view.type !== 'dayGridMonth') {
     const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
@@ -52,7 +52,7 @@ const formatEventContent = ({ setSpecifiedOccurrences, setHiddenEvents }, { even
       <p>{button}</p>
     </>)
   } else return <>
-    <div className="fc-daygrid-event-dot" style={{borderColor: borderColor}}></div>
+    <div className="fc-daygrid-event-dot" style={{ borderColor: borderColor }}></div>
     <div className="fc-event-title">{event.title}</div>
   </>
 }
@@ -64,28 +64,26 @@ const weekNumberCalculation = date => {
   return end - start + 1 // 0 weeks after start is week 1
 }
 
-const getEvents = timetableState => {
+export const getEvents = (timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents) => {
   // Ensure we have data
-  if (!timetableState.selectedModules) return []
-  if (Object.keys(timetableState.timetableData).length === 0) return []
-  const newEvents = [];
+  if (!selectedModules) return []
+  if (Object.keys(timetableData).length === 0) return []
 
-  // Iterate over each module and add the appropriate times to the calendar if needed
-  for (let i = 0; i < timetableState.selectedModules.length; i++) {
-    const { id } = timetableState.selectedModules[i];
-    let timetableData = timetableState.timetableData
+  return selectedModules.map(mod => {
+    const { id } = mod;
 
     // Which events are currently chosen?
     // Basically the module's full list of classes, minus alternatives to chosen options (from the query string)
-    const eventsForModule = [...timetableData[`${id}_${timetableState.session}`].classes]
+    const eventsForModule = [...timetableData[`${id}_${session}`].classes]
 
     // Generate the events parameters
-    let eventsList = parseEvents(eventsForModule, timetableState.year, timetableState.session, id)
+    let eventsList = parseEvents(eventsForModule, year, session, id)
+
+    const occurrences = specifiedOccurrences.filter(oc => oc[0] === id)
+    const hidden = hiddenEvents.filter(oc => oc[0] === id)
 
     // Hide all but the valid occurrence
-    for (const [module, groupId, occurrence] of timetableState.specifiedOccurrences) {
-      if (module !== id) continue
-
+    for (const [, groupId, occurrence] of occurrences) {
       eventsList.forEach((event, index) => {
         if (event.groupId === groupId) {
           if (parseInt(event.occurrence) === occurrence) {
@@ -98,9 +96,7 @@ const getEvents = timetableState => {
     }
 
     // Hide hidden occurrences
-    for (const [module, groupId, occurrence] of timetableState.hiddenEvents) {
-      if (module !== id) continue
-
+    for (const [, groupId, occurrence] of hidden) {
       eventsList.forEach((event, index) => {
         if (event.activity === groupId && parseInt(event.occurrence) === occurrence) {
           eventsList[index].display = 'none'
@@ -108,14 +104,12 @@ const getEvents = timetableState => {
       })
     }
 
-    // Add event to the list
-    newEvents[i] = {
+    return {
       id,
       color: stringToColor(id),
       events: eventsList
     }
-  }
-  return newEvents
+  })
 }
 
 const getLocaleStartFinishTime = (events, timeZone) => {
@@ -149,7 +143,7 @@ const getLocaleStartFinishTime = (events, timeZone) => {
   return [startTime.toLocaleString(DateTime.TIME_24_SIMPLE), finishTime.toLocaleString(DateTime.TIME_24_SIMPLE)]
 }
 
-export default function Calendar({ timetableState }) {
+export default function Calendar({ timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents, weekStart, hiddenDays, timeZone, setSpecifiedOccurrences, setHiddenEvents }) {
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
   const initialDate =
@@ -158,8 +152,13 @@ export default function Calendar({ timetableState }) {
       : new Date();
 
   // Where the events are stored
-  const events = useMemo(() => getEvents(timetableState), [timetableState])
-  const [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timetableState.timeZone), [events, timetableState.timeZone])
+  // const events = useMemo(() => getEvents(timetableState), [timetableState])
+  const events = useMemo(() =>
+    getEvents(timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents),
+    [timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents])
+
+  // const events = timetableState.events;
+  const [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timeZone), [events, timeZone])
 
   const [fullScreen, setFullScreen] = useState(false)
 
@@ -171,8 +170,8 @@ export default function Calendar({ timetableState }) {
 
   // Handler for calendar to display event content
   const getEventContent = useCallback(e => {
-    return formatEventContent(timetableState, e)
-  }, [timetableState])
+    return formatEventContent(setSpecifiedOccurrences, setHiddenEvents, e)
+  }, [setSpecifiedOccurrences, setHiddenEvents])
 
   const fullScreenClick = useCallback(() => {
     if (fullScreen) document.exitFullscreen()
@@ -264,13 +263,13 @@ export default function Calendar({ timetableState }) {
     weekNumbers
     weekNumberCalculation={weekNumberCalculation}
     weekText='Week'
-    firstDay={timetableState.weekStart}
+    firstDay={weekStart}
 
-    hiddenDays={timetableState.hiddenDays}
+    hiddenDays={hiddenDays}
 
     fixedWeekCount={false}
 
-    timeZone={timetableState.timeZone}
+    timeZone={timeZone}
 
     slotMinTime={startTime}
     slotMaxTime={finishTime}
