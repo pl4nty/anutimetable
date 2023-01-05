@@ -13,7 +13,7 @@ const Export = ({ API, year, session }) => {
     as={InputGroup.Append}
     align="end"
     title='Export'
-    variant='outline-primary'
+    variant='outline-secondary'
     id='export-button'
     onClick={() => setPath(`${API}/GetICS${window.location.search}`)}
   >
