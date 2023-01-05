@@ -105,6 +105,15 @@ const BigSelect = React.memo((props) => {
 			filterOption={filter}
 			value={value}
 			onChange={change}
+			theme={theme => ({
+				...theme,
+				colors: {
+					...theme.colors,
+					primary25: '#D1DDE9',
+					primary50: '#B8C9DD',
+					primary: '#2c3e50'
+				}
+			})}
 		/>
 	);
 });
