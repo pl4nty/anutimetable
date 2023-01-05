@@ -201,12 +201,12 @@ let App = () => {
         </Col>
       </Row>
       <Row className="flex-column flex-grow-1 m-0 pt-3 pb-3">
-        <Col className="w-100">
+        <Col className="w-100 px-3">
           <Calendar timetableState={timetableState} />
         </Col>
       </Row>
       <Row className="m-0">
-        <Col className="p-0">
+        <Col className="px-3">
           <Navbar>
             <Navbar.Text>
               Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
