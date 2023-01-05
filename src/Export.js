@@ -11,7 +11,7 @@ const Export = ({ API, year, session }) => {
   return <DropdownButton
     style={{flexGrow: 1}}
     as={InputGroup.Append}
-    alignRight
+    align="end"
     title='Export'
     variant='outline-primary'
     id='export-button'
