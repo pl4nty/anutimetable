@@ -17,7 +17,6 @@ export default async function (context, req) {
             status: 503,
             body: err
         }
-        context.done()
     }
 
     const dropClasses = ({classes, id, title, ...module}) => ({ title: title.replace(/_[A-Z][1-9]/, ''), ...module })

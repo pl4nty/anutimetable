@@ -36,7 +36,6 @@ export default async function (context, req) {
             status: 404,
             body: 'Please provide a course code eg /GetICS?COMP2310)'
         }
-        context.done()
     }
 
     let timetable
@@ -49,7 +48,6 @@ export default async function (context, req) {
             status: 503,
             body: err
         }
-        context.done()
     }
 
     const events = []
@@ -177,6 +175,4 @@ BEGIN:VEVENT`)
             body: 'No course data found'
         }
     }
-    
-    context.done()
 }
