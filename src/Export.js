@@ -11,11 +11,11 @@ const Export = ({ API, year, session }) => {
   return <DropdownButton
     style={{flexGrow: 1}}
     as={InputGroup.Append}
-    alignRight
+    align='end'
     title='Export'
-    variant='outline-primary'
+    variant='outline-secondary'
     id='export-button'
-    onClick={() => setPath(`${API}/GetICS${window.location.search}`)}
+    onToggle={() => setPath(`${API}/GetICS${window.location.search}`)}
   >
     <Dropdown.Item eventKey="web" target={"_blank"} rel={"noreferrer"}
       href={`webcal://${path}`}>

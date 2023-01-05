@@ -12,23 +12,21 @@ const select = (state, setState, setModules, callback) => e => {
   }
 }
 
-const Header = ({ API, timetableState}) => {
-  let {sessions, year, setYear, session, setSession, setSelectedModules, darkMode} = timetableState
+const Header = ({ API, sessions, year, setYear, session, modules, selectedModules, setSession, setSelectedModules, darkMode }) => {
   const selectYear = select(year, setYear, setSelectedModules, yr => {
     const s = sessions[yr]
-    setSession(s?.[s.length-1] || '')
+    setSession(s?.[s.length - 1] || '')
   })
   const selectSession = select(session, setSession, setSelectedModules)
   const years = useMemo(() => Object.keys(sessions).reverse(), [sessions])
   const mode = darkMode ? 'dark' : 'light'
 
-  return <Navbar variant={mode} bg={mode} expand="lg" sticky="top">
-    <Navbar.Brand style={{ fontSize: '1.135rem' }} className="mr-0 mr-sm-2 mr-lg-3">
+  return <Navbar variant={mode} bg={mode} expand="lg" sticky="top" className="px-3">
+    <Navbar.Brand style={{ fontSize: '1.135rem' }} className="me-0 me-sm-2 me-lg-3">
       {/* eslint-disable-next-line react/jsx-no-target-blank */}
       <a href="https://cssa.club/" target="_blank"><img
         alt="CSSA logo"
         src="/cssa-mono.svg"
-        
         width="28"
         height="28"
         style={darkMode ? {
@@ -36,16 +34,16 @@ const Header = ({ API, timetableState}) => {
         } : {
           filter: 'invert(.25)'
         }}
-        className="d-inline-block align-top mr-1"
+        className="d-inline-block align-top me-1"
       /></a>&nbsp;
       ANU Timetable
     </Navbar.Brand>
-    <Nav className="mr-auto flex-row">
+    <Nav className="me-auto flex-row">
       <NavDropdown title={year}>
         {/* reverse() - years (numerical keys) are in ascending order per ES2015 spec */}
         {years.map(k => <NavDropdown.Item key={k} onClick={selectYear}>{k}</NavDropdown.Item>)}
       </NavDropdown>
-      <NavDropdown title={session} className="mr-0 mr-sm-2 mr-lg-3">
+      <NavDropdown title={session} className="me-0 me-sm-2 me-lg-3">
         {sessions[year]?.map(k => <NavDropdown.Item key={k} onClick={selectSession}>{k}</NavDropdown.Item>)}
       </NavDropdown>
       {/* <NavDropdown title="About">
@@ -57,9 +55,9 @@ const Header = ({ API, timetableState}) => {
         </NavDropdown.Item>
       </NavDropdown> */}
     </Nav>
-    <Navbar.Toggle className="mb-1"/>
+    <Navbar.Toggle className="mb-1" />
     <Navbar.Collapse>
-      <Toolbar API={API} timetableState={timetableState} />
+      <Toolbar API={API} year={year} session={session} modules={modules} selectedModules={selectedModules} darkMode={darkMode} setSelectedModules={setSelectedModules} />
     </Navbar.Collapse>
   </Navbar>
 }

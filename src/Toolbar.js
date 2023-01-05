@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useCallback, useMemo } from 'react'
 
 import { InputGroup } from 'react-bootstrap'
 import { components } from 'react-select'
@@ -7,11 +7,11 @@ import BigSelect from './BigSelect'
 import Export from './Export'
 import { stringToColor } from './utils'
 
-export default function Toolbar({ API, timetableState: {
-  timeZone, year, session, sessions, timetableData, modules, selectedModules, darkMode,
-  setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
-} }) {
-  const theme = theme => ({
+export default function Toolbar({ API,
+  year, session, modules, selectedModules, darkMode,
+  setSelectedModules,
+}) {
+  const theme = useCallback(theme => ({
     ...theme,
     colors: {
       ...theme.colors,
@@ -22,7 +22,7 @@ export default function Toolbar({ API, timetableState: {
       primary: '#42A5FF',
       primary50: darkMode ? '#343A40' : '#deebff',
     }
-  })
+  }), [darkMode])
 
   const MultiValueLabel = props => <components.MultiValueLabel {...props}>
     <a variant="link" size="sm" target="_blank" rel="noreferrer"
@@ -36,46 +36,52 @@ export default function Toolbar({ API, timetableState: {
   }, [modules])
   const showExport = selectedModules.length !== 0
 
-  const styles = {
-    control: provided => ({
-      ...provided,
-      margin: '-1px',
-      ...(showExport && {
-        borderTopRightRadius: 0,
-        borderBottomRightRadius: 0
+  const styles = useMemo(() => {
+    return {
+      control: provided => ({
+        ...provided,
+        margin: '-1px',
+        ...(showExport && {
+          borderTopRightRadius: 0,
+          borderBottomRightRadius: 0
+        }),
       }),
-    }),
 
-    container: provided => ({
-      ...provided,
-      flexGrow: 10,
-    }),
+      container: provided => ({
+        ...provided,
+        flexGrow: 10,
+      }),
 
-    multiValue: (provided, { data }) => ({
-      ...provided,
-      backgroundColor: stringToColor(data.value),
-    }),
+      multiValue: (provided, { data }) => ({
+        ...provided,
+        backgroundColor: stringToColor(data.value),
+      }),
 
-    multiValueLabel: provided => ({
-      ...provided,
-      a: {
-        color: 'white'
-      }
-    }),
+      multiValueLabel: provided => ({
+        ...provided,
+        a: {
+          color: 'white'
+        }
+      }),
 
-    multiValueRemove: provided => ({
-      ...provided,
-      color: 'white',
-    }),
+      multiValueRemove: provided => ({
+        ...provided,
+        color: 'white',
+      }),
 
-    option: provided => ({
-      ...provided,
-      ':hover': {
-        transitionDelay: '30ms',
-        background: provided[':active'].backgroundColor
-      },
-    }),
-  }
+      option: provided => ({
+        ...provided,
+        ':hover': {
+          transitionDelay: '30ms',
+          background: provided[':active'].backgroundColor
+        },
+      }),
+    }
+  }, [showExport])
+
+  const value = useMemo(() => selectedModules.map(({ title, id }) => ({ label: title, value: id })), [selectedModules])
+
+  const onChange = useCallback(n => setSelectedModules(n.map(option => ({ ...option, id: option.value }))), [setSelectedModules]);
 
   return <InputGroup /* style={{ maxWidth: 'none !important', /*flexBasis: 'fit-content' }} */>
     <BigSelect
@@ -96,18 +102,21 @@ export default function Toolbar({ API, timetableState: {
       tabSelectsValue
 
       isLoading={Object.keys(modules).length === 0}
-      loadingMessage={() => 'Loading courses...'}
-      noOptionsMessage={() => 'No matching courses found'}
+      loadingMessage={loadingMessage}
+      noOptionsMessage={noOptionsMessage}
 
       theme={theme}
       // formatOptionLabel={({ label, value }, { context }) => context === "value" ? value : label}
       components={{ MultiValueLabel }}
 
-      value={selectedModules.map(({ title, id }) => ({ label: title, value: id }))}
-      onChange={n => setSelectedModules(n.map(option => ({ ...option, id: option.value })))}
+      value={value}
+      onChange={onChange}
       options={options}
     />
     {/* somehow there's no NPM module for this. maybe I should write one? */}
     {showExport && <Export API={API} year={year} session={session} />}
   </InputGroup>
 }
+
+const loadingMessage = () => 'Loading courses...';
+const noOptionsMessage = () => 'No matching courses found';

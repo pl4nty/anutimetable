@@ -26,14 +26,15 @@ const SelectModal = ({ visible, title, label, options, value, multiple, inline, 
 
   const [selected, setSelected] = useState([])
 
+  // inline forms were deprecated https://github.com/react-bootstrap/react-bootstrap/commit/2113215d52308db93a0afe0104eefb63c0eeec1c
   return <Modal size="md" centered show={visible} onHide={hide} {...props}>
     <Modal.Header closeButton>
       <Modal.Title>{title}</Modal.Title>
     </Modal.Header>
     <Modal.Body>
-      <Form inline={inline}>
+      <Form>
         <Form.Label>{label}</Form.Label>
-        <Form.Control as="select" custom multiple={multiple} defaultValue={value} onChange={singleSelect}>
+        <Form.Control as="select" multiple={multiple} defaultValue={value} onChange={singleSelect}>
           {options.map(([ key, value ]) => <option key={key} value={key} onPointerDown={multiSelect}>
             {value}
           </option>)}
