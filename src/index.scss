@@ -325,6 +325,10 @@ body[data-theme="dark"] {
     font-size: 12pt;
   }
 
+  button {
+    visibility: hidden;
+  }
+
   // Reset the height because by default there is enough space for two lines
   // and we remove Choose/Reset buttons in print view
   // .fc-timegrid-slots .fc-timegrid-slot,

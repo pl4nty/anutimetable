@@ -28,7 +28,7 @@ rrulePlugin.recurringTypes[0].expand = function (errd, fr, de) {
   ).map(date => new Date(de.createMarker(date).getTime() + date.getTimezoneOffset() * 60 * 1000))
 }
 
-const formatEventContent = (setSpecifiedOccurrences, setHiddenEvents, isPrintView, { event, view, borderColor }) => {
+const formatEventContent = (setSpecifiedOccurrences, setHiddenEvents, { event, view, borderColor }) => {
   // view-specific eventContent options seem to have broken since FullCalendar 6, so we have to apply them manually
   if (view.type !== 'dayGridMonth') {
     const { location, locationID, lat, lon, activity, hasMultipleOccurrences } = event.extendedProps
@@ -49,7 +49,7 @@ const formatEventContent = (setSpecifiedOccurrences, setHiddenEvents, isPrintVie
       </div>
       <p>{event.title}</p>
       <p>{locationLine}</p>
-      <p>{!isPrintView && button}</p>
+      <p>{button}</p>
     </>)
   } else return <>
     <div className="fc-daygrid-event-dot" style={{ borderColor: borderColor }}></div>
@@ -183,8 +183,8 @@ export default function Calendar({ timetableData, selectedModules, session, year
 
   // Handler for calendar to display event content
   const getEventContent = useCallback(e => {
-    return formatEventContent(setSpecifiedOccurrences, setHiddenEvents, isPrintView, e)
-  }, [setSpecifiedOccurrences, setHiddenEvents, isPrintView])
+    return formatEventContent(setSpecifiedOccurrences, setHiddenEvents, e)
+  }, [setSpecifiedOccurrences, setHiddenEvents])
 
   const fullScreenClick = useCallback(() => {
     if (fullScreen) document.exitFullscreen()
