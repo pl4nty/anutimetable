@@ -204,7 +204,7 @@ let App = () => {
       </Row>
       <Row className="flex-column flex-grow-1 m-0 pt-3 pb-3">
         <Col className="w-100 px-3">
-          <Calendar timetableData={timetableData} selectedModules={selectedModules} session={session} year={year} specifiedOccurrences={specifiedOccurrences} hiddenEvents={hiddenEvents} weekStart={weekStart} hiddenDays={hiddenDays} timeZone={timeZone} setSpecifiedOccurrences={setSpecifiedOccurrences} setHiddenEvents={setHiddenEvents} />
+          <Calendar timetableData={timetableData} selectedModules={selectedModules} session={session} year={year} specifiedOccurrences={specifiedOccurrences} hiddenEvents={hiddenEvents} weekStart={weekStart} hiddenDays={hiddenDays} timeZone={timeZone} setSpecifiedOccurrences={setSpecifiedOccurrences} setHiddenEvents={setHiddenEvents} isPrintView={isPrintView} printViewCaptureFirstSection={printViewCaptureFirstSection} />
         </Col>
       </Row>
       <Row className="m-0">

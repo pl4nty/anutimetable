@@ -319,18 +319,18 @@ body[data-theme="dark"] {
 
   // A4 Sheet
   .fc-view-harness {
+    flex-grow: 0 !important; // override FullCalendar css
     height: 21cm;
-    max-height: 21cm;
     width: 29.7cm;
     font-size: 12pt;
   }
 
   // Reset the height because by default there is enough space for two lines
   // and we remove Choose/Reset buttons in print view
-  .fc-timegrid-slots .fc-timegrid-slot,
-  .fc-timegrid-event-harness {
-    height: initial !important;
-  }
+  // .fc-timegrid-slots .fc-timegrid-slot,
+  // .fc-timegrid-event-harness {
+  //   height: initial !important;
+  // }
 
   // Kill backgound yellow of current day
   .fc-timegrid-col.fc-day-today {

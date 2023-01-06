@@ -13,7 +13,7 @@ import luxonPlugin from '@fullcalendar/luxon2'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
-import { useMemo, useState, useEffect, useCallback } from 'react'
+import { useMemo, useState, useEffect, useCallback, createRef } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -191,7 +191,11 @@ export default function Calendar({ timetableData, selectedModules, session, year
     else document.getElementsByClassName('fc')[0].requestFullscreen()
   }, [fullScreen])
 
+  const calendarRef = createRef()
+  window.calendar = calendarRef
+
   return <FullCalendar
+    ref={calendarRef}
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}

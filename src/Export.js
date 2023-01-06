@@ -10,7 +10,7 @@ const EXPORT_DOWNLOAD = 0
 const EXPORT_PRINT = 1
 
 
-const Export = forwardRef(({ API, year, session, setIsPrintView, printViewCaptureFirstSection, setPrintViewCaptureFirstSection }, calendar) => {
+const Export = forwardRef(({ API, year, session, setIsPrintView, setPrintViewCaptureFirstSection }, calendar) => {
   const [path, setPath] = useState('')
   const encoded = encodeURIComponent('http://' + path)
 
@@ -66,9 +66,12 @@ const Export = forwardRef(({ API, year, session, setIsPrintView, printViewCaptur
     window.secondPictureNeeded = false
 
     setTimeout(() => {
-      // can't use calendar.scrollToTime() because there's no getScollTime method - fullcalendar#5736
+      // can't use calendar.scrollToTime() because there's no getScollTime method - fullcalendar/fullcalendar#5736
       const scroller = document.querySelector('td[role="presentation"]>.fc-scroller-harness>.fc-scroller')
       const { scrollTop } = scroller
+
+      // hack to force calendar resize, since passing the ref is a pain
+      window.calendar.current.getApi().updateSize()
 
       // set height to view whole timetable - should use props/class instead
       const cal = document.querySelector('.fc-view-harness')
@@ -136,11 +139,11 @@ const Export = forwardRef(({ API, year, session, setIsPrintView, printViewCaptur
     <Dropdown.Item eventKey="ics" download={`${staticName}.ics`} href={`${window.location.protocol}//${path}`}>
       <BsFillCalendarWeekFill /> ICS file
     </Dropdown.Item>
-    <Dropdown.Item eventKey="print" onClick={exportImage(EXPORT_PRINT)}>
-      <BsFillPrinterFill /> Print
-    </Dropdown.Item>
     <Dropdown.Item eventKey="png" onClick={exportImage(EXPORT_DOWNLOAD)}>
       <BsCardImage /> PNG image
+    </Dropdown.Item>
+    <Dropdown.Item eventKey="print" onClick={exportImage(EXPORT_PRINT)}>
+      <BsFillPrinterFill /> Print
     </Dropdown.Item>
   </DropdownButton>
 })
