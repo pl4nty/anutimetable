@@ -194,6 +194,13 @@ export default function Calendar({ timetableData, selectedModules, session, year
   const calendarRef = createRef()
   window.calendar = calendarRef
 
+  // .render doesn't redraw the events somehow
+  useEffect(() => {
+    const api = calendarRef.current.getApi()
+    api.next()
+    api.prev()
+  }, [timeZone])
+
   return <FullCalendar
     ref={calendarRef}
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
