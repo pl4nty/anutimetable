@@ -199,7 +199,7 @@ export default function Calendar({ timetableData, selectedModules, session, year
     const api = calendarRef.current.getApi()
     api.next()
     api.prev()
-  }, [timeZone])
+  }, [calendarRef, timeZone])
 
   return <FullCalendar
     ref={calendarRef}
