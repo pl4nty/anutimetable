@@ -19,9 +19,9 @@ jobs:
         session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']
     
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.8"
 
@@ -63,6 +63,7 @@ jobs:
         # gets the session string (S1),  eg timetable_2022_S1.json
         run: |
           cd scraper
+          test -e ./timetable.json || exit 0
           mv -f ./timetable.json ../public/timetable_data/${YEAR}/${SESSION#* }.json
           mv -f ./timetable.min.json ../public/timetable_data/${YEAR}/${SESSION#* }.min.json
           git config user.name github-actions

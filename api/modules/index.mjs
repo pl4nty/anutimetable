@@ -1,9 +1,9 @@
-const fetch = require('node-fetch')
+import fetch from 'node-fetch'
 
 const isDev = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development'
 
 // /modules?year=${year}&session=${session}
-module.exports = async function (context, req) {
+export default async function (context, req) {
     const SOURCE = isDev ? 'http://localhost:3000' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public'
     const TIMETABLE_JSON = `${SOURCE}/timetable_data/${req.query.year}/${req.query.session}.min.json`
 
@@ -17,7 +17,6 @@ module.exports = async function (context, req) {
             status: 503,
             body: err
         }
-        context.done()
     }
 
     const dropClasses = ({classes, id, title, ...module}) => ({ title: title.replace(/_[A-Z][1-9]/, ''), ...module })
@@ -25,6 +24,4 @@ module.exports = async function (context, req) {
     context.res = {
         body: Object.entries(modules).reduce((acc, [key, module]) => ({...acc, [key.split('_')[0]]: dropClasses(module)}),{})
     }
-    
-    context.done()
 }

@@ -35,11 +35,12 @@ cookies = res.cookies
 session =  SessionData(BeautifulSoup(res.content, 'html.parser'))
 coursesPage = CoursesPage(res)
 
-coursesPage.courseList = list(filter(lambda x: x[0].endswith(f"{SESSION_ID}"), coursesPage.courseList))
+coursesPage.courseList = list(filter(lambda x: f"_{SESSION_ID}" in x[0], coursesPage.courseList))
 
 courseCount = len(coursesPage.courseList)
 print(f"Found {courseCount} courses.")
-
+if courseCount == 0:
+    sys.exit(0)
 
 body = coursesPage.getBody(SESSION_INDEX)
 body = [(k, v) for k, v in body.items()]

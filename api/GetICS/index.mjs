@@ -1,6 +1,6 @@
-const fetch = require('node-fetch')
-const fns = require('date-fns-tz')
-const ics = require('ics')
+import fetch from 'node-fetch'
+import fns from 'date-fns-tz'
+import ics from 'ics'
 
 // https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#azure_functions_environment
 const tz = 'Australia/Canberra'
@@ -16,7 +16,7 @@ function timesToArray(date, timeString) {
 }
 
 // eg ?COMP2310_S2=LecA 01,LecB 01
-module.exports = async function (context, req) {
+export default async function (context, req) {
     const SOURCE = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development' ? 'http://localhost:3000/' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public/'
     const TIMETABLE_JSON = SOURCE+`timetable_data/${req.query.y}/${req.query.s}.min.json`
 
@@ -36,7 +36,6 @@ module.exports = async function (context, req) {
             status: 404,
             body: 'Please provide a course code eg /GetICS?COMP2310)'
         }
-        context.done()
     }
 
     let timetable
@@ -49,7 +48,6 @@ module.exports = async function (context, req) {
             status: 503,
             body: err
         }
-        context.done()
     }
 
     const events = []
@@ -177,6 +175,4 @@ BEGIN:VEVENT`)
             body: 'No course data found'
         }
     }
-    
-    context.done()
 }

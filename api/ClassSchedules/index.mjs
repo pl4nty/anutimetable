@@ -1,6 +1,6 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
-module.exports = async function (context, req) {
+export default async function (context, req) {
     if (req.query.name && req.query.start && req.query.end) {
         let res = await fetch(`${process.env.REACT_APP_ENDPOINT
             }?ModuleName=${req.query.name

@@ -1,7 +1,7 @@
 // Customised react-select for rendering many items
 // Source: https://github.com/JedWatson/react-select/issues/3128#issuecomment-1010558587
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import Select, { components, createFilter } from 'react-select';
 import { Virtuoso } from 'react-virtuoso';
 
@@ -31,7 +31,7 @@ const CustomMenuList = ({ options, children, getValue, hasValue, focusedOption, 
 			if (option && !initialFocus) {
 				selectedOptionIndex = options.findIndex((item) => item.value === option.value);
 				wasSetTrue = true;
-			//scroll to the focused option
+				//scroll to the focused option
 			} else if (initialFocus && focusedOption) {
 				selectedOptionIndex = options.findIndex((item) => item.value === focusedOption.value);
 			}
@@ -81,25 +81,43 @@ const CustomOption = ({ children, ...props }) => {
 const BigSelect = React.memo((props) => {
 	const ref = useRef(null);
 	const { value, onChange, ...rest } = props;
+
+	const change = useCallback((...args) => {
+		onChange(...args);
+		if (ref.current) ref.current.setState({ focusedOption: args[0] });
+	}, [onChange])
+
+	const components = useMemo(() => {
+		return {
+			Option: CustomOption,
+			MenuList: CustomMenuList,
+			...rest.components
+		}
+	}, [rest.components])
+
 	return (
 		<Select
 			ref={ref}
 			{...rest}
 			classNamePrefix="big-select"
-			components={{
-				Option: CustomOption,
-				MenuList: CustomMenuList,
-				...rest.components
-			}}
+			components={components}
 			captureMenuScroll={false}
-			filterOption={createFilter({ ignoreAccents: false })}
+			filterOption={filter}
 			value={value}
-			onChange={(...args) => {
-				onChange(...args);
-				if (ref.current) ref.current.setState({ focusedOption: args[0] });
-			}}
+			onChange={change}
+			theme={theme => ({
+				...theme,
+				colors: {
+					...theme.colors,
+					primary25: '#D1DDE9',
+					primary50: '#B8C9DD',
+					primary: '#2c3e50'
+				}
+			})}
 		/>
 	);
 });
+
+const filter = createFilter({ ignoreAccents: false });
 
 export default BigSelect;
