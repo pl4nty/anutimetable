@@ -182,17 +182,29 @@ let App = () => {
     }
   }, []);
 
+  const [isPrintView, setIsPrintView] = useState(false)
+  const [printViewCaptureFirstSection, setPrintViewCaptureFirstSection] = useState(true)
+
+  useEffect(() => {
+    document.body.className = isPrintView ? 'print-view' : ''
+  }, [isPrintView])
+
+  // const state = {
+  //   timeZone, year, session, sessions, timetableData, modules, selectedModules, weekStart, darkMode,
+  //   setTimeZone, setYear, setSession, setSessions, setTimetableData, setModules, setSelectedModules,
+  //   selectOccurrence, resetOccurrence, hideOccurrence, hiddenDays, isPrintView, setIsPrintView,
+
   return <>
     {/* // fluid="xxl" is only supported in Bootstrap 5 */}
     <Container fluid className='d-flex flex-column vh-100 px-0'>
       <Row className="m-0">
         <Col className="p-0">
-          <Header API={API} sessions={sessions} year={year} setYear={setYear} session={session} modules={modules} selectedModules={selectedModules} setSession={setSession} setSelectedModules={setSelectedModules} darkMode={darkMode} />
+          <Header API={API} sessions={sessions} year={year} setYear={setYear} session={session} modules={modules} selectedModules={selectedModules} setSession={setSession} setSelectedModules={setSelectedModules} darkMode={darkMode} setIsPrintView={setIsPrintView} printViewCaptureFirstSection={printViewCaptureFirstSection} setPrintViewCaptureFirstSection={setPrintViewCaptureFirstSection} />
         </Col>
       </Row>
       <Row className="flex-column flex-grow-1 m-0 pt-3 pb-3">
         <Col className="w-100 px-3">
-          <Calendar timetableData={timetableData} selectedModules={selectedModules} session={session} year={year} specifiedOccurrences={specifiedOccurrences} hiddenEvents={hiddenEvents} weekStart={weekStart} hiddenDays={hiddenDays} timeZone={timeZone} setSpecifiedOccurrences={setSpecifiedOccurrences} setHiddenEvents={setHiddenEvents} />
+          <Calendar timetableData={timetableData} selectedModules={selectedModules} session={session} year={year} specifiedOccurrences={specifiedOccurrences} hiddenEvents={hiddenEvents} weekStart={weekStart} hiddenDays={hiddenDays} timeZone={timeZone} setSpecifiedOccurrences={setSpecifiedOccurrences} setHiddenEvents={setHiddenEvents} isPrintView={isPrintView} printViewCaptureFirstSection={printViewCaptureFirstSection} />
         </Col>
       </Row>
       <Row className="m-0">

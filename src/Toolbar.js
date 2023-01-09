@@ -9,7 +9,7 @@ import { stringToColor } from './utils'
 
 export default function Toolbar({ API,
   year, session, modules, selectedModules, darkMode,
-  setSelectedModules,
+  setSelectedModules, setIsPrintView, printViewCaptureFirstSection, setPrintViewCaptureFirstSection
 }) {
   const theme = useCallback(theme => ({
     ...theme,
@@ -114,8 +114,8 @@ export default function Toolbar({ API,
       options={options}
     />
     {/* somehow there's no NPM module for this. maybe I should write one? */}
-    {showExport && <Export API={API} year={year} session={session} />}
-  </InputGroup>
+    {showExport && <Export API={API} year={year} session={session} setIsPrintView={setIsPrintView} printViewCaptureFirstSection={printViewCaptureFirstSection} setPrintViewCaptureFirstSection={setPrintViewCaptureFirstSection} />}
+  </InputGroup >
 }
 
 const loadingMessage = () => 'Loading courses...';

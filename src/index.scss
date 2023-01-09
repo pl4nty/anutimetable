@@ -104,7 +104,8 @@ div[id^=react-select] {
   cursor: pointer;
 }
 
-.navbar-light .navbar-text, .navbar-light .navbar-collapse {
+.navbar-light .navbar-text,
+.navbar-light .navbar-collapse {
   color: rgba(0, 0, 0, .5);
 }
 
@@ -112,6 +113,7 @@ div[id^=react-select] {
   .navbar {
     flex-flow: row wrap;
   }
+
   .justify-content-end {
     justify-content: flex-start !important;
   }
@@ -123,17 +125,21 @@ div[id^=react-select] {
       // Move element to top of screen
       margin-top: -0.1em;
     }
+
     // Hide the corners
     .fc-prev-button {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
+
     .fc-next-button {
       border-top-right-radius: 0;
     }
+
     .fc-timeGridDay-button {
       border-top-left-radius: 0;
     }
+
     .fc-fullScreen-button {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
@@ -264,6 +270,7 @@ body[data-theme="light"] {
     background-color: white;
   }
 }
+
 body[data-theme="dark"] {
   nav.navbar .navbar-text a {
     color: white;
@@ -287,16 +294,51 @@ body[data-theme="dark"] {
     background-color: #143b6c;
   }
 
-  .rbt-token > a {
+  .rbt-token>a {
     color: #ffffff;
   }
 
-  .fc .fc-list-sticky .fc-list-day > * {
+  .fc .fc-list-sticky .fc-list-day>* {
     background-color: #101214;
   }
 
   .fc .fc-list-event:hover td {
     background-color: #090a0a;
+  }
+}
+
+// print formatting - designed for calendar.current
+.print-view {
+  @page {
+    size: landscape;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+
+  // A4 Sheet
+  .fc-view-harness {
+    flex-grow: 0 !important; // override FullCalendar css
+    height: 21cm;
+    width: 29.7cm;
+    font-size: 12pt;
+  }
+
+  button {
+    visibility: hidden;
+  }
+
+  // Reset the height because by default there is enough space for two lines
+  // and we remove Choose/Reset buttons in print view
+  // .fc-timegrid-slots .fc-timegrid-slot,
+  // .fc-timegrid-event-harness {
+  //   height: initial !important;
+  // }
+
+  // Kill backgound yellow of current day
+  .fc-timegrid-col.fc-day-today {
+    background-color: initial !important;
   }
 }
 
@@ -307,6 +349,7 @@ body[data-theme="dark"] {
   display: flex;
   align-items: center;
 }
+
 // .custom-option:hover {
 //   transition-delay: 60ms;
 //   background: #e2e6eb;

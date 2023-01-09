@@ -13,7 +13,7 @@ import luxonPlugin from '@fullcalendar/luxon2'
 import { DateTime } from 'luxon'
 
 import { getStartOfSession, stringToColor, parseEvents } from './utils'
-import { useMemo, useState, useEffect, useCallback } from 'react'
+import { useMemo, useState, useEffect, useCallback, createRef } from 'react'
 
 // Monkey patch rrulePlugin for FullCalendar to fix https://github.com/fullcalendar/fullcalendar/issues/5273
 // (Recurring events don't respect timezones in FullCalendar)
@@ -143,7 +143,7 @@ const getLocaleStartFinishTime = (events, timeZone) => {
   return [startTime.toLocaleString(DateTime.TIME_24_SIMPLE), finishTime.toLocaleString(DateTime.TIME_24_SIMPLE)]
 }
 
-export default function Calendar({ timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents, weekStart, hiddenDays, timeZone, setSpecifiedOccurrences, setHiddenEvents }) {
+export default function Calendar({ timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents, weekStart, hiddenDays, timeZone, setSpecifiedOccurrences, setHiddenEvents, isPrintView, printViewCaptureFirstSection }) {
   // Set the initial date to max(start of sem, today)
   const startOfSemester = getStartOfSession()
   const initialDate =
@@ -158,7 +158,20 @@ export default function Calendar({ timetableData, selectedModules, session, year
     [timetableData, selectedModules, session, year, specifiedOccurrences, hiddenEvents])
 
   // const events = timetableState.events;
-  const [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timeZone), [events, timeZone])
+  let [startTime, finishTime] = useMemo(() => getLocaleStartFinishTime(events, timeZone), [events, timeZone])
+
+  if (isPrintView) {
+    if (startTime === '00:00' &&
+      finishTime === '23:59') {
+      window.secondPictureNeeded = true
+
+      if (printViewCaptureFirstSection) {
+        finishTime = '12:00'
+      } else {
+        startTime = '12:00'
+      }
+    }
+  }
 
   const [fullScreen, setFullScreen] = useState(false)
 
@@ -178,10 +191,24 @@ export default function Calendar({ timetableData, selectedModules, session, year
     else document.getElementsByClassName('fc')[0].requestFullscreen()
   }, [fullScreen])
 
+  const calendarRef = createRef()
+  window.calendar = calendarRef
+
+  // .render doesn't redraw the events somehow
+  useEffect(() => {
+    const api = calendarRef.current.getApi()
+    api.next()
+    api.prev()
+  }, [calendarRef, timeZone])
+
   return <FullCalendar
+    ref={calendarRef}
     plugins={[bootstrapPlugin, dayGridPlugin, timeGridPlugin, listPlugin, rrulePlugin, luxonPlugin]}
     themeSystem='bootstrap'
     bootstrapFontAwesome={false}
+    //   expandRows={true}
+    // can't apply in print context because FC events need JS to resize (CSS inset prop)
+    viewClassNames={isPrintView ? 'print-view' : ''}
     height='100%'
     expandRows={true}
 
@@ -246,7 +273,8 @@ export default function Calendar({ timetableData, selectedModules, session, year
     })}
     scrollTimeReset={false}
     slotLabelClassNames={'slot-label'}
-    nowIndicator
+    // Don't show indicator in print view
+    nowIndicator={!isPrintView}
     navLinks
     // businessHours={{
     //   daysOfWeek: [1, 2, 3, 4, 5],

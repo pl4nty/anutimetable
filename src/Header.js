@@ -12,7 +12,7 @@ const select = (state, setState, setModules, callback) => e => {
   }
 }
 
-const Header = ({ API, sessions, year, setYear, session, modules, selectedModules, setSession, setSelectedModules, darkMode }) => {
+const Header = ({ API, sessions, year, setYear, session, modules, selectedModules, setSession, setSelectedModules, darkMode, setIsPrintView, printViewCaptureFirstSection, setPrintViewCaptureFirstSection }) => {
   const selectYear = select(year, setYear, setSelectedModules, yr => {
     const s = sessions[yr]
     setSession(s?.[s.length - 1] || '')
@@ -57,7 +57,7 @@ const Header = ({ API, sessions, year, setYear, session, modules, selectedModule
     </Nav>
     <Navbar.Toggle className="mb-1" />
     <Navbar.Collapse>
-      <Toolbar API={API} year={year} session={session} modules={modules} selectedModules={selectedModules} darkMode={darkMode} setSelectedModules={setSelectedModules} />
+      <Toolbar API={API} year={year} session={session} modules={modules} selectedModules={selectedModules} darkMode={darkMode} setSelectedModules={setSelectedModules} setIsPrintView={setIsPrintView} printViewCaptureFirstSection={printViewCaptureFirstSection} setPrintViewCaptureFirstSection={setPrintViewCaptureFirstSection} />
     </Navbar.Collapse>
   </Navbar>
 }
