@@ -26,7 +26,7 @@ def splitHeaderTable(res, geodata):
 class Course:
     def __init__(self, header, table, geodata):
         self.title = re.sub("_\([0-9]+\)", '', header.find("h3").string.split(' (Class:')[0])
-        self.id = header.find("a").string.replace('_(01)', '').replace('_(02)', '')
+        self.id = re.sub("_\([0-9]+\)", '', header.find("a").string)
         self.link = header.find("a")['href']
         self.dates = header.find(
             'h3', class_="date-info-display").string.strip()
