@@ -828,42 +828,8 @@
   ]
  },
  "ANTH6009_S1": {
-  "title": "ANTH6009_S1\u00a0Culture and Development_In Person",
-  "id": "ANTH6009_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH6009",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH6009_S1-LecA/01",
-    "day": 1,
-    "start": "14:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Marie Reay 6.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   },
-   {
-    "name": "ANTH6009_S1-TutA/01",
-    "day": 2,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "BPB W120",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   }
-  ]
- },
- "ANTH6009_S1_(02)": {
   "title": "ANTH6009_S1\u00a0Culture and Development_Online",
-  "id": "ANTH6009_S1_(02)",
+  "id": "ANTH6009_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH6009",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -1095,7 +1061,7 @@
   ]
  },
  "ANTH8009_S1": {
-  "title": "ANTH8009_S1\u00a0Development in Practice_In Person_On Campus",
+  "title": "ANTH8009_S1\u00a0Development in Practice_Online_Online",
   "id": "ANTH8009_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8009",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -1148,62 +1114,8 @@
    }
   ]
  },
- "ANTH8009_S1_(02)": {
-  "title": "ANTH8009_S1\u00a0Development in Practice_Online_Online",
-  "id": "ANTH8009_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8009",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8009_S1-PreLecA/01",
-    "day": 6,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "PreLecA",
-    "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
-   },
-   {
-    "name": "ANTH8009_S1-TutA/01",
-    "day": 2,
-    "start": "13:00",
-    "finish": "14:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Banks 2.36",
-    "locationID": "http://www.anu.edu.au/maps#show=29007",
-    "lat": -35.276048,
-    "lon": 149.116274
-   },
-   {
-    "name": "ANTH8009_S1-TutA/02",
-    "day": 1,
-    "start": "07:30",
-    "finish": "09:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "ANTH8009_S1-TutA/03",
-    "day": 1,
-    "start": "17:30",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "03",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
  "ANTH8019_S1": {
-  "title": "ANTH8019_S1\u00a0Social Analysis and Community Politics_In Person",
+  "title": "ANTH8019_S1\u00a0Social Analysis and Community Politics_Online",
   "id": "ANTH8019_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8019",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -1223,64 +1135,9 @@
    }
   ]
  },
- "ANTH8019_S1_(02)": {
-  "title": "ANTH8019_S1\u00a0Social Analysis and Community Politics_Online",
-  "id": "ANTH8019_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8019",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8019_S1-SemA/01",
-    "day": 4,
-    "start": "11:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "RSSS Lectorial 1 Rm 1.21",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
-   }
-  ]
- },
  "ANTH8038_S1": {
-  "title": "ANTH8038_S1\u00a0Gender & Development: Critical Issues in Policy & Practice_In Person_On Campus",
-  "id": "ANTH8038_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8038",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8038_S1-TutA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": "-35.287633",
-    "lon": "149.11587"
-   },
-   {
-    "name": "ANTH8038_S1-WorA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "ANTH8038_S1_(02)": {
   "title": "ANTH8038_S1\u00a0Gender & Development: Critical Issues in Policy & Practice_Online_Online",
-  "id": "ANTH8038_S1_(02)",
+  "id": "ANTH8038_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8038",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -1309,42 +1166,8 @@
   ]
  },
  "ANTH8039_S1": {
-  "title": "ANTH8039_S1\u00a0Gender & Development: Critical Issues in Policy & Practice (Advanced)_In Person_On Campus",
-  "id": "ANTH8039_S1",
-  "link": "",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8039_S1-TutA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "ANTH8039_S1-WorA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "ANTH8039_S1_(02)": {
   "title": "ANTH8039_S1\u00a0Gender & Development: Critical Issues in Policy & Practice (Advanced)_Online_Online",
-  "id": "ANTH8039_S1_(02)",
+  "id": "ANTH8039_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8039",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -1373,29 +1196,8 @@
   ]
  },
  "ANTH8044_S1": {
-  "title": "ANTH8044_S1\u00a0Land Rights and Resource Development (Advanced)_In Person_On Campus",
-  "id": "ANTH8044_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8044",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8044_S1-SemA/01",
-    "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "ANTH8044_S1_(02)": {
   "title": "ANTH8044_S1\u00a0Land Rights and Resource Development (Advanced)_Online_Online",
-  "id": "ANTH8044_S1_(02)",
+  "id": "ANTH8044_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8044",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -1413,29 +1215,8 @@
   ]
  },
  "ANTH8047_S1": {
-  "title": "ANTH8047_S1\u00a0Land Rights and Resource Development_In Person_On Campus",
-  "id": "ANTH8047_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8047",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8047_S1-WorA/01",
-    "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "ANTH8047_S1_(02)": {
   "title": "ANTH8047_S1\u00a0Land Rights and Resource Development_Online_Online",
-  "id": "ANTH8047_S1_(02)",
+  "id": "ANTH8047_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8047",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -1453,7 +1234,7 @@
   ]
  },
  "ANTH8056_S1": {
-  "title": "ANTH8056_S1\u00a0Introduction to Humanitarian Action_In Person_Introduction: humanitarianism;",
+  "title": "ANTH8056_S1\u00a0Introduction to Humanitarian Action_Online_Moral and ethical basis of hum",
   "id": "ANTH8056_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8056",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -1506,184 +1287,9 @@
    }
   ]
  },
- "ANTH8056_S1_(02)": {
-  "title": "ANTH8056_S1\u00a0Introduction to Humanitarian Action_Online_Moral and ethical basis of hum",
-  "id": "ANTH8056_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ANTH8056",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ANTH8056_S1-PreLecA/01",
-    "day": 6,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "PreLecA",
-    "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
-   },
-   {
-    "name": "ANTH8056_S1-TutA/01",
-    "day": 2,
-    "start": "14:30",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Banks 2.36",
-    "locationID": "http://www.anu.edu.au/maps#show=29007",
-    "lat": -35.276048,
-    "lon": 149.116274
-   },
-   {
-    "name": "ANTH8056_S1-TutA/02",
-    "day": 1,
-    "start": "09:00",
-    "finish": "10:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "ANTH8056_S1-TutA/03",
-    "day": 1,
-    "start": "19:00",
-    "finish": "20:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "03",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
  "ARAB1002_S1": {
-  "title": "ARAB1002_S1\u00a0Introductory Arabic 1_In Person_On-campus",
-  "id": "ARAB1002_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ARAB1002",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ARAB1002_S1-LecA/01",
-    "day": 0,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": "-35.279598",
-    "lon": "149.120968"
-   },
-   {
-    "name": "ARAB1002_S1-LecA/02",
-    "day": 0,
-    "start": "14:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "02",
-    "location": "CAIS 1.14",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   },
-   {
-    "name": "ARAB1002_S1-LecA/03",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "03",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "ARAB1002_S1-LecB/01",
-    "day": 2,
-    "start": "08:00",
-    "finish": "09:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "ARAB1002_S1-LecB/02",
-    "day": 2,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "02",
-    "location": "CAIS 1.14",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   },
-   {
-    "name": "ARAB1002_S1-LecB/03",
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "03",
-    "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": "-35.280217",
-    "lon": "149.119061"
-   },
-   {
-    "name": "ARAB1002_S1-TutA/01",
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "BPB W107",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   },
-   {
-    "name": "ARAB1002_S1-TutA/02",
-    "day": 2,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   },
-   {
-    "name": "ARAB1002_S1-TutA/03",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "03",
-    "location": "CAIS 1.14",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   }
-  ]
- },
- "ARAB1002_S1_(02)": {
   "title": "ARAB1002_S1\u00a0Introductory Arabic 1_Online_ANU Online",
-  "id": "ARAB1002_S1_(02)",
+  "id": "ARAB1002_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ARAB1002",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -1783,55 +1389,8 @@
   ]
  },
  "ARAB3001_S1": {
-  "title": "ARAB3001_S1\u00a0Advanced Arabic 1_In Person_On-campus",
-  "id": "ARAB3001_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ARAB3001",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ARAB3001_S1-ClaA/01",
-    "day": 1,
-    "start": "11:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ClaA",
-    "occurrence": "01",
-    "location": "BPB W117",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   },
-   {
-    "name": "ARAB3001_S1-TutA/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   },
-   {
-    "name": "ARAB3001_S1-ClaB/01",
-    "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ClaB",
-    "occurrence": "01",
-    "location": "CAIS 1.15 Al-Falasi Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11377",
-    "lat": -35.279598,
-    "lon": 149.120968
-   }
-  ]
- },
- "ARAB3001_S1_(02)": {
   "title": "ARAB3001_S1\u00a0Advanced Arabic 1_Online_ANU Online",
-  "id": "ARAB3001_S1_(02)",
+  "id": "ARAB3001_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ARAB3001",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -3626,27 +3185,8 @@
   ]
  },
  "ARTV2038_S1": {
-  "title": "ARTV2038_S1\u00a0Workshop Atelier_In Person_PhotoAccess R&D Lab",
-  "id": "ARTV2038_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ARTV2038",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ARTV2038_S1-StuA/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "StuA",
-    "occurrence": "01",
-    "location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
-    "locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
-   }
-  ]
- },
- "ARTV2038_S1_(02)": {
   "title": "ARTV2038_S1\u00a0Workshop Atelier_In Person_Print & Space",
-  "id": "ARTV2038_S1_(02)",
+  "id": "ARTV2038_S1",
   "link": "",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -10884,7 +10424,7 @@
   ]
  },
  "BURM1002_S1": {
-  "title": "BURM1002_S1\u00a0Burmese 1_Online_ANU Online",
+  "title": "BURM1002_S1\u00a0Burmese 1_Online_OUA Online",
   "id": "BURM1002_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/BURM1002",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -10913,69 +10453,9 @@
    }
   ]
  },
- "BURM1002_S1_(02)": {
-  "title": "BURM1002_S1\u00a0Burmese 1_Online_OUA Online",
-  "id": "BURM1002_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/BURM1002",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "BURM1002_S1-LecA/01",
-    "day": 0,
-    "start": "16:30",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "BURM1002_S1-TutA/01",
-    "day": 2,
-    "start": "16:30",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
  "BURM2001_S1": {
-  "title": "BURM2001_S1\u00a0Burmese 3_Online_ANU Online",
-  "id": "BURM2001_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/BURM2001",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "BURM2001_S1-LecA/01",
-    "day": 1,
-    "start": "16:30",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "BURM2001_S1-TutA/01",
-    "day": 3,
-    "start": "16:30",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "BURM2001_S1_(02)": {
   "title": "BURM2001_S1\u00a0Burmese 3_Online_OUA Online",
-  "id": "BURM2001_S1_(02)",
+  "id": "BURM2001_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/BURM2001",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -11378,48 +10858,8 @@
   ]
  },
  "BUSI7280_S1": {
-  "title": "BUSI7280_S1\u00a0Managing in a Global Context_In Person_On-campus",
-  "id": "BUSI7280_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/BUSI7280",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "BUSI7280_S1-SemA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "CBE LT 4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   }
-  ]
- },
- "BUSI7280_S1_(02)": {
-  "title": "BUSI7280_S1\u00a0Managing in a Global Context_Online_On-line",
-  "id": "BUSI7280_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/BUSI7280",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "BUSI7280_S1-WorA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "BUSI7280_S1_(03)": {
   "title": "BUSI7280_S1\u00a0Managing in a Global Context_In Person_MBA",
-  "id": "BUSI7280_S1_(03)",
+  "id": "BUSI7280_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/BUSI7280",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -14193,181 +13633,9 @@
    }
   ]
  },
- "CBEA3070_S1_(02)": {
-  "title": "CBEA3070_S1\u00a0ANU College of Business and Economics Internship Program (UG)_In Person",
-  "id": "CBEA3070_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CBEA3070",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CBEA3070_S1-WorA/01",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "8",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA3070_S1-WorA/02",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "9",
-    "activity": "WorA",
-    "occurrence": "02",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA3070_S1-WorA/03",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "10",
-    "activity": "WorA",
-    "occurrence": "03",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA3070_S1-WorA/04",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "11",
-    "activity": "WorA",
-    "occurrence": "04",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA3070_S1-WorA/05",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "12",
-    "activity": "WorA",
-    "occurrence": "05",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA3070_S1-WorA/06",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "18",
-    "activity": "WorA",
-    "occurrence": "06",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   }
-  ]
- },
  "CBEA6070_S1": {
   "title": "CBEA6070_S1\u00a0ANU College of Business and Economics Internship Program (PG)_In Person",
   "id": "CBEA6070_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CBEA6070",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CBEA6070_S1-WorA/01",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "8",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA6070_S1-WorA/02",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "9",
-    "activity": "WorA",
-    "occurrence": "02",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA6070_S1-WorA/03",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "10",
-    "activity": "WorA",
-    "occurrence": "03",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA6070_S1-WorA/04",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "11",
-    "activity": "WorA",
-    "occurrence": "04",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA6070_S1-WorA/05",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "12",
-    "activity": "WorA",
-    "occurrence": "05",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   },
-   {
-    "name": "CBEA6070_S1-WorA/06",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "18",
-    "activity": "WorA",
-    "occurrence": "06",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
-   }
-  ]
- },
- "CBEA6070_S1_(02)": {
-  "title": "CBEA6070_S1\u00a0ANU College of Business and Economics Internship Program (PG)_In Person",
-  "id": "CBEA6070_S1_(02)",
   "link": "https://programsandcourses.anu.edu.au/2023/course/CBEA6070",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -16247,146 +15515,8 @@
   ]
  },
  "CHIN2019_S1": {
-  "title": "CHIN2019_S1\u00a0Literary Chinese 1_In-Person and Online_On-campus",
-  "id": "CHIN2019_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CHIN2019",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CHIN2019_S1-SemA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Hedley Bull Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
-   },
-   {
-    "name": "CHIN2019_S1-TutB/01",
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutB",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "CHIN2019_S1-TutB/02",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutB",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "CHIN2019_S1-TutC/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutC",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room G 3.314",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "CHIN2019_S1-TutC/02",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutC",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "CHIN2019_S1_(02)": {
-  "title": "CHIN2019_S1\u00a0Literary Chinese 1_Online_ANU Online",
-  "id": "CHIN2019_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CHIN2019",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CHIN2019_S1-SemA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Hedley Bull Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
-   },
-   {
-    "name": "CHIN2019_S1-TutB/01",
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutB",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "CHIN2019_S1-TutB/02",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutB",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "CHIN2019_S1-TutC/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutC",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room G 3.314",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "CHIN2019_S1-TutC/02",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutC",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "CHIN2019_S1_(03)": {
   "title": "CHIN2019_S1\u00a0Literary Chinese 1_Online_OUA Online",
-  "id": "CHIN2019_S1_(03)",
+  "id": "CHIN2019_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/CHIN2019",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -16707,29 +15837,8 @@
   ]
  },
  "CHMD8004_S1": {
-  "title": "CHMD8004_S1\u00a0Qualitative Methodologies for Health Research_In Person",
-  "id": "CHMD8004_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CHMD8004",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CHMD8004_S1-TutA/01",
-    "day": 2,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Florey PBL Room 5_2.41",
-    "locationID": "http://www.anu.edu.au/maps#show=29029",
-    "lat": -35.282847,
-    "lon": 149.114173
-   }
-  ]
- },
- "CHMD8004_S1_(02)": {
   "title": "CHMD8004_S1\u00a0Qualitative Methodologies for Health Research_Online",
-  "id": "CHMD8004_S1_(02)",
+  "id": "CHMD8004_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/CHMD8004",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -16747,29 +15856,8 @@
   ]
  },
  "CHMD8011_S1": {
-  "title": "CHMD8011_S1\u00a0Refugee Health: From Displacement to Resettlement_In Person",
-  "id": "CHMD8011_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CHMD8011",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CHMD8011_S1-LecA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Florey PBL Room 5_2.41",
-    "locationID": "http://www.anu.edu.au/maps#show=29029",
-    "lat": -35.282847,
-    "lon": 149.114173
-   }
-  ]
- },
- "CHMD8011_S1_(02)": {
   "title": "CHMD8011_S1\u00a0Refugee Health: From Displacement to Resettlement_Online",
-  "id": "CHMD8011_S1_(02)",
+  "id": "CHMD8011_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/CHMD8011",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -20928,9 +20016,9 @@
    }
   ]
  },
- "COMP3710_S1_(02)": {
+ "COMP3710_S1": {
   "title": "COMP3710_S1\u00a0Topics in Computer Science_In Person_Compiler Construction",
-  "id": "COMP3710_S1_(02)",
+  "id": "COMP3710_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/COMP3710",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -23679,9 +22767,9 @@
    }
   ]
  },
- "COMP6470_S1_(02)": {
+ "COMP6470_S1": {
   "title": "COMP6470_S1\u00a0Special Topics in Computing_In Person_Compiler Construction",
-  "id": "COMP6470_S1_(02)",
+  "id": "COMP6470_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/COMP6470",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -25573,7 +24661,7 @@
   ]
  },
  "CRIM2001_S1": {
-  "title": "CRIM2001_S1\u00a0Doing Criminology: Research and Practice in Crime and Criminal Justice",
+  "title": "CRIM2001_S1\u00a0Doing Criminology: Research and Practice in Crime and Criminal Justice_In-Person and Online",
   "id": "CRIM2001_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/CRIM2001",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -26003,68 +25091,8 @@
   ]
  },
  "CRWF8000_S1": {
-  "title": "CRWF8000_S1\u00a0Government, Markets and Global Change_In Person_On Campus",
-  "id": "CRWF8000_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/CRWF8000",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "CRWF8000_S1-LecA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:30",
-    "weeks": "8",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "CRWF8000_S1-LecA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:30",
-    "weeks": "9,12\u201113,18\u201119",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "CRWF8000_S1-LecB/01",
-    "day": 4,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "CRWF8000_S1-WorA/01",
-    "day": 3,
-    "start": "17:00",
-    "finish": "19:30",
-    "weeks": "10\u201111,16\u201117,20\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "CRWF8000_S1_(02)": {
   "title": "CRWF8000_S1\u00a0Government, Markets and Global Change_Online_Online",
-  "id": "CRWF8000_S1_(02)",
+  "id": "CRWF8000_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/CRWF8000",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -30972,42 +30000,8 @@
   ]
  },
  "EMDV8007_S1": {
-  "title": "EMDV8007_S1\u00a0Communicating for Environment and Climate Policy_In Person_On Campus",
-  "id": "EMDV8007_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8007",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "EMDV8007_S1-SemA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8007_S1-TutA/01",
-    "day": 1,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "EMDV8007_S1_(02)": {
   "title": "EMDV8007_S1\u00a0Communicating for Environment and Climate Policy_Online_Online",
-  "id": "EMDV8007_S1_(02)",
+  "id": "EMDV8007_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8007",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -31036,7 +30030,7 @@
   ]
  },
  "EMDV8008_S1": {
-  "title": "EMDV8008_S1\u00a0Research Proposal_In Person_On Campus",
+  "title": "EMDV8008_S1\u00a0Research Proposal_Online_Online",
   "id": "EMDV8008_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8008",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -31056,64 +30050,9 @@
    }
   ]
  },
- "EMDV8008_S1_(02)": {
-  "title": "EMDV8008_S1\u00a0Research Proposal_Online_Online",
-  "id": "EMDV8008_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8008",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "EMDV8008_S1-SemA/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "EMDV8013_S1": {
-  "title": "EMDV8013_S1\u00a0Development and Environment in the Anthropocene_In Person_On campus",
-  "id": "EMDV8013_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8013",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "EMDV8013_S1-TutA/01",
-    "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "8\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8013_S1-WorA/01",
-    "day": 0,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "EMDV8013_S1_(02)": {
   "title": "EMDV8013_S1\u00a0Development and Environment in the Anthropocene_Online_Online",
-  "id": "EMDV8013_S1_(02)",
+  "id": "EMDV8013_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8013",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -31142,7 +30081,7 @@
   ]
  },
  "EMDV8017_S1": {
-  "title": "EMDV8017_S1\u00a0Toxic: Environmental Pollution and Waste_In Person_On Campus",
+  "title": "EMDV8017_S1\u00a0Toxic: Environmental Pollution and Waste_Online_Online",
   "id": "EMDV8017_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8017",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -31155,41 +30094,7 @@
     "weeks": "8\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8017_S1-TutA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "EMDV8017_S1_(02)": {
-  "title": "EMDV8017_S1\u00a0Toxic: Environmental Pollution and Waste_Online_Online",
-  "id": "EMDV8017_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8017",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "EMDV8017_S1-SemA/01",
-    "day": 2,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
+    "location": "Crawford Griffin Room",
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
@@ -31208,81 +30113,8 @@
   ]
  },
  "EMDV8102_S1": {
-  "title": "EMDV8102_S1\u00a0Research Methods for Environmental Management and Development_In Person_On Campus",
-  "id": "EMDV8102_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8102",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "EMDV8102_S1-LecA/01",
-    "day": 1,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8102_S1-TutA/01",
-    "day": 3,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8102_S1-TutA/01",
-    "day": 3,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Comp Lab 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8102_S1-TutA/02",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8102_S1-TutA/02",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Crawford Comp Lab 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "EMDV8102_S1_(02)": {
   "title": "EMDV8102_S1\u00a0Research Methods for Environmental Management and Development_Online_Online",
-  "id": "EMDV8102_S1_(02)",
+  "id": "EMDV8102_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8102",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -31313,42 +30145,8 @@
   ]
  },
  "EMDV8104_S1": {
-  "title": "EMDV8104_S1\u00a0Environmental Governance_In Person_On Campus",
-  "id": "EMDV8104_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8104",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "EMDV8104_S1-LecA/01",
-    "day": 0,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "EMDV8104_S1-SemA/01",
-    "day": 1,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "EMDV8104_S1_(02)": {
   "title": "EMDV8104_S1\u00a0Environmental Governance_Online_Online",
-  "id": "EMDV8104_S1_(02)",
+  "id": "EMDV8104_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8104",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -40644,42 +39442,8 @@
   ]
  },
  "ENVS8016_S1": {
-  "title": "ENVS8016_S1\u00a0Contemporary Perspectives in Environment-Society Interaction_In Person",
-  "id": "ENVS8016_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/ENVS8016",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "ENVS8016_S1-LecA/01",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Frank Fenner Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=17859",
-    "lat": -35.27792,
-    "lon": 149.115369
-   },
-   {
-    "name": "ENVS8016_S1-WorA/01",
-    "day": 2,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Frank Fenner Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=17859",
-    "lat": -35.27792,
-    "lon": 149.115369
-   }
-  ]
- },
- "ENVS8016_S1_(02)": {
   "title": "ENVS8016_S1\u00a0Contemporary Perspectives in Environment-Society Interaction_Online",
-  "id": "ENVS8016_S1_(02)",
+  "id": "ENVS8016_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ENVS8016",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -45514,7 +44278,7 @@
   ]
  },
  "HIND1100_S1": {
-  "title": "HIND1100_S1\u00a0Hindi 1_In Person_On-campus",
+  "title": "HIND1100_S1\u00a0Hindi 1_Online or In Person_OUA Online",
   "id": "HIND1100_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/HIND1100",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -45547,76 +44311,8 @@
    }
   ]
  },
- "HIND1100_S1_(02)": {
-  "title": "HIND1100_S1\u00a0Hindi 1_Online or In Person_ANU Online",
-  "id": "HIND1100_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIND1100",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIND1100_S1-SemA/01",
-    "day": 1,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room E 3.214",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "HIND1100_S1-SemB/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room E 3.214",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   }
-  ]
- },
- "HIND1100_S1_(03)": {
-  "title": "HIND1100_S1\u00a0Hindi 1_Online or In Person_OUA Online",
-  "id": "HIND1100_S1_(03)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIND1100",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIND1100_S1-SemA/01",
-    "day": 1,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room E 3.214",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "HIND1100_S1-SemB/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room E 3.214",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   }
-  ]
- },
  "HIND2300_S1": {
-  "title": "HIND2300_S1\u00a0Hindi 3_In Person_On-campus",
+  "title": "HIND2300_S1\u00a0Hindi 3_Online_OUA Online",
   "id": "HIND2300_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/HIND2300",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -45645,103 +44341,9 @@
    }
   ]
  },
- "HIND2300_S1_(02)": {
-  "title": "HIND2300_S1\u00a0Hindi 3_Online_ANU Online",
-  "id": "HIND2300_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIND2300",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIND2300_S1-SemA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "HIND2300_S1-SemB/01",
-    "day": 3,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "HIND2300_S1_(03)": {
-  "title": "HIND2300_S1\u00a0Hindi 3_Online_OUA Online",
-  "id": "HIND2300_S1_(03)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIND2300",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIND2300_S1-SemA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "HIND2300_S1-SemB/01",
-    "day": 3,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "HIND3500_S1_(02)": {
-  "title": "HIND3500_S1\u00a0Hindi 5_Online_ANU Online",
-  "id": "HIND3500_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIND3500",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIND3500_S1-SemA/01",
-    "day": 1,
-    "start": "14:00",
-    "finish": "15:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "HIND3500_S1-SemB/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "15:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room F 3.304",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   }
-  ]
- },
- "HIND3500_S1_(03)": {
+ "HIND3500_S1": {
   "title": "HIND3500_S1\u00a0Hindi 5_Online_OUA Online",
-  "id": "HIND3500_S1_(03)",
+  "id": "HIND3500_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/HIND3500",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -46204,29 +44806,8 @@
   ]
  },
  "HIST8023_S1": {
-  "title": "HIST8023_S1\u00a0Body and Society in Early Modern England, c. 1500\u20131800_In Person",
-  "id": "HIST8023_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIST8023",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIST8023_S1-SemA/01",
-    "day": 4,
-    "start": "10:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "RSSS Meeting Room 6.68",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
-   }
-  ]
- },
- "HIST8023_S1_(02)": {
   "title": "HIST8023_S1\u00a0Body and Society in Early Modern England, c. 1500\u20131800_Online",
-  "id": "HIST8023_S1_(02)",
+  "id": "HIST8023_S1",
   "link": "",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -46246,29 +44827,8 @@
   ]
  },
  "HIST8024_S1": {
-  "title": "HIST8024_S1\u00a0Seminar in Advanced Historiography_In Person",
-  "id": "HIST8024_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/HIST8024",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "HIST8024_S1-SemA/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "HA 1207",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
-   }
-  ]
- },
- "HIST8024_S1_(02)": {
   "title": "HIST8024_S1\u00a0Seminar in Advanced Historiography_Online",
-  "id": "HIST8024_S1_(02)",
+  "id": "HIST8024_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/HIST8024",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -46810,9 +45370,9 @@
    }
   ]
  },
- "HUMN8031_S1_(02)": {
+ "HUMN8031_S1": {
   "title": "HUMN8031_S1\u00a0Digital Humanities and Public Culture Research Project (Advanced)_In Person",
-  "id": "HUMN8031_S1_(02)",
+  "id": "HUMN8031_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/HUMN8031",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -46890,7 +45450,7 @@
   ]
  },
  "IDEC8003_S1": {
-  "title": "IDEC8003_S1\u00a0Issues in Development Policy_In Person_On Campus",
+  "title": "IDEC8003_S1\u00a0Issues in Development Policy_Online_Online",
   "id": "IDEC8003_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8003",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -46921,40 +45481,8 @@
    }
   ]
  },
- "IDEC8003_S1_(02)": {
-  "title": "IDEC8003_S1\u00a0Issues in Development Policy_Online_Online",
-  "id": "IDEC8003_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8003",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8003_S1-SemA/01",
-    "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8003_S1-TutA/01",
-    "day": 4,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Online Live online live",
-    "locationID": ""
-   }
-  ]
- },
  "IDEC8011_S1": {
-  "title": "IDEC8011_S1\u00a0Masters Research Essay_In Person_On Campus",
+  "title": "IDEC8011_S1\u00a0Masters Research Essay_Online_Online",
   "id": "IDEC8011_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8011",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -46987,42 +45515,8 @@
    }
   ]
  },
- "IDEC8011_S1_(02)": {
-  "title": "IDEC8011_S1\u00a0Masters Research Essay_Online_Online",
-  "id": "IDEC8011_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8011",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8011_S1-LecA/01",
-    "day": 0,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8011_S1-WorA/01",
-    "day": 3,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8015_S1": {
-  "title": "IDEC8015_S1\u00a0Mathematical Methods in Applied Economics_In Person_On Campus",
+  "title": "IDEC8015_S1\u00a0Mathematical Methods in Applied Economics_Online_Online",
   "id": "IDEC8015_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8015",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -47042,29 +45536,8 @@
    }
   ]
  },
- "IDEC8015_S1_(02)": {
-  "title": "IDEC8015_S1\u00a0Mathematical Methods in Applied Economics_Online_Online",
-  "id": "IDEC8015_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8015",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8015_S1-SemA/01",
-    "day": 3,
-    "start": "14:30",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8016_S1": {
-  "title": "IDEC8016_S1\u00a0Microeconomic Analysis and Policy_In Person_On Campus",
+  "title": "IDEC8016_S1\u00a0Microeconomic Analysis and Policy_Online_Online",
   "id": "IDEC8016_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8016",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -47110,90 +45583,9 @@
    }
   ]
  },
- "IDEC8016_S1_(02)": {
-  "title": "IDEC8016_S1\u00a0Microeconomic Analysis and Policy_Online_Online",
-  "id": "IDEC8016_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8016",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8016_S1-LecA/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8016_S1-TutA/01",
-    "day": 3,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8016_S1-WorA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8021_S1": {
-  "title": "IDEC8021_S1\u00a0The Chinese Economy_In Person_On Campus",
-  "id": "IDEC8021_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8021",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8021_S1-LecA/01",
-    "day": 1,
-    "start": "10:00",
-    "finish": "11:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8021_S1-SemA/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "IDEC8021_S1_(02)": {
   "title": "IDEC8021_S1\u00a0The Chinese Economy_Online_Online",
-  "id": "IDEC8021_S1_(02)",
+  "id": "IDEC8021_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8021",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -47224,7 +45616,7 @@
   ]
  },
  "IDEC8029_S1": {
-  "title": "IDEC8029_S1\u00a0Issues in Applied Microeconomics_In Person_On Campus",
+  "title": "IDEC8029_S1\u00a0Issues in Applied Microeconomics_Online_Online",
   "id": "IDEC8029_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8029",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -47270,55 +45662,8 @@
    }
   ]
  },
- "IDEC8029_S1_(02)": {
-  "title": "IDEC8029_S1\u00a0Issues in Applied Microeconomics_Online_Online",
-  "id": "IDEC8029_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8029",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8029_S1-LecA/01",
-    "day": 0,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8029_S1-LecB/01",
-    "day": 1,
-    "start": "18:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8029_S1-SemA/01",
-    "day": 4,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8033_S1": {
-  "title": "IDEC8033_S1\u00a0Research Project_In Person_On Campus",
+  "title": "IDEC8033_S1\u00a0Research Project_Online_Online",
   "id": "IDEC8033_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8033",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -47351,42 +45696,8 @@
    }
   ]
  },
- "IDEC8033_S1_(02)": {
-  "title": "IDEC8033_S1\u00a0Research Project_Online_Online",
-  "id": "IDEC8033_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8033",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8033_S1-LecA/01",
-    "day": 0,
-    "start": "11:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8033_S1-WorA/01",
-    "day": 3,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8034_S1": {
-  "title": "IDEC8034_S1\u00a0Middle Eastern Economies_In Person_On Campus",
+  "title": "IDEC8034_S1\u00a0Middle Eastern Economies_Online_Online",
   "id": "IDEC8034_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8034",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -47417,40 +45728,8 @@
    }
   ]
  },
- "IDEC8034_S1_(02)": {
-  "title": "IDEC8034_S1\u00a0Middle Eastern Economies_Online_Online",
-  "id": "IDEC8034_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8034",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8034_S1-LecA/01",
-    "day": 2,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   },
-   {
-    "name": "IDEC8034_S1-WorA/01",
-    "day": 3,
-    "start": "16:30",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8064_S1": {
-  "title": "IDEC8064_S1\u00a0Masters Microeconomics_In Person_On Campus",
+  "title": "IDEC8064_S1\u00a0Masters Microeconomics_Online_Online",
   "id": "IDEC8064_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8064",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -47509,101 +45788,9 @@
    }
   ]
  },
- "IDEC8064_S1_(02)": {
-  "title": "IDEC8064_S1\u00a0Masters Microeconomics_Online_Online",
-  "id": "IDEC8064_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8064",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8064_S1-LecA/01",
-    "day": 1,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8064_S1-TutA/01",
-    "day": 4,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8064_S1-TutA/02",
-    "day": 4,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8064_S1-WorA/01",
-    "day": 2,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
  "IDEC8081_S1": {
-  "title": "IDEC8081_S1\u00a0The Economics of Incentives and Institutions_In Person_On Campus",
-  "id": "IDEC8081_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8081",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "IDEC8081_S1-SemA/01",
-    "day": 3,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "IDEC8081_S1-TutA/01",
-    "day": 4,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "IDEC8081_S1_(02)": {
   "title": "IDEC8081_S1\u00a0The Economics of Incentives and Institutions_Online_Online",
-  "id": "IDEC8081_S1_(02)",
+  "id": "IDEC8081_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/IDEC8081",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -47739,42 +45926,8 @@
   ]
  },
  "INDG2003_S1": {
-  "title": "INDG2003_S1\u00a0Gamilaraay - introduction to an Australian Indigenous Language_In Person",
-  "id": "INDG2003_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/INDG2003",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "INDG2003_S1-LecA/01",
-    "day": 2,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "MORAN G007",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
-   },
-   {
-    "name": "INDG2003_S1-TutA/01",
-    "day": 1,
-    "start": "14:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "BPB ETC Studio 2 Orange",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   }
-  ]
- },
- "INDG2003_S1_(02)": {
   "title": "INDG2003_S1\u00a0Gamilaraay - introduction to an Australian Indigenous Language_Online",
-  "id": "INDG2003_S1_(02)",
+  "id": "INDG2003_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/INDG2003",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -60060,48 +58213,8 @@
   ]
  },
  "MGMT7020_S1": {
-  "title": "MGMT7020_S1\u00a0Technology and Project Management_In Person_On-campus",
-  "id": "MGMT7020_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/MGMT7020",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "MGMT7020_S1-SemA/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "ENGN T",
-    "locationID": "http://www.anu.edu.au/maps#show=11304",
-    "lat": -35.276172,
-    "lon": 149.11994
-   }
-  ]
- },
- "MGMT7020_S1_(02)": {
-  "title": "MGMT7020_S1\u00a0Technology and Project Management_Online_On-line",
-  "id": "MGMT7020_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/MGMT7020",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "MGMT7020_S1-SemA/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "MGMT7020_S1_(03)": {
   "title": "MGMT7020_S1\u00a0Technology and Project Management_In Person_MBA",
-  "id": "MGMT7020_S1_(03)",
+  "id": "MGMT7020_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/MGMT7020",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -60247,55 +58360,8 @@
   ]
  },
  "MGMT7250_S1": {
-  "title": "MGMT7250_S1\u00a0Evidence-Based Management_In Person_On-campus",
-  "id": "MGMT7250_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/MGMT7250",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "MGMT7250_S1-TutA/01",
-    "day": 2,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "CBE Bld TR8",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "MGMT7250_S1-TutA/02",
-    "day": 2,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "CBE Bld TR8",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "MGMT7250_S1-TutA/03",
-    "day": 2,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "03",
-    "location": "CBE Bld TR8",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   }
-  ]
- },
- "MGMT7250_S1_(02)": {
   "title": "MGMT7250_S1\u00a0Evidence-Based Management_Online_On-line",
-  "id": "MGMT7250_S1_(02)",
+  "id": "MGMT7250_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/MGMT7250",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -60889,29 +58955,8 @@
   ]
  },
  "MKTG7260_S1": {
-  "title": "MKTG7260_S1\u00a0Marketing and Stakeholder Communications_In Person",
-  "id": "MKTG7260_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/MKTG7260",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "MKTG7260_S1-SemA/01",
-    "day": 4,
-    "start": "15:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Marie Reay 3.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   }
-  ]
- },
- "MKTG7260_S1_(02)": {
   "title": "MKTG7260_S1\u00a0Marketing and Stakeholder Communications_In Person_On-line",
-  "id": "MKTG7260_S1_(02)",
+  "id": "MKTG7260_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/MKTG7260",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -63322,55 +61367,8 @@
   ]
  },
  "NSPO8007_S1": {
-  "title": "NSPO8007_S1\u00a0National Security: Concepts and Methods_In Person_On Campus",
-  "id": "NSPO8007_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8007",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "NSPO8007_S1-SemA/01",
-    "day": 0,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "NSPO8007_S1-TutA/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "NSPO8007_S1-TutA/02",
-    "day": 1,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8007_S1_(02)": {
   "title": "NSPO8007_S1\u00a0National Security: Concepts and Methods_Online_Online",
-  "id": "NSPO8007_S1_(02)",
+  "id": "NSPO8007_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8007",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -63412,42 +61410,8 @@
   ]
  },
  "NSPO8008_S1": {
-  "title": "NSPO8008_S1\u00a0Ethical Challenges for National Security_In Person_On Campus",
-  "id": "NSPO8008_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8008",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "NSPO8008_S1-LecA/01",
-    "day": 1,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "NSPO8008_S1-WorA/01",
-    "day": 3,
-    "start": "18:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8008_S1_(02)": {
   "title": "NSPO8008_S1\u00a0Ethical Challenges for National Security_Online_Online",
-  "id": "NSPO8008_S1_(02)",
+  "id": "NSPO8008_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8008",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -63478,29 +61442,8 @@
   ]
  },
  "NSPO8012_S1": {
-  "title": "NSPO8012_S1\u00a0Leadership, Risk and National Security Crisis Management_In Person_On Campus",
-  "id": "NSPO8012_S1",
-  "link": "",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "NSPO8012_S1-SemA/01",
-    "day": 4,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8012_S1_(02)": {
   "title": "NSPO8012_S1\u00a0Leadership, Risk and National Security Crisis Management_Online_Online",
-  "id": "NSPO8012_S1_(02)",
+  "id": "NSPO8012_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8012",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -63518,29 +61461,8 @@
   ]
  },
  "NSPO8030_S1": {
-  "title": "NSPO8030_S1\u00a0Coercion and National Security_In Person",
-  "id": "NSPO8030_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8030",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "NSPO8030_S1-SemA/01",
-    "day": 0,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8030_S1_(02)": {
   "title": "NSPO8030_S1\u00a0Coercion and National Security_Online",
-  "id": "NSPO8030_S1_(02)",
+  "id": "NSPO8030_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8030",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -63558,29 +61480,8 @@
   ]
  },
  "NSPO8032_S1": {
-  "title": "NSPO8032_S1\u00a0Geoeconomics and National Security_In Person_On Campus",
-  "id": "NSPO8032_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8032",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "NSPO8032_S1-SemA/01",
-    "day": 1,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8032_S1_(02)": {
   "title": "NSPO8032_S1\u00a0Geoeconomics and National Security_Online_Online",
-  "id": "NSPO8032_S1_(02)",
+  "id": "NSPO8032_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8032",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -63598,40 +61499,8 @@
   ]
  },
  "NSPO8036_S1": {
-  "title": "NSPO8036_S1\u00a0Australian National Security Law: An introduction for policymakers_In Person_On Campus",
-  "id": "NSPO8036_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8036",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "NSPO8036_S1-LecA/01",
-    "day": 0,
-    "start": "18:00",
-    "finish": "19:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "NSPO8036_S1-SemA/01",
-    "day": 2,
-    "start": "18:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8036_S1_(02)": {
   "title": "NSPO8036_S1\u00a0Australian National Security Law: An introduction for policymakers_Online_Online",
-  "id": "NSPO8036_S1_(02)",
+  "id": "NSPO8036_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8036",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -66424,29 +64293,8 @@
   ]
  },
  "POGO8004_S1": {
-  "title": "POGO8004_S1\u00a0Poverty Reduction_In Person_On Campus",
-  "id": "POGO8004_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8004",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POGO8004_S1-WorA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8004_S1_(02)": {
   "title": "POGO8004_S1\u00a0Poverty Reduction_Online_Online",
-  "id": "POGO8004_S1_(02)",
+  "id": "POGO8004_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8004",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -66464,55 +64312,8 @@
   ]
  },
  "POGO8016_S1": {
-  "title": "POGO8016_S1\u00a0The Economic Way of Thinking_In Person_On Campus",
-  "id": "POGO8016_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8016",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POGO8016_S1-TutA/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8016_S1-TutA/02",
-    "day": 4,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8016_S1-WorA/01",
-    "day": 3,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8016_S1_(02)": {
   "title": "POGO8016_S1\u00a0The Economic Way of Thinking_Online_Online",
-  "id": "POGO8016_S1_(02)",
+  "id": "POGO8016_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8016",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -66554,29 +64355,8 @@
   ]
  },
  "POGO8045_S1": {
-  "title": "POGO8045_S1\u00a0International Policy Making in the Shadow of the Future_In Person_On Campus",
-  "id": "POGO8045_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8045",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POGO8045_S1-SemA/01",
-    "day": 2,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Lennox Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8045_S1_(02)": {
   "title": "POGO8045_S1\u00a0International Policy Making in the Shadow of the Future_Online_Online",
-  "id": "POGO8045_S1_(02)",
+  "id": "POGO8045_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8045",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -66594,29 +64374,8 @@
   ]
  },
  "POGO8137_S1": {
-  "title": "POGO8137_S1\u00a0Public Administration Foundations_In Person_On Campus",
-  "id": "POGO8137_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8137",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POGO8137_S1-SemA/01",
-    "day": 2,
-    "start": "09:30",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8137_S1_(02)": {
   "title": "POGO8137_S1\u00a0Public Administration Foundations_Online_Online",
-  "id": "POGO8137_S1_(02)",
+  "id": "POGO8137_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8137",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -66634,55 +64393,8 @@
   ]
  },
  "POGO8401_S1": {
-  "title": "POGO8401_S1\u00a0Foundations in Public Policy_In Person_On Campus",
-  "id": "POGO8401_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8401",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POGO8401_S1-SemA/01",
-    "day": 1,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8401_S1-TutA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8401_S1-TutA/02",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Crawford Seminar Room 8",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8401_S1_(02)": {
   "title": "POGO8401_S1\u00a0Foundations in Public Policy_Online_Online",
-  "id": "POGO8401_S1_(02)",
+  "id": "POGO8401_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8401",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -66733,42 +64445,8 @@
   ]
  },
  "POGO8500_S1": {
-  "title": "POGO8500_S1\u00a0Evidence and Analysis in Public Policy_In Person_On Campus",
-  "id": "POGO8500_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8500",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POGO8500_S1-TutA/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:30",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Crawford Acton Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8500_S1-WorA/01",
-    "day": 1,
-    "start": "17:30",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8500_S1_(02)": {
   "title": "POGO8500_S1\u00a0Evidence and Analysis in Public Policy_Online_Online",
-  "id": "POGO8500_S1_(02)",
+  "id": "POGO8500_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8500",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -68798,27 +66476,8 @@
   ]
  },
  "POPH4100_S1": {
-  "title": "POPH4100_S1\u00a0Fundamentals of Epidemiology_In Person",
-  "id": "POPH4100_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH4100",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH4100_S1-LecA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "RSPH_Bob Douglas Theatre 1.01",
-    "locationID": "http://campusmap.anu.edu.au/displaymap.asp?grid=cd32"
-   }
-  ]
- },
- "POPH4100_S1_(02)": {
   "title": "POPH4100_S1\u00a0Fundamentals of Epidemiology_Online",
-  "id": "POPH4100_S1_(02)",
+  "id": "POPH4100_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH4100",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -68836,29 +66495,8 @@
   ]
  },
  "POPH4101_S1": {
-  "title": "POPH4101_S1\u00a0Biostatistics in Population Health_In Person",
-  "id": "POPH4101_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH4101",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH4101_S1-ComA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "01",
-    "location": "Crawford Comp Lab 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POPH4101_S1_(02)": {
   "title": "POPH4101_S1\u00a0Biostatistics in Population Health_Online",
-  "id": "POPH4101_S1_(02)",
+  "id": "POPH4101_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH4101",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -68876,38 +66514,8 @@
   ]
  },
  "POPH4315_S1": {
-  "title": "POPH4315_S1\u00a0Research Design and Methods_In Person",
-  "id": "POPH4315_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH4315",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH4315_S1-PreLecA/01",
-    "day": 6,
-    "start": "15:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "PreLecA",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   },
-   {
-    "name": "POPH4315_S1-TutA/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "RSPH_Bob Douglas Theatre 1.01",
-    "locationID": "http://campusmap.anu.edu.au/displaymap.asp?grid=cd32"
-   }
-  ]
- },
- "POPH4315_S1_(02)": {
   "title": "POPH4315_S1\u00a0Research Design and Methods_Online",
-  "id": "POPH4315_S1_(02)",
+  "id": "POPH4315_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH4315",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -68925,27 +66533,8 @@
   ]
  },
  "POPH8100_S1": {
-  "title": "POPH8100_S1\u00a0Fundamentals of Epidemiology_In Person",
-  "id": "POPH8100_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8100",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH8100_S1-LecA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "RSPH_Bob Douglas Theatre 1.01",
-    "locationID": "http://campusmap.anu.edu.au/displaymap.asp?grid=cd32"
-   }
-  ]
- },
- "POPH8100_S1_(02)": {
   "title": "POPH8100_S1\u00a0Fundamentals of Epidemiology_Online",
-  "id": "POPH8100_S1_(02)",
+  "id": "POPH8100_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8100",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -68963,29 +66552,8 @@
   ]
  },
  "POPH8101_S1": {
-  "title": "POPH8101_S1\u00a0Biostatistics in Population Health_In Person",
-  "id": "POPH8101_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8101",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH8101_S1-ComA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "01",
-    "location": "Crawford Comp Lab 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POPH8101_S1_(02)": {
   "title": "POPH8101_S1\u00a0Biostatistics in Population Health_Online",
-  "id": "POPH8101_S1_(02)",
+  "id": "POPH8101_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8101",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -69003,27 +66571,8 @@
   ]
  },
  "POPH8103_S1": {
-  "title": "POPH8103_S1\u00a0Introduction to Health Services Research and Policy_In Person",
-  "id": "POPH8103_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8103",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH8103_S1-LecA/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "RSPH_Bob Douglas Theatre 1.01",
-    "locationID": "http://campusmap.anu.edu.au/displaymap.asp?grid=cd32"
-   }
-  ]
- },
- "POPH8103_S1_(02)": {
   "title": "POPH8103_S1\u00a0Introduction to Health Services Research and Policy_Online",
-  "id": "POPH8103_S1_(02)",
+  "id": "POPH8103_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8103",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -69041,38 +66590,8 @@
   ]
  },
  "POPH8315_S1": {
-  "title": "POPH8315_S1\u00a0Research Design and Methods_In Person",
-  "id": "POPH8315_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8315",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH8315_S1-PreLecA/01",
-    "day": 6,
-    "start": "15:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "PreLecA",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   },
-   {
-    "name": "POPH8315_S1-TutA/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "RSPH_Bob Douglas Theatre 1.01",
-    "locationID": "http://campusmap.anu.edu.au/displaymap.asp?grid=cd32"
-   }
-  ]
- },
- "POPH8315_S1_(02)": {
   "title": "POPH8315_S1\u00a0Research Design and Methods_Online",
-  "id": "POPH8315_S1_(02)",
+  "id": "POPH8315_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8315",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -69090,27 +66609,8 @@
   ]
  },
  "POPH8318_S1": {
-  "title": "POPH8318_S1\u00a0Human Health, Environment and Climate Change_In Person",
-  "id": "POPH8318_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8318",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "POPH8318_S1-LecA/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "12:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "RSPH_Bob Douglas Theatre 1.01",
-    "locationID": "http://campusmap.anu.edu.au/displaymap.asp?grid=cd32"
-   }
-  ]
- },
- "POPH8318_S1_(02)": {
   "title": "POPH8318_S1\u00a0Human Health, Environment and Climate Change_Online",
-  "id": "POPH8318_S1_(02)",
+  "id": "POPH8318_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POPH8318",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -69128,49 +66628,8 @@
   ]
  },
  "PORT1001_S1": {
-  "title": "PORT1001_S1\u00a0Introductory Portuguese I_In Person",
-  "id": "PORT1001_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/PORT1001",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "PORT1001_S1-ClaA/01",
-    "day": 1,
-    "start": "17:30",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ClaA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "PORT1001_S1-ClaB/01",
-    "day": 3,
-    "start": "17:30",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ClaB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "PORT1001_S1-ClaC/01",
-    "day": 4,
-    "start": "08:00",
-    "finish": "09:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ClaC",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "PORT1001_S1_(02)": {
   "title": "PORT1001_S1\u00a0Introductory Portuguese I_Online",
-  "id": "PORT1001_S1_(02)",
+  "id": "PORT1001_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/PORT1001",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -70888,103 +68347,6 @@
    }
   ]
  },
- "PSYC4011_S1_(02)": {
-  "title": "PSYC4011_S1\u00a0Psychology Honours_In Person",
-  "id": "PSYC4011_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/PSYC4011",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "PSYC4011_S1-LecA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "PSYC G5",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC4011_S1-LecB/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "Marie Reay 4.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
-   },
-   {
-    "name": "PSYC4011_S1-LecC/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecC",
-    "occurrence": "01",
-    "location": "PSYC G8",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC4011_S1-WorA/01",
-    "day": 1,
-    "start": "08:00",
-    "finish": "10:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "PSYC G5",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC4011_S1-WorA/02",
-    "day": 2,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "02",
-    "location": "PSYC G5",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC4011_S1-WorA/03",
-    "day": 3,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "03",
-    "location": "PSYC G5",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
-   },
-   {
-    "name": "PSYC4011_S1-WorA/04",
-    "day": 4,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "WorA",
-    "occurrence": "04",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
  "PSYC6016_S1": {
   "title": "PSYC6016_S1\u00a0Neuropsychology and Cognitive Neuroscience",
   "id": "PSYC6016_S1",
@@ -71542,7 +68904,7 @@
   ]
  },
  "SCOM6016_S1": {
-  "title": "SCOM6016_S1\u00a0Science in the Media_In Person",
+  "title": "SCOM6016_S1\u00a0Science in the Media_Online",
   "id": "SCOM6016_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM6016",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -71562,51 +68924,9 @@
    }
   ]
  },
- "SCOM6016_S1_(02)": {
-  "title": "SCOM6016_S1\u00a0Science in the Media_Online",
-  "id": "SCOM6016_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM6016",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SCOM6016_S1-LetA/01",
-    "day": 1,
-    "start": "10:00",
-    "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LetA",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   }
-  ]
- },
  "SCOM6027_S1": {
-  "title": "SCOM6027_S1\u00a0Science Politics_In Person",
-  "id": "SCOM6027_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM6027",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SCOM6027_S1-LetA/01",
-    "day": 0,
-    "start": "11:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LetA",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   }
-  ]
- },
- "SCOM6027_S1_(02)": {
   "title": "SCOM6027_S1\u00a0Science Politics_Online",
-  "id": "SCOM6027_S1_(02)",
+  "id": "SCOM6027_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM6027",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -71624,7 +68944,7 @@
   ]
  },
  "SCOM8014_S1": {
-  "title": "SCOM8014_S1\u00a0Communicating Science with the Public_In Person",
+  "title": "SCOM8014_S1\u00a0Communicating Science with the Public_Online",
   "id": "SCOM8014_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM8014",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
@@ -71668,88 +68988,9 @@
    }
   ]
  },
- "SCOM8014_S1_(02)": {
-  "title": "SCOM8014_S1\u00a0Communicating Science with the Public_Online",
-  "id": "SCOM8014_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM8014",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SCOM8014_S1-TutA/01",
-    "day": 0,
-    "start": "15:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   },
-   {
-    "name": "SCOM8014_S1-LecA/01",
-    "day": 0,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Birch 1.43 Interactive Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=28991",
-    "lat": -35.274397,
-    "lon": 149.119323
-   },
-   {
-    "name": "SCOM8014_S1-TutB/01",
-    "day": 2,
-    "start": "17:00",
-    "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
  "SCOM8019_S1": {
-  "title": "SCOM8019_S1\u00a0Research Methods in Science Communication_In Person",
-  "id": "SCOM8019_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM8019",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SCOM8019_S1-LecA/01",
-    "day": 0,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   },
-   {
-    "name": "SCOM8019_S1-TutA/01",
-    "day": 1,
-    "start": "15:00",
-    "finish": "17:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   }
-  ]
- },
- "SCOM8019_S1_(02)": {
   "title": "SCOM8019_S1\u00a0Research Methods in Science Communication_Online",
-  "id": "SCOM8019_S1_(02)",
+  "id": "SCOM8019_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM8019",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -71858,39 +69099,9 @@
    }
   ]
  },
- "SKRT1002_S1_(02)": {
-  "title": "SKRT1002_S1\u00a0Sanskrit 1_Online_ANU Online",
-  "id": "SKRT1002_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT1002",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SKRT1002_S1-SemA/01",
-    "day": 1,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "SKRT1002_S1-SemA/02",
-    "day": 1,
-    "start": "19:30",
-    "finish": "21:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "SKRT1002_S1_(03)": {
+ "SKRT1002_S1": {
   "title": "SKRT1002_S1\u00a0Sanskrit 1_Online_OUA Online",
-  "id": "SKRT1002_S1_(03)",
+  "id": "SKRT1002_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT1002",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -71918,39 +69129,9 @@
    }
   ]
  },
- "SKRT2103_S1_(02)": {
-  "title": "SKRT2103_S1\u00a0Sanskrit 3_Online_ANU Online",
-  "id": "SKRT2103_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT2103",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SKRT2103_S1-SemA/01",
-    "day": 0,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "SKRT2103_S1-SemB/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "SKRT2103_S1_(03)": {
+ "SKRT2103_S1": {
   "title": "SKRT2103_S1\u00a0Sanskrit 3_Online_OUA Online",
-  "id": "SKRT2103_S1_(03)",
+  "id": "SKRT2103_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT2103",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -71978,43 +69159,9 @@
    }
   ]
  },
- "SKRT3002_S1_(02)": {
-  "title": "SKRT3002_S1\u00a0Sanskrit 7_Online_ANU Online",
-  "id": "SKRT3002_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT3002",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SKRT3002_S1-SemA/01",
-    "day": 1,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   },
-   {
-    "name": "SKRT3002_S1-SemB/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
-   }
-  ]
- },
- "SKRT3002_S1_(03)": {
+ "SKRT3002_S1": {
   "title": "SKRT3002_S1\u00a0Sanskrit 7_Online_OUA-Online",
-  "id": "SKRT3002_S1_(03)",
+  "id": "SKRT3002_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT3002",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -72046,39 +69193,9 @@
    }
   ]
  },
- "SKRT3004_S1_(02)": {
-  "title": "SKRT3004_S1\u00a0Sanskrit 5_Online_ANU Online",
-  "id": "SKRT3004_S1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT3004",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "SKRT3004_S1-SemA/01",
-    "day": 2,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   },
-   {
-    "name": "SKRT3004_S1-SemB/01",
-    "day": 2,
-    "start": "19:30",
-    "finish": "21:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": " ",
-    "locationID": ""
-   }
-  ]
- },
- "SKRT3004_S1_(03)": {
+ "SKRT3004_S1": {
   "title": "SKRT3004_S1\u00a0Sanskrit 5_Online_OUA Online",
-  "id": "SKRT3004_S1_(03)",
+  "id": "SKRT3004_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SKRT3004",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -77681,9 +74798,9 @@
    }
   ]
  },
- "THAI3002_S1_(02)": {
+ "THAI3002_S1": {
   "title": "THAI3002_S1\u00a0Thai 5_Online_ANU Online",
-  "id": "THAI3002_S1_(02)",
+  "id": "THAI3002_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/THAI3002",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
@@ -77761,38 +74878,8 @@
   ]
  },
  "TOKP2001_S1": {
-  "title": "TOKP2001_S1\u00a0Tok Pisin 3_Online_ANU Online",
-  "id": "TOKP2001_S1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/TOKP2001",
-  "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
-  "classes": [
-   {
-    "name": "TOKP2001_S1-LecA/01",
-    "day": 1,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "TOKP2001_S1-LecB/01",
-    "day": 3,
-    "start": "16:00",
-    "finish": "17:30",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   }
-  ]
- },
- "TOKP2001_S1_(02)": {
   "title": "TOKP2001_S1\u00a0Tok Pisin 3_Online_OUA Online",
-  "id": "TOKP2001_S1_(02)",
+  "id": "TOKP2001_S1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/TOKP2001",
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
