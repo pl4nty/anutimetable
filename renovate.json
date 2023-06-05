@@ -4,5 +4,8 @@
     "config:base"
   ],
   "assigneesFromCodeOwners": true,
-  "separateMinorPatch": true
+  "separateMinorPatch": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
