@@ -65,20 +65,7 @@
     "weeks": "48",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "BPB W303",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
-   },
-   {
-    "name": "ASIA8023_X4-LecC/01",
-    "day": 4,
-    "start": "15:00",
-    "finish": "17:00",
-    "weeks": "48",
-    "activity": "LecC",
-    "occurrence": "01",
-    "location": "BPB W303",
+    "location": "BPB W107",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
@@ -620,6 +607,287 @@
    }
   ]
  },
+ "MATH1014_X4": {
+  "title": "MATH1014_X4\u00a0Mathematics and Applications 2",
+  "id": "MATH1014_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/MATH1014",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "MATH1014_X4-LecA/01",
+    "day": 0,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "47\u201150",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": "-35.277561",
+    "lon": "149.115905"
+   },
+   {
+    "name": "MATH1014_X4-LecA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "47\u201150",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecA/01",
+    "day": 3,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "47\u201150",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecA/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "47\u201150",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecB/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "47\u201150",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecB/01",
+    "day": 1,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "47\u201150",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecB/01",
+    "day": 3,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "47\u201150",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecB/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "47\u201150",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-LecC/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "47\u201150",
+    "activity": "LecC",
+    "occurrence": "01",
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
+   },
+   {
+    "name": "MATH1014_X4-WorA/01",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/01",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/01",
+    "day": 3,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/01",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/02",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "HN 4.41",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/02",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "HN 4.41",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/02",
+    "day": 3,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "HN 4.41",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/02",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "HN 4.41",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/03",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "03",
+    "location": "HN 1.58",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/03",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "03",
+    "location": "HN 1.58",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/03",
+    "day": 3,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "03",
+    "location": "HN 1.58",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-WorA/03",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "47\u201150",
+    "activity": "WorA",
+    "occurrence": "03",
+    "location": "HN 1.58",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   }
+  ]
+ },
  "MUSC8006_X4": {
   "title": "MUSC8006_X4\u00a0Indigenous Collections and Exhibitions",
   "id": "MUSC8006_X4",
@@ -693,9 +961,9 @@
    }
   ]
  },
- "NSPO8040_X4_(02)": {
+ "NSPO8040_X4": {
   "title": "NSPO8040_X4\u00a0Gender and Security_Online_Online",
-  "id": "NSPO8040_X4_(02)",
+  "id": "NSPO8040_X4",
   "link": "",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -713,42 +981,8 @@
   ]
  },
  "NSPO8044_X4": {
-  "title": "NSPO8044_X4\u00a0Energy Security_In Person_On campus",
-  "id": "NSPO8044_X4",
-  "link": "https://programsandcourses.anu.edu.au/2022/course/NSPO8044",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "NSPO8044_X4-SemA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "12:00",
-    "weeks": "44",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": "-35.287633",
-    "lon": "149.11587"
-   },
-   {
-    "name": "NSPO8044_X4-SemB/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "44",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8044_X4_(02)": {
   "title": "NSPO8044_X4\u00a0Energy Security_Online_Online",
-  "id": "NSPO8044_X4_(02)",
+  "id": "NSPO8044_X4",
   "link": "https://programsandcourses.anu.edu.au/2022/course/NSPO8044",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -788,29 +1022,8 @@
   ]
  },
  "NSPO8045_X4": {
-  "title": "NSPO8045_X4\u00a0Propaganda and information war_In Person_On Campus",
-  "id": "NSPO8045_X4",
-  "link": "https://programsandcourses.anu.edu.au/2022/course/NSPO8045",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "NSPO8045_X4-SemA/01",
-    "day": 0,
-    "start": "18:00",
-    "finish": "20:00",
-    "weeks": "41\u201146",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "NSPO8045_X4_(02)": {
   "title": "NSPO8045_X4\u00a0Propaganda and information war_Online_Online",
-  "id": "NSPO8045_X4_(02)",
+  "id": "NSPO8045_X4",
   "link": "https://programsandcourses.anu.edu.au/2022/course/NSPO8045",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -1137,9 +1350,9 @@
    }
   ]
  },
- "POGO8232_X4_(02)": {
+ "POGO8232_X4": {
   "title": "POGO8232_X4\u00a0Persuasion for Policymakers_Online_Online",
-  "id": "POGO8232_X4_(02)",
+  "id": "POGO8232_X4",
   "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8232",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -1241,9 +1454,9 @@
    }
   ]
  },
- "POGO8235_X4_(02)": {
+ "POGO8235_X4": {
   "title": "POGO8235_X4\u00a0Engaging China: Working with Policy in the PRC_Online_Online",
-  "id": "POGO8235_X4_(02)",
+  "id": "POGO8235_X4",
   "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8235",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -1304,6 +1517,27 @@
    }
   ]
  },
+ "POGO8238_X4": {
+  "title": "POGO8238_X4\u00a0Fundamentals of Intergovernmental Management_In Person_On Campus",
+  "id": "POGO8238_X4",
+  "link": "https://programsandcourses.anu.edu.au/2022/course/POGO8238",
+  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8238_X4-SemA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "17:30",
+    "weeks": "46\u201148",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   }
+  ]
+ },
  "REGN8005_X4": {
   "title": "REGN8005_X4\u00a0Restorative Justice in the World_Online or In Person",
   "id": "REGN8005_X4",
@@ -1339,81 +1573,8 @@
   ]
  },
  "SCOM8088_X4": {
-  "title": "SCOM8088_X4\u00a0Engagement for Policy Impact_In Person",
-  "id": "SCOM8088_X4",
-  "link": "https://programsandcourses.anu.edu.au/2022/course/SCOM8088",
-  "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "SCOM8088_X4-LetA/01",
-    "day": 0,
-    "start": "09:00",
-    "finish": "16:00",
-    "weeks": "47",
-    "activity": "LetA",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": "-35.27583",
-    "lon": "149.11753"
-   },
-   {
-    "name": "SCOM8088_X4-LetB/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "16:00",
-    "weeks": "47",
-    "activity": "LetB",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   },
-   {
-    "name": "SCOM8088_X4-LetC/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "16:00",
-    "weeks": "47",
-    "activity": "LetC",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   },
-   {
-    "name": "SCOM8088_X4-LetD/01",
-    "day": 3,
-    "start": "09:00",
-    "finish": "16:00",
-    "weeks": "47",
-    "activity": "LetD",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   },
-   {
-    "name": "SCOM8088_X4-LetE/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "16:00",
-    "weeks": "47",
-    "activity": "LetE",
-    "occurrence": "01",
-    "location": "Green Couch Room",
-    "locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
-    "lat": -35.27583,
-    "lon": 149.11753
-   }
-  ]
- },
- "SCOM8088_X4_(02)": {
   "title": "SCOM8088_X4\u00a0Engagement for Policy Impact_Online",
-  "id": "SCOM8088_X4_(02)",
+  "id": "SCOM8088_X4",
   "link": "https://programsandcourses.anu.edu.au/2022/course/SCOM8088",
   "dates": "Displaying Dates: 3 Jan 22 - 1 Jan 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -1571,10 +1732,10 @@
     "weeks": "44",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Gould 112&113",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": "-35.276464",
-    "lon": "149.115926"
+    "location": "HA 2175",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "STAT7055_X4-LecB/01",
@@ -1584,10 +1745,10 @@
     "weeks": "44",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "Gould 112&113",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "location": "HA 2175",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "STAT7055_X4-LecC/01",
@@ -1597,10 +1758,10 @@
     "weeks": "44",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "Gould 112&113",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "location": "HA 2175",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "STAT7055_X4-LecD/01",
@@ -1610,10 +1771,10 @@
     "weeks": "44",
     "activity": "LecD",
     "occurrence": "01",
-    "location": "Gould 112&113",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "location": "HA 2175",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  }
