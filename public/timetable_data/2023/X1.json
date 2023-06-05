@@ -392,11 +392,24 @@
     "lon": 149.119686
    },
    {
+    "name": "ASIA2222_X1-LecF/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "5",
+    "activity": "LecF",
+    "occurrence": "01",
+    "location": "Hedley Bull Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
     "name": "ASIA2222_X1-SemA/01",
     "day": 0,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "5\u20116",
+    "weeks": "6",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Coombs Seminar Room D 3.204",
@@ -409,7 +422,7 @@
     "day": 0,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "5\u20116",
+    "weeks": "6",
     "activity": "SemA",
     "occurrence": "02",
     "location": "Coombs Seminar Room C 3.110",
@@ -422,7 +435,7 @@
     "day": 0,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "5\u20116",
+    "weeks": "6",
     "activity": "SemA",
     "occurrence": "03",
     "location": "Coombs Seminar Room E 3.214",
@@ -435,7 +448,7 @@
     "day": 0,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "5\u20116",
+    "weeks": "6",
     "activity": "SemA",
     "occurrence": "04",
     "location": "Coombs Seminar Room F 3.304",
@@ -1147,7 +1160,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": "-35.277768",
     "lon": "149.122317"
@@ -1160,7 +1173,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1173,7 +1186,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1186,7 +1199,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1199,7 +1212,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "05",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1212,7 +1225,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "06",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1272,10 +1285,10 @@
     "weeks": "5",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "CRIM3006_X1-WorB/01",
@@ -1285,10 +1298,10 @@
     "weeks": "5",
     "activity": "WorB",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "CRIM3006_X1-WorC/01",
@@ -1298,10 +1311,10 @@
     "weeks": "5",
     "activity": "WorC",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "CRIM3006_X1-WorD/01",
@@ -1311,10 +1324,10 @@
     "weeks": "5",
     "activity": "WorD",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "CRIM3006_X1-WorE/01",
@@ -1324,10 +1337,10 @@
     "weeks": "5",
     "activity": "WorE",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "CRIM3006_X1-WorF/01",
@@ -1337,10 +1350,10 @@
     "weeks": "5",
     "activity": "WorF",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "Marie Reay 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
@@ -1436,7 +1449,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1449,7 +1462,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1462,7 +1475,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1475,7 +1488,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1488,7 +1501,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "05",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1501,7 +1514,7 @@
     "weeks": "2\u20113",
     "activity": "TutA",
     "occurrence": "06",
-    "location": "HA G051",
+    "location": "HA 2175",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -1544,6 +1557,53 @@
     "locationID": "http://www.anu.edu.au/maps#show=11295",
     "lat": -35.277596,
     "lon": 149.122472
+   }
+  ]
+ },
+ "CRWF9000_X1": {
+  "title": "CRWF9000_X1\u00a0Fostering Public Policy Research",
+  "id": "CRWF9000_X1",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/CRWF9000",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "CRWF9000_X1-SemA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "7",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": "-35.287633",
+    "lon": "149.11587"
+   },
+   {
+    "name": "CRWF9000_X1-SemA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "7",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "CRWF9000_X1-SemA/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "7",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Crawford Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    }
   ]
  },
@@ -1594,10 +1654,23 @@
    },
    {
     "name": "ENGL2111_X1-SemD/01",
-    "day": 3,
+    "day": 4,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "3\u20115",
+    "weeks": "3,5",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "ENGL2111_X1-SemD/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "4",
     "activity": "SemD",
     "occurrence": "01",
     "location": "Hedley Bull Seminar Room 3",
@@ -1646,10 +1719,23 @@
    },
    {
     "name": "ENGL2111_X1-WorD/01",
-    "day": 3,
+    "day": 4,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "3\u20115",
+    "weeks": "3,5",
+    "activity": "WorD",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "ENGL2111_X1-WorD/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "4",
     "activity": "WorD",
     "occurrence": "01",
     "location": "Hedley Bull Seminar Room 3",
@@ -1706,10 +1792,23 @@
    },
    {
     "name": "ENGL6111_X1-SemD/01",
-    "day": 3,
+    "day": 4,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "3\u20115",
+    "weeks": "3,5",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "ENGL6111_X1-SemD/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "4",
     "activity": "SemD",
     "occurrence": "01",
     "location": "Hedley Bull Seminar Room 3",
@@ -1758,10 +1857,23 @@
    },
    {
     "name": "ENGL6111_X1-WorD/01",
-    "day": 3,
+    "day": 4,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "3\u20115",
+    "weeks": "3,5",
+    "activity": "WorD",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "ENGL6111_X1-WorD/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "4",
     "activity": "WorD",
     "occurrence": "01",
     "location": "Hedley Bull Seminar Room 3",
@@ -1916,59 +2028,82 @@
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "ENVS3033_X1-PreLecA/01",
+    "name": "ENVS3033_X1-LecA/01",
     "day": 0,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecA",
+    "activity": "LecA",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": "-35.277907",
+    "lon": "149.116057"
    },
    {
-    "name": "ENVS3033_X1-PreLecB/01",
+    "name": "ENVS3033_X1-LecB/01",
     "day": 1,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecB",
+    "activity": "LecB",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS3033_X1-PreLecC/01",
+    "name": "ENVS3033_X1-LecC/01",
     "day": 2,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecC",
+    "activity": "LecC",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS3033_X1-PreLecD/01",
+    "name": "ENVS3033_X1-LecD/01",
     "day": 3,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecD",
+    "activity": "LecD",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS3033_X1-PreLecE/01",
+    "name": "ENVS3033_X1-LecE/01",
     "day": 4,
     "start": "09:00",
     "finish": "12:00",
-    "weeks": "6\u20117",
-    "activity": "PreLecE",
+    "weeks": "6",
+    "activity": "LecE",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
+   },
+   {
+    "name": "ENVS3033_X1-LecE/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "7",
+    "activity": "LecE",
+    "occurrence": "01",
+    "location": "FSTY T",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS3033_X1-WorA/01",
@@ -1978,10 +2113,10 @@
     "weeks": "6\u20117",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": "-35.276241",
-    "lon": "149.117144"
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS3033_X1-WorB/01",
@@ -1991,10 +2126,10 @@
     "weeks": "6\u20117",
     "activity": "WorB",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS3033_X1-WorC/01",
@@ -2004,10 +2139,10 @@
     "weeks": "6\u20117",
     "activity": "WorC",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS3033_X1-WorD/01",
@@ -2017,23 +2152,36 @@
     "weeks": "6\u20117",
     "activity": "WorD",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS3033_X1-WorE/01",
     "day": 4,
     "start": "12:00",
     "finish": "17:30",
-    "weeks": "6\u20117",
+    "weeks": "6",
     "activity": "WorE",
     "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
+   },
+   {
+    "name": "ENVS3033_X1-WorE/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "17:30",
+    "weeks": "7",
+    "activity": "WorE",
+    "occurrence": "01",
+    "location": "FSTY T",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    }
   ]
  },
@@ -2182,59 +2330,82 @@
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "ENVS6033_X1-PreLecA/01",
+    "name": "ENVS6033_X1-LecA/01",
     "day": 0,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecA",
+    "activity": "LecA",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS6033_X1-PreLecB/01",
+    "name": "ENVS6033_X1-LecB/01",
     "day": 1,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecB",
+    "activity": "LecB",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS6033_X1-PreLecC/01",
+    "name": "ENVS6033_X1-LecC/01",
     "day": 2,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecC",
+    "activity": "LecC",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS6033_X1-PreLecD/01",
+    "name": "ENVS6033_X1-LecD/01",
     "day": 3,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "6\u20117",
-    "activity": "PreLecD",
+    "activity": "LecD",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
-    "name": "ENVS6033_X1-PreLecE/01",
+    "name": "ENVS6033_X1-LecE/01",
     "day": 4,
     "start": "09:00",
     "finish": "12:00",
-    "weeks": "6\u20117",
-    "activity": "PreLecE",
+    "weeks": "6",
+    "activity": "LecE",
     "occurrence": "01",
-    "location": " prerecorded",
-    "locationID": ""
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
+   },
+   {
+    "name": "ENVS6033_X1-LecE/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "7",
+    "activity": "LecE",
+    "occurrence": "01",
+    "location": "FSTY T",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS6033_X1-WorA/01",
@@ -2244,10 +2415,10 @@
     "weeks": "6\u20117",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS6033_X1-WorB/01",
@@ -2257,10 +2428,10 @@
     "weeks": "6\u20117",
     "activity": "WorB",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS6033_X1-WorC/01",
@@ -2270,10 +2441,10 @@
     "weeks": "6\u20117",
     "activity": "WorC",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS6033_X1-WorD/01",
@@ -2283,23 +2454,36 @@
     "weeks": "6\u20117",
     "activity": "WorD",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    },
    {
     "name": "ENVS6033_X1-WorE/01",
     "day": 4,
     "start": "12:00",
     "finish": "17:30",
-    "weeks": "6\u20117",
+    "weeks": "6",
     "activity": "WorE",
     "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
+    "location": "FSTY 102",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
+   },
+   {
+    "name": "ENVS6033_X1-WorE/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "17:30",
+    "weeks": "7",
+    "activity": "WorE",
+    "occurrence": "01",
+    "location": "FSTY T",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    }
   ]
  },
@@ -2732,7 +2916,7 @@
   ]
  },
  "LAWS8035_X1": {
-  "title": "LAWS8035_X1\u00a0Cyber Warfare Law_Online",
+  "title": "LAWS8035_X1\u00a0Cyber Warfare Law",
   "id": "LAWS8035_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8035",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -2795,7 +2979,7 @@
   ]
  },
  "LAWS8182_X1": {
-  "title": "LAWS8182_X1\u00a0Principles of International Law",
+  "title": "LAWS8182_X1\u00a0Principles of International Law_Online",
   "id": "LAWS8182_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8182",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -2825,7 +3009,7 @@
   ]
  },
  "LAWS8218_X1": {
-  "title": "LAWS8218_X1\u00a0Advanced Contracts",
+  "title": "LAWS8218_X1\u00a0Advanced Contracts_Online",
   "id": "LAWS8218_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8218",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -2877,7 +3061,7 @@
   ]
  },
  "LAWS8329_X1": {
-  "title": "LAWS8329_X1\u00a0Gender, Law and Development",
+  "title": "LAWS8329_X1\u00a0Gender, Law and Development_Online",
   "id": "LAWS8329_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8329",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -2887,7 +3071,7 @@
     "day": 0,
     "start": "09:30",
     "finish": "12:00",
-    "weeks": "10\u201111",
+    "weeks": "10",
     "activity": "SemA",
     "occurrence": "01",
     "location": " online live",
@@ -2940,7 +3124,7 @@
   ]
  },
  "LAWS8335_X1": {
-  "title": "LAWS8335_X1\u00a0Equity and Contemporary Issues",
+  "title": "LAWS8335_X1\u00a0Equity and Contemporary Issues_Online",
   "id": "LAWS8335_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8335",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -3003,7 +3187,7 @@
   ]
  },
  "LAWS8336_X1": {
-  "title": "LAWS8336_X1\u00a0International Investment Treaty Law and Arbitration",
+  "title": "LAWS8336_X1\u00a0International Investment Treaty Law and Arbitration_Online",
   "id": "LAWS8336_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8336",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -3033,7 +3217,7 @@
   ]
  },
  "LAWS8401_X1": {
-  "title": "LAWS8401_X1\u00a0The Law of Weaponry and Targeting",
+  "title": "LAWS8401_X1\u00a0The Law of Weaponry and Targeting_Online",
   "id": "LAWS8401_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8401",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -3096,7 +3280,7 @@
   ]
  },
  "LAWS8409_X1": {
-  "title": "LAWS8409_X1\u00a0Strategic Issues in the Law of Armed Conflict",
+  "title": "LAWS8409_X1\u00a0Strategic Issues in the Law of Armed Conflict_Online",
   "id": "LAWS8409_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8409",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -3148,7 +3332,7 @@
   ]
  },
  "LAWS8566_X1": {
-  "title": "LAWS8566_X1\u00a0International Criminal Law",
+  "title": "LAWS8566_X1\u00a0International Criminal Law_Online",
   "id": "LAWS8566_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8566",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -3200,7 +3384,7 @@
   ]
  },
  "LAWS8586_X1": {
-  "title": "LAWS8586_X1\u00a0Law and Legal Institutions",
+  "title": "LAWS8586_X1\u00a0Law and Legal Institutions_Online",
   "id": "LAWS8586_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/LAWS8586",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
@@ -3237,6 +3421,53 @@
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   }
+  ]
+ },
+ "NSPO8041_X1": {
+  "title": "NSPO8041_X1\u00a0Borders, Migration And Security_Online_Online",
+  "id": "NSPO8041_X1",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8041",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "NSPO8041_X1-LecA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "5\u20117",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Crawford Brindabella Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "NSPO8041_X1-TutA/01",
+    "day": 4,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "5\u20117",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Crawford Brindabella Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
+   },
+   {
+    "name": "NSPO8041_X1-WorA/01",
+    "day": 4,
+    "start": "14:00",
+    "finish": "15:30",
+    "weeks": "5\u20117",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Crawford Brindabella Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11381",
+    "lat": -35.287633,
+    "lon": 149.11587
    }
   ]
  },
@@ -3304,51 +3535,12 @@
   ]
  },
  "POGO8044_X1": {
-  "title": "POGO8044_X1\u00a0Global Social Policy_In Person_On Campus",
+  "title": "POGO8044_X1\u00a0Global Social Policy_Online_Online",
   "id": "POGO8044_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8044",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "POGO8044_X1-SemA/01",
-    "day": 0,
-    "start": "09:30",
-    "finish": "12:30",
-    "weeks": "6\u20117",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": "-35.287633",
-    "lon": "149.11587"
-   },
-   {
-    "name": "POGO8044_X1-SemB/01",
-    "day": 3,
-    "start": "09:30",
-    "finish": "12:30",
-    "weeks": "6",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8044_X1-SemC/01",
-    "day": 4,
-    "start": "09:30",
-    "finish": "12:30",
-    "weeks": "7,9",
-    "activity": "SemC",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
     "name": "POGO8044_X1-WorA/01",
     "day": 4,
     "start": "09:30",
@@ -3373,40 +3565,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=11381",
     "lat": -35.287633,
     "lon": 149.11587
-   }
-  ]
- },
- "POGO8044_X1_(02)": {
-  "title": "POGO8044_X1\u00a0Global Social Policy_Online_Online",
-  "id": "POGO8044_X1_(02)",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8044",
-  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "POGO8044_X1-WorA/01",
-    "day": 4,
-    "start": "09:30",
-    "finish": "16:00",
-    "weeks": "8",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
    },
    {
-    "name": "POGO8044_X1-WorB/01",
+    "name": "POGO8044_X1-PreLecA/01",
     "day": 0,
-    "start": "09:30",
-    "finish": "16:00",
-    "weeks": "9",
-    "activity": "WorB",
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "6\u20119",
+    "activity": "PreLecA",
     "occurrence": "01",
-    "location": "Crawford Brindabella Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
+    "location": " prerecorded",
+    "locationID": ""
    },
    {
     "name": "POGO8044_X1-SemA/01",
@@ -3444,68 +3613,8 @@
   ]
  },
  "POGO8132_X1": {
-  "title": "POGO8132_X1\u00a0Public Policy in Cities - Integrating and Governing Change_In Person_On Campus",
-  "id": "POGO8132_X1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8132",
-  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "POGO8132_X1-SemA/01",
-    "day": 0,
-    "start": "14:00",
-    "finish": "15:00",
-    "weeks": "10",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8132_X1-SemB/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "10\u201111",
-    "activity": "SemB",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8132_X1-WorA/01",
-    "day": 0,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "10",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   },
-   {
-    "name": "POGO8132_X1-WorB/01",
-    "day": 4,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "10\u201111",
-    "activity": "WorB",
-    "occurrence": "01",
-    "location": "Crawford Seminar Room 9",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
-   }
-  ]
- },
- "POGO8132_X1_(02)": {
   "title": "POGO8132_X1\u00a0Public Policy in Cities - Integrating and Governing Change_Online_Online",
-  "id": "POGO8132_X1_(02)",
+  "id": "POGO8132_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8132",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
@@ -3553,6 +3662,47 @@
     "finish": "12:00",
     "weeks": "10\u201111",
     "activity": "SemB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
+ "POGO8241_X1": {
+  "title": "POGO8241_X1\u00a0Knowledge Systems and Public Policy_Online_Online",
+  "id": "POGO8241_X1",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8241",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8241_X1-WorA/01",
+    "day": 0,
+    "start": "16:00",
+    "finish": "19:00",
+    "weeks": "10,12",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8241_X1-WorB/01",
+    "day": 1,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "11",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8241_X1-WorC/01",
+    "day": 4,
+    "start": "14:00",
+    "finish": "17:00",
+    "weeks": "10",
+    "activity": "WorC",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -3701,81 +3851,8 @@
   ]
  },
  "SCOM6003_X1": {
-  "title": "SCOM6003_X1\u00a0Science in Popular Fiction_In Person",
-  "id": "SCOM6003_X1",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM6003",
-  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
-  "classes": [
-   {
-    "name": "SCOM6003_X1-LecA/01",
-    "day": 0,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "3",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
-   },
-   {
-    "name": "SCOM6003_X1-LecB/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "3",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
-   },
-   {
-    "name": "SCOM6003_X1-LecC/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "3",
-    "activity": "LecC",
-    "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
-   },
-   {
-    "name": "SCOM6003_X1-LecD/01",
-    "day": 3,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "3",
-    "activity": "LecD",
-    "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
-   },
-   {
-    "name": "SCOM6003_X1-LecE/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "3",
-    "activity": "LecE",
-    "occurrence": "01",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
-   }
-  ]
- },
- "SCOM6003_X1_(02)": {
   "title": "SCOM6003_X1\u00a0Science in Popular Fiction_Online",
-  "id": "SCOM6003_X1_(02)",
+  "id": "SCOM6003_X1",
   "link": "https://programsandcourses.anu.edu.au/2023/course/SCOM6003",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
