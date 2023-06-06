@@ -19,7 +19,7 @@ jobs:
         session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']
     
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.5.2
 
       - uses: actions/setup-python@v4
         with:
