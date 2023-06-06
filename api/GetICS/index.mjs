@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-import fns from 'date-fns-tz'
+import { format, utcToZonedTime } from 'date-fns-tz'
 import ics from 'ics'
 
 // https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#azure_functions_environment
@@ -12,7 +12,7 @@ function timesToArray(date, timeString) {
     date.setHours(times[0])
     date.setMinutes(times[1])
     date.setSeconds(0)
-    return fns.format(date, 'y,M,d,H,m,s', { timeZone: tz }).split(',').map(x => parseInt(x))
+    return format(date, 'y,M,d,H,m,s', { timeZone: tz }).split(',').map(x => parseInt(x))
 }
 
 // eg ?COMP2310_S2=LecA 01,LecB 01
@@ -75,7 +75,7 @@ export default async function (context, req) {
                     
                     // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
                     // Days from start of year until first Monday - aka Week 0
-                    let yearStart = fns.utcToZonedTime(new Date(), tz)
+                    let yearStart = utcToZonedTime(new Date(), tz)
                     yearStart.setMonth(0,1)
                     // Target next year if November or later (ie classes ended)
                     // TODO accept year and session as query params
@@ -92,7 +92,7 @@ export default async function (context, req) {
                         
                         const day = dayOffset + 7*(interval[0]-1) + parseInt(session.day) + 1
                         
-                        let startDay = fns.utcToZonedTime(new Date(yearStart.getTime()), tz)
+                        let startDay = utcToZonedTime(new Date(yearStart.getTime()), tz)
                         startDay.setDate(day)
                         const weekday = days[startDay.getDay()] // assumes no multi-day events
 
