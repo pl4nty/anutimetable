@@ -11,7 +11,7 @@
   "dependencies": {
     "date-fns": "2.30.0",
     "date-fns-tz": "2.0.0",
-    "ics": "2.44.0",
+    "ics": "3.1.0",
     "node-fetch": "3.3.1"
   }
 }
