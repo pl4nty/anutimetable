@@ -3562,22 +3562,11 @@
    },
    {
     "name": "LAWS8182_X3-SemC/01",
-    "day": 2,
-    "start": "10:00",
-    "finish": "13:00",
-    "weeks": "36\u201138",
-    "activity": "SemC",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8182_X3-SemD/01",
     "day": 3,
     "start": "10:00",
     "finish": "13:00",
     "weeks": "36\u201138",
-    "activity": "SemD",
+    "activity": "SemC",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -4058,9 +4047,9 @@
    {
     "name": "LAWS8584_X3-SemA/01",
     "day": 0,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "36\u201138",
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "36\u201141",
     "activity": "SemA",
     "occurrence": "01",
     "location": " online live",
@@ -4069,43 +4058,10 @@
    {
     "name": "LAWS8584_X3-SemB/01",
     "day": 1,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "36\u201138",
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "36\u201141",
     "activity": "SemB",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8584_X3-SemC/01",
-    "day": 2,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "36\u201138",
-    "activity": "SemC",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8584_X3-SemD/01",
-    "day": 3,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "36\u201138",
-    "activity": "SemD",
-    "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS8584_X3-SemE/01",
-    "day": 4,
-    "start": "13:00",
-    "finish": "15:00",
-    "weeks": "36\u201138",
-    "activity": "SemE",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
