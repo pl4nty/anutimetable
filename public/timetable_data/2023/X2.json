@@ -1518,13 +1518,26 @@
     "day": 3,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "9\u201114,17\u201126,29\u201138,41\u201147",
+    "weeks": "9\u201114,17\u201122,24\u201126,29\u201138,41\u201147",
     "activity": "LecB",
     "occurrence": "01",
     "location": "BPB ETC Studio 2 Orange",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
+   },
+   {
+    "name": "EXTN1010B_X2-LecB/01",
+    "day": 3,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "23",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "COP G026",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    }
   ]
  },
