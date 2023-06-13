@@ -1466,12 +1466,12 @@
     "lon": 149.120968
    },
    {
-    "name": "ARAB3001_S1-TutA/01",
+    "name": "ARAB3001_S1-ClaB/01",
     "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
+    "activity": "ClaB",
     "occurrence": "01",
     "location": "CAIS 1.15 Al-Falasi Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11377",
@@ -1479,12 +1479,12 @@
     "lon": 149.120968
    },
    {
-    "name": "ARAB3001_S1-ClaB/01",
+    "name": "ARAB3001_S1-TutA/01",
     "day": 2,
-    "start": "14:00",
-    "finish": "15:00",
+    "start": "15:00",
+    "finish": "16:00",
     "weeks": "8\u201113,16\u201121",
-    "activity": "ClaB",
+    "activity": "TutA",
     "occurrence": "01",
     "location": "CAIS 1.15 Al-Falasi Theatre",
     "locationID": "http://www.anu.edu.au/maps#show=11377",
