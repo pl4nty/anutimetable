@@ -196,7 +196,7 @@
   ]
  },
  "ANCH1013_S2": {
-  "title": "ANCH1013_S2\u00a0The World of Classical Greece",
+  "title": "ANCH1013_S2\u00a0The World of Ancient Greece",
   "id": "ANCH1013_S2",
   "link": "https://programsandcourses.anu.edu.au/2023/course/ANCH1013",
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
@@ -5614,8 +5614,8 @@
    {
     "name": "BIOL1004_S2-LecB/01",
     "day": 4,
-    "start": "09:00",
-    "finish": "10:00",
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecB",
     "occurrence": "01",
@@ -6482,15 +6482,15 @@
    {
     "name": "BIOL2202_S2-WorA/02",
     "day": 3,
-    "start": "09:00",
-    "finish": "12:00",
+    "start": "12:00",
+    "finish": "15:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "02",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    }
   ]
  },
@@ -6529,15 +6529,15 @@
    {
     "name": "BIOL3002_S2-LecC/01",
     "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "30\u201135,38\u201141",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "BIOL3002_S2-PraA/01",
@@ -7127,15 +7127,15 @@
    {
     "name": "BIOL6002_S2-LecC/01",
     "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "30\u201135,38\u201141",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "STB_S2 (3.02)",
-    "locationID": "http://www.anu.edu.au/maps#show=11384",
-    "lat": -35.276241,
-    "lon": 149.117144
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "BIOL6002_S2-PraA/01",
@@ -7187,8 +7187,8 @@
    {
     "name": "BIOL6036_S2-LecB/01",
     "day": 4,
-    "start": "09:00",
-    "finish": "10:00",
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecB",
     "occurrence": "01",
@@ -8235,15 +8235,15 @@
    {
     "name": "BIOL6202_S2-WorA/02",
     "day": 3,
-    "start": "09:00",
-    "finish": "12:00",
+    "start": "12:00",
+    "finish": "15:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "02",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    }
   ]
  },
@@ -12378,6 +12378,19 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
+    "name": "CHEM2213_S2-ComA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "33\u201135",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 3 Yellow",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
     "name": "CHEM2213_S2-LecA/01",
     "day": 0,
     "start": "12:00",
@@ -12850,6 +12863,19 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
+    "name": "CHEM6213_S2-ComA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "33\u201135",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "BPB ETC Studio 3 Yellow",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
     "name": "CHEM6213_S2-LecA/01",
     "day": 0,
     "start": "12:00",
@@ -12982,10 +13008,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutB",
     "occurrence": "01",
-    "location": "Crawford Griffin Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
+    "location": "COP G030",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "CHIN2017_S2-TutB/02",
@@ -12995,10 +13021,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutB",
     "occurrence": "02",
-    "location": "Crawford Seminar Room 7",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
+    "location": "COP G030",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "CHIN2017_S2-TutB/03",
@@ -13008,10 +13034,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutB",
     "occurrence": "03",
-    "location": "Crawford Comp Lab 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11381",
-    "lat": -35.287633,
-    "lon": 149.11587
+    "location": "COP G030",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "CHIN2017_S2-TutC/01",
@@ -23730,6 +23756,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11361",
     "lat": -35.280067,
     "lon": 149.121758
+   },
+   {
+    "name": "CRIM1002_S2-TutA/11",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "11",
+    "location": "CRISP G015",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": -35.277419,
+    "lon": 149.123165
    }
   ]
  },
@@ -34877,16 +34916,16 @@
   "classes": [
    {
     "name": "ENGN4820_S2-LecA/01",
-    "day": 2,
-    "start": "11:00",
-    "finish": "13:00",
+    "day": 1,
+    "start": "10:00",
+    "finish": "12:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "PSYC G5",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
+    "location": "Han 2.25",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
    },
    {
     "name": "ENGN4820_S2-TutA/01",
@@ -40266,8 +40305,8 @@
    {
     "name": "FINM7008_S2-WorA/01",
     "day": 4,
-    "start": "10:00",
-    "finish": "11:00",
+    "start": "09:00",
+    "finish": "10:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "01",
@@ -44090,7 +44129,7 @@
   ]
  },
  "INDG1002_S2": {
-  "title": "INDG1002_S2\u00a0First Peoples' experiences and ways of being: resilience, agency, resurgence and rights",
+  "title": "INDG1002_S2\u00a0Resilience, rights, and resurgence: First Peoples' experiences and ways of being",
   "id": "INDG1002_S2",
   "link": "https://programsandcourses.anu.edu.au/2023/course/INDG1002",
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
@@ -44854,8 +44893,8 @@
    {
     "name": "INFS7004_S2-LecA/01",
     "day": 2,
-    "start": "12:00",
-    "finish": "14:00",
+    "start": "16:00",
+    "finish": "18:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
@@ -45717,7 +45756,7 @@
   ]
  },
  "INTR8052_S2": {
-  "title": "INTR8052_S2\u00a0Peace and Conflict Studies",
+  "title": "INTR8052_S2\u00a0Key Debates in Peace and Conflict Studies",
   "id": "INTR8052_S2",
   "link": "https://programsandcourses.anu.edu.au/2023/course/INTR8052",
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
@@ -46359,7 +46398,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Coombs Seminar Room B 3.104",
+    "location": "Coombs Seminar Room D 3.204",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
@@ -46398,7 +46437,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "Coombs Seminar Room D 3.204",
+    "location": "Coombs Seminar Room B 3.104",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
@@ -57154,10 +57193,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "CBE LT 4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
    },
    {
     "name": "MGMT3025_S2-TutA/01",
@@ -65822,8 +65861,8 @@
    {
     "name": "PSYC3015_S2-LecA/01",
     "day": 3,
-    "start": "14:00",
-    "finish": "16:00",
+    "start": "15:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
@@ -69067,15 +69106,15 @@
    {
     "name": "STAT1008_S2-LecB/01",
     "day": 4,
-    "start": "11:00",
-    "finish": "12:00",
+    "start": "13:00",
+    "finish": "14:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "COOMBS T",
-    "locationID": "http://www.anu.edu.au/maps#show=11651",
-    "lat": -35.282454,
-    "lon": 149.119653
+    "location": "Barry Drive 7-11 Ground Floor",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": -35.2752066,
+    "lon": 149.127504
    }
   ]
  },
