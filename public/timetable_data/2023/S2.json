@@ -1719,13 +1719,13 @@
    },
    {
     "name": "ARTH1007_S2-TutA/02",
-    "day": 1,
-    "start": "14:00",
-    "finish": "15:00",
+    "day": 2,
+    "start": "12:00",
+    "finish": "13:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "SRWB 3.03/3.04",
+    "location": "SRWB 3.02",
     "locationID": "http://www.anu.edu.au/maps#show=11367",
     "lat": -35.284327,
     "lon": 149.121169
@@ -2707,7 +2707,7 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
-    "name": "ARTV1611_S2-StuA-StuA/01",
+    "name": "ARTV1611_S2-StuA/01",
     "day": 1,
     "start": "09:00",
     "finish": "13:00",
@@ -2728,7 +2728,7 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
-    "name": "ARTV1612_S2-StuA-StuA/01",
+    "name": "ARTV1612_S2-StuA/01",
     "day": 2,
     "start": "09:00",
     "finish": "13:00",
@@ -2773,12 +2773,12 @@
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    },
    {
-    "name": "ARTV1704_S2StuA/02",
+    "name": "ARTV1704_S2-StuA/02",
     "day": 3,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "30\u201131,38",
-    "activity": "Err",
+    "activity": "StuA",
     "occurrence": "02",
     "location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
     "locationID": "http://soa.anu.edu.au/printmedia/map"
@@ -2806,7 +2806,7 @@
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    },
    {
-    "name": "ARTV1704_S2-StuC-StuC/01",
+    "name": "ARTV1704_S2-StuC/01",
     "day": 1,
     "start": "14:00",
     "finish": "17:00",
@@ -2817,7 +2817,7 @@
     "locationID": "http://soa.anu.edu.au/printmedia/map"
    },
    {
-    "name": "ARTV1704_S2-StuC-StuC/02",
+    "name": "ARTV1704_S2-StuC/02",
     "day": 3,
     "start": "09:00",
     "finish": "12:00",
@@ -3322,12 +3322,12 @@
     "locationID": ""
    },
    {
-    "name": "ARTV2921_S2-SemA/01",
+    "name": "ARTV2921_S2-TutA/01",
     "day": 1,
     "start": "15:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
-    "activity": "SemA",
+    "activity": "TutA",
     "occurrence": "01",
     "location": "SOA&D Furniture Main Bench Room Ground Floor",
     "locationID": "http://soa.anu.edu.au/furniture/map"
@@ -3408,12 +3408,12 @@
     "locationID": "http://soa.anu.edu.au/sculpture/map"
    },
    {
-    "name": "ARTV3035_S2StuC/01",
+    "name": "ARTV3035_S2-StuC/01",
     "day": 3,
     "start": "09:00",
     "finish": "13:00",
     "weeks": "33\u201134,42",
-    "activity": "Err",
+    "activity": "StuC",
     "occurrence": "01",
     "location": "D Sculpture Woodworking Area G.65",
     "locationID": "http://soa.anu.edu.au/sculpture/map"
@@ -3426,7 +3426,7 @@
     "weeks": "34",
     "activity": "FieA",
     "occurrence": "01",
-    "location": " fieldwork",
+    "location": " off campus",
     "locationID": ""
    },
    {
@@ -3437,7 +3437,7 @@
     "weeks": "35",
     "activity": "FieA",
     "occurrence": "02",
-    "location": " fieldwork",
+    "location": " off campus",
     "locationID": ""
    },
    {
@@ -3523,7 +3523,7 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
-    "name": "ARTV6704_S2-LecA/01",
+    "name": "ARTV6704_S2-LecA-LecA/01",
     "day": 1,
     "start": "12:00",
     "finish": "13:00",
@@ -3687,12 +3687,12 @@
     "locationID": ""
    },
    {
-    "name": "ARTV6921_S2-SemA/01",
+    "name": "ARTV6921_S2-TutA/01",
     "day": 1,
     "start": "15:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
-    "activity": "SemA",
+    "activity": "TutA",
     "occurrence": "01",
     "location": "SOA&D Furniture Main Bench Room Ground Floor",
     "locationID": "http://soa.anu.edu.au/furniture/map"
@@ -5822,10 +5822,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Leonard Huxley T",
-    "locationID": "http://www.anu.edu.au/maps#show=11325",
-    "lat": "-35.283152",
-    "lon": "149.113616"
+    "location": "PHYS T",
+    "locationID": "http://www.anu.edu.au/maps#show=11425",
+    "lat": "-35.275316",
+    "lon": "149.1183"
    },
    {
     "name": "BIOL1009_S2-LecC/01",
@@ -6286,8 +6286,8 @@
     "occurrence": "01",
     "location": "PHYS T",
     "locationID": "http://www.anu.edu.au/maps#show=11425",
-    "lat": "-35.275316",
-    "lon": "149.1183"
+    "lat": -35.275316,
+    "lon": 149.1183
    },
    {
     "name": "BIOL2174_S2-LecB/01",
@@ -24395,41 +24395,35 @@
    {
     "name": "DESN2008_S2-TutA/01",
     "day": 2,
-    "start": "16:00",
+    "start": "14:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Marie Reay 3.03",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "SOA&D Foundation Room 1_G52",
+    "locationID": "http://soa.anu.edu.au/foundation/map"
    },
    {
     "name": "DESN2008_S2-TutA/02",
     "day": 2,
-    "start": "16:00",
+    "start": "14:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "Marie Reay 3.05",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "SOA&D Foundation Room 3_G54",
+    "locationID": "http://soa.anu.edu.au/foundation/map"
    },
    {
     "name": "DESN2008_S2-TutA/03",
     "day": 2,
-    "start": "16:00",
+    "start": "14:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Marie Reay 4.04",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "SOA&D Foundation Room 4_G54A",
+    "locationID": "http://soa.anu.edu.au/foundation/map"
    }
   ]
  },
@@ -24444,7 +24438,7 @@
     "day": 6,
     "start": "17:00",
     "finish": "18:00",
-    "weeks": "30\u201132",
+    "weeks": "30\u201135,38\u201143",
     "activity": "PreLecA",
     "occurrence": "01",
     "location": " prerecorded",
@@ -24584,15 +24578,15 @@
    {
     "name": "DESN3011_S2-TutA/01",
     "day": 2,
-    "start": "14:00",
-    "finish": "17:00",
+    "start": "09:00",
+    "finish": "12:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "RSSS Lectorial 1 Rm 1.21",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": "SOA&D Room G04.05",
+    "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+    "lat": -35.280713,
+    "lon": 149.122377
    }
   ]
  },
@@ -24686,15 +24680,15 @@
    {
     "name": "DESN6011_S2-TutA/01",
     "day": 2,
-    "start": "14:00",
-    "finish": "17:00",
+    "start": "09:00",
+    "finish": "12:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "RSSS Lectorial 1 Rm 1.21",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": -35.2791261,
-    "lon": 149.1212115
+    "location": "SOA&D Room G04.05",
+    "locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+    "lat": -35.280713,
+    "lon": 149.122377
    }
   ]
  },
@@ -26726,8 +26720,8 @@
     "occurrence": "01",
     "location": "Leonard Huxley T",
     "locationID": "http://www.anu.edu.au/maps#show=11325",
-    "lat": -35.283152,
-    "lon": 149.113616
+    "lat": "-35.283152",
+    "lon": "149.113616"
    },
    {
     "name": "ECON3102_S2-TutA/01",
@@ -44632,16 +44626,16 @@
   "classes": [
    {
     "name": "INFS1001_S2-LecA/01",
-    "day": 3,
-    "start": "16:00",
-    "finish": "18:00",
+    "day": 1,
+    "start": "09:00",
+    "finish": "11:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "COP G031",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
    },
    {
     "name": "INFS1001_S2-TutA/01",
@@ -51398,7 +51392,7 @@
     "weeks": "43",
     "activity": "WorB",
     "occurrence": "01",
-    "location": " on campus",
+    "location": " Phillipa Weeks Staff Library - Building 7 Top Floor",
     "locationID": ""
    },
    {
@@ -56953,6 +56947,27 @@
    }
   ]
  },
+ "MGMT2003_S2": {
+  "title": "MGMT2003_S2\u00a0Business Decision Making",
+  "id": "MGMT2003_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/MGMT2003",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "MGMT2003_S2-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "HA Tank",
+    "locationID": "http://www.anu.edu.au/maps#show=11295",
+    "lat": -35.277596,
+    "lon": 149.122472
+   }
+  ]
+ },
  "MGMT2004_S2": {
   "title": "MGMT2004_S2\u00a0Negotiation",
   "id": "MGMT2004_S2",
@@ -59953,15 +59968,15 @@
    {
     "name": "PASI1012_S2-SemA/01",
     "day": 0,
-    "start": "10:00",
-    "finish": "13:00",
+    "start": "13:00",
+    "finish": "16:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Marie Reay 3.05",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "Coombs Seminar Room D 3.204",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
    }
   ]
  },
