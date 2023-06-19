@@ -5828,6 +5828,19 @@
     "lon": "149.1183"
    },
    {
+    "name": "BIOL1009_S2-LecB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "RN Robertson T",
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+    "lat": "-35.277722",
+    "lon": "149.116811"
+   },
+   {
     "name": "BIOL1009_S2-LecC/01",
     "day": 3,
     "start": "09:00",
@@ -5835,10 +5848,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "COP T",
-    "locationID": "http://www.anu.edu.au/maps#show=28973",
-    "lat": -35.277433,
-    "lon": 149.123538
+    "location": "RN Robertson T",
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+    "lat": -35.277722,
+    "lon": 149.116811
    },
    {
     "name": "BIOL1009_S2-PraA/01",
@@ -6142,8 +6155,8 @@
     "occurrence": "01",
     "location": "RN Robertson T",
     "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": "-35.277722",
-    "lon": "149.116811"
+    "lat": -35.277722,
+    "lon": 149.116811
    },
    {
     "name": "BIOL2142_S2-LecB/01",
@@ -24486,7 +24499,7 @@
     "weeks": "35",
     "activity": "FieA",
     "occurrence": "01",
-    "location": " ",
+    "location": " off campus",
     "locationID": ""
    },
    {
@@ -24503,12 +24516,12 @@
     "lon": 149.122377
    },
    {
-    "name": "DESN2012_S2-TutB/01",
+    "name": "DESN2012_S2-SemA/01",
     "day": 4,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "39",
-    "activity": "TutB",
+    "activity": "SemA",
     "occurrence": "01",
     "location": "School of Music LT3",
     "locationID": "https://www.anu.edu.au/maps#show=29089",
@@ -24542,13 +24555,13 @@
     "lon": 149.122377
    },
    {
-    "name": "DESN2012_S2-TutC/02",
+    "name": "DESN2012_S2-TutB/01",
     "day": 4,
     "start": "09:00",
     "finish": "13:00",
     "weeks": "39\u201141",
-    "activity": "TutC",
-    "occurrence": "02",
+    "activity": "TutB",
+    "occurrence": "01",
     "location": "SOA&D Foundation Room 3 and 4_G54.54A",
     "locationID": "http://www.anu.edu.au/maps#show=29095`target=",
     "lat": -35.280713,
@@ -24706,7 +24719,7 @@
     "weeks": "35",
     "activity": "FieA",
     "occurrence": "01",
-    "location": " ",
+    "location": " off campus",
     "locationID": ""
    },
    {
@@ -24723,12 +24736,12 @@
     "lon": 149.122377
    },
    {
-    "name": "DESN6012_S2-TutB/01",
+    "name": "DESN6012_S2-SemA/01",
     "day": 4,
     "start": "09:00",
     "finish": "12:00",
     "weeks": "39",
-    "activity": "TutB",
+    "activity": "SemA",
     "occurrence": "01",
     "location": "School of Music LT3",
     "locationID": "https://www.anu.edu.au/maps#show=29089",
@@ -24762,13 +24775,13 @@
     "lon": 149.122377
    },
    {
-    "name": "DESN6012_S2-TutC/02",
+    "name": "DESN6012_S2-TutB/01",
     "day": 4,
     "start": "09:00",
     "finish": "13:00",
     "weeks": "39\u201141",
-    "activity": "TutC",
-    "occurrence": "02",
+    "activity": "TutB",
+    "occurrence": "01",
     "location": "SOA&D Foundation Room 3 and 4_G54.54A",
     "locationID": "http://www.anu.edu.au/maps#show=29095`target=",
     "lat": -35.280713,
