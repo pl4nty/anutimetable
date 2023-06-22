@@ -24526,6 +24526,40 @@
    }
   ]
  },
+ "DEMO8092_S2": {
+  "title": "DEMO8092_S2\u00a0Life Course Analytics",
+  "id": "DEMO8092_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/DEMO8092",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "DEMO8092_S2-ComA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "COP G027",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
+   },
+   {
+    "name": "DEMO8092_S2-LecA/01",
+    "day": 2,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "BPB W118",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   }
+  ]
+ },
  "DESN1003_S2": {
   "title": "DESN1003_S2\u00a0Contemporary Design In Context",
   "id": "DESN1003_S2",
@@ -29126,6 +29160,17 @@
     "finish": "11:30",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8078_S2-WorA/01",
+    "day": 3,
+    "start": "13:00",
+    "finish": "14:30",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "WorA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -46653,7 +46698,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutB",
     "occurrence": "01",
-    "location": "Coombs Seminar Room C 3.110",
+    "location": "COOMBS Lab 4.114",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
@@ -46666,7 +46711,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutB",
     "occurrence": "02",
-    "location": "Coombs Seminar Room C 3.110",
+    "location": "COOMBS Lab 4.114",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
@@ -46679,7 +46724,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutB",
     "occurrence": "03",
-    "location": "Coombs Seminar Room C 3.110",
+    "location": "COOMBS Lab 4.114",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
@@ -59985,7 +60030,7 @@
   ]
  },
  "MUSI8001_S2": {
-  "title": "MUSI8001_S2\u00a0The Scholar Musician 2",
+  "title": "MUSI8001_S2\u00a0The Scholar Musician 2_In Person",
   "id": "MUSI8001_S2",
   "link": "https://programsandcourses.anu.edu.au/2023/course/MUSI8001",
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
@@ -63548,15 +63593,15 @@
    {
     "name": "POLS1009_S2-TutA/24",
     "day": 3,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "24",
-    "location": "Marie Reay 5.04",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "POLS1009_S2-TutA/25",
