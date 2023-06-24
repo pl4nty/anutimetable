@@ -44344,16 +44344,14 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "PreLecA",
     "occurrence": "01",
-    "location": "SRWB 1.02",
-    "locationID": "http://www.anu.edu.au/maps#show=11367",
-    "lat": -35.284327,
-    "lon": 149.121169
+    "location": " prerecorded",
+    "locationID": ""
    },
    {
     "name": "INDG1002_S2-WorA/01",
     "day": 2,
     "start": "09:00",
-    "finish": "10:30",
+    "finish": "11:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "01",
@@ -44366,36 +44364,23 @@
     "name": "INDG1002_S2-WorA/02",
     "day": 2,
     "start": "11:00",
-    "finish": "12:30",
+    "finish": "13:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "02",
-    "location": "DA Brown Rm 110/108",
-    "locationID": "http://www.anu.edu.au/maps#show=29013",
-    "lat": -35.27695,
-    "lon": 149.115437
+    "location": "Marie Reay 5.05",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    },
    {
     "name": "INDG1002_S2-WorA/03",
     "day": 2,
-    "start": "13:00",
-    "finish": "14:30",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "03",
-    "location": "Birch 1.43 Interactive Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=28991",
-    "lat": -35.274397,
-    "lon": 149.119323
-   },
-   {
-    "name": "INDG1002_S2-WorA/04",
-    "day": 2,
-    "start": "16:30",
+    "start": "16:00",
     "finish": "18:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
-    "occurrence": "04",
+    "occurrence": "03",
     "location": " online live",
     "locationID": ""
    }
