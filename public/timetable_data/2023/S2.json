@@ -4845,8 +4845,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "Birch 1.43 Interactive Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
    },
    {
     "name": "ASTR2013_S2-WorA/01",
@@ -5457,9 +5459,9 @@
    },
    {
     "name": "BIAN6514_S2-PraA/01",
-    "day": 4,
-    "start": "14:00",
-    "finish": "15:00",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "PraA",
     "occurrence": "01",
@@ -29061,9 +29063,20 @@
    {
     "name": "EMDV8078_S2-LecA/01",
     "day": 1,
+    "start": "12:00",
+    "finish": "13:30",
+    "weeks": "30\u201135,38,40\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8078_S2-LecA/01",
+    "day": 1,
     "start": "10:00",
     "finish": "11:30",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "39",
     "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
@@ -38774,7 +38787,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "Arndt LT 1",
+    "location": "Arndt LT 2",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
@@ -39167,9 +39180,9 @@
   "classes": [
    {
     "name": "FINM4015_S2-LecA/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "16:00",
+    "day": 3,
+    "start": "14:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
@@ -40441,9 +40454,9 @@
   "classes": [
    {
     "name": "FINM8004_S2-LecA/01",
-    "day": 0,
-    "start": "13:00",
-    "finish": "16:00",
+    "day": 3,
+    "start": "14:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
@@ -48498,19 +48511,6 @@
     "lon": 149.118658
    },
    {
-    "name": "LAWS2205_S2-TutA/07",
-    "day": 2,
-    "start": "19:00",
-    "finish": "20:00",
-    "weeks": "32\u201135,38\u201143",
-    "activity": "TutA",
-    "occurrence": "07",
-    "location": "Law 6.1.19",
-    "locationID": "http://campusmap.anu.edu.au#show=106553",
-    "lat": -35.280305,
-    "lon": 149.118658
-   },
-   {
     "name": "LAWS2205_S2-TutA/08",
     "day": 1,
     "start": "09:00",
@@ -53811,144 +53811,6 @@
    }
   ]
  },
- "MATH3104_S2": {
-  "title": "MATH3104_S2\u00a0Advanced Algebra 1: Groups, Rings and Linear Algebra",
-  "id": "MATH3104_S2",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/MATH3104",
-  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
-  "classes": [
-   {
-    "name": "MATH3104_S2-LecA/01",
-    "day": 1,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "COP G030",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "MATH3104_S2-LecB/01",
-    "day": 2,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LecB",
-    "occurrence": "01",
-    "location": "COP G030",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "MATH3104_S2-LecC/01",
-    "day": 3,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LecC",
-    "occurrence": "01",
-    "location": "COP G030",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "MATH3104_S2-LecD/01",
-    "day": 4,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LecD",
-    "occurrence": "01",
-    "location": "COP G030",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": -35.277985,
-    "lon": 149.123419
-   },
-   {
-    "name": "MATH3104_S2-WorA/01",
-    "day": 0,
-    "start": "17:00",
-    "finish": "18:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "01",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   },
-   {
-    "name": "MATH3104_S2-WorA/02",
-    "day": 2,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "02",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   },
-   {
-    "name": "MATH3104_S2-WorA/03",
-    "day": 2,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "03",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   },
-   {
-    "name": "MATH3104_S2-WorA/04",
-    "day": 4,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "04",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   },
-   {
-    "name": "MATH3104_S2-WorA/05",
-    "day": 4,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "05",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   },
-   {
-    "name": "MATH3104_S2-WorA/06",
-    "day": 4,
-    "start": "16:00",
-    "finish": "17:00",
-    "weeks": "31\u201135,38\u201143",
-    "activity": "WorA",
-    "occurrence": "06",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
-   }
-  ]
- },
  "MATH3133_S2": {
   "title": "MATH3133_S2\u00a0Environmental Mathematics",
   "id": "MATH3133_S2",
@@ -57811,10 +57673,10 @@
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "PSYC G5",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": -35.274459,
-    "lon": 149.117814
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -69710,9 +69572,9 @@
    },
    {
     "name": "STAT3011_S2-LecC/01",
-    "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
+    "day": 1,
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecC",
     "occurrence": "01",
@@ -70574,9 +70436,9 @@
    },
    {
     "name": "STAT6026_S2-LecC/01",
-    "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
+    "day": 1,
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecC",
     "occurrence": "01",
