@@ -1306,10 +1306,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Han 2.25",
-    "locationID": "http://www.anu.edu.au/maps#show=11313",
-    "lat": -35.276955,
-    "lon": 149.117796
+    "location": "PSYC G5",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    },
    {
     "name": "ARCH3042_S2-TutA/01",
@@ -1323,6 +1323,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11416",
     "lat": -35.277063,
     "lon": 149.122565
+   },
+   {
+    "name": "ARCH3042_S2-TutA/02",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "Marie Reay 3.05",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
@@ -1547,10 +1560,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Han 2.25",
-    "locationID": "http://www.anu.edu.au/maps#show=11313",
-    "lat": -35.276955,
-    "lon": 149.117796
+    "location": "PSYC G5",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    },
    {
     "name": "ARCH6042_S2-TutA/01",
@@ -1564,6 +1577,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11416",
     "lat": -35.277063,
     "lon": 149.122565
+   },
+   {
+    "name": "ARCH6042_S2-TutA/02",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "Marie Reay 3.05",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": -35.277786,
+    "lon": 149.120685
    }
   ]
  },
@@ -16721,6 +16747,19 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
+    "name": "COMP2710_S2-ComA/01",
+    "day": 0,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
     "name": "COMP2710_S2-WorA/01",
     "day": 4,
     "start": "12:00",
@@ -19451,40 +19490,6 @@
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
-   }
-  ]
- },
- "COMP4880_S2": {
-  "title": "COMP4880_S2\u00a0Computational Methods for Network Science",
-  "id": "COMP4880_S2",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/COMP4880",
-  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
-  "classes": [
-   {
-    "name": "COMP4880_S2-LecA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Birch 1.43 Interactive Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=28991",
-    "lat": -35.274397,
-    "lon": 149.119323
-   },
-   {
-    "name": "COMP4880_S2-LetA/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LetA",
-    "occurrence": "01",
-    "location": "Birch 1.43 Interactive Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=28991",
-    "lat": -35.274397,
-    "lon": 149.119323
    }
   ]
  },
@@ -23751,40 +23756,6 @@
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
-   }
-  ]
- },
- "COMP8880_S2": {
-  "title": "COMP8880_S2\u00a0Computational Methods for Network Science",
-  "id": "COMP8880_S2",
-  "link": "https://programsandcourses.anu.edu.au/2023/course/COMP8880",
-  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
-  "classes": [
-   {
-    "name": "COMP8880_S2-LecA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Birch 1.43 Interactive Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=28991",
-    "lat": -35.274397,
-    "lon": 149.119323
-   },
-   {
-    "name": "COMP8880_S2-LetA/01",
-    "day": 4,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
-    "activity": "LetA",
-    "occurrence": "01",
-    "location": "Birch 1.43 Interactive Theatre",
-    "locationID": "http://www.anu.edu.au/maps#show=28991",
-    "lat": -35.274397,
-    "lon": 149.119323
    }
   ]
  },
@@ -35061,9 +35032,9 @@
    },
    {
     "name": "ENGN4810_S2-TutA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "13:00",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
@@ -38545,8 +38516,8 @@
    {
     "name": "FINM2003_S2-LecA/01",
     "day": 0,
-    "start": "14:00",
-    "finish": "16:00",
+    "start": "15:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
@@ -51808,10 +51779,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 5.06",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "HA G052",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "LING2521_S2-TutA/01",
@@ -52166,10 +52137,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 5.06",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "HA G052",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "LING6521_S2-TutA/01",
@@ -59600,6 +59571,25 @@
     "locationID": "http://www.anu.edu.au/maps#show=29029",
     "lat": -35.282847,
     "lon": 149.114173
+   }
+  ]
+ },
+ "NSPO8006_S2": {
+  "title": "NSPO8006_S2\u00a0National Security Policymaking_Online",
+  "id": "NSPO8006_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8006",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "NSPO8006_S2-SemA/01",
+    "day": 0,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
