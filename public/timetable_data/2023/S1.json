@@ -56564,19 +56564,6 @@
     "lon": 149.123592
    },
    {
-    "name": "LAWS2203_S1-LecA/01",
-    "day": 0,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "11",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Llewellyn Hall",
-    "locationID": "http://www.anu.edu.au/maps#show=29415",
-    "lat": -35.280391,
-    "lon": 149.123592
-   },
-   {
     "name": "LAWS2203_S1-SemA/01",
     "day": 3,
     "start": "09:00",
@@ -58237,19 +58224,6 @@
     "start": "09:00",
     "finish": "11:00",
     "weeks": "8\u201110,12\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "Llewellyn Hall",
-    "locationID": "http://www.anu.edu.au/maps#show=29415",
-    "lat": -35.280391,
-    "lon": 149.123592
-   },
-   {
-    "name": "LAWS6203_S1-LecA/01",
-    "day": 0,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "11",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
