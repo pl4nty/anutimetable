@@ -4477,6 +4477,91 @@
    }
   ]
  },
+ "POGO8076_X3": {
+  "title": "POGO8076_X3\u00a0Corruption and Anti-corruption_Online",
+  "id": "POGO8076_X3",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8076",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8076_X3-LecA/01",
+    "day": 1,
+    "start": "12:30",
+    "finish": "14:00",
+    "weeks": "30",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "16:30",
+    "weeks": "36",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemB/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:30",
+    "weeks": "36",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemC/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:30",
+    "weeks": "36",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemD/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "16:30",
+    "weeks": "37",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemE/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:30",
+    "weeks": "37",
+    "activity": "SemE",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8076_X3-SemF/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:30",
+    "weeks": "37",
+    "activity": "SemF",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
  "POGO8233_X3": {
   "title": "POGO8233_X3\u00a0Policy Tools & Mixes_Online",
   "id": "POGO8233_X3",
@@ -4492,6 +4577,47 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
+ "POGO8403_X3": {
+  "title": "POGO8403_X3\u00a0Cases in Contemporary Public Policy_Online_Online",
+  "id": "POGO8403_X3",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8403",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8403_X3-LecA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "32,37,42",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8403_X3-LecB/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "32,42",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8403_X3-LecC/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "37",
+    "activity": "LecC",
+    "occurrence": "01",
+    "location": " online",
     "locationID": ""
    }
   ]
