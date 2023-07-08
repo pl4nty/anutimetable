@@ -2670,9 +2670,9 @@
   "classes": [
    {
     "name": "ARTV1302_S2-StuA/01",
-    "day": 3,
-    "start": "14:00",
-    "finish": "18:00",
+    "day": 4,
+    "start": "09:00",
+    "finish": "13:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "StuA",
     "occurrence": "01",
@@ -8775,13 +8775,26 @@
     "day": 0,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "COP T",
     "locationID": "http://www.anu.edu.au/maps#show=28973",
     "lat": -35.277433,
     "lon": 149.123538
+   },
+   {
+    "name": "BUSI2025_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Kambri T2",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
    },
    {
     "name": "BUSI2025_S2-SemA/01",
@@ -10168,16 +10181,16 @@
    },
    {
     "name": "BUSN7005_S2-TutA/02",
-    "day": 0,
-    "start": "13:00",
-    "finish": "14:00",
+    "day": 2,
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "CBE TR3",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
+    "location": "COP G021",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "BUSN7005_S2-TutA/03",
@@ -10195,15 +10208,15 @@
    {
     "name": "BUSN7005_S2-TutA/04",
     "day": 1,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "Arndt TR3",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
+    "location": "CBE Bld TR5",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "BUSN7005_S2-TutA/05",
@@ -15013,10 +15026,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "04",
-    "location": "HN Lab 1",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP1600_S2-ComA/05",
@@ -15193,8 +15206,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "18",
-    "location": " on campus HN 1.23",
-    "locationID": ""
+    "location": "HN Lab 1",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
    },
    {
     "name": "COMP1600_S2-ComA/19",
@@ -20322,10 +20337,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "04",
-    "location": "HN Lab 1",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
+    "location": "CSIT N109",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP6260_S2-ComA/05",
@@ -20502,8 +20517,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "18",
-    "location": " on campus HN 1.23",
-    "locationID": ""
+    "location": "HN Lab 1",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
    },
    {
     "name": "COMP6260_S2-ComA/19",
@@ -26585,15 +26602,15 @@
    {
     "name": "ECON2013_S2-LecA/01",
     "day": 4,
-    "start": "12:00",
-    "finish": "14:00",
+    "start": "14:00",
+    "finish": "16:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "HA Tank",
-    "locationID": "http://www.anu.edu.au/maps#show=11295",
-    "lat": -35.277596,
-    "lon": 149.122472
+    "location": "PHYS T",
+    "locationID": "http://www.anu.edu.au/maps#show=11425",
+    "lat": -35.275316,
+    "lon": 149.1183
    },
    {
     "name": "ECON2013_S2-TutA/01",
@@ -29796,6 +29813,55 @@
    }
   ]
  },
+ "EMDV8009_S2": {
+  "title": "EMDV8009_S2\u00a0Asia-Pacific Environmental Conflicts_Online_Online",
+  "id": "EMDV8009_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8009",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "EMDV8009_S2-LecA/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8009_S2-SemA/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
+ "EMDV8014_S2": {
+  "title": "EMDV8014_S2\u00a0Research in Environmental and Climate Change Policy_Online_Online",
+  "id": "EMDV8014_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8014",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "EMDV8014_S2-WorA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
  "EMDV8078_S2": {
   "title": "EMDV8078_S2\u00a0Introduction to Environmental and Resource Economics_Online_Online",
   "id": "EMDV8078_S2",
@@ -29891,6 +29957,36 @@
     "finish": "18:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
+ "EMDV8101_S2": {
+  "title": "EMDV8101_S2\u00a0State, Society and Natural Resources_Online_Online",
+  "id": "EMDV8101_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8101",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "EMDV8101_S2-LecA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8101_S2-WorA/01",
+    "day": 3,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "WorA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
@@ -31379,9 +31475,9 @@
   "classes": [
    {
     "name": "EMSC3025_S2-ComA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "12:00",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "01",
@@ -31961,9 +32057,9 @@
   "classes": [
    {
     "name": "EMSC6025_S2-ComA/01",
-    "day": 3,
-    "start": "10:00",
-    "finish": "12:00",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "01",
@@ -40691,16 +40787,16 @@
    },
    {
     "name": "FINM7006_S2-LecA/01",
-    "day": 0,
-    "start": "15:00",
-    "finish": "17:00",
+    "day": 2,
+    "start": "12:00",
+    "finish": "14:00",
     "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Llewellyn Hall",
-    "locationID": "http://www.anu.edu.au/maps#show=29415",
-    "lat": -35.280391,
-    "lon": 149.123592
+    "location": "Kambri MCH",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
    },
    {
     "name": "FINM7006_S2-LecB/01",
@@ -40795,7 +40891,7 @@
    },
    {
     "name": "FINM7006_S2-TutA/07",
-    "day": 2,
+    "day": 3,
     "start": "12:00",
     "finish": "13:00",
     "weeks": "31\u201135,38\u201143",
@@ -48728,13 +48824,24 @@
     "day": 0,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
     "locationID": "http://www.anu.edu.au/maps#show=11473",
     "lat": -35.280217,
     "lon": 149.119061
+   },
+   {
+    "name": "LAWS1201_S2-SemA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Online Live on campus",
+    "locationID": ""
    },
    {
     "name": "LAWS1201_S2-SemA/02",
@@ -51265,7 +51372,7 @@
     "day": 0,
     "start": "09:00",
     "finish": "12:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
@@ -51286,13 +51393,24 @@
     "day": 0,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
     "locationID": "http://www.anu.edu.au/maps#show=11473",
     "lat": -35.280217,
     "lon": 149.119061
+   },
+   {
+    "name": "LAWS6101_S2-SemA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Online Live on campus",
+    "locationID": ""
    },
    {
     "name": "LAWS6101_S2-SemA/02",
@@ -57911,13 +58029,26 @@
     "day": 0,
     "start": "10:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "HA G053",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
+   },
+   {
+    "name": "MGMT3021_S2-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "COP T",
+    "locationID": "http://www.anu.edu.au/maps#show=28973",
+    "lat": -35.277433,
+    "lon": 149.123538
    }
   ]
  },
@@ -58384,7 +58515,7 @@
     "day": 2,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "02",
     "location": "CBE TR2",
@@ -58397,7 +58528,7 @@
     "day": 2,
     "start": "16:00",
     "finish": "17:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "03",
     "location": "CBE Bld TR6",
@@ -58423,7 +58554,7 @@
     "day": 1,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "05",
     "location": "CBE Bld TR4",
@@ -58449,7 +58580,7 @@
     "day": 2,
     "start": "12:00",
     "finish": "13:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "07",
     "location": "CBE TR2",
@@ -58475,7 +58606,7 @@
     "day": 1,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "09",
     "location": "CBE Bld TR4",
@@ -60547,6 +60678,17 @@
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "NSPO8006_S2-TutA/01",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": " Online",
+    "locationID": ""
    }
   ]
  },
@@ -60649,6 +60791,25 @@
    {
     "name": "NSPO8034_S2-WorA/01",
     "day": 3,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
+ "NSPO8035_S2": {
+  "title": "NSPO8035_S2\u00a0Australia\u2019s Strategic Environment and future security challenges_Online_Online",
+  "id": "NSPO8035_S2",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/NSPO8035",
+  "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
+  "classes": [
+   {
+    "name": "NSPO8035_S2-WorA/01",
+    "day": 0,
     "start": "16:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
