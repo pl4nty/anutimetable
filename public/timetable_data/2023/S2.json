@@ -10532,6 +10532,32 @@
     "lon": 149.123165
    },
    {
+    "name": "BUSN7008_S2-TutA/47",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "47",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
+    "name": "BUSN7008_S2-TutA/48",
+    "day": 3,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "48",
+    "location": "CBE Bld TR7",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
     "name": "BUSN7008_S2-WorA/01",
     "day": 1,
     "start": "17:00",
@@ -29078,6 +29104,19 @@
     "lon": 149.123501
    },
    {
+    "name": "ECON8025_S2-LecA/02",
+    "day": 3,
+    "start": "18:00",
+    "finish": "20:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "LecA",
+    "occurrence": "02",
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
+   },
+   {
     "name": "ECON8025_S2-TutA/01",
     "day": 3,
     "start": "14:00",
@@ -29132,10 +29171,10 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 4.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": -35.277786,
-    "lon": 149.120685
+    "location": "SRES T",
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": -35.277561,
+    "lon": 149.115905
    },
    {
     "name": "ECON8026_S2-TutA/01",
@@ -29172,6 +29211,19 @@
     "activity": "TutA",
     "occurrence": "03",
     "location": "Arndt TR2",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
+   },
+   {
+    "name": "ECON8026_S2-TutA/04",
+    "day": 2,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "04",
+    "location": "Arndt TR3",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
@@ -29911,8 +29963,8 @@
    {
     "name": "EMDV8009_S2-SemA/01",
     "day": 4,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "SemA",
     "occurrence": "01",
@@ -30821,6 +30873,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
+   },
+   {
+    "name": "EMET7001_S2-TutA/06",
+    "day": 2,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "31\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "06",
+    "location": "CBE Bld TR6",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    }
   ]
  },
@@ -30984,10 +31049,10 @@
     "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "CBE LT 4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "EMET8005_S2-TutA/01",
@@ -38287,11 +38352,11 @@
     "name": "ENVS3042_S2-WorA/01",
     "day": 2,
     "start": "16:00",
-    "finish": "17:00",
+    "finish": "18:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "Marie Reay 3.02",
+    "location": "Marie Reay 5.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -39076,11 +39141,11 @@
     "name": "ENVS6342_S2-WorA/01",
     "day": 2,
     "start": "16:00",
-    "finish": "17:00",
+    "finish": "18:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "Marie Reay 3.02",
+    "location": "Marie Reay 5.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -40797,16 +40862,16 @@
    },
    {
     "name": "FINM6041_S2-TutA/03",
-    "day": 4,
-    "start": "14:00",
-    "finish": "15:00",
+    "day": 1,
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "CRISP G017",
-    "locationID": "http://www.anu.edu.au/maps#show=11298",
-    "lat": -35.277419,
-    "lon": 149.123165
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "FINM6041_S2-TutA/04",
@@ -46147,12 +46212,12 @@
    {
     "name": "INFS7004_S2-TutA/07",
     "day": 3,
-    "start": "13:00",
-    "finish": "14:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "31\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "07",
-    "location": "CBE Bld TR6",
+    "location": "CBE TR1",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
@@ -60319,9 +60384,9 @@
    },
    {
     "name": "MUSI3313_S2-TutA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
@@ -60745,9 +60810,9 @@
    },
    {
     "name": "MUSI6313_S2-TutA/01",
-    "day": 3,
-    "start": "11:00",
-    "finish": "12:00",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
