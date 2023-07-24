@@ -33856,13 +33856,15 @@
    {
     "name": "ECON8026_S1-LecA/01",
     "day": 0,
-    "start": "13:00",
-    "finish": "15:00",
+    "start": "14:00",
+    "finish": "16:00",
     "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": " online live",
-    "locationID": ""
+    "location": "PSYC G6",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    },
    {
     "name": "ECON8026_S1-TutA/01",
