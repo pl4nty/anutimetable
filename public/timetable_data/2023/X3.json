@@ -2123,10 +2123,10 @@
     "weeks": "36",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": "-35.277063",
-    "lon": "149.122565"
+    "location": "CSIT N108",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
    },
    {
     "name": "COMP7230_X3-LecA/01",
@@ -2136,10 +2136,10 @@
     "weeks": "36",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "location": "CSIT N108",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP7230_X3-LecB/01",
@@ -2149,10 +2149,10 @@
     "weeks": "36",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "location": "CSIT N108",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP7230_X3-LecB/01",
@@ -2162,10 +2162,10 @@
     "weeks": "36",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "location": "CSIT N108",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    },
    {
     "name": "COMP7230_X3-LecB/01",
@@ -2175,10 +2175,10 @@
     "weeks": "36",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "location": "CSIT N108",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
    }
   ]
  },
@@ -5111,8 +5111,8 @@
     "occurrence": "01",
     "location": "MORAN G007",
     "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "lat": "-35.277063",
+    "lon": "149.122565"
    },
    {
     "name": "POLS2113_X3-TutA/02",
