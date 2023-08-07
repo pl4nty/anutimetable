@@ -3411,6 +3411,17 @@
     "occurrence": "01",
     "location": " online",
     "locationID": ""
+   },
+   {
+    "name": "IDEC8012_X3-SemC/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "32",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": " online",
+    "locationID": ""
    }
   ]
  },
@@ -4097,7 +4108,7 @@
    },
    {
     "name": "LAWS8409_X3-SemD/01",
-    "day": 3,
+    "day": 4,
     "start": "15:00",
     "finish": "21:00",
     "weeks": "38",
@@ -4108,7 +4119,7 @@
    },
    {
     "name": "LAWS8409_X3-SemE/01",
-    "day": 4,
+    "day": 5,
     "start": "15:00",
     "finish": "21:00",
     "weeks": "38",
