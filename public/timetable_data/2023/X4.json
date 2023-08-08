@@ -1116,6 +1116,79 @@
    }
   ]
  },
+ "MUSC8012_X4": {
+  "title": "MUSC8012_X4\u00a0Understanding Learning in Museums and Heritage_Online",
+  "id": "MUSC8012_X4",
+  "link": "",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "MUSC8012_X4-SemA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   },
+   {
+    "name": "MUSC8012_X4-SemB/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   },
+   {
+    "name": "MUSC8012_X4-SemC/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   },
+   {
+    "name": "MUSC8012_X4-SemD/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   },
+   {
+    "name": "MUSC8012_X4-SemE/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "SemE",
+    "occurrence": "01",
+    "location": "SRWB 3.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   }
+  ]
+ },
  "NSPO8045_X4": {
   "title": "NSPO8045_X4\u00a0Propaganda and information war_Online_Online",
   "id": "NSPO8045_X4",
