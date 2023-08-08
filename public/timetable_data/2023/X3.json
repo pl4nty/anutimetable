@@ -2831,6 +2831,92 @@
    }
   ]
  },
+ "ENVS3016_X3": {
+  "title": "ENVS3016_X3\u00a0Special Topic_In Person",
+  "id": "ENVS3016_X3",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/ENVS3016",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "ENVS3016_X3-LecA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "36\u201137",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "ENVS3016_X3-LecB/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "36\u201137",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "ENVS3016_X3-LecC/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "36\u201137",
+    "activity": "LecC",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "ENVS3016_X3-LecD/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "36\u201137",
+    "activity": "LecD",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "ENVS3016_X3-LecE/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "36",
+    "activity": "LecE",
+    "occurrence": "01",
+    "location": "Han 2.23",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
+   {
+    "name": "ENVS3016_X3-LecE/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "37",
+    "activity": "LecE",
+    "occurrence": "01",
+    "location": "Han 2.22",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   }
+  ]
+ },
  "ENVS6205_X3": {
   "title": "ENVS6205_X3\u00a0Island Sustainable Development: Fiji Field School_In Person",
   "id": "ENVS6205_X3",
