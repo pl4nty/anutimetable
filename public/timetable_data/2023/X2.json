@@ -1509,7 +1509,9 @@
     "activity": "WorA",
     "occurrence": "01",
     "location": "BPB ETC Studio 3 Yellow",
-    "locationID": "http://www.anu.edu.au/maps#show=11361"
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    },
    {
     "name": "EXTN1010B_X2-LecB/01",
@@ -1520,7 +1522,9 @@
     "activity": "LecB",
     "occurrence": "01",
     "location": "BPB ETC Studio 2 Orange",
-    "locationID": "http://www.anu.edu.au/maps#show=11361"
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "EXTN1010B_X2-LecB/01",
@@ -3566,8 +3570,8 @@
     "occurrence": "01",
     "location": "BPB ETC Studio 3 Yellow",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
+    "lat": -35.280067,
+    "lon": 149.121758
    },
    {
     "name": "STAT6026_X2-ComB/01",
