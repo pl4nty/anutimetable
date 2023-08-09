@@ -237,7 +237,7 @@
  "COMP7240_X2": {
   "title": "COMP7240_X2\u00a0Introduction to Database Concepts",
   "id": "COMP7240_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/COMP7240",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -375,7 +375,7 @@
  "COMP8260_X2": {
   "title": "COMP8260_X2\u00a0Professional Practice 2",
   "id": "COMP8260_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/COMP8260",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -742,7 +742,7 @@
  "EMDV8011_X2": {
   "title": "EMDV8011_X2\u00a0Payments for Environmental Services_Online",
   "id": "EMDV8011_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/EMDV8011",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -815,7 +815,7 @@
  "ENGN8260_X2": {
   "title": "ENGN8260_X2\u00a0Professional Practice 2",
   "id": "ENGN8260_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/ENGN8260",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -1552,13 +1552,26 @@
     "day": 2,
     "start": "17:00",
     "finish": "19:00",
-    "weeks": "17\u201126,29\u201138,41\u201147",
+    "weeks": "17\u201126,29\u201131,33\u201138,41\u201147",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Physics Studio G1",
     "locationID": "http://www.anu.edu.au/maps#show=11423",
     "lat": -35.275052,
     "lon": 149.118554
+   },
+   {
+    "name": "EXTN1011A_X2-LecA/01",
+    "day": 2,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "32",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "PSYC G5",
+    "locationID": "http://www.anu.edu.au/maps#show=11424",
+    "lat": -35.274459,
+    "lon": 149.117814
    }
   ]
  },
@@ -2434,7 +2447,7 @@
  "MUSI3318_X2": {
   "title": "MUSI3318_X2\u00a0Sound Archiving",
   "id": "MUSI3318_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/MUSI3318",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -2572,7 +2585,7 @@
  "MUSI6008_X2": {
   "title": "MUSI6008_X2\u00a0Sound Archiving",
   "id": "MUSI6008_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/MUSI6008",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -3060,7 +3073,7 @@
  "SCNC3022_X2": {
   "title": "SCNC3022_X2\u00a0Special Topics in Science",
   "id": "SCNC3022_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/SCNC3022",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
@@ -3272,7 +3285,7 @@
  "SCNC8022_X2": {
   "title": "SCNC8022_X2\u00a0Special Topics in Science",
   "id": "SCNC8022_X2",
-  "link": "",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/SCNC8022",
   "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
   "classes": [
    {
