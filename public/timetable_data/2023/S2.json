@@ -1099,6 +1099,19 @@
     "lon": 149.1212115
    },
    {
+    "name": "ARAB2012_S2-LecA/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 2 Rm 1.23",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
     "name": "ARAB2012_S2-LecB/01",
     "day": 1,
     "start": "10:00",
@@ -1117,6 +1130,19 @@
     "start": "13:00",
     "finish": "14:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "CAIS 1.14",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
+   },
+   {
+    "name": "ARAB2012_S2-TutA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "40",
     "activity": "TutA",
     "occurrence": "01",
     "location": "CAIS 1.14",
@@ -1151,6 +1177,19 @@
     "start": "12:00",
     "finish": "14:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "ClaA",
+    "occurrence": "01",
+    "location": "CAIS 1.15 Al-Falasi Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
+   },
+   {
+    "name": "ARAB3002_S2-ClaA/01",
+    "day": 2,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "40",
     "activity": "ClaA",
     "occurrence": "01",
     "location": "CAIS 1.15 Al-Falasi Theatre",
@@ -26609,7 +26648,7 @@
     "name": "ECON1100_S2-LecC/01",
     "day": 4,
     "start": "11:00",
-    "finish": "14:00",
+    "finish": "13:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "LecC",
     "occurrence": "01",
@@ -27033,6 +27072,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON1100_S2-WorA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G050",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -59848,6 +59900,17 @@
     "locationID": ""
    },
    {
+    "name": "MEAS1002_S2-LecA/01",
+    "day": 0,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " prerecorded",
+    "locationID": ""
+   },
+   {
     "name": "MEAS1002_S2-TutA/01",
     "day": 1,
     "start": "12:00",
@@ -59883,6 +59946,19 @@
     "start": "09:00",
     "finish": "10:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CAIS 1.15 Al-Falasi Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
+   },
+   {
+    "name": "MEAS2001_S2-LecA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "CAIS 1.15 Al-Falasi Theatre",
@@ -60169,6 +60245,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=11377",
     "lat": -35.279598,
     "lon": 149.120968
+   },
+   {
+    "name": "MEAS8114_S2-SemA/01",
+    "day": 0,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "40",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " prerecorded",
+    "locationID": ""
    }
   ]
  },
@@ -63986,6 +64073,17 @@
     "start": "11:00",
     "finish": "13:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "ClaA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "PERS1002_S2-ClaA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "40",
     "activity": "ClaA",
     "occurrence": "01",
     "location": " online live",
@@ -76628,12 +76726,12 @@
    {
     "name": "STAT7055_S2-TutA/10",
     "day": 3,
-    "start": "15:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "40",
     "activity": "TutA",
     "occurrence": "10",
-    "location": "HA G052",
+    "location": "HA G050",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
@@ -76888,8 +76986,8 @@
    {
     "name": "STAT7055_S2-TutA/25",
     "day": 3,
-    "start": "17:00",
-    "finish": "18:00",
+    "start": "15:00",
+    "finish": "16:00",
     "weeks": "40",
     "activity": "TutA",
     "occurrence": "25",
