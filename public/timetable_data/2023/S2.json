@@ -1041,6 +1041,19 @@
     "lon": 149.120968
    },
    {
+    "name": "ARAB1003_S2-MakA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "MakA",
+    "occurrence": "01",
+    "location": "CAIS 1.15 Al-Falasi Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=11377",
+    "lat": -35.279598,
+    "lon": 149.120968
+   },
+   {
     "name": "ARAB1003_S2-TutA/01",
     "day": 2,
     "start": "11:00",
@@ -16785,6 +16798,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=90783",
     "lat": -35.2752066,
     "lon": 149.127504
+   },
+   {
+    "name": "COMP2100_S2-LecA/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
@@ -18989,6 +19013,19 @@
     "lon": 149.120583
    },
    {
+    "name": "COMP3670_S2-ComA/12",
+    "day": 0,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "40",
+    "activity": "ComA",
+    "occurrence": "12",
+    "location": "CSIT N112",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
     "name": "COMP3670_S2-ComA/13",
     "day": 1,
     "start": "10:00",
@@ -19046,6 +19083,19 @@
     "start": "13:00",
     "finish": "14:30",
     "weeks": "38\u201139,41\u201142",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Kambri MCH",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
+   },
+   {
+    "name": "COMP3670_S2-LecA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "14:30",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Kambri MCH",
@@ -22710,6 +22760,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=90783",
     "lat": -35.2752066,
     "lon": 149.127504
+   },
+   {
+    "name": "COMP6442_S2-LecA/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
@@ -23413,6 +23474,19 @@
     "lon": 149.120583
    },
    {
+    "name": "COMP6670_S2-ComA/12",
+    "day": 0,
+    "start": "17:00",
+    "finish": "19:00",
+    "weeks": "40",
+    "activity": "ComA",
+    "occurrence": "12",
+    "location": "CSIT N112",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": -35.275345,
+    "lon": 149.120583
+   },
+   {
     "name": "COMP6670_S2-ComA/13",
     "day": 1,
     "start": "10:00",
@@ -23470,6 +23544,19 @@
     "start": "13:00",
     "finish": "14:30",
     "weeks": "38\u201139,41\u201142",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Kambri MCH",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": -35.276928,
+    "lon": 149.121926
+   },
+   {
+    "name": "COMP6670_S2-LecA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "14:30",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Kambri MCH",
@@ -30146,7 +30233,7 @@
     "day": 0,
     "start": "15:00",
     "finish": "16:30",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "05",
     "location": "CBE Bld TR8",
@@ -37338,6 +37425,19 @@
     "start": "15:00",
     "finish": "17:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Birch 1.43 Interactive Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
+   },
+   {
+    "name": "ENGN4339_S2-LecA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Birch 1.43 Interactive Theatre",
@@ -60031,7 +60131,7 @@
    },
    {
     "name": "MEAS2001_S2-LecA/01",
-    "day": 2,
+    "day": 4,
     "start": "09:00",
     "finish": "10:00",
     "weeks": "40",
@@ -64156,7 +64256,7 @@
    },
    {
     "name": "PERS1002_S2-ClaA/01",
-    "day": 2,
+    "day": 1,
     "start": "11:00",
     "finish": "13:00",
     "weeks": "40",
@@ -77920,8 +78020,19 @@
     "day": 0,
     "start": "16:00",
     "finish": "18:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "ClaA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "TURK1002_S2-MakA/01",
+    "day": 0,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "37",
+    "activity": "MakA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
