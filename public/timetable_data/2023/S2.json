@@ -9085,7 +9085,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "CBE TR1",
+    "location": "CBE LT 1",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": -35.276735,
     "lon": 149.123501
@@ -35863,6 +35863,19 @@
     "lon": 149.11994
    },
    {
+    "name": "ENGN1218_S2-TutA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Combined Project Space Birch 1.08/1.09",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": -35.276172,
+    "lon": 149.11994
+   },
+   {
     "name": "ENGN1218_S2-TutA/02",
     "day": 4,
     "start": "09:00",
@@ -36447,7 +36460,7 @@
     "day": 4,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,39\u201143",
     "activity": "TutB",
     "occurrence": "01",
     "location": "RN Robertson T",
