@@ -29021,7 +29021,20 @@
     "day": 1,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201134,38\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": -35.283152,
+    "lon": 149.113616
+   },
+   {
+    "name": "ECON3102_S2-LecA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "14:00",
+    "weeks": "35",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -50598,6 +50611,19 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
+    "name": "JPNS2013_S2-LecA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "43",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": -35.282541,
+    "lon": 149.119238
+   },
+   {
     "name": "JPNS2013_S2-TutA/01",
     "day": 2,
     "start": "10:00",
@@ -50829,15 +50855,15 @@
    {
     "name": "JPNS3002_S2-LecA/01",
     "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
+    "start": "17:00",
+    "finish": "18:30",
     "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "HA G052",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "COP G031",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "JPNS3002_S2-TutA/01",
