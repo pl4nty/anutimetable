@@ -2684,7 +2684,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "StuA",
     "occurrence": "01",
-    "location": "Peter Karmel 2.29 (Lab 2)",
+    "location": "Peter Karmel Animation & Video Riddell Lab 2.22",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -3421,7 +3421,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "StuA",
     "occurrence": "01",
-    "location": "Peter Karmel 2.29 (Lab 2)",
+    "location": "Peter Karmel Animation & Video Riddell Lab 2.22",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -12020,6 +12020,19 @@
     "lon": 149.124005
    },
    {
+    "name": "BUSN7057_S2-TutA/01",
+    "day": 3,
+    "start": "18:00",
+    "finish": "19:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
     "name": "BUSN7057_S2-TutA/02",
     "day": 1,
     "start": "19:00",
@@ -12044,6 +12057,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "BUSN7057_S2-TutA/03",
+    "day": 3,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "BUSN7057_S2-TutA/04",
@@ -45043,9 +45069,35 @@
     "day": 2,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201134",
     "activity": "TutA",
     "occurrence": "02",
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
+   },
+   {
+    "name": "GEND1002_S2-TutA/02",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "35,38\u201143",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "DA Brown Rm 110/108",
+    "locationID": "http://www.anu.edu.au/maps#show=29013",
+    "lat": -35.27695,
+    "lon": 149.115437
+   },
+   {
+    "name": "GEND1002_S2-TutA/03",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "30\u201134",
+    "activity": "TutA",
+    "occurrence": "03",
     "location": "HA 1205",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
@@ -45056,9 +45108,22 @@
     "day": 2,
     "start": "16:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "35,38\u201143",
     "activity": "TutA",
     "occurrence": "03",
+    "location": "DA Brown Rm 110/108",
+    "locationID": "http://www.anu.edu.au/maps#show=29013",
+    "lat": -35.27695,
+    "lon": 149.115437
+   },
+   {
+    "name": "GEND1002_S2-TutA/04",
+    "day": 2,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "30\u201134",
+    "activity": "TutA",
+    "occurrence": "04",
     "location": "HA 1205",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
@@ -45069,13 +45134,13 @@
     "day": 2,
     "start": "17:00",
     "finish": "18:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "35,38\u201143",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "HA 1205",
-    "locationID": "http://www.anu.edu.au/maps#show=11294",
-    "lat": -35.277768,
-    "lon": 149.122317
+    "location": "DA Brown Rm 110/108",
+    "locationID": "http://www.anu.edu.au/maps#show=29013",
+    "lat": -35.27695,
+    "lon": 149.115437
    }
   ]
  },
@@ -62914,7 +62979,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "PraA",
     "occurrence": "10",
-    "location": "Peter Karmel 1.31",
+    "location": "Peter Karmel Big Band Room",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -63616,7 +63681,7 @@
     "weeks": "30\u201135,38\u201143",
     "activity": "PraA",
     "occurrence": "10",
-    "location": "Peter Karmel 1.31",
+    "location": "Peter Karmel Big Band Room",
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
@@ -73940,10 +74005,10 @@
     "weeks": "31\u201135,38\u201143",
     "activity": "ComA",
     "occurrence": "15",
-    "location": "GEOG G01",
-    "locationID": "http://www.anu.edu.au/maps#show=11437",
-    "lat": -35.277561,
-    "lon": 149.115905
+    "location": "CRISP G018",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": -35.277419,
+    "lon": 149.123165
    },
    {
     "name": "STAT1008_S2-ComA/16",
@@ -77327,6 +77392,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11651",
     "lat": -35.282454,
     "lon": 149.119653
+   },
+   {
+    "name": "STST1003_S2-MkuA/01",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "40",
+    "activity": "MkuA",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
    },
    {
     "name": "STST1003_S2-TutA/01",
