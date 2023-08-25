@@ -15103,7 +15103,9 @@
     "activity": "WorA",
     "occurrence": "01",
     "location": "GEOG G01",
-    "locationID": "http://www.anu.edu.au/maps#show=11437"
+    "locationID": "http://www.anu.edu.au/maps#show=11437",
+    "lat": "-35.277561",
+    "lon": "149.115905"
    }
   ]
  },
@@ -18280,8 +18282,8 @@
     "occurrence": "09",
     "location": "GEOG G01",
     "locationID": "http://www.anu.edu.au/maps#show=11437",
-    "lat": "-35.277561",
-    "lon": "149.115905"
+    "lat": -35.277561,
+    "lon": 149.115905
    },
    {
     "name": "COMP2420_S1-ComA/10",
