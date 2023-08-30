@@ -30084,13 +30084,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "14:30",
-    "weeks": "31\u201135,38\u201143",
+    "weeks": "31\u201134,38\u201143",
     "activity": "TutA",
     "occurrence": "07",
     "location": "HA 1205",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
+   },
+   {
+    "name": "ECON7074_S2-TutA/07",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:30",
+    "weeks": "35",
+    "activity": "TutA",
+    "occurrence": "07",
+    "location": "COP G029",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    }
   ]
  },
@@ -49503,8 +49516,34 @@
     "day": 1,
     "start": "15:00",
     "finish": "17:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135",
     "activity": "SemA",
+    "occurrence": "01",
+    "location": "Hedley Bull Room 4.27_Reading Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "INTR3002_S2-SemA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "38\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Hedley Bull Seminar Room 3",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
+   },
+   {
+    "name": "INTR3002_S2-TutA/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "30\u201135",
+    "activity": "TutA",
     "occurrence": "01",
     "location": "Hedley Bull Room 4.27_Reading Room",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
@@ -49516,13 +49555,13 @@
     "day": 2,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "38\u201143",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Hedley Bull Room 4.27_Reading Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
+    "location": "COOMBS Extension SR 1.13",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": -35.282541,
+    "lon": 149.119238
    }
   ]
  },
