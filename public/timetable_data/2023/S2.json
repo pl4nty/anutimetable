@@ -57796,6 +57796,19 @@
     "lon": 149.117144
    },
    {
+    "name": "MATH2301_S2-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "RN Robertson T",
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+    "lat": -35.277722,
+    "lon": 149.116811
+   },
+   {
     "name": "MATH2301_S2-LecB/01",
     "day": 2,
     "start": "14:00",
@@ -57835,6 +57848,19 @@
     "lon": 149.1191
    },
    {
+    "name": "MATH2301_S2-WorA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "10:30",
+    "weeks": "40",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HN 4.41",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
     "name": "MATH2301_S2-WorA/02",
     "day": 0,
     "start": "16:30",
@@ -57843,6 +57869,19 @@
     "activity": "WorA",
     "occurrence": "02",
     "location": "HN 1.58",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH2301_S2-WorA/02",
+    "day": 1,
+    "start": "12:00",
+    "finish": "13:30",
+    "weeks": "40",
+    "activity": "WorA",
+    "occurrence": "02",
+    "location": "HN 4.41",
     "locationID": "http://www.anu.edu.au/maps#show=102872",
     "lat": -35.275532,
     "lon": 149.1191
@@ -58893,6 +58932,19 @@
     "lon": 149.115926
    },
    {
+    "name": "MATH3512_S2-LecA/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
+   },
+   {
     "name": "MATH3512_S2-LecB/01",
     "day": 1,
     "start": "15:00",
@@ -59433,6 +59485,19 @@
     "start": "11:00",
     "finish": "12:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
+   },
+   {
+    "name": "MATH6112_S2-LecA/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Gould Seminar Room 235",
