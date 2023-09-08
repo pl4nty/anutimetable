@@ -608,13 +608,39 @@
     "day": 4,
     "start": "12:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135",
     "activity": "SemA",
     "occurrence": "01",
     "location": "HA G040",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
+   },
+   {
+    "name": "ANTH2026_S2-SemA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "38",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "SRWB 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": "-35.284327",
+    "lon": "149.121169"
+   },
+   {
+    "name": "ANTH2026_S2-SemA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "39\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Birch 1.43 Interactive Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
    }
   ]
  },
@@ -880,13 +906,39 @@
     "day": 4,
     "start": "12:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135",
     "activity": "SemA",
     "occurrence": "01",
     "location": "HA G040",
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
+   },
+   {
+    "name": "ANTH6026_S2-SemA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "38",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "SRWB 2.02",
+    "locationID": "http://www.anu.edu.au/maps#show=11367",
+    "lat": -35.284327,
+    "lon": 149.121169
+   },
+   {
+    "name": "ANTH6026_S2-SemA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "15:00",
+    "weeks": "39\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Birch 1.43 Interactive Theatre",
+    "locationID": "http://www.anu.edu.au/maps#show=28991",
+    "lat": -35.274397,
+    "lon": 149.119323
    }
   ]
  },
@@ -1340,8 +1392,8 @@
     "occurrence": "01",
     "location": "SRWB 3.02",
     "locationID": "http://www.anu.edu.au/maps#show=11367",
-    "lat": "-35.284327",
-    "lon": "149.121169"
+    "lat": -35.284327,
+    "lon": 149.121169
    }
   ]
  },
