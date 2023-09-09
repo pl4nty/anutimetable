@@ -5777,13 +5777,26 @@
     "day": 4,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecB",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "BIOL1004_S2-LecB/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "40",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": "-35.280391",
+    "lon": "149.123592"
    },
    {
     "name": "BIOL1004_S2-LecC/01",
@@ -7389,13 +7402,26 @@
     "day": 4,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecB",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "BIOL6036_S2-LecB/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "40",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
    },
    {
     "name": "BIOL6036_S2-LecC/01",
@@ -10402,8 +10428,8 @@
     "occurrence": "01",
     "location": "Llewellyn Hall",
     "locationID": "http://www.anu.edu.au/maps#show=29415",
-    "lat": "-35.280391",
-    "lon": "149.123592"
+    "lat": -35.280391,
+    "lon": 149.123592
    },
    {
     "name": "BUSN7008_S2-LecA/01",
@@ -15303,13 +15329,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecB",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "COMP1110_S2-LecB/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "40",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
    }
   ]
  },
@@ -15675,13 +15714,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecB",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "COMP1140_S2-LecB/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "40",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
    }
   ]
  },
@@ -23820,13 +23872,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecB",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "COMP6710_S2-LecB/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "40",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
    }
   ]
  },
@@ -27076,13 +27141,26 @@
     "day": 4,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "ECON1101_S2-LecA/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
    },
    {
     "name": "ECON1101_S2-LecB/01",
@@ -43818,13 +43896,26 @@
     "day": 4,
     "start": "09:00",
     "finish": "10:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Kambri MCH",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "FINM7008_S2-WorA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "40",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
    }
   ]
  },
