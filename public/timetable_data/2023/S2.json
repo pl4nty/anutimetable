@@ -18187,13 +18187,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Kambri Cinema",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "COMP3430_S2-LecA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "ENGN T",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": -35.276172,
+    "lon": 149.11994
    }
   ]
  },
@@ -24654,13 +24667,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "16:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Kambri Cinema",
     "locationID": "http://www.anu.edu.au/maps#show=108132",
     "lat": -35.276928,
     "lon": 149.121926
+   },
+   {
+    "name": "COMP8430_S2-LecA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "40",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "ENGN T",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": -35.276172,
+    "lon": 149.11994
    }
   ]
  },
@@ -72048,13 +72074,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "01",
     "location": "Marie Reay 2.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
+   },
+   {
+    "name": "SCOM3033_S2-TutA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "STB_S1 (3.07)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": -35.276241,
+    "lon": 149.117144
    }
   ]
  },
