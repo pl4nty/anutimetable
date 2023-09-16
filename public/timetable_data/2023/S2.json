@@ -6533,13 +6533,26 @@
     "day": 4,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "03",
     "location": "Marie Reay 2.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
+   },
+   {
+    "name": "BIOL2174_S2-TutA/03",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "BIOL2174_S2-TutB/01",
@@ -8244,13 +8257,26 @@
     "day": 4,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201139,41\u201143",
     "activity": "TutA",
     "occurrence": "03",
     "location": "Marie Reay 2.02",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
+   },
+   {
+    "name": "BIOL6174_S2-TutA/03",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "Gould Seminar Room 235",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": -35.276464,
+    "lon": 149.115926
    },
    {
     "name": "BIOL6174_S2-TutB/01",
@@ -18203,10 +18229,10 @@
     "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "ENGN T",
-    "locationID": "http://www.anu.edu.au/maps#show=11304",
-    "lat": -35.276172,
-    "lon": 149.11994
+    "location": "Barry Drive 7-11 First Floor Left",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": -35.2752066,
+    "lon": 149.127504
    }
   ]
  },
@@ -24683,10 +24709,10 @@
     "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "ENGN T",
-    "locationID": "http://www.anu.edu.au/maps#show=11304",
-    "lat": -35.276172,
-    "lon": 149.11994
+    "location": "Barry Drive 7-11 First Floor Left",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": -35.2752066,
+    "lon": 149.127504
    }
   ]
  },
@@ -54794,7 +54820,7 @@
    },
    {
     "name": "LAWS6102_S2-TutA/04",
-    "day": 2,
+    "day": 3,
     "start": "15:00",
     "finish": "17:00",
     "weeks": "38",
