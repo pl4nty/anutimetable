@@ -7110,9 +7110,7 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": "-35.277722",
-    "lon": "149.116811"
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436"
    },
    {
     "name": "BIOL1009_S2-LecB/01",
@@ -7123,9 +7121,7 @@
     "activity": "LecB",
     "occurrence": "01",
     "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": -35.277722,
-    "lon": 149.116811
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436"
    },
    {
     "name": "BIOL1009_S2-LecC/01",
@@ -7137,8 +7133,8 @@
     "occurrence": "01",
     "location": "RN Robertson T",
     "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": -35.277722,
-    "lon": 149.116811
+    "lat": "-35.277722",
+    "lon": "149.116811"
    },
    {
     "name": "BIOL1009_S2-LecC/01",
