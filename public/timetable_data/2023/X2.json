@@ -926,7 +926,9 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": "Physics Studio G1",
-    "locationID": "http://www.anu.edu.au/maps#show=11423"
+    "locationID": "http://www.anu.edu.au/maps#show=11423",
+    "lat": "-35.275052",
+    "lon": "149.118554"
    },
    {
     "name": "EXTN1001A_X2-LecA/02",
@@ -938,8 +940,8 @@
     "occurrence": "02",
     "location": "Physics Studio G1",
     "locationID": "http://www.anu.edu.au/maps#show=11423",
-    "lat": "-35.275052",
-    "lon": "149.118554"
+    "lat": -35.275052,
+    "lon": 149.118554
    }
   ]
  },
