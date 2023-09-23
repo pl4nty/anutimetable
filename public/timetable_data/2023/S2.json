@@ -11625,13 +11625,26 @@
     "day": 2,
     "start": "12:00",
     "finish": "14:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Barry Drive 7-11 First Floor Left",
     "locationID": "http://www.anu.edu.au/maps#show=90783",
     "lat": -35.2752066,
     "lon": 149.127504
+   },
+   {
+    "name": "BUSN7050_S2-LecA/01",
+    "day": 2,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "39\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "RN Robertson T",
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+    "lat": -35.277722,
+    "lon": 149.116811
    },
    {
     "name": "BUSN7050_S2-TutA/01",
@@ -49626,6 +49639,19 @@
     "lon": 149.119238
    },
    {
+    "name": "INTR2024_S2-TutA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room G 3.314",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
     "name": "INTR2024_S2-TutA/02",
     "day": 0,
     "start": "14:00",
@@ -49634,6 +49660,19 @@
     "activity": "TutA",
     "occurrence": "02",
     "location": "Coombs Seminar Room B 3.104",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "INTR2024_S2-TutA/02",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "Coombs Seminar Room C 3.110",
     "locationID": "http://www.anu.edu.au/maps#show=11281",
     "lat": -35.281813,
     "lon": 149.120055
