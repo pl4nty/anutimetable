@@ -3160,7 +3160,7 @@
     "day": 2,
     "start": "14:00",
     "finish": "18:00",
-    "weeks": "30\u201132,39",
+    "weeks": "30\u201132,39\u201141,43",
     "activity": "StuA",
     "occurrence": "01",
     "location": "D Sculpture Woodworking Area G.65",
@@ -30695,63 +30695,24 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
-    "name": "ECON8069_S2-(01)-MakA/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "14:00",
-    "weeks": "40",
-    "activity": "MakA",
-    "occurrence": "01",
-    "location": "CBE Bld TR4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "ECON8069_S2-(01)-MakA/10",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:00",
-    "weeks": "40",
-    "activity": "MakA",
-    "occurrence": "10",
-    "location": "CBE Bld TR4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "ECON8069_S2-(01)-MakA/17",
-    "day": 2,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "40",
-    "activity": "MakA",
-    "occurrence": "17",
-    "location": "CBE Bld TR4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
-    "name": "ECON8069_S2-(01)-MakA/27",
-    "day": 2,
-    "start": "11:00",
-    "finish": "12:00",
-    "weeks": "40",
-    "activity": "MakA",
-    "occurrence": "27",
-    "location": "CBE Bld TR4",
-    "locationID": "http://www.anu.edu.au/maps#show=11417",
-    "lat": -35.276735,
-    "lon": 149.123501
-   },
-   {
     "name": "ECON8069_S2-LecA/01",
     "day": 0,
     "start": "09:00",
     "finish": "10:00",
     "weeks": "30\u201135,38\u201139,41\u201143",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "ECON8069_S2-LecA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "40",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Llewellyn Hall",
@@ -30799,19 +30760,6 @@
     "lon": 149.121926
    },
    {
-    "name": "ECON8069_S2-MakA/01",
-    "day": 1,
-    "start": "15:00",
-    "finish": "16:00",
-    "weeks": "40",
-    "activity": "MakA",
-    "occurrence": "01",
-    "location": "Llewellyn Hall",
-    "locationID": "http://www.anu.edu.au/maps#show=29415",
-    "lat": -35.280391,
-    "lon": 149.123592
-   },
-   {
     "name": "ECON8069_S2-TutA/01",
     "day": 0,
     "start": "12:00",
@@ -30823,6 +30771,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON8069_S2-TutA/01",
+    "day": 1,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "ECON8069_S2-TutA/02",
@@ -30942,6 +30903,19 @@
     "lon": 149.124005
    },
    {
+    "name": "ECON8069_S2-TutA/10",
+    "day": 1,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "10",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
+   },
+   {
     "name": "ECON8069_S2-TutA/11",
     "day": 2,
     "start": "17:00",
@@ -31031,6 +31005,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON8069_S2-TutA/17",
+    "day": 2,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "17",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "ECON8069_S2-TutA/18",
@@ -31161,6 +31148,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "ECON8069_S2-TutA/27",
+    "day": 2,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "40",
+    "activity": "TutA",
+    "occurrence": "27",
+    "location": "CBE Bld TR4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "ECON8069_S2-TutA/28",
@@ -49994,6 +49994,19 @@
   "link": "https://programsandcourses.anu.edu.au/2023/course/INTR8066",
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
+   {
+    "name": "INTR8066_S2-MakA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "39",
+    "activity": "MakA",
+    "occurrence": "01",
+    "location": "Han 2.25",
+    "locationID": "http://www.anu.edu.au/maps#show=11313",
+    "lat": -35.276955,
+    "lon": 149.117796
+   },
    {
     "name": "INTR8066_S2-SemA/01",
     "day": 0,
