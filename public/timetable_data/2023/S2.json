@@ -54012,6 +54012,19 @@
   "dates": "Displaying Dates: 17 Jul 23 - 19 Nov 23 (calendar week(s) 29\u201146)",
   "classes": [
    {
+    "name": "LAWS4221_S2-MakA/01",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "41",
+    "activity": "MakA",
+    "occurrence": "01",
+    "location": "LAW LINK T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
+   },
+   {
     "name": "LAWS4221_S2-SemA/01",
     "day": 3,
     "start": "14:00",
