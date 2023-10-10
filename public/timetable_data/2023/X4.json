@@ -1900,6 +1900,113 @@
    }
   ]
  },
+ "PASI8301_X4": {
+  "title": "PASI8301_X4\u00a0How Papua New Guinea Works_Online",
+  "id": "PASI8301_X4",
+  "link": "",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "PASI8301_X4-SemA/01",
+    "day": 0,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "43,45",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "HA 2177",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
+   },
+   {
+    "name": "PASI8301_X4-SemB/01",
+    "day": 1,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "43,45",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "HA 2177",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
+   }
+  ]
+ },
+ "PASI8302_X4": {
+  "title": "PASI8302_X4\u00a0Bougainville in Transition_Online",
+  "id": "PASI8302_X4",
+  "link": "",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "PASI8302_X4-SemA/01",
+    "day": 0,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "45\u201146",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemB/01",
+    "day": 1,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "45\u201146",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemC/01",
+    "day": 2,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "44\u201146",
+    "activity": "SemC",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemD/01",
+    "day": 3,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "44\u201146",
+    "activity": "SemD",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   },
+   {
+    "name": "PASI8302_X4-SemE/01",
+    "day": 4,
+    "start": "13:30",
+    "finish": "17:00",
+    "weeks": "44\u201146",
+    "activity": "SemE",
+    "occurrence": "01",
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
+   }
+  ]
+ },
  "PERS3006_X4": {
   "title": "PERS3006_X4\u00a0Advanced Persian B_Online_OUA Online",
   "id": "PERS3006_X4",
