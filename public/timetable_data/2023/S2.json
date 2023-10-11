@@ -32467,8 +32467,21 @@
     "day": 2,
     "start": "18:00",
     "finish": "19:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201142",
     "activity": "LecC",
+    "occurrence": "01",
+    "location": "HA Tank",
+    "locationID": "http://www.anu.edu.au/maps#show=11295",
+    "lat": -35.277596,
+    "lon": 149.122472
+   },
+   {
+    "name": "EMET4312_S2-LecD/01",
+    "day": 2,
+    "start": "19:00",
+    "finish": "20:00",
+    "weeks": "42",
+    "activity": "LecD",
     "occurrence": "01",
     "location": "HA Tank",
     "locationID": "http://www.anu.edu.au/maps#show=11295",
@@ -33087,8 +33100,21 @@
     "day": 2,
     "start": "18:00",
     "finish": "19:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201142",
     "activity": "LecC",
+    "occurrence": "01",
+    "location": "HA Tank",
+    "locationID": "http://www.anu.edu.au/maps#show=11295",
+    "lat": -35.277596,
+    "lon": 149.122472
+   },
+   {
+    "name": "EMET8012_S2-LecD/01",
+    "day": 2,
+    "start": "19:00",
+    "finish": "20:00",
+    "weeks": "42",
+    "activity": "LecD",
     "occurrence": "01",
     "location": "HA Tank",
     "locationID": "http://www.anu.edu.au/maps#show=11295",
@@ -45072,6 +45098,19 @@
     "lon": 149.124005
    },
    {
+    "name": "FREN3007_S2-ClaA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "42",
+    "activity": "ClaA",
+    "occurrence": "01",
+    "location": "COP G039",
+    "locationID": "http://www.anu.edu.au/maps#show=11296",
+    "lat": -35.277985,
+    "lon": 149.123419
+   },
+   {
     "name": "FREN3007_S2-ClaA/02",
     "day": 1,
     "start": "11:00",
@@ -45085,6 +45124,19 @@
     "lon": 149.124005
    },
    {
+    "name": "FREN3007_S2-ClaA/02",
+    "day": 0,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "42",
+    "activity": "ClaA",
+    "occurrence": "02",
+    "location": "COP G039",
+    "locationID": "http://www.anu.edu.au/maps#show=11296",
+    "lat": -35.277985,
+    "lon": 149.123419
+   },
+   {
     "name": "FREN3007_S2-ClaA/03",
     "day": 2,
     "start": "09:00",
@@ -45096,6 +45148,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": -35.277437,
     "lon": 149.124005
+   },
+   {
+    "name": "FREN3007_S2-ClaA/03",
+    "day": 1,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "42",
+    "activity": "ClaA",
+    "occurrence": "03",
+    "location": "ADH 123a",
+    "locationID": "http://www.anu.edu.au/maps#show=11286",
+    "lat": -35.278353,
+    "lon": 149.121713
    },
    {
     "name": "FREN3007_S2-ClaA/04",
@@ -45124,6 +45189,19 @@
     "lon": 149.124005
    },
    {
+    "name": "FREN3007_S2-ClaB/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "42",
+    "activity": "ClaB",
+    "occurrence": "01",
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
+   },
+   {
     "name": "FREN3007_S2-ClaB/02",
     "day": 3,
     "start": "09:00",
@@ -45137,6 +45215,19 @@
     "lon": 149.117796
    },
    {
+    "name": "FREN3007_S2-ClaB/02",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "42",
+    "activity": "ClaB",
+    "occurrence": "02",
+    "location": "ADH 123a",
+    "locationID": "http://www.anu.edu.au/maps#show=11286",
+    "lat": -35.278353,
+    "lon": 149.121713
+   },
+   {
     "name": "FREN3007_S2-ClaB/03",
     "day": 3,
     "start": "11:00",
@@ -45148,6 +45239,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11313",
     "lat": -35.276955,
     "lon": 149.117796
+   },
+   {
+    "name": "FREN3007_S2-ClaB/03",
+    "day": 2,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "42",
+    "activity": "ClaB",
+    "occurrence": "03",
+    "location": "HA G052",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "FREN3007_S2-ClaB/04",
@@ -62202,7 +62306,20 @@
     "day": 3,
     "start": "10:00",
     "finish": "13:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201141",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "RSSS Auditorium 1.28",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   },
+   {
+    "name": "MGMT3027_S2-SemA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "14:00",
+    "weeks": "42\u201143",
     "activity": "SemA",
     "occurrence": "01",
     "location": "RSSS Auditorium 1.28",
