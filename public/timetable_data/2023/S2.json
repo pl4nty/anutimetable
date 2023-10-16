@@ -83,13 +83,26 @@
     "day": 2,
     "start": "12:00",
     "finish": "14:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201141,43",
     "activity": "WorA",
     "occurrence": "01",
     "location": "SRES T",
     "locationID": "http://www.anu.edu.au/maps#show=11437",
     "lat": "-35.277561",
     "lon": "149.115905"
+   },
+   {
+    "name": "ACST4032_S2-WorA/01",
+    "day": 2,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "42",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G053",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -224,13 +237,26 @@
     "day": 2,
     "start": "12:00",
     "finish": "14:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201141,43",
     "activity": "WorA",
     "occurrence": "01",
     "location": "SRES T",
     "locationID": "http://www.anu.edu.au/maps#show=11437",
     "lat": -35.277561,
     "lon": 149.115905
+   },
+   {
+    "name": "ACST8041_S2-WorA/01",
+    "day": 2,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "42",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G053",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -30579,13 +30605,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201143",
+    "weeks": "30\u201135,38\u201141,43",
     "activity": "LecA",
     "occurrence": "01",
     "location": "SRES T",
     "locationID": "http://www.anu.edu.au/maps#show=11437",
     "lat": -35.277561,
     "lon": 149.115905
+   },
+   {
+    "name": "ECON8026_S2-LecA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "42",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "HA G053",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "ECON8026_S2-TutA/01",
@@ -35923,11 +35962,24 @@
     "day": 0,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "30,38,43",
+    "weeks": "30,38",
     "activity": "LecA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
+   },
+   {
+    "name": "ENGN1218_S2-LecA/01",
+    "day": 2,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "43",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "RN Robertson T",
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+    "lat": -35.277722,
+    "lon": 149.116811
    },
    {
     "name": "ENGN1218_S2-LetA/01",
