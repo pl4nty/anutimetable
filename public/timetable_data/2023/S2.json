@@ -30631,7 +30631,7 @@
     "day": 4,
     "start": "13:00",
     "finish": "15:00",
-    "weeks": "30\u201135,38\u201141,43",
+    "weeks": "30\u201135,38\u201141",
     "activity": "LecA",
     "occurrence": "01",
     "location": "SRES T",
@@ -30651,6 +30651,19 @@
     "locationID": "http://www.anu.edu.au/maps#show=11294",
     "lat": -35.277768,
     "lon": 149.122317
+   },
+   {
+    "name": "ECON8026_S2-LecA/01",
+    "day": 4,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "43",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": -35.277437,
+    "lon": 149.124005
    },
    {
     "name": "ECON8026_S2-TutA/01",
@@ -54289,7 +54302,7 @@
     "day": 4,
     "start": "10:00",
     "finish": "11:00",
-    "weeks": "41",
+    "weeks": "41,43",
     "activity": "MakA",
     "occurrence": "01",
     "location": "LAW LINK T",
