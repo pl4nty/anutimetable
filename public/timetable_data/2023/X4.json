@@ -1749,10 +1749,10 @@
     "weeks": "47\u201150",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": "-35.280217",
-    "lon": "149.119061"
+    "location": "CBE LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": "-35.276735",
+    "lon": "149.123501"
    },
    {
     "name": "MATH1014_X4-LecB/01",
@@ -1762,10 +1762,10 @@
     "weeks": "47\u201150",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "CBE LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "MATH1014_X4-LecC/01",
@@ -1775,10 +1775,10 @@
     "weeks": "47\u201150",
     "activity": "LecC",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "CBE LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "MATH1014_X4-LecD/01",
@@ -1788,10 +1788,10 @@
     "weeks": "47\u201150",
     "activity": "LecD",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "CBE LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": -35.276735,
+    "lon": 149.123501
    },
    {
     "name": "MATH1014_X4-LecE/01",
@@ -1801,10 +1801,23 @@
     "weeks": "47\u201150",
     "activity": "LecE",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "HN 1.57",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
+   },
+   {
+    "name": "MATH1014_X4-LecE/02",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:30",
+    "weeks": "47\u201150",
+    "activity": "LecE",
+    "occurrence": "02",
+    "location": "HN 1.58",
+    "locationID": "http://www.anu.edu.au/maps#show=102872",
+    "lat": -35.275532,
+    "lon": 149.1191
    },
    {
     "name": "MATH1014_X4-LecF/01",
@@ -1814,10 +1827,10 @@
     "weeks": "47\u201150",
     "activity": "LecF",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "COP G031",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "MATH1014_X4-LecG/01",
@@ -1827,10 +1840,10 @@
     "weeks": "47\u201150",
     "activity": "LecG",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "COP G031",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "MATH1014_X4-LecH/01",
@@ -1840,10 +1853,10 @@
     "weeks": "47\u201150",
     "activity": "LecH",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "MORAN G008",
+    "locationID": "http://www.anu.edu.au/maps#show=11416",
+    "lat": "-35.277063",
+    "lon": "149.122565"
    },
    {
     "name": "MATH1014_X4-LecI/01",
@@ -1853,10 +1866,10 @@
     "weeks": "47\u201150",
     "activity": "LecI",
     "occurrence": "01",
-    "location": "Fellows Road Law Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "location": "MORAN G008",
+    "locationID": "http://www.anu.edu.au/maps#show=11416",
+    "lat": -35.277063,
+    "lon": 149.122565
    },
    {
     "name": "MATH1014_X4-WorA/01",
@@ -2378,6 +2391,47 @@
     "finish": "13:00",
     "weeks": "47\u201149",
     "activity": "TutD",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
+ "POGO8242_X4": {
+  "title": "POGO8242_X4\u00a0Community Development Strategies_Online_Online",
+  "id": "POGO8242_X4",
+  "link": "https://programsandcourses.anu.edu.au/2023/course/POGO8242",
+  "dates": "Displaying Dates: 2 Jan 23 - 31 Dec 23 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "POGO8242_X4-WorA/01",
+    "day": 0,
+    "start": "11:00",
+    "finish": "14:00",
+    "weeks": "47",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8242_X4-WorB/01",
+    "day": 2,
+    "start": "11:00",
+    "finish": "14:00",
+    "weeks": "47",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "POGO8242_X4-WorC/01",
+    "day": 4,
+    "start": "11:00",
+    "finish": "14:00",
+    "weeks": "47",
+    "activity": "WorC",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
