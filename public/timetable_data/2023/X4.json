@@ -1798,26 +1798,26 @@
     "day": 2,
     "start": "15:00",
     "finish": "16:30",
-    "weeks": "47\u201150",
+    "weeks": "48\u201150",
     "activity": "LecE",
     "occurrence": "01",
-    "location": "HN 1.57",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
+    "location": "COP G031",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "MATH1014_X4-LecE/02",
     "day": 2,
     "start": "15:00",
     "finish": "16:30",
-    "weeks": "47\u201150",
+    "weeks": "48\u201150",
     "activity": "LecE",
     "occurrence": "02",
-    "location": "HN 1.58",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": -35.275532,
-    "lon": 149.1191
+    "location": "COP G025",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": -35.277985,
+    "lon": 149.123419
    },
    {
     "name": "MATH1014_X4-LecF/01",
@@ -1853,10 +1853,10 @@
     "weeks": "47\u201150",
     "activity": "LecH",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": "-35.277063",
-    "lon": "149.122565"
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "MATH1014_X4-LecI/01",
@@ -1866,10 +1866,10 @@
     "weeks": "47\u201150",
     "activity": "LecI",
     "occurrence": "01",
-    "location": "MORAN G008",
-    "locationID": "http://www.anu.edu.au/maps#show=11416",
-    "lat": -35.277063,
-    "lon": 149.122565
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    },
    {
     "name": "MATH1014_X4-WorA/01",
