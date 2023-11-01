@@ -1485,9 +1485,7 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": "-35.280217",
-    "lon": "149.119061"
+    "locationID": "http://www.anu.edu.au/maps#show=11473"
    },
    {
     "name": "ARCH2041_S2-PraA/01",
@@ -1689,9 +1687,7 @@
     "activity": "PraA",
     "occurrence": "01",
     "location": "Gould 103 Lab",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": "-35.276464",
-    "lon": "149.115926"
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    },
    {
     "name": "ARCH3108_S2-PraA/01",
@@ -1702,9 +1698,7 @@
     "activity": "PraA",
     "occurrence": "01",
     "location": "Gould 103 Lab",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    }
   ]
  },
@@ -1778,9 +1772,7 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "locationID": "http://www.anu.edu.au/maps#show=11473"
    },
    {
     "name": "ARCH6041_S2-PraA/01",
@@ -1995,9 +1987,7 @@
     "activity": "PraA",
     "occurrence": "01",
     "location": "Gould 103 Lab",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    },
    {
     "name": "ARCH6108_S2-PraA/01",
@@ -2008,9 +1998,7 @@
     "activity": "PraA",
     "occurrence": "01",
     "location": "Gould 103 Lab",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    }
   ]
  },
@@ -4948,8 +4936,8 @@
     "occurrence": "01",
     "location": "Gould 113",
     "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "lat": "-35.276464",
+    "lon": "149.115926"
    }
   ]
  },
@@ -5440,8 +5428,8 @@
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 2",
     "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "lat": "-35.280217",
+    "lon": "149.119061"
    },
    {
     "name": "BIAN3014_S2-TutA/01",
