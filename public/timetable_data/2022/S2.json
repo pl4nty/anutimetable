@@ -629,9 +629,7 @@
     "activity": "TutA",
     "occurrence": "05",
     "location": "Gould Seminar Room 246",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": "-35.276464",
-    "lon": "149.115926"
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    },
    {
     "name": "ANTH1003_S2-TutA/05",
@@ -642,9 +640,7 @@
     "activity": "TutA",
     "occurrence": "05",
     "location": "Arndt TR1",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": "-35.277437",
-    "lon": "149.124005"
+    "locationID": "http://www.anu.edu.au/maps#show=11414"
    },
    {
     "name": "ANTH1003_S2-TutA/06",
@@ -655,9 +651,7 @@
     "activity": "TutA",
     "occurrence": "06",
     "location": "Gould Seminar Room 246",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    },
    {
     "name": "ANTH1003_S2-TutA/06",
@@ -668,9 +662,7 @@
     "activity": "TutA",
     "occurrence": "06",
     "location": "Arndt TR1",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
+    "locationID": "http://www.anu.edu.au/maps#show=11414"
    },
    {
     "name": "ANTH1003_S2-TutA/07",
@@ -711,9 +703,7 @@
     "activity": "LecA",
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": "-35.280217",
-    "lon": "149.119061"
+    "locationID": "http://www.anu.edu.au/maps#show=11473"
    },
    {
     "name": "ANTH2005_S2-WorA/01",
@@ -887,9 +877,7 @@
     "activity": "SemA",
     "occurrence": "01",
     "location": "ADH G12",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "locationID": "http://www.anu.edu.au/maps#show=11286"
    }
   ]
  },
@@ -960,9 +948,7 @@
     "activity": "TutA",
     "occurrence": "05",
     "location": "Gould Seminar Room 246",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "locationID": "http://www.anu.edu.au/maps#show=11364"
    },
    {
     "name": "ANTH6003_S2-TutA/05",
@@ -974,8 +960,8 @@
     "occurrence": "05",
     "location": "Arndt TR1",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": -35.277437,
-    "lon": 149.124005
+    "lat": "-35.277437",
+    "lon": "149.124005"
    },
    {
     "name": "ANTH6003_S2-TutA/06",
@@ -987,8 +973,8 @@
     "occurrence": "06",
     "location": "Gould Seminar Room 246",
     "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": -35.276464,
-    "lon": 149.115926
+    "lat": "-35.276464",
+    "lon": "149.115926"
    },
    {
     "name": "ANTH6003_S2-TutA/06",
@@ -1043,8 +1029,8 @@
     "occurrence": "01",
     "location": "Fellows Road Law Theatre 1",
     "locationID": "http://www.anu.edu.au/maps#show=11473",
-    "lat": -35.280217,
-    "lon": 149.119061
+    "lat": "-35.280217",
+    "lon": "149.119061"
    },
    {
     "name": "ANTH6005_S2-WorA/01",
@@ -1321,8 +1307,8 @@
     "occurrence": "01",
     "location": "ADH G12",
     "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": -35.278353,
-    "lon": 149.121713
+    "lat": "-35.278353",
+    "lon": "149.121713"
    }
   ]
  },
