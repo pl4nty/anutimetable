@@ -3349,10 +3349,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "COOMBS Extension LT 1.04",
-    "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": -35.282541,
-    "lon": 149.119238
+    "location": "Hedley Bull Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
    }
   ]
  },
@@ -14471,10 +14471,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Hedley Bull Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
+    "location": "Coombs Seminar Room F 3.304",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
    }
   ]
  },
@@ -23977,9 +23977,9 @@
   "classes": [
    {
     "name": "DESN1004_S1-LecA/01",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:00",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
@@ -24172,7 +24172,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
+    "location": "Hedley Bull Theatre 1",
     "locationID": "http://www.anu.edu.au/maps#show=11379",
     "lat": -35.282857,
     "lon": 149.119686
@@ -43988,15 +43988,15 @@
    {
     "name": "INTR8043_S1-SemA/01",
     "day": 2,
-    "start": "09:00",
-    "finish": "11:00",
+    "start": "10:00",
+    "finish": "12:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Hedley Bull Theatre 2",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
+    "location": "FSTY 103",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": -35.277907,
+    "lon": 149.116057
    }
   ]
  },
@@ -45310,12 +45310,12 @@
    {
     "name": "JPNS3001_S1-TutA/03",
     "day": 2,
-    "start": "11:00",
-    "finish": "12:00",
+    "start": "14:00",
+    "finish": "15:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Law 6.1.19",
+    "location": "Law 6.1.20",
     "locationID": "http://campusmap.anu.edu.au#show=106553",
     "lat": -35.280305,
     "lon": 149.118658
@@ -46559,7 +46559,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "LAW T",
+    "location": "LAW LINK T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
     "lat": -35.281073,
     "lon": 149.118997
@@ -46572,7 +46572,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "LAW T",
+    "location": "LAW LINK T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
     "lat": -35.281073,
     "lon": 149.118997
@@ -46926,7 +46926,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "03",
-    "location": "LAW LINK T",
+    "location": "LAW T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
     "lat": -35.281073,
     "lon": 149.118997
@@ -47818,16 +47818,16 @@
    },
    {
     "name": "LAWS4254_S1-SemA/01",
-    "day": 0,
-    "start": "14:00",
-    "finish": "16:00",
+    "day": 3,
+    "start": "09:00",
+    "finish": "11:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": -35.281073,
-    "lon": 149.118997
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": -35.277768,
+    "lon": 149.122317
    }
   ]
  },
@@ -48816,7 +48816,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "LAW T",
+    "location": "LAW LINK T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
     "lat": -35.281073,
     "lon": 149.118997
@@ -48829,7 +48829,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "LAW T",
+    "location": "LAW LINK T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
     "lat": -35.281073,
     "lon": 149.118997
@@ -49183,7 +49183,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "03",
-    "location": "LAW LINK T",
+    "location": "LAW T",
     "locationID": "http://www.anu.edu.au/maps#show=11277",
     "lat": -35.281073,
     "lon": 149.118997
@@ -68361,10 +68361,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Barry Drive 7-11 Ground Floor",
-    "locationID": "http://www.anu.edu.au/maps#show=90783",
-    "lat": -35.2752066,
-    "lon": 149.127504
+    "location": "COP T",
+    "locationID": "http://www.anu.edu.au/maps#show=28973",
+    "lat": -35.277433,
+    "lon": 149.123538
    },
    {
     "name": "STAT2008_S1-LecB/01",
@@ -68715,10 +68715,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Barry Drive 7-11 Ground Floor",
-    "locationID": "http://www.anu.edu.au/maps#show=90783",
-    "lat": -35.2752066,
-    "lon": 149.127504
+    "location": "COP T",
+    "locationID": "http://www.anu.edu.au/maps#show=28973",
+    "lat": -35.277433,
+    "lon": 149.123538
    },
    {
     "name": "STAT2014_S1-LecB/01",
@@ -69631,10 +69631,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Barry Drive 7-11 Ground Floor",
-    "locationID": "http://www.anu.edu.au/maps#show=90783",
-    "lat": -35.2752066,
-    "lon": 149.127504
+    "location": "COP T",
+    "locationID": "http://www.anu.edu.au/maps#show=28973",
+    "lat": -35.277433,
+    "lon": 149.123538
    },
    {
     "name": "STAT6014_S1-LecB/01",
@@ -71543,10 +71543,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "COOMBS Extension LT 1.04",
-    "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": -35.282541,
-    "lon": 149.119238
+    "location": "Hedley Bull Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": -35.282857,
+    "lon": 149.119686
    },
    {
     "name": "STST2001_S1-TutA/02",
@@ -71556,7 +71556,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "Hedley Bull Theatre 1",
+    "location": "Hedley Bull Seminar Room 3",
     "locationID": "http://www.anu.edu.au/maps#show=11379",
     "lat": -35.282857,
     "lon": 149.119686
@@ -71582,10 +71582,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "04",
-    "location": "Hedley Bull Theatre 1",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": -35.282857,
-    "lon": 149.119686
+    "location": "Coombs Seminar Room F 3.304",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
    },
    {
     "name": "STST2001_S1-TutA/05",
@@ -71673,10 +71673,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "11",
-    "location": "COOMBS Extension LT 1.04",
-    "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": -35.282541,
-    "lon": 149.119238
+    "location": "Coombs Seminar Room C 3.110",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": -35.281813,
+    "lon": 149.120055
    },
    {
     "name": "STST2001_S1-TutA/12",
