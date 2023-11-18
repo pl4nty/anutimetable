@@ -1655,7 +1655,7 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Marie Reay 5.05",
+    "location": "Marie Reay 5.04",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": -35.277786,
     "lon": 149.120685
@@ -2247,6 +2247,40 @@
    }
   ]
  },
+ "ARTV1612_S1": {
+  "title": "ARTV1612_S1\u00a0Video Art: Editing and Montage",
+  "id": "ARTV1612_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/ARTV1612",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "ARTV1612_S1-StuA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "BPB W117",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "ARTV1612_S1-StuA/02",
+    "day": 2,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "StuA",
+    "occurrence": "02",
+    "location": "RSSS Lectorial 2 Rm 1.23",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
+   }
+  ]
+ },
  "ARTV1705_S1": {
   "title": "ARTV1705_S1\u00a0Introduction to Relief Printing",
   "id": "ARTV1705_S1",
@@ -2449,6 +2483,40 @@
     "locationID": "http://www.anu.edu.au/maps#show=11367",
     "lat": -35.284327,
     "lon": 149.121169
+   }
+  ]
+ },
+ "ARTV6612_S1": {
+  "title": "ARTV6612_S1\u00a0Video Art: Editing and Montage",
+  "id": "ARTV6612_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/ARTV6612",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "ARTV6612_S1-StuA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "StuA",
+    "occurrence": "01",
+    "location": "BPB W117",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
+   },
+   {
+    "name": "ARTV6612_S1-StuA/02",
+    "day": 2,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "StuA",
+    "occurrence": "02",
+    "location": "RSSS Lectorial 2 Rm 1.23",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": -35.2791261,
+    "lon": 149.1212115
    }
   ]
  },
@@ -14570,16 +14638,16 @@
    },
    {
     "name": "CHIN3024_S1-TutA/01",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:30",
+    "day": 3,
+    "start": "11:00",
+    "finish": "12:30",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Coombs Seminar Room F 3.304",
-    "locationID": "http://www.anu.edu.au/maps#show=11281",
-    "lat": -35.281813,
-    "lon": 149.120055
+    "location": "BPB W117",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": -35.280067,
+    "lon": 149.121758
    }
   ]
  },
@@ -32066,8 +32134,8 @@
    {
     "name": "ENGN2300_S1-WorA/01",
     "day": 1,
-    "start": "13:00",
-    "finish": "16:00",
+    "start": "12:00",
+    "finish": "15:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
@@ -42015,7 +42083,7 @@
    {
     "name": "GREK2121_S1-TutA/01",
     "day": 0,
-    "start": "12:00",
+    "start": "11:00",
     "finish": "13:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
@@ -58413,6 +58481,246 @@
    }
   ]
  },
+ "MUSI1110_S1": {
+  "title": "MUSI1110_S1\u00a0Introduction to Music Technology",
+  "id": "MUSI1110_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI1110",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI1110_S1-TutA/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1110_S1-TutA/02",
+    "day": 0,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1110_S1-TutA/03",
+    "day": 0,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI1111_S1": {
+  "title": "MUSI1111_S1\u00a0Composition, Arranging, and Sound Design 1",
+  "id": "MUSI1111_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI1111",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI1111_S1-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1111_S1-TutA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1111_S1-TutA/02",
+    "day": 4,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI1113_S1": {
+  "title": "MUSI1113_S1\u00a0Introduction to Ethnomusicology",
+  "id": "MUSI1113_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI1113",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI1113_S1-LecA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI1113_S1-TutA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1113_S1-TutA/02",
+    "day": 1,
+    "start": "13:00",
+    "finish": "14:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI1501_S1": {
+  "title": "MUSI1501_S1\u00a0Aural Skills and Music Theory 1",
+  "id": "MUSI1501_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI1501",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI1501_S1-LecA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1501_S1-LecB/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecB",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1501_S1-TutA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1501_S1-TutA/02",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1501_S1-TutA/03",
+    "day": 2,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1501_S1-TutB/02",
+    "day": 2,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutB",
+    "occurrence": "02",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI1501_S1-TutB/03",
+    "day": 2,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutB",
+    "occurrence": "03",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
  "MUSI2201_S1": {
   "title": "MUSI2201_S1\u00a0Music Performance 3",
   "id": "MUSI2201_S1",
@@ -58585,6 +58893,322 @@
    }
   ]
  },
+ "MUSI2205_S1": {
+  "title": "MUSI2205_S1\u00a0Music Project",
+  "id": "MUSI2205_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2205",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2205_S1-SemA/01",
+    "day": 0,
+    "start": "11:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI2211_S1": {
+  "title": "MUSI2211_S1\u00a0Writing about Music 1: Styles and Theories",
+  "id": "MUSI2211_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2211",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2211_S1-LecA/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2211_S1-TutA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2211_S1-TutA/02",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI2220_S1": {
+  "title": "MUSI2220_S1\u00a0Music Ensemble",
+  "id": "MUSI2220_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2220",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2220_S1-PraA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "School of Music 3.03",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2220_S1-PraA/03",
+    "day": 2,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "03",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI2220_S1-PraA/05",
+    "day": 4,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "05",
+    "location": "School of Music 3.03",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2220_S1-PraA/06",
+    "day": 4,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "06",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI2220_S1-PraA/07",
+    "day": 0,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "07",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI2220_S1-PraA/08",
+    "day": 4,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "08",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI2220_S1-PraA/09",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "09",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   }
+  ]
+ },
+ "MUSI2222_S1": {
+  "title": "MUSI2222_S1\u00a0Music in the Long 19th Century: From Classicism to Modernism",
+  "id": "MUSI2222_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2222",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2222_S1-LecA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "11:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2222_S1-TutA/01",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI2223_S1": {
+  "title": "MUSI2223_S1\u00a0Composition, Arranging, and Sound Design 3",
+  "id": "MUSI2223_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2223",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2223_S1-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2223_S1-TutA/01",
+    "day": 2,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI2227_S1": {
+  "title": "MUSI2227_S1\u00a0Music, Sound and the Moving Image",
+  "id": "MUSI2227_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2227",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2227_S1-LecA/01",
+    "day": 1,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2227_S1-TutA/01",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI2503_S1": {
+  "title": "MUSI2503_S1\u00a0Aural Skills and Music Theory 3",
+  "id": "MUSI2503_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI2503",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI2503_S1-LecA/01",
+    "day": 0,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2503_S1-TutA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT1",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI2503_S1-TutB/01",
+    "day": 1,
+    "start": "10:00",
+    "finish": "11:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutB",
+    "occurrence": "01",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
  "MUSI3301_S1": {
   "title": "MUSI3301_S1\u00a0Music Performance 5",
   "id": "MUSI3301_S1",
@@ -58754,6 +59378,199 @@
     "locationID": "http://www.anu.edu.au/maps#show=11368",
     "lat": -35.280194,
     "lon": 149.123822
+   }
+  ]
+ },
+ "MUSI4412_S1": {
+  "title": "MUSI4412_S1\u00a0Music Honours Ensemble",
+  "id": "MUSI4412_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI4412",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI4412_S1-PraA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "School of Music 3.03",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI4412_S1-PraA/03",
+    "day": 2,
+    "start": "16:00",
+    "finish": "18:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "03",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI4412_S1-PraA/05",
+    "day": 4,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "05",
+    "location": "School of Music 3.03",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI4412_S1-PraA/06",
+    "day": 4,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "06",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI4412_S1-PraA/07",
+    "day": 0,
+    "start": "11:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "07",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI4412_S1-PraA/08",
+    "day": 4,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "08",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   },
+   {
+    "name": "MUSI4412_S1-PraA/09",
+    "day": 4,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "PraA",
+    "occurrence": "09",
+    "location": "Peter Karmel Big Band Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11368",
+    "lat": -35.280194,
+    "lon": 149.123822
+   }
+  ]
+ },
+ "MUSI6110_S1": {
+  "title": "MUSI6110_S1\u00a0Introduction to Music Technology",
+  "id": "MUSI6110_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI6110",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI6110_S1-TutA/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI6110_S1-TutA/02",
+    "day": 0,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI6110_S1-TutA/03",
+    "day": 0,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "School of Music 5.18",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   }
+  ]
+ },
+ "MUSI6211_S1": {
+  "title": "MUSI6211_S1\u00a0Writing about Music 1: Styles and Theories",
+  "id": "MUSI6211_S1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/MUSI6211",
+  "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
+  "classes": [
+   {
+    "name": "MUSI6211_S1-LecA/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "14:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "School of Music LT3",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI6211_S1-TutA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
+   },
+   {
+    "name": "MUSI6211_S1-TutA/02",
+    "day": 0,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "School of Music LT2",
+    "locationID": "https://www.anu.edu.au/maps#show=29089",
+    "lat": -35.280391,
+    "lon": 149.123592
    }
   ]
  },
@@ -60131,8 +60948,8 @@
    {
     "name": "PHIL2122_S1-TutA/11",
     "day": 3,
-    "start": "08:00",
-    "finish": "09:00",
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "11",
@@ -64238,7 +65055,7 @@
    },
    {
     "name": "PPEI4000_S1-SemA/01",
-    "day": 3,
+    "day": 2,
     "start": "14:00",
     "finish": "16:00",
     "weeks": "8\u201113,16\u201121",
