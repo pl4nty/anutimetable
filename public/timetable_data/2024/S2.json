@@ -1748,14 +1748,51 @@
     "name": "LAWS4251_S2-SemA/01",
     "day": 4,
     "start": "14:00",
-    "finish": "17:00",
+    "finish": "16:00",
     "weeks": "30\u201135,38\u201143",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "BPB W121",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": -35.280067,
-    "lon": 149.121758
+    "location": " online",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS4251_S2-TutA/01",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "01",
+    "location": "LAW LIBRARY COMP LAB",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
+   },
+   {
+    "name": "LAWS4251_S2-TutA/02",
+    "day": 3,
+    "start": "14:00",
+    "finish": "15:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "02",
+    "location": "LAW LIBRARY COMP LAB",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
+   },
+   {
+    "name": "LAWS4251_S2-TutA/03",
+    "day": 4,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "30\u201135,38\u201143",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "LAW LIBRARY COMP LAB",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": -35.281073,
+    "lon": 149.118997
    }
   ]
  },
