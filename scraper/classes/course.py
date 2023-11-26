@@ -3,7 +3,7 @@ import itertools
 from typing import List
 import re
 import requests
-
+import json
 
 def splitHeaderTable(res, geodata):
     soup = BeautifulSoup(res.content, 'html.parser')
@@ -93,14 +93,16 @@ class Lesson:
                     return
 
             try:
-                geo = [*requests.get('https://www.anu.edu.au/anu-campus-map/show/' +
-                                     str(mapID)).json()['points'].values()][0]
-                self.lat = str(geo['latitude'])
-                self.lon = str(geo['longitude'])
-                geodata['items'].append({'id': mapID, 'point': geo})
+                res = requests.get('https://www.anu.edu.au/maps?campus=&type=&search=' + self.location)
+                soup = BeautifulSoup(res.content, 'html.parser')
+                script = soup.find("script", attrs={"type": "application/json", "data-drupal-selector": "drupal-settings-json"})
+                geo = json.loads(script.text).get('pois')[0]
+                self.lat = str(geo['lat'])
+                self.lon = str(geo['lng'])
+                geodata['items'].append({'id': mapID, 'point': {'latitude': self.lat, 'longitude': self.lon}})
                 # print(f"Cached location {mapID} for {self.location}")
             except:
-                print(f"Could not find location for {self.name} at {mapID}")
+                print(f"Could not find location for {self.name} at {self.location} ({mapID})")
                 print(f"{self.locationID}")
 
     def __str__(self):
