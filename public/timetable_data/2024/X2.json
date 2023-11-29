@@ -1642,23 +1642,23 @@
   "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "POGO8021_X2-SemA/01",
+    "name": "POGO8021_X2-WorA/01",
     "day": 0,
     "start": "16:00",
     "finish": "18:00",
     "weeks": "16\u201121",
-    "activity": "SemA",
+    "activity": "WorA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
    },
    {
-    "name": "POGO8021_X2-SemB/01",
+    "name": "POGO8021_X2-WorB/01",
     "day": 4,
     "start": "16:00",
     "finish": "18:00",
     "weeks": "16\u201121",
-    "activity": "SemB",
+    "activity": "WorB",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
