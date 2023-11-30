@@ -7024,16 +7024,16 @@
    },
    {
     "name": "BIOL3204_S1-LecB/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "14:00",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": "-35.277722",
-    "lon": "149.116811"
+    "location": "FSTY T",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": "-35.277907",
+    "lon": "149.116057"
    },
    {
     "name": "BIOL3204_S1-LecC/01",
@@ -8756,16 +8756,16 @@
    },
    {
     "name": "BIOL6204_S1-LecB/01",
-    "day": 1,
-    "start": "13:00",
-    "finish": "14:00",
+    "day": 2,
+    "start": "10:00",
+    "finish": "11:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecB",
     "occurrence": "01",
-    "location": "RN Robertson T",
-    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
-    "lat": "-35.277722",
-    "lon": "149.116811"
+    "location": "FSTY T",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": "-35.277907",
+    "lon": "149.116057"
    },
    {
     "name": "BIOL6204_S1-LecC/01",
@@ -15531,9 +15531,9 @@
    },
    {
     "name": "COMP1100_S1-LecA/01",
-    "day": 1,
-    "start": "08:00",
-    "finish": "09:00",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
@@ -15792,10 +15792,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Kambri MCH",
-    "locationID": "http://www.anu.edu.au/maps#show=108132",
-    "lat": "-35.276928",
-    "lon": "149.121926"
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": "-35.280391",
+    "lon": "149.123592"
    },
    {
     "name": "COMP1110_S1-LecB/01",
@@ -16132,9 +16132,9 @@
    },
    {
     "name": "COMP1130_S1-LecA/01",
-    "day": 1,
-    "start": "08:00",
-    "finish": "09:00",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
@@ -21507,10 +21507,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Kambri MCH",
-    "locationID": "http://www.anu.edu.au/maps#show=108132",
-    "lat": "-35.276928",
-    "lon": "149.121926"
+    "location": "Llewellyn Hall",
+    "locationID": "http://www.anu.edu.au/maps#show=29415",
+    "lat": "-35.280391",
+    "lon": "149.123592"
    },
    {
     "name": "COMP6710_S1-LecB/01",
@@ -36574,6 +36574,17 @@
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
    {
+    "name": "ENVS2011_S1-FieA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "11",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " off campus",
+    "locationID": ""
+   },
+   {
     "name": "ENVS2011_S1-FieB/01",
     "day": 5,
     "start": "09:00",
@@ -36940,6 +36951,17 @@
   "link": "https://programsandcourses.anu.edu.au/2024/course/ENVS6020",
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
+   {
+    "name": "ENVS6020_S1-FieA/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "11",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " off campus",
+    "locationID": ""
+   },
    {
     "name": "ENVS6020_S1-FieB/01",
     "day": 5,
@@ -37456,16 +37478,16 @@
   "classes": [
    {
     "name": "ENVS8018_S1-SemA/01",
-    "day": 4,
+    "day": 1,
     "start": "16:00",
     "finish": "18:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Frank Fenner Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=17859",
-    "lat": "-35.27792",
-    "lon": "149.115369"
+    "location": "FSTY 0.13",
+    "locationID": "http://www.anu.edu.au/maps#show=11318",
+    "lat": "-35.277907",
+    "lon": "149.116057"
    },
    {
     "name": "ENVS8018_S1-TutA/01",
@@ -37907,7 +37929,20 @@
     "day": 3,
     "start": "10:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201113,16,18\u201121",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "RN Robertson T",
+    "locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+    "lat": "-35.277722",
+    "lon": "149.116811"
+   },
+   {
+    "name": "FINM2001_S1-LecA/01",
+    "day": 3,
+    "start": "10:00",
+    "finish": "12:00",
+    "weeks": "17",
     "activity": "LecA",
     "occurrence": "01",
     "location": "RN Robertson T",
@@ -38011,13 +38046,26 @@
     "day": 4,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201112,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
     "location": "HA Tank",
     "locationID": "http://www.anu.edu.au/maps#show=11295",
     "lat": "-35.277596",
     "lon": "149.122472"
+   },
+   {
+    "name": "FINM2001_S1-WorA/01",
+    "day": 3,
+    "start": "12:00",
+    "finish": "13:00",
+    "weeks": "13",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": "-35.281073",
+    "lon": "149.118997"
    }
   ]
  },
@@ -55453,7 +55501,7 @@
   ]
  },
  "MEAS3005_S1": {
-  "title": "MEAS3005_S1\u00a0Modern Iraq: State, Politics and Society_Online",
+  "title": "MEAS3005_S1\u00a0Modern Iraq: State, Politics and Society\u00a0_Online",
   "id": "MEAS3005_S1",
   "link": "https://programsandcourses.anu.edu.au/2024/course/MEAS3005",
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
@@ -55657,7 +55705,7 @@
   ]
  },
  "MEAS6005_S1": {
-  "title": "MEAS6005_S1\u00a0Modern Iraq: State, Politics and Society_Online",
+  "title": "MEAS6005_S1\u00a0Modern Iraq: State, Politics and Society\u00a0_Online",
   "id": "MEAS6005_S1",
   "link": "https://programsandcourses.anu.edu.au/2024/course/MEAS6005",
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
@@ -56057,7 +56105,7 @@
     "day": 2,
     "start": "12:00",
     "finish": "13:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56070,7 +56118,7 @@
     "day": 2,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecB",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56083,7 +56131,7 @@
     "day": 2,
     "start": "16:00",
     "finish": "17:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecC",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56096,7 +56144,7 @@
     "day": 3,
     "start": "11:00",
     "finish": "13:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecD",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56109,7 +56157,7 @@
     "day": 3,
     "start": "14:00",
     "finish": "15:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecE",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56122,7 +56170,7 @@
     "day": 3,
     "start": "15:00",
     "finish": "16:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecF",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56135,7 +56183,7 @@
     "day": 3,
     "start": "16:00",
     "finish": "17:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecG",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56148,7 +56196,7 @@
     "day": 4,
     "start": "12:00",
     "finish": "13:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecH",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56161,7 +56209,7 @@
     "day": 4,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "LecI",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -56174,7 +56222,7 @@
     "day": 3,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4\u201112,14\u201123",
     "activity": "PraA",
     "occurrence": "01",
     "location": ">Florey Anatomy Lab B1.37",
@@ -56187,7 +56235,7 @@
     "day": 4,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4\u201112,14\u201123",
     "activity": "PraA",
     "occurrence": "02",
     "location": ">Florey Anatomy Lab B1.37",
@@ -56200,7 +56248,7 @@
     "day": 4,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4\u201112,14\u201123",
     "activity": "PraB",
     "occurrence": "01",
     "location": "Florey Medical Sciences Lab B1.20",
@@ -56213,7 +56261,7 @@
     "day": 3,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4\u201112,14\u201123",
     "activity": "PraB",
     "occurrence": "02",
     "location": "Florey Medical Sciences Lab B1.20",
@@ -56226,7 +56274,7 @@
     "day": 2,
     "start": "14:00",
     "finish": "16:00",
-    "weeks": "8\u201112,14\u201121",
+    "weeks": "4,6\u201112,14\u201123",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Leonard Huxley T",
@@ -67040,16 +67088,16 @@
   "classes": [
    {
     "name": "SCOM3027_S1-LecA/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "15:00",
+    "day": 2,
+    "start": "10:00",
+    "finish": "13:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 4.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": "-35.277786",
-    "lon": "149.120685"
+    "location": "Kambri T2",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": "-35.276928",
+    "lon": "149.121926"
    }
   ]
  },
@@ -67150,16 +67198,16 @@
   "classes": [
    {
     "name": "SCOM6027_S1-LecA/01",
-    "day": 4,
-    "start": "12:00",
-    "finish": "15:00",
+    "day": 2,
+    "start": "10:00",
+    "finish": "13:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Marie Reay 4.02",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": "-35.277786",
-    "lon": "149.120685"
+    "location": "Kambri T2",
+    "locationID": "http://www.anu.edu.au/maps#show=108132",
+    "lat": "-35.276928",
+    "lon": "149.121926"
    }
   ]
  },
@@ -69857,10 +69905,10 @@
     "weeks": "13",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "RSSS Auditorium 1.28",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": "-35.2791261",
-    "lon": "149.1212115"
+    "location": "Barry Drive 7-11 Ground Floor",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": "-35.2752066",
+    "lon": "149.127504"
    },
    {
     "name": "STAT2032_S1-TutA/01",
@@ -71086,10 +71134,10 @@
     "weeks": "13",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "RSSS Auditorium 1.28",
-    "locationID": "http://www.anu.edu.au/maps#show=123279",
-    "lat": "-35.2791261",
-    "lon": "149.1212115"
+    "location": "Barry Drive 7-11 Ground Floor",
+    "locationID": "http://www.anu.edu.au/maps#show=90783",
+    "lat": "-35.2752066",
+    "lon": "149.127504"
    },
    {
     "name": "STAT6046_S1-TutA/01",
