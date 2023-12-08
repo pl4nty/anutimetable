@@ -543,6 +543,236 @@
    }
   ]
  },
+ "ENVS3029_X2": {
+  "title": "ENVS3029_X2\u00a0Palaeo-Environmental Reconstruction",
+  "id": "ENVS3029_X2",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/ENVS3029",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "ENVS3029_X2-FieA/01",
+    "day": 5,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "14",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS3029_X2-FieB/01",
+    "day": 6,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "14",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS3029_X2-FieC/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "15",
+    "activity": "FieC",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS3029_X2-FieD/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "15",
+    "activity": "FieD",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS3029_X2-PraA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS3029_X2-PraB/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14\u201115",
+    "activity": "PraB",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS3029_X2-PraC/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14\u201115",
+    "activity": "PraC",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS3029_X2-PraD/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14\u201115",
+    "activity": "PraD",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS3029_X2-PreLecA/01",
+    "day": 6,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "13",
+    "activity": "PreLecA",
+    "occurrence": "01",
+    "location": " prerecorded",
+    "locationID": ""
+   }
+  ]
+ },
+ "ENVS6529_X2": {
+  "title": "ENVS6529_X2\u00a0Palaeo-Environmental Reconstruction",
+  "id": "ENVS6529_X2",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/ENVS6529",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "ENVS6529_X2-FieA/01",
+    "day": 5,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "14",
+    "activity": "FieA",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS6529_X2-FieB/01",
+    "day": 6,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "14",
+    "activity": "FieB",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS6529_X2-FieC/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "15",
+    "activity": "FieC",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS6529_X2-FieD/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "16:00",
+    "weeks": "15",
+    "activity": "FieD",
+    "occurrence": "01",
+    "location": " off campus Kiola",
+    "locationID": ""
+   },
+   {
+    "name": "ENVS6529_X2-PraA/01",
+    "day": 1,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14",
+    "activity": "PraA",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS6529_X2-PraB/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14\u201115",
+    "activity": "PraB",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS6529_X2-PraC/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14\u201115",
+    "activity": "PraC",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS6529_X2-PraD/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "14\u201115",
+    "activity": "PraD",
+    "occurrence": "01",
+    "location": "COOMBS Lab 4.114",
+    "locationID": "http://www.anu.edu.au/maps#show=11281",
+    "lat": "-35.281813",
+    "lon": "149.120055"
+   },
+   {
+    "name": "ENVS6529_X2-PreLecA/01",
+    "day": 6,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "13",
+    "activity": "PreLecA",
+    "occurrence": "01",
+    "location": " prerecorded",
+    "locationID": ""
+   }
+  ]
+ },
  "EXTN1001A_X2": {
   "title": "EXTN1001A_X2\u00a0ANU Extension Astrophysics A",
   "id": "EXTN1001A_X2",
@@ -1735,12 +1965,12 @@
   "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
   "classes": [
    {
-    "name": "POGO8083_X2-WorA/01",
+    "name": "POGO8083_X2-SemA/01",
     "day": 4,
-    "start": "09:00",
-    "finish": "17:00",
+    "start": "14:00",
+    "finish": "16:00",
     "weeks": "14\u201115,18\u201119,22\u201123",
-    "activity": "WorA",
+    "activity": "SemA",
     "occurrence": "01",
     "location": " online live",
     "locationID": ""
