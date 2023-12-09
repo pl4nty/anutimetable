@@ -179,6 +179,64 @@
    }
   ]
  },
+ "LAWS8418_X4": {
+  "title": "LAWS8418_X4\u00a0International Commercial Arbitration",
+  "id": "LAWS8418_X4",
+  "link": "",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "LAWS8418_X4-SemA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "40\u201143",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS8418_X4-WorA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "Fellows Road Law Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
+   },
+   {
+    "name": "LAWS8418_X4-WorB/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "45",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "Fellows Road Law Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
+   },
+   {
+    "name": "LAWS8418_X4-WorC/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "45",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": "Fellows Road Law Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
+   }
+  ]
+ },
  "POGO8232_X4": {
   "title": "POGO8232_X4\u00a0Persuasion for Policymakers_Online_Online",
   "id": "POGO8232_X4",
