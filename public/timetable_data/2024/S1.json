@@ -58847,8 +58847,8 @@
    {
     "name": "MUSI1501_S1-LecA/01",
     "day": 1,
-    "start": "09:00",
-    "finish": "10:00",
+    "start": "11:00",
+    "finish": "12:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
@@ -58869,32 +58869,6 @@
     "locationID": "https://www.anu.edu.au/maps#show=29089",
     "lat": "-35.280391",
     "lon": "149.123592"
-   },
-   {
-    "name": "MUSI1501_S1-TutA/01",
-    "day": 2,
-    "start": "09:00",
-    "finish": "10:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "01",
-    "location": "Peter Karmel Foster Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11368",
-    "lat": "-35.280194",
-    "lon": "149.123822"
-   },
-   {
-    "name": "MUSI1501_S1-TutA/02",
-    "day": 2,
-    "start": "10:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "TutA",
-    "occurrence": "02",
-    "location": "Peter Karmel Foster Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11368",
-    "lat": "-35.280194",
-    "lon": "149.123822"
    },
    {
     "name": "MUSI1501_S1-TutB/01",
