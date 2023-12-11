@@ -482,6 +482,25 @@
    }
   ]
  },
+ "IDEC8014_X3": {
+  "title": "IDEC8014_X3\u00a0Quantitative Financial Economics_Online_Online",
+  "id": "IDEC8014_X3",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/IDEC8014",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "IDEC8014_X3-SemA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "30\u201135",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " ",
+    "locationID": ""
+   }
+  ]
+ },
  "LAWS8009_X3": {
   "title": "LAWS8009_X3\u00a0Transnational Anti-Corruption Laws_Online",
   "id": "LAWS8009_X3",
@@ -613,6 +632,64 @@
    }
   ]
  },
+ "LAWS8140_X3": {
+  "title": "LAWS8140_X3\u00a0Commercial Law",
+  "id": "LAWS8140_X3",
+  "link": "",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "LAWS8140_X3-SemA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "27\u201130",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS8140_X3-WorA/01",
+    "day": 2,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "32",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": "-35.282541",
+    "lon": "149.119238"
+   },
+   {
+    "name": "LAWS8140_X3-WorB/01",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "32",
+    "activity": "WorB",
+    "occurrence": "01",
+    "location": "COOMBS Extension LT 1.04",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": "-35.282541",
+    "lon": "149.119238"
+   },
+   {
+    "name": "LAWS8140_X3-WorC/01",
+    "day": 4,
+    "start": "09:00",
+    "finish": "12:00",
+    "weeks": "32",
+    "activity": "WorC",
+    "occurrence": "01",
+    "location": "Fellows Road Law Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
+   }
+  ]
+ },
  "LAWS8182_X3": {
   "title": "LAWS8182_X3\u00a0Principles of International Law_Online",
   "id": "LAWS8182_X3",
@@ -657,6 +734,36 @@
     "locationID": "http://www.anu.edu.au/maps#show=11473",
     "lat": "-35.280217",
     "lon": "149.119061"
+   }
+  ]
+ },
+ "LAWS8220_X3": {
+  "title": "LAWS8220_X3\u00a0Government Contracts_Online",
+  "id": "LAWS8220_X3",
+  "link": "",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "LAWS8220_X3-SemA/01",
+    "day": 2,
+    "start": "16:30",
+    "finish": "18:30",
+    "weeks": "27\u201132",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": " online",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS8220_X3-SemB/01",
+    "day": 3,
+    "start": "16:30",
+    "finish": "18:30",
+    "weeks": "27\u201132",
+    "activity": "SemB",
+    "occurrence": "01",
+    "location": " online",
+    "locationID": ""
    }
   ]
  },
