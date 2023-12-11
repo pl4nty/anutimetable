@@ -1128,6 +1128,36 @@
    }
   ]
  },
+ "EMDV8011_X1": {
+  "title": "EMDV8011_X1\u00a0Environmental Markets_Online_Online",
+  "id": "EMDV8011_X1",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/EMDV8011",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "EMDV8011_X1-LecA/01",
+    "day": 0,
+    "start": "13:00",
+    "finish": "16:00",
+    "weeks": "8\u201113",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "EMDV8011_X1-WorA/01",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "8\u201113",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
  "ENGL2111_X1": {
   "title": "ENGL2111_X1\u00a0Imaginary Journeys: Writing Travel in Australian Literature and Film",
   "id": "ENGL2111_X1",
@@ -3028,7 +3058,7 @@
   ]
  },
  "PASI8009_X1": {
-  "title": "PASI8009_X1\u00a0Political Economy of Elections in Melanesia_In Person",
+  "title": "PASI8009_X1\u00a0Political Economy of Elections in Melanesia_Online",
   "id": "PASI8009_X1",
   "link": "https://programsandcourses.anu.edu.au/2024/course/PASI8009",
   "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
@@ -3041,10 +3071,8 @@
     "weeks": "5",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": "-35.282857",
-    "lon": "149.119686"
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "PASI8009_X1-SemB/01",
@@ -3054,10 +3082,8 @@
     "weeks": "5",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": "-35.282857",
-    "lon": "149.119686"
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "PASI8009_X1-SemC/01",
@@ -3067,10 +3093,8 @@
     "weeks": "6",
     "activity": "SemC",
     "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": "-35.282857",
-    "lon": "149.119686"
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "PASI8009_X1-SemD/01",
@@ -3080,10 +3104,8 @@
     "weeks": "6",
     "activity": "SemD",
     "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": "-35.282857",
-    "lon": "149.119686"
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "PASI8009_X1-SemE/01",
@@ -3093,10 +3115,8 @@
     "weeks": "6",
     "activity": "SemE",
     "occurrence": "01",
-    "location": "Hedley Bull Seminar Room 3",
-    "locationID": "http://www.anu.edu.au/maps#show=11379",
-    "lat": "-35.282857",
-    "lon": "149.119686"
+    "location": " online live",
+    "locationID": ""
    }
   ]
  },
