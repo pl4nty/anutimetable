@@ -13,5 +13,8 @@
     "date-fns-tz": "2.0.0",
     "ics": "3.7.1",
     "node-fetch": "3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
