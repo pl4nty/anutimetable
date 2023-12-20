@@ -17494,6 +17494,19 @@
   "dates": "Displaying Dates: 13 Feb 23 - 18 Jun 23 (calendar week(s) 7\u201124)",
   "classes": [
    {
+    "name": "CHIN2014_S1-AssA/01",
+    "day": 0,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "7",
+    "activity": "AssA",
+    "occurrence": "01",
+    "location": "CRISP G018",
+    "locationID": "http://www.anu.edu.au/maps#show=11298",
+    "lat": "-35.277419",
+    "lon": "149.123165"
+   },
+   {
     "name": "CHIN2014_S1-LecA/01",
     "day": 0,
     "start": "11:00",
@@ -57339,7 +57352,7 @@
     "day": 6,
     "start": "17:00",
     "finish": "18:00",
-    "weeks": "8\u201112,15\u201120",
+    "weeks": "7\u201112,15\u201120",
     "activity": "PreLecA",
     "occurrence": "01",
     "location": " prerecorded",
