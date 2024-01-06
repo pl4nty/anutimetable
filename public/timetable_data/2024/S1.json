@@ -1537,10 +1537,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    }
   ]
  },
@@ -1707,10 +1707,10 @@
     "weeks": "8,10,12,16",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "location": "BPB W107",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    }
   ]
  },
@@ -5511,10 +5511,10 @@
     "weeks": "10,12,17,19",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "location": "BPB W119",
+    "locationID": "http://www.anu.edu.au/maps#show=11361",
+    "lat": "-35.280067",
+    "lon": "149.121758"
    }
   ]
  },
@@ -45032,10 +45032,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutB",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "location": "Gould Seminar Room 246",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": "-35.276464",
+    "lon": "149.115926"
    },
    {
     "name": "INDN1002_S1-TutB/02",
@@ -45058,10 +45058,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutC",
     "occurrence": "01",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "location": "Gould Seminar Room 246",
+    "locationID": "http://www.anu.edu.au/maps#show=11364",
+    "lat": "-35.276464",
+    "lon": "149.115926"
    },
    {
     "name": "INDN1002_S1-TutC/02",
@@ -45071,10 +45071,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "TutC",
     "occurrence": "02",
-    "location": "ADH G19",
-    "locationID": "http://www.anu.edu.au/maps#show=11286",
-    "lat": "-35.278353",
-    "lon": "149.121713"
+    "location": "Fellows Road Law Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
    }
   ]
  },
@@ -48739,9 +48739,9 @@
    },
    {
     "name": "LAWS1205_S1-TutA/05",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:30",
+    "day": 4,
+    "start": "13:30",
+    "finish": "15:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "05",
@@ -48778,9 +48778,9 @@
    },
    {
     "name": "LAWS1205_S1-TutA/08",
-    "day": 1,
-    "start": "13:30",
-    "finish": "15:00",
+    "day": 4,
+    "start": "15:00",
+    "finish": "16:30",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "08",
@@ -50929,9 +50929,9 @@
    },
    {
     "name": "LAWS6105_S1-TutA/05",
-    "day": 1,
-    "start": "12:00",
-    "finish": "13:30",
+    "day": 4,
+    "start": "13:30",
+    "finish": "15:00",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "05",
@@ -50968,9 +50968,9 @@
    },
    {
     "name": "LAWS6105_S1-TutA/08",
-    "day": 1,
-    "start": "13:30",
-    "finish": "15:00",
+    "day": 4,
+    "start": "15:00",
+    "finish": "16:30",
     "weeks": "8\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "08",
