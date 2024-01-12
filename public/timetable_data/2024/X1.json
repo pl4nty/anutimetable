@@ -2654,15 +2654,15 @@
    {
     "name": "LAWS8182_X1-SemC/01",
     "day": 4,
-    "start": "14:00",
-    "finish": "18:00",
+    "start": "13:00",
+    "finish": "17:00",
     "weeks": "8",
     "activity": "SemC",
     "occurrence": "01",
-    "location": "LAW LINK T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": "-35.281073",
-    "lon": "149.118997"
+    "location": "Fellows Road Law Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
    },
    {
     "name": "LAWS8182_X1-SemD/01",
@@ -2693,8 +2693,8 @@
    {
     "name": "LAWS8182_X1-SemF/01",
     "day": 4,
-    "start": "13:00",
-    "finish": "16:00",
+    "start": "14:00",
+    "finish": "17:00",
     "weeks": "10",
     "activity": "SemF",
     "occurrence": "01",
