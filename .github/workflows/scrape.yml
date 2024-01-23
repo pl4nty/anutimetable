@@ -17,7 +17,7 @@ jobs:
       matrix:
         year: [2023,2024]
         session: ['1 S1', '2 S2', '3 X1', '4 X2', '5 X3', '6 X4']
-    
+
     steps:
       - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
@@ -71,6 +71,6 @@ jobs:
           git config pull.rebase true
           git remote set-url origin https://pl4nty:$GH_PAT@github.com/$GITHUB_REPOSITORY.git
           git add --all
-          git commit -m "Add new timetable data"
+          git commit -m "chore(data): add new timetable data"
           git pull origin
           git push origin
