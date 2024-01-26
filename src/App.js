@@ -214,7 +214,8 @@ let App = () => {
               Made with <span role="img" aria-label="love">💖</span> by the&nbsp;
               <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
               (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
-              <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>
+              <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>.
+              Course data updated at 00:31, 26 Jan 2024 (AEDT). {/* Automatically updated by CI */}
             </Navbar.Text>
           </Navbar>
         </Col>
