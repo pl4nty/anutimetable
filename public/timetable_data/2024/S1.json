@@ -2597,6 +2597,17 @@
     "occurrence": "01",
     "location": "SOA&D Sculpture Drawing Room G.68",
     "locationID": "http://soa.anu.edu.au/sculpture/map"
+   },
+   {
+    "name": "ARTV2120_S1-StuA/02",
+    "day": 2,
+    "start": "09:00",
+    "finish": "13:00",
+    "weeks": "8\u201113,16\u201121",
+    "activity": "StuA",
+    "occurrence": "02",
+    "location": "SOA&D Sculpture Drawing Room G.68",
+    "locationID": "http://soa.anu.edu.au/sculpture/map"
    }
   ]
  },
@@ -11085,13 +11096,26 @@
     "day": 0,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
     "location": "HA Tank",
     "locationID": "http://www.anu.edu.au/maps#show=11295",
     "lat": "-35.277596",
     "lon": "149.122472"
+   },
+   {
+    "name": "BUSN1002_S1-LecA/01",
+    "day": 1,
+    "start": "08:00",
+    "finish": "10:00",
+    "weeks": "11",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "LAW T",
+    "locationID": "http://www.anu.edu.au/maps#show=11277",
+    "lat": "-35.281073",
+    "lon": "149.118997"
    },
    {
     "name": "BUSN1002_S1-TutA/01",
@@ -13479,15 +13503,15 @@
    {
     "name": "BUSN7052_S1-TutA/01",
     "day": 2,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Arndt TR3",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": "-35.277437",
-    "lon": "149.124005"
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "BUSN7052_S1-TutA/02",
@@ -13570,15 +13594,15 @@
    {
     "name": "BUSN7052_S1-TutA/08",
     "day": 3,
-    "start": "16:00",
-    "finish": "17:00",
+    "start": "17:00",
+    "finish": "18:00",
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "08",
-    "location": "Arndt TR3",
-    "locationID": "http://www.anu.edu.au/maps#show=11414",
-    "lat": "-35.277437",
-    "lon": "149.124005"
+    "location": "HA 1205",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "BUSN7052_S1-TutA/09",
@@ -13984,13 +14008,26 @@
     "day": 3,
     "start": "10:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201113,16,18\u201121",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Arndt LT 2",
     "locationID": "http://www.anu.edu.au/maps#show=11414",
     "lat": "-35.277437",
     "lon": "149.124005"
+   },
+   {
+    "name": "BUSN8067_S1-LecA/01",
+    "day": 4,
+    "start": "15:00",
+    "finish": "17:00",
+    "weeks": "17",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "CBE LT 4",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": "-35.276735",
+    "lon": "149.123501"
    },
    {
     "name": "BUSN8067_S1-WorA/01",
@@ -29096,19 +29133,6 @@
   "link": "https://programsandcourses.anu.edu.au/2024/course/EMET3006",
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
-   {
-    "name": "EMET3006_S1-LecA/01",
-    "day": 1,
-    "start": "09:00",
-    "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "LecA",
-    "occurrence": "01",
-    "location": "COP G029",
-    "locationID": "http://www.anu.edu.au/maps#show=28971",
-    "lat": "-35.277985",
-    "lon": "149.123419"
-   },
    {
     "name": "EMET3006_S1-LecB/01",
     "day": 3,
