@@ -9,6 +9,13 @@ This is an unofficial alternative timetable viewer for the Australian National U
 
 ## Development
 
+> [!IMPORTANT]
+> The source of the course data is currently the [old timetable
+> (timetabling.anu.edu.au)](https://timetabling.anu.edu.au/sws2024/). Some courses are, for whatever reason, not added
+> there, and therefore there is currently nothing we can do to add them to this timetable.
+>
+> We will be switching to new APIs with a planned rewrite, so this issue should be eventually resolved.
+
 **Components:**
 * A React.js front-end in `/src` and `/public`. It's hosted as an Azure Static Web App by @pl4nty (free tier). Commits to master are deployed to timetable.cssa.club minutes later via a GitHub Action. Commits to open PR's are pushed to staging URL's for testing.
 * A Python scraping script in `scraper` inherited from anutimetable.com that scrapes the official ANU timetable website. It is run once a day by a GitHub Action and the results are saved to `public/timetable*.json`.
@@ -26,7 +33,7 @@ This is an unofficial alternative timetable viewer for the Australian National U
 
 **Future directions:**
 * Move away from Azure functions (to client side logic and GitHub Actions where possible)
-* The [Class Allocation Project](https://services.anu.edu.au/planning-governance/current-projects/class-allocation-project) team intend to roll out a new timetabling experience in semester 2 2022 or 2023. Once this transition is complete this project will be archived or rewritten as the Python scraper will be obsolete.
+* The [Class Allocation Project](https://services.anu.edu.au/planning-governance/current-projects/class-allocation-project) team intend to roll out a new timetabling experience ~~in semester 2 2022 or 2023~~ eventually. Once this transition is complete this project will be archived or rewritten as the Python scraper will be obsolete.
 
 **Contributing:**
 * If you would like to contribute bug reports or to the development, please join the [CSSA Discord server](https://cssa.club/discord) and chat with us in the #timetable channel
