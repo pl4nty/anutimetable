@@ -1,7 +1,7 @@
 # ANU Unofficial Timetable
-[![Website status](https://img.shields.io/website?down_color=red&down_message=offline&up_color=success&up_message=online&url=https%3A%2F%2Ftimetable.cssa.club&logo=microsoft-azure&logoColor=white)](https://timetable.cssa.club)
-[![Build status](https://img.shields.io/github/actions/workflow/status/anucssa/anutimetable/build_and_deploy.yml?logo=github&logoColor=white)](https://github.com/anucssa/anutimetable/actions/workflows/build_and_deploy.yml)
-[![Scraper status](https://img.shields.io/github/actions/workflow/status/anucssa/anutimetable/scrape.yml?logo=github&logoColor=white&label=scraper)](https://github.com/anucssa/anutimetable/actions/workflows/scrape.yml)
+[![Website status](https://img.shields.io/website?url=https%3A%2F%2Ftimetable.cssa.club&up_message=online&down_message=offline&style=flat-square&logo=microsoft-azure)](https://timetable.cssa.club)
+[![Build status](https://img.shields.io/github/actions/workflow/status/anucssa/anutimetable/build_and_deploy.yml?style=flat-square&logo=github)](https://github.com/anucssa/anutimetable/actions/workflows/build_and_deploy.yml)
+[![Scraper status](https://img.shields.io/github/actions/workflow/status/anucssa/anutimetable/scrape.yml?style=flat-square&logo=github&logoColor=white&label=scraper)](https://github.com/anucssa/anutimetable/actions/workflows/scrape.yml)
 
 ## About
 
