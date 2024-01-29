@@ -18716,19 +18716,6 @@
     "lon": "149.120583"
    },
    {
-    "name": "COMP3310_S1-ComA/07",
-    "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "07",
-    "location": "HN Lab 2",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": "-35.275532",
-    "lon": "149.1191"
-   },
-   {
     "name": "COMP3310_S1-ComA/08",
     "day": 2,
     "start": "17:00",
@@ -21867,19 +21854,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": "-35.275345",
     "lon": "149.120583"
-   },
-   {
-    "name": "COMP6331_S1-ComA/07",
-    "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "07",
-    "location": "HN Lab 2",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": "-35.275532",
-    "lon": "149.1191"
    },
    {
     "name": "COMP6331_S1-ComA/08",
@@ -34430,19 +34404,6 @@
     "lon": "149.120583"
    },
    {
-    "name": "ENGN3539_S1-ComA/07",
-    "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "07",
-    "location": "HN Lab 2",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": "-35.275532",
-    "lon": "149.1191"
-   },
-   {
     "name": "ENGN3539_S1-ComA/08",
     "day": 2,
     "start": "17:00",
@@ -36988,19 +36949,6 @@
     "locationID": "http://www.anu.edu.au/maps#show=11360",
     "lat": "-35.275345",
     "lon": "149.120583"
-   },
-   {
-    "name": "ENGN6539_S1-ComA/07",
-    "day": 1,
-    "start": "16:00",
-    "finish": "18:00",
-    "weeks": "8\u201113,16\u201121",
-    "activity": "ComA",
-    "occurrence": "07",
-    "location": "HN Lab 2",
-    "locationID": "http://www.anu.edu.au/maps#show=102872",
-    "lat": "-35.275532",
-    "lon": "149.1191"
    },
    {
     "name": "ENGN6539_S1-ComA/08",
@@ -40214,13 +40162,26 @@
     "day": 0,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM3009_S1-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "11",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "HA G051",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "FINM3009_S1-TutA/01",
@@ -40279,13 +40240,26 @@
     "day": 0,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM3009_S1-WorA/01",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "11",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    }
   ]
  },
@@ -40300,13 +40274,26 @@
     "day": 0,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM3010_S1-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "11",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "HA G051",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "FINM3010_S1-TutA/01",
@@ -40365,13 +40352,26 @@
     "day": 0,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM3010_S1-WorA/01",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "11",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    }
   ]
  },
@@ -40790,13 +40790,26 @@
     "day": 0,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM6009_S1-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "11",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "HA G051",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "FINM6009_S1-TutA/01",
@@ -40855,13 +40868,26 @@
     "day": 0,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM6009_S1-WorA/01",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "11",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    }
   ]
  },
@@ -40876,13 +40902,26 @@
     "day": 0,
     "start": "09:00",
     "finish": "11:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "LecA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM6010_S1-LecA/01",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "11",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": "HA G051",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "FINM6010_S1-TutA/01",
@@ -40941,13 +40980,26 @@
     "day": 0,
     "start": "11:00",
     "finish": "12:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
     "location": "Marie Reay 3.05",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "FINM6010_S1-WorA/01",
+    "day": 2,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "11",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": "HA G040",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    }
   ]
  },
@@ -50400,28 +50452,6 @@
     "locationID": ""
    },
    {
-    "name": "LAWS4268_S1-CliA/02",
-    "day": 1,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "02",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS4268_S1-CliA/03",
-    "day": 3,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "03",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
     "name": "LAWS4268_S1-CliA/04",
     "day": 4,
     "start": "09:00",
@@ -50487,28 +50517,6 @@
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "LAWS4278_S1-CliA/02",
-    "day": 1,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "02",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS4278_S1-CliA/03",
-    "day": 3,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "03",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
     "name": "LAWS4278_S1-SemA/01",
     "day": 0,
     "start": "09:00",
@@ -50551,6 +50559,28 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
+    "location": " off campus",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS4278_S1-CliA/02",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "CliA",
+    "occurrence": "02",
+    "location": " off campus",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS4278_S1-CliA/03",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "CliA",
+    "occurrence": "03",
     "location": " off campus",
     "locationID": ""
    }
@@ -52356,28 +52386,6 @@
     "locationID": ""
    },
    {
-    "name": "LAWS6268_S1-CliA/02",
-    "day": 1,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "02",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS6268_S1-CliA/03",
-    "day": 3,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "03",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
     "name": "LAWS6268_S1-CliA/04",
     "day": 4,
     "start": "09:00",
@@ -52443,28 +52451,6 @@
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "LAWS6278_S1-CliA/02",
-    "day": 1,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "02",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
-    "name": "LAWS6278_S1-CliA/03",
-    "day": 3,
-    "start": "09:00",
-    "finish": "17:00",
-    "weeks": "9\u201113,16\u201121",
-    "activity": "CliA",
-    "occurrence": "03",
-    "location": " off campus",
-    "locationID": ""
-   },
-   {
     "name": "LAWS6278_S1-SemA/01",
     "day": 0,
     "start": "09:00",
@@ -52507,6 +52493,28 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "WorA",
     "occurrence": "01",
+    "location": " off campus",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS6278_S1-CliA/02",
+    "day": 3,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "CliA",
+    "occurrence": "02",
+    "location": " off campus",
+    "locationID": ""
+   },
+   {
+    "name": "LAWS6278_S1-CliA/03",
+    "day": 4,
+    "start": "09:00",
+    "finish": "17:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "CliA",
+    "occurrence": "03",
     "location": " off campus",
     "locationID": ""
    }
@@ -64449,10 +64457,10 @@
     "weeks": "8",
     "activity": "LecA",
     "occurrence": "01",
-    "location": "Gould Seminar Room 235",
-    "locationID": "http://www.anu.edu.au/maps#show=11364",
-    "lat": "-35.276464",
-    "lon": "149.115926"
+    "location": "COP G030",
+    "locationID": "http://www.anu.edu.au/maps#show=28971",
+    "lat": "-35.277985",
+    "lon": "149.123419"
    },
    {
     "name": "PHYS1001_S1-LecB/01",
