@@ -11,10 +11,12 @@ This is an unofficial alternative timetable viewer for the Australian National U
 
 > [!IMPORTANT]
 > The source of the course data is currently the [old timetable
-> (timetabling.anu.edu.au)](https://timetabling.anu.edu.au/sws2024/). Some courses are, for whatever reason, not added
-> there, and therefore there is currently nothing we can do to add them to this timetable.
+> (timetabling.anu.edu.au)](https://timetabling.anu.edu.au/sws2024/), so there will be differences between this
+> timetable and [MyTimetable](https://mytimetable.anu.edu.au/even/timetable/). Particularly, some courses are, for
+> whatever reason, not added there, and there is currently nothing we can do to add them to this timetable.
 >
-> We will be switching to new APIs with a planned rewrite, so this issue should be eventually resolved.
+> We will be switching to new APIs with a planned rewrite, so this issue should be eventually resolved. In the meantime,
+> if in doubt, refer to MyTimetable.
 
 **Components:**
 * A React.js front-end in `/src` and `/public`. It's hosted as an Azure Static Web App by @pl4nty (free tier). Commits to master are deployed to timetable.cssa.club minutes later via a GitHub Action. Commits to open PR's are pushed to staging URL's for testing.
