@@ -2221,6 +2221,36 @@
    }
   ]
  },
+ "NSPO8040_X2": {
+  "title": "NSPO8040_X2\u00a0Gender and Security_Online_Online",
+  "id": "NSPO8040_X2",
+  "link": "https://programsandcourses.anu.edu.au/2024/course/NSPO8040",
+  "dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+  "classes": [
+   {
+    "name": "NSPO8040_X2-LecA/01",
+    "day": 1,
+    "start": "16:00",
+    "finish": "17:00",
+    "weeks": "24\u201129",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "NSPO8040_X2-WorA/01",
+    "day": 1,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "24\u201129",
+    "activity": "WorA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   }
+  ]
+ },
  "NSPO8047_X2": {
   "title": "NSPO8047_X2\u00a0How Canberra works: a guide for security policymakers_Online_Online",
   "id": "NSPO8047_X2",
