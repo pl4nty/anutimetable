@@ -2639,6 +2639,19 @@
     "lon": "149.119061"
    },
    {
+    "name": "LAWS8182_X1-SemA/02",
+    "day": 2,
+    "start": "09:00",
+    "finish": "10:00",
+    "weeks": "8",
+    "activity": "SemA",
+    "occurrence": "02",
+    "location": "Fellows Road Law Theatre 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11473",
+    "lat": "-35.280217",
+    "lon": "149.119061"
+   },
+   {
     "name": "LAWS8182_X1-SemB/01",
     "day": 2,
     "start": "14:00",
@@ -3458,10 +3471,10 @@
     "weeks": "8\u201113",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "PSYC G8",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": "-35.274459",
-    "lon": "149.117814"
+    "location": "COOMBS Extension 2.10",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": "-35.282541",
+    "lon": "149.119238"
    },
    {
     "name": "REGN8052_X1-SemB/01",
@@ -3471,10 +3484,10 @@
     "weeks": "8\u201113",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "ENGN T",
-    "locationID": "http://www.anu.edu.au/maps#show=11304",
-    "lat": "-35.276172",
-    "lon": "149.11994"
+    "location": "COOMBS Extension 2.10",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": "-35.282541",
+    "lon": "149.119238"
    }
   ]
  },
@@ -3513,10 +3526,10 @@
     "weeks": "8\u201113",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "PSYC G8",
-    "locationID": "http://www.anu.edu.au/maps#show=11424",
-    "lat": "-35.274459",
-    "lon": "149.117814"
+    "location": "COOMBS Extension 2.10",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": "-35.282541",
+    "lon": "149.119238"
    },
    {
     "name": "REGN9052_X1-SemB/01",
@@ -3526,10 +3539,10 @@
     "weeks": "8\u201113",
     "activity": "SemB",
     "occurrence": "01",
-    "location": "ENGN T",
-    "locationID": "http://www.anu.edu.au/maps#show=11304",
-    "lat": "-35.276172",
-    "lon": "149.11994"
+    "location": "COOMBS Extension 2.10",
+    "locationID": "http://www.anu.edu.au/maps#show=11280",
+    "lat": "-35.282541",
+    "lon": "149.119238"
    }
   ]
  },
