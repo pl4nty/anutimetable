@@ -39,10 +39,10 @@
     "weeks": "7",
     "activity": "ComC",
     "occurrence": "01",
-    "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
-    "locationID": "http://www.anu.edu.au/maps#show=11276",
-    "lat": "-35.282194",
-    "lon": "149.118399"
+    "location": "Banks 2.36",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": "-35.276048",
+    "lon": "149.116274"
    },
    {
     "name": "ARCH3006_X1-FieA/01",
@@ -160,10 +160,10 @@
     "weeks": "7",
     "activity": "ComC",
     "occurrence": "01",
-    "location": "Menzies Flex Lab (bookings email Venuehire@anu.edu.au)",
-    "locationID": "http://www.anu.edu.au/maps#show=11276",
-    "lat": "-35.282194",
-    "lon": "149.118399"
+    "location": "Banks 2.36",
+    "locationID": "http://www.anu.edu.au/maps#show=29007",
+    "lat": "-35.276048",
+    "lon": "149.116274"
    },
    {
     "name": "ARCH6066_X1-FieA/01",
@@ -2650,6 +2650,17 @@
     "locationID": "http://www.anu.edu.au/maps#show=11473",
     "lat": "-35.280217",
     "lon": "149.119061"
+   },
+   {
+    "name": "LAWS8182_X1-SemA/03",
+    "day": 2,
+    "start": "17:00",
+    "finish": "18:00",
+    "weeks": "8",
+    "activity": "SemA",
+    "occurrence": "03",
+    "location": " online live",
+    "locationID": ""
    },
    {
     "name": "LAWS8182_X1-SemB/01",
