@@ -4226,38 +4226,23 @@
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "ASIA3029_S1-SemA/01",
+    "name": "ASIA3029_S1-LecA/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "13:30",
+    "weeks": "9,12,16,19",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "ASIA3029_S1-TutA/01",
     "day": 3,
     "start": "14:00",
-    "finish": "16:30",
-    "weeks": "9,12,16,19",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "BPB W117",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
-    "name": "ASIA3029_S1-SemA/02",
-    "day": 4,
-    "start": "10:00",
-    "finish": "12:30",
-    "weeks": "9,12,16,19",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": "BPB W117",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
-    "name": "ASIA3029_S1-SemB/01",
-    "day": 3,
-    "start": "17:30",
     "finish": "19:30",
     "weeks": "9,12,16,19",
-    "activity": "SemB",
+    "activity": "TutA",
     "occurrence": "01",
     "location": "BPB W117",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
@@ -4265,12 +4250,12 @@
     "lon": "149.121758"
    },
    {
-    "name": "ASIA3029_S1-SemB/02",
+    "name": "ASIA3029_S1-TutA/02",
     "day": 4,
-    "start": "13:30",
+    "start": "10:00",
     "finish": "15:30",
     "weeks": "9,12,16,19",
-    "activity": "SemB",
+    "activity": "TutA",
     "occurrence": "02",
     "location": "BPB W117",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
@@ -4532,7 +4517,7 @@
   ]
  },
  "ASIA6031_S1": {
-  "title": "ASIA6031_S1\u00a0Japanese Politics_In Person",
+  "title": "ASIA6031_S1\u00a0Japanese Politics",
   "id": "ASIA6031_S1",
   "link": "https://programsandcourses.anu.edu.au/2024/course/ASIA6031",
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
@@ -4666,38 +4651,23 @@
   "dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
   "classes": [
    {
-    "name": "ASIA6042_S1-SemA/01",
+    "name": "ASIA6042_S1-LecA/01",
+    "day": 0,
+    "start": "12:00",
+    "finish": "13:30",
+    "weeks": "9,12,16,19",
+    "activity": "LecA",
+    "occurrence": "01",
+    "location": " online live",
+    "locationID": ""
+   },
+   {
+    "name": "ASIA6042_S1-TutA/01",
     "day": 3,
     "start": "14:00",
-    "finish": "16:30",
-    "weeks": "9,12,16,19",
-    "activity": "SemA",
-    "occurrence": "01",
-    "location": "BPB W117",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
-    "name": "ASIA6042_S1-SemA/02",
-    "day": 4,
-    "start": "10:00",
-    "finish": "12:30",
-    "weeks": "9,12,16,19",
-    "activity": "SemA",
-    "occurrence": "02",
-    "location": "BPB W117",
-    "locationID": "http://www.anu.edu.au/maps#show=11361",
-    "lat": "-35.280067",
-    "lon": "149.121758"
-   },
-   {
-    "name": "ASIA6042_S1-SemB/01",
-    "day": 3,
-    "start": "17:30",
     "finish": "19:30",
     "weeks": "9,12,16,19",
-    "activity": "SemB",
+    "activity": "TutA",
     "occurrence": "01",
     "location": "BPB W117",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
@@ -4705,12 +4675,12 @@
     "lon": "149.121758"
    },
    {
-    "name": "ASIA6042_S1-SemB/02",
+    "name": "ASIA6042_S1-TutA/02",
     "day": 4,
-    "start": "13:30",
+    "start": "10:00",
     "finish": "15:30",
     "weeks": "9,12,16,19",
-    "activity": "SemB",
+    "activity": "TutA",
     "occurrence": "02",
     "location": "BPB W117",
     "locationID": "http://www.anu.edu.au/maps#show=11361",
@@ -21021,6 +20991,32 @@
     "lon": "149.1191"
    },
    {
+    "name": "COMP4528_S1-ComA/18",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "18",
+    "location": "CSIT N112",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
+    "name": "COMP4528_S1-ComA/19",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "19",
+    "location": "CSIT N113",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
     "name": "COMP4528_S1-LecA/01",
     "day": 4,
     "start": "09:00",
@@ -23468,6 +23464,32 @@
     "locationID": "http://www.anu.edu.au/maps#show=102872",
     "lat": "-35.275532",
     "lon": "149.1191"
+   },
+   {
+    "name": "COMP6528_S1-ComA/18",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "18",
+    "location": "CSIT N112",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
+    "name": "COMP6528_S1-ComA/19",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "19",
+    "location": "CSIT N113",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
    },
    {
     "name": "COMP6528_S1-LecA/01",
@@ -35783,10 +35805,10 @@
     "weeks": "10\u201111,13,17,20\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Han 2.22",
-    "locationID": "http://www.anu.edu.au/maps#show=11313",
-    "lat": "-35.276955",
-    "lon": "149.117796"
+    "location": "Ian Ross R214 Seminar Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11303",
+    "lat": "-35.275684",
+    "lon": "149.120161"
    },
    {
     "name": "ENGN3331_S1-TutA/02",
@@ -36449,10 +36471,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Ian Ross R214 Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "STB_S2 (3.02)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": "-35.276241",
+    "lon": "149.117144"
    },
    {
     "name": "ENGN4213_S1-TutA/02",
@@ -36462,10 +36484,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "Ian Ross R214 Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "Marie Reay 4.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": "-35.277786",
+    "lon": "149.120685"
    },
    {
     "name": "ENGN4213_S1-TutA/03",
@@ -36475,10 +36497,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Ian Ross R214 Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "Marie Reay 4.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": "-35.277786",
+    "lon": "149.120685"
    },
    {
     "name": "ENGN4213_S1-TutA/04",
@@ -37086,6 +37108,32 @@
     "lon": "149.1191"
    },
    {
+    "name": "ENGN4528_S1-ComA/18",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "18",
+    "location": "CSIT N112",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
+    "name": "ENGN4528_S1-ComA/19",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "19",
+    "location": "CSIT N113",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
     "name": "ENGN4528_S1-LecA/01",
     "day": 4,
     "start": "09:00",
@@ -37409,10 +37457,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Ian Ross R214 Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "STB_S2 (3.02)",
+    "locationID": "http://www.anu.edu.au/maps#show=11384",
+    "lat": "-35.276241",
+    "lon": "149.117144"
    },
    {
     "name": "ENGN6213_S1-TutA/02",
@@ -37422,10 +37470,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "02",
-    "location": "Ian Ross R214 Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "Marie Reay 4.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": "-35.277786",
+    "lon": "149.120685"
    },
    {
     "name": "ENGN6213_S1-TutA/03",
@@ -37435,10 +37483,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
-    "location": "Ian Ross R214 Seminar Room",
-    "locationID": "http://www.anu.edu.au/maps#show=11303",
-    "lat": "-35.275684",
-    "lon": "149.120161"
+    "location": "Marie Reay 4.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": "-35.277786",
+    "lon": "149.120685"
    },
    {
     "name": "ENGN6213_S1-TutA/04",
@@ -38239,10 +38287,10 @@
     "weeks": "10\u201111,13,17,20\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Han 2.22",
-    "locationID": "http://www.anu.edu.au/maps#show=11313",
-    "lat": "-35.276955",
-    "lon": "149.117796"
+    "location": "Ian Ross R214 Seminar Room",
+    "locationID": "http://www.anu.edu.au/maps#show=11303",
+    "lat": "-35.275684",
+    "lon": "149.120161"
    },
    {
     "name": "ENGN6331_S1-TutA/02",
@@ -38679,6 +38727,32 @@
     "locationID": "http://www.anu.edu.au/maps#show=102872",
     "lat": "-35.275532",
     "lon": "149.1191"
+   },
+   {
+    "name": "ENGN6528_S1-ComA/18",
+    "day": 2,
+    "start": "14:00",
+    "finish": "16:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "18",
+    "location": "CSIT N112",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
+   },
+   {
+    "name": "ENGN6528_S1-ComA/19",
+    "day": 2,
+    "start": "13:00",
+    "finish": "15:00",
+    "weeks": "9\u201113,16\u201121",
+    "activity": "ComA",
+    "occurrence": "19",
+    "location": "CSIT N113",
+    "locationID": "http://www.anu.edu.au/maps#show=11360",
+    "lat": "-35.275345",
+    "lon": "149.120583"
    },
    {
     "name": "ENGN6528_S1-LecA/01",
@@ -39427,10 +39501,23 @@
   "classes": [
    {
     "name": "ENGN8831_S1-ComA/01",
+    "day": 1,
+    "start": "08:00",
+    "finish": "11:00",
+    "weeks": "13",
+    "activity": "ComA",
+    "occurrence": "01",
+    "location": "ENGN 101",
+    "locationID": "http://www.anu.edu.au/maps#show=11304",
+    "lat": "-35.276172",
+    "lon": "149.11994"
+   },
+   {
+    "name": "ENGN8831_S1-ComA/01",
     "day": 4,
     "start": "15:00",
     "finish": "18:00",
-    "weeks": "13,16,18",
+    "weeks": "16,18",
     "activity": "ComA",
     "occurrence": "01",
     "location": "ENGN 101",
@@ -39459,10 +39546,10 @@
     "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
-    "location": "Marie Reay 3.04",
-    "locationID": "http://www.anu.edu.au/maps#show=108136",
-    "lat": "-35.277786",
-    "lon": "149.120685"
+    "location": "HA G051",
+    "locationID": "http://www.anu.edu.au/maps#show=11294",
+    "lat": "-35.277768",
+    "lon": "149.122317"
    },
    {
     "name": "ENGN8831_S1-WorA/01",
@@ -41540,10 +41627,10 @@
     "weeks": "13",
     "activity": "WorA",
     "occurrence": "01",
-    "location": "LAW T",
-    "locationID": "http://www.anu.edu.au/maps#show=11277",
-    "lat": "-35.281073",
-    "lon": "149.118997"
+    "location": "Leonard Huxley T",
+    "locationID": "http://www.anu.edu.au/maps#show=11325",
+    "lat": "-35.283152",
+    "lon": "149.113616"
    }
   ]
  },
@@ -46825,7 +46912,7 @@
     "day": 1,
     "start": "11:00",
     "finish": "13:30",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "01",
     "location": "Florey Teaching & Learning Room 1_2.36",
@@ -46838,7 +46925,7 @@
     "day": 1,
     "start": "08:00",
     "finish": "10:30",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "02",
     "location": "Florey Teaching & Learning Room 1_2.36",
@@ -46851,7 +46938,7 @@
     "day": 1,
     "start": "14:00",
     "finish": "16:30",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "9\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
     "location": "Florey Teaching & Learning Room 1_2.36",
@@ -48155,13 +48242,26 @@
     "day": 4,
     "start": "16:00",
     "finish": "19:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201112,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
     "location": "CBE LT 3",
     "locationID": "http://www.anu.edu.au/maps#show=11417",
     "lat": "-35.276735",
     "lon": "149.123501"
+   },
+   {
+    "name": "INFS2024_S1-SemA/01",
+    "day": 0,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "13",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Arndt LT 1",
+    "locationID": "http://www.anu.edu.au/maps#show=11414",
+    "lat": "-35.277437",
+    "lon": "149.124005"
    }
   ]
  },
@@ -62441,10 +62541,23 @@
     "day": 4,
     "start": "10:00",
     "finish": "13:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201112,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
     "location": "Marie Reay 5.02",
+    "locationID": "http://www.anu.edu.au/maps#show=108136",
+    "lat": "-35.277786",
+    "lon": "149.120685"
+   },
+   {
+    "name": "MGMT2009_S1-SemA/01",
+    "day": 1,
+    "start": "11:00",
+    "finish": "14:00",
+    "weeks": "13",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "Marie Reay 5.03",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
@@ -63198,10 +63311,23 @@
     "day": 0,
     "start": "13:00",
     "finish": "16:00",
-    "weeks": "8\u201113,16\u201121",
+    "weeks": "8\u201110,12\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
     "location": "RSSS Lectorial 1 Rm 1.21",
+    "locationID": "http://www.anu.edu.au/maps#show=123279",
+    "lat": "-35.2791261",
+    "lon": "149.1212115"
+   },
+   {
+    "name": "MGMT7165_S1-SemA/01",
+    "day": 1,
+    "start": "15:00",
+    "finish": "18:00",
+    "weeks": "11",
+    "activity": "SemA",
+    "occurrence": "01",
+    "location": "RSSS Lectorial 2 Rm 1.23",
     "locationID": "http://www.anu.edu.au/maps#show=123279",
     "lat": "-35.2791261",
     "lon": "149.1212115"
@@ -76097,13 +76223,26 @@
     "day": 0,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201110,12\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
     "location": "Marie Reay 3.04",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "STAT2001_S1-TutA/03",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "11",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "CBE Bld TR8",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": "-35.276735",
+    "lon": "149.123501"
    },
    {
     "name": "STAT2001_S1-TutA/04",
@@ -76464,13 +76603,26 @@
     "day": 0,
     "start": "13:00",
     "finish": "14:00",
-    "weeks": "9\u201113,16\u201121",
+    "weeks": "9\u201110,12\u201113,16\u201121",
     "activity": "TutA",
     "occurrence": "03",
     "location": "Marie Reay 3.04",
     "locationID": "http://www.anu.edu.au/maps#show=108136",
     "lat": "-35.277786",
     "lon": "149.120685"
+   },
+   {
+    "name": "STAT2013_S1-TutA/03",
+    "day": 1,
+    "start": "15:00",
+    "finish": "16:00",
+    "weeks": "11",
+    "activity": "TutA",
+    "occurrence": "03",
+    "location": "CBE Bld TR8",
+    "locationID": "http://www.anu.edu.au/maps#show=11417",
+    "lat": "-35.276735",
+    "lon": "149.123501"
    },
    {
     "name": "STAT2013_S1-TutA/04",
@@ -80355,10 +80507,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "COOMBS Extension LT 1.04",
-    "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": "-35.282541",
-    "lon": "149.119238"
+    "location": "Hedley Bull Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": "-35.282857",
+    "lon": "149.119686"
    }
   ]
  },
@@ -80479,10 +80631,10 @@
     "weeks": "8\u201113,16\u201121",
     "activity": "SemA",
     "occurrence": "01",
-    "location": "COOMBS Extension LT 1.04",
-    "locationID": "http://www.anu.edu.au/maps#show=11280",
-    "lat": "-35.282541",
-    "lon": "149.119238"
+    "location": "Hedley Bull Theatre 2",
+    "locationID": "http://www.anu.edu.au/maps#show=11379",
+    "lat": "-35.282857",
+    "lon": "149.119686"
    }
   ]
  },
