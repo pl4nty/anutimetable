@@ -376,7 +376,8 @@ body[data-theme="dark"] {
 .fc-event-main p {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  // Want to be able to see the full location for multi-location entries, as they don't have links
+  // white-space: nowrap;
 }
 
 .nav-item .dropdown-menu.show {
