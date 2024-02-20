@@ -1,0 +1,11 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[public/timetable_data/**.json]
+# one-space indent is ridiculous. tabs are the same amount of bytes but look better
+indent_style = tab

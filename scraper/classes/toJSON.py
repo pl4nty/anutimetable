@@ -38,7 +38,7 @@ def formatCourses(courses: List[Course]):
 
     # Pretty print version
     with open("timetable.json", "w+") as f:
-        data = json.dumps(obj, indent=1)
+        data = json.dumps(obj, indent="\t")
         f.write(data)
 
 
