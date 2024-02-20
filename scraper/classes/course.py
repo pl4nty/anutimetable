@@ -69,12 +69,17 @@ class Lesson:
         # remove leading slash and default to 01 if unspecified
         self.occurrence = '01' if not occurrence else occurrence.group(0)[1:]
 
-        if cells[7].a == None:
-            self.location = cells[7].string
+        locationCell = cells[7]
+        if locationCell.a == None:
+            self.location = locationCell.string
             self.locationID = ""
             return
-        self.location = cells[7].a.string
-        self.locationID = cells[7].a['href']
+
+        locationAs = locationCell.find_all("a")
+        self.location = locationAs[0].string
+        for a in locationAs[1:len(locationAs)]:
+            self.location += "; " + a.string
+        self.locationID = locationCell.a['href']
 
         # Wanted to use https://www.anu.edu.au/anu-campus-map/show/mapID
         # But took roughly 25x longer (1200s), and had no pagination or search options
