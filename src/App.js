@@ -96,7 +96,7 @@ let App = () => {
   const [modules, setModules] = useState({})
   useEffect(() => setModules(Object.entries(timetableData).reduce((acc, [key, module]) => ({ ...acc, [key.split('_')[0]]: processModule(module) }), {})), [timetableData])
 
-  // This needs to be a reducer to access the previous value 
+  // This needs to be a reducer to access the previous value
   const selectedModulesReducer = (state, updatedModules) => {
     // Find no longer present entries
     state.forEach(module => {
