@@ -63,9 +63,9 @@ class Lesson:
             self.activity = activity.group(0)[1:]  # remove leading dash
         else:
             self.activity = 'Err'
-        
+
         occurrence = re.search('/[0-9]+', self.name)
-        
+
         # remove leading slash and default to 01 if unspecified
         self.occurrence = '01' if not occurrence else occurrence.group(0)[1:]
 

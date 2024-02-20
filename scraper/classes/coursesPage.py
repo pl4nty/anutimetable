@@ -44,6 +44,3 @@ def Chunk(coursesPage, chunk):
     if n < max:
         s = slice(n, max)
         yield coursesPage.courseList[s]
-
-
-    

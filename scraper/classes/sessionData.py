@@ -4,7 +4,7 @@ class SessionData:
         self.viewStateGenerator = soup.find(id='__VIEWSTATEGENERATOR')['value']
         self.eventValidation = soup.find(id='__EVENTVALIDATION')['value']
     def toDict(self):
-        return {"__VIEWSTATE": self.viewState, 
+        return {"__VIEWSTATE": self.viewState,
             "__VIEWSTATEGENERATOR": self.viewStateGenerator,
             "__EVENTVALIDATION": self.eventValidation}
     def asModuleList(self):
