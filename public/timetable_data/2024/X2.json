@@ -2138,13 +2138,24 @@
 				"day": 3,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "8\u201113",
+				"weeks": "8\u20119,11\u201113",
 				"activity": "SemB",
 				"occurrence": "01",
 				"location": "Fellows Road Law Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8566_X2-SemB/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "10",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " Online",
+				"locationID": ""
 			}
 		]
 	},
