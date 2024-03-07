@@ -819,6 +819,79 @@
 			}
 		]
 	},
+	"CHIN2013_X2": {
+		"title": "CHIN2013_X2\u00a0Taiwanese (Southern Min)",
+		"id": "CHIN2013_X2",
+		"link": "",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "CHIN2013_X2-SemA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "25\u201127",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "CHIN2013_X2-SemB/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "CHIN2013_X2-SemC/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "CHIN2013_X2-SemD/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "26\u201127",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "CHIN2013_X2-SemE/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "26\u201127",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			}
+		]
+	},
 	"ENVS3029_X2": {
 		"title": "ENVS3029_X2\u00a0Palaeo-Environmental Reconstruction",
 		"id": "ENVS3029_X2",
