@@ -1,25 +1,4 @@
 {
-	"LAWS1001_S2": {
-		"title": "LAWS1001_S2\u00a0English in a Legal Context",
-		"id": "LAWS1001_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS1001",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS1001_S2-ClaA/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "ClaA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
 	"LAWS1201_S2": {
 		"title": "LAWS1201_S2\u00a0Foundations of Australian Law",
 		"id": "LAWS1201_S2",
@@ -36,32 +15,6 @@
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
-			},
-			{
-				"name": "LAWS1201_S2-SemA/02",
-				"day": 3,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "02",
-				"location": "Marie Reay 5.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "LAWS1201_S2-WorA/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "34,38",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
@@ -81,105 +34,6 @@
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
-			}
-		]
-	},
-	"LAWS2202_S2": {
-		"title": "LAWS2202_S2\u00a0Commonwealth Constitutional Law",
-		"id": "LAWS2202_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2202",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS2202_S2-SemA/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS2202_S2-SemA/02",
-				"day": 3,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "02",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS2202_S2-SemA/03",
-				"day": 3,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "03",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS2202_S2-SemA/04",
-				"day": 2,
-				"start": "16:00",
-				"finish": "17:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "04",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS2202_S2-SemA/05",
-				"day": 3,
-				"start": "16:00",
-				"finish": "17:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "05",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS2202_S2-SemA/06",
-				"day": 3,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "06",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS2202_S2-SemA/07",
-				"day": 2,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "07",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
 			}
 		]
 	},
@@ -425,66 +279,6 @@
 			}
 		]
 	},
-	"LAWS2248_S2": {
-		"title": "LAWS2248_S2\u00a0Legal Research and Writing",
-		"id": "LAWS2248_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2248",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS2248_S2-WorA/01",
-				"day": 4,
-				"start": "16:00",
-				"finish": "17:00",
-				"weeks": "30\u201135,38\u201142",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS2248_S2-WorA/02",
-				"day": 1,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "30\u201135,38\u201142",
-				"activity": "WorA",
-				"occurrence": "02",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS2248_S2-WorA/03",
-				"day": 2,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "30\u201135,38\u201142",
-				"activity": "WorA",
-				"occurrence": "03",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS2248_S2-WorA/04",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "30\u201135,38\u201142",
-				"activity": "WorA",
-				"occurrence": "04",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
 	"LAWS4001_S2": {
 		"title": "LAWS4001_S2\u00a0Unravelling Complexity",
 		"id": "LAWS4001_S2",
@@ -519,40 +313,6 @@
 			}
 		]
 	},
-	"LAWS4221_S2": {
-		"title": "LAWS4221_S2\u00a0Income Tax",
-		"id": "LAWS4221_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4221",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4221_S2-SemA/01",
-				"day": 3,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS4221_S2-SemB/01",
-				"day": 4,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			}
-		]
-	},
 	"LAWS4228_S2": {
 		"title": "LAWS4228_S2\u00a0Labour Law",
 		"id": "LAWS4228_S2",
@@ -569,19 +329,6 @@
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
-			},
-			{
-				"name": "LAWS4228_S2-SemA/01",
-				"day": 2,
-				"start": "16:00",
-				"finish": "18:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
@@ -622,19 +369,6 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "LAWS4238_S2-SemA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
 				"name": "LAWS4238_S2-SemB/01",
 				"day": 2,
 				"start": "09:00",
@@ -661,7 +395,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -732,27 +466,6 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
-			}
-		]
-	},
-	"LAWS4256_S2": {
-		"title": "LAWS4256_S2\u00a0Law, Gender Identities and Sexualities",
-		"id": "LAWS4256_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4256",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4256_S2-SemA/01",
-				"day": 1,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
@@ -961,27 +674,6 @@
 			}
 		]
 	},
-	"LAWS4276_S2": {
-		"title": "LAWS4276_S2\u00a0Chinese Law and Society",
-		"id": "LAWS4276_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4276",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4276_S2-SemA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
 	"LAWS4278_S2": {
 		"title": "LAWS4278_S2\u00a0Indigenous Community Legal Clinic",
 		"id": "LAWS4278_S2",
@@ -1079,27 +771,6 @@
 			}
 		]
 	},
-	"LAWS4302_S2": {
-		"title": "LAWS4302_S2\u00a0International Law Clinic",
-		"id": "LAWS4302_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4302",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4302_S2-CliA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "CliA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			}
-		]
-	},
 	"LAWS4304_S2": {
 		"title": "LAWS4304_S2\u00a0Prison Legal Clinic",
 		"id": "LAWS4304_S2",
@@ -1118,27 +789,6 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
-			}
-		]
-	},
-	"LAWS4314_S2": {
-		"title": "LAWS4314_S2\u00a0Sentencing",
-		"id": "LAWS4314_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4314",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4314_S2-SemA/01",
-				"day": 1,
-				"start": "17:00",
-				"finish": "20:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
 			}
 		]
 	},
@@ -1177,32 +827,6 @@
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
-			},
-			{
-				"name": "LAWS6101_S2-SemA/02",
-				"day": 3,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "02",
-				"location": "Marie Reay 5.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "LAWS6101_S2-WorA/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "34,38",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
@@ -1222,105 +846,6 @@
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
-			}
-		]
-	},
-	"LAWS6202_S2": {
-		"title": "LAWS6202_S2\u00a0Commonwealth Constitutional Law",
-		"id": "LAWS6202_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6202",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS6202_S2-SemA/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS6202_S2-SemA/02",
-				"day": 3,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "02",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS6202_S2-SemA/03",
-				"day": 3,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "03",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS6202_S2-SemA/04",
-				"day": 2,
-				"start": "16:00",
-				"finish": "17:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "04",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS6202_S2-SemA/05",
-				"day": 3,
-				"start": "16:00",
-				"finish": "17:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "05",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS6202_S2-SemA/06",
-				"day": 3,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "06",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS6202_S2-SemA/07",
-				"day": 2,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "38\u201143",
-				"activity": "SemA",
-				"occurrence": "07",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
 			}
 		]
 	},
@@ -1808,27 +1333,6 @@
 			}
 		]
 	},
-	"LAWS6302_S2": {
-		"title": "LAWS6302_S2\u00a0International Law Clinic",
-		"id": "LAWS6302_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6302",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS6302_S2-CliA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "CliA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			}
-		]
-	},
 	"LAWS6304_S2": {
 		"title": "LAWS6304_S2\u00a0Prison Legal Clinic",
 		"id": "LAWS6304_S2",
@@ -1880,27 +1384,6 @@
 			}
 		]
 	},
-	"LAWS8214_S2": {
-		"title": "LAWS8214_S2\u00a0Sentencing",
-		"id": "LAWS8214_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8214",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS8214_S2-SemA/01",
-				"day": 1,
-				"start": "17:00",
-				"finish": "20:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			}
-		]
-	},
 	"LAWS8234_S2": {
 		"title": "LAWS8234_S2\u00a0International and Comparative Human Rights Law_Online",
 		"id": "LAWS8234_S2",
@@ -1936,48 +1419,6 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
-			}
-		]
-	},
-	"LAWS8256_S2": {
-		"title": "LAWS8256_S2\u00a0Law, Gender Identities and Sexualities",
-		"id": "LAWS8256_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8256",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS8256_S2-SemA/01",
-				"day": 1,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
-	"LAWS8276_S2": {
-		"title": "LAWS8276_S2\u00a0Chinese Law and Society",
-		"id": "LAWS8276_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8276",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS8276_S2-SemA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
