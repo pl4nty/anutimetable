@@ -2429,8 +2429,8 @@
 				"weeks": "17",
 				"activity": "StuA",
 				"occurrence": "02",
-				"location": " on campus",
-				"locationID": ""
+				"location": "SOA&D Sculpture Drawing Room G.68",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			}
 		]
 	},
@@ -2748,6 +2748,17 @@
 				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
 				"lat": "-35.2805750000",
 				"lon": "149.1214870000"
+			},
+			{
+				"name": "ARTV2506_S1-StuMakA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "StuMakA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
 			}
 		]
 	},
@@ -31646,6 +31657,19 @@
 				"lon": "149.124005"
 			},
 			{
+				"name": "ECON2125_S1-TutA/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "11",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "Marie Reay 3.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "ECON2125_S1-TutA/02",
 				"day": 3,
 				"start": "16:00",
@@ -31683,6 +31707,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
+			},
+			{
+				"name": "ECON2125_S1-TutA/04",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "11",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "Marie Reay 3.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "ECON2125_S1-TutA/05",
@@ -32584,6 +32621,19 @@
 				"lon": "149.124005"
 			},
 			{
+				"name": "ECON6012_S1-TutA/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "11",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "Marie Reay 3.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "ECON6012_S1-TutA/02",
 				"day": 3,
 				"start": "16:00",
@@ -32621,6 +32671,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
+			},
+			{
+				"name": "ECON6012_S1-TutA/04",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "11",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "Marie Reay 3.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "ECON6012_S1-TutA/05",
@@ -55238,8 +55301,8 @@
 			{
 				"name": "INTR8082_S1-SemMakA/01",
 				"day": 3,
-				"start": "14:00",
-				"finish": "17:00",
+				"start": "15:00",
+				"finish": "18:00",
 				"weeks": "13",
 				"activity": "SemMakA",
 				"occurrence": "01",
