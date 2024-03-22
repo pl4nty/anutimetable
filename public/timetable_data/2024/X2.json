@@ -900,7 +900,7 @@
 		"classes": [
 			{
 				"name": "ENVS3029_X2-FieA/01",
-				"day": 5,
+				"day": 4,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "14",
@@ -911,7 +911,7 @@
 			},
 			{
 				"name": "ENVS3029_X2-FieB/01",
-				"day": 6,
+				"day": 5,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "14",
@@ -922,10 +922,10 @@
 			},
 			{
 				"name": "ENVS3029_X2-FieC/01",
-				"day": 0,
+				"day": 6,
 				"start": "09:00",
 				"finish": "16:00",
-				"weeks": "15",
+				"weeks": "14",
 				"activity": "FieC",
 				"occurrence": "01",
 				"location": " off campus Kiola",
@@ -933,7 +933,7 @@
 			},
 			{
 				"name": "ENVS3029_X2-FieD/01",
-				"day": 1,
+				"day": 0,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "15",
@@ -1067,7 +1067,7 @@
 		"classes": [
 			{
 				"name": "ENVS6529_X2-FieA/01",
-				"day": 5,
+				"day": 4,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "14",
@@ -1078,7 +1078,7 @@
 			},
 			{
 				"name": "ENVS6529_X2-FieB/01",
-				"day": 6,
+				"day": 5,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "14",
@@ -1089,10 +1089,10 @@
 			},
 			{
 				"name": "ENVS6529_X2-FieC/01",
-				"day": 0,
+				"day": 6,
 				"start": "09:00",
 				"finish": "16:00",
-				"weeks": "15",
+				"weeks": "14",
 				"activity": "FieC",
 				"occurrence": "01",
 				"location": " off campus Kiola",
@@ -1100,7 +1100,7 @@
 			},
 			{
 				"name": "ENVS6529_X2-FieD/01",
-				"day": 1,
+				"day": 0,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "15",
@@ -2740,10 +2740,8 @@
 				"weeks": "16",
 				"activity": "LetA",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": " AIATSIS Mabo Room, 51 Lawson Crescent, Acton Peninsula off campus",
+				"locationID": ""
 			},
 			{
 				"name": "SOCR8202_X2-LetB/01",
@@ -2753,10 +2751,8 @@
 				"weeks": "16",
 				"activity": "LetB",
 				"occurrence": "01",
-				"location": "DA Brown Rm 110/108",
-				"locationID": "http://www.anu.edu.au/maps#show=29013",
-				"lat": "-35.27695",
-				"lon": "149.115437"
+				"location": " AIATSIS Mabo Room, 51 Lawson Crescent, Acton Peninsula off campus",
+				"locationID": ""
 			},
 			{
 				"name": "SOCR8202_X2-LetC/01",
@@ -2766,10 +2762,8 @@
 				"weeks": "16",
 				"activity": "LetC",
 				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
+				"location": " AIATSIS Mabo Room, 51 Lawson Crescent, Acton Peninsula off campus",
+				"locationID": ""
 			},
 			{
 				"name": "SOCR8202_X2-LetD/01",
@@ -2779,10 +2773,8 @@
 				"weeks": "16",
 				"activity": "LetD",
 				"occurrence": "01",
-				"location": "PSYC G8",
-				"locationID": "http://www.anu.edu.au/maps#show=11424",
-				"lat": "-35.274459",
-				"lon": "149.117814"
+				"location": " AIATSIS Mabo Room, 51 Lawson Crescent, Acton Peninsula off campus",
+				"locationID": ""
 			},
 			{
 				"name": "SOCR8202_X2-LetE/01",
@@ -2792,10 +2784,8 @@
 				"weeks": "17",
 				"activity": "LetE",
 				"occurrence": "01",
-				"location": "Gould Seminar Room 235",
-				"locationID": "http://www.anu.edu.au/maps#show=11364",
-				"lat": "-35.276464",
-				"lon": "149.115926"
+				"location": " AIATSIS Mabo Room, 51 Lawson Crescent, Acton Peninsula off campus",
+				"locationID": ""
 			}
 		]
 	},
