@@ -17549,13 +17549,26 @@
 				"day": 0,
 				"start": "11:00",
 				"finish": "12:30",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Coombs Seminar Room F 3.304",
 				"locationID": "http://www.anu.edu.au/maps#show=11281",
 				"lat": "-35.281813",
 				"lon": "149.120055"
+			},
+			{
+				"name": "CHIN3024_S1-LecA/01",
+				"day": 0,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "13,16\u201121",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "CHIN3024_S1-TutA/01",
@@ -58953,6 +58966,19 @@
 				"lon": "149.115437"
 			},
 			{
+				"name": "LAWS2201_S1-SemA/04",
+				"day": 3,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "13",
+				"activity": "SemA",
+				"occurrence": "04",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
 				"name": "LAWS2201_S1-SemA/05",
 				"day": 2,
 				"start": "18:00",
@@ -61890,6 +61916,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=29013",
 				"lat": "-35.27695",
 				"lon": "149.115437"
+			},
+			{
+				"name": "LAWS6201_S1-SemA/04",
+				"day": 3,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "13",
+				"activity": "SemA",
+				"occurrence": "04",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "LAWS6201_S1-SemA/05",
@@ -84302,10 +84341,23 @@
 				"day": 3,
 				"start": "17:00",
 				"finish": "18:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "9\u201111,13,16\u201121",
 				"activity": "ComA",
 				"occurrence": "05",
 				"location": "COP G021",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "STAT1003_S1-ComA/05",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "12",
+				"activity": "ComA",
+				"occurrence": "05",
+				"location": "COP G026",
 				"locationID": "http://www.anu.edu.au/maps#show=28971",
 				"lat": "-35.277985",
 				"lon": "149.123419"
