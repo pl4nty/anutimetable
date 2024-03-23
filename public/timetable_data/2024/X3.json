@@ -688,7 +688,7 @@
 				"weeks": "27\u201132",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -699,7 +699,7 @@
 				"weeks": "27\u201132",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			}
 		]
@@ -1034,71 +1034,8 @@
 			}
 		]
 	},
-	"NSPO8043_X3": {
-		"title": "NSPO8043_X3\u00a0Pandemics, Infectious Diseases and National Security_Online_Online",
-		"id": "NSPO8043_X3",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/NSPO8043",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "NSPO8043_X3-ClaA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "ClaA",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			},
-			{
-				"name": "NSPO8043_X3-ClaA/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "ClaA",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			},
-			{
-				"name": "NSPO8043_X3-ClaA/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "ClaA",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			},
-			{
-				"name": "NSPO8043_X3-ClaA/01",
-				"day": 3,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "ClaA",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			},
-			{
-				"name": "NSPO8043_X3-ClaA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "ClaA",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			}
-		]
-	},
 	"NSPO8048_X3": {
-		"title": "NSPO8048_X3\u00a0The Future of Intelligence_In Person",
+		"title": "NSPO8048_X3\u00a0The Future of Intelligence_Online_Online",
 		"id": "NSPO8048_X3",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/NSPO8048",
 		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
@@ -1106,132 +1043,24 @@
 			{
 				"name": "NSPO8048_X3-SemA/01",
 				"day": 0,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36",
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "36\u201138",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Crawford Acton Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemA/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Crawford Acton Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemA/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Crawford Acton Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemA/01",
-				"day": 3,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Crawford Acton Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Crawford Acton Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "NSPO8048_X3-SemB/01",
 				"day": 0,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "37",
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "36\u201138",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Crawford Lennox Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemB/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "37",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Crawford Lennox Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemB/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "37",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Crawford Lennox Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemB/01",
-				"day": 3,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "37",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Crawford Lennox Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "NSPO8048_X3-SemB/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "37",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Crawford Lennox Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -1391,57 +1220,24 @@
 		"classes": [
 			{
 				"name": "POGO8084_X3-SemA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "POGO8084_X3-SemA/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "POGO8084_X3-SemA/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "POGO8084_X3-SemA/01",
-				"day": 3,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "POGO8084_X3-SemA/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "36\u201137",
+				"start": "09:30",
+				"finish": "16:30",
+				"weeks": "35\u201136,39",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8084_X3-SemB/01",
+				"day": 0,
+				"start": "09:30",
+				"finish": "16:30",
+				"weeks": "36\u201137,39",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
 				"locationID": ""
 			}
 		]
@@ -1492,44 +1288,6 @@
 				"finish": "17:00",
 				"weeks": "38",
 				"activity": "SemD",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			}
-		]
-	},
-	"POGO8230_X3": {
-		"title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_Online_Online",
-		"id": "POGO8230_X3",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/POGO8230",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "POGO8230_X3-WorA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "30\u201131,34",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			}
-		]
-	},
-	"POGO8233_X3": {
-		"title": "POGO8233_X3\u00a0Policy Tools & Mixes_Online_Online",
-		"id": "POGO8233_X3",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/POGO8233",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "POGO8233_X3-LecA/01",
-				"day": 4,
-				"start": "10:00",
-				"finish": "18:00",
-				"weeks": "37\u201139",
-				"activity": "LecA",
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
