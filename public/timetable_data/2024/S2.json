@@ -362,25 +362,6 @@
 			}
 		]
 	},
-	"LAWS4238_S2": {
-		"title": "LAWS4238_S2\u00a0Indigenous Peoples and Law",
-		"id": "LAWS4238_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4238",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4238_S2-SemB/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			}
-		]
-	},
 	"LAWS4251_S2": {
 		"title": "LAWS4251_S2\u00a0Artificial Intelligence and the Law",
 		"id": "LAWS4251_S2",
@@ -397,45 +378,6 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
-			},
-			{
-				"name": "LAWS4251_S2-TutA/01",
-				"day": 1,
-				"start": "17:00",
-				"finish": "18:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "LAW LIBRARY COMP LAB",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS4251_S2-TutA/02",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "02",
-				"location": "LAW LIBRARY COMP LAB",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS4251_S2-TutA/03",
-				"day": 4,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "03",
-				"location": "LAW LIBRARY COMP LAB",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
