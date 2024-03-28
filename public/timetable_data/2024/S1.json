@@ -20327,6 +20327,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=90783",
 				"lat": "-35.2752066",
 				"lon": "149.127504"
+			},
+			{
+				"name": "COMP2100_S1-LecA/01",
+				"day": 3,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "13",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Barry Drive 7-11 Ground Floor",
+				"locationID": "http://www.anu.edu.au/maps#show=90783",
+				"lat": "-35.2752066",
+				"lon": "149.127504"
 			}
 		]
 	},
@@ -26046,6 +26059,19 @@
 				"start": "10:00",
 				"finish": "12:00",
 				"weeks": "9\u201110,12,16\u201119",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Barry Drive 7-11 Ground Floor",
+				"locationID": "http://www.anu.edu.au/maps#show=90783",
+				"lat": "-35.2752066",
+				"lon": "149.127504"
+			},
+			{
+				"name": "COMP6442_S1-LecA/01",
+				"day": 3,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "13",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Barry Drive 7-11 Ground Floor",
@@ -51708,12 +51734,12 @@
 		"dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
-				"name": "FREN3010_S1-AmtA/01",
+				"name": "FREN3010_S1-AsmA/01",
 				"day": 1,
 				"start": "13:00",
 				"finish": "15:00",
 				"weeks": "16",
-				"activity": "AmtA",
+				"activity": "AsmA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.04",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
@@ -51721,12 +51747,12 @@
 				"lon": "149.120685"
 			},
 			{
-				"name": "FREN3010_S1-AmtB/01",
+				"name": "FREN3010_S1-AsmB/01",
 				"day": 2,
 				"start": "13:00",
 				"finish": "15:00",
 				"weeks": "16",
-				"activity": "AmtB",
+				"activity": "AsmB",
 				"occurrence": "01",
 				"location": "Marie Reay 5.03",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
@@ -85698,8 +85724,8 @@
 			{
 				"name": "STAT2008_S1-LecA/01",
 				"day": 4,
-				"start": "20:00",
-				"finish": "22:00",
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -86117,8 +86143,8 @@
 			{
 				"name": "STAT2014_S1-LecA/01",
 				"day": 4,
-				"start": "20:00",
-				"finish": "22:00",
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -87306,8 +87332,8 @@
 			{
 				"name": "STAT6014_S1-LecA/01",
 				"day": 4,
-				"start": "20:00",
-				"finish": "22:00",
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
