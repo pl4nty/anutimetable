@@ -23729,6 +23729,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=28991",
 				"lat": "-35.274397",
 				"lon": "149.119323"
+			},
+			{
+				"name": "COMP4600_S1-TutA/02",
+				"day": 4,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "Birch 1.33 Teaching Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			}
 		]
 	},
@@ -28069,6 +28082,19 @@
 				"activity": "TutA",
 				"occurrence": "02",
 				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
+			},
+			{
+				"name": "COMP8460_S1-TutA/02",
+				"day": 4,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "Birch 1.33 Teaching Lab",
 				"locationID": "http://www.anu.edu.au/maps#show=28991",
 				"lat": "-35.274397",
 				"lon": "149.119323"
@@ -56031,16 +56057,16 @@
 			},
 			{
 				"name": "INTR8071_S1-SemA/01",
-				"day": 1,
-				"start": "17:00",
-				"finish": "19:00",
+				"day": 0,
+				"start": "15:00",
+				"finish": "17:00",
 				"weeks": "17",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "PSYC G5",
-				"locationID": "http://www.anu.edu.au/maps#show=11424",
-				"lat": "-35.274459",
-				"lon": "149.117814"
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			}
 		]
 	},
