@@ -428,12 +428,23 @@
 			{
 				"name": "IDEC8014_X3-SemA/01",
 				"day": 0,
-				"start": "09:00",
-				"finish": "17:00",
+				"start": "12:00",
+				"finish": "14:00",
 				"weeks": "30\u201135",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "IDEC8014_X3-SemB/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "30\u201135",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " online live",
 				"locationID": ""
 			}
 		]
@@ -449,7 +460,7 @@
 				"day": 1,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "30\u201136",
+				"weeks": "30\u201135",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": " online live",
@@ -460,7 +471,7 @@
 				"day": 3,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "30\u201136",
+				"weeks": "30\u201135",
 				"activity": "SemB",
 				"occurrence": "01",
 				"location": " online live",
@@ -1023,13 +1034,24 @@
 		"classes": [
 			{
 				"name": "LAWS8596_X3-SemA/01",
-				"day": 2,
+				"day": 0,
 				"start": "14:00",
-				"finish": "17:00",
-				"weeks": "30\u201139",
+				"finish": "16:00",
+				"weeks": "30\u201135",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8596_X3-SemB/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "30\u201135",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " online",
 				"locationID": ""
 			}
 		]
