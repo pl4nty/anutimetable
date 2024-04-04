@@ -279,40 +279,6 @@
 			}
 		]
 	},
-	"LAWS4001_S2": {
-		"title": "LAWS4001_S2\u00a0Unravelling Complexity",
-		"id": "LAWS4001_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4001",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4001_S2-SemA/01",
-				"day": 4,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Marie Reay 5.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "LAWS4001_S2-SemB/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Marie Reay 5.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			}
-		]
-	},
 	"LAWS4228_S2": {
 		"title": "LAWS4228_S2\u00a0Labour Law",
 		"id": "LAWS4228_S2",
@@ -454,32 +420,6 @@
 				"finish": "16:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "CliA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			},
-			{
-				"name": "LAWS4267_S2-SemA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "13:00",
-				"weeks": "30",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			},
-			{
-				"name": "LAWS4267_S2-SemB/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "13:00",
-				"weeks": "30",
-				"activity": "SemB",
 				"occurrence": "01",
 				"location": "Law 6.1.20",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
@@ -707,27 +647,6 @@
 				"activity": "CliA",
 				"occurrence": "01",
 				"location": "Law 6.1.19",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			}
-		]
-	},
-	"LAWS4304_S2": {
-		"title": "LAWS4304_S2\u00a0Prison Legal Clinic",
-		"id": "LAWS4304_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4304",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4304_S2-WorA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "13:00",
-				"weeks": "30\u201135",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
@@ -1051,32 +970,6 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
-			},
-			{
-				"name": "LAWS6267_S2-SemA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "13:00",
-				"weeks": "30",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			},
-			{
-				"name": "LAWS6267_S2-SemB/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "13:00",
-				"weeks": "30",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
 			}
 		]
 	},
@@ -1269,27 +1162,6 @@
 				"activity": "CliA",
 				"occurrence": "01",
 				"location": "Law 6.1.19",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			}
-		]
-	},
-	"LAWS6304_S2": {
-		"title": "LAWS6304_S2\u00a0Prison Legal Clinic",
-		"id": "LAWS6304_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6304",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS6304_S2-WorA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "13:00",
-				"weeks": "30\u201135",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Law 6.1.20",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
