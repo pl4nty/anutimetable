@@ -1460,13 +1460,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201150",
+				"weeks": "18\u201127,30\u201139,42\u201148",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 4.04",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "EXTN1006A_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "49\u201150",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
@@ -1502,13 +1515,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201150",
+				"weeks": "18\u201127,30\u201139,42\u201148",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 4.05",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "EXTN1007A_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "49\u201150",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP G039",
+				"locationID": "http://www.anu.edu.au/maps#show=11296",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
@@ -1544,13 +1570,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201150",
+				"weeks": "18\u201127,30\u201139,42\u201148",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 4.03",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "EXTN1008A_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "49\u201150",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "MORAN G009",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			}
 		]
 	},
@@ -1759,13 +1798,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201150",
+				"weeks": "18\u201127,30\u201139,42\u201148",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 3.04",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "EXTN1020A_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "49\u201150",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "MORAN G010",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			}
 		]
 	},
