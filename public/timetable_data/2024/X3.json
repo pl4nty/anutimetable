@@ -991,6 +991,39 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8586_X3-SemD/01",
+				"day": 0,
+				"start": "19:30",
+				"finish": "21:00",
+				"weeks": "31\u201132",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8586_X3-SemE/01",
+				"day": 1,
+				"start": "19:30",
+				"finish": "21:00",
+				"weeks": "30",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8586_X3-SemF/01",
+				"day": 2,
+				"start": "19:30",
+				"finish": "21:00",
+				"weeks": "30\u201131",
+				"activity": "SemF",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
 			}
 		]
 	},
