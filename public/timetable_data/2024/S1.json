@@ -5166,13 +5166,26 @@
 				"day": 4,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "8\u201112,16\u201121",
+				"weeks": "8\u201112",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Hedley Bull Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
 				"lat": "-35.282857",
 				"lon": "149.119686"
+			},
+			{
+				"name": "ASIA9075_S1-SemA/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "16\u201121",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room D 3.204",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
 			}
 		]
 	},
@@ -7934,10 +7947,10 @@
 				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "DA Brown Rm 110/108",
-				"locationID": "http://www.anu.edu.au/maps#show=29013",
-				"lat": "-35.27695",
-				"lon": "149.115437"
+				"location": "RN Robertson Slatyer Room",
+				"locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
+				"lat": "-35.277804",
+				"lon": "149.117146"
 			},
 			{
 				"name": "BIOL3178_S1-PraA/01",
@@ -9930,10 +9943,10 @@
 				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "DA Brown Rm 110/108",
-				"locationID": "http://www.anu.edu.au/maps#show=29013",
-				"lat": "-35.27695",
-				"lon": "149.115437"
+				"location": "RN Robertson Slatyer Room",
+				"locationID": "http://www.anu.edu.au/maps#search=robertson&show=29011",
+				"lat": "-35.277804",
+				"lon": "149.117146"
 			},
 			{
 				"name": "BIOL6178_S1-PraA/01",
@@ -35969,6 +35982,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
+			},
+			{
+				"name": "EMET7001_S1-TutMakA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "16",
+				"activity": "TutMakA",
+				"occurrence": "01",
+				"location": "MORAN G009",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "EMET7001_S1-TutMakA/02",
+				"day": 0,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "16",
+				"activity": "TutMakA",
+				"occurrence": "02",
+				"location": "MORAN G009",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			}
 		]
 	},
@@ -51918,7 +51957,7 @@
 			{
 				"name": "FREN3010_S1-AsmB/01",
 				"day": 2,
-				"start": "13:00",
+				"start": "12:00",
 				"finish": "15:00",
 				"weeks": "16",
 				"activity": "AsmB",
@@ -75326,7 +75365,7 @@
 				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "Coombs Seminar Room D 3.204",
+				"location": "Coombs Seminar Room F 3.304",
 				"locationID": "http://www.anu.edu.au/maps#show=11281",
 				"lat": "-35.281813",
 				"lon": "149.120055"
@@ -84973,13 +85012,26 @@
 				"day": 1,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201113",
 				"activity": "ClaA",
 				"occurrence": "01",
 				"location": "PSYC G6",
 				"locationID": "http://www.anu.edu.au/maps#show=11424",
 				"lat": "-35.274459",
 				"lon": "149.117814"
+			},
+			{
+				"name": "SPAN3001_S1-ClaA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "16\u201121",
+				"activity": "ClaA",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			},
 			{
 				"name": "SPAN3001_S1-ClaB/01",
