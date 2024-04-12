@@ -1323,27 +1323,6 @@
 			}
 		]
 	},
-	"EXTN1003A_X2": {
-		"title": "EXTN1003A_X2\u00a0ANU Extension Continuing Chinese A",
-		"id": "EXTN1003A_X2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/EXTN1003A",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "EXTN1003A_X2-ComA/01",
-				"day": 3,
-				"start": "17:00",
-				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201150",
-				"activity": "ComA",
-				"occurrence": "01",
-				"location": "Han 2.23",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
-			}
-		]
-	},
 	"EXTN1003B_X2": {
 		"title": "EXTN1003B_X2\u00a0ANU Extension Continuing Chinese B",
 		"id": "EXTN1003B_X2",
@@ -1556,40 +1535,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
-			}
-		]
-	},
-	"EXTN1008A_X2": {
-		"title": "EXTN1008A_X2\u00a0ANU Extension Korean Language and Culture A",
-		"id": "EXTN1008A_X2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/EXTN1008A",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "EXTN1008A_X2-LecA/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201148",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Marie Reay 4.03",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "EXTN1008A_X2-LecA/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "19:00",
-				"weeks": "49\u201150",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "MORAN G009",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
 			}
 		]
 	},
