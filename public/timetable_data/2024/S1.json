@@ -3298,11 +3298,22 @@
 				"day": 2,
 				"start": "10:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201113",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 1_G52",
 				"locationID": "http://soa.anu.edu.au/foundation/map"
+			},
+			{
+				"name": "ARTV8041_S1-SemA/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "16\u201121",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "SOA&D Gold & Silversmithing First floor Seminar 1.51",
+				"locationID": "http://soa.anu.edu.au/gold-and-silversmithing/map"
 			}
 		]
 	},
@@ -6627,6 +6638,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=90783",
 				"lat": "-35.2752066",
 				"lon": "149.127504"
+			},
+			{
+				"name": "BIOL1008_S1-AsmA/02",
+				"day": 0,
+				"start": "15:30",
+				"finish": "18:00",
+				"weeks": "16",
+				"activity": "AsmA",
+				"occurrence": "02",
+				"location": "Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
+			},
+			{
+				"name": "BIOL1008_S1-AsmA/03",
+				"day": 0,
+				"start": "15:30",
+				"finish": "18:00",
+				"weeks": "16",
+				"activity": "AsmA",
+				"occurrence": "03",
+				"location": "Gould Seminar Room 246",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
 			},
 			{
 				"name": "BIOL1008_S1-ComA/01",
@@ -24746,9 +24783,9 @@
 			},
 			{
 				"name": "COMP6250_S1-TutA/17",
-				"day": 4,
-				"start": "15:00",
-				"finish": "16:00",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
 				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "17",
@@ -30238,11 +30275,22 @@
 				"day": 0,
 				"start": "14:00",
 				"finish": "18:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113",
 				"activity": "StuA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 1_G52; Peter Karmel 2.29 (Lab 2); Peter Karmel 2.28 (Lab 1)",
 				"locationID": "http://soa.anu.edu.au/foundation/map"
+			},
+			{
+				"name": "DESN2001_S1-StuA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "16\u201121",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -30453,11 +30501,22 @@
 				"day": 0,
 				"start": "14:00",
 				"finish": "18:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113",
 				"activity": "StuA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 1_G52; Peter Karmel 2.29 (Lab 2); Peter Karmel 2.28 (Lab 1)",
 				"locationID": "http://soa.anu.edu.au/foundation/map"
+			},
+			{
+				"name": "DESN6001_S1-StuA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "16\u201121",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -36805,7 +36864,7 @@
 				"day": 1,
 				"start": "15:00",
 				"finish": "17:00",
-				"weeks": "8,13,18,21",
+				"weeks": "8,13,18\u201119,21",
 				"activity": "LetA",
 				"occurrence": "01",
 				"location": "RSES 2_Jaeger 8 1.11",
@@ -37330,7 +37389,7 @@
 				"day": 1,
 				"start": "15:00",
 				"finish": "17:00",
-				"weeks": "8,13,18,21",
+				"weeks": "8,13,18\u201119,21",
 				"activity": "LetA",
 				"occurrence": "01",
 				"location": "RSES 2_Jaeger 8 1.11",
@@ -43682,9 +43741,9 @@
 			},
 			{
 				"name": "ENGN6250_S1-TutA/17",
-				"day": 4,
-				"start": "15:00",
-				"finish": "16:00",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
 				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "17",
@@ -53988,7 +54047,7 @@
 				"day": 4,
 				"start": "09:00",
 				"finish": "10:00",
-				"weeks": "8\u201110,16\u201119",
+				"weeks": "8\u201110,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.06",
@@ -54018,19 +54077,6 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.06",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "HUMN3001_S1-LecA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "20\u201121",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Marie Reay 3.03",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
@@ -54126,7 +54172,7 @@
 				"day": 4,
 				"start": "09:00",
 				"finish": "10:00",
-				"weeks": "8\u201110,16\u201119",
+				"weeks": "8\u201110,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.06",
@@ -54156,19 +54202,6 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.06",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "HUMN6003_S1-LecA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "20\u201121",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Marie Reay 3.03",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
@@ -65914,10 +65947,10 @@
 				"weeks": "13,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Barry Drive 7-11 First Floor Left",
+				"locationID": "http://www.anu.edu.au/maps#show=90783",
+				"lat": "-35.2752066",
+				"lon": "149.127504"
 			},
 			{
 				"name": "MATH1014_S1-LecB/01",
@@ -89663,6 +89696,19 @@
 				"lon": "149.120055"
 			},
 			{
+				"name": "STST1001_S1-TutA/06",
+				"day": 4,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "06",
+				"location": "Coombs Seminar Room F 3.304",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
 				"name": "STST1001_S1-TutA/07",
 				"day": 3,
 				"start": "09:00",
@@ -89676,6 +89722,19 @@
 				"lon": "149.120055"
 			},
 			{
+				"name": "STST1001_S1-TutA/07",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "07",
+				"location": "CRISP G017",
+				"locationID": "http://www.anu.edu.au/maps#show=11298",
+				"lat": "-35.277419",
+				"lon": "149.123165"
+			},
+			{
 				"name": "STST1001_S1-TutA/08",
 				"day": 3,
 				"start": "10:00",
@@ -89684,6 +89743,19 @@
 				"activity": "TutA",
 				"occurrence": "08",
 				"location": "Coombs Seminar Room G 3.314",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "STST1001_S1-TutA/08",
+				"day": 4,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "08",
+				"location": "Coombs Seminar Room F 3.304",
 				"locationID": "http://www.anu.edu.au/maps#show=11281",
 				"lat": "-35.281813",
 				"lon": "149.120055"
@@ -89702,11 +89774,37 @@
 				"lon": "149.120055"
 			},
 			{
+				"name": "STST1001_S1-TutA/09",
+				"day": 4,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "09",
+				"location": "Coombs Seminar Room B 3.104",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
 				"name": "STST1001_S1-TutA/10",
 				"day": 3,
 				"start": "17:00",
 				"finish": "18:00",
 				"weeks": "8\u201113,16,18\u201121",
+				"activity": "TutA",
+				"occurrence": "10",
+				"location": "Coombs Seminar Room B 3.104",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "STST1001_S1-TutA/10",
+				"day": 4,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "10",
 				"location": "Coombs Seminar Room B 3.104",
