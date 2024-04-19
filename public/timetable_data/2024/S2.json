@@ -1,4 +1,169 @@
 {
+	"CHEM2208_S2": {
+		"title": "CHEM2208_S2\u00a0Chemical Biology 2",
+		"id": "CHEM2208_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM2208",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM2208_S2-PraA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "STB_T4 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
+				"name": "CHEM2208_S2-PraA/02",
+				"day": 4,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "02",
+				"location": "STB_T4 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			}
+		]
+	},
+	"CHEM2213_S2": {
+		"title": "CHEM2213_S2\u00a0Materials Chemistry",
+		"id": "CHEM2213_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM2213",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM2213_S2-PraA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			}
+		]
+	},
+	"CHEM3206_S2": {
+		"title": "CHEM3206_S2\u00a0Catalysis in Chemistry",
+		"id": "CHEM3206_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM3206",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM3206_S2-PraA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
+				"name": "CHEM3206_S2-PraA/02",
+				"day": 4,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "02",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			}
+		]
+	},
+	"CHEM6206_S2": {
+		"title": "CHEM6206_S2\u00a0Catalysis in Chemistry",
+		"id": "CHEM6206_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM6206",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM6206_S2-PraA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
+				"name": "CHEM6206_S2-PraA/02",
+				"day": 4,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "02",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			}
+		]
+	},
+	"CHEM6213_S2": {
+		"title": "CHEM6213_S2\u00a0Materials Chemistry",
+		"id": "CHEM6213_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM6213",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM6213_S2-PraA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			}
+		]
+	},
+	"CHEM8031_S2": {
+		"title": "CHEM8031_S2\u00a0Advanced Materials Manufacturing",
+		"id": "CHEM8031_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM8031",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM8031_S2-PraA/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "STB_T7 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			}
+		]
+	},
 	"LAWS1001_S2": {
 		"title": "LAWS1001_S2\u00a0English in a Legal Context",
 		"id": "LAWS1001_S2",
