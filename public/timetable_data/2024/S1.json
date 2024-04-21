@@ -6926,10 +6926,10 @@
 				"weeks": "17",
 				"activity": "ComA",
 				"occurrence": "03",
-				"location": "Marie Reay 4.03",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "Gould Seminar Room 246; Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
 			},
 			{
 				"name": "BIOL2001_S1-LecA/01",
@@ -10540,10 +10540,10 @@
 				"weeks": "17",
 				"activity": "ComA",
 				"occurrence": "03",
-				"location": "Marie Reay 4.03",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "Gould Seminar Room 246; Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
 			},
 			{
 				"name": "BIOL6200_S1-LecA/01",
@@ -18808,15 +18808,15 @@
 			{
 				"name": "COMP1100_S1-ComMakA/08",
 				"day": 1,
-				"start": "16:00",
-				"finish": "18:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "17",
 				"activity": "ComMakA",
 				"occurrence": "08",
-				"location": "HN Lab 2",
-				"locationID": "http://www.anu.edu.au/maps#show=102872",
-				"lat": "-35.275532",
-				"lon": "149.1191"
+				"location": "CSIT N109",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
 			},
 			{
 				"name": "COMP1100_S1-ComMakA/09",
@@ -19565,15 +19565,15 @@
 			{
 				"name": "COMP1130_S1-ComMakA/08",
 				"day": 1,
-				"start": "16:00",
-				"finish": "18:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "17",
 				"activity": "ComMakA",
 				"occurrence": "08",
-				"location": "HN Lab 2",
-				"locationID": "http://www.anu.edu.au/maps#show=102872",
-				"lat": "-35.275532",
-				"lon": "149.1191"
+				"location": "CSIT N109",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
 			},
 			{
 				"name": "COMP1130_S1-ComMakA/09",
