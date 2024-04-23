@@ -36106,6 +36106,19 @@
 				"lon": "149.122565"
 			},
 			{
+				"name": "EMET7001_S1-TutA/03",
+				"day": 2,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Marie Reay 5.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "EMET7001_S1-TutA/04",
 				"day": 3,
 				"start": "15:00",
@@ -55021,6 +55034,17 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			},
+			{
+				"name": "IDEC8081_S1-SemMakA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "18",
+				"activity": "SemMakA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -55594,6 +55618,32 @@
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "Arndt TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
+				"name": "INFS2005_S1-TutMakA/02",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "TutMakA",
+				"occurrence": "02",
+				"location": "Arndt TR5",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
+				"name": "INFS2005_S1-TutMakA/03",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "17",
+				"activity": "TutMakA",
+				"occurrence": "03",
+				"location": "Arndt TR5",
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
@@ -81950,7 +82000,7 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "15:00",
-				"weeks": "16\u201121",
+				"weeks": "16,18\u201121",
 				"activity": "SemA",
 				"occurrence": "05",
 				"location": "MORAN G007",
@@ -82048,6 +82098,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "POLS3001_S1-SemMakA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "18",
+				"activity": "SemMakA",
+				"occurrence": "01",
+				"location": "MORAN G007",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			}
 		]
 	},
