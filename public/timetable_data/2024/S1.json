@@ -2951,10 +2951,8 @@
 				"weeks": "16\u201121",
 				"activity": "StuA",
 				"occurrence": "01",
-				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
-				"lat": "-35.2805750000",
-				"lon": "149.1214870000"
+				"location": "SOA&D Gold & Silversmithing Ground Floor Benches G.61E",
+				"locationID": "http://soa.anu.edu.au/gold-and-silversmithing/map"
 			}
 		]
 	},
@@ -36108,15 +36106,15 @@
 			{
 				"name": "EMET7001_S1-TutA/03",
 				"day": 2,
-				"start": "16:00",
-				"finish": "17:00",
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "Marie Reay 5.04",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "CBE LT 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "EMET7001_S1-TutA/04",
@@ -48949,7 +48947,7 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "15:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113,16,18\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "LAW T",
@@ -48963,6 +48961,19 @@
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "11",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "STB_S1 (3.07)",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
+				"name": "FINM4015_S1-LecA/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "STB_S1 (3.07)",
@@ -51021,7 +51032,7 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "15:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113,16,18\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "LAW T",
@@ -51035,6 +51046,19 @@
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "11",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "STB_S1 (3.07)",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
+				"name": "FINM8004_S1-LecA/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "17",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "STB_S1 (3.07)",
@@ -86834,19 +86858,6 @@
 				"lon": "149.123165"
 			},
 			{
-				"name": "STAT1008_S1-TutA/25",
-				"day": 1,
-				"start": "17:00",
-				"finish": "18:00",
-				"weeks": "9\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "25",
-				"location": "CRISP G018",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
-			},
-			{
 				"name": "STAT1008_S1-TutA/26",
 				"day": 4,
 				"start": "08:00",
@@ -88408,13 +88419,26 @@
 				"day": 3,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "9\u201113,16,18\u201121",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "HA 2175",
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "STAT3057_S1-TutA/03",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "MORAN G009",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			}
 		]
 	},
