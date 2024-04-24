@@ -1263,13 +1263,24 @@
 				"day": 1,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "18\u201127,30\u201139,42\u201150",
+				"weeks": "18\u201124",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Physics Studio G1",
 				"locationID": "http://www.anu.edu.au/maps#show=11423",
 				"lat": "-35.275052",
 				"lon": "149.118554"
+			},
+			{
+				"name": "EXTN1001A_X2-LecA/01",
+				"day": 1,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "25\u201127,30\u201139,42\u201150",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -1284,13 +1295,24 @@
 				"day": 3,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "5\u201115,18\u201127,30\u201139",
+				"weeks": "5\u201115,18\u201124",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Physics Studio G1",
 				"locationID": "http://www.anu.edu.au/maps#show=11423",
 				"lat": "-35.275052",
 				"lon": "149.118554"
+			},
+			{
+				"name": "EXTN1001B_X2-LecA/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "25\u201127,30\u201139",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -1360,13 +1382,26 @@
 				"day": 3,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "5\u201115,18\u201127,30\u201139",
+				"weeks": "5\u201115,18\u201125",
 				"activity": "ComA",
 				"occurrence": "01",
 				"location": "Peter Karmel 2.29 (Lab 2)",
 				"locationID": "http://www.anu.edu.au/maps#show=11368",
 				"lat": "-35.280194",
 				"lon": "149.123822"
+			},
+			{
+				"name": "EXTN1003B_X2-ComA/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "26\u201127,30\u201139",
+				"activity": "ComA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room B 3.104",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
 			}
 		]
 	},
@@ -1690,13 +1725,24 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "5\u201115,18\u201127,30\u201139",
+				"weeks": "5\u201115,18\u201124",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Physics Studio G1",
 				"locationID": "http://www.anu.edu.au/maps#show=11423",
 				"lat": "-35.275052",
 				"lon": "149.118554"
+			},
+			{
+				"name": "EXTN1011B_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "25\u201127,30\u201139",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -2113,7 +2159,7 @@
 				"weeks": "18",
 				"activity": "WorA",
 				"occurrence": "01",
-				"location": "Moot Court T2",
+				"location": "Moot Court T2; Moot Court",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
@@ -2126,7 +2172,7 @@
 				"weeks": "18",
 				"activity": "WorB",
 				"occurrence": "01",
-				"location": "Moot Court T2",
+				"location": "Moot Court T2; Moot Court",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
@@ -2139,7 +2185,7 @@
 				"weeks": "18",
 				"activity": "WorC",
 				"occurrence": "01",
-				"location": "Moot Court T2",
+				"location": "Moot Court T2; Moot Court",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
@@ -2152,7 +2198,7 @@
 				"weeks": "18",
 				"activity": "WorD",
 				"occurrence": "01",
-				"location": "Moot Court T2",
+				"location": "Moot Court T2; Moot Court",
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
