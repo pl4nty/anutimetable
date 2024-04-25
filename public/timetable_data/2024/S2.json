@@ -1,4 +1,64 @@
 {
+	"CHEM1201_S2": {
+		"title": "CHEM1201_S2\u00a0Chemistry 2",
+		"id": "CHEM1201_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CHEM1201",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CHEM1201_S2-LecA/01",
+				"day": 0,
+				"start": "08:00",
+				"finish": "09:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			},
+			{
+				"name": "CHEM1201_S2-LecB/01",
+				"day": 0,
+				"start": "13:30",
+				"finish": "15:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			},
+			{
+				"name": "CHEM1201_S2-LecC/01",
+				"day": 1,
+				"start": "08:30",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			},
+			{
+				"name": "CHEM1201_S2-LecD/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			}
+		]
+	},
 	"CHEM2208_S2": {
 		"title": "CHEM2208_S2\u00a0Chemical Biology 2",
 		"id": "CHEM2208_S2",
@@ -204,12 +264,57 @@
 			}
 		]
 	},
+	"LAWS1202_S2": {
+		"title": "LAWS1202_S2\u00a0Lawyers Justice and Ethics",
+		"id": "LAWS1202_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS1202",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS1202_S2-LecA/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "LAWS1202_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "34",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
+			}
+		]
+	},
 	"LAWS1204_S2": {
 		"title": "LAWS1204_S2\u00a0Contracts",
 		"id": "LAWS1204_S2",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS1204",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "LAWS1204_S2-LecA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
 			{
 				"name": "LAWS1204_S2-PreLecA/01",
 				"day": 6,
@@ -223,12 +328,80 @@
 			}
 		]
 	},
+	"LAWS2202_S2": {
+		"title": "LAWS2202_S2\u00a0Commonwealth Constitutional Law",
+		"id": "LAWS2202_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2202",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS2202_S2-LecA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "15:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			}
+		]
+	},
+	"LAWS2205_S2": {
+		"title": "LAWS2205_S2\u00a0Equity and Trusts",
+		"id": "LAWS2205_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2205",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS2205_S2-LecA/01",
+				"day": 1,
+				"start": "08:00",
+				"finish": "09:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "LAWS2205_S2-LecB/01",
+				"day": 3,
+				"start": "08:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			}
+		]
+	},
 	"LAWS2207_S2": {
 		"title": "LAWS2207_S2\u00a0Evidence",
 		"id": "LAWS2207_S2",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2207",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "LAWS2207_S2-LecA/01",
+				"day": 0,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			},
 			{
 				"name": "LAWS2207_S2-TutA/01",
 				"day": 1,
@@ -478,6 +651,80 @@
 			}
 		]
 	},
+	"LAWS2248_S2": {
+		"title": "LAWS2248_S2\u00a0Legal Research and Writing",
+		"id": "LAWS2248_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2248",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS2248_S2-SemA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			}
+		]
+	},
+	"LAWS2249_S2": {
+		"title": "LAWS2249_S2\u00a0Legal Theory",
+		"id": "LAWS2249_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2249",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS2249_S2-LecA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			}
+		]
+	},
+	"LAWS2250_S2": {
+		"title": "LAWS2250_S2\u00a0International Law",
+		"id": "LAWS2250_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS2250",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS2250_S2-LecA/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "LAWS2250_S2-WorA/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "31",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
+			}
+		]
+	},
 	"LAWS4001_S2": {
 		"title": "LAWS4001_S2\u00a0Unravelling Complexity",
 		"id": "LAWS4001_S2",
@@ -509,6 +756,27 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			}
+		]
+	},
+	"LAWS4202_S2": {
+		"title": "LAWS4202_S2\u00a0Media Law",
+		"id": "LAWS4202_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4202",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS4202_S2-SemA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			}
 		]
 	},
@@ -935,6 +1203,27 @@
 			}
 		]
 	},
+	"LAWS4276_S2": {
+		"title": "LAWS4276_S2\u00a0Chinese Law and Society",
+		"id": "LAWS4276_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4276",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS4276_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			}
+		]
+	},
 	"LAWS4278_S2": {
 		"title": "LAWS4278_S2\u00a0Indigenous Community Legal Clinic",
 		"id": "LAWS4278_S2",
@@ -1008,6 +1297,27 @@
 				"occurrence": "01",
 				"location": " off campus",
 				"locationID": ""
+			}
+		]
+	},
+	"LAWS4280_S2": {
+		"title": "LAWS4280_S2\u00a0Law and the Humanities",
+		"id": "LAWS4280_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4280",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS4280_S2-WorA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "PHYS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11425",
+				"lat": "-35.275316",
+				"lon": "149.1183"
 			}
 		]
 	},
@@ -1091,12 +1401,57 @@
 			}
 		]
 	},
+	"LAWS6102_S2": {
+		"title": "LAWS6102_S2\u00a0Lawyers, Justice and Ethics",
+		"id": "LAWS6102_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6102",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS6102_S2-LecA/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "LAWS6102_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "34",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
+			}
+		]
+	},
 	"LAWS6104_S2": {
 		"title": "LAWS6104_S2\u00a0Contracts",
 		"id": "LAWS6104_S2",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6104",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "LAWS6104_S2-LecA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
 			{
 				"name": "LAWS6104_S2-PreLecA/01",
 				"day": 6,
@@ -1110,12 +1465,80 @@
 			}
 		]
 	},
+	"LAWS6202_S2": {
+		"title": "LAWS6202_S2\u00a0Commonwealth Constitutional Law",
+		"id": "LAWS6202_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6202",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS6202_S2-LecA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "15:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			}
+		]
+	},
+	"LAWS6205_S2": {
+		"title": "LAWS6205_S2\u00a0Equity and Trusts",
+		"id": "LAWS6205_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6205",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS6205_S2-LecA/01",
+				"day": 1,
+				"start": "08:00",
+				"finish": "09:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "LAWS6205_S2-LecB/01",
+				"day": 3,
+				"start": "08:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			}
+		]
+	},
 	"LAWS6207_S2": {
 		"title": "LAWS6207_S2\u00a0Evidence",
 		"id": "LAWS6207_S2",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6207",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "LAWS6207_S2-LecA/01",
+				"day": 0,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COOMBS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11651",
+				"lat": "-35.282454",
+				"lon": "149.119653"
+			},
 			{
 				"name": "LAWS6207_S2-TutA/01",
 				"day": 1,
@@ -1362,6 +1785,59 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11651",
 				"lat": "-35.282454",
 				"lon": "149.119653"
+			}
+		]
+	},
+	"LAWS6249_S2": {
+		"title": "LAWS6249_S2\u00a0Legal Theory",
+		"id": "LAWS6249_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6249",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS6249_S2-LecA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			}
+		]
+	},
+	"LAWS6250_S2": {
+		"title": "LAWS6250_S2\u00a0International Law",
+		"id": "LAWS6250_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6250",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS6250_S2-LecA/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "LAWS6250_S2-WorA/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "31",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -1677,6 +2153,27 @@
 			}
 		]
 	},
+	"LAWS8276_S2": {
+		"title": "LAWS8276_S2\u00a0Chinese Law and Society",
+		"id": "LAWS8276_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8276",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS8276_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			}
+		]
+	},
 	"LAWS8339_S2": {
 		"title": "LAWS8339_S2\u00a0The Rule of Law and Constitutionalism in Greater China_Online",
 		"id": "LAWS8339_S2",
@@ -1693,6 +2190,27 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			}
+		]
+	},
+	"LAWS8402_S2": {
+		"title": "LAWS8402_S2\u00a0Media Law",
+		"id": "LAWS8402_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8402",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS8402_S2-SemA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			}
 		]
 	},
@@ -1753,6 +2271,27 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			}
+		]
+	},
+	"LAWS8480_S2": {
+		"title": "LAWS8480_S2\u00a0Law and the Humanities",
+		"id": "LAWS8480_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8480",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS8480_S2-WorA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "PHYS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11425",
+				"lat": "-35.275316",
+				"lon": "149.1183"
 			}
 		]
 	},
