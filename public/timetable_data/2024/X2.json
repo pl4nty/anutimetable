@@ -1279,8 +1279,10 @@
 				"weeks": "25\u201127,30\u201139,42\u201150",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
 			}
 		]
 	},
@@ -1311,8 +1313,10 @@
 				"weeks": "25\u201127,30\u201139",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "HN 1.58",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			}
 		]
 	},
