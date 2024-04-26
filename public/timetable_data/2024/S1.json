@@ -56188,7 +56188,7 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "8\u201113,16",
+				"weeks": "8\u201113,16\u201117",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Barry Drive 7-11 First Floor Left",
@@ -56198,16 +56198,16 @@
 			},
 			{
 				"name": "INFS8210_S1-WorA/01",
-				"day": 1,
-				"start": "12:00",
-				"finish": "14:00",
-				"weeks": "17\u201121",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "18\u201121",
 				"activity": "WorA",
 				"occurrence": "01",
-				"location": "Barry Drive 7-11 First Floor Left",
-				"locationID": "http://www.anu.edu.au/maps#show=90783",
-				"lat": "-35.2752066",
-				"lon": "149.127504"
+				"location": "COP T",
+				"locationID": "http://www.anu.edu.au/maps#show=28973",
+				"lat": "-35.277433",
+				"lon": "149.123538"
 			}
 		]
 	},
@@ -57563,6 +57563,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2024/course/JPNS2012",
 		"dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
 		"classes": [
+			{
+				"name": "JPNS2012_S1-LecA/01",
+				"day": 3,
+				"start": "16:30",
+				"finish": "17:30",
+				"weeks": "19",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "BPB W121",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
 			{
 				"name": "JPNS2012_S1-SemA/01",
 				"day": 0,
@@ -64900,10 +64913,23 @@
 				"day": 0,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113,16\u201117",
 				"activity": "LetA",
 				"occurrence": "01",
 				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "LING4013_S1-LetA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "18\u201121",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "BPB W303",
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
@@ -65344,10 +65370,23 @@
 				"day": 0,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113,16\u201117",
 				"activity": "LetA",
 				"occurrence": "01",
 				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "LING8032_S1-LetA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "18\u201121",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "BPB W303",
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
@@ -65386,10 +65425,23 @@
 				"day": 0,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201110,12\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113,16\u201117",
 				"activity": "LetA",
 				"occurrence": "01",
 				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "LING9032_S1-LetA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "18\u201121",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "BPB W303",
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
@@ -82125,16 +82177,16 @@
 			},
 			{
 				"name": "POLS3001_S1-SemMakA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "15:00",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "18",
 				"activity": "SemMakA",
 				"occurrence": "01",
-				"location": "MORAN G007",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
