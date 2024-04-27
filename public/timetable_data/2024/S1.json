@@ -17330,6 +17330,19 @@
 		"dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
+				"name": "CHIN2014_S1-AsmA/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "7",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "HA G040",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
 				"name": "CHIN2014_S1-LecA/01",
 				"day": 0,
 				"start": "11:00",
@@ -30361,6 +30374,19 @@
 				"occurrence": "02",
 				"location": " RSSS_Bldg 146_Lectorial 2_Rm 1.23 on campus",
 				"locationID": ""
+			},
+			{
+				"name": "DESN1004_S1-TutA/03",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Peter Karmel 2.28 (Lab 1)",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
 			}
 		]
 	},
@@ -40134,6 +40160,19 @@
 				"weeks": "10,12,16,18\u201120",
 				"activity": "PraA",
 				"occurrence": "05",
+				"location": "Ian Ross R105 (First Year Lab)",
+				"locationID": "http://www.anu.edu.au/maps#show=11303",
+				"lat": "-35.275684",
+				"lon": "149.120161"
+			},
+			{
+				"name": "ENGN2218_S1-PraA/08",
+				"day": 4,
+				"start": "11:00",
+				"finish": "15:00",
+				"weeks": "10,12,16,18\u201121",
+				"activity": "PraA",
+				"occurrence": "08",
 				"location": "Ian Ross R105 (First Year Lab)",
 				"locationID": "http://www.anu.edu.au/maps#show=11303",
 				"lat": "-35.275684",
@@ -54263,6 +54302,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=28991",
 				"lat": "-35.274397",
 				"lon": "149.119323"
+			},
+			{
+				"name": "HLTH3002_S1-TutA/03",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:30",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Florey Teaching & Learning Room 1_2.36",
+				"locationID": "http://www.anu.edu.au/maps#show=29029",
+				"lat": "-35.282847",
+				"lon": "149.114173"
 			}
 		]
 	},
@@ -72517,6 +72569,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11304",
 				"lat": "-35.276172",
 				"lon": "149.11994"
+			},
+			{
+				"name": "MGMT8019_S1-LecA/02",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "LecA",
+				"occurrence": "02",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
@@ -73918,6 +73983,19 @@
 				"finish": "11:00",
 				"weeks": "16\u201121",
 				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Peter Karmel Foster Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "MUSI1113_S1-TutA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Peter Karmel Foster Room",
 				"locationID": "http://www.anu.edu.au/maps#show=11368",
