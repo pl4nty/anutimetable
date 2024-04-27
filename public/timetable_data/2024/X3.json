@@ -1317,6 +1317,46 @@
 			}
 		]
 	},
+	"POGO8230_X3": {
+		"title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_In Person_On Campus",
+		"id": "POGO8230_X3",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/POGO8230",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8230_X3-WorA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "30\u201131,34",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 8",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			}
+		]
+	},
+	"POGO8233_X3": {
+		"title": "POGO8233_X3\u00a0Policy Tools & Mixes_Online_Online",
+		"id": "POGO8233_X3",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/POGO8233",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8233_X3-LecA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "18:00",
+				"weeks": "37\u201139",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
 	"POGO8234_X3": {
 		"title": "POGO8234_X3\u00a0Unpacking Policy Capacity_Online_Online",
 		"id": "POGO8234_X3",
