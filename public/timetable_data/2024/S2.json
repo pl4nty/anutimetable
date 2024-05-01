@@ -502,6 +502,28 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "LAWS1201_S2-ClaA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "31,41",
+				"activity": "ClaA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS1201_S2-ClaA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "ClaA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
 				"name": "LAWS1201_S2-PreLecA/01",
 				"day": 6,
 				"start": "15:00",
@@ -1785,6 +1807,28 @@
 		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS6101",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "LAWS6101_S2-ClaA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "31,41",
+				"activity": "ClaA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS6101_S2-ClaA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "ClaA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
 			{
 				"name": "LAWS6101_S2-PreLecA/01",
 				"day": 6,
