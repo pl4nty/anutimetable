@@ -1745,8 +1745,10 @@
 				"weeks": "25\u201127,30\u201139",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
 			}
 		]
 	},
@@ -2036,13 +2038,26 @@
 				"day": 1,
 				"start": "17:00",
 				"finish": "20:00",
-				"weeks": "10,13,17,19",
+				"weeks": "10,13,17",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Fellows Road Law Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4307_X2-SemA/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "19",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -2057,13 +2072,26 @@
 				"day": 1,
 				"start": "17:00",
 				"finish": "20:00",
-				"weeks": "10,13,17,19",
+				"weeks": "10,13,17",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Fellows Road Law Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS6307_X2-SemA/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "19",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
