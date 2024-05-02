@@ -21,8 +21,8 @@
 			{
 				"name": "CHEM1201_S2-LecB/01",
 				"day": 0,
-				"start": "13:30",
-				"finish": "15:00",
+				"start": "13:00",
+				"finish": "14:30",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "LecB",
 				"occurrence": "01",
@@ -353,19 +353,6 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "CHEM8031_S2-LecA/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Law 6.1.19",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
-			},
-			{
 				"name": "CHEM8031_S2-LecB/01",
 				"day": 4,
 				"start": "14:00",
@@ -414,13 +401,13 @@
 		"classes": [
 			{
 				"name": "CHIN2021_S2-TutA/01",
-				"day": 0,
+				"day": 1,
 				"start": "12:00",
 				"finish": "13:30",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "Coombs Seminar Room B 3.104",
+				"location": "Coombs Seminar Room E 3.214",
 				"locationID": "http://www.anu.edu.au/maps#show=11281",
 				"lat": "-35.281813",
 				"lon": "149.120055"
@@ -1120,40 +1107,6 @@
 				"occurrence": "01",
 				"location": " on campus",
 				"locationID": ""
-			}
-		]
-	},
-	"LAWS4213_S2": {
-		"title": "LAWS4213_S2\u00a0Contemporary Issues in Constitutional Law",
-		"id": "LAWS4213_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4213",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS4213_S2-SemA/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS4213_S2-SemB/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:30",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
@@ -2602,40 +2555,6 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
-			}
-		]
-	},
-	"LAWS8128_S2": {
-		"title": "LAWS8128_S2\u00a0Contemporary Issues in Constitutional Law",
-		"id": "LAWS8128_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8128",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "LAWS8128_S2-SemA/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS8128_S2-SemB/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:30",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
