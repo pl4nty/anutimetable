@@ -427,6 +427,168 @@
 			}
 		]
 	},
+	"CLAS4008_S2": {
+		"title": "CLAS4008_S2\u00a0Topics in Classics",
+		"id": "CLAS4008_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CLAS4008",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CLAS4008_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "30\u201133",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "ADH G12",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "CLAS4008_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "34\u201135,38\u201139",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "ADH G12",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			}
+		]
+	},
+	"CLAS8008_S2": {
+		"title": "CLAS8008_S2\u00a0Topics in Classics",
+		"id": "CLAS8008_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CLAS8008",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CLAS8008_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "30\u201133",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "ADH G12",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "CLAS8008_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "34\u201135,38\u201139",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "ADH G12",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			}
+		]
+	},
+	"DEMO3002_S2": {
+		"title": "DEMO3002_S2\u00a0Demographic Research Internship",
+		"id": "DEMO3002_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/DEMO3002",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "DEMO3002_S2-SemA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Chifley Flex 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11287",
+				"lat": "-35.278182",
+				"lon": "149.120692"
+			}
+		]
+	},
+	"ENGL2222_S2": {
+		"title": "ENGL2222_S2\u00a0Great Writers: Gender, Authorship and History_Great Writers: Queer Edition",
+		"id": "ENGL2222_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ENGL2222",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ENGL2222_S2-LecA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "FSTY T",
+				"locationID": "http://www.anu.edu.au/maps#show=11318",
+				"lat": "-35.277907",
+				"lon": "149.116057"
+			},
+			{
+				"name": "ENGL2222_S2-TutA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "10:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "ENGL2222_S2-TutA/02",
+				"day": 2,
+				"start": "10:30",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "Marie Reay 5.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "ENGL2222_S2-TutA/03",
+				"day": 3,
+				"start": "09:00",
+				"finish": "10:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Marie Reay 4.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "ENGL2222_S2-TutA/04",
+				"day": 3,
+				"start": "10:30",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "Marie Reay 4.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			}
+		]
+	},
 	"ENGL6116_S2": {
 		"title": "ENGL6116_S2\u00a0Televisual: Investigating Narrative Television",
 		"id": "ENGL6116_S2",
@@ -447,6 +609,32 @@
 				"lon": "149.1212115"
 			},
 			{
+				"name": "ENGL6116_S2-TutA/01",
+				"day": 0,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "ADH 144",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "ENGL6116_S2-TutA/02",
+				"day": 0,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "ADH 144",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
 				"name": "ENGL6116_S2-TutA/03",
 				"day": 1,
 				"start": "12:00",
@@ -458,6 +646,118 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
+			},
+			{
+				"name": "ENGL6116_S2-TutA/04",
+				"day": 1,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "ADH 144",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "ENGL6116_S2-TutA/05",
+				"day": 4,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": "ADH 144",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "ENGL6116_S2-TutA/06",
+				"day": 4,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "31\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "06",
+				"location": "ADH 144",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			}
+		]
+	},
+	"ENGL6222_S2": {
+		"title": "ENGL6222_S2\u00a0Great Writers: Gender, Authorship and History",
+		"id": "ENGL6222_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ENGL6222",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ENGL6222_S2-LecA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "FSTY T",
+				"locationID": "http://www.anu.edu.au/maps#show=11318",
+				"lat": "-35.277907",
+				"lon": "149.116057"
+			},
+			{
+				"name": "ENGL6222_S2-TutA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "10:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "ENGL6222_S2-TutA/02",
+				"day": 2,
+				"start": "10:30",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "Marie Reay 5.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "ENGL6222_S2-TutA/03",
+				"day": 3,
+				"start": "09:00",
+				"finish": "10:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Marie Reay 4.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "ENGL6222_S2-TutA/04",
+				"day": 3,
+				"start": "10:30",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "Marie Reay 4.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
