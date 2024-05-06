@@ -495,6 +495,48 @@
 			}
 		]
 	},
+	"CRIM2010_S2": {
+		"title": "CRIM2010_S2\u00a0Cybercrime: an introduction",
+		"id": "CRIM2010_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CRIM2010",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CRIM2010_S2-LetA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
+			}
+		]
+	},
+	"CRIM6010_S2": {
+		"title": "CRIM6010_S2\u00a0Cybercrime: an introduction",
+		"id": "CRIM6010_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/CRIM6010",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "CRIM6010_S2-LetA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
+			}
+		]
+	},
 	"DEMO3002_S2": {
 		"title": "DEMO3002_S2\u00a0Demographic Research Internship",
 		"id": "DEMO3002_S2",
