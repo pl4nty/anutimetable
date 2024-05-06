@@ -58215,6 +58215,32 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
+			},
+			{
+				"name": "JPNS3001_S1-TutA/04",
+				"day": 1,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "BPB W119",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "JPNS3001_S1-TutA/05",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": "Law 6.1.19",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
