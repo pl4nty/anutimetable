@@ -57100,6 +57100,19 @@
 		"dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
+				"name": "ITAL1002_S1-Asm/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "20",
+				"activity": "Asm",
+				"occurrence": "01",
+				"location": "Barry Drive 7-11 First Floor Left",
+				"locationID": "http://www.anu.edu.au/maps#show=90783",
+				"lat": "-35.2752066",
+				"lon": "149.127504"
+			},
+			{
 				"name": "ITAL1002_S1-TutA/01",
 				"day": 1,
 				"start": "09:00",
@@ -86806,6 +86819,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11313",
 				"lat": "-35.276955",
 				"lon": "149.117796"
+			},
+			{
+				"name": "SPAN3001_S1-PresA/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "17:30",
+				"weeks": "19",
+				"activity": "PresA",
+				"occurrence": "01",
+				"location": "Marie Reay 4.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
