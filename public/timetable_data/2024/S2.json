@@ -8,15 +8,15 @@
 			{
 				"name": "CHEM1201_S2-LecA/01",
 				"day": 0,
-				"start": "08:00",
-				"finish": "09:30",
+				"start": "08:30",
+				"finish": "10:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "COOMBS T",
-				"locationID": "http://www.anu.edu.au/maps#show=11651",
-				"lat": "-35.282454",
-				"lon": "149.119653"
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "CHEM1201_S2-LecB/01",
@@ -713,8 +713,8 @@
 			{
 				"name": "CHEM3208_S2-ComA/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "12:00",
+				"start": "08:00",
+				"finish": "11:00",
 				"weeks": "31,33\u201134,38,41,43",
 				"activity": "ComA",
 				"occurrence": "01",
@@ -761,6 +761,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11424",
 				"lat": "-35.274459",
 				"lon": "149.117814"
+			},
+			{
+				"name": "CHEM3208_S2-WorA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "14:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Han 2.24",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
 			}
 		]
 	},
@@ -940,8 +953,8 @@
 			{
 				"name": "CHEM6208_S2-ComA/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "12:00",
+				"start": "08:00",
+				"finish": "11:00",
 				"weeks": "31,33\u201134,38,41,43",
 				"activity": "ComA",
 				"occurrence": "01",
@@ -988,6 +1001,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11424",
 				"lat": "-35.274459",
 				"lon": "149.117814"
+			},
+			{
+				"name": "CHEM6208_S2-WorA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "14:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Han 2.24",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
 			}
 		]
 	},
