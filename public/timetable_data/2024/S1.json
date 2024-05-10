@@ -82565,6 +82565,32 @@
 			},
 			{
 				"name": "POLS3001_S1-SemA/10",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "16,18,20\u201121",
+				"activity": "SemA",
+				"occurrence": "10",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			},
+			{
+				"name": "POLS3001_S1-SemA/10",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "19",
+				"activity": "SemA",
+				"occurrence": "10",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "POLS3001_S1-SemA/10",
 				"day": 2,
 				"start": "12:00",
 				"finish": "14:00",
@@ -82575,19 +82601,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
-			},
-			{
-				"name": "POLS3001_S1-SemA/10",
-				"day": 3,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "16,18\u201121",
-				"activity": "SemA",
-				"occurrence": "10",
-				"location": "DA Brown Rm 110/108",
-				"locationID": "http://www.anu.edu.au/maps#show=29013",
-				"lat": "-35.27695",
-				"lon": "149.115437"
 			},
 			{
 				"name": "POLS3001_S1-SemA/12",
