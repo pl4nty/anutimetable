@@ -1811,6 +1811,19 @@
 				"lon": "149.118658"
 			},
 			{
+				"name": "LAWS1202_S2-TutA/11",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "11",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
 				"name": "LAWS1202_S2-TutA/12",
 				"day": 0,
 				"start": "12:00",
@@ -1822,6 +1835,71 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/13",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "13",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/14",
+				"day": 3,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/15",
+				"day": 1,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "15",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/16",
+				"day": 1,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "16",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/17",
+				"day": 1,
+				"start": "08:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "17",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "LAWS1202_S2-TutA/18",
@@ -1848,6 +1926,32 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/20",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "20",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS1202_S2-TutA/21",
+				"day": 2,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "21",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "LAWS1202_S2-WorA/01",
@@ -4062,10 +4166,10 @@
 				"weeks": "30\u201135",
 				"activity": "WorA",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "LAWS4304_S2-WorA/01",
@@ -4407,6 +4511,19 @@
 				"lon": "149.118658"
 			},
 			{
+				"name": "LAWS6102_S2-TutA/11",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "11",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
 				"name": "LAWS6102_S2-TutA/12",
 				"day": 0,
 				"start": "12:00",
@@ -4418,6 +4535,71 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/13",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "13",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/14",
+				"day": 3,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/15",
+				"day": 1,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "15",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/16",
+				"day": 1,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "16",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/17",
+				"day": 1,
+				"start": "08:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "17",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "LAWS6102_S2-TutA/18",
@@ -4444,6 +4626,32 @@
 				"locationID": "http://campusmap.anu.edu.au#show=106553",
 				"lat": "-35.280305",
 				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/20",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "20",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS6102_S2-TutA/21",
+				"day": 2,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "21",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "LAWS6102_S2-WorA/01",
@@ -6087,10 +6295,10 @@
 				"weeks": "30\u201135",
 				"activity": "WorA",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "LAWS6304_S2-WorA/01",
@@ -6411,7 +6619,7 @@
 		]
 	},
 	"PHYS4110_S2": {
-		"title": "PHYS4110_S2\u00a0Honours Research Project",
+		"title": "PHYS4110_S2\u00a0Honours Research Project_In Person",
 		"id": "PHYS4110_S2",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/PHYS4110",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
