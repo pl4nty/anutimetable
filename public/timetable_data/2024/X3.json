@@ -1169,9 +1169,9 @@
 		"classes": [
 			{
 				"name": "POGO8076_X3-LecA/01",
-				"day": 1,
-				"start": "12:30",
-				"finish": "14:00",
+				"day": 0,
+				"start": "13:00",
+				"finish": "14:30",
 				"weeks": "30",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -1240,6 +1240,17 @@
 				"finish": "15:30",
 				"weeks": "37",
 				"activity": "SemD",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8076_X3-SemE/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "14:30",
+				"weeks": "32",
+				"activity": "SemE",
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
