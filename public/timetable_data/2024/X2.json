@@ -1545,6 +1545,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "EXTN1006B_X2-LecA/02",
+				"day": 2,
+				"start": "18:00",
+				"finish": "19:00",
+				"weeks": "22",
+				"activity": "LecA",
+				"occurrence": "02",
+				"location": "Marie Reay 5.06",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
