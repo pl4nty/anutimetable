@@ -119,6 +119,74 @@
 			}
 		]
 	},
+	"BIAN3127_S2": {
+		"title": "BIAN3127_S2\u00a0Primate Behaviour and Conservation",
+		"id": "BIAN3127_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/BIAN3127",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "BIAN3127_S2-LecA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "BPB W107",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "BIAN3127_S2-PraA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "Gould 103 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
+			}
+		]
+	},
+	"BIAN6514_S2": {
+		"title": "BIAN6514_S2\u00a0Primate Behaviour and Conservation",
+		"id": "BIAN6514_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/BIAN6514",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "BIAN6514_S2-LecA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "BPB W107",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "BIAN6514_S2-PraA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "Gould 103 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
+			}
+		]
+	},
 	"CHEM1201_S2": {
 		"title": "CHEM1201_S2\u00a0Chemistry 2",
 		"id": "CHEM1201_S2",
@@ -250,7 +318,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "02",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -261,7 +329,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "03",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -272,7 +340,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "04",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -296,7 +364,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "06",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -307,7 +375,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "07",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -318,7 +386,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "08",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -329,7 +397,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "09",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -353,7 +421,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "11",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -364,7 +432,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "12",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -375,7 +443,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "13",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -386,7 +454,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "14",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -410,7 +478,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "16",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -421,7 +489,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "17",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -432,7 +500,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "18",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -443,7 +511,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "19",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -467,7 +535,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "21",
-				"location": " STB_T5 & T6 Labs Combined",
+				"location": " on campus",
 				"locationID": ""
 			}
 		]
@@ -1428,10 +1496,10 @@
 				"weeks": "31\u201135,38\u201143",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Chifley Flex 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11287",
-				"lat": "-35.278182",
-				"lon": "149.120692"
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -2221,9 +2289,9 @@
 		"classes": [
 			{
 				"name": "LAWS4001_S2-SemA/01",
-				"day": 4,
-				"start": "11:00",
-				"finish": "13:00",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "SemA",
 				"occurrence": "01",
@@ -2234,9 +2302,9 @@
 			},
 			{
 				"name": "LAWS4001_S2-SemB/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "11:00",
+				"day": 4,
+				"start": "11:00",
+				"finish": "13:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "SemB",
 				"occurrence": "01",
@@ -2288,6 +2356,40 @@
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			}
+		]
+	},
+	"LAWS4213_S2": {
+		"title": "LAWS4213_S2\u00a0Contemporary Issues in Constitutional Law",
+		"id": "LAWS4213_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS4213",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS4213_S2-SemA/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "17:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4213_S2-SemB/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "LAW T",
 				"locationID": "http://www.anu.edu.au/maps#show=11277",
 				"lat": "-35.281073",
 				"lon": "149.118997"
@@ -4844,6 +4946,40 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11295",
 				"lat": "-35.277596",
 				"lon": "149.122472"
+			}
+		]
+	},
+	"LAWS8128_S2": {
+		"title": "LAWS8128_S2\u00a0Contemporary Issues in Constitutional Law",
+		"id": "LAWS8128_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8128",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "LAWS8128_S2-SemA/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "17:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS8128_S2-SemB/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			}
 		]
 	},
