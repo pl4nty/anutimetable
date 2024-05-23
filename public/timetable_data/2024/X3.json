@@ -3378,47 +3378,6 @@
 			}
 		]
 	},
-	"POGO8240_X3": {
-		"title": "POGO8240_X3\u00a0Evidence Based Thinking (EBT): Decision Making and Policy Development_Online_Online",
-		"id": "POGO8240_X3",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/POGO8240",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "POGO8240_X3-WorA/01",
-				"day": 1,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "36",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "POGO8240_X3-WorB/01",
-				"day": 2,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "37",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "POGO8240_X3-WorB/01",
-				"day": 3,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "37",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			}
-		]
-	},
 	"POGO8403_X3": {
 		"title": "POGO8403_X3\u00a0Cases in Contemporary Public Policy_Online_Online",
 		"id": "POGO8403_X3",
@@ -4798,10 +4757,10 @@
 				"weeks": "28\u201129",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCRN2001_X3-SemB/01",
@@ -4811,10 +4770,10 @@
 				"weeks": "28\u201129",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCRN2001_X3-SemC/01",
@@ -4824,10 +4783,10 @@
 				"weeks": "28\u201129",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCRN2001_X3-SemD/01",
@@ -4837,10 +4796,10 @@
 				"weeks": "28\u201129",
 				"activity": "SemD",
 				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCRN2001_X3-SemE/01",
@@ -4850,10 +4809,10 @@
 				"weeks": "28\u201129",
 				"activity": "SemE",
 				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
