@@ -892,6 +892,69 @@
 			}
 		]
 	},
+	"EMDV8079_X2": {
+		"title": "EMDV8079_X2\u00a0Water Justice, Management and Governance_Online",
+		"id": "EMDV8079_X2",
+		"link": "",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "EMDV8079_X2-LecA/01",
+				"day": 0,
+				"start": "12:30",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "EMDV8079_X2-LecB/01",
+				"day": 1,
+				"start": "12:30",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "EMDV8079_X2-LecC/01",
+				"day": 2,
+				"start": "12:30",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "EMDV8079_X2-LecD/01",
+				"day": 3,
+				"start": "12:30",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "EMDV8079_X2-LecE/01",
+				"day": 4,
+				"start": "12:30",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
 	"ENVS3029_X2": {
 		"title": "ENVS3029_X2\u00a0Palaeo-Environmental Reconstruction",
 		"id": "ENVS3029_X2",
@@ -1967,6 +2030,79 @@
 			}
 		]
 	},
+	"HUMN8029_X2": {
+		"title": "HUMN8029_X2\u00a0Digital Humanities and Public Culture: Issues and debates",
+		"id": "HUMN8029_X2",
+		"link": "",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "HUMN8029_X2-WorA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "HUMN8029_X2-WorB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "HUMN8029_X2-WorC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "WorC",
+				"occurrence": "01",
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "HUMN8029_X2-WorD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "WorD",
+				"occurrence": "01",
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "HUMN8029_X2-WorE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "WorE",
+				"occurrence": "01",
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			}
+		]
+	},
 	"HUMN8033_X2": {
 		"title": "HUMN8033_X2\u00a0Heritage Tourism and Sustainable Development",
 		"id": "HUMN8033_X2",
@@ -2863,6 +2999,209 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11280",
 				"lat": "-35.282541",
 				"lon": "149.119238"
+			}
+		]
+	},
+	"SCOM6007_X2": {
+		"title": "SCOM6007_X2\u00a0Science Communication Project Design and Delivery_Online",
+		"id": "SCOM6007_X2",
+		"link": "",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "SCOM6007_X2-LetA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:30",
+				"weeks": "26",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetB/01",
+				"day": 0,
+				"start": "12:30",
+				"finish": "15:00",
+				"weeks": "26",
+				"activity": "LetB",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetC/01",
+				"day": 0,
+				"start": "15:00",
+				"finish": "18:00",
+				"weeks": "26",
+				"activity": "LetC",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetD/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "12:30",
+				"weeks": "26",
+				"activity": "LetD",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetE/01",
+				"day": 1,
+				"start": "12:30",
+				"finish": "15:00",
+				"weeks": "26",
+				"activity": "LetE",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetF/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "18:00",
+				"weeks": "26",
+				"activity": "LetF",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetG/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:30",
+				"weeks": "26",
+				"activity": "LetG",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetH/01",
+				"day": 2,
+				"start": "12:30",
+				"finish": "15:00",
+				"weeks": "26",
+				"activity": "LetH",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetI/01",
+				"day": 2,
+				"start": "15:00",
+				"finish": "18:00",
+				"weeks": "26",
+				"activity": "LetI",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetJ/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:30",
+				"weeks": "26",
+				"activity": "LetJ",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetK/01",
+				"day": 3,
+				"start": "12:30",
+				"finish": "15:00",
+				"weeks": "26",
+				"activity": "LetK",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetL/01",
+				"day": 3,
+				"start": "15:00",
+				"finish": "18:00",
+				"weeks": "26",
+				"activity": "LetL",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetM/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:30",
+				"weeks": "26",
+				"activity": "LetM",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetN/01",
+				"day": 4,
+				"start": "12:30",
+				"finish": "15:00",
+				"weeks": "26",
+				"activity": "LetN",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
+			},
+			{
+				"name": "SCOM6007_X2-LetO/01",
+				"day": 4,
+				"start": "15:00",
+				"finish": "18:00",
+				"weeks": "26",
+				"activity": "LetO",
+				"occurrence": "01",
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			}
 		]
 	},
