@@ -72,6 +72,69 @@
 			}
 		]
 	},
+	"ARTV1601_X3": {
+		"title": "ARTV1601_X3\u00a0Analogue Photography ",
+		"id": "ARTV1601_X3",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ARTV1601",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARTV1601_X3-StuA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV1601_X3-StuB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuB",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV1601_X3-StuC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuC",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV1601_X3-StuD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuD",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV1601_X3-StuE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuE",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			}
+		]
+	},
 	"ARTV2708_X3": {
 		"title": "ARTV2708_X3\u00a0Narrative and Meaning with Drawing",
 		"id": "ARTV2708_X3",
@@ -176,6 +239,69 @@
 				"occurrence": "01",
 				"location": "SOA&D Sculpture Modelling Room G.67",
 				"locationID": "http://soa.anu.edu.au/sculpture/map"
+			}
+		]
+	},
+	"ARTV6601_X3": {
+		"title": "ARTV6601_X3\u00a0Analogue Photography",
+		"id": "ARTV6601_X3",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ARTV6601",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARTV6601_X3-StuA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV6601_X3-StuB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuB",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV6601_X3-StuC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuC",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV6601_X3-StuD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuD",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV6601_X3-StuE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "36\u201137",
+				"activity": "StuE",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28; SOA&D Photomedia Upstairs Dark Lab 1.28F",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
 			}
 		]
 	},
