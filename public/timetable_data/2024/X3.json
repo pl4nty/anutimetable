@@ -242,69 +242,6 @@
 			}
 		]
 	},
-	"ARTV6601_X3": {
-		"title": "ARTV6601_X3\u00a0Analogue Photography",
-		"id": "ARTV6601_X3",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/ARTV6601",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "ARTV6601_X3-StuA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "15:00",
-				"weeks": "36\u201137",
-				"activity": "StuA",
-				"occurrence": "01",
-				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
-				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
-			},
-			{
-				"name": "ARTV6601_X3-StuB/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "15:00",
-				"weeks": "36\u201137",
-				"activity": "StuB",
-				"occurrence": "01",
-				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
-				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
-			},
-			{
-				"name": "ARTV6601_X3-StuC/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "15:00",
-				"weeks": "36\u201137",
-				"activity": "StuC",
-				"occurrence": "01",
-				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
-				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
-			},
-			{
-				"name": "ARTV6601_X3-StuD/01",
-				"day": 3,
-				"start": "09:00",
-				"finish": "15:00",
-				"weeks": "36\u201137",
-				"activity": "StuD",
-				"occurrence": "01",
-				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
-				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
-			},
-			{
-				"name": "ARTV6601_X3-StuE/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "15:00",
-				"weeks": "36\u201137",
-				"activity": "StuE",
-				"occurrence": "01",
-				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
-				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
-			}
-		]
-	},
 	"ASIA2118_X3": {
 		"title": "ASIA2118_X3\u00a0Pollution in past societies: the science and history that shaped the modern world",
 		"id": "ASIA2118_X3",
@@ -3433,7 +3370,7 @@
 		]
 	},
 	"POGO8230_X3": {
-		"title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_In Person_On Campus",
+		"title": "POGO8230_X3\u00a0Gender Analysis in Public Policy_Online_Online",
 		"id": "POGO8230_X3",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/POGO8230",
 		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
@@ -3441,15 +3378,24 @@
 			{
 				"name": "POGO8230_X3-WorA/01",
 				"day": 0,
-				"start": "09:00",
+				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "30\u201131,34",
+				"weeks": "30\u201131",
 				"activity": "WorA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 8",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8230_X3-WorA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "34",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
