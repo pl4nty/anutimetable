@@ -239,6 +239,28 @@
 				"occurrence": "01",
 				"location": "SOA&D Sculpture Modelling Room G.67",
 				"locationID": "http://soa.anu.edu.au/sculpture/map"
+			},
+			{
+				"name": "ARTV2708_X3-StuJ/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "13:00",
+				"weeks": "29",
+				"activity": "StuJ",
+				"occurrence": "01",
+				"location": "SOA&D Sculpture Modelling Room G.67",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
+			},
+			{
+				"name": "ARTV2708_X3-StuK/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "29",
+				"activity": "StuK",
+				"occurrence": "01",
+				"location": "SOA&D Sculpture Modelling Room G.67",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			}
 		]
 	},
@@ -642,8 +664,10 @@
 				"weeks": "27",
 				"activity": "LecD",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "Han 2.23",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
 			},
 			{
 				"name": "BIOL3203_X3-LecE/01",
@@ -894,8 +918,10 @@
 				"weeks": "27",
 				"activity": "LecD",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "Han 2.23",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
 			},
 			{
 				"name": "BIOL6203_X3-LecE/01",
