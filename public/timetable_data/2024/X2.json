@@ -2286,11 +2286,22 @@
 			{
 				"name": "LAWS8072_X2-SemB/01",
 				"day": 0,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "23",
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "26",
 				"activity": "SemB",
 				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8072_X2-SemB/02",
+				"day": 0,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "27",
+				"activity": "SemB",
+				"occurrence": "02",
 				"location": " online live",
 				"locationID": ""
 			}
