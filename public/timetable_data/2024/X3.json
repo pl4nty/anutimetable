@@ -664,21 +664,21 @@
 				"weeks": "27",
 				"activity": "LecD",
 				"occurrence": "01",
-				"location": "Han 2.23",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
+				"location": " CAM",
+				"locationID": ""
 			},
 			{
 				"name": "BIOL3203_X3-LecE/01",
 				"day": 4,
-				"start": "09:00",
+				"start": "08:30",
 				"finish": "12:30",
 				"weeks": "27",
 				"activity": "LecE",
 				"occurrence": "01",
-				"location": " JCSMR SR1/SR2",
-				"locationID": ""
+				"location": "Han 2.23",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
 			},
 			{
 				"name": "BIOL3203_X3-LecF/01",
@@ -918,21 +918,21 @@
 				"weeks": "27",
 				"activity": "LecD",
 				"occurrence": "01",
-				"location": "Han 2.23",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
+				"location": " CAM",
+				"locationID": ""
 			},
 			{
 				"name": "BIOL6203_X3-LecE/01",
 				"day": 4,
-				"start": "09:00",
+				"start": "08:30",
 				"finish": "12:30",
 				"weeks": "27",
 				"activity": "LecE",
 				"occurrence": "01",
-				"location": " JCSMR SR1/SR2",
-				"locationID": ""
+				"location": "Han 2.23",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
 			},
 			{
 				"name": "BIOL6203_X3-LecF/01",
@@ -3410,12 +3410,12 @@
 		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
-				"name": "POGO8233_X3-LecA/01",
+				"name": "POGO8233_X3-WorA/01",
 				"day": 4,
-				"start": "10:00",
-				"finish": "18:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "37\u201139",
-				"activity": "LecA",
+				"activity": "WorA",
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
@@ -3981,8 +3981,8 @@
 			{
 				"name": "POLS2113_X3-TutD/01",
 				"day": 3,
-				"start": "13:00",
-				"finish": "14:00",
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "28\u201129",
 				"activity": "TutD",
 				"occurrence": "01",
@@ -4011,45 +4011,6 @@
 				"finish": "16:00",
 				"weeks": "28\u201129",
 				"activity": "TutD",
-				"occurrence": "03",
-				"location": "COP G039",
-				"locationID": "http://www.anu.edu.au/maps#show=11296",
-				"lat": "-35.277985",
-				"lon": "149.123419"
-			},
-			{
-				"name": "POLS2113_X3-TutE/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "14:00",
-				"weeks": "28\u201129",
-				"activity": "TutE",
-				"occurrence": "01",
-				"location": "COP G039",
-				"locationID": "http://www.anu.edu.au/maps#show=11296",
-				"lat": "-35.277985",
-				"lon": "149.123419"
-			},
-			{
-				"name": "POLS2113_X3-TutE/02",
-				"day": 4,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "28\u201129",
-				"activity": "TutE",
-				"occurrence": "02",
-				"location": "COP G039",
-				"locationID": "http://www.anu.edu.au/maps#show=11296",
-				"lat": "-35.277985",
-				"lon": "149.123419"
-			},
-			{
-				"name": "POLS2113_X3-TutE/03",
-				"day": 4,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "28\u201129",
-				"activity": "TutE",
 				"occurrence": "03",
 				"location": "COP G039",
 				"locationID": "http://www.anu.edu.au/maps#show=11296",
