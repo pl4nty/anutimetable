@@ -601,7 +601,7 @@
 				"weeks": "27",
 				"activity": "ComA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " JCSMR SR1/SR2 on campus",
 				"locationID": ""
 			},
 			{
@@ -855,7 +855,7 @@
 				"weeks": "27",
 				"activity": "ComA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " JCSMR SR1/SR2 on campus",
 				"locationID": ""
 			},
 			{
@@ -2985,6 +2985,36 @@
 			}
 		]
 	},
+	"NSPO8043_X3": {
+		"title": "NSPO8043_X3\u00a0Pandemics, Infectious Diseases and National Security_Online_Online",
+		"id": "NSPO8043_X3",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/NSPO8043",
+		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "NSPO8043_X3-SemA/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "32,34",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "NSPO8043_X3-SemB/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "33",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
 	"NSPO8048_X3": {
 		"title": "NSPO8048_X3\u00a0The Future of Intelligence_Online_Online",
 		"id": "NSPO8048_X3",
@@ -3382,8 +3412,8 @@
 			{
 				"name": "POGO8230_X3-WorA/01",
 				"day": 0,
-				"start": "14:00",
-				"finish": "17:00",
+				"start": "13:00",
+				"finish": "16:00",
 				"weeks": "30\u201131",
 				"activity": "WorA",
 				"occurrence": "01",
