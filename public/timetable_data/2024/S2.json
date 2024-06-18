@@ -527,16 +527,16 @@
 		"classes": [
 			{
 				"name": "ANTH8019_S2-SemA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "12:00",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Law 6.1.19",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "ADH G28",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			}
 		]
 	},
@@ -11158,7 +11158,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "02",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11169,7 +11169,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "03",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11180,21 +11180,19 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "04",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
 				"name": "CHEM1201_S2-PraA/05",
-				"day": 1,
+				"day": 0,
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "05",
-				"location": "STB_T5 Lab",
-				"locationID": "http://www.anu.edu.au/maps#show=11384",
-				"lat": "-35.276241",
-				"lon": "149.117144"
+				"location": " STB_T5 & T6 Labs Combined on campus",
+				"locationID": ""
 			},
 			{
 				"name": "CHEM1201_S2-PraA/06",
@@ -11204,7 +11202,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "06",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11215,7 +11213,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "07",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11226,7 +11224,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "08",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11237,7 +11235,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "09",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11255,14 +11253,16 @@
 			},
 			{
 				"name": "CHEM1201_S2-PraA/11",
-				"day": 2,
+				"day": 1,
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "11",
-				"location": " on campus",
-				"locationID": ""
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
 			},
 			{
 				"name": "CHEM1201_S2-PraA/12",
@@ -11272,7 +11272,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "12",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11283,7 +11283,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "13",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11294,21 +11294,19 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "14",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
 				"name": "CHEM1201_S2-PraA/15",
-				"day": 3,
+				"day": 2,
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "15",
-				"location": "STB_T5 Lab",
-				"locationID": "http://www.anu.edu.au/maps#show=11384",
-				"lat": "-35.276241",
-				"lon": "149.117144"
+				"location": " STB_T5 & T6 Labs Combined on campus",
+				"locationID": ""
 			},
 			{
 				"name": "CHEM1201_S2-PraA/16",
@@ -11318,7 +11316,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "16",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11329,7 +11327,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "17",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11340,7 +11338,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "18",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
@@ -11351,12 +11349,12 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "19",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			},
 			{
 				"name": "CHEM1201_S2-PraA/20",
-				"day": 4,
+				"day": 3,
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "30\u201135,38\u201143",
@@ -11375,7 +11373,53 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "21",
-				"location": " on campus",
+				"location": " STB_T5 & T6 Labs Combined on campus",
+				"locationID": ""
+			},
+			{
+				"name": "CHEM1201_S2-PraA/22",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "22",
+				"location": "STB_T5 Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
+				"name": "CHEM1201_S2-PraA/23",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "23",
+				"location": " STB_T5 & T6 Labs Combined on campus",
+				"locationID": ""
+			},
+			{
+				"name": "CHEM1201_S2-PraA/24",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "24",
+				"location": " STB_T5 & T6 Labs Combined on campus",
+				"locationID": ""
+			},
+			{
+				"name": "CHEM1201_S2-PraA/25",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "PraA",
+				"occurrence": "25",
+				"location": " STB_T5 & T6 Labs Combined on campus",
 				"locationID": ""
 			}
 		]
@@ -31916,28 +31960,28 @@
 			{
 				"name": "ENGN2301_S2-TutA/01",
 				"day": 1,
-				"start": "14:00",
-				"finish": "17:00",
+				"start": "12:00",
+				"finish": "15:00",
 				"weeks": "30\u201135",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "DA Brown Rm 110/108",
-				"locationID": "http://www.anu.edu.au/maps#show=29013",
-				"lat": "-35.27695",
-				"lon": "149.115437"
+				"location": "Combined Project Studio Birch 1.35/1.36 ",
+				"locationID": "http://www.anu.edu.au/maps#show=11304",
+				"lat": "-35.276172",
+				"lon": "149.11994"
 			},
 			{
 				"name": "ENGN2301_S2-TutA/02",
 				"day": 4,
-				"start": "14:00",
-				"finish": "17:00",
+				"start": "11:00",
+				"finish": "14:00",
 				"weeks": "30\u201135",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": "DA Brown Rm 110/108",
-				"locationID": "http://www.anu.edu.au/maps#show=29013",
-				"lat": "-35.27695",
-				"lon": "149.115437"
+				"location": "Combined Project Space Birch 1.08/1.09",
+				"locationID": "http://www.anu.edu.au/maps#show=11304",
+				"lat": "-35.276172",
+				"lon": "149.11994"
 			},
 			{
 				"name": "ENGN2301_S2-WorA/01",
@@ -31954,16 +31998,14 @@
 			},
 			{
 				"name": "ENGN2301_S2-WorA/02",
-				"day": 4,
-				"start": "11:00",
-				"finish": "14:00",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "WorA",
 				"occurrence": "02",
-				"location": "Combined Project Space Birch 1.08/1.09",
-				"locationID": "http://www.anu.edu.au/maps#show=11304",
-				"lat": "-35.276172",
-				"lon": "149.11994"
+				"location": " Innovation space on campus",
+				"locationID": ""
 			}
 		]
 	},
@@ -46482,54 +46524,54 @@
 			{
 				"name": "LAWS2248_S2-WorA/01",
 				"day": 4,
-				"start": "16:00",
-				"finish": "17:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "30\u201135,38,40,42",
 				"activity": "WorA",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "LAWS2248_S2-WorA/02",
 				"day": 4,
-				"start": "13:00",
-				"finish": "14:00",
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "30\u201135,38,40,42",
 				"activity": "WorA",
 				"occurrence": "02",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "LAWS2248_S2-WorA/03",
-				"day": 3,
-				"start": "17:00",
-				"finish": "18:00",
+				"day": 0,
+				"start": "08:00",
+				"finish": "09:00",
 				"weeks": "30\u201135,38,40,42",
 				"activity": "WorA",
 				"occurrence": "03",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			},
 			{
 				"name": "LAWS2248_S2-WorA/04",
-				"day": 4,
-				"start": "17:00",
-				"finish": "18:00",
+				"day": 0,
+				"start": "09:00",
+				"finish": "10:00",
 				"weeks": "30\u201135,38,40,42",
 				"activity": "WorA",
 				"occurrence": "04",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -61869,7 +61911,7 @@
 		]
 	},
 	"POLS1005_S2": {
-		"title": "POLS1005_S2\u00a0Introduction to International Relations: Foundations and Concepts",
+		"title": "POLS1005_S2\u00a0Introduction to International Relations Foundations and Concepts",
 		"id": "POLS1005_S2",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/POLS1005",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
