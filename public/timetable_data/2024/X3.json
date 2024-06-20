@@ -422,7 +422,7 @@
 		]
 	},
 	"ASIA3027_X3": {
-		"title": "ASIA3027_X3\u00a0Issues in Japanese Policy in their global context_Online_Online",
+		"title": "ASIA3027_X3\u00a0Issues in Japanese Policy in their global context_In Person",
 		"id": "ASIA3027_X3",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/ASIA3027",
 		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
@@ -435,8 +435,10 @@
 				"weeks": "34\u201135",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
+				"location": "Crawford Seminar Room 9",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "ASIA3027_X3-SemB/01",
@@ -446,8 +448,10 @@
 				"weeks": "34\u201135",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
+				"location": "Crawford Seminar Room 9",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "ASIA3027_X3-SemC/01",
@@ -457,7 +461,7 @@
 				"weeks": "36",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": " online live",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -468,8 +472,10 @@
 				"weeks": "38",
 				"activity": "SemD",
 				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
+				"location": "Crawford Seminar Room 9",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			}
 		]
 	},
