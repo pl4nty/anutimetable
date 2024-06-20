@@ -56,7 +56,7 @@
     <h2><a href="/">(back to the timetable)</a></h2>
     <div id="contributors"></div>
   <script>
-    fetch('https://api.github.com/repos/anucssa/anutimetable/contributors')
+    fetch('https://api.github.com/repos/pl4nty/anutimetable/contributors')
       .then(response => response.json())
       .then(data => {
         let contributors = data.map(contributor => {

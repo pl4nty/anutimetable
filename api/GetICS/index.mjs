@@ -17,7 +17,7 @@ function timesToArray(date, timeString) {
 
 // eg ?COMP2310_S2=LecA 01,LecB 01
 export default async function (context, req) {
-    const SOURCE = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development' ? 'http://localhost:3000/' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public/'
+    const SOURCE = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development' ? 'http://localhost:3000/' : 'https://raw.githubusercontent.com/pl4nty/anutimetable/master/public/'
     const TIMETABLE_JSON = SOURCE+`timetable_data/${req.query.y}/${req.query.s}.min.json`
 
     context.log.info(`Running in node ${process.version}`)
@@ -28,7 +28,7 @@ export default async function (context, req) {
     if (req.query.hasOwnProperty('hide')) {
         hiddenClasses = req.query.hide.split(',')
     }
-    
+
     // require Intl module for timezone handling
     if (courseCodes.length === 0 || typeof Intl !== 'object') {
         context.log.warn(`Invalid query: ${req.query}`)
@@ -53,7 +53,7 @@ export default async function (context, req) {
     const events = []
     for (let courseCode of courseCodes) {
         const course = timetable[courseCode] || timetable[courseCode+'_'+req.query.s]
-        
+
         if (course) {
             // Convert client qs format to ANU database lookup
             // LecA1,LecA2,LecB1 => { LecA: [01, 02], LecB: [01] }
@@ -72,7 +72,7 @@ export default async function (context, req) {
                 const hidden = hiddenClasses.includes(eventString)
                 // If occurrence of activity is selected (eg TutA 01), skip other occurrences (eg TutA 02)
                 if (!hidden && (!selected[session.activity] || selected[session.activity].includes(session.occurrence))) {
-                    
+
                     // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
                     // Days from start of year until first Monday - aka Week 0
                     let yearStart = utcToZonedTime(new Date(), tz)
@@ -82,16 +82,16 @@ export default async function (context, req) {
                     if (yearStart.getMonth() >= 10) yearStart.setFullYear(yearStart.getFullYear()+1);
 
                     const year = yearStart.getFullYear();
-                    
+
                     const dayOffset = (8 - yearStart.getDay()) % 7
 
                     // repeated weeks are stored as "31\u201136,39\u201144"
                     for (let weeks of session.weeks.split(',')) {
                         const interval = weeks.split('\u2011')
                         const repetitions = interval[interval.length-1]-interval[0]+1
-                        
+
                         const day = dayOffset + 7*(interval[0]-1) + parseInt(session.day) + 1
-                        
+
                         let startDay = utcToZonedTime(new Date(yearStart.getTime()), tz)
                         startDay.setDate(day)
                         const weekday = days[startDay.getDay()] // assumes no multi-day events
@@ -168,7 +168,7 @@ BEGIN:VEVENT`)
                 status: 500,
                 body: msg
             }
-        }        
+        }
     } else {
         context.res = {
             status: 404,

@@ -4,7 +4,7 @@ const isDev = process.env.AZURE_FUNCTIONS_ENVIRONMENT === 'Development'
 
 // /modules?year=${year}&session=${session}
 export default async function (context, req) {
-    const SOURCE = isDev ? 'http://localhost:3000' : 'https://raw.githubusercontent.com/anucssa/anutimetable/master/public'
+    const SOURCE = isDev ? 'http://localhost:3000' : 'https://raw.githubusercontent.com/pl4nty/anutimetable/master/public'
     const TIMETABLE_JSON = `${SOURCE}/timetable_data/${req.query.year}/${req.query.session}.min.json`
 
     let modules
