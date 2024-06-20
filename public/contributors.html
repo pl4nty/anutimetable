@@ -56,10 +56,13 @@
     <h2><a href="/">(back to the timetable)</a></h2>
     <div id="contributors"></div>
   <script>
+    const bots = ["github-actions[bot]", "renovate[bot]", "renovate-bot", "dependabot[bot]"];
     fetch('https://api.github.com/repos/pl4nty/anutimetable/contributors')
       .then(response => response.json())
       .then(data => {
-        let contributors = data.map(contributor => {
+        let contributors = data.filter(
+          user => !bots.includes(user.login)
+        ).map(contributor => {
           return `
             <div class="contributor">
               <img
