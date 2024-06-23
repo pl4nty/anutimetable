@@ -208,6 +208,132 @@
 			}
 		]
 	},
+	"ANIP3003_S2": {
+		"title": "ANIP3003_S2\u00a0Australian National Internships Program A",
+		"id": "ANIP3003_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ANIP3003",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANIP3003_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			}
+		]
+	},
+	"ANIP3005_S2": {
+		"title": "ANIP3005_S2\u00a0Australian National Internships Program B",
+		"id": "ANIP3005_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ANIP3005",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANIP3005_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			}
+		]
+	},
+	"ANIP3007_S2": {
+		"title": "ANIP3007_S2\u00a0Australian National Internships Program D",
+		"id": "ANIP3007_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ANIP3007",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANIP3007_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			}
+		]
+	},
+	"ANIP6503_S2": {
+		"title": "ANIP6503_S2\u00a0Australian National Internships Program A",
+		"id": "ANIP6503_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ANIP6503",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANIP6503_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			}
+		]
+	},
+	"ANIP6505_S2": {
+		"title": "ANIP6505_S2\u00a0Australian National Internships Program B",
+		"id": "ANIP6505_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ANIP6505",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANIP6505_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			}
+		]
+	},
+	"ANIP6507_S2": {
+		"title": "ANIP6507_S2\u00a0Australian National Internships Program D",
+		"id": "ANIP6507_S2",
+		"link": "https://programsandcourses.anu.edu.au/2024/course/ANIP6507",
+		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANIP6507_S2-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "30\u201134",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "DA Brown Rm 110/108",
+				"locationID": "http://www.anu.edu.au/maps#show=29013",
+				"lat": "-35.27695",
+				"lon": "149.115437"
+			}
+		]
+	},
 	"ANTH1003_S2": {
 		"title": "ANTH1003_S2\u00a0Global Citizen: Culture, Development and Inequality",
 		"id": "ANTH1003_S2",
@@ -28883,10 +29009,10 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": "RSES Jaeger 5_DH Green Room",
-				"locationID": "http://www.anu.edu.au/maps&show=31095",
-				"lat": "-35.283954",
-				"lon": "149.115286"
+				"location": "RSES Jaeger 4",
+				"locationID": "http://www.anu.edu.au/maps#search=jaeger&show=29285",
+				"lat": "-35.284423",
+				"lon": "149.114702"
 			},
 			{
 				"name": "EMSC3007_S2-PraB/01",
@@ -29260,10 +29386,10 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": "RSES Jaeger 5_DH Green Room",
-				"locationID": "http://www.anu.edu.au/maps&show=31095",
-				"lat": "-35.283954",
-				"lon": "149.115286"
+				"location": "RSES Jaeger 4",
+				"locationID": "http://www.anu.edu.au/maps#search=jaeger&show=29285",
+				"lat": "-35.284423",
+				"lon": "149.114702"
 			},
 			{
 				"name": "EMSC6007_S2-PraB/01",
@@ -39653,66 +39779,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
-			}
-		]
-	},
-	"GEND2034_S2": {
-		"title": "GEND2034_S2\u00a0Going Public: Sex, Sexuality and Feminism",
-		"id": "GEND2034_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/GEND2034",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "GEND2034_S2-LecA/01",
-				"day": 0,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Marie Reay 4.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "GEND2034_S2-TutA/01",
-				"day": 1,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "COP G027",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
-			},
-			{
-				"name": "GEND2034_S2-TutA/02",
-				"day": 1,
-				"start": "13:00",
-				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "02",
-				"location": "COP G021",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
-			},
-			{
-				"name": "GEND2034_S2-TutA/03",
-				"day": 2,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "03",
-				"location": "CRISP G018",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
 			}
 		]
 	},
@@ -60127,105 +60193,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
-			}
-		]
-	},
-	"PHIL2014_S2": {
-		"title": "PHIL2014_S2\u00a0Topics in Analytic Philosophy",
-		"id": "PHIL2014_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/PHIL2014",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "PHIL2014_S2-LecA/01",
-				"day": 0,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "SRES T",
-				"locationID": "http://www.anu.edu.au/maps#show=11437",
-				"lat": "-35.277561",
-				"lon": "149.115905"
-			},
-			{
-				"name": "PHIL2014_S2-LecB/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "LecB",
-				"occurrence": "01",
-				"location": "Marie Reay 3.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "PHIL2014_S2-TutA/01",
-				"day": 1,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "BPB W107",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			},
-			{
-				"name": "PHIL2014_S2-TutA/02",
-				"day": 1,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "02",
-				"location": "Marie Reay 5.05",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "PHIL2014_S2-TutA/03",
-				"day": 2,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "03",
-				"location": "BPB W107",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			},
-			{
-				"name": "PHIL2014_S2-TutA/04",
-				"day": 3,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "04",
-				"location": "BPB W107",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			},
-			{
-				"name": "PHIL2014_S2-TutA/05",
-				"day": 4,
-				"start": "16:00",
-				"finish": "17:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "05",
-				"location": "ADH G28",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
 			}
 		]
 	},
