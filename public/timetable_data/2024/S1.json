@@ -2626,7 +2626,9 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV1501_S1-StuA/01",
@@ -17854,7 +17856,7 @@
 		]
 	},
 	"CHIN3015_S1": {
-		"title": "CHIN3015_S1\u00a0Advanced Literary Chinese_Women and Gender",
+		"title": "CHIN3015_S1\u00a0Advanced Literary Chinese_Philosophical Texts (On Campus",
 		"id": "CHIN3015_S1",
 		"link": "https://programsandcourses.anu.edu.au/2024/course/CHIN3015",
 		"dates": "Displaying Dates: 12 Feb 24 - 16 Jun 24 (calendar week(s) 7\u201124)",
