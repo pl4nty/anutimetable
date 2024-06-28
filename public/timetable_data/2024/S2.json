@@ -8147,16 +8147,16 @@
 			},
 			{
 				"name": "BUSN1001_S2-TutA/04",
-				"day": 4,
+				"day": 1,
 				"start": "16:00",
 				"finish": "17:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "HA 1207",
-				"locationID": "http://www.anu.edu.au/maps#show=11294",
-				"lat": "-35.277768",
-				"lon": "149.122317"
+				"location": "Fulton Muir 2.13",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "BUSN1001_S2-TutA/05",
@@ -8950,10 +8950,10 @@
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "Fulton Muir 2.07",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "BUSN3003_S2-TutA/02",
@@ -58949,8 +58949,8 @@
 			{
 				"name": "MUSI3315_S2-LecA/01",
 				"day": 2,
-				"start": "09:00",
-				"finish": "11:00",
+				"start": "10:00",
+				"finish": "12:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -58962,8 +58962,8 @@
 			{
 				"name": "MUSI3315_S2-TutA/01",
 				"day": 2,
-				"start": "11:00",
-				"finish": "12:00",
+				"start": "12:00",
+				"finish": "13:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "01",
