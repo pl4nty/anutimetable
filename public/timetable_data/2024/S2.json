@@ -40551,66 +40551,6 @@
 			}
 		]
 	},
-	"HIST1210_S2": {
-		"title": "HIST1210_S2\u00a0Environment and History from 1945",
-		"id": "HIST1210_S2",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/HIST1210",
-		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "HIST1210_S2-LecA/01",
-				"day": 0,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Marie Reay 3.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
-				"name": "HIST1210_S2-TutA/01",
-				"day": 1,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "COP 1151",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
-			},
-			{
-				"name": "HIST1210_S2-TutA/02",
-				"day": 2,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "02",
-				"location": "ADH G30",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
-			},
-			{
-				"name": "HIST1210_S2-TutA/03",
-				"day": 3,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "03",
-				"location": "ADH G12",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
-			}
-		]
-	},
 	"HIST2070_S2": {
 		"title": "HIST2070_S2\u00a0Emperors, Pilgrims and Crusaders: The World of Byzantium",
 		"id": "HIST2070_S2",
@@ -60534,7 +60474,20 @@
 				"day": 0,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135,38\u201140,42\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
+			},
+			{
+				"name": "PHYS1004_S2-LecA/01",
+				"day": 0,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "41",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "PSYC G5",
@@ -60586,7 +60539,20 @@
 				"day": 0,
 				"start": "13:00",
 				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135,38\u201140,42\u201143",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Physics Studio G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11423",
+				"lat": "-35.275052",
+				"lon": "149.118554"
+			},
+			{
+				"name": "PHYS1004_S2-WorA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "41",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Physics Studio G1",
