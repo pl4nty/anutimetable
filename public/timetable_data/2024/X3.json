@@ -3837,6 +3837,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "POLS2113_X3-TutA/04",
+				"day": 0,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "28\u201129",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": "COP G039",
+				"locationID": "http://www.anu.edu.au/maps#show=11296",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "POLS2113_X3-TutB/01",
 				"day": 1,
 				"start": "17:00",
@@ -3870,6 +3883,19 @@
 				"weeks": "28\u201129",
 				"activity": "TutB",
 				"occurrence": "03",
+				"location": "COP G039",
+				"locationID": "http://www.anu.edu.au/maps#show=11296",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "POLS2113_X3-TutB/04",
+				"day": 1,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "28\u201129",
+				"activity": "TutB",
+				"occurrence": "04",
 				"location": "COP G039",
 				"locationID": "http://www.anu.edu.au/maps#show=11296",
 				"lat": "-35.277985",
@@ -3915,6 +3941,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "POLS2113_X3-TutC/04",
+				"day": 2,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "28\u201129",
+				"activity": "TutC",
+				"occurrence": "04",
+				"location": "COP G039",
+				"locationID": "http://www.anu.edu.au/maps#show=11296",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "POLS2113_X3-TutD/01",
 				"day": 3,
 				"start": "17:00",
@@ -3954,6 +3993,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "POLS2113_X3-TutD/04",
+				"day": 3,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "28\u201129",
+				"activity": "TutD",
+				"occurrence": "04",
+				"location": "COP G039",
+				"locationID": "http://www.anu.edu.au/maps#show=11296",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "POLS2113_X3-TutE/01",
 				"day": 4,
 				"start": "17:00",
@@ -3987,6 +4039,19 @@
 				"weeks": "28",
 				"activity": "TutE",
 				"occurrence": "03",
+				"location": "COP G039",
+				"locationID": "http://www.anu.edu.au/maps#show=11296",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "POLS2113_X3-TutE/04",
+				"day": 4,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "28",
+				"activity": "TutE",
+				"occurrence": "04",
 				"location": "COP G039",
 				"locationID": "http://www.anu.edu.au/maps#show=11296",
 				"lat": "-35.277985",
