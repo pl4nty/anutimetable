@@ -39,28 +39,3 @@ This is an unofficial alternative timetable viewer for the Australian National U
 
 **Contributing:**
 * If you would like to contribute bug reports or to the development, please join the [CSSA Discord server](https://cssa.club/discord) and chat with us in the #timetable channel
-
-## Changelog
-
-### 2022-03-22
-- New responsive UI redesign thanks to [@pl4nty](https://github.com/pl4nty), [@CraftyDH](https://github.com/CraftyDH) and [@ashleylamont](https://github.com/ashleylamont)
-
-### 2022-02-14
-- Caching of selected classes and tutorials thanks to [@CraftyDH](https://github.com/CraftyDH)
-- Removed the service worker for faster updates thanks to [@OliverBalfour](https://github.com/OliverBalfour)
-
-### 2022-01-13
-- Another rewrite in React thanks to [@pl4nty](https://github.com/pl4nty)
-- Migrated into the [ANU Computer Science Students' Association](https://cssa.club/)'s [GitHub organisation](https://github.com/anucssa) for ongoing maintenance
-- Deployed to https://timetable.cssa.club/
-
-### 2021-10-24
-- Calendar file generator (ICS/webcal) thanks to [@pl4nty](https://github.com/pl4nty), available at `/api/GetICS` eg `/api/GetICS?COMP2310_S2` or `/api/GetICS?COMP2310_S2=ComA 01,COMP2310_S2=ComB 01`
-
-### 2021-07-17
-- Integration with existing scraper and frontend fixes thanks to [@OliverBalfour](https://github.com/OliverBalfour)
-
-### 2021-04-18
-- Frontend rewritten in React with ANU's official API and GitHub Actions thanks to [@pl4nty](https://github.com/pl4nty)
-
-See [old_changelog.md](./old_changelog.md) for changes prior to the rewrite
