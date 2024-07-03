@@ -40,6 +40,7 @@ This is an unofficial alternative timetable viewer for the Australian National U
 
 * Move away from Azure functions (to client side logic and GitHub Actions where possible)
 * The [Class Allocation Project](https://services.anu.edu.au/planning-governance/current-projects/class-allocation-project) team intend to roll out a new timetabling experience ~~in semester 2 2022 or 2023~~ eventually. Once this transition is complete this project will be archived or rewritten as the Python scraper will be obsolete.
+  * See [Web Publisher](https://www.anu.edu.au/students/program-administration/timetabling/01-access-and-support-for-mytimetable)
 
 **Contributing:**
 
