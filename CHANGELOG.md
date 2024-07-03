@@ -1,130 +1,134 @@
 # Changelog
 
-### 2022-03-22
+## 2022-03-22
+
 - New responsive UI redesign thanks to [@pl4nty](https://github.com/pl4nty), [@CraftyDH](https://github.com/CraftyDH) and [@ashleylamont](https://github.com/ashleylamont)
 
-### 2022-02-14
+## 2022-02-14
+
 - Caching of selected classes and tutorials thanks to [@CraftyDH](https://github.com/CraftyDH)
 - Removed the service worker for faster updates thanks to [@OliverBalfour](https://github.com/OliverBalfour)
 
-### 2022-01-13
+## 2022-01-13
+
 - Another rewrite in React thanks to [@pl4nty](https://github.com/pl4nty)
 - Migrated into the [ANU Computer Science Students' Association](https://cssa.club/)'s [GitHub organisation](https://github.com/anucssa) for ongoing maintenance
-- Deployed to https://timetable.cssa.club/
+- Deployed to <https://timetable.cssa.club/>
 
-### 2021-10-24
+## 2021-10-24
+
 - Calendar file generator (ICS/webcal) thanks to [@pl4nty](https://github.com/pl4nty), available at `/api/GetICS` eg `/api/GetICS?COMP2310_S2` or `/api/GetICS?COMP2310_S2=ComA 01,COMP2310_S2=ComB 01`
 
-### 2021-07-17
+## 2021-07-17
+
 - Integration with existing scraper and frontend fixes thanks to [@OliverBalfour](https://github.com/OliverBalfour)
 
-### 2021-04-18
+## 2021-04-18
+
 - Frontend rewritten in React with ANU's official API and GitHub Actions thanks to [@pl4nty](https://github.com/pl4nty)
 
-### 2021-02-13
+## 2021-02-13
+
 - Added automatic daily scrapes of the timetable thanks to [@BishopOfTurkey](https://github.com/BishopOfTurkey)
 
-### 2021-02-13
-- Added automatic daily scrapes of the timetable thanks to [@BishopOfTurkey](https://github.com/BishopOfTurkey)
-
-### 2018-07-20
+## 2018-07-20
 
 - Fixed iCal export thanks to [@Alwinius](https://github.com/Alwinius)
 
-### 2018-07-17
+## 2018-07-17
 
 - Updated semester 2 database thanks to [@calmelb](https://github.com/calmelb), [@caitelatte](https://github.com/caitelatte), and [@tetris12367](https://github.com/tetris12367)
 
-### 2018-06-18
+## 2018-06-18
 
 - This version now maintained by [@mdchia](https://github.com/mdchia/anutimetable)
 - Patched up for semester 2 by [@jackadamson](https://github.com/jackadamson)
 
-### 2018-03-11
+## 2018-03-11
 
 * Restored display of class locations
 * Added week switcher
 
-### 2018-03-09
+## 2018-03-09
 
 * Temporarily removed location of classes as requested by ANU
 
-### 2018-02-22
+## 2018-02-22
 
 * Fixed an issue where updating the revision num will cause a `Course.course` initialize error
 * Removed auto-selector residual code for now
 * Added Mocha test directory
 
-### 2018-02-15
+## 2018-02-15
 
 * Added option to take a .PNG screenshot of the timetable
 * Added hide button to activities (requested by email from a few people)
 
-### 2018-01-16
+## 2018-01-16
 
 * Finalised auto-scraper and added the following scripts under /anutimtable/anuscrape:
   1. `commit.sh` - bash script that checks for new timetable data and updates the GitHub repo
   2. `schedule_scraping.bak` - crontab configuration that sets scraping frequency
   3. `update_date.py` - python program that updates version numbers if new data is found
 
-### 2018-01-12
+## 2018-01-12
 
 * Changed the regex used in the scrapers to work correctly with the 2018 timetable
 * Added a verify.py script that takes the timetable.json file and checks for conflicting course activities in terms of iid values
 
-### 2017-12-28
+## 2017-12-28
 
 * Changed scrapers to use the 2018 timetable website
 * Changed mode to _S1 courses only
 
-### 2017-02-20
+## 2017-02-20
 
 * Added offline support
 
-### 2017-02-14
+## 2017-02-14
 
 * Added `autofocus` property for the course input box
 
-### 2017-02-13
+## 2017-02-13
 
 * Fixed an issue with IE/Edge where `Array.prototype.indexOf` method does not exist
 
-### 2017-01-24
+## 2017-01-24
 
 * Fixed an issue with scraper generating wrong iid
 * Fixed an issue with some cell's color won't go away after deleting the course (`parent().get(0)` only returns one element, therefore need to loop over `parent()`)
 
-### 2017-01-22
+## 2017-01-22
 
 * Enhanced `choose` button to be displayed only when there's alternatives
 * Fixed some spelling errors
 
-### 2017-01-21
+## 2017-01-21
 
 * Added a PHP scraper (for non-ANU network use)
 * Fixed the background color issue (temporarily)
 
-### 2016-02-06
+## 2016-02-06
 
 * Fixed table displaying issue.
 
-### 2016-02-04
+## 2016-02-04
 
 * Added auto-selecting feature.
   * No UI for now, use Magic.cast() in console to see effects.
   * The result will be ordered by clashes in ascending order.
 
-### 2016-01-28
+## 2016-01-28
 
 * Temporarily fixed the problem with choosable compulsory courses.
   * It will be deprecated soon.
 
-### 2016-01-18
+## 2016-01-18
 
 * Fixed the problem with confirm window popping out while clicking re-choose buttons.
 * Added border spacing.
 
-### 2016-01-16
+## 2016-01-16
 
 * Compressed JSON structure.
   * `day` will now be index instead of string.
@@ -152,24 +156,24 @@
 * Removed usage of `data-fgroup`, `data-id` will now be used.
 * Fixed a bug where when creating an empty timeslot, it will clone the lesson style class as well.
 
-### 2016-01-11
+## 2016-01-11
 
 * Style changes to save vertical real estate.
 * Made lesson style fit to whole block.
 * Fixed the issue where the color remains when a class is removed.
 * Removed animations.
 
-### 2016-01-06
+## 2016-01-06
 
 * Fixed an issue with colspan.
 * Cleared redundant code.
 
-### 2015-12-21
+## 2015-12-21
 
 * Fixed course deletion animation (slideDown() -> slideUp()).
 * Fixed pressing enter will not add a course issue under some browsers (event.which is not supported).
 
-### 2015-12-19
+## 2015-12-19
 
 * Rewrote the code related to :30 courses support.
   * Instead of remove unused cells, it will now just hide them, this makes searching much easier.
@@ -181,7 +185,7 @@
 * Changed the table to show borders since it's hard to see which timeslot section the class belongs to without them
   * If we set the lesson block to inherit the cell height (cell height 1px and lesson block height 100%), it'll cause some issues when adding/deleting classes, even not, it shows too much space and looks weird).
 
-### 2015-12-15
+## 2015-12-15
 
 * Added maximum 6 courses adding limitation.
   * Code is messy, will need to rewrite it someday.
@@ -192,7 +196,7 @@
   * Combined all identical data classes.
   * Size reduced by 50%.
 
-### 2015-12-09
+## 2015-12-09
 
 * Deprecated save & flush button, these operations will now be processed automatically. <issue #26>
 * Reconstructed functions & variables into OOP style.
@@ -208,7 +212,7 @@
   * This provides an index searching for fullName, location and info, which reduces the size of the data by about 50%.
   * The structure will change again in the upcoming days to merge same classes together and suit :30 classes. The file size will be significantly reduced.
 
-### 2015-12-08
+## 2015-12-08
 
 * Added delete, clear, save and flush feature (use localStorage / cookie depends on the availability).
 * Fixed an issue with tutorial selection (explained in master upstream branch issue #22).
@@ -224,19 +228,16 @@
   * When executing, it'll display a mini progress box in the middle of the page.
   * This will fix the issue #22 without using a new identifier.
 
-### 2015-12-06
+## 2015-12-06
 
 * The scraper is planned for deletion.
-* Instead, use the converter on the direct data source http://udsttweb99.anu.edu.au/Timetable2015/Timetable.csv (hopefully this will be updated by ANU for 2016)
+* Instead, use the converter on the direct data source <http://udsttweb99.anu.edu.au/Timetable2015/Timetable.csv> (hopefully this will be updated by ANU for 2016)
 
-### 2015-12-05
+## 2015-12-05
 
 * 2016 draft timetable available.
 * Added load json feature, supports local/offline (i.e. protocol file://, not local server) use.
 * Fixed the /timetable.json relative path issue (was directing to the root directory).
 * Changed the ics import button location and color.
 
-### Known issues
-
-* After deleting a course located at a index other than the last index, if the current index column is all empty, it won't delete this unused index column, which will cause a redundant gap column, but it'll be re-indexed after refreshing.
-* When there is only one class for a certain group left, the choose button shouldn't be visible.
+<!-- markdownlint-disable-file line-length ul-style -->
