@@ -185,9 +185,9 @@ let App = () => {
   const [isPrintView, setIsPrintView] = useState(false)
   const [printViewCaptureFirstSection, setPrintViewCaptureFirstSection] = useState(true)
 
-  useEffect(() => {
-    document.body.className = isPrintView ? 'print-view' : ''
-  }, [isPrintView])
+  // useEffect(() => {
+  //   document.body.className = isPrintView ? 'print-view' : ''
+  // }, [isPrintView])
 
   // const state = {
   //   timeZone, year, session, sessions, timetableData, modules, selectedModules, weekStart, darkMode,
