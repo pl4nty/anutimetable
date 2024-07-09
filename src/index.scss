@@ -307,23 +307,31 @@ body[data-theme="dark"] {
   }
 }
 
-// print formatting - designed for calendar.current
-.print-view {
-  @page {
-    size: landscape;
-  }
-
+// Print formatting
+@page {
+  size: landscape;
+  margin: 0;
+}
+// designed for calendar.current
+// .print-view {
+@media print {
   body {
+    print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
 
-  // A4 Sheet
-  .fc-view-harness {
-    flex-grow: 0 !important; // override FullCalendar css
-    height: 21cm;
-    width: 29.7cm;
-    font-size: 12pt;
+  // Assumes A4; will look tiny for larger paper sizes
+  .fc {
+    zoom: 0.7;
   }
+
+  // A4 Sheet
+  // .fc-view-harness {
+  //   flex-grow: 0 !important; // override FullCalendar css
+  //   height: 21cm;
+  //   width: 29.7cm;
+  //   font-size: 12pt;
+  // }
 
   button {
     visibility: hidden;

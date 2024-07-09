@@ -208,7 +208,7 @@ export default function Calendar({ timetableData, selectedModules, session, year
     bootstrapFontAwesome={false}
     //   expandRows={true}
     // can't apply in print context because FC events need JS to resize (CSS inset prop)
-    viewClassNames={isPrintView ? 'print-view' : ''}
+    // viewClassNames={isPrintView ? 'print-view' : ''}
     height='100%'
     expandRows={true}
 
