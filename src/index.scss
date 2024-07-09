@@ -348,6 +348,10 @@ body[data-theme="dark"] {
   .fc-timegrid-col.fc-day-today {
     background-color: initial !important;
   }
+  // Remove current-time indicator
+  .fc-timegrid-now-indicator-line {
+    display: none;
+  }
 }
 
 // BigSelect.js
