@@ -1,7 +1,8 @@
 import { useState, forwardRef } from 'react'
 import { Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
 import { SiApple, SiGooglecalendar, SiMicrosoftoutlook, SiMicrosoftexchange } from 'react-icons/si'
-import { BsFillCalendarWeekFill, BsFillPrinterFill, BsCardImage } from 'react-icons/bs'
+// import { BsFillCalendarWeekFill, BsFillPrinterFill, BsCardImage } from 'react-icons/bs'
+import { BsFillCalendarWeekFill, BsCardImage } from 'react-icons/bs'
 
 import { toPng } from 'html-to-image';
 
@@ -142,9 +143,11 @@ const Export = forwardRef(({ API, year, session, setIsPrintView, setPrintViewCap
     <Dropdown.Item eventKey="png" onClick={exportImage(EXPORT_DOWNLOAD)}>
       <BsCardImage /> PNG image
     </Dropdown.Item>
+    {/*
     <Dropdown.Item eventKey="print" onClick={exportImage(EXPORT_PRINT)}>
       <BsFillPrinterFill /> Print
     </Dropdown.Item>
+    */}
   </DropdownButton>
 })
 
