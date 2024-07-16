@@ -4851,10 +4851,10 @@
 				"weeks": "29",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Arndt LT 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11414",
-				"lat": "-35.277437",
-				"lon": "149.124005"
+				"location": "ADH 123a",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "SCRN2001_X3-SemC/01",
@@ -4903,17 +4903,17 @@
 				"weeks": "29",
 				"activity": "SemD",
 				"occurrence": "01",
-				"location": "Arndt LT 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11414",
-				"lat": "-35.277437",
-				"lon": "149.124005"
+				"location": "ADH 123a",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "SCRN2001_X3-SemE/01",
 				"day": 4,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "28\u201129",
+				"weeks": "28",
 				"activity": "SemE",
 				"occurrence": "01",
 				"location": "Arndt LT 2",
