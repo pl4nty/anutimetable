@@ -6,7 +6,7 @@ on:
   pull_request_target:
     types: [opened, synchronize, reopened, labeled]
     paths-ignore: ['.vscode/**']
-  # trigger after successful scrape, as push from scrape action doesn't trigger a push event
+  # push from scrape action doesn't trigger a push event
   workflow_run:
     workflows: [Scrape]
     types: [completed]
@@ -18,8 +18,11 @@ permissions:
 
 jobs:
   swa:
-    # if not a PR, or an internal PR, or PR has 'safe to test' label
-    if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name == github.repository || contains(github.event.pull_request.labels.*.name, 'safe to test')
+    # if a push, or a successful scrape, or PR has 'safe to test' label
+    if: >-
+      github.event_name == 'push' ||
+      github.event.workflow_run.conclusion == 'success' ||
+      contains(github.event.pull_request.labels.*.name, 'safe to test')
     runs-on: ubuntu-latest
     name: Static Web App
     steps:
