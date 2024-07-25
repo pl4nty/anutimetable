@@ -5,6 +5,7 @@
   ],
   "assigneesFromCodeOwners": true,
   "separateMinorPatch": true,
+  "labels": ["safe to test"],
   "lockFileMaintenance": {
     "enabled": true
   },
