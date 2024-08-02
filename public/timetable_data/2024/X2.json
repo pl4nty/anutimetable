@@ -1610,6 +1610,19 @@
 				"lon": "149.120685"
 			},
 			{
+				"name": "EXTN1006B_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "31\u201139",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room B 3.104",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
 				"name": "EXTN1006B_X2-LecA/02",
 				"day": 2,
 				"start": "18:00",
