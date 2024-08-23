@@ -741,6 +741,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
+			},
+			{
+				"name": "ANTH8019_S2-SupA/01",
+				"day": 3,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "35,38\u201143",
+				"activity": "SupA",
+				"occurrence": "01",
+				"location": "BPB ETC Studio 4 Red",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "ANTH8019_S2-SupA/02",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "35,38\u201143",
+				"activity": "SupA",
+				"occurrence": "02",
+				"location": "BPB ETC Studio 4 Red",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
 			}
 		]
 	},
@@ -38726,6 +38752,19 @@
 				"lon": "149.122565"
 			},
 			{
+				"name": "FINM6005_S2-TutA/02",
+				"day": 1,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
 				"name": "FINM6005_S2-TutA/03",
 				"day": 0,
 				"start": "13:00",
@@ -38802,6 +38841,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
+			},
+			{
+				"name": "FINM6005_S2-TutA/05",
+				"day": 1,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "FINM6005_S2-TutA/06",
@@ -60040,7 +60092,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Peter Karmel Big Band Room",
+				"location": "Peter Karmel Foster Room",
 				"locationID": "http://www.anu.edu.au/maps#show=11368",
 				"lat": "-35.280194",
 				"lon": "149.123822"
@@ -60053,7 +60105,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "Peter Karmel Big Band Room",
+				"location": "Peter Karmel Foster Room",
 				"locationID": "http://www.anu.edu.au/maps#show=11368",
 				"lat": "-35.280194",
 				"lon": "149.123822"
