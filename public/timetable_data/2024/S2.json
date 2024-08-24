@@ -17969,6 +17969,19 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "COMP3600_S2-AsmA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Marie Reay 3.03; Marie Reay 5.04; Marie Reay 5.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "COMP3600_S2-DroA/01",
 				"day": 4,
 				"start": "11:00",
@@ -21248,6 +21261,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2024/course/COMP6466",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "COMP6466_S2-AsmA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Marie Reay 3.03; Marie Reay 5.04; Marie Reay 5.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
 			{
 				"name": "COMP6466_S2-DroA/01",
 				"day": 4,
