@@ -26982,10 +26982,23 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "15:00",
-				"weeks": "31\u201135,38\u201143",
+				"weeks": "31\u201134,38\u201143",
 				"activity": "TutA",
 				"occurrence": "10",
 				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "ECON3004_S2-TutA/10",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "35",
+				"activity": "TutA",
+				"occurrence": "10",
+				"location": "HA G040",
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
@@ -27858,10 +27871,23 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "15:00",
-				"weeks": "31\u201135,38\u201143",
+				"weeks": "31\u201134,38\u201143",
 				"activity": "TutA",
 				"occurrence": "10",
 				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "ECON6039_S2-TutA/10",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "35",
+				"activity": "TutA",
+				"occurrence": "10",
+				"location": "HA G040",
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
@@ -48313,6 +48339,17 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "LAWS4202_S2-AsmtA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmtA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
 				"name": "LAWS4202_S2-SemA/01",
 				"day": 4,
 				"start": "09:00",
@@ -51504,6 +51541,17 @@
 		"link": "https://programsandcourses.anu.edu.au/2024/course/LAWS8402",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "LAWS8402_S2-AsmtA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmtA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
 			{
 				"name": "LAWS8402_S2-SemA/01",
 				"day": 4,
@@ -57922,13 +57970,26 @@
 				"day": 3,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "COP T",
 				"locationID": "http://www.anu.edu.au/maps#show=28973",
 				"lat": "-35.277433",
 				"lon": "149.123538"
+			},
+			{
+				"name": "MKTG2004_S2-LecA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "38\u201143",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "MKTG2004_S2-TutA/01",
