@@ -12513,6 +12513,19 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "CHEM4005_S2-AsmA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "40",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "STB_S1 (3.07)",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
 				"name": "CHEM4005_S2-LecA/01",
 				"day": 3,
 				"start": "12:00",
@@ -58317,7 +58330,7 @@
 				"name": "MKTG7028_S2-AsmA/03",
 				"day": 4,
 				"start": "10:00",
-				"finish": "13:00",
+				"finish": "14:00",
 				"weeks": "41\u201142",
 				"activity": "AsmA",
 				"occurrence": "03",
