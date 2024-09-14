@@ -56340,6 +56340,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
 				"lat": "-35.283152",
 				"lon": "149.113616"
+			},
+			{
+				"name": "MEDI8020_S2-SemG/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "44",
+				"activity": "SemG",
+				"occurrence": "01",
+				"location": "Leonard Huxley T",
+				"locationID": "http://www.anu.edu.au/maps#show=11325",
+				"lat": "-35.283152",
+				"lon": "149.113616"
+			},
+			{
+				"name": "MEDI8020_S2-SemG/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "44",
+				"activity": "SemG",
+				"occurrence": "01",
+				"location": "Leonard Huxley T",
+				"locationID": "http://www.anu.edu.au/maps#show=11325",
+				"lat": "-35.283152",
+				"lon": "149.113616"
 			}
 		]
 	},
