@@ -1264,10 +1264,21 @@
 		"classes": [
 			{
 				"name": "LAWS8418_X4-SemA/01",
+				"day": 2,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "40,43",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8418_X4-SemA/01",
 				"day": 4,
 				"start": "15:00",
 				"finish": "17:00",
-				"weeks": "40\u201143",
+				"weeks": "41\u201142",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": " online live",
