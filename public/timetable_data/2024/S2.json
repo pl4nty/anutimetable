@@ -32365,6 +32365,19 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "ENGN2222_S2-DroA/01",
+				"day": 3,
+				"start": "12:30",
+				"finish": "13:00",
+				"weeks": "38\u201143",
+				"activity": "DroA",
+				"occurrence": "01",
+				"location": "Birch 1.29 Teaching Instrumentation Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
+			},
+			{
 				"name": "ENGN2222_S2-LecA/01",
 				"day": 0,
 				"start": "10:00",
