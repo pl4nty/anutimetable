@@ -12505,6 +12505,19 @@
 				"lon": "149.117814"
 			},
 			{
+				"name": "CHEM3208_S2-TutA/01",
+				"day": 3,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
+			},
+			{
 				"name": "CHEM3208_S2-WorA/01",
 				"day": 4,
 				"start": "11:00",
@@ -12818,6 +12831,19 @@
 				"activity": "LetC",
 				"occurrence": "01",
 				"location": "PSYC G6",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
+			},
+			{
+				"name": "CHEM6208_S2-TutA/01",
+				"day": 3,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "PSYC G5",
 				"locationID": "http://www.anu.edu.au/maps#show=11424",
 				"lat": "-35.274459",
 				"lon": "149.117814"
@@ -68208,12 +68234,12 @@
 				"locationID": ""
 			},
 			{
-				"name": "SOCR8003_S2_SemE/01",
+				"name": "SOCR8003_S2-SemE/01",
 				"day": 0,
 				"start": "11:00",
 				"finish": "13:00",
 				"weeks": "43",
-				"activity": "Err",
+				"activity": "SemE",
 				"occurrence": "01",
 				"location": " RSSS, Rm 5.72, on campus",
 				"locationID": ""
