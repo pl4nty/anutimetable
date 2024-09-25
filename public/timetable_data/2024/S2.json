@@ -8893,7 +8893,7 @@
 				"day": 4,
 				"start": "14:00",
 				"finish": "15:30",
-				"weeks": "31\u201135,38",
+				"weeks": "31\u201135,38,41,43",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "LAW T",
@@ -9229,7 +9229,7 @@
 			},
 			{
 				"name": "BUSN3003_S2-TutA/02",
-				"day": 2,
+				"day": 3,
 				"start": "18:00",
 				"finish": "19:00",
 				"weeks": "41",
@@ -14048,6 +14048,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
+			},
+			{
+				"name": "CLAS4008_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "40",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "ADH G41",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			}
 		]
 	},
@@ -14079,6 +14092,19 @@
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "ADH G12",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "CLAS8008_S2-SemA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "40",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "ADH G41",
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
