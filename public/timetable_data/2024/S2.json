@@ -427,6 +427,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "ANTH2005_S2-SemA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "41",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
 				"name": "ANTH2005_S2-WorA/01",
 				"day": 1,
 				"start": "09:00",
