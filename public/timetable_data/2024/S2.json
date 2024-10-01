@@ -27322,6 +27322,19 @@
 				"lon": "149.122565"
 			},
 			{
+				"name": "ECON3102_S2-TutA/02",
+				"day": 2,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "ECON3102_S2-TutA/03",
 				"day": 1,
 				"start": "16:00",
@@ -27369,6 +27382,19 @@
 				"activity": "TutA",
 				"occurrence": "06",
 				"location": "MORAN G007",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "ECON3102_S2-TutA/06",
+				"day": 2,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "06",
+				"location": "MORAN G008",
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
