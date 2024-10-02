@@ -46520,6 +46520,19 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "LATN2122_S2-SupA/01",
+				"day": 4,
+				"start": "14:30",
+				"finish": "16:30",
+				"weeks": "41",
+				"activity": "SupA",
+				"occurrence": "01",
+				"location": "ADH G41",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
 				"name": "LATN2122_S2-TutA/01",
 				"day": 0,
 				"start": "13:00",
