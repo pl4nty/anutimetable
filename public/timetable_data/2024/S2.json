@@ -5857,6 +5857,32 @@
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "BIOL2117_S2-DroA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "41",
+				"activity": "DroA",
+				"occurrence": "01",
+				"location": "HA G052",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "BIOL2117_S2-DroA/02",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "41",
+				"activity": "DroA",
+				"occurrence": "02",
+				"location": "HA 1205",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
 				"name": "BIOL2117_S2-LecA/01",
 				"day": 0,
 				"start": "10:00",
@@ -7155,6 +7181,32 @@
 		"link": "https://programsandcourses.anu.edu.au/2024/course/BIOL6117",
 		"dates": "Displaying Dates: 15 Jul 24 - 17 Nov 24 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "BIOL6117_S2-DroA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "41",
+				"activity": "DroA",
+				"occurrence": "01",
+				"location": "HA G052",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "BIOL6117_S2-DroA/02",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "41",
+				"activity": "DroA",
+				"occurrence": "02",
+				"location": "HA 1205",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
 			{
 				"name": "BIOL6117_S2-LecA/01",
 				"day": 0,
@@ -15277,10 +15329,10 @@
 				"weeks": "31\u201135,38\u201143",
 				"activity": "DroA",
 				"occurrence": "01",
-				"location": "HN 1.25",
-				"locationID": "http://www.anu.edu.au/maps#show=102872",
-				"lat": "-35.275532",
-				"lon": "149.1191"
+				"location": "RSISE A105",
+				"locationID": "http://www.anu.edu.au/maps#show=31139",
+				"lat": "-35.274465",
+				"lon": "149.120538"
 			},
 			{
 				"name": "COMP1600_S2-DroA/02",
@@ -20355,10 +20407,10 @@
 				"weeks": "31\u201135,38\u201143",
 				"activity": "DroA",
 				"occurrence": "01",
-				"location": "HN 1.25",
-				"locationID": "http://www.anu.edu.au/maps#show=102872",
-				"lat": "-35.275532",
-				"lon": "149.1191"
+				"location": "RSISE A105",
+				"locationID": "http://www.anu.edu.au/maps#show=31139",
+				"lat": "-35.274465",
+				"lon": "149.120538"
 			},
 			{
 				"name": "COMP6260_S2-DroA/02",
@@ -20398,32 +20450,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=29415",
 				"lat": "-35.280391",
 				"lon": "149.123592"
-			},
-			{
-				"name": "COMP6260_S2-DroA/01",
-				"day": 4,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "DroA",
-				"occurrence": "01",
-				"location": "RSISE A105",
-				"locationID": "http://www.anu.edu.au/maps#show=31139",
-				"lat": "-35.274465",
-				"lon": "149.120538"
-			},
-			{
-				"name": "COMP6260_S2-DroA/02",
-				"day": 4,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "DroA",
-				"occurrence": "02",
-				"location": "RSISE A105",
-				"locationID": "http://www.anu.edu.au/maps#show=31139",
-				"lat": "-35.274465",
-				"lon": "149.120538"
 			}
 		]
 	},
@@ -29484,6 +29510,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "EMET3007_S2-TutMakA/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "41",
+				"activity": "TutMakA",
+				"occurrence": "01",
+				"location": "HA G053",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
@@ -29950,6 +29989,19 @@
 				"activity": "TutA",
 				"occurrence": "06",
 				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "EMET6012_S2-TutMakA/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "41",
+				"activity": "TutMakA",
+				"occurrence": "01",
+				"location": "HA G053",
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
