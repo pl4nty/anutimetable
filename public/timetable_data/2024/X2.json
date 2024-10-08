@@ -1446,6 +1446,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11384",
 				"lat": "-35.276241",
 				"lon": "149.117144"
+			},
+			{
+				"name": "EXTN1002B_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "43\u201144",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
 			}
 		]
 	},
