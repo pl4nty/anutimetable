@@ -1422,6 +1422,32 @@
 		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
+				"name": "EXTN1002B_X2-AsmA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "43",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room D 3.204",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "EXTN1002B_X2-AsmA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "44",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room D 3.204; Coombs Seminar Room E 3.214",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
 				"name": "EXTN1002B_X2-LecA/01",
 				"day": 2,
 				"start": "17:00",
@@ -1446,19 +1472,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11384",
 				"lat": "-35.276241",
 				"lon": "149.117144"
-			},
-			{
-				"name": "EXTN1002B_X2-LecA/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "19:00",
-				"weeks": "43\u201144",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "BPB W120",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
 			}
 		]
 	},
