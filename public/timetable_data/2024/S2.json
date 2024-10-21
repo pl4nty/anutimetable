@@ -14711,6 +14711,32 @@
 				"lon": "149.120583"
 			},
 			{
+				"name": "COMP1110_S2-ComB/04",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "04",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "COMP1110_S2-ComB/05",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "05",
+				"location": "HN Lab 1",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "COMP1110_S2-ComB/06",
 				"day": 1,
 				"start": "16:00",
@@ -14735,6 +14761,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
+			},
+			{
+				"name": "COMP1110_S2-ComB/08",
+				"day": 2,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "08",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			},
 			{
 				"name": "COMP1110_S2-ComB/09",
@@ -14763,6 +14802,19 @@
 				"lon": "149.120583"
 			},
 			{
+				"name": "COMP1110_S2-ComB/11",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "11",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "COMP1110_S2-ComB/12",
 				"day": 3,
 				"start": "08:00",
@@ -14787,6 +14839,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
+			},
+			{
+				"name": "COMP1110_S2-ComB/14",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "14",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "COMP1110_S2-ComB/15",
+				"day": 3,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "15",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			},
 			{
 				"name": "COMP1110_S2-ComB/16",
@@ -14823,6 +14901,19 @@
 				"activity": "ComB",
 				"occurrence": "18",
 				"location": "CSIT N115/N116",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
+			},
+			{
+				"name": "COMP1110_S2-ComB/19",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "19",
+				"location": "CSIT N109",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
@@ -15257,6 +15348,32 @@
 				"lon": "149.120583"
 			},
 			{
+				"name": "COMP1140_S2-ComB/04",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "04",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "COMP1140_S2-ComB/05",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "05",
+				"location": "HN Lab 1",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "COMP1140_S2-ComB/06",
 				"day": 1,
 				"start": "16:00",
@@ -15281,6 +15398,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
+			},
+			{
+				"name": "COMP1140_S2-ComB/08",
+				"day": 2,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "08",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			},
 			{
 				"name": "COMP1140_S2-ComB/09",
@@ -15309,6 +15439,19 @@
 				"lon": "149.120583"
 			},
 			{
+				"name": "COMP1140_S2-ComB/11",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "11",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "COMP1140_S2-ComB/12",
 				"day": 3,
 				"start": "08:00",
@@ -15333,6 +15476,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
+			},
+			{
+				"name": "COMP1140_S2-ComB/14",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "14",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "COMP1140_S2-ComB/15",
+				"day": 3,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "15",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			},
 			{
 				"name": "COMP1140_S2-ComB/16",
@@ -15369,6 +15538,19 @@
 				"activity": "ComB",
 				"occurrence": "18",
 				"location": "CSIT N115/N116",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
+			},
+			{
+				"name": "COMP1140_S2-ComB/19",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "19",
+				"location": "CSIT N109",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
@@ -22737,6 +22919,32 @@
 				"lon": "149.120583"
 			},
 			{
+				"name": "COMP6710_S2-ComB/04",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "04",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "COMP6710_S2-ComB/05",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "05",
+				"location": "HN Lab 1",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "COMP6710_S2-ComB/06",
 				"day": 1,
 				"start": "16:00",
@@ -22761,6 +22969,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
+			},
+			{
+				"name": "COMP6710_S2-ComB/08",
+				"day": 2,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "08",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			},
 			{
 				"name": "COMP6710_S2-ComB/09",
@@ -22789,6 +23010,19 @@
 				"lon": "149.120583"
 			},
 			{
+				"name": "COMP6710_S2-ComB/11",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "11",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "COMP6710_S2-ComB/12",
 				"day": 3,
 				"start": "08:00",
@@ -22813,6 +23047,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
+			},
+			{
+				"name": "COMP6710_S2-ComB/14",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "14",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "COMP6710_S2-ComB/15",
+				"day": 3,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "15",
+				"location": "HN Lab 2",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
 			},
 			{
 				"name": "COMP6710_S2-ComB/16",
@@ -22849,6 +23109,19 @@
 				"activity": "ComB",
 				"occurrence": "18",
 				"location": "CSIT N115/N116",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
+			},
+			{
+				"name": "COMP6710_S2-ComB/19",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "43",
+				"activity": "ComB",
+				"occurrence": "19",
+				"location": "CSIT N109",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
