@@ -1440,66 +1440,6 @@
 			}
 		]
 	},
-	"PASI8306_X4": {
-		"title": "PASI8306_X4\u00a0The China Alternative? Changing Geopolitics in the Pacific_Online",
-		"id": "PASI8306_X4",
-		"link": "https://programsandcourses.anu.edu.au/2024/course/PASI8306",
-		"dates": "Displaying Dates: 1 Jan 24 - 29 Dec 24 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "PASI8306_X4-SemA/01",
-				"day": 0,
-				"start": "10:00",
-				"finish": "13:00",
-				"weeks": "46\u201151",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Coombs Seminar Room B 3.104",
-				"locationID": "http://www.anu.edu.au/maps#show=11281",
-				"lat": "-35.281813",
-				"lon": "149.120055"
-			},
-			{
-				"name": "PASI8306_X4-SemB/01",
-				"day": 0,
-				"start": "14:00",
-				"finish": "17:00",
-				"weeks": "46\u201151",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "Coombs Seminar Room B 3.104",
-				"locationID": "http://www.anu.edu.au/maps#show=11281",
-				"lat": "-35.281813",
-				"lon": "149.120055"
-			},
-			{
-				"name": "PASI8306_X4-SemC/01",
-				"day": 1,
-				"start": "10:00",
-				"finish": "13:00",
-				"weeks": "46\u201151",
-				"activity": "SemC",
-				"occurrence": "01",
-				"location": "Coombs Seminar Room B 3.104",
-				"locationID": "http://www.anu.edu.au/maps#show=11281",
-				"lat": "-35.281813",
-				"lon": "149.120055"
-			},
-			{
-				"name": "PASI8306_X4-SemD/01",
-				"day": 1,
-				"start": "14:00",
-				"finish": "17:00",
-				"weeks": "46\u201151",
-				"activity": "SemD",
-				"occurrence": "01",
-				"location": "Coombs Seminar Room B 3.104",
-				"locationID": "http://www.anu.edu.au/maps#show=11281",
-				"lat": "-35.281813",
-				"lon": "149.120055"
-			}
-		]
-	},
 	"POGO8232_X4": {
 		"title": "POGO8232_X4\u00a0Persuasion for Policymakers_Online_Online",
 		"id": "POGO8232_X4",
@@ -1907,10 +1847,10 @@
 				"weeks": "47",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
 			},
 			{
 				"name": "POLS2136_X4-SemA/01",
@@ -1933,10 +1873,10 @@
 				"weeks": "47",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
 			},
 			{
 				"name": "POLS2136_X4-SemB/01",
