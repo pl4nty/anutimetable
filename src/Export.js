@@ -1,6 +1,8 @@
 import { useState, forwardRef } from 'react'
 import { Dropdown, DropdownButton, InputGroup } from 'react-bootstrap'
-import { SiApple, SiGooglecalendar, SiMicrosoftoutlook, SiMicrosoftexchange } from 'react-icons/si'
+import { SiApple, SiGooglecalendar } from 'react-icons/si'
+import { PiMicrosoftOutlookLogoFill } from "react-icons/pi"
+import { TfiMicrosoftAlt } from "react-icons/tfi"
 // import { BsFillCalendarWeekFill, BsFillPrinterFill, BsCardImage } from 'react-icons/bs'
 import { BsFillCalendarWeekFill, BsCardImage } from 'react-icons/bs'
 
@@ -130,11 +132,11 @@ const Export = forwardRef(({ API, year, session, setIsPrintView, setPrintViewCap
       // but in our case it drops all but the first qs param during parsing (maybe need double-encode?) and adds a 10s+ delay
       // source code - /owa/node_modules/calendar-bootstrap-config/src/routing/browseDiscoverCalendarsRouteHandler.ts
       href={`https://outlook.live.com/calendar/0/addfromweb?name=${name}&url=${encoded}`}>
-      <SiMicrosoftoutlook /> Outlook.com
+      <PiMicrosoftOutlookLogoFill /> Outlook.com
     </Dropdown.Item>
     <Dropdown.Item eventKey="aad" target={"_blank"} rel={"noreferrer"}
       href={`https://outlook.office.com/calendar/0/addfromweb?name=${name}&url=${encoded}`}>
-      <SiMicrosoftexchange /> Office 365
+      <TfiMicrosoftAlt /> Office 365
     </Dropdown.Item>
     <Dropdown.Divider />
     <Dropdown.Item eventKey="ics" download={`${staticName}.ics`} href={`${window.location.protocol}//${path}`}>
