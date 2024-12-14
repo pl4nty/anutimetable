@@ -16805,8 +16805,8 @@
 			{
 				"name": "DEMO8008_S1-LecA/01",
 				"day": 2,
-				"start": "09:00",
-				"finish": "11:00",
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -16818,8 +16818,8 @@
 			{
 				"name": "DEMO8008_S1-TutA/01",
 				"day": 2,
-				"start": "11:00",
-				"finish": "12:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -16892,8 +16892,8 @@
 			{
 				"name": "DEMO9008_S1-LecA/01",
 				"day": 2,
-				"start": "09:00",
-				"finish": "11:00",
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -16905,8 +16905,8 @@
 			{
 				"name": "DEMO9008_S1-TutA/01",
 				"day": 2,
-				"start": "11:00",
-				"finish": "12:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -18302,8 +18302,8 @@
 			{
 				"name": "ECON2101_S1-LecB/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
+				"start": "10:00",
+				"finish": "12:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecB",
 				"occurrence": "01",
@@ -19939,7 +19939,7 @@
 				"name": "ECON8050_S1-TutA/01",
 				"day": 2,
 				"start": "11:00",
-				"finish": "13:00",
+				"finish": "12:00",
 				"weeks": "9\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -19952,7 +19952,7 @@
 				"name": "ECON8050_S1-TutA/02",
 				"day": 2,
 				"start": "13:00",
-				"finish": "15:00",
+				"finish": "14:00",
 				"weeks": "9\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "02",
@@ -19965,7 +19965,7 @@
 				"name": "ECON8050_S1-TutA/03",
 				"day": 3,
 				"start": "14:00",
-				"finish": "16:00",
+				"finish": "15:00",
 				"weeks": "9\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "03",
@@ -56271,16 +56271,16 @@
 		"classes": [
 			{
 				"name": "POLS4011_S1-SemA/01",
-				"day": 4,
+				"day": 2,
 				"start": "10:00",
 				"finish": "12:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "RSSS Auditorium 1.28",
-				"locationID": "http://www.anu.edu.au/maps#show=123279",
-				"lat": "-35.2791261",
-				"lon": "149.1212115"
+				"location": "SRES T",
+				"locationID": "http://www.anu.edu.au/maps#show=11437",
+				"lat": "-35.277561",
+				"lon": "149.115905"
 			}
 		]
 	},
@@ -56444,16 +56444,16 @@
 		"classes": [
 			{
 				"name": "POLS8058_S1-SemA/01",
-				"day": 4,
+				"day": 2,
 				"start": "10:00",
 				"finish": "12:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "RSSS Auditorium 1.28",
-				"locationID": "http://www.anu.edu.au/maps#show=123279",
-				"lat": "-35.2791261",
-				"lon": "149.1212115"
+				"location": "SRES T",
+				"locationID": "http://www.anu.edu.au/maps#show=11437",
+				"lat": "-35.277561",
+				"lon": "149.115905"
 			}
 		]
 	},
