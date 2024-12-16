@@ -22804,8 +22804,8 @@
 			{
 				"name": "ENGN2217_S1-LecA/01",
 				"day": 2,
-				"start": "14:30",
-				"finish": "16:30",
+				"start": "15:00",
+				"finish": "17:00",
 				"weeks": "10",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -34858,6 +34858,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS2203_S1-TutA/14",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "11\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS2203_S1-TutA/13",
+				"day": 2,
+				"start": "18:00",
+				"finish": "19:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "13",
+				"location": "Fellows Road Law Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			}
 		]
 	},
@@ -37147,6 +37173,32 @@
 				"weeks": "11\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "12",
+				"location": "Fellows Road Law Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS6203_S1-TutA/14",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "11\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6203_S1-TutA/13",
+				"day": 2,
+				"start": "18:00",
+				"finish": "19:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "13",
 				"location": "Fellows Road Law Theatre 2",
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
