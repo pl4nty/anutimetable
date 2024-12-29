@@ -2626,7 +2626,9 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV1501_S1-StuA/01",
@@ -2637,7 +2639,9 @@
 				"activity": "StuA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV1501_S1-StuA/02",
@@ -2648,7 +2652,9 @@
 				"activity": "StuA",
 				"occurrence": "02",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV1501_S1-StuB/01",
@@ -2659,7 +2665,9 @@
 				"activity": "StuB",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV1501_S1-StuB/02",
@@ -2670,7 +2678,9 @@
 				"activity": "StuB",
 				"occurrence": "02",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			}
 		]
 	},
@@ -2845,7 +2855,9 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV2506_S1-StuA/01",
@@ -2856,7 +2868,9 @@
 				"activity": "StuA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV2506_S1-StuB/01",
@@ -2867,7 +2881,9 @@
 				"activity": "StuB",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV2506_S1-StuMakA/01",
@@ -2878,7 +2894,9 @@
 				"activity": "StuMakA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			}
 		]
 	},
@@ -3005,7 +3023,9 @@
 				"activity": "StuA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV2820_S1-StuA/01",
@@ -3249,7 +3269,9 @@
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "SOA&D Foundation Room 3 and 4_G54.54A",
-				"locationID": "http://www.anu.edu.au/maps#show=29095`target="
+				"locationID": "http://www.anu.edu.au/maps#show=29095`target=",
+				"lat": "-35.2805750000",
+				"lon": "149.1214870000"
 			},
 			{
 				"name": "ARTV4022_S1-SemA/01",
@@ -6216,7 +6238,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL1003_S1-LecE/01",
@@ -6227,7 +6251,9 @@
 				"activity": "LecE",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL1003_S1-LecE/01",
@@ -6238,7 +6264,9 @@
 				"activity": "LecE",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL1003_S1-LecF/01",
@@ -6249,7 +6277,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL1003_S1-LecF/01",
@@ -6260,7 +6290,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL1003_S1-PraA/01",
@@ -8786,7 +8818,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL6035_S1-LecE/01",
@@ -8797,7 +8831,9 @@
 				"activity": "LecE",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL6035_S1-LecE/01",
@@ -8808,7 +8844,9 @@
 				"activity": "LecE",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL6035_S1-LecF/01",
@@ -8819,7 +8857,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL6035_S1-LecF/01",
@@ -8830,7 +8870,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BIOL6035_S1-PraA/01",
@@ -11660,7 +11702,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BUSN1001_S1-LecB/01",
@@ -11671,7 +11715,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BUSN1001_S1-LecB/01",
@@ -11682,7 +11728,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BUSN1001_S1-TutA/01",
@@ -13457,7 +13505,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "BUSN7008_S1-TutA/02",
@@ -19062,7 +19112,9 @@
 				"activity": "LecE",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP1100_S1-LecF/01",
@@ -19073,7 +19125,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP1100_S1-LecG/01",
@@ -19456,7 +19510,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP1110_S1-LecD/01",
@@ -19467,7 +19523,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP1110_S1-LecD/01",
@@ -19478,7 +19536,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -19900,7 +19960,9 @@
 				"activity": "LecE",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP1130_S1-LecF/01",
@@ -19911,7 +19973,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP1130_S1-LecG/01",
@@ -21056,7 +21120,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -24050,7 +24116,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP4528_S1-LecC/01",
@@ -24061,7 +24129,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP4528_S1-LecD/01",
@@ -24072,7 +24142,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP4528_S1-LecD/01",
@@ -24083,7 +24155,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -25548,7 +25622,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -27022,7 +27098,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP6528_S1-LecC/01",
@@ -27033,7 +27111,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP6528_S1-LecD/01",
@@ -27044,7 +27124,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP6528_S1-LecD/01",
@@ -27055,7 +27137,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -27425,7 +27509,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP6710_S1-LecD/01",
@@ -27436,7 +27522,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "COMP6710_S1-LecD/01",
@@ -27447,7 +27535,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -40717,7 +40807,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -43230,7 +43322,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "ENGN4528_S1-LecC/01",
@@ -43241,7 +43335,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "ENGN4528_S1-LecD/01",
@@ -43252,7 +43348,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "ENGN4528_S1-LecD/01",
@@ -43263,7 +43361,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -44999,7 +45099,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "ENGN6528_S1-LecC/01",
@@ -45010,7 +45112,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "ENGN6528_S1-LecD/01",
@@ -45021,7 +45125,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "ENGN6528_S1-LecD/01",
@@ -45032,7 +45138,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -50398,7 +50506,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "FINM7006_S1-LecMakA/01",
@@ -50682,7 +50792,9 @@
 				"activity": "WorB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -59931,7 +60043,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "LAWS1206_S1-TutA/01",
@@ -62907,7 +63021,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "LAWS6106_S1-TutA/01",
@@ -66079,7 +66195,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH1005_S1-LecE/01",
@@ -66103,7 +66221,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH1005_S1-WorA/01",
@@ -66382,7 +66502,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH1013_S1-LecD/01",
@@ -66393,7 +66515,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH1013_S1-WorA/01",
@@ -66789,7 +66913,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH1014_S1-WorA/01",
@@ -68840,7 +68966,9 @@
 				"activity": "LecD",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH6005_S1-LecE/01",
@@ -68864,7 +68992,9 @@
 				"activity": "LecF",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "MATH6005_S1-WorA/01",
@@ -77523,7 +77653,9 @@
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "PHIL1004_S1-TutA/01",
@@ -81648,7 +81780,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "POLS1006_S1-TutA/01",
@@ -82496,7 +82630,9 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "POLS2130_S1-TutA/01",
