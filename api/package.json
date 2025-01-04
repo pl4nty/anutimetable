@@ -9,7 +9,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "date-fns": "2.30.0",
+    "date-fns": "4.1.0",
     "date-fns-tz": "2.0.1",
     "ics": "3.8.1",
     "node-fetch": "3.3.2"
