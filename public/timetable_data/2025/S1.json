@@ -45563,6 +45563,32 @@
 				"locationID": ""
 			},
 			{
+				"name": "MEDI8011_S1-LecDY/01",
+				"day": 0,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "15",
+				"activity": "LecDY",
+				"occurrence": "01",
+				"location": "Leonard Huxley T",
+				"locationID": "http://www.anu.edu.au/maps#show=11325",
+				"lat": "-35.283152",
+				"lon": "149.113616"
+			},
+			{
+				"name": "MEDI8011_S1-LecDZ/01",
+				"day": 0,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "15",
+				"activity": "LecDZ",
+				"occurrence": "01",
+				"location": "Leonard Huxley T",
+				"locationID": "http://www.anu.edu.au/maps#show=11325",
+				"lat": "-35.283152",
+				"lon": "149.113616"
+			},
+			{
 				"name": "MEDI8011_S1-LecEA/01",
 				"day": 0,
 				"start": "09:00",
@@ -46610,6 +46636,19 @@
 				"lon": "149.113616"
 			},
 			{
+				"name": "MEDI8011_S1-LecHC/01",
+				"day": 0,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "22",
+				"activity": "LecHC",
+				"occurrence": "01",
+				"location": "Leonard Huxley T",
+				"locationID": "http://www.anu.edu.au/maps#show=11325",
+				"lat": "-35.283152",
+				"lon": "149.113616"
+			},
+			{
 				"name": "MEDI8011_S1-LecHD/01",
 				"day": 0,
 				"start": "09:00",
@@ -47016,6 +47055,19 @@
 				"lon": "149.113616"
 			},
 			{
+				"name": "MEDI8011_S1-LetJ/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "16",
+				"activity": "LetJ",
+				"occurrence": "01",
+				"location": "Florey Medical Sciences Lab B1.20",
+				"locationID": "http://www.anu.edu.au/maps#show=29029",
+				"lat": "-35.282847",
+				"lon": "149.114173"
+			},
+			{
 				"name": "MEDI8011_S1-LetK/01",
 				"day": 4,
 				"start": "09:00",
@@ -47264,7 +47316,7 @@
 			},
 			{
 				"name": "MEDI8011_S1-PraG/02",
-				"day": 0,
+				"day": 1,
 				"start": "09:00",
 				"finish": "11:00",
 				"weeks": "9",
@@ -47277,7 +47329,7 @@
 			},
 			{
 				"name": "MEDI8011_S1-PraG/02",
-				"day": 1,
+				"day": 0,
 				"start": "09:00",
 				"finish": "11:00",
 				"weeks": "9",
