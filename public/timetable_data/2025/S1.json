@@ -3797,7 +3797,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -3821,7 +3821,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "02",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -3845,7 +3845,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "03",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -3869,7 +3869,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "04",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -3893,7 +3893,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "05",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -3917,7 +3917,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "06",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -5866,7 +5866,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -5890,7 +5890,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "02",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -5914,7 +5914,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "03",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -5938,7 +5938,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "04",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -5962,7 +5962,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "05",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -5986,7 +5986,7 @@
 				"weeks": "19",
 				"activity": "PraA",
 				"occurrence": "06",
-				"location": " on campus",
+				"location": " off Campus",
 				"locationID": ""
 			},
 			{
@@ -19108,14 +19108,14 @@
 		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
-				"name": "ECON4434_S1-LecA/01",
+				"name": "ECON4434_S1-PreLecA/01",
 				"day": 6,
 				"start": "16:00",
 				"finish": "18:00",
 				"weeks": "8\u201113,16\u201121",
-				"activity": "LecA",
+				"activity": "PreLecA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " Prerecorded",
 				"locationID": ""
 			},
 			{
@@ -21573,7 +21573,7 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "PreLecA",
 				"occurrence": "01",
-				"location": " off campus",
+				"location": " Prerecorded",
 				"locationID": ""
 			},
 			{
@@ -21584,7 +21584,7 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "PreLecB",
 				"occurrence": "01",
-				"location": " off campus",
+				"location": " Prerecorded",
 				"locationID": ""
 			},
 			{
@@ -21595,7 +21595,7 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "PreLecC",
 				"occurrence": "01",
-				"location": " off campus",
+				"location": " Prerecorded",
 				"locationID": ""
 			}
 		]
@@ -26281,14 +26281,14 @@
 				"lon": "149.121926"
 			},
 			{
-				"name": "ENVS2011_S1-LecB/01",
+				"name": "ENVS2011_S1-PreLecB/01",
 				"day": 6,
 				"start": "16:00",
 				"finish": "17:00",
 				"weeks": "8\u201113,16\u201121",
-				"activity": "LecB",
+				"activity": "PreLecB",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " Prerecorded",
 				"locationID": ""
 			},
 			{
@@ -26717,14 +26717,14 @@
 				"lon": "149.121926"
 			},
 			{
-				"name": "ENVS6020_S1-LecB/01",
+				"name": "ENVS6020_S1-PreLecB/01",
 				"day": 6,
 				"start": "16:00",
 				"finish": "17:00",
 				"weeks": "8\u201113,16\u201121",
-				"activity": "LecB",
+				"activity": "PreLecB",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " Prerecorded",
 				"locationID": ""
 			},
 			{
@@ -32732,10 +32732,23 @@
 				"day": 0,
 				"start": "10:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201110,12\u201113,16,18\u201121",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "INTR8052_S1-SemA/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "11",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
 				"lat": "-35.282857",
 				"lon": "149.119686"
@@ -35505,10 +35518,10 @@
 				"weeks": "10,12,16,18,20\u201121",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "COOMBS Extension LT 1.04",
-				"locationID": "http://www.anu.edu.au/maps#show=11280",
-				"lat": "-35.282541",
-				"lon": "149.119238"
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "LAWS2244_S1-TutA/05",
@@ -35758,7 +35771,7 @@
 				"weeks": "8,20",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " off campus",
 				"locationID": ""
 			},
 			{
@@ -35843,7 +35856,7 @@
 				"weeks": "8,20",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " off campus",
 				"locationID": ""
 			},
 			{
@@ -37837,10 +37850,10 @@
 				"weeks": "10,12,16,18,20\u201121",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "COOMBS Extension LT 1.04",
-				"locationID": "http://www.anu.edu.au/maps#show=11280",
-				"lat": "-35.282541",
-				"lon": "149.119238"
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "LAWS6244_S1-TutA/05",
@@ -38001,7 +38014,7 @@
 				"weeks": "8,20",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " off campus",
 				"locationID": ""
 			},
 			{
@@ -38086,7 +38099,7 @@
 				"weeks": "8,20",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " on campus",
+				"location": " off campus",
 				"locationID": ""
 			},
 			{
@@ -38373,12 +38386,12 @@
 		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
-				"name": "LAWS8144_S1-LecA/01",
+				"name": "LAWS8144_S1-PreLecA/01",
 				"day": 6,
 				"start": "17:00",
 				"finish": "18:00",
 				"weeks": "8\u201113,16\u201121",
-				"activity": "LecA",
+				"activity": "PreLecA",
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
@@ -58490,8 +58503,10 @@
 				"weeks": "12",
 				"activity": "WorE",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
 			},
 			{
 				"name": "PSYC8101_S1-WorF/01",
@@ -58790,8 +58805,10 @@
 				"weeks": "12",
 				"activity": "WorE",
 				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
+				"location": "Gould Seminar Room 235",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
 			},
 			{
 				"name": "PSYC8513_S1-WorA/01",
@@ -63958,9 +63975,9 @@
 		"classes": [
 			{
 				"name": "THAI1002_S1-LecA/01",
-				"day": 0,
-				"start": "10:30",
-				"finish": "12:00",
+				"day": 1,
+				"start": "18:00",
+				"finish": "19:30",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -63969,9 +63986,9 @@
 			},
 			{
 				"name": "THAI1002_S1-LecB/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "14:30",
+				"day": 3,
+				"start": "18:00",
+				"finish": "19:30",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecB",
 				"occurrence": "01",
@@ -63994,8 +64011,10 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " dual delivery",
-				"locationID": ""
+				"location": "Coombs Seminar Room C 3.110",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
 			},
 			{
 				"name": "THAI2002_S1-LecB/01",
@@ -64005,8 +64024,10 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecB",
 				"occurrence": "01",
-				"location": " dual delivery",
-				"locationID": ""
+				"location": "Coombs Seminar Room F 3.304",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
 			}
 		]
 	},
@@ -64024,8 +64045,10 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " dual delivery",
-				"locationID": ""
+				"location": "Coombs Seminar Room D 3.204",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
 			},
 			{
 				"name": "THAI3002_S1-LecB/01",
@@ -64035,8 +64058,10 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecB",
 				"occurrence": "01",
-				"location": " dual delivery",
-				"locationID": ""
+				"location": "Marie Reay 3.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
