@@ -16763,8 +16763,8 @@
 			{
 				"name": "DEMO8008_S1-TutA/01",
 				"day": 2,
-				"start": "15:00",
-				"finish": "16:00",
+				"start": "11:00",
+				"finish": "12:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -16850,8 +16850,8 @@
 			{
 				"name": "DEMO9008_S1-TutA/01",
 				"day": 2,
-				"start": "15:00",
-				"finish": "16:00",
+				"start": "11:00",
+				"finish": "12:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -20933,19 +20933,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
-			},
-			{
-				"name": "EMET4314_S1-WorA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Arndt TR1",
-				"locationID": "http://www.anu.edu.au/maps#show=11414",
-				"lat": "-35.277437",
-				"lon": "149.124005"
 			}
 		]
 	},
@@ -21319,19 +21306,6 @@
 				"finish": "12:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "TutA",
-				"occurrence": "01",
-				"location": "Arndt TR1",
-				"locationID": "http://www.anu.edu.au/maps#show=11414",
-				"lat": "-35.277437",
-				"lon": "149.124005"
-			},
-			{
-				"name": "EMET8014_S1-WorA/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Arndt TR1",
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
@@ -33814,16 +33788,16 @@
 		"classes": [
 			{
 				"name": "LAWS1001_S1-ClaA/01",
-				"day": 3,
+				"day": 4,
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "8\u20119,11",
 				"activity": "ClaA",
 				"occurrence": "01",
-				"location": "Kambri T2",
-				"locationID": "http://www.anu.edu.au/maps#show=108132",
-				"lat": "-35.276928",
-				"lon": "149.121926"
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "LAWS1001_S1-ClaA/01",
@@ -36112,16 +36086,16 @@
 		"classes": [
 			{
 				"name": "LAWS6001_S1-ClaA/01",
-				"day": 3,
+				"day": 4,
 				"start": "14:00",
 				"finish": "17:00",
 				"weeks": "8\u20119,11",
 				"activity": "ClaA",
 				"occurrence": "01",
-				"location": "Kambri T2",
-				"locationID": "http://www.anu.edu.au/maps#show=108132",
-				"lat": "-35.276928",
-				"lon": "149.121926"
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "LAWS6001_S1-ClaA/01",
@@ -56392,6 +56366,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "POLS3001_S1-LecB/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "8\u201113",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "Barry Drive 7-11 Ground Floor",
+				"locationID": "http://www.anu.edu.au/maps#show=90783",
+				"lat": "-35.2752066",
+				"lon": "149.127504"
 			},
 			{
 				"name": "POLS3001_S1-WorA/01",
