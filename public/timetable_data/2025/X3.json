@@ -1,4 +1,90 @@
 {
+	"POLS3111_X3": {
+		"title": "POLS3111_X3\u00a0Elections, Political Behaviour and Public Opinion in Australia",
+		"id": "POLS3111_X3",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/POLS3111",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POLS3111_X3-LecA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "27",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS3111_X3-LecB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "13:00",
+				"weeks": "27",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS3111_X3-LecC/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "13:00",
+				"weeks": "28",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS3111_X3-LecD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "14:30",
+				"weeks": "28",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS3111_X3-LecE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "13:00",
+				"weeks": "27\u201128",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS3111_X3-LecF/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "28",
+				"activity": "LecF",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			}
+		]
+	},
 	"SCOM3007_X3": {
 		"title": "SCOM3007_X3\u00a0From Creativity to Impact: Science Communication Project Design",
 		"id": "SCOM3007_X3",
