@@ -10171,6 +10171,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN7057_S1-TutA/08",
+				"day": 3,
+				"start": "18:00",
+				"finish": "19:00",
+				"weeks": "9\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "08",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			}
 		]
 	},
@@ -31419,36 +31432,6 @@
 			}
 		]
 	},
-	"IDEC8021_S1": {
-		"title": "IDEC8021_S1\u00a0The Chinese Economy_Online_Online",
-		"id": "IDEC8021_S1",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/IDEC8021",
-		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "IDEC8021_S1-LecA/01",
-				"day": 2,
-				"start": "14:30",
-				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			},
-			{
-				"name": "IDEC8021_S1-TutA/01",
-				"day": 0,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "9\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
-			}
-		]
-	},
 	"IDEC8023_S1": {
 		"title": "IDEC8023_S1\u00a0Case Studies in Applied Econometrics_Online_Online",
 		"id": "IDEC8023_S1",
@@ -48884,7 +48867,7 @@
 				"day": 3,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "4\u201116,18\u201123",
+				"weeks": "4,6\u201116,18\u201123",
 				"activity": "LecG",
 				"occurrence": "01",
 				"location": "Leonard Huxley T",
@@ -54487,7 +54470,20 @@
 				"day": 4,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201113,18\u201121",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Physics Studio G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11423",
+				"lat": "-35.275052",
+				"lon": "149.118554"
+			},
+			{
+				"name": "PHYS3101_S1-WorA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "16\u201117",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Physics Studio G1",
@@ -55002,7 +54998,20 @@
 				"day": 4,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201113,18\u201121",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Physics Studio G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11423",
+				"lat": "-35.275052",
+				"lon": "149.118554"
+			},
+			{
+				"name": "PHYS6101_S1-WorA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "16\u201117",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Physics Studio G1",
