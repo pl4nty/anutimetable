@@ -6,14 +6,18 @@
 
 ## About
 
-This is an unofficial alternative timetable viewer for the Australian National University built by members of the [ANU Computer Science Students' Association](https://cssa.club/). It's available [here](https://timetable.cssa.club/). It serves as an up-to-date (automatically updated each day), fast, easy to use alternative to the [official timetable](http://timetabling.anu.edu.au/sws2022/). It replaces the *old* unofficial timetable [here](https://anutimetable.com/) which has not been updated for 2022.
+This is an unofficial alternative timetable viewer for the Australian National University built by members of the
+[ANU Computer Science Students' Association](https://cssa.club/). It's available [here](https://timetable.cssa.club/).
+It serves as an up-to-date (automatically updated each day), fast, easy to use alternative to the
+[(old) official timetable](http://timetabling.anu.edu.au/sws2025/). It replaces the *old* unofficial timetable
+[here](https://anutimetable.com/) which has not been updated since 2021.
 
 ## Development
 
 > [!IMPORTANT]
 > The source of the course data is currently the [old timetable
-> (timetabling.anu.edu.au)](https://timetabling.anu.edu.au/sws2024/), so there will be differences between this
-> timetable and [MyTimetable](https://mytimetable.anu.edu.au/even/timetable/). Particularly, some courses are, for
+> (timetabling.anu.edu.au)](https://timetabling.anu.edu.au/sws2025/), so there will be differences between this
+> timetable and [MyTimetable](https://mytimetable.anu.edu.au/odd/timetable/). Particularly, some courses are, for
 > whatever reason, not added there, and there is currently nothing we can do to add them to this timetable.
 >
 > We will be switching to new APIs with a planned rewrite, so this issue should be eventually resolved. In the meantime,
