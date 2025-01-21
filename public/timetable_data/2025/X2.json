@@ -143,6 +143,386 @@
 			}
 		]
 	},
+	"ARCH3043_X2": {
+		"title": "ARCH3043_X2\u00a0Analysis of Vertebrate Remains",
+		"id": "ARCH3043_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ARCH3043",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARCH3043_X2-PraA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH3043_X2-PraB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraB",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH3043_X2-PraC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraC",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH3043_X2-PraD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraD",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH3043_X2-PraE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraE",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH3043_X2-PreLecA/01",
+				"day": 6,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "24",
+				"activity": "PreLecA",
+				"occurrence": "01",
+				"location": " prerecorded",
+				"locationID": ""
+			}
+		]
+	},
+	"ARCH6043_X2": {
+		"title": "ARCH6043_X2\u00a0Analysis of Vertebrate Remains",
+		"id": "ARCH6043_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ARCH6043",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARCH6043_X2-PraA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH6043_X2-PraB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraB",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH6043_X2-PraC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraC",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH6043_X2-PraD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraD",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH6043_X2-PraE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "14:00",
+				"weeks": "25",
+				"activity": "PraE",
+				"occurrence": "01",
+				"location": "COOMBS Lab 4.114",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "ARCH6043_X2-PreLecA/01",
+				"day": 6,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "24",
+				"activity": "PreLecA",
+				"occurrence": "01",
+				"location": " prerecorded",
+				"locationID": ""
+			}
+		]
+	},
+	"ARCH8045_X2": {
+		"title": "ARCH8045_X2\u00a0The Ochre Card: Effective Indigenous engagement and learning country through our eyes",
+		"id": "ARCH8045_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ARCH8045",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARCH8045_X2-FieA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "14",
+				"activity": "FieA",
+				"occurrence": "01",
+				"location": " off campus",
+				"locationID": ""
+			},
+			{
+				"name": "ARCH8045_X2-FieB/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "14",
+				"activity": "FieB",
+				"occurrence": "01",
+				"location": " off campus",
+				"locationID": ""
+			},
+			{
+				"name": "ARCH8045_X2-FieC/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "14",
+				"activity": "FieC",
+				"occurrence": "01",
+				"location": " off campus",
+				"locationID": ""
+			},
+			{
+				"name": "ARCH8045_X2-FieD/01",
+				"day": 5,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "14",
+				"activity": "FieD",
+				"occurrence": "01",
+				"location": " off campus",
+				"locationID": ""
+			},
+			{
+				"name": "ARCH8045_X2-FieE/01",
+				"day": 6,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "14",
+				"activity": "FieE",
+				"occurrence": "01",
+				"location": " off campus",
+				"locationID": ""
+			},
+			{
+				"name": "ARCH8045_X2-FieF/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "15:00",
+				"weeks": "15",
+				"activity": "FieF",
+				"occurrence": "01",
+				"location": " off campus",
+				"locationID": ""
+			}
+		]
+	},
+	"ARTV8030_X2": {
+		"title": "ARTV8030_X2\u00a0Writing about practice-led research",
+		"id": "ARTV8030_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ARTV8030",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARTV8030_X2-SemA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "15",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemB/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemC/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "15",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemD/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemE/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "15",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemF/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "SemF",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemG/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "15",
+				"activity": "SemG",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemH/01",
+				"day": 3,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "SemH",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemI/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "15",
+				"activity": "SemI",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "ARTV8030_X2-SemJ/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "15",
+				"activity": "SemJ",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			}
+		]
+	},
 	"ARTV9030_X2": {
 		"title": "ARTV9030_X2\u00a0Practice-led Research: Writing Methods",
 		"id": "ARTV9030_X2",
@@ -351,6 +731,165 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11280",
 				"lat": "-35.282541",
 				"lon": "149.119238"
+			}
+		]
+	},
+	"CRIM2002_X2": {
+		"title": "CRIM2002_X2\u00a0Organised Crime: Understanding the Underworld",
+		"id": "CRIM2002_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/CRIM2002",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "CRIM2002_X2-FilA/01",
+				"day": 0,
+				"start": "13:30",
+				"finish": "15:30",
+				"weeks": "14\u201115",
+				"activity": "FilA",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "CRIM2002_X2-FilB/01",
+				"day": 2,
+				"start": "13:30",
+				"finish": "15:30",
+				"weeks": "14\u201115",
+				"activity": "FilB",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "CRIM2002_X2-FilC/01",
+				"day": 4,
+				"start": "13:30",
+				"finish": "15:30",
+				"weeks": "14\u201115",
+				"activity": "FilC",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "CRIM2002_X2-LecA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "14\u201115",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "CRIM2002_X2-LecB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "14\u201115",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "CRIM2002_X2-LecC/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "14\u201115",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "CRIM2002_X2-WorA/01",
+				"day": 0,
+				"start": "15:30",
+				"finish": "17:00",
+				"weeks": "14\u201115",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "CRIM2002_X2-WorB/01",
+				"day": 2,
+				"start": "15:30",
+				"finish": "17:00",
+				"weeks": "14\u201115",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			},
+			{
+				"name": "CRIM2002_X2-WorC/01",
+				"day": 4,
+				"start": "15:30",
+				"finish": "17:00",
+				"weeks": "14\u201115",
+				"activity": "WorC",
+				"occurrence": "01",
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
+			}
+		]
+	},
+	"DIPL8020_X2": {
+		"title": "DIPL8020_X2\u00a0A Sociology of Diplomacy _Online",
+		"id": "DIPL8020_X2",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "DIPL8020_X2-SemA/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "14\u201122",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "COOMBS Extension LT 1.04",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "DIPL8020_X2-SemB/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "14\u201122",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
@@ -1229,6 +1768,102 @@
 			}
 		]
 	},
+	"INDG3004_X2": {
+		"title": "INDG3004_X2\u00a0Australian Indigenous Studies Research Project",
+		"id": "INDG3004_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/INDG3004",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "INDG3004_X2-LecA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "16,18,20,22",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LecB/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "24",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LecC/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "19",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LecD/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "19",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LecE/01",
+				"day": 5,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "19",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LECF/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "19",
+				"activity": "LECF",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LecG/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "19",
+				"activity": "LecG",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			},
+			{
+				"name": "INDG3004_X2-LecH/01",
+				"day": 5,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "19",
+				"activity": "LecH",
+				"occurrence": "01",
+				"location": " online",
+				"locationID": ""
+			}
+		]
+	},
 	"LAWS8253_X2": {
 		"title": "LAWS8253_X2\u00a0Law of The Sea",
 		"id": "LAWS8253_X2",
@@ -1286,6 +1921,96 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
+			}
+		]
+	},
+	"LAWS8315_X2": {
+		"title": "LAWS8315_X2\u00a0Maritime Security Law",
+		"id": "LAWS8315_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8315",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8315_X2-SemA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "18",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS8315_X2-SemB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "18",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS8315_X2-SemC/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "18",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS8315_X2-SemD/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "18",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			}
+		]
+	},
+	"LAWS8407_X2": {
+		"title": "LAWS8407_X2\u00a0Digital Economies and the Law_Online",
+		"id": "LAWS8407_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8407",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8407_X2-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "15\u201120",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8407_X2-SemB/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "15\u201120",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -1393,6 +2118,44 @@
 			}
 		]
 	},
+	"POGO8238_X2": {
+		"title": "POGO8238_X2\u00a0Fundamentals of Intergovernmental Management_Online_Online",
+		"id": "POGO8238_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/POGO8238",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8238_X2-WorA/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "13:30",
+				"weeks": "23\u201125",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
+	"POGO8243_X2": {
+		"title": "POGO8243_X2\u00a0The Localist Revolution \u2013 The Changing Face of Local Government _Online_Online",
+		"id": "POGO8243_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/POGO8243",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8243_X2-WorA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "13:30",
+				"weeks": "23\u201125",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
 	"REGN8002_X2": {
 		"title": "REGN8002_X2\u00a0Governance and Social Theory_Online",
 		"id": "REGN8002_X2",
@@ -1423,14 +2186,129 @@
 			}
 		]
 	},
+	"REGN8005_X2": {
+		"title": "REGN8005_X2\u00a0Restorative Justice in the World_Online",
+		"id": "REGN8005_X2",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8005_X2-SemA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "16\u201122",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "REGN8005_X2-SemB/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "16\u201122",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
+	},
 	"REGN8021_X2": {
-		"title": "REGN8021_X2\u00a0Fundamentals of Quantitative Analysis for Regulators_In Person_On Campus",
+		"title": "REGN8021_X2\u00a0Fundamentals of Quantitative Analysis for Regulators_Online",
 		"id": "REGN8021_X2",
 		"link": "https://programsandcourses.anu.edu.au/2025/course/REGN8021",
 		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
 				"name": "REGN8021_X2-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:30",
+				"weeks": "16\u201121",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
+	},
+	"REGN8026_X2": {
+		"title": "REGN8026_X2\u00a0Nuclear Safeguards Regulation: Frameworks, institutions and standards_Online_Online",
+		"id": "REGN8026_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/REGN8026",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8026_X2-SemA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "20",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room C 3.110",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			},
+			{
+				"name": "REGN8026_X2-SemA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "21\u201124",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "REGN8026_X2-SemB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "20",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "REGN8026_X2-SemB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "21\u201124",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
+	},
+	"REGN9021_X2": {
+		"title": "REGN9021_X2\u00a0Fundamentals of quantitative analysis for regulators_In Person",
+		"id": "REGN9021_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/REGN9021",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN9021_X2-SemA/01",
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:30",
@@ -1471,6 +2349,79 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			}
+		]
+	},
+	"SCOM2016_X2": {
+		"title": "SCOM2016_X2\u00a0Science, Journalism and Society",
+		"id": "SCOM2016_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/SCOM2016",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "SCOM2016_X2-LetA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM2016_X2-LetB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetB",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM2016_X2-LetC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetC",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM2016_X2-LetD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetD",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM2016_X2-LetE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetE",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
@@ -1674,6 +2625,126 @@
 				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
 				"lat": "-35.27583",
 				"lon": "149.11753"
+			}
+		]
+	},
+	"SCOM6016_X2": {
+		"title": "SCOM6016_X2\u00a0Science, Journalism and Society_Online",
+		"id": "SCOM6016_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/SCOM6016",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "SCOM6016_X2-LetA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM6016_X2-LetB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetB",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM6016_X2-LetC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetC",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM6016_X2-LetD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetD",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "SCOM6016_X2-LetE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "14",
+				"activity": "LetE",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			}
+		]
+	},
+	"SOCY2101_X2": {
+		"title": "SOCY2101_X2\u00a0Social Policy: Principles and Practice",
+		"id": "SOCY2101_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/SOCY2101",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "SOCY2101_X2-WorA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
+			},
+			{
+				"name": "SOCY2101_X2-WorB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
+			},
+			{
+				"name": "SOCY2101_X2-WorC/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "25\u201126",
+				"activity": "WorC",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			}
 		]
 	}
