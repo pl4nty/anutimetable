@@ -284,6 +284,228 @@
 			}
 		]
 	},
+	"ARTV2909_X1": {
+		"title": "ARTV2909_X1\u00a0The Public Project: Engaging with Institutions and Communities_Mt Stromlo Canberra Enlighten ",
+		"id": "ARTV2909_X1",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ARTV2909_X1-BreA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6",
+				"activity": "BreA",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreB/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6",
+				"activity": "BreB",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreC/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6",
+				"activity": "BreC",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreD/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6",
+				"activity": "BreD",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreE/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6",
+				"activity": "BreE",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreF/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6",
+				"activity": "BreF",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreG/01",
+				"day": 3,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6",
+				"activity": "BreG",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-BreH/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6",
+				"activity": "BreH",
+				"occurrence": "01",
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV2909_X1-StuA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6\u20117",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuB/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6\u20117",
+				"activity": "StuB",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuC/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6\u20117",
+				"activity": "StuC",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuD/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6\u20117",
+				"activity": "StuD",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuE/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6",
+				"activity": "StuE",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuF/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6",
+				"activity": "StuF",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuG/01",
+				"day": 3,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6",
+				"activity": "StuG",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuH/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6",
+				"activity": "StuH",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuI/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "6\u20117",
+				"activity": "StuI",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			},
+			{
+				"name": "ARTV2909_X1-StuJ/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "6\u20117",
+				"activity": "StuJ",
+				"occurrence": "01",
+				"location": "SOA&D Photomedia Curved wall Teaching Studio 1.28",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
+			}
+		]
+	},
 	"ASIA2096_X1": {
 		"title": "ASIA2096_X1\u00a0North Korea: History, Culture, Politics",
 		"id": "ASIA2096_X1",
@@ -1989,6 +2211,163 @@
 			}
 		]
 	},
+	"LAWS4275_X1": {
+		"title": "LAWS4275_X1\u00a0Federal Judicial System",
+		"id": "LAWS4275_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS4275",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS4275_X1-LecA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4275_X1-LecB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4275_X1-LecC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4275_X1-LecD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4275_X1-LecE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4275_X1-LecE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "6",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
+	"LAWS4307_X1": {
+		"title": "LAWS4307_X1\u00a0Legal Education for True Justice: Indigenous Perspectives and Deep Listening on Country",
+		"id": "LAWS4307_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS4307",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS4307_X1-SemA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "8",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Moot Court T1",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS4307_X1-SemB/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "10",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Moot Court T1",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS4307_X1-SemD/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "16",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Moot Court T1",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS4307_X1-SemE/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "13",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS4307_X1-SemF/01",
+				"day": 0,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "19",
+				"activity": "SemF",
+				"occurrence": "01",
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			}
+		]
+	},
 	"LAWS4344_X1": {
 		"title": "LAWS4344_X1\u00a0Environmental Justice Practicum",
 		"id": "LAWS4344_X1",
@@ -2146,6 +2525,79 @@
 			}
 		]
 	},
+	"LAWS6307_X1": {
+		"title": "LAWS6307_X1\u00a0Legal Education for True Justice: Indigenous Perspectives and Deep Listening on Country",
+		"id": "LAWS6307_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS6307",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS6307_X1-SemA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "8",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Moot Court T1",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6307_X1-SemB/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "10",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Moot Court T1",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6307_X1-SemD/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "16",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Moot Court T1",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6307_X1-SemE/01",
+				"day": 1,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "13",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS6307_X1-SemF/01",
+				"day": 0,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "19",
+				"activity": "SemF",
+				"occurrence": "01",
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			}
+		]
+	},
 	"LAWS8006_X1": {
 		"title": "LAWS8006_X1\u00a0Law and Development in the Contemporary South Pacific",
 		"id": "LAWS8006_X1",
@@ -2193,89 +2645,250 @@
 			}
 		]
 	},
+	"LAWS8077_X1": {
+		"title": "LAWS8077_X1\u00a0Cyber Law_Online",
+		"id": "LAWS8077_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8077",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8077_X1-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "6\u201111",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8077_X1-SemB/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "6\u201111",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
 	"LAWS8182_X1": {
-		"title": "LAWS8182_X1\u00a0Principles of International Law_Online",
+		"title": "LAWS8182_X1\u00a0Principles of International Law_In Person_Maritime Law Studies",
 		"id": "LAWS8182_X1",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8182",
+		"link": "",
 		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
 				"name": "LAWS8182_X1-SemA/01",
 				"day": 0,
-				"start": "14:00",
-				"finish": "18:00",
-				"weeks": "9",
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "8\u201110",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
-				"name": "LAWS8182_X1-SemA/01",
-				"day": 0,
-				"start": "14:00",
+				"name": "LAWS8182_X1-SemB/01",
+				"day": 1,
+				"start": "10:30",
+				"finish": "13:30",
+				"weeks": "8",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS8182_X1-SemB/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "9\u201110",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS8182_X1-SemC/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "8\u201110",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS8182_X1-WorA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:30",
+				"weeks": "8",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			}
+		]
+	},
+	"LAWS8253_X1": {
+		"title": "LAWS8253_X1\u00a0Law of The Sea",
+		"id": "LAWS8253_X1",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8253_X1-SemA/01",
+				"day": 1,
+				"start": "09:00",
 				"finish": "17:00",
 				"weeks": "11",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			},
 			{
-				"name": "LAWS8182_X1-SemB/01",
+				"name": "LAWS8253_X1-SemB/01",
 				"day": 2,
-				"start": "14:00",
+				"start": "09:00",
 				"finish": "17:00",
-				"weeks": "9\u201111",
+				"weeks": "11",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			},
 			{
-				"name": "LAWS8182_X1-SemC/01",
-				"day": 4,
-				"start": "14:00",
-				"finish": "18:00",
-				"weeks": "9",
+				"name": "LAWS8253_X1-SemC/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "11",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			},
 			{
-				"name": "LAWS8182_X1-SemD/01",
+				"name": "LAWS8253_X1-SemD/01",
 				"day": 4,
-				"start": "13:00",
+				"start": "09:00",
 				"finish": "17:00",
-				"weeks": "10\u201111",
+				"weeks": "11",
 				"activity": "SemD",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			}
+		]
+	},
+	"LAWS8275_X1": {
+		"title": "LAWS8275_X1\u00a0Federal Judicial System",
+		"id": "LAWS8275_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8275",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8275_X1-LecA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
-				"name": "LAWS8182_X1-SemE/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "18:00",
-				"weeks": "9",
-				"activity": "SemE",
+				"name": "LAWS8275_X1-LecB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecB",
 				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS8275_X1-LecC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS8275_X1-LecD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS8275_X1-LecE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "3\u20114",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS8275_X1-LecE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "6",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -2306,6 +2919,66 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			}
+		]
+	},
+	"LAWS8567_X1": {
+		"title": "LAWS8567_X1\u00a0International Dispute Resolution",
+		"id": "LAWS8567_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8567",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8567_X1-WorA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "5",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS8567_X1-WorB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "5",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS8567_X1-WorC/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "5",
+				"activity": "WorC",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
+			},
+			{
+				"name": "LAWS8567_X1-WorD/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "5",
+				"activity": "WorD",
+				"occurrence": "01",
+				"location": "Moot Court",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -2361,6 +3034,44 @@
 			}
 		]
 	},
+	"LAWS8589_X1": {
+		"title": "LAWS8589_X1\u00a0Law and Religion in Australia_Online",
+		"id": "LAWS8589_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8589",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8589_X1-WorA/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "8\u201115",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
+	"POGO8004_X1": {
+		"title": "POGO8004_X1\u00a0Poverty Reduction_Online_Online",
+		"id": "POGO8004_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/POGO8004",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8004_X1-WorA/01",
+				"day": 0,
+				"start": "09:30",
+				"finish": "14:30",
+				"weeks": "8\u201110,12\u201113",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
 	"POGO8136_X1": {
 		"title": "POGO8136_X1\u00a0Participating in Public Policy: Citizen Engagement and Public Talk_Online_Online",
 		"id": "POGO8136_X1",
@@ -2377,6 +3088,179 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			}
+		]
+	},
+	"POGO8233_X1": {
+		"title": "POGO8233_X1\u00a0Policy Tools & Mixes_Online_Online",
+		"id": "POGO8233_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/POGO8233",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8233_X1-WorA/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "5\u20117",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
+	"POGO8234_X1": {
+		"title": "POGO8234_X1\u00a0Unpacking Policy Capacity_Online_Online",
+		"id": "POGO8234_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/POGO8234",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8234_X1-LecA/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "4",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-LecB/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "4",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-LecC/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "4",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-LecD/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:30",
+				"weeks": "5",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-LecE/01",
+				"day": 1,
+				"start": "11:30",
+				"finish": "13:00",
+				"weeks": "5",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-LecF/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:30",
+				"weeks": "5",
+				"activity": "LecF",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-WorA/01",
+				"day": 4,
+				"start": "13:30",
+				"finish": "14:30",
+				"weeks": "4",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-WorB/01",
+				"day": 1,
+				"start": "13:30",
+				"finish": "14:30",
+				"weeks": "5",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8234_X1-WorC/01",
+				"day": 4,
+				"start": "11:30",
+				"finish": "13:00",
+				"weeks": "5",
+				"activity": "WorC",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
+			}
+		]
+	},
+	"POGO8900_X1": {
+		"title": "POGO8900_X1\u00a0Fostering Public Policy Research",
+		"id": "POGO8900_X1",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8900_X1-SemA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "7",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "POGO8900_X1-SemB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "7",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "POGO8900_X1-SemC/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "17:00",
+				"weeks": "7",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
