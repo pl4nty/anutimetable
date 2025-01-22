@@ -965,16 +965,14 @@
 			},
 			{
 				"name": "ARAB2011_S1-TutA/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
+				"day": 0,
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "8\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "CAIS 1.15 Al-Falasi Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11377",
-				"lat": "-35.279598",
-				"lon": "149.120968"
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -4637,8 +4635,8 @@
 			{
 				"name": "BIAN3113_S1-TutA/01",
 				"day": 1,
-				"start": "11:00",
-				"finish": "12:00",
+				"start": "10:00",
+				"finish": "11:00",
 				"weeks": "10,12,17,19",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -4650,8 +4648,8 @@
 			{
 				"name": "BIAN3113_S1-TutA/02",
 				"day": 1,
-				"start": "12:00",
-				"finish": "13:00",
+				"start": "11:00",
+				"finish": "12:00",
 				"weeks": "10,12,17,19",
 				"activity": "TutA",
 				"occurrence": "02",
@@ -4663,15 +4661,15 @@
 			{
 				"name": "BIAN3113_S1-TutA/03",
 				"day": 1,
-				"start": "15:00",
-				"finish": "16:00",
+				"start": "13:00",
+				"finish": "14:00",
 				"weeks": "10,12,17,19",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "BPB W303",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
+				"location": "Marie Reay 5.06",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
@@ -44146,13 +44144,26 @@
 				"day": 0,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201113,16,18\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Hedley Bull Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
 				"lat": "-35.282857",
 				"lon": "149.119686"
+			},
+			{
+				"name": "INTR1021_S1-LecA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "FSTY T",
+				"locationID": "http://www.anu.edu.au/maps#show=11318",
+				"lat": "-35.277907",
+				"lon": "149.116057"
 			},
 			{
 				"name": "INTR1021_S1-TutA/01",
@@ -44512,7 +44523,7 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Hedley Bull Seminar Room 3",
+				"location": "Hedley Bull Theatre 2",
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
 				"lat": "-35.282857",
 				"lon": "149.119686"
@@ -45988,10 +45999,10 @@
 				"weeks": "8\u20119,11",
 				"activity": "ClaA",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "China in the World LT",
+				"locationID": "http://www.anu.edu.au/maps#show=11390",
+				"lat": "-35.280567",
+				"lon": "149.117565"
 			},
 			{
 				"name": "LAWS1001_S1-ClaA/01",
@@ -46058,13 +46069,24 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "CRISP G017",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS1201_S1-TutA/01",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS1201_S1-TutA/02",
@@ -46084,10 +46106,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS1201_S1-TutA/02",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -46108,10 +46141,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS1201_S1-TutA/03",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -46132,10 +46176,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS1201_S1-TutA/04",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -46156,10 +46211,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "05",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS1201_S1-TutA/05",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -46284,10 +46350,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "16\u201117",
+				"weeks": "16",
 				"activity": "TutA",
 				"occurrence": "14",
 				"location": " Law Theatre _on campus(TutA/14,TutA/15)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS1201_S1-TutA/14",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -46308,7 +46385,20 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "16\u201117",
+				"weeks": "16",
+				"activity": "TutA",
+				"occurrence": "15",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS1201_S1-TutA/15",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "15",
 				"location": "LAW T",
@@ -48681,10 +48771,10 @@
 				"weeks": "8\u20119,11",
 				"activity": "ClaA",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "China in the World LT",
+				"locationID": "http://www.anu.edu.au/maps#show=11390",
+				"lat": "-35.280567",
+				"lon": "149.117565"
 			},
 			{
 				"name": "LAWS6001_S1-ClaA/01",
@@ -48751,13 +48841,24 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "CRISP G017",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS6101_S1-TutA/01",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS6101_S1-TutA/02",
@@ -48777,10 +48878,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS6101_S1-TutA/02",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -48801,10 +48913,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS6101_S1-TutA/03",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -48825,10 +48948,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS6101_S1-TutA/04",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "04",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -48849,10 +48983,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "11,17",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "05",
-				"location": " Law Theatre _on campus(TutA/01,02,03,04)",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS6101_S1-TutA/05",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -48977,10 +49122,21 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "16\u201117",
+				"weeks": "16",
 				"activity": "TutA",
 				"occurrence": "14",
 				"location": " Law Theatre _on campus(TutA/14,TutA/15)",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS6101_S1-TutA/14",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": " Law Theatre _on campus(TutA/01,02,03,04,05,14,15)",
 				"locationID": ""
 			},
 			{
@@ -49001,7 +49157,20 @@
 				"day": 2,
 				"start": "18:00",
 				"finish": "20:00",
-				"weeks": "16\u201117",
+				"weeks": "16",
+				"activity": "TutA",
+				"occurrence": "15",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS6101_S1-TutA/15",
+				"day": 2,
+				"start": "18:00",
+				"finish": "20:00",
+				"weeks": "17",
 				"activity": "TutA",
 				"occurrence": "15",
 				"location": "LAW T",
@@ -70066,19 +70235,6 @@
 				"lon": "149.120968"
 			},
 			{
-				"name": "POLS2069_S1-TutA/04",
-				"day": 2,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "9\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "04",
-				"location": "CAIS 1.14",
-				"locationID": "http://www.anu.edu.au/maps#show=11377",
-				"lat": "-35.279598",
-				"lon": "149.120968"
-			},
-			{
 				"name": "POLS2069_S1-TutA/05",
 				"day": 2,
 				"start": "12:00",
@@ -78452,7 +78608,7 @@
 				"day": 0,
 				"start": "15:00",
 				"finish": "16:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "9\u201110,12\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Coombs Seminar Room G 3.314",
@@ -78461,11 +78617,24 @@
 				"lon": "149.120055"
 			},
 			{
+				"name": "STST2001_S1-TutA/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "11",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "COOMBS Extension SR 1.13",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
 				"name": "STST2001_S1-TutA/02",
 				"day": 0,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "9\u201110,12\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "02",
 				"location": "Coombs Seminar Room B 3.104",
@@ -78474,11 +78643,37 @@
 				"lon": "149.120055"
 			},
 			{
+				"name": "STST2001_S1-TutA/02",
+				"day": 1,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "11",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "COOMBS Extension SR 1.13",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
 				"name": "STST2001_S1-TutA/03",
 				"day": 0,
 				"start": "17:00",
 				"finish": "18:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "9\u201110,12\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "COOMBS Extension SR 1.13",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "STST2001_S1-TutA/03",
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "11",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "COOMBS Extension SR 1.13",
