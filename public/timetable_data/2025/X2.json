@@ -1329,13 +1329,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "7\u201115,18\u201127,30\u201139",
+				"weeks": "7\u201115,18\u201127",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Han 2.23",
 				"locationID": "http://www.anu.edu.au/maps#show=11313",
 				"lat": "-35.276955",
 				"lon": "149.117796"
+			},
+			{
+				"name": "EXTN1011B_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "30\u201139",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Fulton Muir 2.11",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			}
 		]
 	},
