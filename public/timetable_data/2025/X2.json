@@ -1221,16 +1221,16 @@
 		"classes": [
 			{
 				"name": "EXTN1001B_X2-LecA/01",
-				"day": 3,
+				"day": 1,
 				"start": "17:00",
 				"finish": "19:00",
 				"weeks": "7\u201115,18\u201127,30\u201139",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "HN 1.58",
-				"locationID": "http://www.anu.edu.au/maps#show=102872",
-				"lat": "-35.275532",
-				"lon": "149.1191"
+				"location": "Physics Studio G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11423",
+				"lat": "-35.275052",
+				"lon": "149.118554"
 			}
 		]
 	},
@@ -1326,29 +1326,16 @@
 		"classes": [
 			{
 				"name": "EXTN1011B_X2-LecA/01",
-				"day": 2,
+				"day": 3,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "7\u201115,18\u201127",
+				"weeks": "7\u201115,18\u201127,30\u201139",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Han 2.23",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
-			},
-			{
-				"name": "EXTN1011B_X2-LecA/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "19:00",
-				"weeks": "30\u201139",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Fulton Muir 2.11",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Physics Studio G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11423",
+				"lat": "-35.275052",
+				"lon": "149.118554"
 			}
 		]
 	},
