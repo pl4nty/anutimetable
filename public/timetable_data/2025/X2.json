@@ -1864,66 +1864,6 @@
 			}
 		]
 	},
-	"LAWS8253_X2": {
-		"title": "LAWS8253_X2\u00a0Law of The Sea",
-		"id": "LAWS8253_X2",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8253",
-		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "LAWS8253_X2-WorA/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "11",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS8253_X2-WorB/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "11",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS8253_X2-WorC/01",
-				"day": 3,
-				"start": "09:00",
-				"finish": "17:00",
-				"weeks": "11",
-				"activity": "WorC",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			},
-			{
-				"name": "LAWS8253_X2-WorD/01",
-				"day": 4,
-				"start": "09:00",
-				"finish": "15:00",
-				"weeks": "11",
-				"activity": "WorD",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 2",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			}
-		]
-	},
 	"LAWS8315_X2": {
 		"title": "LAWS8315_X2\u00a0Maritime Security Law",
 		"id": "LAWS8315_X2",
