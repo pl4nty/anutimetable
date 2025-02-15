@@ -90,7 +90,8 @@ export default async function (context, req) {
                         const interval = weeks.split('\u2011')
                         const repetitions = interval[interval.length-1]-interval[0]+1
 
-                        const day = dayOffset + 7*(interval[0]-1) + parseInt(session.day) + 1
+                        const day = dayOffset + 7*(interval[0]-1) + parseInt(session.day) + 1 - 7
+                        // FIXME: hotfix for one week shift in ICS exports in 2025. Breaks lots of other years.
 
                         let startDay = utcToZonedTime(new Date(yearStart.getTime()), tz)
                         startDay.setDate(day)
