@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
-import { format, utcToZonedTime } from 'date-fns-tz'
 import ics from 'ics'
+import { DateTime } from 'luxon'
 
 // https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings#azure_functions_environment
 const tz = 'Australia/Canberra'
@@ -8,11 +8,8 @@ const days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA']
 
 // eg 2021-02-16,10:00 => [2021,2,16,10,0]
 function timesToArray(date, timeString) {
-    const times = timeString.split(':')
-    date.setHours(times[0])
-    date.setMinutes(times[1])
-    date.setSeconds(0)
-    return format(date, 'y,M,d,H,m,s', { timeZone: tz }).split(',').map(x => parseInt(x))
+    const times = timeString.split(':').map(x => parseInt(x))
+    return [date.year, date.month, date.day, times[0], times[1], 0]
 }
 
 // eg ?COMP2310_S2=LecA 01,LecB 01
@@ -72,29 +69,13 @@ export default async function (context, req) {
                 const hidden = hiddenClasses.includes(eventString)
                 // If occurrence of activity is selected (eg TutA 01), skip other occurrences (eg TutA 02)
                 if (!hidden && (!selected[session.activity] || selected[session.activity].includes(session.occurrence))) {
-
-                    // Static Web App Functions don't support WEBSITE_TIME_ZONE and default to UTC, so manually handle timezones
-                    // Days from start of year until first Monday - aka Week 0
-                    let yearStart = utcToZonedTime(new Date(), tz)
-                    yearStart.setMonth(0,1)
-                    // Target next year if November or later (ie classes ended)
-                    // TODO accept year and session as query params
-                    if (yearStart.getMonth() >= 10) yearStart.setFullYear(yearStart.getFullYear()+1);
-
-                    const year = yearStart.getFullYear();
-
-                    const dayOffset = (8 - yearStart.getDay()) % 7
-
                     // repeated weeks are stored as "31\u201136,39\u201144"
                     for (let weeks of session.weeks.split(',')) {
                         const interval = weeks.split('\u2011')
                         const repetitions = interval[interval.length-1]-interval[0]+1
-
-                        const day = dayOffset + 7*(interval[0]-1) + parseInt(session.day) + 1
-
-                        let startDay = utcToZonedTime(new Date(yearStart.getTime()), tz)
-                        startDay.setDate(day)
-                        const weekday = days[startDay.getDay()] // assumes no multi-day events
+                        const year = parseInt(req.query.y)
+                        const day = DateTime.local().setZone(tz).set( {weekYear: year, weekNumber: interval[0], weekday: parseInt(session.day) + 1} )
+                        const weekday = days[day.weekday] // assumes no multi-day events
 
                         let { lat, lon } = session
 
@@ -103,9 +84,9 @@ https://wattlecourses.anu.edu.au/course/search.php?q=${courseCode}+${year}
 https://programsandcourses.anu.edu.au/${year}/course/${courseCode}`
 
                         events.push({
-                            start: timesToArray(startDay, session.start, context),
+                            start: timesToArray(day, session.start),
                             startOutputType: 'local',
-                            end: timesToArray(startDay, session.finish, context),
+                            end: timesToArray(day, session.finish),
                             title: `${courseCode} ${session.activity} ${parseInt(session.occurrence)}`,
                             description,
                             location: session.location,
