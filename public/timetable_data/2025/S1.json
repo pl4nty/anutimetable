@@ -611,8 +611,8 @@
 			{
 				"name": "ANTH1002_S1-LecA/01",
 				"day": 2,
-				"start": "10:00",
-				"finish": "12:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "11,17",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -1023,8 +1023,8 @@
 			{
 				"name": "ANTH6002_S1-LecA/01",
 				"day": 2,
-				"start": "10:00",
-				"finish": "12:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "11,17",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -4291,6 +4291,27 @@
 			}
 		]
 	},
+	"ASIA6010_S1": {
+		"title": "ASIA6010_S1\u00a0The Making of Modern Japan: From Samurai to Economic Superpower and Beyond",
+		"id": "ASIA6010_S1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ASIA6010",
+		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
+		"classes": [
+			{
+				"name": "ASIA6010_S1-SemA/01",
+				"day": 0,
+				"start": "15:00",
+				"finish": "18:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			}
+		]
+	},
 	"ASIA6030_S1": {
 		"title": "ASIA6030_S1\u00a0History of the State System in Southeast Asia",
 		"id": "ASIA6030_S1",
@@ -4309,6 +4330,27 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			}
+		]
+	},
+	"ASIA6031_S1": {
+		"title": "ASIA6031_S1\u00a0Japanese Politics",
+		"id": "ASIA6031_S1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ASIA6031",
+		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
+		"classes": [
+			{
+				"name": "ASIA6031_S1-SemA/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "8\u201113,16\u201121",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			}
 		]
 	},
@@ -10011,19 +10053,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
-			},
-			{
-				"name": "BUSI7280_S1-TutA/01",
-				"day": 1,
-				"start": "18:00",
-				"finish": "19:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "CBE TR2",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
 			}
 		]
 	},
@@ -31567,8 +31596,8 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "RSES Jaeger 5_DH Green Room",
-				"locationID": "http://www.anu.edu.au/maps&show=31095",
+				"location": "RSES 3_Jaeger 8 1.02",
+				"locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31093",
 				"lat": "-35.283954",
 				"lon": "149.115286"
 			},
@@ -32028,8 +32057,8 @@
 				"weeks": "8\u201113,16\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "RSES Jaeger 5_DH Green Room",
-				"locationID": "http://www.anu.edu.au/maps&show=31095",
+				"location": "RSES 3_Jaeger 8 1.02",
+				"locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31093",
 				"lat": "-35.283954",
 				"lon": "149.115286"
 			},
@@ -34666,7 +34695,7 @@
 				"day": 1,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "RN Robertson T",
@@ -34679,7 +34708,7 @@
 				"day": 0,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "01",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34692,7 +34721,7 @@
 				"day": 1,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "02",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34705,7 +34734,7 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "03",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34718,7 +34747,7 @@
 				"day": 2,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "04",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34731,7 +34760,7 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "05",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34744,7 +34773,7 @@
 				"day": 3,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "06",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34757,7 +34786,7 @@
 				"day": 3,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "07",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -34770,7 +34799,7 @@
 				"day": 4,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "08",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36093,7 +36122,7 @@
 				"day": 1,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "RN Robertson T",
@@ -36106,7 +36135,7 @@
 				"day": 0,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "01",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36119,7 +36148,7 @@
 				"day": 1,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "02",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36132,7 +36161,7 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "03",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36145,7 +36174,7 @@
 				"day": 2,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "04",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36158,7 +36187,7 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "05",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36171,7 +36200,7 @@
 				"day": 3,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "06",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36184,7 +36213,7 @@
 				"day": 3,
 				"start": "14:00",
 				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "07",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -36197,7 +36226,7 @@
 				"day": 4,
 				"start": "09:00",
 				"finish": "12:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "9\u201113,16\u201121",
 				"activity": "PraA",
 				"occurrence": "08",
 				"location": "Ian Ross R103 (Circuits and Telecom Lab)",
@@ -55093,40 +55122,6 @@
 			}
 		]
 	},
-	"LING2040_S1": {
-		"title": "LING2040_S1\u00a0Austronesian languages",
-		"id": "LING2040_S1",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/LING2040",
-		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "LING2040_S1-LecA/01",
-				"day": 1,
-				"start": "15:00",
-				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "BPB W119",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			},
-			{
-				"name": "LING2040_S1-TutA/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "CRISP G015",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
-			}
-		]
-	},
 	"LING3032_S1": {
 		"title": "LING3032_S1\u00a0Forensic Linguistics: Forensic Voice and Text Comparison",
 		"id": "LING3032_S1",
@@ -55490,40 +55485,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=123279",
 				"lat": "-35.2791261",
 				"lon": "149.1212115"
-			}
-		]
-	},
-	"LING6040_S1": {
-		"title": "LING6040_S1\u00a0Austronesian languages",
-		"id": "LING6040_S1",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/LING6040",
-		"dates": "Displaying Dates: 10 Feb 25 - 15 Jun 25 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "LING6040_S1-LecA/01",
-				"day": 1,
-				"start": "15:00",
-				"finish": "17:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "BPB W119",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			},
-			{
-				"name": "LING6040_S1-TutA/01",
-				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "CRISP G015",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
 			}
 		]
 	},
@@ -57434,6 +57395,19 @@
 				"activity": "WorA",
 				"occurrence": "08",
 				"location": "HN 4.41",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "MATH1115_S1-WorA/09",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "9\u201113,16\u201121",
+				"activity": "WorA",
+				"occurrence": "09",
+				"location": "HN 1.57",
 				"locationID": "http://www.anu.edu.au/maps#show=102872",
 				"lat": "-35.275532",
 				"lon": "149.1191"
@@ -61117,19 +61091,6 @@
 				"lon": "149.113616"
 			},
 			{
-				"name": "MEDI8011_S1-LecAG/01",
-				"day": 0,
-				"start": "12:30",
-				"finish": "13:30",
-				"weeks": "8",
-				"activity": "LecAG",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
 				"name": "MEDI8011_S1-LecAH/01",
 				"day": 1,
 				"start": "14:00",
@@ -64043,8 +64004,8 @@
 			{
 				"name": "MEDI8011_S1-SemE/01",
 				"day": 0,
-				"start": "14:00",
-				"finish": "16:00",
+				"start": "13:30",
+				"finish": "15:30",
 				"weeks": "8",
 				"activity": "SemE",
 				"occurrence": "01",
@@ -65822,19 +65783,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
-			},
-			{
-				"name": "MGMT7020_S1-TutA/01",
-				"day": 2,
-				"start": "18:00",
-				"finish": "19:00",
-				"weeks": "8\u201113,16\u201121",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "CBE TR2",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
 			}
 		]
 	},
@@ -70386,6 +70334,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
+			},
+			{
+				"name": "PHIL3075_S1-TutA/05",
+				"day": 3,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "9\u201113,16\u201121",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": "Marie Reay 5.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
@@ -80163,7 +80124,7 @@
 				"weeks": "9\u201113,16\u201121",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": "Arndt TR1",
+				"location": "Arndt LT 2",
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
