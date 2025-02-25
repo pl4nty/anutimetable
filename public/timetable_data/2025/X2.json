@@ -1371,13 +1371,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "7\u201115,18\u201127,30\u201139",
+				"weeks": "7\u20118",
 				"activity": "ComA",
 				"occurrence": "01",
 				"location": "HN 1.25",
 				"locationID": "http://www.anu.edu.au/maps#show=102872",
 				"lat": "-35.275532",
 				"lon": "149.1191"
+			},
+			{
+				"name": "EXTN1019B_X2-ComA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "9\u201115,18\u201127,30\u201139",
+				"activity": "ComA",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			}
 		]
 	},
