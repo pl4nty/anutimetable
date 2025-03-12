@@ -1645,7 +1645,7 @@
 				"name": "HUMN8019_X2-TutA/01",
 				"day": 0,
 				"start": "10:00",
-				"finish": "11:00",
+				"finish": "12:00",
 				"weeks": "22",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -1658,7 +1658,7 @@
 				"name": "HUMN8019_X2-TutB/01",
 				"day": 1,
 				"start": "10:00",
-				"finish": "11:00",
+				"finish": "12:00",
 				"weeks": "22",
 				"activity": "TutB",
 				"occurrence": "01",
@@ -1671,7 +1671,7 @@
 				"name": "HUMN8019_X2-TutC/01",
 				"day": 2,
 				"start": "10:00",
-				"finish": "11:00",
+				"finish": "12:00",
 				"weeks": "22",
 				"activity": "TutC",
 				"occurrence": "01",
@@ -1684,7 +1684,7 @@
 				"name": "HUMN8019_X2-TutD/01",
 				"day": 3,
 				"start": "10:00",
-				"finish": "11:00",
+				"finish": "12:00",
 				"weeks": "22",
 				"activity": "TutD",
 				"occurrence": "01",
@@ -1697,7 +1697,7 @@
 				"name": "HUMN8019_X2-TutE/01",
 				"day": 4,
 				"start": "10:00",
-				"finish": "11:00",
+				"finish": "12:00",
 				"weeks": "22",
 				"activity": "TutE",
 				"occurrence": "01",
@@ -2319,10 +2319,10 @@
 				"weeks": "14",
 				"activity": "LetA",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM2016_X2-LetB/01",
@@ -2332,10 +2332,10 @@
 				"weeks": "14",
 				"activity": "LetB",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM2016_X2-LetC/01",
@@ -2345,10 +2345,10 @@
 				"weeks": "14",
 				"activity": "LetC",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM2016_X2-LetD/01",
@@ -2358,10 +2358,10 @@
 				"weeks": "14",
 				"activity": "LetD",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM2016_X2-LetE/01",
@@ -2371,10 +2371,10 @@
 				"weeks": "14",
 				"activity": "LetE",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
@@ -2595,10 +2595,10 @@
 				"weeks": "14",
 				"activity": "LetA",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM6016_X2-LetB/01",
@@ -2608,10 +2608,10 @@
 				"weeks": "14",
 				"activity": "LetB",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM6016_X2-LetC/01",
@@ -2621,10 +2621,10 @@
 				"weeks": "14",
 				"activity": "LetC",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM6016_X2-LetD/01",
@@ -2634,10 +2634,10 @@
 				"weeks": "14",
 				"activity": "LetD",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "SCOM6016_X2-LetE/01",
@@ -2647,10 +2647,10 @@
 				"weeks": "14",
 				"activity": "LetE",
 				"occurrence": "01",
-				"location": "Marie Reay 2.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
