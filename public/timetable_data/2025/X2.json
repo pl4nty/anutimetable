@@ -661,6 +661,40 @@
 			}
 		]
 	},
+	"ASIA9075_X2": {
+		"title": "ASIA9075_X2\u00a0Research Design and Writing in International, Political, and Strategic Studies",
+		"id": "ASIA9075_X2",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/ASIA9075",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ASIA9075_X2-SemA/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "14\u201120",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "HA 1207",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "ASIA9075_X2-SemA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "18:00",
+				"weeks": "21\u201125",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "HA 1207",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			}
+		]
+	},
 	"CHIN2013_X2": {
 		"title": "CHIN2013_X2\u00a0Taiwanese (Southern Min)",
 		"id": "CHIN2013_X2",
@@ -2319,10 +2353,10 @@
 				"weeks": "14",
 				"activity": "LetA",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM2016_X2-LetB/01",
@@ -2332,10 +2366,10 @@
 				"weeks": "14",
 				"activity": "LetB",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM2016_X2-LetC/01",
@@ -2345,10 +2379,10 @@
 				"weeks": "14",
 				"activity": "LetC",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM2016_X2-LetD/01",
@@ -2358,10 +2392,10 @@
 				"weeks": "14",
 				"activity": "LetD",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM2016_X2-LetE/01",
@@ -2371,10 +2405,10 @@
 				"weeks": "14",
 				"activity": "LetE",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			}
 		]
 	},
@@ -2595,10 +2629,10 @@
 				"weeks": "14",
 				"activity": "LetA",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM6016_X2-LetB/01",
@@ -2608,10 +2642,10 @@
 				"weeks": "14",
 				"activity": "LetB",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM6016_X2-LetC/01",
@@ -2621,10 +2655,10 @@
 				"weeks": "14",
 				"activity": "LetC",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM6016_X2-LetD/01",
@@ -2634,10 +2668,10 @@
 				"weeks": "14",
 				"activity": "LetD",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			},
 			{
 				"name": "SCOM6016_X2-LetE/01",
@@ -2647,10 +2681,10 @@
 				"weeks": "14",
 				"activity": "LetE",
 				"occurrence": "01",
-				"location": "COP G031",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			}
 		]
 	},
