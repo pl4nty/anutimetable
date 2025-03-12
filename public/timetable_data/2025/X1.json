@@ -2249,6 +2249,19 @@
 				"lon": "149.118658"
 			},
 			{
+				"name": "LAWS4223_X1-WorA/02",
+				"day": 0,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "5",
+				"activity": "WorA",
+				"occurrence": "02",
+				"location": "Marie Reay 3.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "LAWS4223_X1-WorB/01",
 				"day": 2,
 				"start": "09:00",
