@@ -50338,13 +50338,13 @@
 			},
 			{
 				"name": "LAWS1203_S1-TutA/03",
-				"day": 3,
-				"start": "16:00",
-				"finish": "17:00",
+				"day": 2,
+				"start": "18:00",
+				"finish": "19:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -50449,13 +50449,13 @@
 			},
 			{
 				"name": "LAWS1203_S1-TutA/09",
-				"day": 3,
-				"start": "15:00",
-				"finish": "16:00",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "09",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -50473,13 +50473,13 @@
 			},
 			{
 				"name": "LAWS1203_S1-TutA/10",
-				"day": 3,
-				"start": "09:00",
-				"finish": "10:00",
+				"day": 2,
+				"start": "14:00",
+				"finish": "15:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "10",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -50524,15 +50524,13 @@
 			{
 				"name": "LAWS1203_S1-TutA/13",
 				"day": 2,
-				"start": "14:00",
-				"finish": "15:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "13",
-				"location": "Coombs Seminar Room C 3.110",
-				"locationID": "http://www.anu.edu.au/maps#show=11281",
-				"lat": "-35.281813",
-				"lon": "149.120055"
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS1203_S1-TutA/14",
@@ -53419,13 +53417,13 @@
 			},
 			{
 				"name": "LAWS6103_S1-TutA/03",
-				"day": 3,
-				"start": "16:00",
-				"finish": "17:00",
+				"day": 2,
+				"start": "18:00",
+				"finish": "19:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -53530,13 +53528,13 @@
 			},
 			{
 				"name": "LAWS6103_S1-TutA/09",
-				"day": 3,
-				"start": "15:00",
-				"finish": "16:00",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "09",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -53554,13 +53552,13 @@
 			},
 			{
 				"name": "LAWS6103_S1-TutA/10",
-				"day": 3,
-				"start": "09:00",
-				"finish": "10:00",
+				"day": 2,
+				"start": "14:00",
+				"finish": "15:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "10",
-				"location": " online",
+				"location": " online live",
 				"locationID": ""
 			},
 			{
@@ -53605,15 +53603,13 @@
 			{
 				"name": "LAWS6103_S1-TutA/13",
 				"day": 2,
-				"start": "14:00",
-				"finish": "15:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "16\u201117",
 				"activity": "TutA",
 				"occurrence": "13",
-				"location": "Coombs Seminar Room C 3.110",
-				"locationID": "http://www.anu.edu.au/maps#show=11281",
-				"lat": "-35.281813",
-				"lon": "149.120055"
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS6103_S1-TutA/14",
@@ -82681,10 +82677,10 @@
 				"weeks": "21",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "HA G053",
-				"locationID": "http://www.anu.edu.au/maps#show=11294",
-				"lat": "-35.277768",
-				"lon": "149.122317"
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
 			},
 			{
 				"name": "STAT4040_S1-TutA/01",
@@ -84219,10 +84215,10 @@
 				"weeks": "21",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "HA G053",
-				"locationID": "http://www.anu.edu.au/maps#show=11294",
-				"lat": "-35.277768",
-				"lon": "149.122317"
+				"location": "RSSS Auditorium 1.28",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
 			},
 			{
 				"name": "STAT8140_S1-TutA/01",
