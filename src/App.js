@@ -215,7 +215,7 @@ let App = () => {
               <a target="_blank" rel="noreferrer" href="https://cssa.club/">ANU CSSA</a>&nbsp;
               (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
               <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>.
-              Course data updated at 12:32 am, 26 Mar 2025 (UTC). {/* Automatically updated by CI */}
+              Course data updated at 12:31 am, 29 Mar 2025 (UTC). {/* Automatically updated by CI */}
             </Navbar.Text>
           </Navbar>
         </Col>
