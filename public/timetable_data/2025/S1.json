@@ -63461,6 +63461,19 @@
 				"lon": "149.113616"
 			},
 			{
+				"name": "MEDI8011_S1-LecCZ/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "14",
+				"activity": "LecCZ",
+				"occurrence": "01",
+				"location": "Leonard Huxley T",
+				"locationID": "http://www.anu.edu.au/maps#show=11325",
+				"lat": "-35.283152",
+				"lon": "149.113616"
+			},
+			{
 				"name": "MEDI8011_S1-LecDA/01",
 				"day": 0,
 				"start": "11:00",
@@ -63663,19 +63676,6 @@
 				"lon": "149.113616"
 			},
 			{
-				"name": "MEDI8011_S1-LecDQ/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "15",
-				"activity": "LecDQ",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
 				"name": "MEDI8011_S1-LecDR/01",
 				"day": 0,
 				"start": "16:00",
@@ -63767,19 +63767,6 @@
 				"finish": "13:00",
 				"weeks": "15",
 				"activity": "LecDY",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LecDZ/01",
-				"day": 1,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "15",
-				"activity": "LecDZ",
 				"occurrence": "01",
 				"location": "Leonard Huxley T",
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
@@ -63999,45 +63986,6 @@
 				"finish": "12:00",
 				"weeks": "18",
 				"activity": "LecEN",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LecEO/01",
-				"day": 0,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "18",
-				"activity": "LecEO",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LecEP/01",
-				"day": 1,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "18",
-				"activity": "LecEP",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LecEQ/01",
-				"day": 0,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "18",
-				"activity": "LecEQ",
 				"occurrence": "01",
 				"location": "Leonard Huxley T",
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
@@ -64358,45 +64306,6 @@
 				"lon": "149.113616"
 			},
 			{
-				"name": "MEDI8011_S1-LecFQ/01",
-				"day": 1,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "20",
-				"activity": "LecFQ",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LecFR/01",
-				"day": 0,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "20",
-				"activity": "LecFR",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LecFS/01",
-				"day": 0,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "20",
-				"activity": "LecFS",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
 				"name": "MEDI8011_S1-LecFT/01",
 				"day": 2,
 				"start": "14:00",
@@ -64478,19 +64387,6 @@
 				"occurrence": "01",
 				"location": " on campus",
 				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-LecGA/01",
-				"day": 1,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "20",
-				"activity": "LecGA",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
 			},
 			{
 				"name": "MEDI8011_S1-LecGB/01",
@@ -65258,19 +65154,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
 				"lat": "-35.283152",
 				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-LetJ/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "16",
-				"activity": "LetJ",
-				"occurrence": "01",
-				"location": "Florey Medical Sciences Lab B1.20",
-				"locationID": "http://www.anu.edu.au/maps#show=29029",
-				"lat": "-35.282847",
-				"lon": "149.114173"
 			},
 			{
 				"name": "MEDI8011_S1-LetK/01",
@@ -66656,17 +66539,6 @@
 				"locationID": ""
 			},
 			{
-				"name": "MEDI8011_S1-WorAA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "15",
-				"activity": "WorAA",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
 				"name": "MEDI8011_S1-WorAB/01",
 				"day": 0,
 				"start": "09:00",
@@ -66910,17 +66782,6 @@
 				"finish": "10:30",
 				"weeks": "15",
 				"activity": "WorW",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorZ/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "15",
-				"activity": "WorZ",
 				"occurrence": "01",
 				"location": " Florey - Tut Rooms",
 				"locationID": ""
