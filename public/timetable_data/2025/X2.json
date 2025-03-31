@@ -692,19 +692,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
-			},
-			{
-				"name": "ASIA9075_X2-SemMakA/01",
-				"day": 0,
-				"start": "14:00",
-				"finish": "17:00",
-				"weeks": "15",
-				"activity": "SemMakA",
-				"occurrence": "01",
-				"location": "HA 1207",
-				"locationID": "http://www.anu.edu.au/maps#show=11294",
-				"lat": "-35.277768",
-				"lon": "149.122317"
 			}
 		]
 	},
@@ -917,7 +904,7 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "14\u201122",
+				"weeks": "16\u201122",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "COOMBS Extension LT 1.04",
@@ -930,7 +917,7 @@
 				"day": 4,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "14\u201115,18\u201122",
+				"weeks": "18\u201122",
 				"activity": "SemB",
 				"occurrence": "01",
 				"location": "COP G030",
