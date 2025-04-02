@@ -65689,19 +65689,6 @@
 				"lon": "149.114173"
 			},
 			{
-				"name": "MEDI8011_S1-PraQ/02",
-				"day": 0,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "18",
-				"activity": "PraQ",
-				"occurrence": "02",
-				"location": "Florey Medical Sciences Lab B1.20",
-				"locationID": "http://www.anu.edu.au/maps#show=29029",
-				"lat": "-35.282847",
-				"lon": "149.114173"
-			},
-			{
 				"name": "MEDI8011_S1-PraR/01",
 				"day": 1,
 				"start": "11:30",
@@ -65761,19 +65748,6 @@
 				"weeks": "21",
 				"activity": "PraT",
 				"occurrence": "01",
-				"location": "Florey Medical Sciences Lab B1.20",
-				"locationID": "http://www.anu.edu.au/maps#show=29029",
-				"lat": "-35.282847",
-				"lon": "149.114173"
-			},
-			{
-				"name": "MEDI8011_S1-PraT/02",
-				"day": 0,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "21",
-				"activity": "PraT",
-				"occurrence": "02",
 				"location": "Florey Medical Sciences Lab B1.20",
 				"locationID": "http://www.anu.edu.au/maps#show=29029",
 				"lat": "-35.282847",
@@ -66539,39 +66513,6 @@
 				"locationID": ""
 			},
 			{
-				"name": "MEDI8011_S1-WorAB/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "16",
-				"activity": "WorAB",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAE/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "16",
-				"activity": "WorAE",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAF/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "16",
-				"activity": "WorAF",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
 				"name": "MEDI8011_S1-WorAG/01",
 				"day": 1,
 				"start": "09:00",
@@ -66583,160 +66524,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
 				"lat": "-35.283152",
 				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8011_S1-WorAJ/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "18",
-				"activity": "WorAJ",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAK/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "18",
-				"activity": "WorAK",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAL/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "19",
-				"activity": "WorAL",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAO/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "19",
-				"activity": "WorAO",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAP/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "19",
-				"activity": "WorAP",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAQ/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "20",
-				"activity": "WorAQ",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAT/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "20",
-				"activity": "WorAT",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAU/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "20",
-				"activity": "WorAU",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAV/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "21",
-				"activity": "WorAV",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAY/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "21",
-				"activity": "WorAY",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorAZ/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "21",
-				"activity": "WorAZ",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorBA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:30",
-				"weeks": "22",
-				"activity": "WorBA",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorBE/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "22",
-				"activity": "WorBE",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
-			},
-			{
-				"name": "MEDI8011_S1-WorBF/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "22",
-				"activity": "WorBF",
-				"occurrence": "01",
-				"location": " Florey - Tut Rooms",
-				"locationID": ""
 			},
 			{
 				"name": "MEDI8011_S1-WorBG/01",
