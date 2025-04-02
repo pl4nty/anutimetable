@@ -133,7 +133,7 @@
 				"day": 0,
 				"start": "11:00",
 				"finish": "15:00",
-				"weeks": "15\u201124",
+				"weeks": "15\u201116,18\u201124",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "HA G051",
@@ -692,6 +692,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "ASIA9075_X2-SemMakA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "14:00",
+				"weeks": "18",
+				"activity": "SemMakA",
+				"occurrence": "01",
+				"location": "Fulton Muir 2.08",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			}
 		]
 	},
@@ -920,10 +933,36 @@
 				"weeks": "18\u201122",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "COP G030",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "DIPL8020_X2-SemMakA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "17",
+				"activity": "SemMakA",
+				"occurrence": "01",
+				"location": "Fulton Muir 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "DIPL8020_X2-SemMakB/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "18",
+				"activity": "SemMakB",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			}
 		]
 	},
