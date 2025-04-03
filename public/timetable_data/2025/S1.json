@@ -66905,6 +66905,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11277",
 				"lat": "-35.281073",
 				"lon": "149.118997"
+			},
+			{
+				"name": "MEDI8020_S1-SemB/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "14",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Innovations Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11370",
+				"lat": "-35.28236",
+				"lon": "149.11573"
 			}
 		]
 	},
