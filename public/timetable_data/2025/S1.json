@@ -48254,13 +48254,26 @@
 				"day": 1,
 				"start": "11:00",
 				"finish": "14:00",
-				"weeks": "8\u201113,16\u201121",
+				"weeks": "8\u201113,16\u201119,21",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "CBE LT 3",
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
+			},
+			{
+				"name": "INFS2024_S1-SemA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "14:00",
+				"weeks": "20",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			}
 		]
 	},
