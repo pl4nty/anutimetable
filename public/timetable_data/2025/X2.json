@@ -874,7 +874,9 @@
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "CRIM2002_X2-WorB/01",
@@ -885,7 +887,9 @@
 				"activity": "WorB",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "CRIM2002_X2-WorC/01",
@@ -896,7 +900,9 @@
 				"activity": "WorC",
 				"occurrence": "01",
 				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945"
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			}
 		]
 	},
@@ -2035,7 +2041,7 @@
 		]
 	},
 	"NSPO8047_X2": {
-		"title": "NSPO8047_X2\u00a0How Canberra works: a guide for security policymakers\u00a0_Online_Online",
+		"title": "NSPO8047_X2\u00a0How Canberra Works: A Guide for Security Policy Makers_Online_Online",
 		"id": "NSPO8047_X2",
 		"link": "https://programsandcourses.anu.edu.au/2025/course/NSPO8047",
 		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
