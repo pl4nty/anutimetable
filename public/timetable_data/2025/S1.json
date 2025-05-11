@@ -12722,7 +12722,7 @@
 				"day": 1,
 				"start": "15:00",
 				"finish": "16:00",
-				"weeks": "9\u201111,13,16\u201121",
+				"weeks": "9\u201111,13,16\u201119,21",
 				"activity": "TutA",
 				"occurrence": "11",
 				"location": "CBE Bld TR4",
@@ -12744,11 +12744,24 @@
 				"lon": "149.123501"
 			},
 			{
+				"name": "BUSN7052_S1-TutA/11",
+				"day": 4,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "20",
+				"activity": "TutA",
+				"occurrence": "11",
+				"location": "CBE TR2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
 				"name": "BUSN7052_S1-TutA/12",
 				"day": 1,
 				"start": "14:00",
 				"finish": "15:00",
-				"weeks": "9\u201111,13,16\u201121",
+				"weeks": "9\u201111,13,16\u201119,21",
 				"activity": "TutA",
 				"occurrence": "12",
 				"location": "CBE Bld TR4",
@@ -12765,6 +12778,19 @@
 				"activity": "TutA",
 				"occurrence": "12",
 				"location": "CBE Bld TR5",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN7052_S1-TutA/12",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "20",
+				"activity": "TutA",
+				"occurrence": "12",
+				"location": "CBE TR2",
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
@@ -49234,10 +49260,10 @@
 				"weeks": "21",
 				"activity": "AsmA",
 				"occurrence": "01",
-				"location": "ADH 123a",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "HA G052",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "ITAL1101_S1-AsmA/02",
@@ -49247,10 +49273,10 @@
 				"weeks": "21",
 				"activity": "AsmA",
 				"occurrence": "02",
-				"location": "ADH 123a",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "HA G052",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "ITAL1101_S1-TutA/01",
