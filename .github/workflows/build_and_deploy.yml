@@ -1,6 +1,7 @@
 name: Build and deploy
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
   pull_request_target:
