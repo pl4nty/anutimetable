@@ -48633,7 +48633,7 @@
 				"day": 0,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "8\u201110,12\u201113,16,18\u201119",
+				"weeks": "8\u201110,12\u201113,16,18\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Hedley Bull Theatre 1",
@@ -65152,19 +65152,6 @@
 				"lon": "149.113616"
 			},
 			{
-				"name": "MEDI8011_S1-LecGF/01",
-				"day": 1,
-				"start": "15:00",
-				"finish": "16:00",
-				"weeks": "21",
-				"activity": "LecGF",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
 				"name": "MEDI8011_S1-LecGG/01",
 				"day": 1,
 				"start": "16:00",
@@ -65904,19 +65891,6 @@
 				"lon": "149.113616"
 			},
 			{
-				"name": "MEDI8011_S1-LetP/01",
-				"day": 1,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "21",
-				"activity": "LetP",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
 				"name": "MEDI8011_S1-LetQ/01",
 				"day": 4,
 				"start": "09:00",
@@ -66413,11 +66387,24 @@
 			{
 				"name": "MEDI8011_S1-PraT/01",
 				"day": 1,
-				"start": "11:00",
-				"finish": "15:00",
+				"start": "10:00",
+				"finish": "12:30",
 				"weeks": "21",
 				"activity": "PraT",
 				"occurrence": "01",
+				"location": "Florey Medical Sciences Lab B1.20",
+				"locationID": "http://www.anu.edu.au/maps#show=29029",
+				"lat": "-35.282847",
+				"lon": "149.114173"
+			},
+			{
+				"name": "MEDI8011_S1-PraT/02",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:30",
+				"weeks": "21",
+				"activity": "PraT",
+				"occurrence": "02",
 				"location": "Florey Medical Sciences Lab B1.20",
 				"locationID": "http://www.anu.edu.au/maps#show=29029",
 				"lat": "-35.282847",
