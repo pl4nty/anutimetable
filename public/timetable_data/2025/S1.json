@@ -11510,12 +11510,12 @@
 				"lon": "149.123592"
 			},
 			{
-				"name": "BUSN7008_S1-LecMak/01",
+				"name": "BUSN7008_S1-LecMakA/01",
 				"day": 6,
 				"start": "16:00",
 				"finish": "18:00",
 				"weeks": "16",
-				"activity": "LecMak",
+				"activity": "LecMakA",
 				"occurrence": "01",
 				"location": " prerecorded",
 				"locationID": ""
@@ -67864,12 +67864,12 @@
 				"lon": "149.114173"
 			},
 			{
-				"name": "MEDN3186_S1-PraMak/01",
+				"name": "MEDN3186_S1-PraMakA/01",
 				"day": 0,
 				"start": "12:30",
 				"finish": "14:30",
 				"weeks": "18",
-				"activity": "PraMak",
+				"activity": "PraMakA",
 				"occurrence": "01",
 				"location": "Florey Medical Sciences Lab B1.20",
 				"locationID": "http://www.anu.edu.au/maps#show=29029",
