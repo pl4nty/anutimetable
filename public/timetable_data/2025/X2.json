@@ -1478,13 +1478,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "7\u201115,18\u201127,30\u201139",
+				"weeks": "7\u201115,18\u201121,26\u201127,30\u201139",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "COP G029",
 				"locationID": "http://www.anu.edu.au/maps#show=28971",
 				"lat": "-35.277985",
 				"lon": "149.123419"
+			},
+			{
+				"name": "EXTN1020B_X2-LecA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "22\u201125",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "HA 2175",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
