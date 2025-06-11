@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@azure/functions": "4.7.2",
+    "@azure/functions": "4.7.3",
     "@fullcalendar/bootstrap5": "6.1.17",
     "@fullcalendar/core": "6.1.17",
     "@fullcalendar/daygrid": "6.1.17",
