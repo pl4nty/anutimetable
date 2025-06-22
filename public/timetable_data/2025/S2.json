@@ -42044,16 +42044,16 @@
 			},
 			{
 				"name": "HIST2141_S2-TutA/03",
-				"day": 4,
-				"start": "17:00",
-				"finish": "18:00",
+				"day": 2,
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "ADH G12",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "MORAN G010",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			},
 			{
 				"name": "HIST2141_S2-TutA/04",
@@ -42063,7 +42063,7 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "ADH G19",
+				"location": "ADH G30",
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
@@ -42076,10 +42076,10 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "05",
-				"location": "ADH G19",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "MORAN G010",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			},
 			{
 				"name": "HIST2141_S2-TutA/06",
@@ -62798,40 +62798,6 @@
 			}
 		]
 	},
-	"MUSI2234_S2": {
-		"title": "MUSI2234_S2\u00a0Music, History, and Culture_Evolving Narratives in Western",
-		"id": "MUSI2234_S2",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/MUSI2234",
-		"dates": "Displaying Dates: 14 Jul 25 - 16 Nov 25 (calendar week(s) 29\u201146)",
-		"classes": [
-			{
-				"name": "MUSI2234_S2-LecA/01",
-				"day": 4,
-				"start": "10:00",
-				"finish": "12:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "School of Music LT2",
-				"locationID": "https://www.anu.edu.au/maps#show=29089",
-				"lat": "-35.280391",
-				"lon": "149.123592"
-			},
-			{
-				"name": "MUSI2234_S2-TutA/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "School of Music LT2",
-				"locationID": "https://www.anu.edu.au/maps#show=29089",
-				"lat": "-35.280391",
-				"lon": "149.123592"
-			}
-		]
-	},
 	"MUSI2236_S2": {
 		"title": "MUSI2236_S2\u00a0Music and Globalisation",
 		"id": "MUSI2236_S2",
@@ -67997,8 +67963,8 @@
 			{
 				"name": "POLS8051_S2-SemA/01",
 				"day": 1,
-				"start": "14:00",
-				"finish": "17:00",
+				"start": "15:00",
+				"finish": "18:00",
 				"weeks": "30\u201135,38\u201143",
 				"activity": "SemA",
 				"occurrence": "01",
