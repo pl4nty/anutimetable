@@ -64736,8 +64736,8 @@
 			{
 				"name": "PHYS1004_S2-LecA/01",
 				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
+				"start": "12:00",
+				"finish": "13:00",
 				"weeks": "30\u201135,38\u201140,42\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -70553,28 +70553,28 @@
 			{
 				"name": "SCOM2015_S2-TutA/02",
 				"day": 2,
-				"start": "14:00",
-				"finish": "16:00",
+				"start": "12:00",
+				"finish": "14:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": "Han 2.23",
+				"location": "Han 2.25",
 				"locationID": "http://www.anu.edu.au/maps#show=11313",
 				"lat": "-35.276955",
 				"lon": "149.117796"
 			},
 			{
 				"name": "SCOM2015_S2-TutA/03",
-				"day": 3,
-				"start": "15:00",
-				"finish": "17:00",
+				"day": 4,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "Han 2.23",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			}
 		]
 	},
@@ -70744,28 +70744,28 @@
 			{
 				"name": "SCOM6015_S2-TutA/02",
 				"day": 2,
-				"start": "14:00",
-				"finish": "16:00",
+				"start": "12:00",
+				"finish": "14:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": "Han 2.23",
+				"location": "Han 2.25",
 				"locationID": "http://www.anu.edu.au/maps#show=11313",
 				"lat": "-35.276955",
 				"lon": "149.117796"
 			},
 			{
 				"name": "SCOM6015_S2-TutA/03",
-				"day": 3,
-				"start": "15:00",
-				"finish": "17:00",
+				"day": 4,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "Han 2.23",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
+				"location": "Green Couch Room",
+				"locationID": "http://www.anu.edu.au/maps#search=building+42&show=11434",
+				"lat": "-35.27583",
+				"lon": "149.11753"
 			}
 		]
 	},
