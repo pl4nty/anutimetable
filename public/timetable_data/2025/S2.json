@@ -10248,12 +10248,12 @@
 			{
 				"name": "BUSN7050_S2-TutA/06",
 				"day": 3,
-				"start": "11:00",
-				"finish": "12:00",
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "06",
-				"location": "CBE Bld TR4",
+				"location": "CBE TR2",
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
@@ -10287,15 +10287,15 @@
 			{
 				"name": "BUSN7050_S2-TutA/09",
 				"day": 3,
-				"start": "10:00",
-				"finish": "11:00",
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "09",
-				"location": "CBE Bld TR4",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Marie Reay 5.05",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "BUSN7050_S2-TutA/10",
@@ -10365,15 +10365,15 @@
 			{
 				"name": "BUSN7050_S2-TutA/15",
 				"day": 4,
-				"start": "11:00",
-				"finish": "12:00",
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "15",
-				"location": "CBE Bld TR4",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "BUSN7050_S2-TutA/16",
@@ -10999,9 +10999,9 @@
 			},
 			{
 				"name": "BUSN7057_S2-TutA/13",
-				"day": 0,
-				"start": "11:00",
-				"finish": "12:00",
+				"day": 3,
+				"start": "14:00",
+				"finish": "15:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "13",
@@ -24933,6 +24933,19 @@
 				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
 				"lat": "-35.280713",
 				"lon": "149.122377"
+			},
+			{
+				"name": "DESN1003_S2-TutA/02",
+				"day": 1,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "30\u201135,38\u201143",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "SOA&D Room G04.05",
+				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+				"lat": "-35.280713",
+				"lon": "149.122377"
 			}
 		]
 	},
@@ -37335,15 +37348,15 @@
 			{
 				"name": "FINM2002_S2-TutA/02",
 				"day": 2,
-				"start": "08:00",
-				"finish": "09:00",
+				"start": "11:00",
+				"finish": "12:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": "MORAN G007",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "CBE LT 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "FINM2002_S2-TutA/03",
@@ -37373,16 +37386,16 @@
 			},
 			{
 				"name": "FINM2002_S2-TutA/05",
-				"day": 1,
-				"start": "13:00",
-				"finish": "14:00",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "05",
-				"location": "MORAN G008",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "CBE LT 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "FINM2002_S2-TutA/06",
@@ -39323,15 +39336,15 @@
 			{
 				"name": "FINM6041_S2-TutA/02",
 				"day": 2,
-				"start": "08:00",
-				"finish": "09:00",
+				"start": "11:00",
+				"finish": "12:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "02",
-				"location": "MORAN G007",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "CBE LT 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "FINM6041_S2-TutA/03",
@@ -39361,16 +39374,16 @@
 			},
 			{
 				"name": "FINM6041_S2-TutA/05",
-				"day": 1,
-				"start": "13:00",
-				"finish": "14:00",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "05",
-				"location": "MORAN G008",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "CBE LT 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "FINM6041_S2-TutA/06",
