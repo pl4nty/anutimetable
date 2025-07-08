@@ -155,6 +155,7 @@ export const parseEvents = (classes, year, session, id /* course code */) => {
       ...c,
       occurrence,
       hasMultipleOccurrences: activitiesWithMultipleOccurrences.indexOf(c.activity) !== -1,
+      selected: false,
 
       // custom ID allows removal of events that aren't in memory (ie only available by getEventById())
       id: [c.module, c.activity, occurrence].join('_'),
