@@ -4426,6 +4426,40 @@
 			}
 		]
 	},
+	"REGN8012_X3": {
+		"title": "REGN8012_X3\u00a0Special Topics in Regulation and Governance_Online_Online ",
+		"id": "REGN8012_X3",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8012_X3-WorA/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "32\u201137",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "REGN8012_X3-WorB/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "32\u201137",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
+	},
 	"REGN8018_X3": {
 		"title": "REGN8018_X3\u00a0Governing Consumptogenic Systems_Online_Online",
 		"id": "REGN8018_X3",
@@ -4473,6 +4507,27 @@
 				"finish": "20:30",
 				"weeks": "29,31",
 				"activity": "WorB",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
+	},
+	"REGN8050_X3": {
+		"title": "REGN8050_X3\u00a0The Policy and Practice of Regulation_Online_Online",
+		"id": "REGN8050_X3",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8050_X3-WorA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "15:30",
+				"weeks": "32\u201135,38\u201140",
+				"activity": "WorA",
 				"occurrence": "01",
 				"location": "COOMBS Extension 2.10",
 				"locationID": "http://www.anu.edu.au/maps#show=11280",
