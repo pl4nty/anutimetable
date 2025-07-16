@@ -1363,5 +1363,26 @@
 				"lon": "149.1212115"
 			}
 		]
+	},
+	"REGN8054_X4": {
+		"title": "REGN8054_X4\u00a0Corporations, Power, Regulation_Online_Online",
+		"id": "REGN8054_X4",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8054_X4-WorA/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "16:30",
+				"weeks": "40\u201143",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
 	}
 }
