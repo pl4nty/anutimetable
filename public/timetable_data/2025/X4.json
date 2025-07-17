@@ -1364,6 +1364,40 @@
 			}
 		]
 	},
+	"REGN8027_X4": {
+		"title": "REGN8027_X4\u00a0Nuclear Safeguards Practice_Online",
+		"id": "REGN8027_X4",
+		"link": "",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8027_X4-WorA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "39\u201140,42\u201143",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "REGN8027_X4-WorB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "39\u201140,42\u201143",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			}
+		]
+	},
 	"REGN8054_X4": {
 		"title": "REGN8054_X4\u00a0Corporations, Power, Regulation_Online_Online",
 		"id": "REGN8054_X4",
