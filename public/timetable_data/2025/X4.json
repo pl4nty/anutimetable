@@ -911,66 +911,6 @@
 			}
 		]
 	},
-	"POGO8241_X4": {
-		"title": "POGO8241_X4\u00a0Knowledge Systems and Public Policy_Online_Online",
-		"id": "POGO8241_X4",
-		"link": "",
-		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "POGO8241_X4-WorA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "46",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "POGO8241_X4-WorB/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "46",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "POGO8241_X4-WorC/01",
-				"day": 1,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "47",
-				"activity": "WorC",
-				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			},
-			{
-				"name": "POGO8241_X4-WorD/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "48",
-				"activity": "WorD",
-				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
-			}
-		]
-	},
 	"POLS2102_X4": {
 		"title": "POLS2102_X4\u00a0Political Belief and Deceit",
 		"id": "POLS2102_X4",
