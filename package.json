@@ -54,7 +54,7 @@
     "@azure/static-web-apps-cli": "2.0.6",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "azure-functions-core-tools": "4.1.0",
-    "cross-env": "7.0.3"
+    "cross-env": "10.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
