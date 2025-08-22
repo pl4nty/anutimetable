@@ -12848,6 +12848,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11384",
 				"lat": "-35.276241",
 				"lon": "149.117144"
+			},
+			{
+				"name": "CHEM3206_S2-TutA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "35",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "FSTY 103",
+				"locationID": "http://www.anu.edu.au/maps#show=11318",
+				"lat": "-35.277907",
+				"lon": "149.116057"
 			}
 		]
 	},
@@ -13140,6 +13153,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11384",
 				"lat": "-35.276241",
 				"lon": "149.117144"
+			},
+			{
+				"name": "CHEM6206_S2-TutA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "35",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "FSTY 103",
+				"locationID": "http://www.anu.edu.au/maps#show=11318",
+				"lat": "-35.277907",
+				"lon": "149.116057"
 			}
 		]
 	},
@@ -44494,7 +44520,7 @@
 				"weeks": "35,43",
 				"activity": "PstA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Miller Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -44507,7 +44533,7 @@
 				"weeks": "35,43",
 				"activity": "PstB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Molonglo Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -44768,7 +44794,7 @@
 				"weeks": "35,43",
 				"activity": "PstA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Miller Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -44781,7 +44807,7 @@
 				"weeks": "35,43",
 				"activity": "PstB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Molonglo Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -44951,7 +44977,7 @@
 				"weeks": "35,43",
 				"activity": "PstA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Miller Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -44964,7 +44990,7 @@
 				"weeks": "35,43",
 				"activity": "PstB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Molonglo Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -45011,7 +45037,7 @@
 				"weeks": "35,43",
 				"activity": "PstA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Miller Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -45024,7 +45050,7 @@
 				"weeks": "35,43",
 				"activity": "PstB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 2",
+				"location": "Crawford Molonglo Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -45507,10 +45533,10 @@
 				"weeks": "31\u201135,38\u201143",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "Arndt LT 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11414",
-				"lat": "-35.277437",
-				"lon": "149.124005"
+				"location": "CBE Bld TR7",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "INFS2005_S2-TutA/02",
@@ -45879,6 +45905,19 @@
 				"finish": "14:00",
 				"weeks": "30\u201135,38\u201141",
 				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "INTR1022_S2-LecMakA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "35",
+				"activity": "LecMakA",
 				"occurrence": "01",
 				"location": "Hedley Bull Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
@@ -75719,7 +75758,20 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201133,35,38\u201143",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "RN Robertson T",
+				"locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+				"lat": "-35.277722",
+				"lon": "149.116811"
+			},
+			{
+				"name": "STAT2008_S2-LecB/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "34",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "RN Robertson T",
@@ -76138,7 +76190,20 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201133,35,38\u201143",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "RN Robertson T",
+				"locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+				"lat": "-35.277722",
+				"lon": "149.116811"
+			},
+			{
+				"name": "STAT2014_S2-LecB/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "34",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "RN Robertson T",
@@ -77704,7 +77769,20 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201133,35,38\u201143",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "RN Robertson T",
+				"locationID": "http://www.anu.edu.au/maps#search=rn+robertson&show=11436",
+				"lat": "-35.277722",
+				"lon": "149.116811"
+			},
+			{
+				"name": "STAT6014_S2-LecB/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "34",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "RN Robertson T",
