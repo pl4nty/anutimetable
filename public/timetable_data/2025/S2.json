@@ -55794,6 +55794,19 @@
 		"dates": "Displaying Dates: 14 Jul 25 - 16 Nov 25 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "MATH3015_S2-AsmA/01",
+				"day": 2,
+				"start": "08:00",
+				"finish": "11:00",
+				"weeks": "41",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "MATH3015_S2-LecA/01",
 				"day": 0,
 				"start": "09:00",
@@ -55824,7 +55837,7 @@
 				"day": 2,
 				"start": "09:00",
 				"finish": "10:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135,38\u201140,42\u201143",
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Marie Reay 5.02",
@@ -56863,6 +56876,19 @@
 		"dates": "Displaying Dates: 14 Jul 25 - 16 Nov 25 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "MATH6115_S2-AsmA/01",
+				"day": 2,
+				"start": "08:00",
+				"finish": "11:00",
+				"weeks": "41",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "MATH6115_S2-LecA/01",
 				"day": 0,
 				"start": "09:00",
@@ -56893,7 +56919,7 @@
 				"day": 2,
 				"start": "09:00",
 				"finish": "10:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135,38\u201140,42\u201143",
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Marie Reay 5.02",
@@ -59125,10 +59151,8 @@
 				"weeks": "35",
 				"activity": "LecB2W9L1",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W9L10/01",
@@ -59197,10 +59221,8 @@
 				"weeks": "35",
 				"activity": "LecB2W9L2",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W9L3/01",
@@ -59210,10 +59232,8 @@
 				"weeks": "35",
 				"activity": "LecB2W9L3",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W9L4/01",
@@ -68981,7 +69001,7 @@
 				"day": 2,
 				"start": "11:00",
 				"finish": "12:30",
-				"weeks": "30\u201135,38,40,42\u201143",
+				"weeks": "30\u201135,38\u201140,42\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": " online live",
