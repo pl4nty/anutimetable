@@ -1255,13 +1255,26 @@
 				"day": 0,
 				"start": "12:30",
 				"finish": "14:30",
-				"weeks": "47\u201148",
+				"weeks": "47",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "RSSS Auditorium 1.28",
 				"locationID": "http://www.anu.edu.au/maps#show=123279",
 				"lat": "-35.2791261",
 				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS3136_X4-LecA/01",
+				"day": 0,
+				"start": "12:30",
+				"finish": "14:30",
+				"weeks": "48",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
 			},
 			{
 				"name": "POLS3136_X4-LecB/01",
