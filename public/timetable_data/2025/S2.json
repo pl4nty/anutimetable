@@ -32013,10 +32013,23 @@
 				"day": 1,
 				"start": "16:00",
 				"finish": "18:30",
-				"weeks": "33\u201135,38,41\u201142",
+				"weeks": "33\u201135",
 				"activity": "FilA",
 				"occurrence": "01",
 				"location": "Kambri Drama T",
+				"locationID": "http://www.anu.edu.au/maps#show=108132",
+				"lat": "-35.276928",
+				"lon": "149.121926"
+			},
+			{
+				"name": "ENGL2067_S2-FilA/01",
+				"day": 3,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "38\u201139,41\u201142",
+				"activity": "FilA",
+				"occurrence": "01",
+				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
@@ -42279,13 +42292,13 @@
 		"dates": "Displaying Dates: 14 Jul 25 - 16 Nov 25 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "FREN3104_S2-ClaA/01",
+				"name": "FREN3104_S2-ClaA/02",
 				"day": 1,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "30\u201135,38\u201143",
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "30\u201135",
 				"activity": "ClaA",
-				"occurrence": "01",
+				"occurrence": "02",
 				"location": "BPB W107",
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
@@ -42296,26 +42309,13 @@
 				"day": 1,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "38\u201143",
 				"activity": "ClaA",
 				"occurrence": "02",
-				"location": "BPB W107",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			},
-			{
-				"name": "FREN3104_S2-ClaB/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "30\u201135,38\u201143",
-				"activity": "ClaB",
-				"occurrence": "01",
-				"location": "COP G029",
-				"locationID": "http://www.anu.edu.au/maps#show=28971",
-				"lat": "-35.277985",
-				"lon": "149.123419"
+				"location": "LJ Hume",
+				"locationID": "http://www.anu.edu.au/maps#show=30991",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "FREN3104_S2-ClaB/02",
@@ -58431,7 +58431,7 @@
 				"weeks": "31",
 				"activity": "LecB2W5L7",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -58442,7 +58442,7 @@
 				"weeks": "31",
 				"activity": "LecB2W5L8",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -58466,7 +58466,7 @@
 				"weeks": "32",
 				"activity": "LecB2W6L1",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -58523,7 +58523,7 @@
 				"weeks": "32",
 				"activity": "LecB2W6L14",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -58784,7 +58784,7 @@
 				"weeks": "34",
 				"activity": "LecB2W8L1",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -58969,7 +58969,7 @@
 				"weeks": "35",
 				"activity": "LecB2W9L1",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -59039,7 +59039,7 @@
 				"weeks": "35",
 				"activity": "LecB2W9L2",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -59050,7 +59050,7 @@
 				"weeks": "35",
 				"activity": "LecB2W9L3",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -60349,7 +60349,7 @@
 				"weeks": "35",
 				"activity": "PracB2W9",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -60360,7 +60360,7 @@
 				"weeks": "35",
 				"activity": "PracB2W9",
 				"occurrence": "02",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -60535,8 +60535,8 @@
 			{
 				"name": "MEDI8012_S2-SemB2W10S2/01",
 				"day": 2,
-				"start": "09:30",
-				"finish": "11:00",
+				"start": "09:00",
+				"finish": "10:30",
 				"weeks": "36",
 				"activity": "SemB2W10S2",
 				"occurrence": "01",
@@ -60631,7 +60631,7 @@
 				"weeks": "32",
 				"activity": "SemB2W6S1",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
@@ -60655,7 +60655,7 @@
 				"weeks": "33",
 				"activity": "SemB2W7S1",
 				"occurrence": "01",
-				"location": "Online Live on campus",
+				"location": " on campus",
 				"locationID": ""
 			},
 			{
