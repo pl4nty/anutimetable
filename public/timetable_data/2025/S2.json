@@ -11141,7 +11141,20 @@
 				"day": 1,
 				"start": "17:00",
 				"finish": "19:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP T",
+				"locationID": "http://www.anu.edu.au/maps#show=28973",
+				"lat": "-35.277433",
+				"lon": "149.123538"
+			},
+			{
+				"name": "BUSN7057_S2-LecA/01",
+				"day": 1,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "38\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "COP T",
@@ -57697,10 +57710,8 @@
 				"weeks": "36",
 				"activity": "LecB2W10L13",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W10L14/01",
@@ -57710,10 +57721,8 @@
 				"weeks": "36",
 				"activity": "LecB2W10L14",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W10L2/01",
@@ -57851,10 +57860,8 @@
 				"weeks": "38",
 				"activity": "LecB2W11L13",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W11L14/01",
@@ -57864,10 +57871,8 @@
 				"weeks": "38",
 				"activity": "LecB2W11L14",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W11L2/01",
@@ -57903,10 +57908,8 @@
 				"weeks": "38",
 				"activity": "LecB2W11L4",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W11L5/01",
@@ -57942,10 +57945,8 @@
 				"weeks": "38",
 				"activity": "LecB2W11L7",
 				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W11L8/01",
@@ -58005,10 +58006,8 @@
 				"weeks": "39",
 				"activity": "LecB2W12L13",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W12L14/01",
@@ -58018,10 +58017,8 @@
 				"weeks": "39",
 				"activity": "LecB2W12L14",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W12L2/01",
@@ -59183,10 +59180,8 @@
 				"weeks": "40",
 				"activity": "LecB3W1L13",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W1L14/01",
@@ -59196,10 +59191,8 @@
 				"weeks": "40",
 				"activity": "LecB3W1L14",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W1L2/01",
