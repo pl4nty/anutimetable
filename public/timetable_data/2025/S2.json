@@ -34762,6 +34762,19 @@
 				"lon": "149.119323"
 			},
 			{
+				"name": "ENGN4339_S2-LecD/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "38",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": "Ian Ross R221 Graduate Teaching Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11303",
+				"lat": "-35.275684",
+				"lon": "149.120161"
+			},
+			{
 				"name": "ENGN4339_S2-TutA/01",
 				"day": 2,
 				"start": "10:00",
@@ -38798,6 +38811,19 @@
 				"lon": "149.124005"
 			},
 			{
+				"name": "FINM3007_S2-TutA/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "Arndt TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
 				"name": "FINM3007_S2-TutA/02",
 				"day": 0,
 				"start": "10:00",
@@ -40010,6 +40036,19 @@
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Arndt TR2",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
+				"name": "FINM6007_S2-TutA/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "Arndt TR1",
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
@@ -63040,13 +63079,26 @@
 				"day": 4,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.05",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "MGMT7060_S2-SemA/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "38\u201143",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Arndt LT 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
 			}
 		]
 	},
