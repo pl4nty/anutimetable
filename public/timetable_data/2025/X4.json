@@ -711,6 +711,19 @@
 				"lon": "149.11587"
 			},
 			{
+				"name": "NSPO8040_X4-LecE/01",
+				"day": 0,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "43",
+				"activity": "LecE",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
 				"name": "NSPO8040_X4-WorA/01",
 				"day": 2,
 				"start": "17:00",
@@ -756,6 +769,19 @@
 				"finish": "18:00",
 				"weeks": "43",
 				"activity": "WorD",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "NSPO8040_X4-WorE/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "43",
+				"activity": "WorE",
 				"occurrence": "01",
 				"location": "Crawford Seminar Room 3",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
