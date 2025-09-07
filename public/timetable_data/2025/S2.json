@@ -28988,6 +28988,19 @@
 				"lon": "149.120685"
 			},
 			{
+				"name": "ECON7074_S2-TutA/03",
+				"day": 3,
+				"start": "14:30",
+				"finish": "16:00",
+				"weeks": "38\u201143",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Han 2.27",
+				"locationID": "http://www.anu.edu.au/maps#show=11313",
+				"lat": "-35.276955",
+				"lon": "149.117796"
+			},
+			{
 				"name": "ECON7074_S2-TutA/04",
 				"day": 3,
 				"start": "15:00",
@@ -29296,12 +29309,12 @@
 				"lon": "149.123592"
 			},
 			{
-				"name": "ECON8069_S2-PreLec/01",
+				"name": "ECON8069_S2-PreLecA/01",
 				"day": 0,
 				"start": "16:00",
 				"finish": "17:00",
 				"weeks": "39",
-				"activity": "PreLec",
+				"activity": "PreLecA",
 				"occurrence": "01",
 				"location": " Prerecorded",
 				"locationID": ""
@@ -58149,10 +58162,8 @@
 				"weeks": "38",
 				"activity": "LecB2W11L5",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB2W11L6/01",
@@ -60613,8 +60624,8 @@
 			{
 				"name": "MEDI8012_S2-PracB3W2/01",
 				"day": 1,
-				"start": "11:30",
-				"finish": "13:30",
+				"start": "11:00",
+				"finish": "13:00",
 				"weeks": "41",
 				"activity": "PracB3W2",
 				"occurrence": "01",
@@ -60774,10 +60785,8 @@
 				"weeks": "38",
 				"activity": "SemB2W11S1",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-SemB2W11S2/01",
@@ -60958,7 +60967,7 @@
 			{
 				"name": "MEDI8012_S2-SemB3W2S1/01",
 				"day": 1,
-				"start": "14:00",
+				"start": "13:00",
 				"finish": "15:00",
 				"weeks": "41",
 				"activity": "SemB3W2S1",
@@ -61362,10 +61371,10 @@
 				"weeks": "36",
 				"activity": "WorB2W10",
 				"occurrence": "01",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "STB_S1 (3.07)",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
 			},
 			{
 				"name": "MEDI8012_S2-WorB2W11/01",
