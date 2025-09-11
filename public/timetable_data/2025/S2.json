@@ -50547,6 +50547,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
 				"lat": "-35.282857",
 				"lon": "149.119686"
+			},
+			{
+				"name": "LAWS4271_S2-SemMakA/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "38",
+				"activity": "SemMakA",
+				"occurrence": "01",
+				"location": "Law 6.1.20",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
