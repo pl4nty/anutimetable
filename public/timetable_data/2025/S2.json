@@ -16363,19 +16363,6 @@
 				"lon": "149.120583"
 			},
 			{
-				"name": "COMP1600_S2-ComA/14",
-				"day": 4,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "ComA",
-				"occurrence": "14",
-				"location": "CSIT N112",
-				"locationID": "http://www.anu.edu.au/maps#show=11360",
-				"lat": "-35.275345",
-				"lon": "149.120583"
-			},
-			{
 				"name": "COMP1600_S2-ComA/15",
 				"day": 3,
 				"start": "09:00",
@@ -16521,12 +16508,12 @@
 			{
 				"name": "COMP1600_S2-DroA/02",
 				"day": 4,
-				"start": "17:00",
-				"finish": "18:00",
+				"start": "14:00",
+				"finish": "15:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "DroA",
 				"occurrence": "02",
-				"location": "CSIT N115/N116",
+				"location": "CSIT N112",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
@@ -21042,19 +21029,6 @@
 				"lon": "149.120583"
 			},
 			{
-				"name": "COMP6260_S2-ComA/14",
-				"day": 4,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "31\u201135,38\u201143",
-				"activity": "ComA",
-				"occurrence": "14",
-				"location": "CSIT N112",
-				"locationID": "http://www.anu.edu.au/maps#show=11360",
-				"lat": "-35.275345",
-				"lon": "149.120583"
-			},
-			{
 				"name": "COMP6260_S2-ComA/15",
 				"day": 3,
 				"start": "09:00",
@@ -21200,12 +21174,12 @@
 			{
 				"name": "COMP6260_S2-DroA/02",
 				"day": 4,
-				"start": "17:00",
-				"finish": "18:00",
+				"start": "14:00",
+				"finish": "15:00",
 				"weeks": "31\u201135,38\u201143",
 				"activity": "DroA",
 				"occurrence": "02",
-				"location": "CSIT N115/N116",
+				"location": "CSIT N112",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
@@ -28183,6 +28157,19 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Arndt TR2",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
+				"name": "ECON4409_S2-LecMakA/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "37",
+				"activity": "LecMakA",
+				"occurrence": "01",
+				"location": "Arndt TR1",
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
