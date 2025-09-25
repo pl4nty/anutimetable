@@ -2386,6 +2386,27 @@
 			}
 		]
 	},
+	"LAWS4301_X1": {
+		"title": "LAWS4301_X1\u00a0Law and Development Clinic",
+		"id": "LAWS4301_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS4301",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS4301_X1-WorA/01",
+				"day": 2,
+				"start": "19:00",
+				"finish": "21:00",
+				"weeks": "42,44",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			}
+		]
+	},
 	"LAWS4307_X1": {
 		"title": "LAWS4307_X1\u00a0Legal Education for True Justice: Indigenous Perspectives and Deep Listening on Country",
 		"id": "LAWS4307_X1",
@@ -2600,6 +2621,27 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
+			}
+		]
+	},
+	"LAWS6301_X1": {
+		"title": "LAWS6301_X1\u00a0Law and Development Clinic",
+		"id": "LAWS6301_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS6301",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS6301_X1-WorA/01",
+				"day": 2,
+				"start": "19:00",
+				"finish": "21:00",
+				"weeks": "42,44",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			}
 		]
 	},
