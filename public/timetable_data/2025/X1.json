@@ -2855,6 +2855,27 @@
 			}
 		]
 	},
+	"LAWS8430_S1": {
+		"title": "LAWS8430_S1\u00a0Law Internship (Capstone)",
+		"id": "LAWS8430_S1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8430",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8430_S1-CliA/01",
+				"day": 0,
+				"start": "18:00",
+				"finish": "19:30",
+				"weeks": "48",
+				"activity": "CliA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			}
+		]
+	},
 	"LAWS8253_X1": {
 		"title": "LAWS8253_X1\u00a0Law of The Sea",
 		"id": "LAWS8253_X1",
