@@ -2302,6 +2302,79 @@
 			}
 		]
 	},
+	"LAWS4230_X1": {
+		"title": "LAWS4230_X1\u00a0Law Internship (Capstone)",
+		"id": "LAWS4230_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS4230",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS4230_X1-CliB/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliB",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4230_X1-CliC/01",
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliC",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4230_X1-CliD/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliD",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4230_X1-CliE/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliE",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4230_X1-CliA/01",
+				"day": 4,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			}
+		]
+	},
 	"LAWS4275_X1": {
 		"title": "LAWS4275_X1\u00a0Federal Judicial System",
 		"id": "LAWS4275_X1",
@@ -2530,6 +2603,79 @@
 			}
 		]
 	},
+	"LAWS4430_X1": {
+		"title": "LAWS4430_X1\u00a0Law Internship",
+		"id": "LAWS4430_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS4430",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS4430_X1-CliB/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliB",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4430_X1-CliC/01",
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliC",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4430_X1-CliD/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliD",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4430_X1-CliE/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliE",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS4430_X1-CliA/01",
+				"day": 4,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			}
+		]
+	},
 	"LAWS6010_X1": {
 		"title": "LAWS6010_X1\u00a0Jessup Moot",
 		"id": "LAWS6010_X1",
@@ -2621,6 +2767,79 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11286",
 				"lat": "-35.278353",
 				"lon": "149.121713"
+			}
+		]
+	},
+	"LAWS6230_X1": {
+		"title": "LAWS6230_X1\u00a0Law Internship (Capstone)",
+		"id": "LAWS6230_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS6230",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS6230_X1-CliB/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliB",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS6230_X1-CliC/01",
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliC",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS6230_X1-CliD/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliD",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS6230_X1-CliE/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliE",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS6230_X1-CliA/01",
+				"day": 4,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			}
 		]
 	},
@@ -2855,27 +3074,6 @@
 			}
 		]
 	},
-	"LAWS8430_S1": {
-		"title": "LAWS8430_S1\u00a0Law Internship (Capstone)",
-		"id": "LAWS8430_S1",
-		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8430",
-		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
-		"classes": [
-			{
-				"name": "LAWS8430_S1-CliA/01",
-				"day": 0,
-				"start": "18:00",
-				"finish": "19:30",
-				"weeks": "48",
-				"activity": "CliA",
-				"occurrence": "01",
-				"location": "Fellows Road Law Theatre 1",
-				"locationID": "http://www.anu.edu.au/maps#show=11473",
-				"lat": "-35.280217",
-				"lon": "149.119061"
-			}
-		]
-	},
 	"LAWS8253_X1": {
 		"title": "LAWS8253_X1\u00a0Law of The Sea",
 		"id": "LAWS8253_X1",
@@ -3047,6 +3245,79 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
+			}
+		]
+	},
+	"LAWS8430_X1": {
+		"title": "LAWS8430_X1\u00a0Law Internship",
+		"id": "LAWS8430_X1",
+		"link": "https://programsandcourses.anu.edu.au/2025/course/LAWS8430",
+		"dates": "Displaying Dates: 30 Dec 24 - 28 Dec 25 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8430_X1-CliB/01",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliB",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8430_X1-CliC/01",
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliC",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8430_X1-CliD/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliD",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8430_X1-CliE/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliE",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8430_X1-CliA/01",
+				"day": 4,
+				"start": "17:00",
+				"finish": "18:30",
+				"weeks": "48",
+				"activity": "CliA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			}
 		]
 	},
