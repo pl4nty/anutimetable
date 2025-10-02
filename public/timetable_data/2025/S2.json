@@ -1366,11 +1366,24 @@
 				"lon": "149.117796"
 			},
 			{
+				"name": "ARCH3042_S2-AsmB/01",
+				"day": 0,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "43",
+				"activity": "AsmB",
+				"occurrence": "01",
+				"location": "HA G053",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
 				"name": "ARCH3042_S2-LecA/01",
 				"day": 0,
 				"start": "16:00",
 				"finish": "18:00",
-				"weeks": "30\u201134,38\u201140,42\u201143",
+				"weeks": "30\u201134,38\u201140,42",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "BPB W121",
@@ -1594,11 +1607,24 @@
 				"lon": "149.117796"
 			},
 			{
+				"name": "ARCH6042_S2-AsmB/01",
+				"day": 0,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "43",
+				"activity": "AsmB",
+				"occurrence": "01",
+				"location": "HA G053",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
 				"name": "ARCH6042_S2-LecA/01",
 				"day": 0,
 				"start": "16:00",
 				"finish": "18:00",
-				"weeks": "30\u201134,38\u201140,42\u201143",
+				"weeks": "30\u201134,38\u201140,42",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "BPB W121",
@@ -1654,11 +1680,24 @@
 		"dates": "Displaying Dates: 14 Jul 25 - 16 Nov 25 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "ARCH8044_S2-AsmA/01",
+				"day": 1,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "43",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Fulton Muir 2.04",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
 				"name": "ARCH8044_S2-LecA/01",
 				"day": 1,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "30\u201135,38\u201143",
+				"weeks": "30\u201135,38\u201142",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "BPB W119",
@@ -55031,6 +55070,19 @@
 				"lon": "149.1191"
 			},
 			{
+				"name": "MATH1014_S2-WorA/01",
+				"day": 1,
+				"start": "15:00",
+				"finish": "16:30",
+				"weeks": "41",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "HN 1.58",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "MATH1014_S2-WorA/02",
 				"day": 0,
 				"start": "11:00",
@@ -55039,6 +55091,19 @@
 				"activity": "WorA",
 				"occurrence": "02",
 				"location": "HN 1.57",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "MATH1014_S2-WorA/02",
+				"day": 2,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "41",
+				"activity": "WorA",
+				"occurrence": "02",
+				"location": "HN 1.58",
 				"locationID": "http://www.anu.edu.au/maps#show=102872",
 				"lat": "-35.275532",
 				"lon": "149.1191"
@@ -55057,11 +55122,37 @@
 				"lon": "149.1191"
 			},
 			{
+				"name": "MATH1014_S2-WorA/03",
+				"day": 2,
+				"start": "16:00",
+				"finish": "17:30",
+				"weeks": "41",
+				"activity": "WorA",
+				"occurrence": "03",
+				"location": "HN 1.58",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
 				"name": "MATH1014_S2-WorA/04",
 				"day": 0,
 				"start": "10:00",
 				"finish": "11:30",
 				"weeks": "31\u201135,38\u201140,42\u201143",
+				"activity": "WorA",
+				"occurrence": "04",
+				"location": "HN 1.58",
+				"locationID": "http://www.anu.edu.au/maps#show=102872",
+				"lat": "-35.275532",
+				"lon": "149.1191"
+			},
+			{
+				"name": "MATH1014_S2-WorA/04",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:30",
+				"weeks": "41",
 				"activity": "WorA",
 				"occurrence": "04",
 				"location": "HN 1.58",
