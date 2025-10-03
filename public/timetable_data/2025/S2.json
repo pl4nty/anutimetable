@@ -35545,10 +35545,10 @@
 				"weeks": "30\u201135,38\u201143",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "ENGN T",
-				"locationID": "http://www.anu.edu.au/maps#show=11304",
-				"lat": "-35.276172",
-				"lon": "149.11994"
+				"location": "Birch 1.35 Teaching Lab",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			}
 		]
 	},
@@ -57947,8 +57947,8 @@
 			{
 				"name": "MEAS1002_S2-LecMakA/01",
 				"day": 4,
-				"start": "11:00",
-				"finish": "13:00",
+				"start": "10:00",
+				"finish": "12:00",
 				"weeks": "40",
 				"activity": "LecMakA",
 				"occurrence": "01",
@@ -59840,10 +59840,8 @@
 				"weeks": "41",
 				"activity": "LecB3W2L12",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W2L13/01",
@@ -59853,10 +59851,8 @@
 				"weeks": "41",
 				"activity": "LecB3W2L13",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W2L4/01",
@@ -59879,10 +59875,8 @@
 				"weeks": "41",
 				"activity": "LecB3W2L5",
 				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W2L6/01",
@@ -59905,10 +59899,8 @@
 				"weeks": "41",
 				"activity": "LecB3W2L7",
 				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W2L8/01",
@@ -59918,10 +59910,8 @@
 				"weeks": "41",
 				"activity": "LecB3W2L8",
 				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
+				"location": "Online Live on campus",
+				"locationID": ""
 			},
 			{
 				"name": "MEDI8012_S2-LecB3W2L9/01",
