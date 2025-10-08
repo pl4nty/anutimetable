@@ -26085,16 +26085,16 @@
 			},
 			{
 				"name": "ECHI3009_S2-TutA/01",
-				"day": 1,
-				"start": "16:00",
-				"finish": "17:00",
+				"day": 2,
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "41",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "MORAN G009",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "Arndt TR5",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
 			},
 			{
 				"name": "ECHI3009_S2-TutA/02",
@@ -26184,16 +26184,16 @@
 			},
 			{
 				"name": "ECHI6009_S2-TutA/01",
-				"day": 1,
-				"start": "16:00",
-				"finish": "17:00",
+				"day": 2,
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "41",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "MORAN G009",
-				"locationID": "http://www.anu.edu.au/maps#show=11416",
-				"lat": "-35.277063",
-				"lon": "149.122565"
+				"location": "Arndt TR5",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
 			},
 			{
 				"name": "ECHI6009_S2-TutA/02",
@@ -66295,7 +66295,7 @@
 				"weeks": "41",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Crawford Acton Theatre",
+				"location": "Crawford Barton Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
