@@ -39938,7 +39938,7 @@
 				"day": 1,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "30\u201135,40\u201143",
+				"weeks": "30\u201135,40\u201142",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "COP G031",
@@ -39958,6 +39958,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "FINM4106_S2-LecMakA/01",
+				"day": 4,
+				"start": "08:00",
+				"finish": "10:00",
+				"weeks": "42",
+				"activity": "LecMakA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "FINM4106_S2-TutA/01",
@@ -39990,7 +40003,7 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "14:00",
-				"weeks": "30\u201135,40\u201143",
+				"weeks": "30\u201135,40\u201142",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "COP G031",
@@ -40010,6 +40023,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "FINM4106_S2-WorMakA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "42",
+				"activity": "WorMakA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
@@ -41927,7 +41953,7 @@
 				"day": 1,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "30\u201135,40\u201143",
+				"weeks": "30\u201135,40\u201142",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "COP G031",
@@ -41947,6 +41973,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "FINM8006_S2-LecMakA/01",
+				"day": 4,
+				"start": "08:00",
+				"finish": "10:00",
+				"weeks": "42",
+				"activity": "LecMakA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			},
 			{
 				"name": "FINM8006_S2-TutA/01",
@@ -41979,7 +42018,7 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "14:00",
-				"weeks": "30\u201135,40\u201143",
+				"weeks": "30\u201135,40\u201142",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "COP G031",
@@ -41999,6 +42038,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "FINM8006_S2-WorMakA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "42",
+				"activity": "WorMakA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
