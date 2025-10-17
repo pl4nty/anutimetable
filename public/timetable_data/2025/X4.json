@@ -1139,6 +1139,19 @@
 				"lon": "149.1212115"
 			},
 			{
+				"name": "POLS2102_X4-TutA/05",
+				"day": 0,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "46\u201147",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
 				"name": "POLS2102_X4-TutB/01",
 				"day": 1,
 				"start": "13:00",
@@ -1185,6 +1198,19 @@
 				"weeks": "46\u201147",
 				"activity": "TutB",
 				"occurrence": "04",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS2102_X4-TutB/05",
+				"day": 1,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "46\u201147",
+				"activity": "TutB",
+				"occurrence": "05",
 				"location": "RSSS Lectorial 2 Rm 1.23",
 				"locationID": "http://www.anu.edu.au/maps#show=123279",
 				"lat": "-35.2791261",
@@ -1243,6 +1269,19 @@
 				"lon": "149.1212115"
 			},
 			{
+				"name": "POLS2102_X4-TutC/05",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "46\u201147",
+				"activity": "TutC",
+				"occurrence": "05",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
 				"name": "POLS2102_X4-TutD/01",
 				"day": 3,
 				"start": "13:00",
@@ -1295,6 +1334,19 @@
 				"lon": "149.1212115"
 			},
 			{
+				"name": "POLS2102_X4-TutD/05",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "46\u201147",
+				"activity": "TutD",
+				"occurrence": "05",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
 				"name": "POLS2102_X4-TutE/01",
 				"day": 4,
 				"start": "13:00",
@@ -1341,6 +1393,19 @@
 				"weeks": "46\u201147",
 				"activity": "TutE",
 				"occurrence": "04",
+				"location": "RSSS Lectorial 2 Rm 1.23",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
+				"name": "POLS2102_X4-TutE/05",
+				"day": 4,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "46\u201147",
+				"activity": "TutE",
+				"occurrence": "05",
 				"location": "RSSS Lectorial 2 Rm 1.23",
 				"locationID": "http://www.anu.edu.au/maps#show=123279",
 				"lat": "-35.2791261",
