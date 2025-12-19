@@ -16036,13 +16036,24 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "COMP1100_S1-LecC/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "13",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "COMP1100_S1-LecD/01",
@@ -16520,13 +16531,24 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecC",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "COMP1130_S1-LecC/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "13",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "COMP1130_S1-LecD/01",
@@ -17807,19 +17829,6 @@
 				"lon": "149.120583"
 			},
 			{
-				"name": "COMP2710_S1-ComA/02",
-				"day": 0,
-				"start": "12:00",
-				"finish": "13:30",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "ComA",
-				"occurrence": "02",
-				"location": "CSIT N109",
-				"locationID": "http://www.anu.edu.au/maps#show=11360",
-				"lat": "-35.275345",
-				"lon": "149.120583"
-			},
-			{
 				"name": "COMP2710_S1-ComB/01",
 				"day": 0,
 				"start": "15:00",
@@ -19069,13 +19078,24 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "COMP4528_S1-LecB/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "13",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -21675,13 +21695,24 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "COMP6528_S1-LecB/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "13",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -23238,13 +23269,24 @@
 				"day": 1,
 				"start": "09:00",
 				"finish": "10:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "CRIM1001_S1-LecB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "13",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "CRIM1001_S1-TutA/01",
@@ -30048,53 +30090,6 @@
 			}
 		]
 	},
-	"EMSC6122_S1": {
-		"title": "EMSC6122_S1\u00a0Introduction to Global Geophysics",
-		"id": "EMSC6122_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/EMSC6122",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "EMSC6122_S1-LecA/01",
-				"day": 0,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "RSES 3_Jaeger 8 1.02",
-				"locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31093",
-				"lat": "-35.283954",
-				"lon": "149.115286"
-			},
-			{
-				"name": "EMSC6122_S1-LecB/01",
-				"day": 1,
-				"start": "12:00",
-				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "LecB",
-				"occurrence": "01",
-				"location": "RSES 3_Jaeger 8 1.02",
-				"locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31093",
-				"lat": "-35.283954",
-				"lon": "149.115286"
-			},
-			{
-				"name": "EMSC6122_S1-PraA/01",
-				"day": 2,
-				"start": "12:00",
-				"finish": "15:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "PraA",
-				"occurrence": "01",
-				"location": "RSES 3_Jaeger 8 1.02",
-				"locationID": "http://www.anu.edu.au/maps?grid=cd32#search=jaeger+8&show=31093",
-				"lat": "-35.283954",
-				"lon": "149.115286"
-			}
-		]
-	},
 	"EMSC6123_S1": {
 		"title": "EMSC6123_S1\u00a0Fundamentals of Geology",
 		"id": "EMSC6123_S1",
@@ -32538,32 +32533,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=28991",
 				"lat": "-35.274397",
 				"lon": "149.119323"
-			},
-			{
-				"name": "ENGN3300_S1-WorA/03",
-				"day": 0,
-				"start": "09:00",
-				"finish": "12:00",
-				"weeks": "9\u201114,17\u201121",
-				"activity": "WorA",
-				"occurrence": "03",
-				"location": "Birch 1.08 Teaching Lab",
-				"locationID": "http://www.anu.edu.au/maps#show=28991",
-				"lat": "-35.274397",
-				"lon": "149.119323"
-			},
-			{
-				"name": "ENGN3300_S1-WorA/04",
-				"day": 0,
-				"start": "09:00",
-				"finish": "12:00",
-				"weeks": "9\u201114,17\u201121",
-				"activity": "WorA",
-				"occurrence": "04",
-				"location": "Birch 1.09 Teaching Instrumentation Lab",
-				"locationID": "http://www.anu.edu.au/maps#show=28991",
-				"lat": "-35.274397",
-				"lon": "149.119323"
 			}
 		]
 	},
@@ -33935,13 +33904,24 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "ENGN4528_S1-LecB/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "13",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -35232,13 +35212,24 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201112,14,17\u201122",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "ENGN6528_S1-LecB/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "13",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			}
 		]
 	},
@@ -42036,25 +42027,6 @@
 			}
 		]
 	},
-	"HLMD3000_S1": {
-		"title": "HLMD3000_S1\u00a0Health and Medicine Internship",
-		"id": "HLMD3000_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/HLMD3000",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "HLMD3000_S1-TutA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "9,11,13,17,19,21",
-				"activity": "TutA",
-				"occurrence": "01",
-				"location": "Online Live online live",
-				"locationID": ""
-			}
-		]
-	},
 	"HLTH1001_S1": {
 		"title": "HLTH1001_S1\u00a0Health in the 21st Century",
 		"id": "HLTH1001_S1",
@@ -44168,8 +44140,8 @@
 			{
 				"name": "INTR9072_S1-SemA/01",
 				"day": 0,
-				"start": "09:00",
-				"finish": "11:00",
+				"start": "10:00",
+				"finish": "12:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "SemA",
 				"occurrence": "01",
@@ -46094,13 +46066,24 @@
 				"day": 1,
 				"start": "10:00",
 				"finish": "12:00",
-				"weeks": "11\u201114,17\u201122",
+				"weeks": "11\u201112,14,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "LAWS1205_S1-LecA/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "13",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS1205_S1-TutA/01",
@@ -46584,13 +46567,24 @@
 				"day": 1,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "12\u201114,17\u201122",
+				"weeks": "12,14,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "LAWS2203_S1-LecA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "13",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS2203_S1-TutA/01",
@@ -47571,7 +47565,7 @@
 				"day": 0,
 				"start": "12:00",
 				"finish": "13:30",
-				"weeks": "9\u201110,12\u201114,17\u201122",
+				"weeks": "9\u201110,12\u201114,17,19\u201122",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "LAW T",
@@ -47585,6 +47579,19 @@
 				"start": "14:00",
 				"finish": "15:30",
 				"weeks": "11",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
+			},
+			{
+				"name": "LAWS4213_S1-SemA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "18",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "HA Tank",
@@ -48183,7 +48190,7 @@
 			{
 				"name": "LAWS4304_S1-WorA/01",
 				"day": 4,
-				"start": "11:00",
+				"start": "10:00",
 				"finish": "13:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "WorA",
@@ -49010,13 +49017,24 @@
 				"day": 1,
 				"start": "10:00",
 				"finish": "12:00",
-				"weeks": "11\u201114,17\u201122",
+				"weeks": "11\u201112,14,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "LAWS6105_S1-LecA/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "13",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS6105_S1-TutA/01",
@@ -49500,13 +49518,24 @@
 				"day": 1,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "12\u201114,17\u201122",
+				"weeks": "12,14,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "LAWS6203_S1-LecA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "13",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "LAWS6203_S1-TutA/01",
@@ -50781,7 +50810,7 @@
 			{
 				"name": "LAWS6304_S1-WorA/01",
 				"day": 4,
-				"start": "11:00",
+				"start": "10:00",
 				"finish": "13:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "WorA",
@@ -50853,7 +50882,7 @@
 				"day": 0,
 				"start": "12:00",
 				"finish": "13:30",
-				"weeks": "9\u201110,12\u201114,17\u201122",
+				"weeks": "9\u201110,12\u201114,17,19\u201122",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "LAW T",
@@ -50867,6 +50896,19 @@
 				"start": "14:00",
 				"finish": "15:30",
 				"weeks": "11",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
+			},
+			{
+				"name": "LAWS8128_S1-SemA/01",
+				"day": 2,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "18",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "HA Tank",
@@ -58234,19 +58276,6 @@
 				"lon": "149.113616"
 			},
 			{
-				"name": "MEDI8301_S1-LecB1W12L03/01",
-				"day": 1,
-				"start": "10:00",
-				"finish": "11:00",
-				"weeks": "22",
-				"activity": "LecB1W12L03",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
 				"name": "MEDI8301_S1-LecB1W12L04/01",
 				"day": 0,
 				"start": "15:00",
@@ -58403,19 +58432,6 @@
 				"finish": "12:00",
 				"weeks": "18",
 				"activity": "LecB1W13L03",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8301_S1-LecB1W13L04/01",
-				"day": 1,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "22",
-				"activity": "LecB1W13L04",
 				"occurrence": "01",
 				"location": "Leonard Huxley T",
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
@@ -61343,19 +61359,6 @@
 				"finish": "15:30",
 				"weeks": "18",
 				"activity": "SemB1W12S02",
-				"occurrence": "01",
-				"location": "Leonard Huxley T",
-				"locationID": "http://www.anu.edu.au/maps#show=11325",
-				"lat": "-35.283152",
-				"lon": "149.113616"
-			},
-			{
-				"name": "MEDI8301_S1-SemB1W13S01/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "15:00",
-				"weeks": "22",
-				"activity": "SemB1W13S01",
 				"occurrence": "01",
 				"location": "Leonard Huxley T",
 				"locationID": "http://www.anu.edu.au/maps#show=11325",
@@ -75611,19 +75614,6 @@
 				"lon": "149.121926"
 			},
 			{
-				"name": "PSYC1003_S1-LecB/01",
-				"day": 1,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "LecB",
-				"occurrence": "01",
-				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945",
-				"lat": "-35.2785850000",
-				"lon": "149.1216620000"
-			},
-			{
 				"name": "PSYC1003_S1-PraA/01",
 				"day": 2,
 				"start": "12:00",
@@ -76465,13 +76455,24 @@
 				"day": 2,
 				"start": "09:00",
 				"finish": "10:30",
-				"weeks": "9,11,13\u201114,17,19,21",
+				"weeks": "9,11,14,17,19,21",
 				"activity": "LetA",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "PSYC3025_S1-LetA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "10:30",
+				"weeks": "13",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": " online live",
+				"locationID": ""
 			},
 			{
 				"name": "PSYC3025_S1-PraA/01",
