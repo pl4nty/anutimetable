@@ -2426,29 +2426,16 @@
 		"classes": [
 			{
 				"name": "ARTH3001_S1-SemA/01",
-				"day": 4,
-				"start": "10:00",
-				"finish": "12:00",
+				"day": 2,
+				"start": "14:00",
+				"finish": "17:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "RSSS Lectorial 2 Rm 1.23",
-				"locationID": "http://www.anu.edu.au/maps#show=123279",
-				"lat": "-35.2791261",
-				"lon": "149.1212115"
-			},
-			{
-				"name": "ARTH3001_S1-SemB/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "15:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemB",
-				"occurrence": "01",
-				"location": "RSSS Lectorial 2 Rm 1.23",
-				"locationID": "http://www.anu.edu.au/maps#show=123279",
-				"lat": "-35.2791261",
-				"lon": "149.1212115"
+				"location": "SRWB 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=11367",
+				"lat": "-35.284327",
+				"lon": "149.121169"
 			}
 		]
 	},
@@ -3071,8 +3058,10 @@
 				"weeks": "9\u201112,17,20",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "SOA&D Painting Second Year Studio 1.21",
-				"locationID": "http://soa.anu.edu.au/painting/map"
+				"location": "SOA&D Room 1.29",
+				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+				"lat": "-35.280713",
+				"lon": "149.122377"
 			},
 			{
 				"name": "ARTV2550_S1-StuA/01",
@@ -9696,17 +9685,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
-			},
-			{
-				"name": "BUSI3028_S1-TutA/03",
-				"day": 0,
-				"start": "09:00",
-				"finish": "10:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "TutA",
-				"occurrence": "03",
-				"location": " on campus",
-				"locationID": ""
 			}
 		]
 	},
@@ -33143,12 +33121,12 @@
 			{
 				"name": "ENGN3901_S1-PraA/01",
 				"day": 2,
-				"start": "11:00",
-				"finish": "13:00",
+				"start": "14:30",
+				"finish": "16:30",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": "Birch 1.35 Teaching Lab",
+				"location": "Birch 1.08 Teaching Lab",
 				"locationID": "http://www.anu.edu.au/maps#show=28991",
 				"lat": "-35.274397",
 				"lon": "149.119323"
@@ -33156,8 +33134,8 @@
 			{
 				"name": "ENGN3901_S1-PraB/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
+				"start": "09:30",
+				"finish": "11:30",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "PraB",
 				"occurrence": "01",
@@ -46583,8 +46561,10 @@
 				"weeks": "13",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
+				"location": "Crawford Molonglo Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "LAWS2203_S1-TutA/01",
@@ -47588,16 +47568,16 @@
 			},
 			{
 				"name": "LAWS4213_S1-SemA/01",
-				"day": 2,
+				"day": 1,
 				"start": "11:00",
 				"finish": "12:30",
 				"weeks": "18",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "HA Tank",
-				"locationID": "http://www.anu.edu.au/maps#show=11295",
-				"lat": "-35.277596",
-				"lon": "149.122472"
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "LAWS4213_S1-SemB/01",
@@ -49534,8 +49514,10 @@
 				"weeks": "13",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": " online live",
-				"locationID": ""
+				"location": "Crawford Molonglo Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "LAWS6203_S1-TutA/01",
@@ -50905,16 +50887,16 @@
 			},
 			{
 				"name": "LAWS8128_S1-SemA/01",
-				"day": 2,
+				"day": 1,
 				"start": "11:00",
 				"finish": "12:30",
 				"weeks": "18",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "HA Tank",
-				"locationID": "http://www.anu.edu.au/maps#show=11295",
-				"lat": "-35.277596",
-				"lon": "149.122472"
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "LAWS8128_S1-SemB/01",
@@ -73729,25 +73711,6 @@
 			}
 		]
 	},
-	"POGO8997_S1": {
-		"title": "POGO8997_S1\u00a0Research Design for Public Policy",
-		"id": "POGO8997_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/POGO8997",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "POGO8997_S1-LecA/01",
-				"day": 0,
-				"start": "09:00",
-				"finish": "12:30",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": " on campus",
-				"locationID": ""
-			}
-		]
-	},
 	"POLS1002_S1": {
 		"title": "POLS1002_S1\u00a0Introduction to Politics",
 		"id": "POLS1002_S1",
@@ -76773,22 +76736,53 @@
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
-				"name": "PSYC4011_S1LecA/01",
+				"name": "PSYC4011_S1-LecA/01",
 				"day": 0,
 				"start": "15:00",
 				"finish": "17:00",
 				"weeks": "9\u201114,17\u201122",
-				"activity": "Err",
+				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Marie Reay 5.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "PSYC4011_S1-LecB/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "PSYC4011_S1-PraA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "PraA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "PSYC4011_S1-PraA/02",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "PraA",
+				"occurrence": "02",
+				"location": " ",
+				"locationID": ""
 			}
 		]
 	},
 	"PSYC4200_S1": {
-		"title": "PSYC4200_S1\u00a0Psychology Honours Thesis",
+		"title": "PSYC4200_S1\u00a0Psychology Honours Thesis_In Person_24 units",
 		"id": "PSYC4200_S1",
 		"link": "",
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
@@ -76840,20 +76834,20 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "9\u201122",
+				"weeks": "9\u201114,17\u201122",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": "Fulton Muir 2.04",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Marie Reay 4.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "PSYC4203_S1-PraA/02",
 				"day": 2,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "9\u201122",
+				"weeks": "9\u201114,17\u201122",
 				"activity": "PraA",
 				"occurrence": "02",
 				"location": "Fulton Muir 2.04",
