@@ -2749,8 +2749,8 @@
 				"weeks": "9,11,17,19",
 				"activity": "BreA",
 				"occurrence": "02",
-				"location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
-				"locationID": "http://soa.anu.edu.au/printmedia/map"
+				"location": "SOA&D Photomedia Second Year Studio 1.27",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
 			},
 			{
 				"name": "ARTV1651_S1-BreB/01",
@@ -2771,8 +2771,8 @@
 				"weeks": "10,12\u201114,18,20\u201122",
 				"activity": "BreB",
 				"occurrence": "02",
-				"location": "SOA&D Printmedia & Drawing Screen Printing Studio G.42",
-				"locationID": "http://soa.anu.edu.au/printmedia/map"
+				"location": "SOA&D Photomedia Second Year Studio 1.27",
+				"locationID": "http://soa.anu.edu.au/photo-and-media-arts/map "
 			},
 			{
 				"name": "ARTV1651_S1-SemA/01",
@@ -2808,8 +2808,10 @@
 				"weeks": "9,11,17,19",
 				"activity": "StuA",
 				"occurrence": "02",
-				"location": "SOA&D Printmedia & Drawing Etching Studio G.28",
-				"locationID": "http://soa.anu.edu.au/printmedia/map"
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
 			},
 			{
 				"name": "ARTV1651_S1-StuB/01",
@@ -2832,8 +2834,10 @@
 				"weeks": "10,12\u201114,18,20\u201122",
 				"activity": "StuB",
 				"occurrence": "02",
-				"location": "SOA&D Printmedia & Drawing Etching Studio G.28",
-				"locationID": "http://soa.anu.edu.au/printmedia/map"
+				"location": "Peter Karmel Animation & Video InfoCommon Lab 2.25",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
 			}
 		]
 	},
@@ -3038,6 +3042,17 @@
 				"finish": "13:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "StuA",
+				"occurrence": "01",
+				"location": "SOA&D Ceramics Hand Building Room",
+				"locationID": "http://soa.anu.edu.au/ceramics/map"
+			},
+			{
+				"name": "ARTV2150_S1-StuB/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "StuB",
 				"occurrence": "01",
 				"location": "SOA&D Ceramics Hand Building Room",
 				"locationID": "http://soa.anu.edu.au/ceramics/map"
@@ -46242,29 +46257,29 @@
 			},
 			{
 				"name": "LAWS1206_S1-TutA/03",
-				"day": 2,
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "11\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS1206_S1-TutA/04",
+				"day": 1,
 				"start": "18:00",
 				"finish": "19:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
-				"occurrence": "03",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS1206_S1-TutA/04",
-				"day": 2,
-				"start": "19:00",
-				"finish": "20:00",
-				"weeks": "11\u201114,17\u201122",
-				"activity": "TutA",
 				"occurrence": "04",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
 			},
 			{
 				"name": "LAWS1206_S1-TutA/05",
@@ -46282,12 +46297,12 @@
 			{
 				"name": "LAWS1206_S1-TutA/06",
 				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "06",
-				"location": "Fellows Road Law Theatre 2",
+				"location": "Fellows Road Law Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
@@ -46320,9 +46335,9 @@
 			},
 			{
 				"name": "LAWS1206_S1-TutA/09",
-				"day": 2,
-				"start": "08:00",
-				"finish": "09:00",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "09",
@@ -46333,9 +46348,9 @@
 			},
 			{
 				"name": "LAWS1206_S1-TutA/10",
-				"day": 2,
-				"start": "09:00",
-				"finish": "10:00",
+				"day": 0,
+				"start": "18:00",
+				"finish": "19:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "10",
@@ -46411,16 +46426,16 @@
 			},
 			{
 				"name": "LAWS1206_S1-TutA/16",
-				"day": 3,
-				"start": "12:00",
-				"finish": "13:00",
+				"day": 4,
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "16",
-				"location": "Law Seminar Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "Fellows Road Law Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS1206_S1-TutA/17",
@@ -49195,29 +49210,29 @@
 			},
 			{
 				"name": "LAWS6106_S1-TutA/03",
-				"day": 2,
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "11\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "LAWS6106_S1-TutA/04",
+				"day": 1,
 				"start": "18:00",
 				"finish": "19:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
-				"occurrence": "03",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS6106_S1-TutA/04",
-				"day": 2,
-				"start": "19:00",
-				"finish": "20:00",
-				"weeks": "11\u201114,17\u201122",
-				"activity": "TutA",
 				"occurrence": "04",
-				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
 			},
 			{
 				"name": "LAWS6106_S1-TutA/05",
@@ -49235,12 +49250,12 @@
 			{
 				"name": "LAWS6106_S1-TutA/06",
 				"day": 3,
-				"start": "14:00",
-				"finish": "15:00",
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "06",
-				"location": "Fellows Road Law Theatre 2",
+				"location": "Fellows Road Law Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11473",
 				"lat": "-35.280217",
 				"lon": "149.119061"
@@ -49273,9 +49288,9 @@
 			},
 			{
 				"name": "LAWS6106_S1-TutA/09",
-				"day": 2,
-				"start": "08:00",
-				"finish": "09:00",
+				"day": 0,
+				"start": "17:00",
+				"finish": "18:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "09",
@@ -49286,9 +49301,9 @@
 			},
 			{
 				"name": "LAWS6106_S1-TutA/10",
-				"day": 2,
-				"start": "09:00",
-				"finish": "10:00",
+				"day": 0,
+				"start": "18:00",
+				"finish": "19:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "10",
@@ -49364,16 +49379,16 @@
 			},
 			{
 				"name": "LAWS6106_S1-TutA/16",
-				"day": 3,
-				"start": "12:00",
-				"finish": "13:00",
+				"day": 4,
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "11\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "16",
-				"location": "Law Seminar Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
+				"location": "Fellows Road Law Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS6106_S1-TutA/17",
