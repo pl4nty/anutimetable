@@ -3073,10 +3073,10 @@
 				"weeks": "9\u201112,17,20",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "SOA&D Room 1.29",
-				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
-				"lat": "-35.280713",
-				"lon": "149.122377"
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			},
 			{
 				"name": "ARTV2550_S1-StuA/01",
@@ -41893,8 +41893,8 @@
 			{
 				"name": "HIST4011_S1-SemA/01",
 				"day": 1,
-				"start": "15:00",
-				"finish": "17:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114",
 				"activity": "SemA",
 				"occurrence": "01",
@@ -41904,8 +41904,8 @@
 			{
 				"name": "HIST4011_S1-SemB/01",
 				"day": 3,
-				"start": "15:00",
-				"finish": "17:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114",
 				"activity": "SemB",
 				"occurrence": "01",
@@ -41978,8 +41978,8 @@
 			{
 				"name": "HIST8024_S1-SemA/01",
 				"day": 1,
-				"start": "15:00",
-				"finish": "17:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114",
 				"activity": "SemA",
 				"occurrence": "01",
@@ -41989,8 +41989,8 @@
 			{
 				"name": "HIST8024_S1-SemB/01",
 				"day": 3,
-				"start": "15:00",
-				"finish": "17:00",
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114",
 				"activity": "SemB",
 				"occurrence": "01",
