@@ -6,6 +6,7 @@ verify_ssl = true
 [packages]
 requests = ">2.24"
 beautifulsoup4 = ">4.9"
+pipenv = ">=2024.4.1"
 
 [requires]
 python_version = "3.8"
