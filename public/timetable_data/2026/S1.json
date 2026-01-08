@@ -86,7 +86,7 @@
 		]
 	},
 	"AATD2001_S1": {
-		"title": "AATD2001_S1\u00a0SoCIETIE Initiative",
+		"title": "AATD2001_S1\u00a0SoCIETIE Initiative_Online or In Person",
 		"id": "AATD2001_S1",
 		"link": "https://programsandcourses.anu.edu.au/2026/course/AATD2001",
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
@@ -2549,6 +2549,86 @@
 			}
 		]
 	},
+	"ARTV1020_S1": {
+		"title": "ARTV1020_S1\u00a0Observational Drawing of the Human Figure ",
+		"id": "ARTV1020_S1",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/ARTV1020",
+		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
+		"classes": [
+			{
+				"name": "ARTV1020_S1-BreA/01",
+				"day": 3,
+				"start": "10:30",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "BreA",
+				"occurrence": "01",
+				"location": "SOA&D Printmedia & Drawing Etching Studio G.28",
+				"locationID": "http://soa.anu.edu.au/printmedia/map"
+			},
+			{
+				"name": "ARTV1020_S1-BreA/02",
+				"day": 3,
+				"start": "10:30",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "BreA",
+				"occurrence": "02",
+				"location": "Peter Karmel 2.29 (Lab 2)",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			},
+			{
+				"name": "ARTV1020_S1-LecA/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "11:30",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "SOA&D Lecture Theatre 1.42",
+				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
+				"lat": "-35.280713",
+				"lon": "149.122377"
+			},
+			{
+				"name": "ARTV1020_S1-StuA/01",
+				"day": 3,
+				"start": "10:30",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": "SOA&D Furniture Main Bench Room Ground Floor",
+				"locationID": "http://soa.anu.edu.au/furniture/map"
+			},
+			{
+				"name": "ARTV1020_S1-StuA/02",
+				"day": 3,
+				"start": "10:30",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "StuA",
+				"occurrence": "02",
+				"location": "SOA&D Printmedia & Drawing Seminar Room G.36",
+				"locationID": "http://soa.anu.edu.au/printmedia/map"
+			},
+			{
+				"name": "ARTV1020_S1-StuA/03",
+				"day": 3,
+				"start": "10:30",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "StuA",
+				"occurrence": "03",
+				"location": "Peter Karmel Animation & Video Riddell Lab 2.22",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
+			}
+		]
+	},
 	"ARTV1150_S1": {
 		"title": "ARTV1150_S1\u00a0Ceramics 1_Introduction to Handformed Cer",
 		"id": "ARTV1150_S1",
@@ -3408,6 +3488,36 @@
 				"occurrence": "01",
 				"location": "SOA&D Sculpture Drawing Room G.68",
 				"locationID": "http://soa.anu.edu.au/sculpture/map"
+			}
+		]
+	},
+	"ARTV2950_S1": {
+		"title": "ARTV2950_S1\u00a0Textiles 2_Plants and Place: locating col",
+		"id": "ARTV2950_S1",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/ARTV2950",
+		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
+		"classes": [
+			{
+				"name": "ARTV2950_S1-BreA/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "BreA",
+				"occurrence": "01",
+				"location": "SOA&D Textiles Downstairs Teaching Studio G.59D",
+				"locationID": "http://soa.anu.edu.au/textiles/map"
+			},
+			{
+				"name": "ARTV2950_S1-StuA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "13:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "StuA",
+				"occurrence": "01",
+				"location": "SOA&D Textiles Upstairs Teaching Studio A 1.45",
+				"locationID": "http://soa.anu.edu.au/textiles/map"
 			}
 		]
 	},
@@ -45246,28 +45356,28 @@
 			{
 				"name": "KORE3012_S1-SemA/01",
 				"day": 2,
-				"start": "14:00",
-				"finish": "15:30",
+				"start": "11:00",
+				"finish": "12:30",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "ADH G30",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			},
 			{
 				"name": "KORE3012_S1-SemB/01",
 				"day": 3,
-				"start": "15:00",
-				"finish": "16:30",
+				"start": "10:00",
+				"finish": "11:30",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Marie Reay 5.05",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "COOMBS Extension LT 1.04",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
 			}
 		]
 	},
@@ -71734,19 +71844,6 @@
 				"lon": "149.120685"
 			},
 			{
-				"name": "PHYS2013_S1-WorB/01",
-				"day": 3,
-				"start": "08:00",
-				"finish": "10:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "Marie Reay 6.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
 				"name": "PHYS2013_S1-WorC/01",
 				"day": 2,
 				"start": "09:00",
@@ -71774,9 +71871,9 @@
 			},
 			{
 				"name": "PHYS2013_S1-WorE/01",
-				"day": 4,
-				"start": "16:00",
-				"finish": "18:00",
+				"day": 1,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "WorE",
 				"occurrence": "01",
@@ -71840,19 +71937,6 @@
 				"lon": "149.120685"
 			},
 			{
-				"name": "PHYS2020_S1-WorB/01",
-				"day": 3,
-				"start": "08:00",
-				"finish": "10:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "Marie Reay 6.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
 				"name": "PHYS2020_S1-WorC/01",
 				"day": 2,
 				"start": "09:00",
@@ -71880,9 +71964,9 @@
 			},
 			{
 				"name": "PHYS2020_S1-WorE/01",
-				"day": 4,
-				"start": "16:00",
-				"finish": "18:00",
+				"day": 1,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "WorE",
 				"occurrence": "01",
@@ -72477,19 +72561,6 @@
 				"lon": "149.120685"
 			},
 			{
-				"name": "PHYS6013_S1-WorB/01",
-				"day": 3,
-				"start": "08:00",
-				"finish": "10:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "Marie Reay 6.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
 				"name": "PHYS6013_S1-WorC/01",
 				"day": 2,
 				"start": "09:00",
@@ -72517,9 +72588,9 @@
 			},
 			{
 				"name": "PHYS6013_S1-WorE/01",
-				"day": 4,
-				"start": "16:00",
-				"finish": "18:00",
+				"day": 1,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "WorE",
 				"occurrence": "01",
@@ -72583,19 +72654,6 @@
 				"lon": "149.120685"
 			},
 			{
-				"name": "PHYS6020_S1-WorB/01",
-				"day": 3,
-				"start": "08:00",
-				"finish": "10:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "Marie Reay 6.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
-			{
 				"name": "PHYS6020_S1-WorC/01",
 				"day": 2,
 				"start": "09:00",
@@ -72623,9 +72681,9 @@
 			},
 			{
 				"name": "PHYS6020_S1-WorE/01",
-				"day": 4,
-				"start": "16:00",
-				"finish": "18:00",
+				"day": 1,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "WorE",
 				"occurrence": "01",
