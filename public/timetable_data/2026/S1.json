@@ -3039,8 +3039,8 @@
 			{
 				"name": "ARTV1850_S1-LecA/01",
 				"day": 2,
-				"start": "10:00",
-				"finish": "11:00",
+				"start": "09:00",
+				"finish": "10:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
@@ -3050,8 +3050,8 @@
 			{
 				"name": "ARTV1850_S1-TutA/01",
 				"day": 2,
-				"start": "11:00",
-				"finish": "14:00",
+				"start": "10:00",
+				"finish": "13:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "01",
@@ -3510,7 +3510,7 @@
 			},
 			{
 				"name": "ARTV2950_S1-StuA/01",
-				"day": 2,
+				"day": 3,
 				"start": "09:00",
 				"finish": "13:00",
 				"weeks": "9\u201114,17\u201122",
@@ -4070,9 +4070,9 @@
 			{
 				"name": "ASIA2111_S1-TutA/01",
 				"day": 1,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "8\u201110,12\u201113,16,18\u201121",
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Coombs Seminar Room B 3.104",
@@ -4083,8 +4083,8 @@
 			{
 				"name": "ASIA2111_S1-TutA/02",
 				"day": 1,
-				"start": "12:00",
-				"finish": "13:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "02",
@@ -4331,9 +4331,9 @@
 			{
 				"name": "ASIA2411_S1-TutA/01",
 				"day": 1,
-				"start": "11:00",
-				"finish": "12:00",
-				"weeks": "8\u201110,12\u201113,16,18\u201121",
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Coombs Seminar Room B 3.104",
@@ -4344,8 +4344,8 @@
 			{
 				"name": "ASIA2411_S1-TutA/02",
 				"day": 1,
-				"start": "12:00",
-				"finish": "13:00",
+				"start": "15:00",
+				"finish": "16:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "02",
@@ -45348,7 +45348,7 @@
 		]
 	},
 	"KORE3012_S1": {
-		"title": "KORE3012_S1\u00a0Korean 5",
+		"title": "KORE3012_S1\u00a0Korean 5_Online",
 		"id": "KORE3012_S1",
 		"link": "https://programsandcourses.anu.edu.au/2026/course/KORE3012",
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
@@ -47840,40 +47840,6 @@
 			}
 		]
 	},
-	"LAWS4254_S1": {
-		"title": "LAWS4254_S1\u00a0Restitution",
-		"id": "LAWS4254_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS4254",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "LAWS4254_S1-LecA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "14:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS4254_S1-SemA/01",
-				"day": 0,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
 	"LAWS4267_S1": {
 		"title": "LAWS4267_S1\u00a0Youth Law Clinic",
 		"id": "LAWS4267_S1",
@@ -48335,27 +48301,6 @@
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "LAW T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
-	"LAWS4314_S1": {
-		"title": "LAWS4314_S1\u00a0Sentencing",
-		"id": "LAWS4314_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS4314",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "LAWS4314_S1-SemA/01",
-				"day": 2,
-				"start": "16:30",
-				"finish": "19:30",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
 				"locationID": "http://www.anu.edu.au/maps#show=11277",
 				"lat": "-35.281073",
 				"lon": "149.118997"
@@ -51104,27 +51049,6 @@
 			}
 		]
 	},
-	"LAWS8214_S1": {
-		"title": "LAWS8214_S1\u00a0Sentencing",
-		"id": "LAWS8214_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8214",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "LAWS8214_S1-SemA/01",
-				"day": 2,
-				"start": "16:30",
-				"finish": "19:30",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			}
-		]
-	},
 	"LAWS8268_S1": {
 		"title": "LAWS8268_S1\u00a0International Humanitarian Law_Online",
 		"id": "LAWS8268_S1",
@@ -51202,40 +51126,6 @@
 				"occurrence": "01",
 				"location": " online live",
 				"locationID": ""
-			}
-		]
-	},
-	"LAWS8454_S1": {
-		"title": "LAWS8454_S1\u00a0Restitution",
-		"id": "LAWS8454_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8454",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "LAWS8454_S1-LecA/01",
-				"day": 0,
-				"start": "13:00",
-				"finish": "14:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
-			},
-			{
-				"name": "LAWS8454_S1-SemA/01",
-				"day": 0,
-				"start": "14:00",
-				"finish": "16:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "LAW LINK T",
-				"locationID": "http://www.anu.edu.au/maps#show=11277",
-				"lat": "-35.281073",
-				"lon": "149.118997"
 			}
 		]
 	},
