@@ -4844,27 +4844,6 @@
 			}
 		]
 	},
-	"ASIA8038_S1": {
-		"title": "ASIA8038_S1\u00a0Cultural Creativity and Research in Asia and the Pacific",
-		"id": "ASIA8038_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/ASIA8038",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "ASIA8038_S1-SemA/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "ADH G12",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
-			}
-		]
-	},
 	"ASIA8051_S1": {
 		"title": "ASIA8051_S1\u00a0Language and Power in Asia and the Pacific",
 		"id": "ASIA8051_S1",
@@ -17932,19 +17911,6 @@
 				"lon": "149.120583"
 			},
 			{
-				"name": "COMP2710_S1-ComB/01",
-				"day": 0,
-				"start": "15:00",
-				"finish": "16:30",
-				"weeks": "13,18,21",
-				"activity": "ComB",
-				"occurrence": "01",
-				"location": "CSIT N111",
-				"locationID": "http://www.anu.edu.au/maps#show=11360",
-				"lat": "-35.275345",
-				"lon": "149.120583"
-			},
-			{
 				"name": "COMP2710_S1-LecA/01",
 				"day": 0,
 				"start": "10:00",
@@ -17952,7 +17918,7 @@
 				"weeks": "9\u201114,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "CSIT N111",
+				"location": "CSIT N115/N116",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
@@ -31736,7 +31702,7 @@
 				"day": 3,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "12\u201113,18\u201121",
+				"weeks": "10\u201114,18\u201122",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Melville Hall",
@@ -44108,27 +44074,6 @@
 			}
 		]
 	},
-	"INTR8066_S1": {
-		"title": "INTR8066_S1\u00a0International Relations in the Information Age",
-		"id": "INTR8066_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/INTR8066",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "INTR8066_S1-SemA/01",
-				"day": 4,
-				"start": "13:00",
-				"finish": "15:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Han 2.25",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
-			}
-		]
-	},
 	"INTR8072_S1": {
 		"title": "INTR8072_S1\u00a0Research Design and Methods in Global Politics_Online",
 		"id": "INTR8072_S1",
@@ -44168,69 +44113,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11280",
 				"lat": "-35.282541",
 				"lon": "149.119238"
-			}
-		]
-	},
-	"INTR8082_S1": {
-		"title": "INTR8082_S1\u00a0Regionalism and Southeast Asia_Online",
-		"id": "INTR8082_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/INTR8082",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "INTR8082_S1-SemA/01",
-				"day": 1,
-				"start": "15:00",
-				"finish": "17:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "Han 2.25",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
-			}
-		]
-	},
-	"INTR8083_S1": {
-		"title": "INTR8083_S1\u00a0Race and Global Politics: Re-imagining a Discipline",
-		"id": "INTR8083_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/INTR8083",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "INTR8083_S1-SemA/01",
-				"day": 3,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "BPB ETC Studio 4 Red",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
-			}
-		]
-	},
-	"INTR8084_S1": {
-		"title": "INTR8084_S1\u00a0Global Crisis, Global Protest_In Person",
-		"id": "INTR8084_S1",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/INTR8084",
-		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
-		"classes": [
-			{
-				"name": "INTR8084_S1-SemA/01",
-				"day": 3,
-				"start": "16:00",
-				"finish": "18:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "SemA",
-				"occurrence": "01",
-				"location": "ADH G30",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
 			}
 		]
 	},
