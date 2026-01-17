@@ -3125,17 +3125,6 @@
 				"occurrence": "01",
 				"location": "SOA&D Ceramics Hand Building Room",
 				"locationID": "http://soa.anu.edu.au/ceramics/map"
-			},
-			{
-				"name": "ARTV2150_S1-StuB/01",
-				"day": 1,
-				"start": "14:00",
-				"finish": "18:00",
-				"weeks": "9\u201114,17\u201122",
-				"activity": "StuB",
-				"occurrence": "01",
-				"location": "SOA&D Ceramics Hand Building Room",
-				"locationID": "http://soa.anu.edu.au/ceramics/map"
 			}
 		]
 	},
@@ -18407,7 +18396,20 @@
 				"day": 4,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201113,17\u201122",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "Kambri Cinema",
+				"locationID": "http://www.anu.edu.au/maps#show=108132",
+				"lat": "-35.276928",
+				"lon": "149.121926"
+			},
+			{
+				"name": "COMP3425_S1-LecB/01",
+				"day": 3,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "14",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
@@ -22616,7 +22618,20 @@
 				"day": 4,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201113,17\u201122",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "Kambri Cinema",
+				"locationID": "http://www.anu.edu.au/maps#show=108132",
+				"lat": "-35.276928",
+				"lon": "149.121926"
+			},
+			{
+				"name": "COMP8410_S1-LecB/01",
+				"day": 3,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "14",
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
@@ -33259,7 +33274,7 @@
 				"weeks": "13",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33270,7 +33285,7 @@
 				"weeks": "13",
 				"activity": "PraA",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33281,7 +33296,7 @@
 				"weeks": "13",
 				"activity": "PraB",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33292,7 +33307,7 @@
 				"weeks": "13",
 				"activity": "PraB",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33303,7 +33318,7 @@
 				"weeks": "14",
 				"activity": "PraC",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33314,7 +33329,7 @@
 				"weeks": "14",
 				"activity": "PraC",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33325,7 +33340,7 @@
 				"weeks": "19",
 				"activity": "PraD",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33336,7 +33351,7 @@
 				"weeks": "19",
 				"activity": "PraD",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33347,7 +33362,7 @@
 				"weeks": "20",
 				"activity": "PraE",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -33358,7 +33373,7 @@
 				"weeks": "20",
 				"activity": "PraE",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -37708,7 +37723,7 @@
 				"day": 4,
 				"start": "10:00",
 				"finish": "11:00",
-				"weeks": "9\u201113,17\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "02",
 				"location": "HA G050",
@@ -37721,7 +37736,7 @@
 				"day": 4,
 				"start": "11:00",
 				"finish": "12:00",
-				"weeks": "9\u201113,17\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "HA G050",
@@ -37734,7 +37749,7 @@
 				"day": 4,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201113,17\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "04",
 				"location": "HA G050",
@@ -37773,7 +37788,7 @@
 				"day": 3,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "9\u201113,17\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "07",
 				"location": "HA G053",
@@ -37796,16 +37811,16 @@
 			},
 			{
 				"name": "FINM1001_S1-TutA/09",
-				"day": 3,
-				"start": "18:00",
-				"finish": "19:00",
+				"day": 4,
+				"start": "16:00",
+				"finish": "17:00",
 				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "09",
-				"location": "HA G051",
-				"locationID": "http://www.anu.edu.au/maps#show=11294",
-				"lat": "-35.277768",
-				"lon": "149.122317"
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
 			},
 			{
 				"name": "FINM1001_S1-TutA/10",
@@ -37825,7 +37840,7 @@
 				"day": 2,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "11",
 				"location": "Arndt TR2",
@@ -37838,7 +37853,7 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "18:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "12",
 				"location": "Arndt TR3",
@@ -37851,7 +37866,7 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "13",
 				"location": "Arndt TR4",
@@ -37864,7 +37879,7 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "14:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "14",
 				"location": "Arndt TR4",
@@ -37877,7 +37892,7 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "15",
 				"location": "Arndt TR4",
@@ -37890,7 +37905,7 @@
 				"day": 2,
 				"start": "13:00",
 				"finish": "14:00",
-				"weeks": "9\u201113,16\u201121",
+				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "16",
 				"location": "Arndt TR4",
@@ -37996,6 +38011,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
+			},
+			{
+				"name": "FINM2001_S1-TutA/05",
+				"day": 2,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "05",
+				"location": "CBE TR3",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "FINM2001_S1-TutA/06",
+				"day": 2,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "06",
+				"location": "CBE Bld TR6",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			}
 		]
 	},
@@ -39009,6 +39050,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
+			},
+			{
+				"name": "FINM3011_S1-TutA/12",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "12",
+				"location": "Arndt TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
 			},
 			{
 				"name": "FINM3011_S1-WorA/01",
@@ -40905,6 +40959,71 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11294",
 				"lat": "-35.277768",
 				"lon": "149.122317"
+			},
+			{
+				"name": "FINM8007_S1-TutA/10",
+				"day": 3,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "10",
+				"location": "CBE Bld TR8",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "FINM8007_S1-TutA/11",
+				"day": 3,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "11",
+				"location": "CBE Bld TR8",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "FINM8007_S1-TutA/12",
+				"day": 1,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "12",
+				"location": "CBE Bld TR8",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "FINM8007_S1-TutA/13",
+				"day": 1,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "13",
+				"location": "CBE LT 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "FINM8007_S1-TutA/14",
+				"day": 1,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "14",
+				"location": "CBE Bld TR6",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			}
 		]
 	},
@@ -40961,6 +41080,19 @@
 				"weeks": "10\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "03",
+				"location": "MORAN G008",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "FINM8014_S1-TutA/04",
+				"day": 4,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "04",
 				"location": "MORAN G008",
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
@@ -52198,6 +52330,40 @@
 			}
 		]
 	},
+	"LING3031_S1": {
+		"title": "LING3031_S1\u00a0Papuan Languages",
+		"id": "LING3031_S1",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LING3031",
+		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
+		"classes": [
+			{
+				"name": "LING3031_S1-LetA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "11\u201114,17\u201122",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "LING3031_S1-LetB/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "11\u201114,17\u201122",
+				"activity": "LetB",
+				"occurrence": "01",
+				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			}
+		]
+	},
 	"LING3038_S1": {
 		"title": "LING3038_S1\u00a0Corpus Linguistics",
 		"id": "LING3038_S1",
@@ -52433,6 +52599,40 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			}
+		]
+	},
+	"LING6031_S1": {
+		"title": "LING6031_S1\u00a0Papuan languages",
+		"id": "LING6031_S1",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LING6031",
+		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
+		"classes": [
+			{
+				"name": "LING6031_S1-LetA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "11\u201114,17\u201122",
+				"activity": "LetA",
+				"occurrence": "01",
+				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
+			},
+			{
+				"name": "LING6031_S1-LetB/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "11\u201114,17\u201122",
+				"activity": "LetB",
+				"occurrence": "01",
+				"location": "Hedley Bull Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			}
 		]
 	},
@@ -71427,15 +71627,15 @@
 			{
 				"name": "PASI3001_S1-LecA/01",
 				"day": 0,
-				"start": "13:00",
-				"finish": "15:00",
+				"start": "12:00",
+				"finish": "14:00",
 				"weeks": "9\u201114,17\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "BPB W121",
-				"locationID": "http://www.anu.edu.au/maps#show=11361",
-				"lat": "-35.280067",
-				"lon": "149.121758"
+				"location": "Marie Reay 5.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			},
 			{
 				"name": "PASI3001_S1-TutA/01",
@@ -73750,7 +73950,7 @@
 				"weeks": "13",
 				"activity": "PraA",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73761,7 +73961,7 @@
 				"weeks": "13",
 				"activity": "PraA",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73772,7 +73972,7 @@
 				"weeks": "13",
 				"activity": "PraB",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73783,7 +73983,7 @@
 				"weeks": "13",
 				"activity": "PraB",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73794,7 +73994,7 @@
 				"weeks": "14",
 				"activity": "PraC",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73805,7 +74005,7 @@
 				"weeks": "14",
 				"activity": "PraC",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73816,7 +74016,7 @@
 				"weeks": "19",
 				"activity": "PraD",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73827,7 +74027,7 @@
 				"weeks": "19",
 				"activity": "PraD",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73838,7 +74038,7 @@
 				"weeks": "20",
 				"activity": "PraE",
 				"occurrence": "01",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -73849,7 +74049,7 @@
 				"weeks": "20",
 				"activity": "PraE",
 				"occurrence": "02",
-				"location": " building 58A room 111 on campus",
+				"location": " Rm 111_Heavy Ion Accelerator Facility_Bldg 58A on campus",
 				"locationID": ""
 			},
 			{
@@ -80699,6 +80899,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "STAT3032_S1-ComA/08",
+				"day": 3,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "ComA",
+				"occurrence": "08",
+				"location": "COP G021",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "STAT3032_S1-LecA/01",
 				"day": 4,
 				"start": "12:00",
@@ -81663,6 +81876,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "STAT4072_S1-ComA/08",
+				"day": 3,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "ComA",
+				"occurrence": "08",
+				"location": "COP G021",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "STAT4072_S1-LecA/01",
 				"day": 4,
 				"start": "12:00",
@@ -82231,6 +82457,19 @@
 				"lon": "149.123419"
 			},
 			{
+				"name": "STAT6042_S1-ComA/08",
+				"day": 3,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "ComA",
+				"occurrence": "08",
+				"location": "COP G021",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
 				"name": "STAT6042_S1-LecA/01",
 				"day": 4,
 				"start": "12:00",
@@ -82265,12 +82504,12 @@
 				"lon": "149.122472"
 			},
 			{
-				"name": "STAT6046_S1LecMakA/01",
+				"name": "STAT6046_S1-LecMakA/01",
 				"day": 3,
 				"start": "13:00",
 				"finish": "16:00",
 				"weeks": "13",
-				"activity": "Err",
+				"activity": "LecMakA",
 				"occurrence": "01",
 				"location": "Kambri Cinema",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
