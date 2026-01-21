@@ -211,11 +211,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:3c1383e1038b68556a382c1e8ded8887cd20141b0eb5708a6c8d277de49364f5",
-                "sha256:90ab613b6583fc02d5369cbca13ea26ea0e182d1df2d943ee9cbe81d4c61add9"
+                "sha256:22e8a8ef763eb571d8e414e29b1b9fa9fd0ae3cdcb973ad51c12d8d3ee38ff5c",
+                "sha256:4f198f37d40550b86ebc2a678e2246ef76fbec316619a5ac61ecbb3cabf8e9bf"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==75.3.2"
+            "version": "==75.3.3"
         },
         "soupsieve": {
             "hashes": [
