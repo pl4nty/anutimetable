@@ -62,6 +62,40 @@
 			}
 		]
 	},
+	"ASIA9075_X2": {
+		"title": "ASIA9075_X2\u00a0Research Design and Writing in International, Political, and Strategic Studies",
+		"id": "ASIA9075_X2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/ASIA9075",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ASIA9075_X2-SemA/01",
+				"day": 4,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "15\u201124",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
+			},
+			{
+				"name": "ASIA9075_X2-SemB/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "16\u201117",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "COP G029",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			}
+		]
+	},
 	"ENVS3029_X2": {
 		"title": "ENVS3029_X2\u00a0Palaeo-Environmental Reconstruction",
 		"id": "ENVS3029_X2",
