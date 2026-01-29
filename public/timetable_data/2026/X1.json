@@ -2954,6 +2954,39 @@
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "LAWS8340_X1-SemA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "10",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8340_X1-SemB/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "5\u20119",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8340_X1-SemB/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "15:00",
+				"weeks": "10",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
 			}
 		]
 	},
