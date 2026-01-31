@@ -96,6 +96,7 @@ export const getStartOfSession = () => {
     '2023S1': new Date('2023-02-19T21:00:00Z'), // 8AM Mon 20 Feb in GMT
     '2024S1': new Date('2024-02-18T21:00:00Z'), // 8AM Mon 19 Feb in GMT
     '2025S1': new Date('2025-02-16T21:00:00Z'), // 8AM Mon 17 Feb 2025 in GMT
+    '2026S1': new Date('2026-02-22T21:00:00Z'), // 8AM Mon 23 Feb 2026 in GMT
   }?.[year + session]
 }
 
