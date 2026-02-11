@@ -32004,6 +32004,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
+			},
+			{
+				"name": "ENGL2015_S1-WorA/05",
+				"day": 3,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "WorA",
+				"occurrence": "05",
+				"location": "BPB W121",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
 			}
 		]
 	},
@@ -48769,10 +48782,10 @@
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "Law Library Seminar Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS1203_S1-TutA/04",
@@ -48782,10 +48795,10 @@
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "Law Library Seminar Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS1203_S1-TutA/05",
@@ -51670,10 +51683,10 @@
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "03",
-				"location": "Law Library Seminar Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS6103_S1-TutA/04",
@@ -51683,10 +51696,10 @@
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "Law Library Seminar Room",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS6103_S1-TutA/05",
@@ -77638,17 +77651,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=28945",
 				"lat": "-35.2785850000",
 				"lon": "149.1216620000"
-			},
-			{
-				"name": "POLS2114_S1-WorB/01",
-				"day": 2,
-				"start": "09:30",
-				"finish": "11:00",
-				"weeks": "14",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": " ",
-				"locationID": ""
 			}
 		]
 	},
@@ -78138,7 +78140,7 @@
 		]
 	},
 	"POLS3134_S1": {
-		"title": "POLS3134_S1\u00a0The Politics of Gender, Race and Identity",
+		"title": "POLS3134_S1\u00a0The Politics of Gender, Race and Indentity",
 		"id": "POLS3134_S1",
 		"link": "",
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
