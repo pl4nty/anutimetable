@@ -1093,7 +1093,7 @@
 				"weeks": "8",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 8",
+				"location": "Crawford Brindabella Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -1106,7 +1106,7 @@
 				"weeks": "8",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 7",
+				"location": "Crawford Brindabella Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -3906,7 +3906,7 @@
 				"weeks": "8",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 8",
+				"location": "Crawford Brindabella Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -3919,7 +3919,7 @@
 				"weeks": "8",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 7",
+				"location": "Crawford Brindabella Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -4082,10 +4082,10 @@
 				"weeks": "8",
 				"activity": "LecF",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecG/01",
@@ -4095,10 +4095,10 @@
 				"weeks": "8",
 				"activity": "LecG",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecH/01",
@@ -4108,10 +4108,10 @@
 				"weeks": "8",
 				"activity": "LecH",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecI/01",
@@ -4121,10 +4121,10 @@
 				"weeks": "8",
 				"activity": "LecI",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecJ/01",
@@ -4134,10 +4134,10 @@
 				"weeks": "8",
 				"activity": "LecJ",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecK/01",
@@ -4147,10 +4147,10 @@
 				"weeks": "8",
 				"activity": "LecK",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecL/01",
@@ -4160,10 +4160,10 @@
 				"weeks": "8",
 				"activity": "LecL",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecM/01",
@@ -4173,10 +4173,10 @@
 				"weeks": "8",
 				"activity": "LecM",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecN/01",
@@ -4186,10 +4186,10 @@
 				"weeks": "8",
 				"activity": "LecN",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecO/01",
@@ -4199,10 +4199,10 @@
 				"weeks": "8",
 				"activity": "LecO",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecP/01",
@@ -4212,10 +4212,10 @@
 				"weeks": "8",
 				"activity": "LecP",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecQ/01",
@@ -4225,10 +4225,10 @@
 				"weeks": "8",
 				"activity": "LecQ",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecR/01",
@@ -4238,10 +4238,10 @@
 				"weeks": "8",
 				"activity": "LecR",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecS/01",
@@ -4251,10 +4251,10 @@
 				"weeks": "8",
 				"activity": "LecS",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "POPH8914_X1-LecT/01",
@@ -4264,10 +4264,10 @@
 				"weeks": "8",
 				"activity": "LecT",
 				"occurrence": "01",
-				"location": "Law 6.1.20",
-				"locationID": "http://campusmap.anu.edu.au#show=106553",
-				"lat": "-35.280305",
-				"lon": "149.118658"
+				"location": "Law Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			}
 		]
 	},
