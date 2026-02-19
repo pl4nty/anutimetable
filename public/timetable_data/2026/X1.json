@@ -1119,7 +1119,7 @@
 				"weeks": "9",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 8",
+				"location": "Crawford Miller Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -3614,6 +3614,17 @@
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
+				"name": "LAWS8586_X1-AsmA/01",
+				"day": 3,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "10",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
 				"name": "LAWS8586_X1-SemA/01",
 				"day": 0,
 				"start": "15:00",
@@ -3932,7 +3943,7 @@
 				"weeks": "9",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 8",
+				"location": "Crawford Miller Theatre",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
