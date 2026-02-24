@@ -843,9 +843,9 @@
 		]
 	},
 	"REGN8024_X2": {
-		"title": "REGN8024_X2\u00a0Regulating Nuclear Capabilities_Online",
+		"title": "REGN8024_X2\u00a0Regulating Nuclear Capabilities_Online_Online",
 		"id": "REGN8024_X2",
-		"link": "https://programsandcourses.anu.edu.au/2026/course/REGN8024",
+		"link": "",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
@@ -868,32 +868,6 @@
 				"finish": "16:00",
 				"weeks": "17\u201120,22",
 				"activity": "WorA",
-				"occurrence": "02",
-				"location": "COOMBS Extension 2.10",
-				"locationID": "http://www.anu.edu.au/maps#show=11280",
-				"lat": "-35.282541",
-				"lon": "149.119238"
-			},
-			{
-				"name": "REGN8024_X2-WorB/01",
-				"day": 2,
-				"start": "09:00",
-				"finish": "12:00",
-				"weeks": "17\u201120,22",
-				"activity": "WorB",
-				"occurrence": "01",
-				"location": "COOMBS Extension 2.10",
-				"locationID": "http://www.anu.edu.au/maps#show=11280",
-				"lat": "-35.282541",
-				"lon": "149.119238"
-			},
-			{
-				"name": "REGN8024_X2-WorB/02",
-				"day": 2,
-				"start": "13:00",
-				"finish": "16:00",
-				"weeks": "17\u201120,22",
-				"activity": "WorB",
 				"occurrence": "02",
 				"location": "COOMBS Extension 2.10",
 				"locationID": "http://www.anu.edu.au/maps#show=11280",
