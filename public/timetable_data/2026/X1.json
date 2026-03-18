@@ -2723,6 +2723,19 @@
 				"lon": "149.121713"
 			},
 			{
+				"name": "LAWS8253_X1-AsmA/02",
+				"day": 4,
+				"start": "16:00",
+				"finish": "18:30",
+				"weeks": "12",
+				"activity": "AsmA",
+				"occurrence": "02",
+				"location": "Law Library Seminar Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
 				"name": "LAWS8253_X1-WorA/01",
 				"day": 3,
 				"start": "09:00",
@@ -3835,7 +3848,18 @@
 				"day": 4,
 				"start": "09:30",
 				"finish": "14:30",
-				"weeks": "8,10\u201112",
+				"weeks": "8,10\u201111",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8136_X1-SemA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "16:00",
+				"weeks": "12",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": " ",
