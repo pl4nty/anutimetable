@@ -1,0 +1,221 @@
+{
+	"BUSN1001_X4": {
+		"title": "BUSN1001_X4\u00a0Business Reporting and Analysis",
+		"id": "BUSN1001_X4",
+		"link": "",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "BUSN1001_X4-LecA/01",
+				"day": 3,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "39\u201149",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN1001_X4-LecB/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "39\u201149",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN1001_X4-LecC/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "39\u201149",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN1001_X4-LecD/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "39\u201149",
+				"activity": "LecD",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN1001_X4-TutA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "39\u201149",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "BUSN1001_X4-TutB/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "39\u201149",
+				"activity": "TutB",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			}
+		]
+	},
+	"ECON1101_X4": {
+		"title": "ECON1101_X4\u00a0Microeconomics 1",
+		"id": "ECON1101_X4",
+		"link": "",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "ECON1101_X4-LecA/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "36\u201152",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "ECON1101_X4-LecB/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "36\u201152",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "ECON1101_X4-LecC/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "36\u201152",
+				"activity": "LecC",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "ECON1101_X4-TutA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "36\u201152",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "ECON1101_X4-TutB/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "36\u201152",
+				"activity": "TutB",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			}
+		]
+	},
+	"STAT1008_X4": {
+		"title": "STAT1008_X4\u00a0Quantitative Research Methods",
+		"id": "STAT1008_X4",
+		"link": "",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "STAT1008_X4-LecA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "39\u201149",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT1008_X4-LecB/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "39\u201149",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT1008_X4-TutA/01",
+				"day": 0,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "39\u201149",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT1008_X4-TutB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "39\u201149",
+				"activity": "TutB",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			}
+		]
+	}
+}
