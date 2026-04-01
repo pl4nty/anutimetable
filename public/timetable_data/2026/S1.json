@@ -10472,6 +10472,19 @@
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
+				"name": "BUSI7280_S1-AsmA/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "16:30",
+				"weeks": "21",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Innovations Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11370",
+				"lat": "-35.28236",
+				"lon": "149.11573"
+			},
+			{
 				"name": "BUSI7280_S1-SemA/01",
 				"day": 2,
 				"start": "12:00",
@@ -36004,16 +36017,16 @@
 			},
 			{
 				"name": "ENGN3338_S1-ComA/02",
-				"day": 2,
-				"start": "13:00",
-				"finish": "16:00",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:00",
 				"weeks": "14",
 				"activity": "ComA",
 				"occurrence": "02",
-				"location": "RSISE A105",
-				"locationID": "http://www.anu.edu.au/maps#show=31139",
-				"lat": "-35.274465",
-				"lon": "149.120538"
+				"location": "ENGN 101",
+				"locationID": "http://www.anu.edu.au/maps#show=11304",
+				"lat": "-35.276172",
+				"lon": "149.11994"
 			},
 			{
 				"name": "ENGN3338_S1-ComB/01",
@@ -49339,6 +49352,19 @@
 			},
 			{
 				"name": "INTR1021_S1-TutA/06",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "06",
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "INTR1021_S1-TutA/06",
 				"day": 4,
 				"start": "10:00",
 				"finish": "11:00",
@@ -49349,6 +49375,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "INTR1021_S1-TutA/07",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "07",
+				"location": "BPB W120",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
 			},
 			{
 				"name": "INTR1021_S1-TutA/07",
@@ -74164,6 +74203,32 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/MGMT7170",
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
 		"classes": [
+			{
+				"name": "MGMT7170_S1-AsmA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "18:00",
+				"weeks": "19",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "BPB W121",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "MGMT7170_S1-AsmB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "19",
+				"activity": "AsmB",
+				"occurrence": "01",
+				"location": "Marie Reay 2.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
 			{
 				"name": "MGMT7170_S1-SemA/01",
 				"day": 1,
