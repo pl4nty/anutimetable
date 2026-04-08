@@ -10498,19 +10498,6 @@
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
-				"name": "BUSI7280_S1-AsmA/01",
-				"day": 2,
-				"start": "12:00",
-				"finish": "16:30",
-				"weeks": "21",
-				"activity": "AsmA",
-				"occurrence": "01",
-				"location": "Innovations Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11370",
-				"lat": "-35.28236",
-				"lon": "149.11573"
-			},
-			{
 				"name": "BUSI7280_S1-SemA/01",
 				"day": 2,
 				"start": "12:00",
@@ -50599,6 +50586,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "JPNS3201_S1-SemB/01",
+				"day": 4,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "21",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			},
 			{
 				"name": "JPNS3201_S1-TutA/01",
