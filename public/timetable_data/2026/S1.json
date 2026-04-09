@@ -2591,17 +2591,17 @@
 				"weeks": "17,19\u201122",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Fulton Muir 2.04",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "ADH 123a",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "ARCH8066_S1-TutA/01",
 				"day": 4,
 				"start": "15:00",
 				"finish": "16:30",
-				"weeks": "9\u201113,17",
+				"weeks": "9\u201113",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "BPB W121",
@@ -2614,13 +2614,13 @@
 				"day": 4,
 				"start": "15:00",
 				"finish": "16:30",
-				"weeks": "18\u201122",
+				"weeks": "17\u201122",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "Fulton Muir 2.04",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "ADH 123a",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			}
 		]
 	},
@@ -16896,6 +16896,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11281",
 				"lat": "-35.281813",
 				"lon": "149.120055"
+			},
+			{
+				"name": "CHST3211_S1-TutA/03",
+				"day": 0,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "9\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "Peter Karmel 2.28 (Lab 1)",
+				"locationID": "http://www.anu.edu.au/maps#show=11368",
+				"lat": "-35.280194",
+				"lon": "149.123822"
 			},
 			{
 				"name": "CHST3211_S1-TutA/04",
@@ -48013,6 +48026,19 @@
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "IDEC8003_S1-TutA/01",
+				"day": 2,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "10\u201114,17\u201122",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 6",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "IDEC8003_S1-TutA/02",
@@ -80428,6 +80454,17 @@
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "POGO8021_S1-TutA/01",
+				"day": 4,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "10,12,14,18,20,22",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
 			}
 		]
 	},
@@ -80558,6 +80595,19 @@
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Crawford Molonglo Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8500_S1-TutA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "13",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
