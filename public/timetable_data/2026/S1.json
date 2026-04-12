@@ -85905,6 +85905,19 @@
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
+				"name": "STAT1003_S1-AsmA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "17",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "CRISP G016",
+				"locationID": "https://www.anu.edu.au/maps#search=Crisp&show=29449",
+				"lat": "-35.277419",
+				"lon": "149.123165"
+			},
+			{
 				"name": "STAT1003_S1-ComA/01",
 				"day": 1,
 				"start": "16:00",
