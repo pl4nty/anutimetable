@@ -87445,7 +87445,7 @@
 				"day": 0,
 				"start": "15:00",
 				"finish": "16:00",
-				"weeks": "10,12\u201114,17,19\u201122",
+				"weeks": "10,12\u201114,19\u201122",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "HA G050",
@@ -87465,6 +87465,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=28971",
 				"lat": "-35.277985",
 				"lon": "149.123419"
+			},
+			{
+				"name": "STAT2032_S1-TutA/03",
+				"day": 3,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "HA G052",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "STAT2032_S1-TutA/04",
@@ -90208,7 +90221,7 @@
 				"day": 0,
 				"start": "15:00",
 				"finish": "16:00",
-				"weeks": "10,12\u201114,17,19\u201122",
+				"weeks": "10,12\u201114,19\u201122",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "HA G050",
@@ -90228,6 +90241,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=28971",
 				"lat": "-35.277985",
 				"lon": "149.123419"
+			},
+			{
+				"name": "STAT6046_S1-TutA/03",
+				"day": 3,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "17",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "HA G052",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "STAT6046_S1-TutA/04",
