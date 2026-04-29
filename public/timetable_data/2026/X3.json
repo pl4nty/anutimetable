@@ -1,6 +1,6 @@
 {
 	"POGO8239_X3": {
-		"title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_Online_Online",
+		"title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_In Person_On Campus",
 		"id": "POGO8239_X3",
 		"link": "https://programsandcourses.anu.edu.au/2026/course/POGO8239",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
@@ -13,8 +13,10 @@
 				"weeks": "26",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": " ",
-				"locationID": ""
+				"location": "Crawford Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "POGO8239_X3-SemB/01",
@@ -24,8 +26,10 @@
 				"weeks": "27",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": " ",
-				"locationID": ""
+				"location": "Crawford Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			},
 			{
 				"name": "POGO8239_X3-SemC/01",
@@ -35,8 +39,10 @@
 				"weeks": "30",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": " ",
-				"locationID": ""
+				"location": "Crawford Seminar Room 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
 			}
 		]
 	}
