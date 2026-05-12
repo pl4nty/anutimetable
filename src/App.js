@@ -216,7 +216,7 @@ let App = () => {
               (and a <a target="_blank" rel="noreferrer" href="/contributors.html">lot of people</a>), report issues&nbsp;
               <a target="_blank" rel="noreferrer" href="https://github.com/pl4nty/anutimetable/issues/new">here</a>.
               {/* <a target="_blank" rel="noreferrer" href="https://forms.office.com/r/sZnsxtsh2F">here</a>. */}
-              Course data updated at 1:06 am, 11 May 2026 (UTC). {/* Automatically updated by CI */}
+              Course data updated at 1:00 am, 12 May 2026 (UTC). {/* Automatically updated by CI */}
             </Navbar.Text>
           </Navbar>
         </Col>
