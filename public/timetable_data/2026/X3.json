@@ -1,6 +1,133 @@
 {
+	"IDEC7904_X3": {
+		"title": "IDEC7904_X3\u00a0Graduate Preparatory Econometrics_Online_Online",
+		"id": "IDEC7904_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/IDEC7904",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "IDEC7904_X3-SemA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "26",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Crawford Acton Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "IDEC7904_X3-SemB/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "15:00",
+				"weeks": "26",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
+	"POGO8076_X3": {
+		"title": "POGO8076_X3\u00a0Corruption and Anti-corruption_Online_Online",
+		"id": "POGO8076_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/POGO8076",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8076_X3-SemA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "31",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Crawford Griffin Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8076_X3-SemB/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "33",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8076_X3-SemC/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "37",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8076_X3-SemE/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "37\u201138",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "Crawford Griffin Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8076_X3-SemF/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "38",
+				"activity": "SemF",
+				"occurrence": "01",
+				"location": "Crawford Griffin Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8076_X3-SemG/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "38",
+				"activity": "SemG",
+				"occurrence": "01",
+				"location": "Crawford Griffin Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8076_X3-SemD/01",
+				"day": 3,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "37",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Crawford Weston Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			}
+		]
+	},
 	"POGO8239_X3": {
-		"title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_In Person_On Campus",
+		"title": "POGO8239_X3\u00a0Contemporary Challenges in Indigenous Policy_Online_Online",
 		"id": "POGO8239_X3",
 		"link": "https://programsandcourses.anu.edu.au/2026/course/POGO8239",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
@@ -13,10 +140,8 @@
 				"weeks": "26",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " ",
+				"locationID": ""
 			},
 			{
 				"name": "POGO8239_X3-SemB/01",
@@ -26,10 +151,8 @@
 				"weeks": "27",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " ",
+				"locationID": ""
 			},
 			{
 				"name": "POGO8239_X3-SemC/01",
@@ -39,10 +162,202 @@
 				"weeks": "30",
 				"activity": "SemC",
 				"occurrence": "01",
-				"location": "Crawford Seminar Room 3",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
+	"POGO8403_X3": {
+		"title": "POGO8403_X3\u00a0Cases in Contemporary Public Policy_Online_Online",
+		"id": "POGO8403_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/POGO8403",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "POGO8403_X3-BreA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreA",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 9",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreA/02",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreA",
+				"occurrence": "02",
+				"location": "Crawford Seminar Room 7",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreA/03",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreA",
+				"occurrence": "03",
+				"location": "Crawford Lennox Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreA/04",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreA",
+				"occurrence": "04",
+				"location": "Crawford Seminar Room 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreB",
+				"occurrence": "01",
+				"location": "Crawford Seminar Room 7",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/02",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreB",
+				"occurrence": "02",
+				"location": "Crawford Lennox Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/03",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreB",
+				"occurrence": "03",
+				"location": "Crawford Seminar Room 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/04",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreB",
+				"occurrence": "04",
+				"location": "Crawford Seminar Room 9",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-WorA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Crawford Acton Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-WorB/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "Crawford Acton Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/03",
+				"day": 0,
+				"start": "09:00",
+				"finish": "16:30",
+				"weeks": "23\u201143",
+				"activity": "BreB",
+				"occurrence": "03",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "POGO8403_X3-BreB/04",
+				"day": 0,
+				"start": "09:00",
+				"finish": "16:30",
+				"weeks": "23\u201143",
+				"activity": "BreB",
+				"occurrence": "04",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
+	"REGN8001_X3": {
+		"title": "REGN8001_X3\u00a0Methods in Interdisciplinary Research_Online",
+		"id": "REGN8001_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/REGN8001",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "REGN8001_X3-WorA/01",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:30",
+				"weeks": "32\u201137",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
+			},
+			{
+				"name": "REGN8001_X3-WorB/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:30",
+				"weeks": "32\u201137",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "COOMBS Extension 2.10",
+				"locationID": "http://www.anu.edu.au/maps#show=11280",
+				"lat": "-35.282541",
+				"lon": "149.119238"
 			}
 		]
 	}
