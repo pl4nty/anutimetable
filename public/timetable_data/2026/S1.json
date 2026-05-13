@@ -21083,10 +21083,23 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "13:00",
-				"weeks": "10\u201114,17\u201122",
+				"weeks": "10\u201114,17\u201121",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "CSIT N115/N116",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
+			},
+			{
+				"name": "COMP4130_S1-TutA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "22",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "CSIT N114",
 				"locationID": "http://www.anu.edu.au/maps#show=11360",
 				"lat": "-35.275345",
 				"lon": "149.120583"
@@ -53849,12 +53862,25 @@
 				"name": "LAWS4268_S1-SemD/01",
 				"day": 0,
 				"start": "09:30",
-				"finish": "16:30",
+				"finish": "15:30",
 				"weeks": "21",
 				"activity": "SemD",
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "LAWS4268_S1-SemD/01",
+				"day": 0,
+				"start": "15:30",
+				"finish": "16:30",
+				"weeks": "21",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Law 6.1.19",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -53947,12 +53973,25 @@
 				"name": "LAWS4278_S1-SemD/01",
 				"day": 0,
 				"start": "09:30",
-				"finish": "16:30",
+				"finish": "15:30",
 				"weeks": "21",
 				"activity": "SemD",
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "LAWS4278_S1-SemD/01",
+				"day": 0,
+				"start": "15:30",
+				"finish": "16:30",
+				"weeks": "21",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Law 6.1.19",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -56389,12 +56428,25 @@
 				"name": "LAWS6268_S1-SemD/01",
 				"day": 0,
 				"start": "09:30",
-				"finish": "16:30",
+				"finish": "15:30",
 				"weeks": "21",
 				"activity": "SemD",
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "LAWS6268_S1-SemD/01",
+				"day": 0,
+				"start": "15:30",
+				"finish": "16:30",
+				"weeks": "21",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Law 6.1.19",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
@@ -56487,12 +56539,25 @@
 				"name": "LAWS6278_S1-SemD/01",
 				"day": 0,
 				"start": "09:30",
-				"finish": "16:30",
+				"finish": "15:30",
 				"weeks": "21",
 				"activity": "SemD",
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
+			},
+			{
+				"name": "LAWS6278_S1-SemD/01",
+				"day": 0,
+				"start": "15:30",
+				"finish": "16:30",
+				"weeks": "21",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "Law 6.1.19",
+				"locationID": "http://campusmap.anu.edu.au#show=106553",
+				"lat": "-35.280305",
+				"lon": "149.118658"
 			}
 		]
 	},
