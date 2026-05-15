@@ -37820,13 +37820,26 @@
 				"day": 3,
 				"start": "10:00",
 				"finish": "12:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201114,17\u201121",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "SRES T",
 				"locationID": "http://www.anu.edu.au/maps#show=11437",
 				"lat": "-35.277561",
 				"lon": "149.115905"
+			},
+			{
+				"name": "ENGN4901_S1-LecA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "22",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Birch 1.43 Interactive Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=28991",
+				"lat": "-35.274397",
+				"lon": "149.119323"
 			}
 		]
 	},
