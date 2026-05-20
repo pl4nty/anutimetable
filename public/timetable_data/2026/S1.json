@@ -6413,6 +6413,19 @@
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
 		"classes": [
 			{
+				"name": "BIOL1008_S1-BreA/01",
+				"day": 2,
+				"start": "14:30",
+				"finish": "16:30",
+				"weeks": "21",
+				"activity": "BreA",
+				"occurrence": "01",
+				"location": "Gould Seminar Room 246",
+				"locationID": "http://www.anu.edu.au/maps#show=11364",
+				"lat": "-35.276464",
+				"lon": "149.115926"
+			},
+			{
 				"name": "BIOL1008_S1-ComA/01",
 				"day": 1,
 				"start": "14:00",
@@ -35539,10 +35552,10 @@
 				"weeks": "22",
 				"activity": "ComB",
 				"occurrence": "02",
-				"location": "CSIT N112",
-				"locationID": "http://www.anu.edu.au/maps#show=11360",
-				"lat": "-35.275345",
-				"lon": "149.120583"
+				"location": "ENGN G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11304",
+				"lat": "-35.276172",
+				"lon": "149.11994"
 			},
 			{
 				"name": "ENGN3338_S1-ConA/01",
@@ -49182,7 +49195,7 @@
 				"weeks": "21",
 				"activity": "SemB",
 				"occurrence": "01",
-				"location": "Hedley Bull Seminar Room 3",
+				"location": "Hedley Bull Theatre 1",
 				"locationID": "http://www.anu.edu.au/maps#show=11379",
 				"lat": "-35.282857",
 				"lon": "149.119686"
@@ -81150,7 +81163,7 @@
 		]
 	},
 	"POLS3134_S1": {
-		"title": "POLS3134_S1\u00a0The Politics of Gender, Race and Indentity",
+		"title": "POLS3134_S1\u00a0The Politics of Gender, Race and Identity",
 		"id": "POLS3134_S1",
 		"link": "",
 		"dates": "Displaying Dates: 9 Feb 26 - 14 Jun 26 (calendar week(s) 7\u201124)",
