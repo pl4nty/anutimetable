@@ -49539,6 +49539,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "ITAL2101_S1-TutC/01",
+				"day": 2,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "21",
+				"activity": "TutC",
+				"occurrence": "01",
+				"location": "ADH G30",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			}
 		]
 	},
