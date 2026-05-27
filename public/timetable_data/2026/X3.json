@@ -31,6 +31,437 @@
 			}
 		]
 	},
+	"LAWS8182_X3": {
+		"title": "LAWS8182_X3\u00a0Principles of International Law_In Person",
+		"id": "LAWS8182_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8182",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8182_X3-AsmA/01",
+				"day": 3,
+				"start": "10:00",
+				"finish": "12:30",
+				"weeks": "36",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "32\u201134",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8182_X3-SemA/02",
+				"day": 0,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "32\u201134",
+				"activity": "SemA",
+				"occurrence": "02",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemA/03",
+				"day": 0,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "32\u201134",
+				"activity": "SemA",
+				"occurrence": "03",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemA/04",
+				"day": 0,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "32\u201134",
+				"activity": "SemA",
+				"occurrence": "04",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "32\u201133",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemB/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "34",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemB/02",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "32\u201133",
+				"activity": "SemB",
+				"occurrence": "02",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8182_X3-SemB/02",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "34",
+				"activity": "SemB",
+				"occurrence": "02",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8182_X3-SemB/03",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "32\u201133",
+				"activity": "SemB",
+				"occurrence": "03",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemB/03",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "34",
+				"activity": "SemB",
+				"occurrence": "03",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemB/04",
+				"day": 2,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "32\u201133",
+				"activity": "SemB",
+				"occurrence": "04",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemB/04",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "34",
+				"activity": "SemB",
+				"occurrence": "04",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemC/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "32\u201133",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemC/01",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "34",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemC/02",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "32\u201133",
+				"activity": "SemC",
+				"occurrence": "02",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemC/02",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "34",
+				"activity": "SemC",
+				"occurrence": "02",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemC/03",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "32\u201133",
+				"activity": "SemC",
+				"occurrence": "03",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8182_X3-SemC/03",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "34",
+				"activity": "SemC",
+				"occurrence": "03",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8182_X3-SemC/04",
+				"day": 3,
+				"start": "14:00",
+				"finish": "17:00",
+				"weeks": "32\u201133",
+				"activity": "SemC",
+				"occurrence": "04",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8182_X3-SemC/04",
+				"day": 3,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "34",
+				"activity": "SemC",
+				"occurrence": "04",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
+	"LAWS8338_X3": {
+		"title": "LAWS8338_X3\u00a0Cryptoassets and the Law_Online",
+		"id": "LAWS8338_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8338",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8338_X3-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "35",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8338_X3-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "36\u201140",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8338_X3-SemB/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "35",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8338_X3-SemB/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "36\u201140",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
+	"LAWS8407_X3": {
+		"title": "LAWS8407_X3\u00a0Digital Economies and the Law_Online",
+		"id": "LAWS8407_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8407",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8407_X3-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "27",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8407_X3-SemA/01",
+				"day": 2,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "28\u201132",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8407_X3-SemB/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "20:00",
+				"weeks": "27",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8407_X3-SemB/01",
+				"day": 3,
+				"start": "17:00",
+				"finish": "19:00",
+				"weeks": "28\u201132",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
+	"LAWS8586_X3": {
+		"title": "LAWS8586_X3\u00a0Law and Legal Institutions_In Person",
+		"id": "LAWS8586_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8586",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8586_X3-SemA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "13:30",
+				"weeks": "28\u201130",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8586_X3-SemA/02",
+				"day": 0,
+				"start": "09:00",
+				"finish": "13:30",
+				"weeks": "28\u201130",
+				"activity": "SemA",
+				"occurrence": "02",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8586_X3-SemA/03",
+				"day": 0,
+				"start": "09:00",
+				"finish": "13:30",
+				"weeks": "28\u201130",
+				"activity": "SemA",
+				"occurrence": "03",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8586_X3-SemB/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "13:30",
+				"weeks": "28\u201130",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "LAWS8586_X3-SemB/02",
+				"day": 4,
+				"start": "09:00",
+				"finish": "13:30",
+				"weeks": "28\u201130",
+				"activity": "SemB",
+				"occurrence": "02",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
+			},
+			{
+				"name": "LAWS8586_X3-SemB/03",
+				"day": 4,
+				"start": "09:00",
+				"finish": "13:30",
+				"weeks": "28\u201130",
+				"activity": "SemB",
+				"occurrence": "03",
+				"location": " ",
+				"locationID": ""
+			}
+		]
+	},
 	"POGO8076_X3": {
 		"title": "POGO8076_X3\u00a0Corruption and Anti-corruption_Online_Online",
 		"id": "POGO8076_X3",
