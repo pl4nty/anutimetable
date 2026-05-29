@@ -1,1 +1,36 @@
-{}
+{
+	"MUSI2234_S2": {
+		"title": "MUSI2234_S2\u00a0Music, History, and Culture_Narratives in Western Art Musi",
+		"id": "MUSI2234_S2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/MUSI2234",
+		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "MUSI2234_S2-LecA/01",
+				"day": 0,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "School of Music LT3",
+				"locationID": "https://www.anu.edu.au/maps#show=29089",
+				"lat": "-35.280391",
+				"lon": "149.123592"
+			},
+			{
+				"name": "MUSI2234_S2-TutA/01",
+				"day": 0,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "School of Music LT3",
+				"locationID": "https://www.anu.edu.au/maps#show=29089",
+				"lat": "-35.280391",
+				"lon": "149.123592"
+			}
+		]
+	}
+}
