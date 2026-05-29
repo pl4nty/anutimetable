@@ -10515,13 +10515,26 @@
 				"day": 2,
 				"start": "12:00",
 				"finish": "15:00",
-				"weeks": "9\u201114,17\u201122",
+				"weeks": "9\u201114,17\u201121",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "Fulton Muir 2.02",
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
+			},
+			{
+				"name": "BUSI7280_S1-SemA/01",
+				"day": 4,
+				"start": "16:00",
+				"finish": "19:00",
+				"weeks": "22",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "COP G031",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
 			}
 		]
 	},
@@ -36564,7 +36577,7 @@
 				"weeks": "9\u201114,17\u201122",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "Birch 1.35 Teaching Lab",
+				"location": "Birch 1.36 Teaching Lab",
 				"locationID": "http://www.anu.edu.au/maps#show=28991",
 				"lat": "-35.274397",
 				"lon": "149.119323"
