@@ -2351,7 +2351,20 @@
 				"day": 0,
 				"start": "09:00",
 				"finish": "16:00",
-				"weeks": "27\u201128",
+				"weeks": "27",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4312_X3-SemA/01",
+				"day": 0,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "28",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "LAW LINK T",
@@ -2361,7 +2374,7 @@
 			},
 			{
 				"name": "LAWS4312_X3-SemB/01",
-				"day": 4,
+				"day": 1,
 				"start": "09:00",
 				"finish": "16:00",
 				"weeks": "27",
@@ -2373,10 +2386,36 @@
 				"lon": "149.118997"
 			},
 			{
+				"name": "LAWS4312_X3-SemB/01",
+				"day": 1,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "28",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
 				"name": "LAWS4312_X3-SemC/01",
-				"day": 3,
+				"day": 2,
 				"start": "09:00",
 				"finish": "16:00",
+				"weeks": "27",
+				"activity": "SemC",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4312_X3-SemC/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "11:00",
 				"weeks": "28",
 				"activity": "SemC",
 				"occurrence": "01",
@@ -2384,6 +2423,58 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11277",
 				"lat": "-35.281073",
 				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4312_X3-SemD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "27",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4312_X3-SemD/01",
+				"day": 3,
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "28",
+				"activity": "SemD",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4312_X3-SemE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "16:00",
+				"weeks": "27",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "LAWS4312_X3-SemE/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "28",
+				"activity": "SemE",
+				"occurrence": "01",
+				"location": "Hedley Bull Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			}
 		]
 	},
@@ -2812,6 +2903,40 @@
 				"occurrence": "04",
 				"location": " ",
 				"locationID": ""
+			}
+		]
+	},
+	"LAWS8243_X3": {
+		"title": "LAWS8243_X3\u00a0Freedom of Information and Privacy_Online",
+		"id": "LAWS8243_X3",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/LAWS8243",
+		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
+		"classes": [
+			{
+				"name": "LAWS8243_X3-SemA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "31\u201136",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Marie Reay 4.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "LAWS8243_X3-SemB/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "31\u201136",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Marie Reay 5.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
 			}
 		]
 	},
@@ -3703,12 +3828,12 @@
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
-				"name": "POGO8240_X3-WorB/01",
+				"name": "POGO8240_X3-WorA/01",
 				"day": 3,
 				"start": "14:00",
 				"finish": "16:30",
 				"weeks": "24\u201125,27",
-				"activity": "WorB",
+				"activity": "WorA",
 				"occurrence": "01",
 				"location": " ",
 				"locationID": ""
