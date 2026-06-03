@@ -1,4 +1,103 @@
 {
+	"KORE2522_S2": {
+		"title": "KORE2522_S2\u00a0Korean 4",
+		"id": "KORE2522_S2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/KORE2522",
+		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "KORE2522_S2-AsmA/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "14:30",
+				"weeks": "36",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "BPB W118",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "KORE2522_S2-AsmB/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:30",
+				"weeks": "44",
+				"activity": "AsmB",
+				"occurrence": "01",
+				"location": "BPB W118",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "KORE2522_S2-LecA/01",
+				"day": 0,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "LAW T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
+			},
+			{
+				"name": "KORE2522_S2-LecB/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "LecB",
+				"occurrence": "01",
+				"location": "Kambri T2",
+				"locationID": "http://www.anu.edu.au/maps#show=108132",
+				"lat": "-35.276928",
+				"lon": "149.121926"
+			},
+			{
+				"name": "KORE2522_S2-TutA/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "31\u201135,39\u201144",
+				"activity": "TutA",
+				"occurrence": "01",
+				"location": "BPB W118",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "KORE2522_S2-TutB/01",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "TutB",
+				"occurrence": "01",
+				"location": "BPB W118",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "KORE2522_S2-TutC/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "31\u201136,39\u201143",
+				"activity": "TutC",
+				"occurrence": "01",
+				"location": "BPB W118",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			}
+		]
+	},
 	"LING2003_S2": {
 		"title": "LING2003_S2\u00a0Grammar of the World's Languages",
 		"id": "LING2003_S2",
