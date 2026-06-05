@@ -709,20 +709,20 @@
 		"classes": [
 			{
 				"name": "INDG3008_X4-LecA/01",
-				"day": 3,
+				"day": 2,
 				"start": "09:00",
 				"finish": "17:00",
 				"weeks": "46",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "RSSS Lectorial 1 Rm 1.21",
-				"locationID": "http://www.anu.edu.au/maps#show=123279",
-				"lat": "-35.2791261",
-				"lon": "149.1212115"
+				"location": "FSTY 103",
+				"locationID": "http://www.anu.edu.au/maps#show=11318",
+				"lat": "-35.277907",
+				"lon": "149.116057"
 			},
 			{
 				"name": "INDG3008_X4-LecB/01",
-				"day": 4,
+				"day": 3,
 				"start": "09:00",
 				"finish": "17:00",
 				"weeks": "46",
