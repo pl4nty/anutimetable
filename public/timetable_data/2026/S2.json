@@ -1,4 +1,46 @@
 {
+	"ASIA2006_S2": {
+		"title": "ASIA2006_S2\u00a0Gender in Korean History",
+		"id": "ASIA2006_S2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/ASIA2006",
+		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ASIA2006_S2-SemA/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room F 3.304",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			}
+		]
+	},
+	"GEND2002_S2": {
+		"title": "GEND2002_S2\u00a0Gender in Korean History",
+		"id": "GEND2002_S2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/GEND2002",
+		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "GEND2002_S2-SemA/01",
+				"day": 2,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "Coombs Seminar Room F 3.304",
+				"locationID": "http://www.anu.edu.au/maps#show=11281",
+				"lat": "-35.281813",
+				"lon": "149.120055"
+			}
+		]
+	},
 	"KORE2522_S2": {
 		"title": "KORE2522_S2\u00a0Korean 4",
 		"id": "KORE2522_S2",
