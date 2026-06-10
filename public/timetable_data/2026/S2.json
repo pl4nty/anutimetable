@@ -1,4 +1,46 @@
 {
+	"ANTH2026_S2": {
+		"title": "ANTH2026_S2\u00a0Medicine, Healing and the Body_In Person",
+		"id": "ANTH2026_S2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/ANTH2026",
+		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANTH2026_S2-WorA/01",
+				"day": 3,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "ADH 123a",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			}
+		]
+	},
+	"ANTH6026_S2": {
+		"title": "ANTH6026_S2\u00a0Medicine, Healing and the Body_In Person",
+		"id": "ANTH6026_S2",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/ANTH6026",
+		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
+		"classes": [
+			{
+				"name": "ANTH6026_S2-WorA/01",
+				"day": 3,
+				"start": "10:00",
+				"finish": "13:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "ADH 123a",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			}
+		]
+	},
 	"ASIA2006_S2": {
 		"title": "ASIA2006_S2\u00a0Gender in Korean History",
 		"id": "ASIA2006_S2",
