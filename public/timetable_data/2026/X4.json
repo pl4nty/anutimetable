@@ -89,10 +89,8 @@
 				"weeks": "37",
 				"activity": "TutA",
 				"occurrence": "01",
-				"location": "SOA&D Room G04.05",
-				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
-				"lat": "-35.280713",
-				"lon": "149.122377"
+				"location": "SOA&D Sculpture Drawing Room G.68",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			},
 			{
 				"name": "ARTV2921_X4-TutB/01",
@@ -102,10 +100,8 @@
 				"weeks": "37",
 				"activity": "TutB",
 				"occurrence": "01",
-				"location": "SOA&D Room G04.05",
-				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
-				"lat": "-35.280713",
-				"lon": "149.122377"
+				"location": "SOA&D Sculpture Drawing Room G.68",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			},
 			{
 				"name": "ARTV2921_X4-TutC/01",
@@ -115,10 +111,8 @@
 				"weeks": "37",
 				"activity": "TutC",
 				"occurrence": "01",
-				"location": "SOA&D Room G04.05",
-				"locationID": "http://www.anu.edu.au/maps#search=school+of+art&show=11359",
-				"lat": "-35.280713",
-				"lon": "149.122377"
+				"location": "SOA&D Sculpture Drawing Room G.68",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			},
 			{
 				"name": "ARTV2921_X4-TutD/01",
@@ -128,8 +122,8 @@
 				"weeks": "40",
 				"activity": "TutD",
 				"occurrence": "01",
-				"location": "SOA&D Gold & Silversmithing Ground Floor Benches G.61E",
-				"locationID": "http://soa.anu.edu.au/gold-and-silversmithing/map"
+				"location": "SOA&D Sculpture Drawing Room G.68",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			},
 			{
 				"name": "ARTV2921_X4-TutE/01",
@@ -139,8 +133,8 @@
 				"weeks": "40",
 				"activity": "TutE",
 				"occurrence": "01",
-				"location": "SOA&D Gold & Silversmithing Ground Floor Benches G.61E",
-				"locationID": "http://soa.anu.edu.au/gold-and-silversmithing/map"
+				"location": "SOA&D Sculpture Drawing Room G.68",
+				"locationID": "http://soa.anu.edu.au/sculpture/map"
 			}
 		]
 	},
