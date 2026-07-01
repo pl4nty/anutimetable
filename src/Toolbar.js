@@ -73,7 +73,8 @@ export default function Toolbar({ API,
         ...provided,
         ':hover': {
           transitionDelay: '30ms',
-          background: darkMode ? '#0d47a1' : provided[':active'].backgroundColor
+          // --fc-button-bg-color
+          background: darkMode ? '#2c3e50' : provided[':active'].backgroundColor
         },
       }),
     }

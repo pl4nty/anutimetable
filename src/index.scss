@@ -307,12 +307,11 @@ body[data-theme="dark"] {
   }
 
   .big-select__menu {
-    background-color: black;
-    color: white;
+    background-color: #101214;
   }
 
   .big-select__menu .big-select__option--is-focused {
-    background-color: blue;
+    background-color: var(--fc-button-hover-bg-color);
   }
 }
 
