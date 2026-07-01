@@ -73,11 +73,11 @@ export default function Toolbar({ API,
         ...provided,
         ':hover': {
           transitionDelay: '30ms',
-          background: provided[':active'].backgroundColor
+          background: darkMode ? '#0d47a1' : provided[':active'].backgroundColor
         },
       }),
     }
-  }, [showExport])
+  }, [showExport, darkMode])
 
   const value = useMemo(() => selectedModules.map(({ title, id }) => ({ label: title, value: id })), [selectedModules])
 
