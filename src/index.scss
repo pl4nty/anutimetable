@@ -305,6 +305,14 @@ body[data-theme="dark"] {
   .fc .fc-list-event:hover td {
     background-color: #090a0a;
   }
+
+  .big-select__menu {
+    background-color: #101214;
+  }
+
+  .big-select__menu .big-select__option--is-focused {
+    background-color: var(--fc-button-hover-bg-color);
+  }
 }
 
 // Print formatting

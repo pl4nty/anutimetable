@@ -73,11 +73,12 @@ export default function Toolbar({ API,
         ...provided,
         ':hover': {
           transitionDelay: '30ms',
-          background: provided[':active'].backgroundColor
+          // --fc-button-bg-color
+          background: darkMode ? '#2c3e50' : provided[':active'].backgroundColor
         },
       }),
     }
-  }, [showExport])
+  }, [showExport, darkMode])
 
   const value = useMemo(() => selectedModules.map(({ title, id }) => ({ label: title, value: id })), [selectedModules])
 
