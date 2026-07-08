@@ -4248,6 +4248,32 @@
 				"lon": "149.11587"
 			},
 			{
+				"name": "POGO8403_X3-BreA/05",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreA",
+				"occurrence": "05",
+				"location": "Crawford Seminar Room 6",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreA/06",
+				"day": 0,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreA",
+				"occurrence": "06",
+				"location": "Crawford Seminar Room 4",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
 				"name": "POGO8403_X3-BreB/01",
 				"day": 4,
 				"start": "13:00",
@@ -4295,6 +4321,32 @@
 				"activity": "BreB",
 				"occurrence": "04",
 				"location": "Crawford Griffin Room",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/05",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreB",
+				"occurrence": "05",
+				"location": "Crawford Seminar Room 4",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "POGO8403_X3-BreB/06",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:30",
+				"weeks": "32,36,43",
+				"activity": "BreB",
+				"occurrence": "06",
+				"location": "Crawford Seminar Room 6",
 				"locationID": "http://www.anu.edu.au/maps#show=11381",
 				"lat": "-35.287633",
 				"lon": "149.11587"
@@ -4522,7 +4574,7 @@
 		]
 	},
 	"REGN8027_X3": {
-		"title": "REGN8027_X3\u00a0Nuclear Safeguards Practice",
+		"title": "REGN8027_X3\u00a0Nuclear Safeguards Practice_In Person",
 		"id": "REGN8027_X3",
 		"link": "https://programsandcourses.anu.edu.au/2026/course/REGN8027",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
