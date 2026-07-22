@@ -471,6 +471,19 @@
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
+				"name": "CHEM3204_X3-AsmA/01",
+				"day": 2,
+				"start": "11:30",
+				"finish": "14:00",
+				"weeks": "31",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "STB_S2 (3.02)",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
+			{
 				"name": "CHEM3204_X3-LecA/01",
 				"day": 0,
 				"start": "09:00",
@@ -608,6 +621,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/CHEM6324",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
+			{
+				"name": "CHEM6324_X3-AsmA/01",
+				"day": 2,
+				"start": "11:30",
+				"finish": "14:00",
+				"weeks": "31",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "STB_S2 (3.02)",
+				"locationID": "http://www.anu.edu.au/maps#show=11384",
+				"lat": "-35.276241",
+				"lon": "149.117144"
+			},
 			{
 				"name": "CHEM6324_X3-LecA/01",
 				"day": 0,
@@ -2229,6 +2255,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/IDEC8012",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
+			{
+				"name": "IDEC8012_X3-AsmA/01",
+				"day": 4,
+				"start": "09:30",
+				"finish": "12:30",
+				"weeks": "31",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "Crawford Comp Lab 4",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
 			{
 				"name": "IDEC8012_X3-SemA/01",
 				"day": 2,
