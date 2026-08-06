@@ -906,13 +906,26 @@
 				"day": 1,
 				"start": "13:00",
 				"finish": "16:00",
-				"weeks": "30\u201131,33\u201134",
+				"weeks": "30\u201131,34",
 				"activity": "SemB",
 				"occurrence": "01",
 				"location": "BPB W108",
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
+			},
+			{
+				"name": "ENGL4019_X3-SemB/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "33",
+				"activity": "SemB",
+				"occurrence": "01",
+				"location": "Kambri Drama T",
+				"locationID": "http://www.anu.edu.au/maps#show=108132",
+				"lat": "-35.276928",
+				"lon": "149.121926"
 			}
 		]
 	},
