@@ -9720,6 +9720,19 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "BUSN7031_S2-DroA/01",
+				"day": 2,
+				"start": "19:00",
+				"finish": "20:00",
+				"weeks": "32\u201136,39\u201144",
+				"activity": "DroA",
+				"occurrence": "01",
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
 				"name": "BUSN7031_S2-LecA/01",
 				"day": 0,
 				"start": "11:00",
@@ -9883,19 +9896,6 @@
 				"weeks": "32\u201136,39\u201144",
 				"activity": "TutA",
 				"occurrence": "08",
-				"location": "CBE TR1",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
-			},
-			{
-				"name": "BUSN7031_S2-TutA/09",
-				"day": 2,
-				"start": "19:00",
-				"finish": "20:00",
-				"weeks": "32\u201136,39\u201144",
-				"activity": "TutA",
-				"occurrence": "09",
 				"location": "CBE TR1",
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
@@ -26627,10 +26627,10 @@
 				"weeks": "31\u201136,39\u201144",
 				"activity": "LecB",
 				"occurrence": "01",
-				"location": "Marie Reay 6.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "Hedley Bull Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			},
 			{
 				"name": "ECHI3009_S2-TutA/01",
@@ -26726,10 +26726,10 @@
 				"weeks": "31\u201136,39\u201144",
 				"activity": "LecB",
 				"occurrence": "01",
-				"location": "Marie Reay 6.02",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
+				"location": "Hedley Bull Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11379",
+				"lat": "-35.282857",
+				"lon": "149.119686"
 			},
 			{
 				"name": "ECHI6009_S2-TutA/01",
@@ -33556,9 +33556,9 @@
 			{
 				"name": "ENGN2222_S2-PraA/17",
 				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "35",
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "36",
 				"activity": "PraA",
 				"occurrence": "17",
 				"location": "Birch 1.35 Teaching Lab",
@@ -45524,6 +45524,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/ITAL1102",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "ITAL1102_S2-MakA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "41",
+				"activity": "MakA",
+				"occurrence": "01",
+				"location": "HA 2175",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
 			{
 				"name": "ITAL1102_S2-TutA/01",
 				"day": 0,
@@ -60180,7 +60193,7 @@
 				"day": 0,
 				"start": "10:00",
 				"finish": "12:00",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "31\u201136,39\u201140,42\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "School of Music LT1",
@@ -60193,7 +60206,7 @@
 				"day": 0,
 				"start": "13:00",
 				"finish": "14:00",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "31\u201136,39\u201140,42\u201144",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "School of Music LT1",
@@ -66352,7 +66365,7 @@
 				"day": 0,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "31\u201136,39\u201140,42\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "FSTY T",
@@ -71201,10 +71214,10 @@
 				"weeks": "32\u201136,39\u201140,42\u201144",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "CRISP G017",
-				"locationID": "http://www.anu.edu.au/maps#show=11298",
-				"lat": "-35.277419",
-				"lon": "149.123165"
+				"location": "HA 1207",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "STAT2005_S2-TutA/04",
@@ -72845,8 +72858,8 @@
 			{
 				"name": "STAT4030_S2-ComA/03",
 				"day": 1,
-				"start": "13:00",
-				"finish": "14:00",
+				"start": "12:00",
+				"finish": "13:00",
 				"weeks": "41",
 				"activity": "ComA",
 				"occurrence": "03",
@@ -75177,8 +75190,8 @@
 			{
 				"name": "STAT8130_S2-ComA/03",
 				"day": 1,
-				"start": "13:00",
-				"finish": "14:00",
+				"start": "12:00",
+				"finish": "13:00",
 				"weeks": "41",
 				"activity": "ComA",
 				"occurrence": "03",
