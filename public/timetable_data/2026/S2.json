@@ -12133,19 +12133,6 @@
 				"lon": "149.117796"
 			},
 			{
-				"name": "CHEM3208_S2-LecA/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "18:00",
-				"weeks": "41",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Han 2.27",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
-			},
-			{
 				"name": "CHEM3208_S2-LecB/01",
 				"day": 1,
 				"start": "11:00",
@@ -12511,19 +12498,6 @@
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Han 2.24",
-				"locationID": "http://www.anu.edu.au/maps#show=11313",
-				"lat": "-35.276955",
-				"lon": "149.117796"
-			},
-			{
-				"name": "CHEM6208_S2-LecA/01",
-				"day": 2,
-				"start": "17:00",
-				"finish": "18:00",
-				"weeks": "41",
-				"activity": "LecA",
-				"occurrence": "01",
-				"location": "Han 2.27",
 				"locationID": "http://www.anu.edu.au/maps#show=11313",
 				"lat": "-35.276955",
 				"lon": "149.117796"
@@ -26972,6 +26946,19 @@
 				"lon": "149.124005"
 			},
 			{
+				"name": "ECON1100_S2-TutA/39",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "39",
+				"location": "Arndt TR4",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
 				"name": "ECON1100_S2-TutA/40",
 				"day": 0,
 				"start": "11:00",
@@ -26983,6 +26970,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
+			},
+			{
+				"name": "ECON1100_S2-TutA/40",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "40",
+				"location": "CBE Bld TR6",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "ECON1100_S2-TutA/41",
@@ -27009,6 +27009,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
+			},
+			{
+				"name": "ECON1100_S2-TutA/42",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "42",
+				"location": "CBE Bld TR4",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "ECON1100_S2-WorA/01",
@@ -27974,6 +27987,19 @@
 				"lon": "149.124005"
 			},
 			{
+				"name": "ECON2102_S2-TutA/39",
+				"day": 1,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "39",
+				"location": "Arndt TR4",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
 				"name": "ECON2102_S2-TutA/40",
 				"day": 0,
 				"start": "11:00",
@@ -27985,6 +28011,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
+			},
+			{
+				"name": "ECON2102_S2-TutA/40",
+				"day": 1,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "40",
+				"location": "CBE Bld TR6",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "ECON2102_S2-TutA/41",
@@ -28011,6 +28050,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11414",
 				"lat": "-35.277437",
 				"lon": "149.124005"
+			},
+			{
+				"name": "ECON2102_S2-TutA/42",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:00",
+				"weeks": "41",
+				"activity": "TutA",
+				"occurrence": "42",
+				"location": "CBE Bld TR4",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "ECON2102_S2-WorA/01",
@@ -28429,19 +28481,6 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/ECON3100",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
-			{
-				"name": "ECON3100_S2-AsmA/01",
-				"day": 1,
-				"start": "16:00",
-				"finish": "18:00",
-				"weeks": "39",
-				"activity": "AsmA",
-				"occurrence": "01",
-				"location": "Marie Reay 4.04",
-				"locationID": "http://www.anu.edu.au/maps#show=108136",
-				"lat": "-35.277786",
-				"lon": "149.120685"
-			},
 			{
 				"name": "ECON3100_S2-LecA/01",
 				"day": 2,
@@ -68236,7 +68275,7 @@
 				"day": 1,
 				"start": "09:00",
 				"finish": "16:00",
-				"weeks": "34\u201135,38\u201143",
+				"weeks": "35,38\u201143",
 				"activity": "BreA",
 				"occurrence": "01",
 				"location": "Fulton Muir 2.14",
@@ -68249,7 +68288,7 @@
 				"day": 1,
 				"start": "09:00",
 				"finish": "16:00",
-				"weeks": "34\u201135,38\u201143",
+				"weeks": "35,38\u201143",
 				"activity": "BreA",
 				"occurrence": "02",
 				"location": "Fulton Muir 2.11",
