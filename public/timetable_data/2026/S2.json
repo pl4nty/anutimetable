@@ -1335,7 +1335,20 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "15:30",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "36",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "ARCH3042_S2-LecA/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "31\u201135,39\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Birch 1.43 Interactive Theatre",
@@ -1537,7 +1550,20 @@
 				"day": 2,
 				"start": "14:00",
 				"finish": "15:30",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "36",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "COP G030",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
+			{
+				"name": "ARCH6042_S2-LecA/01",
+				"day": 2,
+				"start": "14:00",
+				"finish": "15:30",
+				"weeks": "31\u201135,39\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Birch 1.43 Interactive Theatre",
@@ -39193,6 +39219,19 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "FINM4015_S2-ConA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "34",
+				"activity": "ConA",
+				"occurrence": "01",
+				"location": "Arndt LT 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
+			{
 				"name": "FINM4015_S2-LecA/01",
 				"day": 1,
 				"start": "14:00",
@@ -41116,6 +41155,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/FINM8004",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "FINM8004_S2-ConA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "34",
+				"activity": "ConA",
+				"occurrence": "01",
+				"location": "Arndt LT 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11414",
+				"lat": "-35.277437",
+				"lon": "149.124005"
+			},
 			{
 				"name": "FINM8004_S2-LecA/01",
 				"day": 1,
