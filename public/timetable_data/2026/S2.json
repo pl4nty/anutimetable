@@ -1831,6 +1831,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11367",
 				"lat": "-35.284327",
 				"lon": "149.121169"
+			},
+			{
+				"name": "ARTH2040_S2-TutA/03",
+				"day": 2,
+				"start": "10:00",
+				"finish": "11:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "SRWB 3.03/3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=11367",
+				"lat": "-35.284327",
+				"lon": "149.121169"
 			}
 		]
 	},
@@ -2248,6 +2261,17 @@
 				"locationID": "http://soa.anu.edu.au/ceramics/map"
 			},
 			{
+				"name": "ARTV1150_S2-BreA/02",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "BreA",
+				"occurrence": "02",
+				"location": "SOA&D Ceramics Hand Building Room",
+				"locationID": "http://soa.anu.edu.au/ceramics/map"
+			},
+			{
 				"name": "ARTV1150_S2-StuA/01",
 				"day": 1,
 				"start": "09:00",
@@ -2255,6 +2279,17 @@
 				"weeks": "31\u201136,39\u201144",
 				"activity": "StuA",
 				"occurrence": "01",
+				"location": "SOA&D Ceramics Wheel Room",
+				"locationID": "http://soa.anu.edu.au/ceramics/map"
+			},
+			{
+				"name": "ARTV1150_S2-StuA/02",
+				"day": 4,
+				"start": "13:00",
+				"finish": "17:00",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "StuA",
+				"occurrence": "02",
 				"location": "SOA&D Ceramics Wheel Room",
 				"locationID": "http://soa.anu.edu.au/ceramics/map"
 			}
@@ -29632,19 +29667,6 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "ECON8069_S2-AsmA/01",
-				"day": 1,
-				"start": "18:00",
-				"finish": "19:00",
-				"weeks": "39",
-				"activity": "AsmA",
-				"occurrence": "01",
-				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945",
-				"lat": "-35.2785850000",
-				"lon": "149.1216620000"
-			},
-			{
 				"name": "ECON8069_S2-LecA/01",
 				"day": 4,
 				"start": "08:00",
@@ -41858,6 +41880,19 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
+				"name": "GEND2034_S2-SemA/01",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:30",
+				"weeks": "31\u201136,39\u201144",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "RSSS Lectorial 1 Rm 1.21",
+				"locationID": "http://www.anu.edu.au/maps#show=123279",
+				"lat": "-35.2791261",
+				"lon": "149.1212115"
+			},
+			{
 				"name": "GEND2034_S2-SemA/02",
 				"day": 2,
 				"start": "13:00",
@@ -45178,6 +45213,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/ITAL1102",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "ITAL1102_S2-FilA/01",
+				"day": 2,
+				"start": "17:30",
+				"finish": "19:30",
+				"weeks": "35,43",
+				"activity": "FilA",
+				"occurrence": "01",
+				"location": "BPB W121",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
 			{
 				"name": "ITAL1102_S2-MakA/01",
 				"day": 1,
