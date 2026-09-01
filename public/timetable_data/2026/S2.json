@@ -7831,7 +7831,20 @@
 				"day": 3,
 				"start": "17:00",
 				"finish": "18:00",
-				"weeks": "32\u201136,39\u201144",
+				"weeks": "32\u201136,40\u201144",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "HA 1205",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "BUSN1001_S2-TutA/03",
+				"day": 3,
+				"start": "12:00",
+				"finish": "13:00",
+				"weeks": "39",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "HA 1205",
@@ -25664,10 +25677,10 @@
 				"weeks": "31\u201136,39\u201140,42\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "SRWB 1.02",
-				"locationID": "http://www.anu.edu.au/maps#show=11367",
-				"lat": "-35.284327",
-				"lon": "149.121169"
+				"location": "LAW LINK T",
+				"locationID": "http://www.anu.edu.au/maps#show=11277",
+				"lat": "-35.281073",
+				"lon": "149.118997"
 			},
 			{
 				"name": "DEMO2001_S2-TutA/01",
@@ -33413,6 +33426,39 @@
 				"locationID": ""
 			},
 			{
+				"name": "ENGN2222_S2-PraA/28",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "37",
+				"activity": "PraA",
+				"occurrence": "28",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "ENGN2222_S2-PraA/29",
+				"day": 0,
+				"start": "13:00",
+				"finish": "15:00",
+				"weeks": "37",
+				"activity": "PraA",
+				"occurrence": "29",
+				"location": " ",
+				"locationID": ""
+			},
+			{
+				"name": "ENGN2222_S2-PraA/30",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "37",
+				"activity": "PraA",
+				"occurrence": "30",
+				"location": " ",
+				"locationID": ""
+			},
+			{
 				"name": "ENGN2222_S2-PraB/01",
 				"day": 0,
 				"start": "12:00",
@@ -34295,6 +34341,19 @@
 				"weeks": "39",
 				"activity": "ComA",
 				"occurrence": "08",
+				"location": "ENGN G1",
+				"locationID": "http://www.anu.edu.au/maps#show=11304",
+				"lat": "-35.276172",
+				"lon": "149.11994"
+			},
+			{
+				"name": "ENGN3301_S2-ComA/09",
+				"day": 3,
+				"start": "09:00",
+				"finish": "12:30",
+				"weeks": "39",
+				"activity": "ComA",
+				"occurrence": "09",
 				"location": "ENGN G1",
 				"locationID": "http://www.anu.edu.au/maps#show=11304",
 				"lat": "-35.276172",
@@ -45234,6 +45293,32 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/ITAL1102",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "ITAL1102_S2-DroA/01",
+				"day": 1,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "36",
+				"activity": "DroA",
+				"occurrence": "01",
+				"location": "BPB W303",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "ITAL1102_S2-DroA/02",
+				"day": 1,
+				"start": "13:00",
+				"finish": "14:00",
+				"weeks": "43",
+				"activity": "DroA",
+				"occurrence": "02",
+				"location": "BPB W303",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
 			{
 				"name": "ITAL1102_S2-FilA/01",
 				"day": 2,
@@ -62456,6 +62541,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/PHYS1004",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "PHYS1004_S2-AsmA/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "36",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
+			},
 			{
 				"name": "PHYS1004_S2-DroA/01",
 				"day": 1,
