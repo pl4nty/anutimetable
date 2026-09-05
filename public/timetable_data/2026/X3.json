@@ -2072,6 +2072,32 @@
 				"lon": "149.120685"
 			},
 			{
+				"name": "HUMN8028_X3-WorA/02",
+				"day": 0,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "37",
+				"activity": "WorA",
+				"occurrence": "02",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorA/03",
+				"day": 0,
+				"start": "15:00",
+				"finish": "16:30",
+				"weeks": "37",
+				"activity": "WorA",
+				"occurrence": "03",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "HUMN8028_X3-WorB/01",
 				"day": 1,
 				"start": "09:30",
@@ -2080,6 +2106,32 @@
 				"activity": "WorB",
 				"occurrence": "01",
 				"location": "Marie Reay 5.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorB/02",
+				"day": 1,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "37",
+				"activity": "WorB",
+				"occurrence": "02",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorB/03",
+				"day": 1,
+				"start": "15:00",
+				"finish": "16:30",
+				"weeks": "37",
+				"activity": "WorB",
+				"occurrence": "03",
+				"location": "Marie Reay 3.04",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
@@ -2098,6 +2150,32 @@
 				"lon": "149.120685"
 			},
 			{
+				"name": "HUMN8028_X3-WorC/02",
+				"day": 2,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "37",
+				"activity": "WorC",
+				"occurrence": "02",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorC/03",
+				"day": 2,
+				"start": "15:00",
+				"finish": "16:30",
+				"weeks": "37",
+				"activity": "WorC",
+				"occurrence": "03",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "HUMN8028_X3-WorD/01",
 				"day": 3,
 				"start": "09:30",
@@ -2111,6 +2189,32 @@
 				"lon": "149.120685"
 			},
 			{
+				"name": "HUMN8028_X3-WorD/02",
+				"day": 3,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "37",
+				"activity": "WorD",
+				"occurrence": "02",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorD/03",
+				"day": 3,
+				"start": "15:00",
+				"finish": "16:30",
+				"weeks": "37",
+				"activity": "WorD",
+				"occurrence": "03",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
 				"name": "HUMN8028_X3-WorE/01",
 				"day": 4,
 				"start": "09:30",
@@ -2119,6 +2223,32 @@
 				"activity": "WorE",
 				"occurrence": "01",
 				"location": "Marie Reay 5.02",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorE/02",
+				"day": 4,
+				"start": "11:00",
+				"finish": "12:30",
+				"weeks": "37",
+				"activity": "WorE",
+				"occurrence": "02",
+				"location": "Marie Reay 3.04",
+				"locationID": "http://www.anu.edu.au/maps#show=108136",
+				"lat": "-35.277786",
+				"lon": "149.120685"
+			},
+			{
+				"name": "HUMN8028_X3-WorE/03",
+				"day": 4,
+				"start": "15:00",
+				"finish": "16:30",
+				"weeks": "37",
+				"activity": "WorE",
+				"occurrence": "03",
+				"location": "Marie Reay 3.04",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
