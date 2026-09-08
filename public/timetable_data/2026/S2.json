@@ -24385,7 +24385,7 @@
 				"day": 1,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "31\u201136,39\u201140,42\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "SRES T",
@@ -24400,6 +24400,19 @@
 				"finish": "11:00",
 				"weeks": "31\u201136,39\u201144",
 				"activity": "LecB",
+				"occurrence": "01",
+				"location": "PHYS T",
+				"locationID": "http://www.anu.edu.au/maps#show=11425",
+				"lat": "-35.275316",
+				"lon": "149.1183"
+			},
+			{
+				"name": "COMP7710_S2-LecMakA/01",
+				"day": 4,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "40",
+				"activity": "LecMakA",
 				"occurrence": "01",
 				"location": "PHYS T",
 				"locationID": "http://www.anu.edu.au/maps#show=11425",
@@ -70684,6 +70697,19 @@
 		"link": "https://programsandcourses.anu.edu.au/2026/course/STAT1008",
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
+			{
+				"name": "STAT1008_S2-AsmA/01",
+				"day": 0,
+				"start": "15:00",
+				"finish": "16:00",
+				"weeks": "39",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "COP G025",
+				"locationID": "http://www.anu.edu.au/maps#show=28971",
+				"lat": "-35.277985",
+				"lon": "149.123419"
+			},
 			{
 				"name": "STAT1008_S2-ComA/01",
 				"day": 3,
