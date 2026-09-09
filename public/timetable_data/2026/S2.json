@@ -67238,6 +67238,32 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11424",
 				"lat": "-35.274459",
 				"lon": "149.117814"
+			},
+			{
+				"name": "PSYC2001_S2-PraMakA/01",
+				"day": 3,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "39",
+				"activity": "PraMakA",
+				"occurrence": "01",
+				"location": "PSYC 149",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
+			},
+			{
+				"name": "PSYC2001_S2-PraMakA/02",
+				"day": 3,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "39",
+				"activity": "PraMakA",
+				"occurrence": "02",
+				"location": "PSYC 150",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
 			}
 		]
 	},
