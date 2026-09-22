@@ -45352,9 +45352,9 @@
 			},
 			{
 				"name": "INTR8084_S2-SemA/01",
-				"day": 2,
-				"start": "12:00",
-				"finish": "14:00",
+				"day": 4,
+				"start": "11:00",
+				"finish": "13:00",
 				"weeks": "41",
 				"activity": "SemA",
 				"occurrence": "01",
@@ -45393,6 +45393,19 @@
 				"activity": "DroA",
 				"occurrence": "02",
 				"location": "BPB W303",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
+				"name": "ITAL1102_S2-DroA/03",
+				"day": 1,
+				"start": "15:00",
+				"finish": "17:00",
+				"weeks": "40",
+				"activity": "DroA",
+				"occurrence": "03",
+				"location": "BPB W117",
 				"locationID": "http://www.anu.edu.au/maps#show=11361",
 				"lat": "-35.280067",
 				"lon": "149.121758"
