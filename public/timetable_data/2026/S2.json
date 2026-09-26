@@ -3639,6 +3639,19 @@
 				"lon": "149.121758"
 			},
 			{
+				"name": "ASIA2366_S2-LecA/01",
+				"day": 2,
+				"start": "09:00",
+				"finish": "10:00",
+				"weeks": "41",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "BPB W121",
+				"locationID": "http://www.anu.edu.au/maps#show=11361",
+				"lat": "-35.280067",
+				"lon": "149.121758"
+			},
+			{
 				"name": "ASIA2366_S2-TutA/01",
 				"day": 3,
 				"start": "11:00",
@@ -33723,7 +33736,7 @@
 				"day": 1,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "32\u201133,35\u201136,39,41\u201144",
+				"weeks": "32\u201133,35\u201136,39\u201140,42\u201144",
 				"activity": "TutA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.02",
@@ -33736,7 +33749,7 @@
 				"day": 1,
 				"start": "11:00",
 				"finish": "13:00",
-				"weeks": "32\u201133,35\u201136,39,41\u201144",
+				"weeks": "32\u201133,35\u201136,39\u201140,42\u201144",
 				"activity": "TutA",
 				"occurrence": "02",
 				"location": "Marie Reay 5.02",
@@ -33749,13 +33762,26 @@
 				"day": 1,
 				"start": "14:00",
 				"finish": "16:00",
-				"weeks": "32\u201133,35\u201136,39,41\u201144",
+				"weeks": "32\u201133,35\u201136,39,42\u201144",
 				"activity": "TutA",
 				"occurrence": "03",
 				"location": "Marie Reay 5.02",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "ENGN2222_S2-TutA/03",
+				"day": 1,
+				"start": "14:00",
+				"finish": "16:00",
+				"weeks": "40",
+				"activity": "TutA",
+				"occurrence": "03",
+				"location": "CSIT N101",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
 			},
 			{
 				"name": "ENGN2222_S2-TutA/04",
@@ -33772,16 +33798,16 @@
 			},
 			{
 				"name": "ENGN2222_S2-TutA/04",
-				"day": 2,
+				"day": 1,
 				"start": "16:00",
 				"finish": "18:00",
-				"weeks": "41",
+				"weeks": "40",
 				"activity": "TutA",
 				"occurrence": "04",
-				"location": "PSYC G5",
-				"locationID": "http://www.anu.edu.au/maps#show=11424",
-				"lat": "-35.274459",
-				"lon": "149.117814"
+				"location": "CSIT N101",
+				"locationID": "http://www.anu.edu.au/maps#show=11360",
+				"lat": "-35.275345",
+				"lon": "149.120583"
 			}
 		]
 	},
