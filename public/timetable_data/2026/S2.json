@@ -30133,10 +30133,8 @@
 				"weeks": "40",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Crawford Brindabella Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " ",
+				"locationID": ""
 			}
 		]
 	},
@@ -30214,10 +30212,8 @@
 				"weeks": "40",
 				"activity": "SemA",
 				"occurrence": "01",
-				"location": "Crawford Brindabella Theatre",
-				"locationID": "http://www.anu.edu.au/maps#show=11381",
-				"lat": "-35.287633",
-				"lon": "149.11587"
+				"location": " ",
+				"locationID": ""
 			}
 		]
 	},
@@ -72544,17 +72540,17 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "STAT3016_S2-AsmA/01",
+				"name": "STAT3016_S2-LecA/01",
 				"day": 4,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "35",
-				"activity": "AsmA",
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "35,42",
+				"activity": "LecA",
 				"occurrence": "01",
-				"location": "CBE TR1",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "STAT3016_S2-AsmA/02",
@@ -72570,24 +72566,50 @@
 				"lon": "149.123501"
 			},
 			{
-				"name": "STAT3016_S2-LecA/01",
+				"name": "STAT3016_S2-AsmA/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "31\u201134,36,39\u201141,43\u201144",
-				"activity": "LecA",
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmA",
 				"occurrence": "01",
-				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945",
-				"lat": "-35.2785850000",
-				"lon": "149.1216620000"
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT3016_S2-AsmA/04",
+				"day": 4,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "42",
+				"activity": "AsmA",
+				"occurrence": "04",
+				"location": "ADH G28",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "STAT3016_S2-AsmA/05",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "43",
+				"activity": "AsmA",
+				"occurrence": "05",
+				"location": "ADH G19",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "STAT3016_S2-LecA/01",
 				"day": 4,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "35,42",
+				"weeks": "31\u201134,36,39\u201141,43\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Melville Hall",
@@ -72840,10 +72862,10 @@
 				"weeks": "41",
 				"activity": "LecB",
 				"occurrence": "01",
-				"location": "SRWB 1.02",
-				"locationID": "http://www.anu.edu.au/maps#show=11367",
-				"lat": "-35.284327",
-				"lon": "149.121169"
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
 			},
 			{
 				"name": "STAT3037_S2-TutA/01",
@@ -73498,17 +73520,17 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "STAT4116_S2-AsmA/01",
+				"name": "STAT4116_S2-LecA/01",
 				"day": 4,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "35",
-				"activity": "AsmA",
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "35,42",
+				"activity": "LecA",
 				"occurrence": "01",
-				"location": "CBE TR1",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "STAT4116_S2-AsmA/02",
@@ -73524,24 +73546,50 @@
 				"lon": "149.123501"
 			},
 			{
-				"name": "STAT4116_S2-LecA/01",
+				"name": "STAT4116_S2-AsmA/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "31\u201134,36,39\u201141,43\u201144",
-				"activity": "LecA",
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmA",
 				"occurrence": "01",
-				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945",
-				"lat": "-35.2785850000",
-				"lon": "149.1216620000"
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT4116_S2-AsmA/04",
+				"day": 4,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "42",
+				"activity": "AsmA",
+				"occurrence": "04",
+				"location": "ADH G28",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "STAT4116_S2-AsmA/05",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "43",
+				"activity": "AsmA",
+				"occurrence": "05",
+				"location": "ADH G19",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "STAT4116_S2-LecA/01",
 				"day": 4,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "35,42",
+				"weeks": "31\u201134,36,39\u201141,43\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Melville Hall",
@@ -74003,17 +74051,17 @@
 		"dates": "Displaying Dates: 13 Jul 26 - 15 Nov 26 (calendar week(s) 29\u201146)",
 		"classes": [
 			{
-				"name": "STAT6016_S2-AsmA/01",
+				"name": "STAT6016_S2-LecA/01",
 				"day": 4,
-				"start": "11:00",
-				"finish": "13:00",
-				"weeks": "35",
-				"activity": "AsmA",
+				"start": "09:00",
+				"finish": "11:00",
+				"weeks": "35,42",
+				"activity": "LecA",
 				"occurrence": "01",
-				"location": "CBE TR1",
-				"locationID": "http://www.anu.edu.au/maps#show=11417",
-				"lat": "-35.276735",
-				"lon": "149.123501"
+				"location": "Melville Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=28945",
+				"lat": "-35.2785850000",
+				"lon": "149.1216620000"
 			},
 			{
 				"name": "STAT6016_S2-AsmA/02",
@@ -74029,24 +74077,50 @@
 				"lon": "149.123501"
 			},
 			{
-				"name": "STAT6016_S2-LecA/01",
+				"name": "STAT6016_S2-AsmA/01",
 				"day": 4,
-				"start": "09:00",
-				"finish": "11:00",
-				"weeks": "31\u201134,36,39\u201141,43\u201144",
-				"activity": "LecA",
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "35",
+				"activity": "AsmA",
 				"occurrence": "01",
-				"location": "Melville Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=28945",
-				"lat": "-35.2785850000",
-				"lon": "149.1216620000"
+				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT6016_S2-AsmA/04",
+				"day": 4,
+				"start": "11:00",
+				"finish": "13:00",
+				"weeks": "42",
+				"activity": "AsmA",
+				"occurrence": "04",
+				"location": "ADH G28",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
+			},
+			{
+				"name": "STAT6016_S2-AsmA/05",
+				"day": 0,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "43",
+				"activity": "AsmA",
+				"occurrence": "05",
+				"location": "ADH G19",
+				"locationID": "http://www.anu.edu.au/maps#show=11286",
+				"lat": "-35.278353",
+				"lon": "149.121713"
 			},
 			{
 				"name": "STAT6016_S2-LecA/01",
 				"day": 4,
 				"start": "09:00",
 				"finish": "11:00",
-				"weeks": "35,42",
+				"weeks": "31\u201134,36,39\u201141,43\u201144",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Melville Hall",
@@ -74333,10 +74407,10 @@
 				"weeks": "41",
 				"activity": "LecB",
 				"occurrence": "01",
-				"location": "SRWB 1.02",
-				"locationID": "http://www.anu.edu.au/maps#show=11367",
-				"lat": "-35.284327",
-				"lon": "149.121169"
+				"location": "HA Tank",
+				"locationID": "http://www.anu.edu.au/maps#show=11295",
+				"lat": "-35.277596",
+				"lon": "149.122472"
 			},
 			{
 				"name": "STAT6043_S2-TutA/01",
