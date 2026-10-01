@@ -799,6 +799,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
+			},
+			{
+				"name": "MGMT2100_X4-SupA/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "15:30",
+				"weeks": "41",
+				"activity": "SupA",
+				"occurrence": "01",
+				"location": "CBE TR3",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			}
 		]
 	},
@@ -1128,7 +1141,7 @@
 	"STAT1008_X4": {
 		"title": "STAT1008_X4\u00a0Quantitative Research Methods",
 		"id": "STAT1008_X4",
-		"link": "",
+		"link": "https://programsandcourses.anu.edu.au/2026/course/STAT1008",
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
@@ -1153,6 +1166,19 @@
 				"activity": "LecB",
 				"occurrence": "01",
 				"location": "CBE TR1",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "STAT1008_X4-SupA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "12:30",
+				"weeks": "42",
+				"activity": "SupA",
+				"occurrence": "01",
+				"location": "CBE Bld TR6",
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
