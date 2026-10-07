@@ -39242,13 +39242,13 @@
 			},
 			{
 				"name": "FINM3011_S2-LecA/01",
-				"day": 1,
-				"start": "10:00",
-				"finish": "12:00",
+				"day": 4,
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "41",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Kambri T2",
+				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
@@ -41260,13 +41260,13 @@
 			},
 			{
 				"name": "FINM7008_S2-LecA/01",
-				"day": 1,
-				"start": "10:00",
-				"finish": "12:00",
+				"day": 4,
+				"start": "13:00",
+				"finish": "15:00",
 				"weeks": "41",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "Kambri T2",
+				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
@@ -61564,7 +61564,20 @@
 				"day": 2,
 				"start": "15:00",
 				"finish": "16:00",
-				"weeks": "32\u201136,39\u201144",
+				"weeks": "32\u201136,39\u201140,42\u201144",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "Crawford Acton Theatre",
+				"locationID": "http://www.anu.edu.au/maps#show=11381",
+				"lat": "-35.287633",
+				"lon": "149.11587"
+			},
+			{
+				"name": "NSPO8006_S2-WorA/01",
+				"day": 2,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "41",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Crawford Acton Theatre",
@@ -72625,10 +72638,10 @@
 				"weeks": "43",
 				"activity": "AsmA",
 				"occurrence": "05",
-				"location": "ADH G19",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "CBE TR2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "STAT3016_S2-LecA/01",
@@ -73605,10 +73618,10 @@
 				"weeks": "43",
 				"activity": "AsmA",
 				"occurrence": "05",
-				"location": "ADH G19",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "CBE TR2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "STAT4116_S2-LecA/01",
@@ -74136,10 +74149,10 @@
 				"weeks": "43",
 				"activity": "AsmA",
 				"occurrence": "05",
-				"location": "ADH G19",
-				"locationID": "http://www.anu.edu.au/maps#show=11286",
-				"lat": "-35.278353",
-				"lon": "149.121713"
+				"location": "CBE TR2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "STAT6016_S2-LecA/01",
