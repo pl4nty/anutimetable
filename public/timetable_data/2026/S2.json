@@ -38258,16 +38258,16 @@
 			},
 			{
 				"name": "FINM2002_S2-LecA/01",
-				"day": 2,
-				"start": "08:00",
-				"finish": "10:00",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
 				"weeks": "43",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "COOMBS T",
-				"locationID": "http://www.anu.edu.au/maps#show=11651",
-				"lat": "-35.282454",
-				"lon": "149.119653"
+				"location": "CBE LT 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "FINM2002_S2-TutA/01",
@@ -38489,19 +38489,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
-			},
-			{
-				"name": "FINM2002_S2-WorA/01",
-				"day": 2,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "43",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Llewellyn Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=29415",
-				"lat": "-35.280391",
-				"lon": "149.123592"
 			}
 		]
 	},
@@ -40461,16 +40448,16 @@
 			},
 			{
 				"name": "FINM6041_S2-LecA/01",
-				"day": 2,
-				"start": "08:00",
-				"finish": "10:00",
+				"day": 4,
+				"start": "12:00",
+				"finish": "14:00",
 				"weeks": "43",
 				"activity": "LecA",
 				"occurrence": "01",
-				"location": "COOMBS T",
-				"locationID": "http://www.anu.edu.au/maps#show=11651",
-				"lat": "-35.282454",
-				"lon": "149.119653"
+				"location": "CBE LT 2",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
 			},
 			{
 				"name": "FINM6041_S2-TutA/01",
@@ -40692,19 +40679,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
-			},
-			{
-				"name": "FINM6041_S2-WorA/01",
-				"day": 2,
-				"start": "14:00",
-				"finish": "15:00",
-				"weeks": "43",
-				"activity": "WorA",
-				"occurrence": "01",
-				"location": "Llewellyn Hall",
-				"locationID": "http://www.anu.edu.au/maps#show=29415",
-				"lat": "-35.280391",
-				"lon": "149.123592"
 			}
 		]
 	},
@@ -44862,7 +44836,20 @@
 				"day": 1,
 				"start": "10:00",
 				"finish": "13:00",
-				"weeks": "31\u201136,39\u201144",
+				"weeks": "31\u201136,39\u201141,43\u201144",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "CBE LT 3",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
+				"name": "INFS2005_S2-SemA/01",
+				"day": 4,
+				"start": "13:00",
+				"finish": "16:00",
+				"weeks": "42",
 				"activity": "SemA",
 				"occurrence": "01",
 				"location": "CBE LT 3",
@@ -62973,6 +62960,19 @@
 				"finish": "12:00",
 				"weeks": "36",
 				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
+			},
+			{
+				"name": "PHYS1004_S2-AsmB/01",
+				"day": 1,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "43",
+				"activity": "AsmB",
 				"occurrence": "01",
 				"location": "PSYC G5",
 				"locationID": "http://www.anu.edu.au/maps#show=11424",
