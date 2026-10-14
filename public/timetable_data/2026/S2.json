@@ -39254,6 +39254,19 @@
 				"lon": "149.121926"
 			},
 			{
+				"name": "FINM3011_S2-LecMakA/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "42",
+				"activity": "LecMakA",
+				"occurrence": "01",
+				"location": "Llewellyn Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=29415",
+				"lat": "-35.280391",
+				"lon": "149.123592"
+			},
+			{
 				"name": "FINM3011_S2-TutA/01",
 				"day": 3,
 				"start": "15:00",
@@ -41257,6 +41270,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "FINM7008_S2-LecMakA/01",
+				"day": 2,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "42",
+				"activity": "LecMakA",
+				"occurrence": "01",
+				"location": "Llewellyn Hall",
+				"locationID": "http://www.anu.edu.au/maps#show=29415",
+				"lat": "-35.280391",
+				"lon": "149.123592"
 			},
 			{
 				"name": "FINM7008_S2-TutA/01",
@@ -52751,6 +52777,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
+			},
+			{
+				"name": "LING4100_S2-SemA/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "44",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
 			}
 		]
 	},
@@ -53036,6 +53075,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
+			},
+			{
+				"name": "LING8027_S2-SemA/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "44",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
 			}
 		]
 	},
@@ -53057,6 +53109,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11416",
 				"lat": "-35.277063",
 				"lon": "149.122565"
+			},
+			{
+				"name": "LING9027_S2-SemA/01",
+				"day": 4,
+				"start": "09:00",
+				"finish": "12:00",
+				"weeks": "44",
+				"activity": "SemA",
+				"occurrence": "01",
+				"location": "PSYC G5",
+				"locationID": "http://www.anu.edu.au/maps#show=11424",
+				"lat": "-35.274459",
+				"lon": "149.117814"
 			}
 		]
 	},
