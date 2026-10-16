@@ -145,6 +145,19 @@
 		"dates": "Displaying Dates: 29 Dec 25 - 27 Dec 26 (calendar week(s) 1\u201152)",
 		"classes": [
 			{
+				"name": "BUSN1001_X4-AsmA/01",
+				"day": 4,
+				"start": "10:00",
+				"finish": "12:00",
+				"weeks": "45",
+				"activity": "AsmA",
+				"occurrence": "01",
+				"location": "CBE Bld TR7",
+				"locationID": "http://www.anu.edu.au/maps#show=11417",
+				"lat": "-35.276735",
+				"lon": "149.123501"
+			},
+			{
 				"name": "BUSN1001_X4-LecA/01",
 				"day": 3,
 				"start": "14:00",
