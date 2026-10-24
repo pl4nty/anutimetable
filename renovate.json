@@ -3,6 +3,9 @@
   "extends": [
     "github>pl4nty/.github"
   ],
+  "ignorePresets": [
+    "group:allNonMajor"
+  ],
   "assigneesFromCodeOwners": true,
   "separateMinorPatch": true,
   "labels": [
