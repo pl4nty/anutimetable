@@ -39106,6 +39106,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "FINM3009_S2-WorB/01",
+				"day": 4,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "44",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
@@ -39244,6 +39257,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "FINM3010_S2-WorB/01",
+				"day": 4,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "44",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
@@ -40114,6 +40140,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "FINM6009_S2-WorB/01",
+				"day": 4,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "44",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
@@ -40252,6 +40291,19 @@
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "FINM6010_S2-WorB/01",
+				"day": 4,
+				"start": "16:00",
+				"finish": "18:00",
+				"weeks": "44",
+				"activity": "WorB",
+				"occurrence": "01",
+				"location": "HA G051",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
@@ -47230,13 +47282,26 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "32\u201136,39\u201144",
+				"weeks": "32\u201136,39\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "LAWS1204_S2-LecA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "44",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS1204_S2-LecB/01",
@@ -50245,13 +50310,26 @@
 				"day": 1,
 				"start": "12:00",
 				"finish": "14:00",
-				"weeks": "32\u201136,39\u201144",
+				"weeks": "32\u201136,39\u201143",
 				"activity": "LecA",
 				"occurrence": "01",
 				"location": "Kambri MCH",
 				"locationID": "http://www.anu.edu.au/maps#show=108132",
 				"lat": "-35.276928",
 				"lon": "149.121926"
+			},
+			{
+				"name": "LAWS6104_S2-LecA/01",
+				"day": 1,
+				"start": "12:00",
+				"finish": "14:00",
+				"weeks": "44",
+				"activity": "LecA",
+				"occurrence": "01",
+				"location": "Fellows Road Law Theatre 1",
+				"locationID": "http://www.anu.edu.au/maps#show=11473",
+				"lat": "-35.280217",
+				"lon": "149.119061"
 			},
 			{
 				"name": "LAWS6104_S2-LecB/01",
