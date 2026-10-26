@@ -9,4 +9,4 @@ beautifulsoup4 = ">4.9"
 pipenv = "<=2024.4.1" # Renovate finds the latest version but fails to download it
 
 [requires]
-python_version = "3.8"
+python_version = "3.15"
