@@ -48324,13 +48324,26 @@
 				"day": 2,
 				"start": "17:00",
 				"finish": "18:00",
-				"weeks": "32\u201136,39\u201144",
+				"weeks": "32\u201136,39\u201143",
 				"activity": "WorA",
 				"occurrence": "01",
 				"location": "Marie Reay 5.02",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "LAWS2248_S2-WorA/01",
+				"day": 4,
+				"start": "17:00",
+				"finish": "18:00",
+				"weeks": "44",
+				"activity": "WorA",
+				"occurrence": "01",
+				"location": "HA G040",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			},
 			{
 				"name": "LAWS2248_S2-WorA/02",
@@ -48389,13 +48402,26 @@
 				"day": 2,
 				"start": "16:00",
 				"finish": "17:00",
-				"weeks": "32\u201136,39\u201144",
+				"weeks": "32\u201136,39\u201143",
 				"activity": "WorA",
 				"occurrence": "06",
 				"location": "Marie Reay 5.02",
 				"locationID": "http://www.anu.edu.au/maps#show=108136",
 				"lat": "-35.277786",
 				"lon": "149.120685"
+			},
+			{
+				"name": "LAWS2248_S2-WorA/06",
+				"day": 4,
+				"start": "16:00",
+				"finish": "17:00",
+				"weeks": "44",
+				"activity": "WorA",
+				"occurrence": "06",
+				"location": "HA G040",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
 			}
 		]
 	},
