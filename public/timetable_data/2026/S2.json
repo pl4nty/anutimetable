@@ -41190,6 +41190,32 @@
 				"day": 4,
 				"start": "08:00",
 				"finish": "09:00",
+				"weeks": "32\u201136,39\u201141,43",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "HA 1207",
+				"locationID": "http://www.anu.edu.au/maps#show=11294",
+				"lat": "-35.277768",
+				"lon": "149.122317"
+			},
+			{
+				"name": "FINM7007_S2-TutA/02",
+				"day": 4,
+				"start": "08:00",
+				"finish": "09:00",
+				"weeks": "44",
+				"activity": "TutA",
+				"occurrence": "02",
+				"location": "MORAN G007",
+				"locationID": "http://www.anu.edu.au/maps#show=11416",
+				"lat": "-35.277063",
+				"lon": "149.122565"
+			},
+			{
+				"name": "FINM7007_S2-TutA/02",
+				"day": 4,
+				"start": "08:00",
+				"finish": "09:00",
 				"weeks": "42",
 				"activity": "TutA",
 				"occurrence": "02",
@@ -41197,19 +41223,6 @@
 				"locationID": "http://www.anu.edu.au/maps#show=11417",
 				"lat": "-35.276735",
 				"lon": "149.123501"
-			},
-			{
-				"name": "FINM7007_S2-TutA/02",
-				"day": 4,
-				"start": "08:00",
-				"finish": "09:00",
-				"weeks": "32\u201136,39\u201141,43\u201144",
-				"activity": "TutA",
-				"occurrence": "02",
-				"location": "HA 1207",
-				"locationID": "http://www.anu.edu.au/maps#show=11294",
-				"lat": "-35.277768",
-				"lon": "149.122317"
 			},
 			{
 				"name": "FINM7007_S2-TutA/03",
