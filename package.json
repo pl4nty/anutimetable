@@ -27,7 +27,7 @@
     "react-timezone-select": "4.1.0",
     "react-virtuoso": "4.18.20",
     "rrule": "2.8.1",
-    "sass": "1.107.1"
+    "sass": "1.108.1"
   },
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
