@@ -10,8 +10,10 @@
   "osvVulnerabilityAlerts": true,
   "assigneesFromCodeOwners": true,
   "separateMinorPatch": true,
-  "labels": [
-    "safe to test"
+  "automergeStrategy": "rebase",
+  "ignoreTests": false,
+  "addLabels": [
+    "ci/safe-to-build"
   ],
   "lockFileMaintenance": {
     "enabled": true
@@ -23,6 +25,65 @@
       ],
       "extractVersion": "^(?<version>v\\d+\\.\\d+\\.\\d+)$",
       "versioning": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+)\\.(?<patch>\\d+))?$"
+    },
+    {
+      "matchManagers": [
+        "pipenv"
+      ],
+      "addLabels": [
+        "ci/no-build",
+        "ci/test-scraper"
+      ]
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "actions/setup-python",
+        "python"
+      ],
+      "addLabels": [
+        "ci/no-build",
+        "ci/test-scraper"
+      ]
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchPackageNames": [
+        "actions/checkout",
+        "Azure/static-web-apps-deploy"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "addLabels": [
+        "ci/automerge"
+      ],
+      "automerge": true
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "@azure/static-web-apps-cli",
+        "azure-functions-core-tools",
+        "cross-env"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "addLabels": [
+        "ci/no-build",
+        "ci/automerge"
+      ],
+      "automerge": true,
+      "ignoreTests": true
     }
   ]
 }

@@ -21,6 +21,7 @@ jobs:
   swa:
     # PR does not have 'ci/no-build' label and
     #  is a push, or a successful scrape, or PR has 'ci/safe-to-build' label
+    # renovate doesn't have good logic for removing labels
     if: >-
       !contains(github.event.pull_request.labels.*.name, 'ci/no-build') && (
         github.event_name == 'push' ||
@@ -40,7 +41,7 @@ jobs:
           ref: ${{ github.event_name != 'pull_request_target' && github.ref || format('refs/pull/{0}/merge',github.event.number) }}
 
       - name: Build and deploy
-        uses: Azure/static-web-apps-deploy@v1
+        uses: Azure/static-web-apps-deploy@1a947af9992250f3bc2e68ad0754c0b0c11566c9 # v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_SWA_DEPLOY_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # GitHub bot comments only, not available to code
