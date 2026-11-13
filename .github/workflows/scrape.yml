@@ -2,11 +2,18 @@ name: Scrape
 
 on:
   workflow_dispatch:
+  pull_request_target:
+    types: [opened, synchronize, reopened, labeled]
   schedule:
     - cron: "0 0 * * *" # daily
 
 jobs:
   scrape:
+    # is not a PR, or PR has 'ci/test-scraper' label
+    if: >-
+      github.event_name != 'pull_request_target' ||
+      contains(github.event.pull_request.labels.*.name, 'ci/test-scraper')
+
     runs-on: ubuntu-latest
     name: Official timetable
     env:
@@ -20,6 +27,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event_name != 'pull_request_target' && github.ref || format('refs/pull/{0}/merge',github.event.number) }}
 
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
@@ -53,7 +62,8 @@ jobs:
         run: cmp timetable.json ../public/timetable_data/${YEAR}/${SESSION#* }.json
 
       - name: Commit to repo if data has changed
-        if: ${{ steps.compare.outcome == 'failure' }}
+        # If data has changed and wasn't triggered by a PR
+        if: ${{ steps.compare.outcome == 'failure' && github.event_name != 'pull_request_target' }}
         env:
           YEAR: ${{ matrix.year }}
           SESSION: ${{ matrix.session }}
