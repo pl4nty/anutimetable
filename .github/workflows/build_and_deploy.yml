@@ -19,11 +19,13 @@ permissions:
 
 jobs:
   swa:
-    # if a push, or a successful scrape, or PR has 'safe to test' label
+    # PR does not have 'ci/no-build' label and
+    #  is a push, or a successful scrape, or PR has 'ci/safe-to-build' label
     if: >-
-      github.event_name == 'push' ||
-      github.event.workflow_run.conclusion == 'success' ||
-      contains(github.event.pull_request.labels.*.name, 'safe to test')
+      !contains(github.event.pull_request.labels.*.name, 'ci/no-build') && (
+        github.event_name == 'push' ||
+        github.event.workflow_run.conclusion == 'success' ||
+        contains(github.event.pull_request.labels.*.name, 'ci/safe-to-build'))
     runs-on: ubuntu-latest
     name: Static Web App
     steps:
