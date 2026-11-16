@@ -30,6 +30,9 @@
       "matchManagers": [
         "pipenv"
       ],
+      "matchUpdateTypes": [
+        "!lockFileMaintenance"
+      ],
       "addLabels": [
         "ci/no-build",
         "ci/test-scraper"
