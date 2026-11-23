@@ -32,12 +32,19 @@
       "matchManagers": [
         "pipenv"
       ],
+      "addLabels": [
+        "ci/test-scraper"
+      ]
+    },
+    {
+      "matchManagers": [
+        "pipenv"
+      ],
       "matchUpdateTypes": [
         "!lockFileMaintenance"
       ],
       "addLabels": [
-        "ci/no-build",
-        "ci/test-scraper"
+        "ci/no-build"
       ]
     },
     {
